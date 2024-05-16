@@ -4175,10 +4175,10 @@ const List = ({ styles }) => {
               >
                 <div className="d-flex p-4">
                   <div>
-                    <Link href="/eventleaf">
+                    <Link href="/medisteer">
                       <Image
-                        src="/images/eventleaf.png"
-                        alt="eventleaf"
+                        src="/images/medisteer.png"
+                        alt="medisteer"
                         width="150"
                         height="10"
                         className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
@@ -4186,14 +4186,14 @@ const List = ({ styles }) => {
                     </Link>
                   </div>
                   <div>
-                    <Link href="/eventleaf">
+                    <Link href="/medisteer">
                       {" "}
-                      <h5>Eventleaf</h5>
-                      <p>Online event management</p>
+                      <h5>MediSteer</h5>
+                      <p>A web-based hospital management ERP</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
-                        <Link href="/eventleaf">
+                        <Link href="/medisteer">
                           <p
                             className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
                             style={{ backgroundColor: "#FC5185 " }}
@@ -4209,19 +4209,7 @@ const List = ({ styles }) => {
                   </div>
                 </div>
                 <p className="px-4">
-                  Eventleaf is a online event management platform designed for
-                  simplicity, modernity, and affordability. Offering support for
-                  in-person, hybrid, and virtual events, it provides features
-                  such as online event registration and mobile event apps. Users
-                  can effortlessly create and promote events with unmatched
-                  design flexibility, streamline registration processes, and
-                  sell tickets online securely. The software facilitates
-                  efficient check-in procedures with badge printing options and
-                  supports engaging event experiences through polls, Q&A
-                  sessions, and surveys. Eventleaf is praised for its
-                  user-friendly interface and excellent customer service, making
-                  it an ideal choice for organizing conferences, workshops,
-                  meetings, and trade shows.
+                MediSteer is a web-based hospital management system developed by Adroit Soft India. This comprehensive product addresses the operational and managerial needs of hospitals, ranging from small clinics to large-scale medical facilities. Designed collaboratively by medical professionals and engineers, MediSteer enhances operational efficiency, reduces costs, and minimizes medical errors. With seamless data flow across departments, online consultation capabilities, and integrated modules covering outpatient and inpatient management, pharmacy, laboratory, finance, and more, MediSteer ensures a holistic solution for healthcare institutions, promoting improved patient care, increased staff productivity, and overall customer satisfaction.
                 </p>{" "}
                 <hr />
                 <div
