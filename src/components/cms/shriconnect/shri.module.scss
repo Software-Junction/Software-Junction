@@ -1,0 +1,241 @@
+.shri-heading{
+    padding-top: 80px;
+    background-color: #3F72AF;
+    padding-bottom: 30px;
+    p{
+        font-size: 14px !important;
+    }
+    .shri-box-img{
+        @media (max-width:767px){
+            display: none;
+        }
+    }
+    .shri-p-style1{
+        width: 18%;
+        font-size: 12px !important;
+    }
+    .shri-breadcr{
+        ul{
+        display: flex;
+        list-style: none;
+        padding-left: 0px !important;
+        }
+        
+        a{
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+}
+
+.shri-detail-bg{
+    background-color:#F6F1F1;
+}
+
+.shri-navi{
+    position: sticky;
+    top: 98px;
+    background-color: #fff;
+    z-index: 1;
+    .shri-nav-btn{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+}
+
+.shri-info{
+    p{
+        font-size: 14px !important;
+    }
+    .shri-priceplan-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;  
+    }
+    .shri-info-img{
+        @media (max-width:767px){
+            width: 100%;
+        }
+    }
+}
+
+.shri-ss{
+    .shri-info-img{
+        @media (max-width:767px){
+            width: 100%;
+            margin-right: 0px !important;
+        }
+    } 
+    .shri-info-img1{
+        @media (max-width:767px){
+            // width: 100%;
+            // height: 40%;
+            // margin-top: 20px;
+            display: none;
+        }
+    }
+}
+
+.shri-features{
+    .shri-feature-btn{
+        text-align: center !important;
+    }
+}
+
+.shri-usp{
+    p{
+        font-size: 14px !important;
+    }
+    .shri-box-bgclr{
+        background-color: #fff;
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+}
+
+.shri-spec{
+    p{
+        font-size: 14px !important;
+    }
+    .shri-soft-specs{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        @media(max-width: 767px){
+            width: 95%;
+            margin-left: 9px;
+        }
+        .shri-spec-mob{
+            @media (max-width:767px){
+                display: block !important;
+            }
+        }
+        .shri-icon-clr{
+            color: #FC5185 ;
+        }
+    }
+}
+
+.shri-pricing{
+    .shri-price-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px;
+    }
+}
+
+.shri-review{
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px !important;
+    }
+    .shri-row-mob{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        @media (max-width:767px){
+            width: 100%;
+            margin-left: 0px;
+    }
+}
+.shri-main-box-mob{
+    box-shadow: -3px 3px 0px 0px #FC5185 ;
+    .shri-box-mob{
+        @media(max-width: 767px){
+            width: 100% !important;
+        }
+        .shri-box-rating{
+            display: flex;
+            justify-content: space-between;
+            @media(max-width: 767px){
+                display: block;
+            }
+        }
+    }
+    li{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+}
+
+.shri-alternative{
+    .shri-card-mob{
+        @media (max-width:767px){
+            margin-left: 20px;
+        }
+    }
+    .shri-card-mob-mar{
+        @media (max-width:767px){
+            margin-bottom: 20px;
+        }
+    }
+        .shri-card-head{
+            font-size: 26px !important;
+            font-weight: 800;
+        }
+        .shri-card-title{
+            font-size: 16px !important;
+            font-weight: 600;
+        }
+        .shri-card-btn{
+            margin-top: 40px;
+            margin-left: 65px;
+        }
+        .shri-card-btn1{
+            margin-top: 22px;
+            margin-left: 65px;
+        }
+        .shri-p-style{
+            width: 56%;
+                        font-size: 12px !important;
+        }
+        .shri-p-style1{
+            width: 110%;
+                        font-size: 12px !important;
+        }
+}
+
+.shri-compare{
+        .shri-col-margin-mob{
+            @media (max-width:767px){
+                margin-bottom: 30px
+            }
+        }
+        .shri-box{
+            border: 2px solid #3F72AF;
+            width: 100%;
+            border-radius: 10px;
+            // .box-p-font{
+            //     // font-size: 13px;
+            // }
+            .shri-vs-box{
+                border: 2px solid ;
+                border-radius: 100%;
+                background-color: #FC5185 ;
+                color: white;
+                position: relative;
+                right: 16px;
+                height: 30px;
+                top: 64px;
+                font-size: 12px;
+                line-height: 1;
+            }
+            .shri-vs-hr{
+                width: 2px;
+                height: 128px;
+                background-color: black;
+                text-align: center;
+            }
+        }
+}
+
+.shri-faq{
+    .shri-faq-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px;
+    }
+}

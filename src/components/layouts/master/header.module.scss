@@ -1,0 +1,26 @@
+.nav-botm{
+    border-bottom:2px solid  #3F72AF;
+.nav-main{
+
+    .txt-color{
+    border: 2px solid #3F72AF;
+    border-radius: 5px;
+    @media (max-width:767px){
+        margin-bottom: 15px;
+        width: 50%;
+
+    }
+    }
+    .txt-color1{
+    border: 2px solid #3F72AF;
+    background-color: #3F72AF;
+    color: white;
+    border-radius: 5px;
+    @media (max-width:767px){
+        margin-bottom: 15px;
+        width: 50%;
+    }
+    }
+}
+}
+

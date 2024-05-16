@@ -1,0 +1,247 @@
+.hds-heading{
+    padding-top: 80px;
+    background-color: #3F72AF;
+    padding-bottom: 30px;
+    p{
+        font-size: 14px !important;
+    }
+    .hds-box-img{
+        @media (max-width:767px){
+            display: none;
+        }
+    }
+    .hds-p-style1{
+        width: 18%;
+        font-size: 12px !important;
+    }
+    .hds-breadcr{
+        ul{
+        display: flex;
+        list-style: none;
+        padding-left: 0px !important;
+        }
+        
+        a{
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+}
+
+.hds-detail-bg{
+    background-color:#F6F1F1;
+}
+
+.hds-navi{
+    position: sticky;
+    top: 98px;
+    background-color: #fff;
+    z-index: 1;
+    .hds-nav-btn{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+}
+
+.hds-info{
+    p{
+        font-size: 14px !important;
+    }
+    .hds-priceplan-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;  
+    }
+    .hds-info-img{
+        @media (max-width:767px){
+            width: 100%;
+        }
+    }
+}
+
+.hds-ss{
+    .hds-info-img{
+        @media (max-width:767px){
+            width: 100%;
+            margin-right: 0px !important;
+        }
+    } 
+    .hds-info-img1{
+        @media (max-width:767px){
+            // width: 100%;
+            // height: 40%;
+            // margin-top: 20px;
+            display: none;
+        }
+    }
+}
+
+.hds-features{
+    .hds-feature-btn{
+        text-align: center !important;
+    }
+}
+
+.hds-usp{
+    p{
+        font-size: 14px !important;
+    }
+    .hds-box-bgclr{
+        background-color: #fff;
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+}
+
+.hds-spec{
+    p{
+        font-size: 14px !important;
+    }
+    .hds-soft-specs{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        @media(max-width: 767px){
+            width: 95%;
+            margin-left: 9px;
+        }
+        .hds-spec-mob{
+            @media (max-width:767px){
+                display: block !important;
+            }
+        }
+        .hds-icon-clr{
+            color: #FC5185 ;
+        }
+    }
+}
+
+.hds-pricing{
+    .hds-price-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        // .hds-price-btn{
+        //     margin-top: 70px;
+        // }
+        // .hds-price-btn1{
+        //     margin-top: 35px;
+        // }
+    }
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px;
+    }
+}
+
+.hds-review{
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px !important;
+    }
+    .hds-row-mob{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        @media (max-width:767px){
+            width: 100%;
+            margin-left: 0px;
+    }
+}
+.hds-main-box-mob{
+    box-shadow: -3px 3px 0px 0px #FC5185 ;
+    .hds-box-mob{
+        @media(max-width: 767px){
+            width: 100% !important;
+        }
+        .hds-box-rating{
+            display: flex;
+            justify-content: space-between;
+            @media(max-width: 767px){
+                display: block;
+            }
+        }
+    }
+    li{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+}
+
+.hds-alternative{
+    .hds-card-mob{
+        @media (max-width:767px){
+            margin-left: 20px;
+        }
+    }
+    .hds-card-mob-mar{
+        @media (max-width:767px){
+            margin-bottom: 20px;
+        }
+    }
+        .hds-card-head{
+            font-size: 26px !important;
+            font-weight: 800;
+        }
+        .hds-card-title{
+            font-size: 16px !important;
+            font-weight: 600;
+        }
+        .hds-card-btn{
+            margin-top: 40px;
+            margin-left: 65px;
+        }
+        .hds-card-btn1{
+            margin-top: 22px;
+            margin-left: 65px;
+        }
+        .hds-p-style{
+            width: 56%;
+                        font-size: 12px !important;
+        }
+        .hds-p-style1{
+            width: 110%;
+                        font-size: 12px !important;
+        }
+}
+
+.hds-compare{
+        .hds-col-margin-mob{
+            @media (max-width:767px){
+                margin-bottom: 30px
+            }
+        }
+        .hds-box{
+            border: 2px solid #3F72AF;
+            width: 100%;
+            border-radius: 10px;
+            // .box-p-font{
+            //     // font-size: 13px;
+            // }
+            .hds-vs-box{
+                border: 2px solid ;
+                border-radius: 100%;
+                background-color: #FC5185 ;
+                color: white;
+                position: relative;
+                right: 16px;
+                height: 30px;
+                top: 64px;
+                font-size: 12px;
+                line-height: 1;
+            }
+            .hds-vs-hr{
+                width: 2px;
+                height: 128px;
+                background-color: black;
+                text-align: center;
+            }
+        }
+}
+
+.hds-faq{
+    .hds-faq-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px;
+    }
+}

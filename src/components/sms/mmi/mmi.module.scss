@@ -1,0 +1,247 @@
+.mmi-heading{
+    padding-top: 80px;
+    background-color: #3F72AF;
+    padding-bottom: 30px;
+    p{
+        font-size: 14px !important;
+    }
+    .mmi-box-img{
+        @media (max-width:767px){
+            display: none;
+        }
+    }
+    .mmi-p-style1{
+        width: 18%;
+        font-size: 12px !important;
+    }
+    .mmi-breadcr{
+        ul{
+        display: flex;
+        list-style: none;
+        padding-left: 0px !important;
+        }
+        
+        a{
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+}
+
+.mmi-detail-bg{
+    background-color:#F6F1F1;
+}
+
+.mmi-navi{
+    position: sticky;
+    top: 98px;
+    background-color: #fff;
+    z-index: 1;
+    .mmi-nav-btn{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+}
+
+.mmi-info{
+    p{
+        font-size: 14px !important;
+    }
+    .mmi-priceplan-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;  
+    }
+    .mmi-info-img{
+        @media (max-width:767px){
+            width: 100%;
+        }
+    }
+}
+
+.mmi-ss{
+    .mmi-info-img{
+        @media (max-width:767px){
+            width: 100%;
+            margin-right: 0px !important;
+        }
+    } 
+    .mmi-info-img1{
+        @media (max-width:767px){
+            // width: 100%;
+            // height: 40%;
+            // margin-top: 20px;
+            display: none;
+        }
+    }
+}
+
+.mmi-features{
+    .mmi-feature-btn{
+        text-align: center !important;
+    }
+}
+
+.mmi-usp{
+    p{
+        font-size: 14px !important;
+    }
+    .mmi-box-bgclr{
+        background-color: #fff;
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+}
+
+.mmi-spec{
+    p{
+        font-size: 14px !important;
+    }
+    .mmi-soft-specs{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        @media(max-width: 767px){
+            width: 95%;
+            margin-left: 9px;
+        }
+        .mmi-spec-mob{
+            @media (max-width:767px){
+                display: block !important;
+            }
+        }
+        .mmi-icon-clr{
+            color: #FC5185 ;
+        }
+    }
+}
+
+.mmi-pricing{
+    .mmi-price-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        // .mmi-price-btn{
+        //     margin-top: 70px;
+        // }
+        // .mmi-price-btn1{
+        //     margin-top: 35px;
+        // }
+    }
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px;
+    }
+}
+
+.mmi-review{
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px !important;
+    }
+    .mmi-row-mob{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        @media (max-width:767px){
+            width: 100%;
+            margin-left: 0px;
+    }
+}
+.mmi-main-box-mob{
+    box-shadow: -3px 3px 0px 0px #FC5185 ;
+    .mmi-box-mob{
+        @media(max-width: 767px){
+            width: 100% !important;
+        }
+        .mmi-box-rating{
+            display: flex;
+            justify-content: space-between;
+            @media(max-width: 767px){
+                display: block;
+            }
+        }
+    }
+    li{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+}
+
+.mmi-alternative{
+    .mmi-card-mob{
+        @media (max-width:767px){
+            margin-left: 20px;
+        }
+    }
+    .mmi-card-mob-mar{
+        @media (max-width:767px){
+            margin-bottom: 20px;
+        }
+    }
+        .mmi-card-head{
+            font-size: 26px !important;
+            font-weight: 800;
+        }
+        .mmi-card-title{
+            font-size: 16px !important;
+            font-weight: 600;
+        }
+        .mmi-card-btn{
+            margin-top: 40px;
+            margin-left: 65px;
+        }
+        .mmi-card-btn1{
+            margin-top: 22px;
+            margin-left: 65px;
+        }
+        .mmi-p-style{
+            width: 56%;
+                        font-size: 12px !important;
+        }
+        .mmi-p-style1{
+            width: 110%;
+                        font-size: 12px !important;
+        }
+}
+
+.mmi-compare{
+        .mmi-col-margin-mob{
+            @media (max-width:767px){
+                margin-bottom: 30px
+            }
+        }
+        .mmi-box{
+            border: 2px solid #3F72AF;
+            width: 100%;
+            border-radius: 10px;
+            // .box-p-font{
+            //     // font-size: 13px;
+            // }
+            .mmi-vs-box{
+                border: 2px solid ;
+                border-radius: 100%;
+                background-color: #FC5185 ;
+                color: white;
+                position: relative;
+                right: 16px;
+                height: 30px;
+                top: 64px;
+                font-size: 12px;
+                line-height: 1;
+            }
+            .mmi-vs-hr{
+                width: 2px;
+                height: 128px;
+                background-color: black;
+                text-align: center;
+            }
+        }
+}
+
+.mmi-faq{
+    .mmi-faq-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px;
+    }
+}

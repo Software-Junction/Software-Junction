@@ -1,0 +1,247 @@
+.lir-heading{
+    padding-top: 80px;
+    background-color: #3F72AF;
+    padding-bottom: 30px;
+    p{
+        font-size: 14px !important;
+    }
+    .lir-box-img{
+        @media (max-width:767px){
+            display: none;
+        }
+    }
+    .lir-p-style1{
+        width: 18%;
+        font-size: 12px !important;
+    }
+    .lir-breadcr{
+        ul{
+        display: flex;
+        list-style: none;
+        padding-left: 0px !important;
+        }
+        
+        a{
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+}
+
+.lir-detail-bg{
+    background-color:#F6F1F1;
+}
+
+.lir-navi{
+    position: sticky;
+    top: 98px;
+    background-color: #fff;
+    z-index: 1;
+    .lir-nav-btn{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+}
+
+.lir-info{
+    p{
+        font-size: 14px !important;
+    }
+    .lir-priceplan-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;  
+    }
+    .lir-info-img{
+        @media (max-width:767px){
+            width: 100%;
+        }
+    }
+}
+
+.lir-ss{
+    .lir-info-img{
+        @media (max-width:767px){
+            width: 100%;
+            margin-right: 0px !important;
+        }
+    } 
+    .lir-info-img1{
+        @media (max-width:767px){
+            // width: 100%;
+            // height: 40%;
+            // margin-top: 20px;
+            display: none;
+        }
+    }
+}
+
+.lir-features{
+    .lir-feature-btn{
+        text-align: center !important;
+    }
+}
+
+.lir-usp{
+    p{
+        font-size: 14px !important;
+    }
+    .lir-box-bgclr{
+        background-color: #fff;
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+}
+
+.lir-spec{
+    p{
+        font-size: 14px !important;
+    }
+    .lir-soft-specs{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        @media(max-width: 767px){
+            width: 95%;
+            margin-left: 9px;
+        }
+        .lir-spec-mob{
+            @media (max-width:767px){
+                display: block !important;
+            }
+        }
+        .lir-icon-clr{
+            color: #FC5185 ;
+        }
+    }
+}
+
+.lir-pricing{
+    .lir-price-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        // .lir-price-btn{
+        //     margin-top: 70px;
+        // }
+        // .lir-price-btn1{
+        //     margin-top: 35px;
+        // }
+    }
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px;
+    }
+}
+
+.lir-review{
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px !important;
+    }
+    .lir-row-mob{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        @media (max-width:767px){
+            width: 100%;
+            margin-left: 0px;
+    }
+}
+.lir-main-box-mob{
+    box-shadow: -3px 3px 0px 0px #FC5185 ;
+    .lir-box-mob{
+        @media(max-width: 767px){
+            width: 100% !important;
+        }
+        .lir-box-rating{
+            display: flex;
+            justify-content: space-between;
+            @media(max-width: 767px){
+                display: block;
+            }
+        }
+    }
+    li{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+}
+
+.lir-alternative{
+    .lir-card-mob{
+        @media (max-width:767px){
+            margin-left: 20px;
+        }
+    }
+    .lir-card-mob-mar{
+        @media (max-width:767px){
+            margin-bottom: 20px;
+        }
+    }
+        .lir-card-head{
+            font-size: 26px !important;
+            font-weight: 800;
+        }
+        .lir-card-title{
+            font-size: 16px !important;
+            font-weight: 600;
+        }
+        .lir-card-btn{
+            margin-top: 40px;
+            margin-left: 65px;
+        }
+        .lir-card-btn1{
+            margin-top: 22px;
+            margin-left: 65px;
+        }
+        .lir-p-style{
+            width: 56%;
+                        font-size: 12px !important;
+        }
+        .lir-p-style1{
+            width: 110%;
+                        font-size: 12px !important;
+        }
+}
+
+.lir-compare{
+        .lir-col-margin-mob{
+            @media (max-width:767px){
+                margin-bottom: 30px
+            }
+        }
+        .lir-box{
+            border: 2px solid #3F72AF;
+            width: 100%;
+            border-radius: 10px;
+            // .box-p-font{
+            //     // font-size: 13px;
+            // }
+            .lir-vs-box{
+                border: 2px solid ;
+                border-radius: 100%;
+                background-color: #FC5185 ;
+                color: white;
+                position: relative;
+                right: 16px;
+                height: 30px;
+                top: 64px;
+                font-size: 12px;
+                line-height: 1;
+            }
+            .lir-vs-hr{
+                width: 2px;
+                height: 128px;
+                background-color: black;
+                text-align: center;
+            }
+        }
+}
+
+.lir-faq{
+    .lir-faq-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px;
+    }
+}

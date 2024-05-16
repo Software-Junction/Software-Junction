@@ -1,0 +1,241 @@
+.ons-heading{
+    padding-top: 80px;
+    background-color: #3F72AF;
+    padding-bottom: 30px;
+    p{
+        font-size: 14px !important;
+    }
+    .ons-box-img{
+        @media (max-width:767px){
+            display: none;
+        }
+    }
+    .ons-p-style1{
+        width: 18%;
+        font-size: 12px !important;
+    }
+    .ons-breadcr{
+        ul{
+        display: flex;
+        list-style: none;
+        padding-left: 0px !important;
+        }
+        
+        a{
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+}
+
+.ons-detail-bg{
+    background-color:#F6F1F1;
+}
+
+.ons-navi{
+    position: sticky;
+    top: 98px;
+    background-color: #fff;
+    z-index: 1;
+    .ons-nav-btn{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+}
+
+.ons-info{
+    p{
+        font-size: 14px !important;
+    }
+    .ons-priceplan-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;  
+    }
+    .ons-info-img{
+        @media (max-width:767px){
+            width: 100%;
+        }
+    }
+}
+
+.ons-ss{
+    .ons-info-img{
+        @media (max-width:767px){
+            width: 100%;
+            margin-right: 0px !important;
+        }
+    } 
+    .ons-info-img1{
+        @media (max-width:767px){
+            // width: 100%;
+            // height: 40%;
+            // margin-top: 20px;
+            display: none;
+        }
+    }
+}
+
+.ons-features{
+    .ons-feature-btn{
+        text-align: center !important;
+    }
+}
+
+.ons-usp{
+    p{
+        font-size: 14px !important;
+    }
+    .ons-box-bgclr{
+        background-color: #fff;
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+}
+
+.ons-spec{
+    p{
+        font-size: 14px !important;
+    }
+    .ons-soft-specs{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        @media(max-width: 767px){
+            width: 95%;
+            margin-left: 9px;
+        }
+        .ons-spec-mob{
+            @media (max-width:767px){
+                display: block !important;
+            }
+        }
+        .ons-icon-clr{
+            color: #FC5185 ;
+        }
+    }
+}
+
+.ons-pricing{
+    .ons-price-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px;
+    }
+}
+
+.ons-review{
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px !important;
+    }
+    .ons-row-mob{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+        @media (max-width:767px){
+            width: 100%;
+            margin-left: 0px;
+    }
+}
+.ons-main-box-mob{
+    box-shadow: -3px 3px 0px 0px #FC5185 ;
+    .ons-box-mob{
+        @media(max-width: 767px){
+            width: 100% !important;
+        }
+        .ons-box-rating{
+            display: flex;
+            justify-content: space-between;
+            @media(max-width: 767px){
+                display: block;
+            }
+        }
+    }
+    li{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+}
+
+.ons-alternative{
+    .ons-card-mob{
+        @media (max-width:767px){
+            margin-left: 20px;
+        }
+    }
+    .ons-card-mob-mar{
+        @media (max-width:767px){
+            margin-bottom: 20px;
+        }
+    }
+        .ons-card-head{
+            font-size: 26px !important;
+            font-weight: 800;
+        }
+        .ons-card-title{
+            font-size: 16px !important;
+            font-weight: 600;
+        }
+        .ons-card-btn{
+            margin-top: 40px;
+            margin-left: 65px;
+        }
+        .ons-card-btn1{
+            margin-top: 22px;
+            margin-left: 65px;
+        }
+        .ons-p-style{
+            width: 56%;
+                        font-size: 12px !important;
+        }
+        .ons-p-style1{
+            width: 110%;
+                        font-size: 12px !important;
+        }
+}
+
+.ons-compare{
+        .ons-col-margin-mob{
+            @media (max-width:767px){
+                margin-bottom: 30px
+            }
+        }
+        .ons-box{
+            border: 2px solid #3F72AF;
+            width: 100%;
+            border-radius: 10px;
+            // .box-p-font{
+            //     // font-size: 13px;
+            // }
+            .ons-vs-box{
+                border: 2px solid ;
+                border-radius: 100%;
+                background-color: #FC5185 ;
+                color: white;
+                position: relative;
+                right: 16px;
+                height: 30px;
+                top: 64px;
+                font-size: 12px;
+                line-height: 1;
+            }
+            .ons-vs-hr{
+                width: 2px;
+                height: 128px;
+                background-color: black;
+                text-align: center;
+            }
+        }
+}
+
+.ons-faq{
+    .ons-faq-box{
+        box-shadow: -3px 3px 0px 0px #FC5185 ;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    li{
+        font-size: 14px;
+    }
+}
