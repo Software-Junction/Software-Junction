@@ -52,15 +52,12 @@ const Index = () => {
                   <div>
                     <h3 className="text-light">TenantCloud</h3>
                     <h5 className="text-light">
-                    Free-to-use rental property software
+                      Free-to-use rental property software
                     </h5>
-                    <p
-                      className={`${styles["p-style1"]} border text-light ps-2 pt-1 rounded-3 `}
-                      style={{ backgroundColor: "#FC5185 ", width: "48px" }}
-                    >
-                      4.4 <FaStar />
-                    </p>
-                    <div className="d-flex">
+                    <span className="span-style">
+                      0.0 <FaStar className="star-size" />
+                    </span>
+                    <div className="d-flex mt-3">
                       <Link href="">
                         <p className="text-light">
                           <span style={{ color: "#FC5185 " }}>

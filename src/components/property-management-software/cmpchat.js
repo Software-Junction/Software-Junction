@@ -414,24 +414,18 @@ const Cmpchat = ({ styles }) => {
                       <td>
                         {" "}
                         <div className={`${styles["td-mob"]} `}>
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
+                          <span className="span-style">
+                            0.0 <FaStar className="star-size" />
+                          </span>
                         </div>
                       </td>
                       <td>
                         {" "}
                         <div className={`${styles["td-mob"]} `}>
                           <div className="me-3">
-                            <p
-                              className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{ backgroundColor: "#FC5185 " }}
-                            >
-                              4.4 <FaStar />
-                            </p>
+                            <span className="span-style">
+                              0.0 <FaStar className="star-size" />
+                            </span>
                           </div>
                         </div>
                       </td>
@@ -439,12 +433,9 @@ const Cmpchat = ({ styles }) => {
                         {" "}
                         <div className={`${styles["td-mob"]} `}>
                           <div className="me-3">
-                            <p
-                              className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{ backgroundColor: "#FC5185 " }}
-                            >
-                              4.4 <FaStar />
-                            </p>
+                            <span className="span-style">
+                              0.0 <FaStar className="star-size" />
+                            </span>
                           </div>
                         </div>
                       </td>
@@ -452,12 +443,9 @@ const Cmpchat = ({ styles }) => {
                         {" "}
                         <div className={`${styles["td-mob"]} `}>
                           <div className="me-3">
-                            <p
-                              className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{ backgroundColor: "#FC5185 " }}
-                            >
-                              4.4 <FaStar />
-                            </p>
+                            <span className="span-style">
+                              0.0 <FaStar className="star-size" />
+                            </span>
                           </div>
                         </div>
                       </td>
@@ -465,12 +453,9 @@ const Cmpchat = ({ styles }) => {
                         {" "}
                         <div className={`${styles["td-mob"]} `}>
                           <div className="me-3">
-                            <p
-                              className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{ backgroundColor: "#FC5185 " }}
-                            >
-                              4.4 <FaStar />
-                            </p>
+                            <span className="span-style">
+                              0.0 <FaStar className="star-size" />
+                            </span>
                           </div>
                         </div>
                       </td>
@@ -478,12 +463,9 @@ const Cmpchat = ({ styles }) => {
                         {" "}
                         <div className={`${styles["td-mob"]} `}>
                           <div className="me-3">
-                            <p
-                              className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{ backgroundColor: "#FC5185 " }}
-                            >
-                              4.4 <FaStar />
-                            </p>
+                            <span className="span-style">
+                              0.0 <FaStar className="star-size" />
+                            </span>
                           </div>
                         </div>
                       </td>
@@ -491,12 +473,9 @@ const Cmpchat = ({ styles }) => {
                         {" "}
                         <div className={`${styles["td-mob"]} `}>
                           <div className="me-3">
-                            <p
-                              className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{ backgroundColor: "#FC5185 " }}
-                            >
-                              4.4 <FaStar />
-                            </p>
+                            <span className="span-style">
+                              0.0 <FaStar className="star-size" />
+                            </span>
                           </div>
                         </div>
                       </td>
@@ -504,12 +483,9 @@ const Cmpchat = ({ styles }) => {
                         {" "}
                         <div className={`${styles["td-mob"]} `}>
                           <div className="me-3">
-                            <p
-                              className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{ backgroundColor: "#FC5185 " }}
-                            >
-                              4.4 <FaStar />
-                            </p>
+                            <span className="span-style">
+                              0.0 <FaStar className="star-size" />
+                            </span>
                           </div>
                         </div>
                       </td>
@@ -517,12 +493,9 @@ const Cmpchat = ({ styles }) => {
                         {" "}
                         <div className={`${styles["td-mob"]} `}>
                           <div className="me-3">
-                            <p
-                              className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{ backgroundColor: "#FC5185 " }}
-                            >
-                              4.4 <FaStar />
-                            </p>
+                            <span className="span-style">
+                              0.0 <FaStar className="star-size" />
+                            </span>
                           </div>
                         </div>
                       </td>
@@ -530,12 +503,9 @@ const Cmpchat = ({ styles }) => {
                         {" "}
                         <div className={`${styles["td-mob"]} `}>
                           <div className="me-3">
-                            <p
-                              className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{ backgroundColor: "#FC5185 " }}
-                            >
-                              4.4 <FaStar />
-                            </p>
+                            <span className="span-style">
+                              0.0 <FaStar className="star-size" />
+                            </span>
                           </div>
                         </div>
                       </td>

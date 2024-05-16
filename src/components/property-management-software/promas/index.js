@@ -54,13 +54,10 @@ const Index = () => {
                     <h5 className="text-light">
                       Easy-to-use property management accounting software{" "}
                     </h5>
-                    <p
-                      className={`${styles["p-style1"]} border text-light ps-2 pt-1 rounded-3 `}
-                      style={{ backgroundColor: "#FC5185 ", width: "48px" }}
-                    >
-                      4.4 <FaStar />
-                    </p>
-                    <div className="d-flex">
+                    <span className="span-style">
+                      0.0 <FaStar className="star-size" />
+                    </span>
+                    <div className="d-flex mt-3">
                       <Link href="">
                         <p className="text-light">
                           <span style={{ color: "#FC5185 " }}>

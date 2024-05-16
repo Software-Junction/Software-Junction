@@ -105,22 +105,14 @@ const List = ({ styles }) => {
                 <div
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
+                  <div className="ms-4"></div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
                       size="sm"
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free Demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -454,22 +446,14 @@ const List = ({ styles }) => {
                 <div
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
+                  <div className="ms-4"></div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
                       size="sm"
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free Demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -803,22 +787,14 @@ const List = ({ styles }) => {
                 <div
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
+                  <div className="ms-4"></div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
                       size="sm"
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free Demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -1154,22 +1130,14 @@ const List = ({ styles }) => {
                 <div
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
+                  <div className="ms-4"></div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
                       size="sm"
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free Demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -1504,22 +1472,14 @@ const List = ({ styles }) => {
                 <div
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
+                  <div className="ms-4"></div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
                       size="sm"
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free Demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -1853,22 +1813,14 @@ const List = ({ styles }) => {
                 <div
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
+                  <div className="ms-4"></div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
                       size="sm"
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free Demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -2203,22 +2155,14 @@ const List = ({ styles }) => {
                 <div
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
+                  <div className="ms-4"></div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
                       size="sm"
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free Demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -2554,22 +2498,14 @@ const List = ({ styles }) => {
                 <div
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
+                  <div className="ms-4"></div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
                       size="sm"
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free Demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -2902,22 +2838,14 @@ const List = ({ styles }) => {
                 <div
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
+                  <div className="ms-4"></div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
                       size="sm"
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free Demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -3247,22 +3175,14 @@ const List = ({ styles }) => {
                 <div
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
+                  <div className="ms-4"></div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
                       size="sm"
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free Demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -3598,22 +3518,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -3953,22 +3865,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -4309,22 +4213,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -4665,22 +4561,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -5021,22 +4909,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -5380,22 +5260,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -5737,22 +5609,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -6094,22 +5958,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -6452,22 +6308,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -6811,22 +6659,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -7168,22 +7008,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -7525,22 +7357,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -7882,22 +7706,14 @@ const List = ({ styles }) => {
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"

@@ -56,10 +56,10 @@ const List = ({ styles }) => {
               >
                 <div className="d-flex p-4">
                   <div>
-                    <Link href="/astral-tec">
+                    <Link href="/zoho-books">
                       <Image
-                        src="/images/astralcon.png"
-                        alt="astralcon"
+                        src="/images/zohobooks.png"
+                        alt="zohobooks"
                         width="120"
                         height="10"
                         className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
@@ -67,66 +67,52 @@ const List = ({ styles }) => {
                     </Link>
                   </div>
                   <div>
-                    <Link href="/astral-tec">
+                    <Link href="/zoho-books">
                       {" "}
-                      <h5>Astral Technologies</h5>
+                      <h5>Zoho Books</h5>
                       <p>
-                        Best Real Estate Software for Builders & Infrastructure
-                        Company
+                        Best Accounting and Bookkeeping software for Small
+                        Businesses
                       </p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
-                        <Link href="/astral-tec">
-                          <p
-                            className={`${styles["p-style1"]} border text-light  ps-2 pe-1 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
+                        <Link href="/zoho-books">
+                          <span className="span-style">
+                            0.0 <FaStar className="star-size" />
+                          </span>
                         </Link>
                       </div>
                       <div>
-                        <p>(4 Reviews)</p>
+                        <p>(0 Reviews)</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <p className="px-4">
-                  Astral Technologies offers Construction ERP Software, a robust
-                  solution designed to streamline project management and enhance
-                  efficiency in the construction industry. Tailored for diverse
-                  needs, including Real Estate and Manufacturing, their software
-                  ensures seamless execution from conceptualization to
-                  implementation. With a user-friendly interface, advanced
-                  technology integration, and extensive testing, Astral's
-                  Construction ERP Software guarantees a superior user
-                  experience. Trusted by clients across various sectors, it
-                  exemplifies excellence in application development, reflecting
-                  the company's commitment to technological leadership. Elevate
-                  your business with Astral Technologies, the forefront in
-                  innovative technology solutions
+                  Zoho Books, a comprehensive online accounting software
+                  solution offered by Zoho Corporation. With a user-friendly
+                  interface and powerful features, Zoho Books simplifies your
+                  financial management tasks. It allows you to effortlessly
+                  manage your business's finances, track expenses, create
+                  invoices, and handle payroll. Whether you're a small business
+                  owner or a freelance professional, Zoho Books is designed to
+                  streamline your accounting processes, making it easier for you
+                  to focus on growing your business. Explore the world of
+                  efficient financial management with Zoho Books today.
                 </p>
                 <hr />
                 <div
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
+                  <div className="ms-4"></div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
                       size="sm"
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free Demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -414,10 +400,2739 @@ const List = ({ styles }) => {
               >
                 <div className="d-flex p-4">
                   <div>
-                    <Link href="/banibro-solution">
+                    <Link href="/oracle-netsuite">
                       <Image
-                        src="/images/banibro.png"
-                        alt="banibro"
+                        src="/images/oraclenet.png"
+                        alt="oraclenet"
+                        width="130"
+                        height="10"
+                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                      />
+                    </Link>
+                  </div>
+                  <div>
+                    <Link href="/oracle-netsuite">
+                      {" "}
+                      <h5>Oracle NetSuite ERP</h5>
+                      <p>Handle All Your Accounting Operations With Ease</p>
+                    </Link>
+                    <div className="d-flex">
+                      <div className="me-3">
+                        <Link href="/oracle-netsuite">
+                          <span className="span-style">
+                            0.0 <FaStar className="star-size" />
+                          </span>
+                        </Link>
+                      </div>
+                      <div>
+                        <p>(0 Reviews)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p className="px-4">
+                  NetSuite's ERP software is a comprehensive solution designed
+                  to streamline and enhance your business operations. With a
+                  focus on efficiency and scalability, NetSuite ERP offers a
+                  unified platform for financial management, order management,
+                  procurement, and more. It empowers businesses to gain
+                  real-time insights, improve decision-making, and optimize
+                  resource utilization. This cloud-based ERP system provides a
+                  flexible and customizable approach to address the unique needs
+                  of various industries, making it an ideal choice for companies
+                  seeking to elevate their productivity and competitiveness.
+                  Discover how NetSuite ERP can help your organization achieve
+                  greater success in managing critical aspects of your business.
+                </p>
+                <hr />
+                <div
+                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                >
+                  <div className="ms-4"></div>
+                  <div className={`${styles["box-btn"]} mb-3`}>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      onClick={handleShowDemo}
+                    >
+                      Get Free Demo
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showDemo}
+                      onHide={handleCloseDemo}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Free Demo</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            date: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            date: Yup.string().required("Please select date."),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.date && formik.errors.date
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type={isDatePickerFocused ? "date" : "text"}
+                                  name="date"
+                                  placeholder="Preferred Demo Date :"
+                                  onFocus={() => setDatePickerFocused(true)}
+                                  onBlur={() => setDatePickerFocused(false)}
+                                  id="date"
+                                />
+                                <ErrorMessage
+                                  name="date"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Free Demo
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                      <Modal.Footer className={styles["md-ft"]}>
+                        <p>Instruction :</p>
+                        <ol>
+                          <li style={{ fontSize: "12px" }}>
+                            Fill out the form with your details.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            Click the &quot;Submit Request&quot; button.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            We will get in touch with you soon.
+                          </li>
+                        </ol>
+                      </Modal.Footer>
+                    </Modal>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      className="mx-3"
+                      onClick={handleShowPrice}
+                    >
+                      Get Pricing
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showPrice}
+                      onHide={handleClosePrice}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Price</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Pricing
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                    </Modal>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+              >
+                <div className="d-flex p-4">
+                  <div>
+                    <Link href="/billbook">
+                      <Image
+                        src="/images/mybillbook.png"
+                        alt="mybillbook"
+                        width="130"
+                        height="10"
+                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                      />
+                    </Link>
+                  </div>
+                  <div>
+                    <Link href="/billbook">
+                      {" "}
+                      <h5>My Bill Book</h5>
+                      <p>Best Accounting Software for Financial Reporting</p>
+                    </Link>
+                    <div className="d-flex">
+                      <div className="me-3">
+                        <Link href="/billbook">
+                          <span className="span-style">
+                            0.0 <FaStar className="star-size" />
+                          </span>
+                        </Link>
+                      </div>
+                      <div>
+                        <p>(0 Reviews)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p className="px-4">
+                  MyBillBook is your friendly financial assistant, here to make
+                  billing and invoicing a breeze. It's designed with simplicity
+                  in mind, so you can effortlessly create, send, and keep track
+                  of invoices, saving you time and reducing mistakes. Plus, it
+                  goes beyond just invoices - it helps you manage expenses and
+                  provides clear financial reports. Whether you're a small
+                  business owner or a freelancer, MyBillBook is your partner in
+                  staying organized and taking charge of your finances. Say
+                  goodbye to financial headaches and hello to a smoother billing
+                  experience with MyBillBook.
+                </p>
+                <hr />
+                <div
+                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                >
+                  <div className="ms-4"></div>
+                  <div className={`${styles["box-btn"]} mb-3`}>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      onClick={handleShowDemo}
+                    >
+                      Get Free Demo
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showDemo}
+                      onHide={handleCloseDemo}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Free Demo</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            date: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            date: Yup.string().required("Please select date."),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.date && formik.errors.date
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type={isDatePickerFocused ? "date" : "text"}
+                                  name="date"
+                                  placeholder="Preferred Demo Date :"
+                                  onFocus={() => setDatePickerFocused(true)}
+                                  onBlur={() => setDatePickerFocused(false)}
+                                  id="date"
+                                />
+                                <ErrorMessage
+                                  name="date"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Free Demo
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                      <Modal.Footer className={styles["md-ft"]}>
+                        <p>Instruction :</p>
+                        <ol>
+                          <li style={{ fontSize: "12px" }}>
+                            Fill out the form with your details.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            Click the &quot;Submit Request&quot; button.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            We will get in touch with you soon.
+                          </li>
+                        </ol>
+                      </Modal.Footer>
+                    </Modal>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      className="mx-3"
+                      onClick={handleShowPrice}
+                    >
+                      Get Pricing
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showPrice}
+                      onHide={handleClosePrice}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Price</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Pricing
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                    </Modal>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+              >
+                <div className="d-flex p-4">
+                  <div>
+                    <Link href="/margerp">
+                      <Image
+                        src="/images/marg.png"
+                        alt="marg"
+                        width="130"
+                        height="10"
+                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                      />
+                    </Link>
+                  </div>
+                  <div>
+                    <Link href="/margerp">
+                      {" "}
+                      <h5>Marg ERP 9+Accounting</h5>
+                      <p>Manage your payables and receivables faster</p>
+                    </Link>
+                    <div className="d-flex">
+                      <div className="me-3">
+                        <Link href="/margerp">
+                          <span className="span-style">
+                            0.0 <FaStar className="star-size" />
+                          </span>
+                        </Link>
+                      </div>
+                      <div>
+                        <p>(0 Reviews)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p className="px-4">
+                  Marg Compusoft is a powerful and versatile software platform
+                  designed to streamline and enhance your business operations.
+                  With a wide array of features, including inventory management,
+                  accounting, and point-of-sale solutions, Marg Compusoft caters
+                  to businesses of all sizes. Its user-friendly interface and
+                  real-time data access make managing your business a breeze.
+                  Experience the convenience of cloud-based operations and
+                  efficient resource management with Marg Compusoft, your
+                  trusted partner for growth and success.
+                </p>
+                <hr />
+                <div
+                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                >
+                  <div className="ms-4"></div>
+                  <div className={`${styles["box-btn"]} mb-3`}>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      onClick={handleShowDemo}
+                    >
+                      Get Free Demo
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showDemo}
+                      onHide={handleCloseDemo}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Free Demo</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            date: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            date: Yup.string().required("Please select date."),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.date && formik.errors.date
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type={isDatePickerFocused ? "date" : "text"}
+                                  name="date"
+                                  placeholder="Preferred Demo Date :"
+                                  onFocus={() => setDatePickerFocused(true)}
+                                  onBlur={() => setDatePickerFocused(false)}
+                                  id="date"
+                                />
+                                <ErrorMessage
+                                  name="date"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Free Demo
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                      <Modal.Footer className={styles["md-ft"]}>
+                        <p>Instruction :</p>
+                        <ol>
+                          <li style={{ fontSize: "12px" }}>
+                            Fill out the form with your details.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            Click the &quot;Submit Request&quot; button.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            We will get in touch with you soon.
+                          </li>
+                        </ol>
+                      </Modal.Footer>
+                    </Modal>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      className="mx-3"
+                      onClick={handleShowPrice}
+                    >
+                      Get Pricing
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showPrice}
+                      onHide={handleClosePrice}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Price</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Pricing
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                    </Modal>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+              >
+                <div className="d-flex p-4">
+                  <div>
+                    <Link href="/vyapar">
+                      <Image
+                        src="/images/vyaparlogo.png"
+                        alt="vyaparlogo"
+                        width="120"
+                        height="10"
+                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                      />
+                    </Link>
+                  </div>
+                  <div>
+                    <Link href="/vyapar">
+                      {" "}
+                      <h5>Vyapar</h5>
+                      <p>
+                        Accounting software by Vyapar for Small Business Owners
+                      </p>
+                    </Link>
+                    <div className="d-flex">
+                      <div className="me-3">
+                        <Link href="/vyapar">
+                          <span className="span-style">
+                            0.0 <FaStar className="star-size" />
+                          </span>
+                        </Link>
+                      </div>
+                      <div>
+                        <p>(0 Reviews)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p className="px-4">
+                  Vyapar is a versatile accounting and billing software designed
+                  to simplify the financial management of businesses. With
+                  user-friendly features, it streamlines invoicing, expense
+                  tracking, and inventory management. This powerful tool is an
+                  excellent choice for small and medium-sized enterprises,
+                  offering cloud-based accessibility for easy collaboration.
+                  Vyapar empowers businesses to handle their finances
+                  efficiently, making it a go-to solution for entrepreneurs
+                  seeking a hassle-free accounting experience.
+                </p>
+                <hr />
+                <div
+                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                >
+                  <div className="ms-4"></div>
+                  <div className={`${styles["box-btn"]} mb-3`}>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      onClick={handleShowDemo}
+                    >
+                      Get Free Demo
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showDemo}
+                      onHide={handleCloseDemo}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Free Demo</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            date: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            date: Yup.string().required("Please select date."),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.date && formik.errors.date
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type={isDatePickerFocused ? "date" : "text"}
+                                  name="date"
+                                  placeholder="Preferred Demo Date :"
+                                  onFocus={() => setDatePickerFocused(true)}
+                                  onBlur={() => setDatePickerFocused(false)}
+                                  id="date"
+                                />
+                                <ErrorMessage
+                                  name="date"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Free Demo
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                      <Modal.Footer className={styles["md-ft"]}>
+                        <p>Instruction :</p>
+                        <ol>
+                          <li style={{ fontSize: "12px" }}>
+                            Fill out the form with your details.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            Click the &quot;Submit Request&quot; button.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            We will get in touch with you soon.
+                          </li>
+                        </ol>
+                      </Modal.Footer>
+                    </Modal>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      className="mx-3"
+                      onClick={handleShowPrice}
+                    >
+                      Get Pricing
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showPrice}
+                      onHide={handleClosePrice}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Price</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Pricing
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                    </Modal>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+              >
+                <div className="d-flex p-4">
+                  <div>
+                    <Link href="/oracle-fusion">
+                      <Image
+                        src="/images/oracle.png"
+                        alt="oracle"
+                        width="130"
+                        height="10"
+                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                      />
+                    </Link>
+                  </div>
+                  <div>
+                    <Link href="/oracle-fusion">
+                      {" "}
+                      <h5>Oracle Fusion Cloud ERP</h5>
+                      <p>SaaS solution with top ERP features & capabilities</p>
+                    </Link>
+                    <div className="d-flex">
+                      <div className="me-3">
+                        <Link href="/oracle-fusion">
+                          <span className="span-style">
+                            0.0 <FaStar className="star-size" />
+                          </span>
+                        </Link>
+                      </div>
+                      <div>
+                        <p>(0 Reviews)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p className="px-4">
+                  Oracle ERP, which stands for Enterprise Resource Planning, is
+                  a versatile suite of business software applications designed
+                  to simplify and improve an organization's core operations.
+                  This powerful and flexible platform gives businesses the tools
+                  they need to effectively handle their finances, procurement
+                  processes, HR functions, and the complexities of their supply
+                  chain. By offering a unified solution for crucial business
+                  tasks, Oracle ERP enables companies to operate more
+                  efficiently, make well-informed decisions, and enhance their
+                  competitiveness in today's dynamic business world.
+                </p>{" "}
+                <hr />
+                <div
+                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                >
+                  <div className="ms-4"></div>
+                  <div className={`${styles["box-btn"]} mb-3`}>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      onClick={handleShowDemo}
+                    >
+                      Get Free Demo
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showDemo}
+                      onHide={handleCloseDemo}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Free Demo</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            date: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            date: Yup.string().required("Please select date."),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.date && formik.errors.date
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type={isDatePickerFocused ? "date" : "text"}
+                                  name="date"
+                                  placeholder="Preferred Demo Date :"
+                                  onFocus={() => setDatePickerFocused(true)}
+                                  onBlur={() => setDatePickerFocused(false)}
+                                  id="date"
+                                />
+                                <ErrorMessage
+                                  name="date"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Free Demo
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                      <Modal.Footer className={styles["md-ft"]}>
+                        <p>Instruction :</p>
+                        <ol>
+                          <li style={{ fontSize: "12px" }}>
+                            Fill out the form with your details.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            Click the &quot;Submit Request&quot; button.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            We will get in touch with you soon.
+                          </li>
+                        </ol>
+                      </Modal.Footer>
+                    </Modal>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      className="mx-3"
+                      onClick={handleShowPrice}
+                    >
+                      Get Pricing
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showPrice}
+                      onHide={handleClosePrice}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Price</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Pricing
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                    </Modal>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+              >
+                <div className="d-flex p-4">
+                  <div>
+                    <Link href="/busy-accounting">
+                      <Image
+                        src="/images/busy.jpg"
+                        alt="busy"
+                        width="120"
+                        height="10"
+                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                      />
+                    </Link>
+                  </div>
+                  <div>
+                    <Link href="/busy-accounting">
+                      {" "}
+                      <h5>Busy Accounting</h5>
+                      <p>The Complete Business Management Software for SMEs</p>
+                    </Link>
+                    <div className="d-flex">
+                      <div className="me-3">
+                        <Link href="/busy-accounting">
+                          <span className="span-style">
+                            0.0 <FaStar className="star-size" />
+                          </span>
+                        </Link>
+                      </div>
+                      <div>
+                        <p>(0 Reviews)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p className="px-4">
+                  BUSY is a versatile integrated billing and accounting software
+                  designed for micro, small, and medium enterprises. With its
+                  user-friendly interface and robust features, it adapts
+                  seamlessly to your business requirements. Whether you prefer
+                  Desktop, Cloud, or Mobile App access, BUSY Software offers a
+                  flexible solution to streamline your financial management
+                  tasks. Make your accounting hassle-free with BUSY!
+                </p>{" "}
+                <hr />
+                <div
+                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                >
+                  <div className="ms-4"></div>
+                  <div className={`${styles["box-btn"]} mb-3`}>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      onClick={handleShowDemo}
+                    >
+                      Get Free Demo
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showDemo}
+                      onHide={handleCloseDemo}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Free Demo</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            date: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            date: Yup.string().required("Please select date."),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.date && formik.errors.date
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type={isDatePickerFocused ? "date" : "text"}
+                                  name="date"
+                                  placeholder="Preferred Demo Date :"
+                                  onFocus={() => setDatePickerFocused(true)}
+                                  onBlur={() => setDatePickerFocused(false)}
+                                  id="date"
+                                />
+                                <ErrorMessage
+                                  name="date"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Free Demo
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                      <Modal.Footer className={styles["md-ft"]}>
+                        <p>Instruction :</p>
+                        <ol>
+                          <li style={{ fontSize: "12px" }}>
+                            Fill out the form with your details.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            Click the &quot;Submit Request&quot; button.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            We will get in touch with you soon.
+                          </li>
+                        </ol>
+                      </Modal.Footer>
+                    </Modal>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      className="mx-3"
+                      onClick={handleShowPrice}
+                    >
+                      Get Pricing
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showPrice}
+                      onHide={handleClosePrice}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Price</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Pricing
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                    </Modal>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+              >
+                <div className="d-flex p-4">
+                  <div>
+                    <Link href="/ankpal">
+                      <Image
+                        src="/images/ankpal.png"
+                        alt="ankpal"
+                        width="120"
+                        height="10"
+                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                      />
+                    </Link>
+                  </div>
+                  <div>
+                    <Link href="/ankpal">
+                      {" "}
+                      <h5>Ankpal</h5>
+                      <p>A Cloud Based Online Accounting Software</p>
+                    </Link>
+                    <div className="d-flex">
+                      <div className="me-3">
+                        <Link href="/ankpal">
+                          <span className="span-style">
+                            0.0 <FaStar className="star-size" />
+                          </span>
+                        </Link>
+                      </div>
+                      <div>
+                        <p>(0 Reviews)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p className="px-4">
+                  Ankpal is a versatile financial management software designed
+                  to streamline your accounting processes. With its
+                  user-friendly interface and robust features, Ankpal simplifies
+                  bookkeeping, expense tracking, and invoicing, making it an
+                  ideal solution for businesses of all sizes. This cloud-based
+                  platform offers real-time financial insights, helping you make
+                  informed decisions and stay in control of your finances.
+                  Experience greater efficiency and accuracy in managing your
+                  financial tasks with Ankpal, ensuring your business's fiscal
+                  health is always in check.
+                </p>
+                <hr />
+                <div
+                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                >
+                  <div className="ms-4"></div>
+                  <div className={`${styles["box-btn"]} mb-3`}>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      onClick={handleShowDemo}
+                    >
+                      Get Free Demo
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showDemo}
+                      onHide={handleCloseDemo}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Free Demo</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            date: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            date: Yup.string().required("Please select date."),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.date && formik.errors.date
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type={isDatePickerFocused ? "date" : "text"}
+                                  name="date"
+                                  placeholder="Preferred Demo Date :"
+                                  onFocus={() => setDatePickerFocused(true)}
+                                  onBlur={() => setDatePickerFocused(false)}
+                                  id="date"
+                                />
+                                <ErrorMessage
+                                  name="date"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Free Demo
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                      <Modal.Footer className={styles["md-ft"]}>
+                        <p>Instruction :</p>
+                        <ol>
+                          <li style={{ fontSize: "12px" }}>
+                            Fill out the form with your details.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            Click the &quot;Submit Request&quot; button.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            We will get in touch with you soon.
+                          </li>
+                        </ol>
+                      </Modal.Footer>
+                    </Modal>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      className="mx-3"
+                      onClick={handleShowPrice}
+                    >
+                      Get Pricing
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showPrice}
+                      onHide={handleClosePrice}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Price</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Pricing
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                    </Modal>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+              >
+                <div className="d-flex p-4">
+                  <div>
+                    <Link href="/wave-accounting">
+                      <Image
+                        src="/images/wave.jpg"
+                        alt="wave"
+                        width="120"
+                        height="10"
+                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                      />
+                    </Link>
+                  </div>
+                  <div>
+                    <Link href="/wave-accounting">
+                      {" "}
+                      <h5>Wave Accounting</h5>
+                      <p>100% free accounting system for your business</p>
+                    </Link>
+                    <div className="d-flex">
+                      <div className="me-3">
+                        <Link href="/wave-accounting">
+                          <span className="span-style">
+                            0.0 <FaStar className="star-size" />
+                          </span>
+                        </Link>
+                      </div>
+                      <div>
+                        <p>(0 Reviews)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p className="px-4">
+                  Wave is a versatile online accounting software designed to
+                  simplify financial management for small businesses and
+                  entrepreneurs. With its user-friendly interface, Wave offers a
+                  range of essential financial tools, including invoicing,
+                  expense tracking, and payroll services. It's an ideal choice
+                  for those looking to streamline their accounting processes,
+                  all while ensuring compliance and staying on top of their
+                  financial health. Whether you're a freelancer or a small
+                  business owner, Wave provides the tools you need to take
+                  control of your finances and make informed decisions. Best of
+                  all, it's a cost-effective solution, offering many essential
+                  features for free.
+                </p>
+                <hr />
+                <div
+                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                >
+                  <div className="ms-4"></div>
+                  <div className={`${styles["box-btn"]} mb-3`}>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      onClick={handleShowDemo}
+                    >
+                      Get Free Demo
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showDemo}
+                      onHide={handleCloseDemo}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Free Demo</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            date: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            date: Yup.string().required("Please select date."),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.date && formik.errors.date
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type={isDatePickerFocused ? "date" : "text"}
+                                  name="date"
+                                  placeholder="Preferred Demo Date :"
+                                  onFocus={() => setDatePickerFocused(true)}
+                                  onBlur={() => setDatePickerFocused(false)}
+                                  id="date"
+                                />
+                                <ErrorMessage
+                                  name="date"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Free Demo
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                      <Modal.Footer className={styles["md-ft"]}>
+                        <p>Instruction :</p>
+                        <ol>
+                          <li style={{ fontSize: "12px" }}>
+                            Fill out the form with your details.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            Click the &quot;Submit Request&quot; button.
+                          </li>
+                          <li style={{ fontSize: "12px" }}>
+                            We will get in touch with you soon.
+                          </li>
+                        </ol>
+                      </Modal.Footer>
+                    </Modal>
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      className="mx-3"
+                      onClick={handleShowPrice}
+                    >
+                      Get Pricing
+                    </Button>
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showPrice}
+                      onHide={handleClosePrice}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Price</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Pricing
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                    </Modal>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+              >
+                <div className="d-flex p-4">
+                  <div>
+                    <Link href="/smaket">
+                      <Image
+                        src="/images/smaket.png"
+                        alt="smaket"
                         width="100"
                         height="10"
                         className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
@@ -425,63 +3140,48 @@ const List = ({ styles }) => {
                     </Link>
                   </div>
                   <div>
-                    <Link href="/banibro-solution">
+                    <Link href="/smaket">
                       {" "}
-                      <h5>Banibro Solutions</h5>
-                      <p>We can make IT possible</p>
+                      <h5>Smaket</h5>
+                      <p>Smaket makes your Complex business Simple</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
-                        <Link href="/banibro-solution">
-                          <p
-                            className={`${styles["p-style1"]} border text-light  ps-2 pe-1 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
+                        <Link href="/smaket">
+                          <span className="span-style">
+                            0.0 <FaStar className="star-size" />
+                          </span>
                         </Link>
                       </div>
                       <div>
-                        <p>(4 Reviews)</p>
+                        <p>(0 Reviews)</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <p className="px-4">
-                  Banibro Solutions offers Odoo ERP, a customizable business
-                  management solution. With a successful 10-year track record,
-                  Banibro specializes in rapid Odoo ERP implementation,
-                  providing a user-friendly interface, enhanced mobility, and
-                  tailored customization options. The software includes advanced
-                  CRM integration, seamless business automation modules like
-                  Odoo CRM, Invoicing, and Sales, empowering businesses with
-                  faster time-to-market, domain expertise, and excellent client
-                  experiences. Banibro's approach involves thorough requirements
-                  understanding, documentation, solutioning, communication,
-                  training, testing, UAT, and go-live support. Clients praise
-                  the product for its transformative impact on various
-                  industries.
+                  Discover Smaket, the revolutionary cloud-based solution that
+                  simplifies accounting and billing processes. With Smaket, you
+                  can say goodbye to complexities and focus on business growth,
+                  all without needing prior accounting knowledge. Access your
+                  business data from any device, anywhere, and ensure data
+                  security through cutting-edge measures and auto backup. From
+                  GST compliance to inventory tracking, Smaket has your
+                  accounting needs covered. Embrace the future of accounting and
+                  propel your business to success with Smaket!
                 </p>
                 <hr />
                 <div
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
+                  <div className="ms-4"></div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
                       size="sm"
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free Demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -764,6405 +3464,712 @@ const List = ({ styles }) => {
                 </div>
               </div>
 
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/buildium">
-                      <Image
-                        src="/images/buildium.png"
-                        alt="buildium"
-                        width="100"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/buildium">
-                      {" "}
-                      <h5>Buildium</h5>
-                      <p>Cloud-based property management software</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/buildium">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  Buildium is an all-in-one property management software
-                  designed to streamline operations for property managers and
-                  real estate professionals. With a cloud-based platform, it
-                  offers features such as rental listings, tenant screening,
-                  lease management, rent collection, property accounting,
-                  maintenance requests, and communication tools. The software
-                  caters to a range of property types, including single-family
-                  homes, small multifamily units, community associations,
-                  student housing, commercial properties, and affordable
-                  housing. Buildium enhances efficiency by automating day-to-day
-                  tasks, improving organization through centralized data, and
-                  ultimately creating a better experience for property owners,
-                  tenants, and homeowners.
-                </p>
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/highrise">
-                      <Image
-                        src="/images/highrise.png"
-                        alt="highrise"
-                        width="120"
-                        height="30"
-                        className={`${styles["box-img"]} border p-4 rounded-3 h-75 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/highrise">
-                      {" "}
-                      <h5>Highrise ERP</h5>
-                      <p>Real Estate ERP Software for Construction</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/highrise">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  Highrise ERP is a specialized construction and real estate
-                  management software designed for the Indian market. This
-                  integrated solution covers a wide range of functions,
-                  including accounts and finance management, sales and CRM,
-                  project budgeting and management, procurement, inventory
-                  control, HR management, and more. It facilitates centralized
-                  document management, accurate project planning, and real-time
-                  data availability, making the organization more homogeneous.
-                  Available through licensing, annual subscription, or SaaS,
-                  Highrise ERP can be hosted on on-campus servers or in the
-                  cloud. The software streamlines processes from engineering and
-                  material management to contract, marketing, and financial
-                  accounts, enhancing efficiency and project control for
-                  construction companies.
-                </p>
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/binary-stream">
-                      <Image
-                        src="/images/binary-erp.png"
-                        alt="binary-erp"
-                        width="130"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/binary-stream">
-                      {" "}
-                      <h5>Binary Stream</h5>
-                      <p>Best ERP Software for Real Estate</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/binary-stream">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  Binary Stream offers a ERP solution, seamlessly integrated
-                  with Microsoft Dynamics platforms such as Dynamics 365 Finance
-                  and Operations, Dynamics 365 Business Central, and Dynamics
-                  GP. Specializing in real estate and property management, their
-                  software enables efficient handling of complex lease
-                  scenarios, tenant and landlord requirements, and diversified
-                  operations. With a focus on multi-entity management, the
-                  system provides centralized processing, robust reporting, and
-                  real-time resource management across various locations.
-                  Additionally, Binary Stream's Subscription Billing Suite
-                  automates invoice creation and distribution, ensuring timely
-                  payments and detailed financial insights. The purpose-built
-                  Dynamics GP Utilities further streamline document delivery and
-                  processing overhead. Contact Binary Stream for a
-                  cost-effective digital transformation tailored to your
-                  business needs.
-                </p>
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/strategic-erp">
-                      <Image
-                        src="/images/strategic-erp.png"
-                        alt="strategic-erp"
-                        width="150"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/strategic-erp">
-                      {" "}
-                      <h5>Strategic ERP</h5>
-                      <p>A complete Real Estate ERP Software</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/strategic-erp">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  StrategicERP is a software platform developed by ITAakash
-                  Strategic Software, catering to the Real Estate, Construction,
-                  and Infrastructure industries. This end-to-end process
-                  automation and information management system offer tailored
-                  solutions for project lifecycle management, empowering
-                  businesses with real-time analytics for informed
-                  decision-making. With a user-friendly interface and artificial
-                  intelligence integration, the software streamlines complex
-                  functions, enhances daily business activities, and ensures
-                  absolute customization. Trusted by over 1000 brands,
-                  StrategicERP is recognized for its cloud-based ERP,
-                  mobile-friendly experience, and complete digital media
-                  integration, providing a competitive edge in the 21st-century
-                  business landscape.
-                </p>
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/in4suite">
-                      <Image
-                        src="/images/in4suite.jpg"
-                        alt="in4suite"
-                        width="130"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/in4suite">
-                      {" "}
-                      <h5>In4Suite</h5>
-                      <p>Software for Real Estate Developers and Agents</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/in4suite">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  In4Suite® is a ERP software designed for the Real Estate and
-                  Construction industry. This powerful platform offers complete
-                  visibility into business information, streamlining processes,
-                  improving efficiencies, managing complexities, and ultimately
-                  increasing revenue. With modules covering aspects such as land
-                  management, legal processes, project management, finance, HR,
-                  and more, In4Suite® ensures the seamless integration of all
-                  facets of a real estate and construction business. It features
-                  advanced Business Intelligence for insightful analytics,
-                  integrates with popular tools, and provides mobile apps for
-                  on-the-go management. In4Suite® is the go-to solution for
-                  automating and optimizing the day-to-day operations of real
-                  estate businesses, offering a user-friendly experience and
-                  world-class global support.
-                </p>
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/bhoomi">
-                      <Image
-                        src="/images/bhoomi.jpg"
-                        alt="bhoomi"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/bhoomi">
-                      {" "}
-                      <h5>Bhoomi</h5>
-                      <p>Best System for Real Estate Industry</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/bhoomi">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  Bhoomi, developed by edynamics Tech Solutions Private Limited,
-                  is a comprehensive Business Management Software tailored for
-                  the Real Estate industry. With unlimited user access, project
-                  and company management capabilities, it ensures seamless
-                  operations. Monthly free upgrades and separate installations
-                  provide flexibility, while its integration with Google Cloud
-                  guarantees efficient performance and strict data privacy.
-                  Boasting a user-friendly interface, BMS has successfully
-                  handled 18,000 leads per day, managed 800 projects, and
-                  garnered a user base of 2,500 with a remarkable 30,000 units
-                  sold to date.
-                </p>
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/daebuild-crm">
-                      <Image
-                        src="/images/daebuild.png"
-                        alt="daebuild-img"
-                        width="150"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link
-                      href="/daebuild-crm">
-                      {" "}
-                      <h5>DaeBuild CRM</h5>
-                      <p>Best Real Estate Software for Builders</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/daebuild-crm">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  DaeBuild CRM is a Real Estate CRM software designed for
-                  builders, offering end-to-end pre-sales and post-sales
-                  automation. This versatile solution, accessible via web and
-                  mobile apps on both iOS and Android platforms, facilitates
-                  efficient lead management, cloud telephony integration, sales
-                  tracking, customer accounts management, customer interactions,
-                  document management, and marketing through email, SMS, and
-                  more. With over 1500 projects implemented across India,
-                  DaeBuild CRM ensures seamless processes such as
-                  auto-invoicing, legal document generation, and 3-tier payment
-                  reminders. The platform also includes modules for staff,
-                  broker, and inventory management, providing a centralized hub
-                  for real estate developers to enhance customer engagement and
-                  build lasting relationships.
-                </p>
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/sell-do">
-                      <Image
-                        src="/images/selldo.png"
-                        alt="selldo"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/sell-do">
-                      {" "}
-                      <h5>Sell.Do</h5>
-                      <p>Leading Sales and Marketing CRM for Realtors</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/sell-do">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  Sell.Do is India's premier Integrated Real Estate CRM
-                  Solution, boasting 15+ years of industry expertise. Trusted by
-                  over 1000 brands, including industry leaders like Casagrand,
-                  Ansal Housing, and Hiranandani, Sell.Do has managed 50
-                  million+ leads and facilitated 450 million+ customer
-                  interactions in the real estate CRM industry. With USD 25
-                  billion+ worth of real estate inventory sold, Sell.Do offers a
-                  fully functional system in just 7 days, ISO 27001 compliance,
-                  and seamless integrations. Recognized with multiple awards,
-                  Sell.Do empowers real estate businesses through features like
-                  lead and inventory management, marketing automation, team
-                  collaboration, performance metrics, and online selling of
-                  properties.
-                </p>
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/t3-software">
-                      <Image
-                        src="/images/t3soft.jpg"
-                        alt="t3soft"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/t3-software">
-                      {" "}
-                      <h5>T3 Softwares</h5>
-                      <p>Web Based CRM Software for Real Estate Industry</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/t3-software">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  T3 Softwares is a business solution provider offering
-                  innovative CRM and ERP software tailored for diverse
-                  industries, including manufacturing, hospitality, real estate,
-                  and more. Their feature-rich products encompass production,
-                  accounting, inventory, web-based tools, multi-company
-                  management, payroll, and sales, providing streamlined
-                  solutions for efficient business operations. With a
-                  customer-centric ideology, T3 stands out as a leading player
-                  in Mumbai, excelling in web-based CRM and ERP development,
-                  offering application outsourcing, business consultancy,
-                  Android app development, and web applications to address the
-                  evolving needs of medium to large enterprises.
-                </p>
-
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/buildesk">
-                      <Image
-                        src="/images/builddesk.png"
-                        alt="builddesk"
-                        width="130"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/buildesk">
-                      {" "}
-                      <h5>Buildesk </h5>
-                      <p>Best Real Estate Software for Construction Industry</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/buildesk">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  Buildesk is a top-notch CRM software tailored for real estate
-                  professionals, including brokers, consultants, builders, and
-                  property managers. Offering an end-to-end Proptech solution,
-                  Buildesk empowers users to seamlessly navigate the entire
-                  business journey, from lead generation to client retention.
-                  With a robust suite of tools, it ensures a smart and smooth
-                  experience for real estate professionals, enhancing
-                  productivity and customer service. Trusted by leading real
-                  estate companies and recognized with awards, Buildesk stands
-                  out for its comprehensive features, streamlined processes, and
-                  intelligent automation, making it the go-to solution for
-                  managing sales activities and optimizing operational
-                  efficiency in the real estate industry.
-                </p>{" "}
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/ebuild-construction">
-                      <Image
-                        src="/images/ebuild.png"
-                        alt="ebuild"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/ebuild-construction">
-                      {" "}
-                      <h5>eBuild Construction</h5>
-                      <p>Construction ERP Software for Real Estate Agents</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/ebuild-construction">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  eBuild Construction is a construction management software
-                  designed to streamline and optimize the entire process of
-                  custom home building and renovations. This software
-                  facilitates efficient consultation and planning, integrates
-                  seamlessly with architects and engineers for cohesive
-                  design-build solutions, manages a trusted network of
-                  subcontractors and suppliers for general contracting, and
-                  ensures successful project outcomes through streamlined
-                  construction management practices. With a focus on
-                  cost-effectiveness, quality workmanship, and client
-                  satisfaction, eBuild Construction aims to build lasting
-                  customer relationships by delivering superior results in the
-                  construction industry.
-                </p>{" "}
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/simplify-em">
-                      <Image
-                        src="/images/Simplifyem.png"
-                        alt="Simplifyem"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/simplify-em">
-                      {" "}
-                      <h5>SimplifyEm</h5>
-                      <p>Software by SimplifyEm Inc</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/simplify-em">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  SimplifyEm is a efficient property management software
-                  designed for real estate professionals, offering a
-                  comprehensive suite of tools to streamline tasks for property
-                  managers and landlords. With features such as income and
-                  expense tracking, online rental payment collection, tenant
-                  screening, and digital lease signatures, SimplifyEm aims to
-                  simplify property management processes. The software also
-                  provides portals for seamless communication with tenants and
-                  owners, professional owner reports, and detailed financial
-                  reports, including tax reports. Notably, it stands out for its
-                  affordability, responsive US-based support, and over $42
-                  billion in managed property assets since its establishment in
-                  2006. Try SimplifyEm for free with no credit card required.
-                </p>{" "}
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/oasys-tech">
-                      <Image
-                        src="/images/oasys.png"
-                        alt="axisrooms"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/oasys-tech">
-                      {" "}
-                      <h5>OASYS Tech Solutions</h5>
-                      <p>Software by Oasys Tech Solution Pvt Ltd.</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/oasys-tech">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  OASYS Tech Solutions is a leading IT consultancy and solutions
-                  provider, established in 2012 and headquartered in Odisha,
-                  India. Specializing in technology outsourcing, the company
-                  excels in delivering top-notch IT consultancy and ERP (SAP)
-                  services with a global reach. With over 11 years of successful
-                  operations and collaboration with international affiliates,
-                  OASYS Tech Solutions is committed to building lasting
-                  partnerships, fostering growth, and shaping the future of
-                  technology-driven business solutions. The company's expertise
-                  spans software asset management, privileged access, software
-                  licensing, and enterprise services, with a remarkable 99.9%
-                  customer satisfaction rate based on 750+ reviews and 20,000
-                  objective resources.
-                </p>{" "}
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/4qt">
-                      <Image
-                        src="/images/4qt.jpg"
-                        alt="4qt"
-                        width="100"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/4qt">
-                      {" "}
-                      <h5>4QT Real Estate ERP</h5>
-                      <p>Software by 4th Quarter Technologies</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/4qt">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  4QT Real Estate ERP is a , cloud-based or on-campus software
-                  solution tailored for the real estate industry, encompassing
-                  plot, villa, and high-rise developers. Established in 2001,
-                  4QT is a leading provider of web software, offering advanced
-                  features such as CRM, billing and sales management,
-                  construction procurement, project planning, human resources,
-                  financial accounting, and facilities management. This
-                  innovative solution, REALBOOST™, empowers real estate
-                  developers, builders, agents, and property managers to
-                  efficiently manage large-scale projects across India, ensuring
-                  seamless lead management, post-sales customer care, and
-                  end-to-end project oversight.
-                </p>{" "}
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/real-builder">
-                      <Image
-                        src="/images/real-builder.png"
-                        alt="real-builder"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/real-builder">
-                      {" "}
-                      <h5>Real Builder by Dataman</h5>
-                      <p>Real Estate SOFTWARE BY Dataman Computer Systems.</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/real-builder">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  Real Builder by Dataman is a ERP solution tailored for the
-                  real estate industry, offering a user-friendly interface for
-                  seamless project management. Trusted by over 100 real estate
-                  developers, builders, brokers, and agents, it streamlines
-                  tasks from planning to reporting. With 25 years of experience,
-                  Real Builder stands out for its stability, security, and
-                  customization, empowering users with modules such as Real
-                  Estate ERP, Sales/Billing, Procurement, Construction,
-                  Financial Accounting, Payroll, and Inventory. The software's
-                  key features include improved client records, CRM
-                  capabilities, and advanced reporting, making it an essential
-                  tool for efficient and successful construction management.
-                </p>{" "}
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/property-able">
-                      <Image
-                        src="/images/property-able.jpg"
-                        alt="property-able"
-                        width="130"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/property-able">
-                      {" "}
-                      <h5>Property Able</h5>
-                      <p>Software by CloudSteer Technology Pvt. Ltd.</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/property-able">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  Property Able is a Real Estate Agency Management Software
-                  designed for medium and large consultants and agents. This
-                  web-based application streamlines day-to-day operations,
-                  offering features such as multi-channel inquiries, inventory
-                  management, property search, and customer demand-supply
-                  matching. With user-friendly interfaces, it enhances
-                  efficiency, allowing real estate professionals to boost
-                  margins, increase revenues, and ensure customer satisfaction.
-                  CloudSteer's Property Able revolutionizes the real estate
-                  business, providing a comprehensive solution for agents and
-                  developers to manage tasks seamlessly and maximize success.
-                </p>{" "}
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/techzone">
-                      <Image
-                        src="/images/techzone.png"
-                        alt="techzone"
-                        width="150"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/techzone">
-                      {" "}
-                      <h5>Techzone</h5>
-                      <p>Software by Techzone India</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/techzone">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  Techzone offers a comprehensive suite of IT solutions,
-                  specializing in web and mobile app development, ERP and CRM
-                  solutions, and digital marketing services. Their Real Estate
-                  Portal Solutions, used in over 10 countries with 2 million
-                  property listings, feature custom designs, extensive
-                  functionality, and mobile app readiness. With a focus on fast
-                  development, innovative mobile app designs, and cloud-based
-                  ERP solutions, Techzone ensures a customer-first approach with
-                  lifetime support. Boasting 800+ successful deliveries,
-                  Techzone's extensive experience and multi-cultural support
-                  make them a reliable partner for small to mid-sized businesses
-                  seeking maximum benefits from their IT investments.
-                </p>{" "}
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
-              >
-                <div className="d-flex p-4">
-                  <div>
-                    <Link href="/property-xrm">
-                      <Image
-                        src="/images/property-xRM.png"
-                        alt="property-xRM"
-                        width="115"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
-                      />
-                    </Link>
-                  </div>
-                  <div>
-                    <Link href="/property-xrm">
-                      {" "}
-                      <h5> Property-xRM</h5>
-                      <p>The Complete Real Estate Suite</p>
-                    </Link>
-                    <div className="d-flex">
-                      <div className="me-3">
-                        <Link href="/property-xrm">
-                          <p
-                            className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
-                          >
-                            4.4 <FaStar />
-                          </p>
-                        </Link>
-                      </div>
-                      <div>
-                        <p>(4 Reviews)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="px-4">
-                  Property-xRM is a Real Estate CRM software powered by
-                  Microsoft Dynamics 365. Tailored for homebuilders and
-                  developers, it optimizes sales cycles with smart automations,
-                  offering end-to-end solutions for residential and commercial
-                  portfolios. This all-in-one software excels in lead,
-                  inventory, marketing, document, reporting, and maintenance
-                  management, ensuring efficient operations. With a focus on
-                  customer relationships, it nurtures growth in Real Estate and
-                  Proptech industries, leveraging the latest in Microsoft
-                  technology and offering a unique, user-centric CRM engine.
-                </p>{" "}
-                <hr />
-                <div
-                  className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
-                >
-                  <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
-                  </div>
-                  <div className={`${styles["box-btn"]} mb-3`}>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      onClick={handleShowDemo}
-                    >
-                      Free demo
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showDemo}
-                      onHide={handleCloseDemo}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Free Demo</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            date: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            date: Yup.string().required("Please select date."),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.date && formik.errors.date
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type={isDatePickerFocused ? "date" : "text"}
-                                  name="date"
-                                  placeholder="Preferred Demo Date :"
-                                  onFocus={() => setDatePickerFocused(true)}
-                                  onBlur={() => setDatePickerFocused(false)}
-                                  id="date"
-                                />
-                                <ErrorMessage
-                                  name="date"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Free Demo
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                      <Modal.Footer className={styles["md-ft"]}>
-                        <p>Instruction :</p>
-                        <ol>
-                          <li style={{ fontSize: "12px" }}>
-                            Fill out the form with your details.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            Click the &quot;Submit Request&quot; button.
-                          </li>
-                          <li style={{ fontSize: "12px" }}>
-                            We will get in touch with you soon.
-                          </li>
-                        </ol>
-                      </Modal.Footer>
-                    </Modal>
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      className="mx-3"
-                      onClick={handleShowPrice}
-                    >
-                      Get Pricing
-                    </Button>
-                    <Modal
-                      aria-labelledby="contained-modal-title-vcenter"
-                      centered
-                      show={showPrice}
-                      onHide={handleClosePrice}
-                    >
-                      <Modal.Header closeButton>
-                        <h3>Request For Price</h3>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <Formik
-                          initialValues={{
-                            username: "",
-                            location: "",
-                            email: "",
-                            number: "",
-                            message: "",
-                            postTimestamp: new Date().toUTCString(),
-                          }}
-                          validationSchema={Yup.object().shape({
-                            username: Yup.string().required(
-                              "Please enter your full name."
-                            ),
-                            location: Yup.string().required(
-                              "Please select a location."
-                            ),
-                            email: Yup.string()
-                              .email("Invalid email address")
-                              .required("Please enter your email address."),
-                            number: Yup.string().required(
-                              "Please enter your phone number."
-                            ),
-                            message: Yup.string().required(
-                              "Please enter a message."
-                            ),
-                          })}
-                          onSubmit={handleFormSubmit}
-                        >
-                          {(formik) => (
-                            <Form>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.username &&
-                                    formik.errors.username
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="text"
-                                  name="username"
-                                  placeholder="Full name"
-                                />
-                                <ErrorMessage
-                                  name="username"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.number &&
-                                    formik.errors.number
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="number"
-                                  name="number"
-                                  placeholder="Phone number"
-                                />
-                                <ErrorMessage
-                                  name="number"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput1"
-                              >
-                                <Field
-                                  className={`form-control ${
-                                    formik.touched.email && formik.errors.email
-                                      ? "is-invalid"
-                                      : ""
-                                  }`}
-                                  type="email"
-                                  name="email"
-                                  placeholder="Bussiness Email address"
-                                />
-                                <ErrorMessage
-                                  name="email"
-                                  component="div"
-                                  className={`${styles["valid-clr"]} invalid-feedback`}
-                                />
-                              </Form.Group>
-                              <Button
-                                variant="warning"
-                                size="sm"
-                                className="text-light"
-                                onClick={formik.handleSubmit}
-                              >
-                                Get Pricing
-                              </Button>
-                            </Form>
-                          )}
-                        </Formik>
-                      </Modal.Body>
-                    </Modal>
-                  </div>
-                </div>
-              </div>
-
-              {/* {isShowMore && (
+              {isShowMore && (
                 <>
                   <div
                     className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
                   >
                     <div className="d-flex p-4">
                       <div>
-                        <Link href="/cloudbeds">
+                        <Link href="/geniebooks">
                           <Image
-                            src="/images/cloudbeds.png"
-                            alt="cloudbeds"
+                            src="/images/genie.jpg"
+                            alt="genie"
+                            width="150"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/geniebooks">
+                          {" "}
+                          <h5>GenieBooks</h5>
+                          <p>Easy to use account software for small business</p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/geniebooks">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                      GenieBooks, your essential partner for small and
+                      medium-sized business success. We specialize in
+                      simplifying complex operations, offering unparalleled
+                      control, insightful analytics, and effortless compliance.
+                      Let us light the path to growth while we keep the lights
+                      on for your business. Welcome to a world of streamlined
+                      efficiency and strategic insights with GenieBooks by your
+                      side.
+                    </p>
+
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/alignbooks">
+                          <Image
+                            src="/images/alignbooks.jpg"
+                            alt="alignbooks"
+                            width="150"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/alignbooks">
+                          {" "}
+                          <h5>AlignBooks</h5>
+                          <p>Accounting For Smart Business</p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/alignbooks">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                      Welcome to AlignBooks, your all-in-one financial
+                      management solution. Whether you're a small business owner
+                      or a large corporation, AlignBooks offers a comprehensive
+                      suite of tools to streamline your financial operations.
+                      From accounting and invoicing to inventory management and
+                      tax compliance, our software simplifies complex financial
+                      tasks. With user-friendly features and real-time insights,
+                      AlignBooks empowers you to make informed decisions and
+                      drive your business towards success. Experience efficiency
+                      and accuracy in your financial management with AlignBooks.
+                    </p>{" "}
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/horizon">
+                          <Image
+                            src="/images/horizon.png"
+                            alt="horizon"
                             width="100"
                             height="10"
                             className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
@@ -7170,65 +4177,3208 @@ const List = ({ styles }) => {
                         </Link>
                       </div>
                       <div>
-                        <Link href="/cloudbeds">
+                        <Link href="/horizon">
                           {" "}
-                          <h5>Cloudbeds</h5>
-                          <p>Best cloud-based hotel management platform</p>
+                          <h5>Horizon ERP</h5>
+                          <p>GST Billing software with Inventory & Accounts</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
-                            <Link href="/cloudbeds">
-                              <p
-                                className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                                style={{ backgroundColor: "#FC5185 " }}
-                              >
-                                4.4 <FaStar />
-                              </p>
+                            <Link href="/horizon">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
                             </Link>
                           </div>
                           <div>
-                            <p>(4 Reviews)</p>
+                            <p>(0 Reviews)</p>
                           </div>
                         </div>
                       </div>
                     </div>
                     <p className="px-4">
-                      Cloudbeds is a leading Hospitality Management System,
-                      offering a unified platform that empowers property owners
-                      to efficiently manage and grow their lodging businesses.
-                      Trusted by thousands of independent properties worldwide,
-                      Cloudbeds provides a comprehensive solution, seamlessly
-                      integrating Property Management, Channel Management, and
-                      Booking Engine functionalities. The platform enhances
-                      operational efficiency, simplifies reservations and
-                      distribution, and elevates guest experiences. With a focus
-                      on flexibility, Cloudbeds offers an Integrations
-                      Marketplace and an Open API, allowing users to connect
-                      with specialized apps and customize solutions. Backed by a
-                      dedicated support team, Cloudbeds is the go-to partner for
-                      hospitality success, as recognized by industry ratings and
-                      customer reviews.
-                    </p>
+                      Horizon Tech Solutions, accessible at
+                      www.horizontechsolutions.co.in, is a leading technology
+                      company with a decade of experience in ERP solutions. They
+                      offer Horizon ERP, the finest ready-to-use GST billing and
+                      accounting software for small businesses in India. This
+                      user-friendly software streamlines back-end processes,
+                      such as billing, invoicing, and inventory management,
+                      allowing businesses in distribution, retail, and
+                      manufacturing to focus on revenue generation. Horizon ERP
+                      follows best technological practices and simplifies GST
+                      return filing, making it an invaluable tool for small
+                      enterprises. It provides full control and adapts
+                      seamlessly to existing business management systems.
+                    </p>{" "}
                     <hr />
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                     >
-                      <div className="ms-4">
-                        <p>
-                          Starting Price :
-                          <span className="text-success fw-bold">
-                            {" "}
-                            Available on Request
-                          </span>
-                        </p>
-                      </div>
+                      <div className="ms-4"></div>
                       <div className={`${styles["box-btn"]} mb-3`}>
                         <Button
                           size="sm"
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/hyperdrive">
+                          <Image
+                            src="/images/hdpos.png"
+                            alt="hdpos"
+                            width="100"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/hyperdrive">
+                          {" "}
+                          <h5>HyperDrive Solutions' POS Billing Software</h5>
+                          <p>Billing, Accounts and Inventory Management</p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/hyperdrive">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                      HyperDrive Solutions' POS Billing Software! This
+                      cutting-edge solution revolutionizes point-of-sale
+                      management, offering seamless and efficient transaction
+                      processing. With user-friendly interfaces and robust
+                      features, this software streamlines your business
+                      operations, from inventory management to sales tracking.
+                      Enjoy real-time insights and customizable reports to
+                      optimize your business. Say goodbye to manual calculations
+                      and hello to a faster, more accurate, and customer-centric
+                      checkout experience with HyperDrive Solutions' POS Billing
+                      Software.
+                    </p>{" "}
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/saral">
+                          <Image
+                            src="/images/saral.png"
+                            alt="saral"
+                            width="130"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/saral">
+                          {" "}
+                          <h5>Saral Account</h5>
+                          <p>Empowering your business</p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/saral">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                      "Saral Accounts" by Relyonsoft - your comprehensive
+                      solution for efficient and user-friendly accounting
+                      management. This software simplifies financial tasks,
+                      allowing you to effortlessly handle invoices, expenses,
+                      and financial reports. With its intuitive interface and
+                      robust features, Saral Accounts streamlines bookkeeping
+                      and ensures compliance with tax regulations. Experience
+                      hassle-free accounting and financial control with this
+                      powerful software, designed to empower businesses of all
+                      sizes. Visit the website to learn more and take control of
+                      your finances today.
+                    </p>{" "}
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/giddh">
+                          <Image
+                            src="/images/giddh.png"
+                            alt="giddh"
+                            width="150"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/giddh">
+                          {" "}
+                          <h5>Giddh</h5>
+                          <p>Books that make sense</p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/giddh">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                      Giddh" is a versatile and user-friendly accounting
+                      software that simplifies financial management for
+                      businesses of all sizes. With an intuitive interface and
+                      powerful features, it streamlines tasks such as invoicing,
+                      expense tracking, and financial reporting. Giddh also
+                      offers seamless integration with banking and taxation
+                      systems, making it an indispensable tool for entrepreneurs
+                      and finance professionals. Whether you're a small startup
+                      or an established corporation, Giddh provides a
+                      comprehensive solution for all your accounting needs,
+                      helping you maintain financial clarity and efficiency. Try
+                      Giddh to enhance your financial management today!
+                    </p>{" "}
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/book-keeper">
+                          <Image
+                            src="/images/bookkeeper.png"
+                            alt="bookkeeper"
+                            width="100"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/book-keeper">
+                          {" "}
+                          <h5> Book Keeper </h5>
+                          <p>Easy-to-use mobile accounting app for SMBs</p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/book-keeper">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                      BookkeeperApp is a powerful and user-friendly financial
+                      software designed to streamline your financial management
+                      needs. Whether you're a small business owner, freelancer,
+                      or an individual looking to take control of your finances,
+                      BookkeeperApp offers a comprehensive suite of tools for
+                      budgeting, expense tracking, and income management. With
+                      its intuitive interface and robust features, you can
+                      effortlessly monitor your financial health, create
+                      customized reports, and plan for a secure financial
+                      future. Join thousands of satisfied users and experience
+                      the convenience and control that BookkeeperApp brings to
+                      your financial world. Start making smarter financial
+                      decisions today with BookkeeperApp.
+                    </p>{" "}
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/xero-accounting">
+                          <Image
+                            src="/images/xero.jpg"
+                            alt="xero"
+                            width="100"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/xero-accounting">
+                          {" "}
+                          <h5> Xero Accounting </h5>
+                          <p>Software by Xero Limited</p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/xero-accounting">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                      Xero, an innovative cloud-based accounting software, is
+                      designed to simplify financial management for businesses
+                      of all sizes. With its user-friendly interface, Xero
+                      offers a comprehensive suite of tools for bookkeeping,
+                      invoicing, payroll, and financial reporting. It enables
+                      seamless collaboration with accountants and supports
+                      real-time access to financial data, making it easier than
+                      ever to stay on top of your company's finances. Whether
+                      you're a small startup or a large corporation, Xero
+                      provides the digital solutions you need to streamline your
+                      financial processes and make informed business decisions.
+                    </p>{" "}
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/easy-gst">
+                          <Image
+                            src="/images/easygst.png"
+                            alt="easygst"
+                            width="150"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/easy-gst">
+                          {" "}
+                          <h5> EasY GST </h5>
+                          <p>Best GST Software for CA & Tax Professionals</p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/easy-gst">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                      Easy-GST, your one-stop solution for hassle-free GST
+                      (Goods and Services Tax) compliance. This user-friendly
+                      software simplifies the complexities of tax management,
+                      making it effortless for businesses of all sizes. With its
+                      intuitive interface, real-time updates, and comprehensive
+                      features, Easy-GST streamlines tax filing, invoice
+                      generation, and financial reporting. Say goodbye to the
+                      complexities of GST, and say hello to a smoother, more
+                      efficient way to manage your tax obligations. Join
+                      countless businesses already benefiting from the
+                      convenience of Easy-GST.
+                    </p>{" "}
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/arka-inventory">
+                          <Image
+                            src="/images/arka-inventory.png"
+                            alt="arka-inventory"
+                            width="130"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/arka-inventory">
+                          {" "}
+                          <h5>Arka Inventory</h5>
+                          <p>
+                            Arka is an inventory, purchase & cost management t
+                          </p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/arka-inventory">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                      Arka Inventory is a management tool built on Salesforce,
+                      offering comprehensive solutions for efficient inventory,
+                      purchase, warehouse, and cost management. With features
+                      like Inventory Visibility, Bill of Material,
+                      Manufacturing, and more, it provides businesses worldwide,
+                      both large and small, with the means to enhance
+                      operational efficiency and drive customer success. Trusted
+                      by a diverse clientele, Arka Inventory boasts high ratings
+                      for its reliability and effectiveness. This software is
+                      designed to streamline processes, ensuring businesses have
+                      the tools they need for optimal inventory control and
+                      seamless integration with platforms like QuickBooks
+                      Online.
+                    </p>
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/sleek-bill-online">
+                          <Image
+                            src="/images/sleek-bill-online.png"
+                            alt="sleek-bill-online"
+                            width="120"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/sleek-bill-online">
+                          {" "}
+                          <h5>Sleek Bill Online</h5>
+                          <p></p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/sleek-bill-online">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                      Sleek Bill Online is a secure online invoicing software
+                      designed for modern businesses, including small
+                      enterprises, freelancers, and accountants in India. With
+                      multi-user access from any PC or tablet, it allows
+                      seamless collaboration across devices. The software offers
+                      features such as inventory management, GST-compliant
+                      billing, personalized templates, real-time stock records,
+                      and various invoicing-related documents. Users can
+                      generate proforma invoices, quotes, delivery notes, and
+                      more, ensuring efficient business operations. With a focus
+                      on GST integration and compliance, Sleek Bill Online
+                      enables accurate calculation of GST rates and provides
+                      access to business data from anywhere. The cloud-based
+                      platform, founded in 2013, has garnered over 40,000
+                      clients in India and offers free training, 24/7 support,
+                      and a commitment to security and privacy. Get started
+                      today with free and easy invoicing, and let Sleek Bill
+                      Online handle your billing needs.
+                    </p>
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/tya-suite">
+                          <Image
+                            src="/images/tya-suite.png"
+                            alt="tya-suite"
+                            width="100"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/tya-suite">
+                          {" "}
+                          <h5>TYASuite's Inventory Management Software</h5>
+                          <p>Easy to Use Inventory System Software</p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/tya-suite">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                      TYASuite's Inventory Management Software is a cloud-based
+                      solution designed for growing businesses, offering
+                      seamless control over inventory at plant, warehouse, or
+                      company levels. The platform automates the entire
+                      inventory workflow, from requisition to stock management,
+                      effectively reducing working capital. With features like
+                      procurement, project management, compliance management,
+                      and more, TYASuite provides a comprehensive Cloud ERP
+                      solution for businesses. Headquartered in Bengaluru,
+                      TYASuite Software Solutions prioritizes efficiency in
+                      inventory control and offers a user-friendly experience to
+                      enhance overall business performance.
+                    </p>
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -7518,7 +7668,7 @@ const List = ({ styles }) => {
                     </div>
                   </div>
                 </>
-              )} */}
+              )}
             </Col>
 
             <Col lg={4}>
@@ -7635,13 +7785,13 @@ const List = ({ styles }) => {
               </div>
             </Col>
 
-            {/* <Col lg={12}>
+            <Col lg={12}>
               <div className={styles["list-btn"]}>
                 <Button className="mt-4" onClick={toggleReadMoreLess}>
                   {isShowMore ? "Show Less \u2191" : "Show More \u2193"}
                 </Button>
               </div>
-            </Col> */}
+            </Col>
           </Row>
         </Container>
       </section>

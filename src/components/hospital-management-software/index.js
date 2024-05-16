@@ -74,9 +74,9 @@ const Index = () => {
             <Recommend styles={styles} />
             {/* <Compare styles={styles} /> */}
           </Tab>
-          <Tab eventKey="Trends" title="Trends">
+          {/* <Tab eventKey="Trends" title="Trends">
             <Trend styles={styles} />
-          </Tab>
+          </Tab> */}
           <Tab eventKey="Compare" title="Top 10 Software Comparision Table">
             <Cmpchat styles={styles} />
           </Tab>
