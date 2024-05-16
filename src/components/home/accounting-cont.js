@@ -92,7 +92,7 @@ const options = {
   return (
     <>
       <Container className={styles["accounting-container"]}>
-        <Row >
+        <Row>
         {cardData.map((data, index) => (
           <Col lg={3} className={`${styles["col-mob"]} mb-3`} key={index}>
             <div
