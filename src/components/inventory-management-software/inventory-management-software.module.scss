@@ -148,7 +148,7 @@
   }
   .box-clr {
     position: sticky;
-    top: 186px;
+    top:186px;
     background-color: #3F72AF;
     border: 2px solid #FC5185 ;
   }
@@ -371,7 +371,13 @@ p{
   //   background-color: #3F72AF; /* Add background color as needed */
   //   z-index: 100;
   // }
-  
+  a{
+    color:#fff
+  }
+  .heading-link:hover{
+    background-color: #FC5185;
+    cursor: pointer;
+  }
   .tbl-hd{
     background-color: #3F72AF;
     color: #fff;
@@ -383,6 +389,10 @@ p{
     color: #fff;
     // border: 1px solid #3F72AF !important;
     border-top-right-radius: 16px !important;
+  }
+  .tbl-hd1:hover{
+    background-color: #FC5185;
+    cursor: pointer;
   }
   th {
     background-color: #3F72AF;
@@ -408,7 +418,7 @@ p{
     }
   }
   .clm-height{
-    height: 250px;
+    height: 230px;
   }
 }
   }

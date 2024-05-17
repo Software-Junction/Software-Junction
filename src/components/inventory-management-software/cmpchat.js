@@ -1,120 +1,191 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
-import AstralF from "../real-estate-software/astral/features";
-import AstralU from "../real-estate-software/astral/usp";
+// 1
+import ZohoF from "../accounting-software/zoho-books/features";
+import WhovaU from "../accounting-software/zoho-books/usp";
+import ZohoP from "../accounting-software/zoho-books/price";
 
-import BanibroF from "../real-estate-software/banibro/features";
-import BanibriU from "../real-estate-software/banibro/usp";
+//2
+import OracleproF from "../accounting-software/oracle-netsuite/features";
+import OracleproU from "../accounting-software/oracle-netsuite/usp";
+import OracleproP from "../accounting-software/oracle-netsuite/price" //here
 
-import BuildiumF from "../real-estate-software/buildium/features";
-import BuildiumU from "../real-estate-software/buildium/usp";
+//3
+import BillbookF from "../accounting-software/billbook/features";
+import BillbookU from "../accounting-software/billbook/usp";
+import BillbookP from "../accounting-software/billbook/price";
 
-import HighriseF from "../real-estate-software/highrise/features";
-import HighriseU from "../real-estate-software/highrise/usp";
+//4
+import MargPF from "../accounting-software/margerp/features";
+import MargPU from "../accounting-software/margerp/usp";
+import MargPP from "../accounting-software/margerp/price";
 
-import BinaryF from "../real-estate-software/binary-stream/features";
-import BinaryU from "../real-estate-software/binary-stream/usp";
+//5
+import VyparF from "../accounting-software/vyapar/features";
+import VyparU from "../accounting-software/vyapar/usp";
+import VyparP from "../accounting-software/vyapar/price";
 
-import StrategicERPF from "../real-estate-software/strategic-erp/features";
-import StrategicERPU from "../real-estate-software/strategic-erp/usp";
+//6
+import OraclefuF from "../accounting-software/oracle-fusion/features";
+import OraclefuU from "../accounting-software/oracle-fusion/usp";
+import OraclefuP from "../accounting-software/oracle-fusion/price";  //Here
 
-import In4SuiteF from "../real-estate-software/in4Suite/features";
-import In4SuiteU from "../real-estate-software/in4Suite/usp";
+//7
+import BusyF from "../accounting-software/busy-accounting/features";
+import BusyU from "../accounting-software/busy-accounting/usp";
+import BusyP from "../accounting-software/busy-accounting/price"; 
 
-import BhoomiF from "../real-estate-software/bhoomi/features";
-import BhoomiU from "../real-estate-software/bhoomi/usp";
+//8
+import AnkpalF from "../accounting-software/ankpal/features";
+import AnkpalU from "../accounting-software/ankpal/usp";
+import AnkpalP from "../accounting-software/ankpal/usp";
 
-import DaeBuildF from "../real-estate-software/daebuild-crm/features";
-import DaeBuildU from "../real-estate-software/daebuild-crm/usp";
+//9
+import WaveAccF from "../accounting-software/wave-accounting/features";
+import WaveAccU from "../accounting-software/wave-accounting/usp";
+import WaveAccP from "../accounting-software/wave-accounting/price";
 
-import SelldoF from "../real-estate-software/sell-do/features";
-import SelldoU from "../real-estate-software/sell-do/usp";
+//10
+import SmaketF from "../accounting-software/smaket/features";
+import SmaketU from "../accounting-software/smaket/usp";
+import SmaketP from "../accounting-software/smaket/price";
 
 const Cmpchat = ({ styles }) => {
-  //schoolcanva
+  //1
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);
-  //edumaat
+  const [showPrice1, setShowPrice1] = useState(false);
+
+  //2
   const [showUsp2, setShowUsp2] = useState(false);
   const [showF2, setShowF2] = useState(false);
-  //digital
+  const [showPrice2, setShowPrice2] = useState(false);
+
+  //3
   const [showF3, setShowF3] = useState(false);
   const [showUsp3, setShowUsp3] = useState(false);
-  //chanakya
+  const [showPrice3, setShowPrice3] = useState(false);
+  //4
   const [showF4, setShowF4] = useState(false);
   const [showUsp4, setShowUsp4] = useState(false);
-  //Matrix
+  const [showPrice4, setShowPrice4] = useState(false);
+
+  //5
   const [showF5, setShowF5] = useState(false);
   const [showUsp5, setShowUsp5] = useState(false);
-  //camp
+  const [showPrice5, setShowPrice5] = useState(false);
+
+  //6
   const [showF6, setShowF6] = useState(false);
   const [showUsp6, setShowUsp6] = useState(false);
-  //fedena
+  const [showPrice6, setShowPrice6] = useState(false);
+  //7
   const [showF7, setShowF7] = useState(false);
   const [showUsp7, setShowUsp7] = useState(false);
-  //hd
+  const [showPrice7, setShowPrice7] = useState(false);
+
+  //8
   const [showF8, setShowF8] = useState(false);
   const [showUsp8, setShowUsp8] = useState(false);
-  //knot
+  const [showPrice8, setShowPrice8] = useState(false);
+
+  //9
   const [showF9, setShowF9] = useState(false);
   const [showUsp9, setShowUsp9] = useState(false);
-  //academia
+  const [showPrice9, setShowPrice9] = useState(false);
+
+  //10
   const [showF10, setShowF10] = useState(false);
   const [showUsp10, setShowUsp10] = useState(false);
+  const [showPrice10, setShowPrice10] = useState(false);
 
-  //edumaat features and usp
-  const handleCloseF2 = () => setShowF2(false);
-  const handleShowF2 = () => setShowF2(true);
-  const handleCloseUsp2 = () => setShowUsp2(false);
-  const handleShowUsp2 = () => setShowUsp2(true);
-  //schoolcanvas features and usp
+  //1 features and usp
   const handleCloseF1 = () => setShow1(false);
   const handleShowF1 = () => setShow1(true);
   const handleCloseUsp1 = () => setShowUsp1(false);
   const handleShowUsp1 = () => setShowUsp1(true);
-  //digital features and usp
+  const handleClosePrice1 = () => setShowPrice1(false);
+  const handleShowPrice1 = () => setShowPrice1(true);
+
+
+  //2 features and usp
+  const handleCloseF2 = () => setShowF2(false);
+  const handleShowF2 = () => setShowF2(true);
+  const handleCloseUsp2 = () => setShowUsp2(false);
+  const handleShowUsp2 = () => setShowUsp2(true);
+  const handleClosePrice2 = () => setShowPrice2(false);
+  const handleShowPrice2 = () => setShowPrice2(true);
+
+
+  //3 features and usp, price
   const handleCloseF3 = () => setShowF3(false);
   const handleShowF3 = () => setShowF3(true);
   const handleCloseUsp3 = () => setShowUsp3(false);
   const handleShowUsp3 = () => setShowUsp3(true);
-  //chanakya features and usp
+  const handleClosePrice3 = () => setShowPrice3(false);
+  const handleShowPrice3 = () => setShowPrice3(true);
+
+
+  //4 features and usp
   const handleCloseF4 = () => setShowF4(false);
   const handleShowF4 = () => setShowF4(true);
   const handleCloseUsp4 = () => setShowUsp4(false);
   const handleShowUsp4 = () => setShowUsp4(true);
-  //matrix features and usp
+  const handleClosePrice4 = () => setShowPrice4(false);
+  const handleShowPrice4 = () => setShowPrice4(true);
+
+  //5 features and usp
   const handleCloseF5 = () => setShowF5(false);
   const handleShowF5 = () => setShowF5(true);
   const handleCloseUsp5 = () => setShowUsp5(false);
   const handleShowUsp5 = () => setShowUsp5(true);
-  //camp features and usp
+  const handleClosePrice5 = () => setShowPrice5(false);
+  const handleShowPrice5 = () => setShowPrice5(true);
+
+  //6 features and usp,price
   const handleCloseF6 = () => setShowF6(false);
   const handleShowF6 = () => setShowF6(true);
   const handleCloseUsp6 = () => setShowUsp6(false);
   const handleShowUsp6 = () => setShowUsp6(true);
-  //fedena features and usp
+  const handleClosePrice6 = () => setShowPrice6(false);
+  const handleShowPrice6 = () => setShowPrice6(true);
+
+  //7 features and usp
   const handleCloseF7 = () => setShowF7(false);
   const handleShowF7 = () => setShowF7(true);
   const handleCloseUsp7 = () => setShowUsp7(false);
   const handleShowUsp7 = () => setShowUsp7(true);
-  //hd features and usp
+  const handleClosePrice7 = () => setShowPrice7(false);
+  const handleShowPrice7 = () => setShowPrice7(true);
+
+  //8 features and usp,price
   const handleCloseF8 = () => setShowF8(false);
   const handleShowF8 = () => setShowF8(true);
   const handleCloseUsp8 = () => setShowUsp8(false);
   const handleShowUsp8 = () => setShowUsp8(true);
-  //knot features and usp
+  const handleClosePrice8 = () => setShowPrice8(false);
+  const handleShowPrice8 = () => setShowPrice8(true);
+
+  //9 features and usp
   const handleCloseF9 = () => setShowF9(false);
   const handleShowF9 = () => setShowF9(true);
   const handleCloseUsp9 = () => setShowUsp9(false);
   const handleShowUsp9 = () => setShowUsp9(true);
-  //academia features and usp
+  const handleClosePrice9 = () => setShowPrice9(false);
+  const handleShowPrice9 = () => setShowPrice9(true);
+
+
+  //10 features and usp, price
   const handleCloseF10 = () => setShowF10(false);
   const handleShowF10 = () => setShowF10(true);
   const handleCloseUsp10 = () => setShowUsp10(false);
   const handleShowUsp10 = () => setShowUsp10(true);
+  const handleClosePrice10 = () => setShowPrice10(false);
+  const handleShowPrice10 = () => setShowPrice10(true);
 
   return (
     <>
@@ -126,28 +197,48 @@ const Cmpchat = ({ styles }) => {
                 className={`${styles["main-table"]} border bg-light rounded-4  my-4`}
               >
                 <Table responsive bordered className={`${styles["thead"]}`}>
-                  <thead className={styles["heading-stick"]}>
+                  <thead>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Astral Technologies</th>
-                      <th>Banibro Solutions</th>
-                      <th>Buildium</th>
-                      <th>Highrise ERP</th>
-                      <th>Binary Stream</th>
-                      <th>Strategic ERP</th>
-                      <th>In4Suite</th>
-                      <th>Bhoomi</th>
-                      <th>DaeBuild CRM</th>
-                      <th className={styles["tbl-hd1"]}>Sell.Do</th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/whova">Zoho Books</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/eventpro">Oracle NetSuite ERP</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/planningpod">My Bill Book</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/weve">Marg ERP 9+Accounting</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/ticket-tailor">Vyapar</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/dryfta">Oracle Fusion Cloud ERP</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/activenet">Busy Accounting</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/arlo">Ankpal</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/eventorg">Wave Accounting</Link>
+                      </th>
+                      <th className={styles["tbl-hd1"]}>
+                        <Link href="/airmeet">Smaket</Link>
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>Features</td>
                       <td>
-                        <p>Email Integration</p>
-                        <p>Contact Management</p>
-                        <p>Project Management</p>
+                        <p>Inventory Management</p>
+                        <p>Ticket Management</p>
+                        <p>Registration Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -157,9 +248,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p>Project Management</p>
-                        <p> Inventory Management</p>
-                        <p> Membership Management</p>
+                        <p> Calendar Management</p>
+                        <p>Security Management</p>
+                        <p>Customizable Dashboard</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -169,9 +260,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p>Inspection Management</p>
-                        <p>Residential Properties</p>
-                        <p>Contact Management</p>
+                        <p>Meeting Management</p>
+                        <p>Security Management</p>
+                        <p>Catering Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -181,9 +272,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p> Document Management</p>
-                        <p> Financial Management</p>
-                        <p>Supplier Management</p>
+                        <p>Group Management</p>
+                        <p> Meeting Management</p>
+                        <p> Internal Meetings</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -193,9 +284,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p> Residential Properties</p>
-                        <p> Commercial Properties</p>
-                        <p>Insurance Management</p>
+                        <p>Attendance Management</p>
+                        <p>Contact Management</p>
+                        <p>Payment Processing</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -205,9 +296,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p>Sales and Distribution</p>
-                        <p> Accounts Receivable</p>
-                        <p> Inventory Management</p>
+                        <p>Registration Management</p>
+                        <p>Wedding Management</p>
+                        <p> Sponsorship Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -217,9 +308,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p>Contractor Management</p>
-                        <p> Barcode Scanning</p>
-                        <p>Appointment Management</p>
+                        <p>Exhibit Management</p>
+                        <p>Ticket Management</p>
+                        <p>Attendee Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -229,9 +320,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p> Performance Management</p>
-                        <p>Quotation & Estimates</p>
-                        <p> Contact Management</p>
+                        <p>Travel Management</p>
+                        <p> Registration Management</p>
+                        <p>Customer Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -241,9 +332,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p> CRM & Sales Dashboards</p>
-                        <p> Payment Tracking</p>
-                        <p>Tax Management</p>
+                        <p>Vendor Management</p>
+                        <p>Sponsorship Management</p>
+                        <p>Exhibit Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -253,9 +344,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p> Case Management</p>
-                        <p>Referral Management</p>
-                        <p> Appointment Management</p>
+                        <p>Customizable Branding</p>
+                        <p>Customizable Templates</p>
+                        <p>Attendee Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -269,9 +360,9 @@ const Cmpchat = ({ styles }) => {
                       <td>USP</td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Expertise in Development</p>
-                          <p>User-Centric Design</p>
-                          <p>Range of Services</p>
+                          <p>Award-Winning Event App</p>
+                          <p>Enhanced Attendee Experience</p>
+                          <p>Sponsor and Exhibitor Delight</p>
                         </div>
                         <Button
                           size="sm"
@@ -283,9 +374,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Tailored Odoo ERP Solutions</p>
-                          <p>Tailored Customization Possibilities</p>
-                          <p>Devoted Odoo ERP Support</p>
+                          <p>Efficient Venue and Catering Management</p>
+                          <p>Productivity Boosty</p>
+                          <p>Testimonials and Endorsements</p>
                         </div>
                         <Button
                           size="sm"
@@ -297,9 +388,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Scalability for Various Portfolios</p>
-                          <p>Efficient Payment Collections</p>
-                          <p>Enhanced Resident Services</p>
+                          <p>Integrated Excellence</p>
+                          <p>Effortless Collaboration</p>
+                          <p>Drama-Free Event Tracking</p>
                         </div>
                         <Button
                           size="sm"
@@ -311,9 +402,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Flexible Deployment Options</p>
-                          <p>Client Billing Efficiency</p>
-                          <p>Centralized Document Management</p>
+                          <p>Virtual Event Platform</p>
+                          <p>Fun Virtual Events</p>
+                          <p>Collaboration with The Go Game</p>
                         </div>
                         <Button
                           size="sm"
@@ -325,9 +416,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Centralized Operations and Reporting</p>
-                          <p>Efficient Intercompany Processing</p>
-                          <p>Streamlined Property Management</p>
+                          <p>Unbeatable Value</p>
+                          <p>More than Ticketing</p>
+                          <p>Discover Live Events</p>
                         </div>
                         <Button
                           size="sm"
@@ -339,9 +430,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>End-to-End Process Automation</p>
-                          <p>Business Process Automation</p>
-                          <p>Digital Media Integration</p>
+                          <p>Global Trust</p>
+                          <p>Revenue Optimization</p>
+                          <p>Virtual Event Excellence</p>
                         </div>
                         <Button
                           size="sm"
@@ -354,9 +445,9 @@ const Cmpchat = ({ styles }) => {
 
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Experienced Team</p>
-                          <p>World-Class Customer Support</p>
-                          <p>Third-Party Integrations</p>
+                          <p>Integrated and Comprehensive Solution</p>
+                          <p>Child Care Management with Safety Features</p>
+                          <p>League Management Efficiency</p>
                         </div>
                         <Button
                           size="sm"
@@ -368,9 +459,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Impressive Track Record</p>
-                          <p>Startup India Recognized</p>
-                          <p>Reliable After Sales Policy</p>
+                          <p>Repeating Events Made Easy</p>
+                          <p>Additional Features for Enhanced Experience</p>
+                          <p>Industry-Specific Solutions</p>
                         </div>
                         <Button
                           size="sm"
@@ -382,9 +473,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Flexible Document Management</p>
-                          <p>Marketing Automation</p>
-                          <p>GST and RERA Compliance</p>
+                          <p>Multi-Event Capability</p>
+                          <p>Flexible Module System</p>
+                          <p>Live Event Streaming Integration</p>
                         </div>
                         <Button
                           size="sm"
@@ -396,9 +487,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Proven Industry Trust</p>
-                          <p>Quick Deployment and Onboarding</p>
-                          <p>Recognition and Awards</p>
+                          <p>Analytics and Insights</p>
+                          <p>High Engagement and Collaboration</p>
+                          <p>Immersive Experience</p>
                         </div>
                         <Button
                           size="sm"
@@ -512,45 +603,117 @@ const Cmpchat = ({ styles }) => {
                     </tr>
                     <tr>
                       <td>Pricing Plan</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
+                      {/* 1 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          style={{ fontSize: "10px" }}
+                          // onClick={handleShowF2}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
+                      {/* 2 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          style={{ fontSize: "10px" }}
+                          // onClick={handleShowF2}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
+                      {/* 3 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice3}
+                        >
+                          View Pricing
+                        </Button>
+                      </td>
+                      {/* 4 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice4}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
+                      {/* 5 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          style={{ fontSize: "10px" }}
+                          // onClick={handleShowF2}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
+                      {/* 6 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice6}
+                        >
+                          View Pricing
+                        </Button>
+                      </td>
+                      {/* 7 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          style={{ fontSize: "10px" }}
+                          // onClick={handleShowF2}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
+                      {/* 8 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice8}
+                        >
+                          View Pricing
+                        </Button>
+                      </td>
+                      {/* 9 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          style={{ fontSize: "10px" }}
+                          // onClick={handleShowF2}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
+                      {/* 10 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice10}
+                        >
+                          View Pricing
+                        </Button>
+                      </td>
                     </tr>
                   </tbody>
                 </Table>
               </div>
-              {/* edumaat features */}
-              <Modal
-                style={{ color: "#000" }}
-                centered
-                show={showF2}
-                onHide={handleCloseF2}
-                className="cmpchat-modal"
-                aria-labelledby="example-custom-modal-sizes-title-lg"
-                size="xl"
-              >
-                <Modal.Header closeButton>
-                  <Modal.Title id="example-custom-modal-styling-title">
-                    Banibro Solutions
-                  </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                  <BanibroF styles={styles} />
-                </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseF2}>
-                    Close
-                  </Button>
-                </Modal.Footer>
-              </Modal>
-              {/* schoolcanva feature */}
+
+              {/* 1 feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -562,11 +725,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Astral Technologies
+                    Zoho Books
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <AstralF styles={styles} />
+                  <ZohoF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF1}>
@@ -574,7 +737,7 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* schoolcanva usp */}
+              {/* 1 usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -586,11 +749,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Astral Technologies
+                    Zoho Books
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <AstralU styles={styles} />
+                  <WhovaU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp1}>
@@ -598,7 +761,55 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* edumaat usp */}
+              {/* 1 Price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice1}
+                onHide={handleClosePrice1}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    Planning Pod
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <ZohoP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice1}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 2 features */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showF2}
+                onHide={handleCloseF2}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    Oracle NetSuite ERP
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <OracleproF styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleCloseF2}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 2 usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -610,11 +821,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Banibro Solutions
+                    Oracle NetSuite ERP
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <BanibriU styles={styles} />
+                  <OracleproU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp2}>
@@ -622,7 +833,31 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* digital feature */}
+              {/* 2 price */}
+              {/* <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice2}
+                onHide={handleClosePrice2}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    Planning Pod
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <OracleproP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice2}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal> */}
+              {/* 3 feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -634,11 +869,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Buildium
+                    Planning Pod
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <BuildiumF styles={styles} />
+                  <BillbookF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF3}>
@@ -646,7 +881,7 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* digital usp */}
+              {/* 3 usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -658,11 +893,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Buildium
+                    Planning Pod
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <BuildiumU styles={styles} />
+                  <BillbookU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp3}>
@@ -670,7 +905,31 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* chanakya feature */}
+              {/* 3 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice3}
+                onHide={handleClosePrice3}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    My BillBook
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <BillbookP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice3}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 4 feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -682,11 +941,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Highrise ERP
+                    Marg ERP 9+Accounting
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <HighriseF styles={styles} />
+                  <MargPF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF4}>
@@ -694,7 +953,7 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* chanakya usp */}
+              {/* 4 usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -706,11 +965,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Highrise ERP
+                    Marg ERP 9+Accounting
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <HighriseU styles={styles} />
+                  <MargPU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp4}>
@@ -718,7 +977,31 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* matrix feature */}
+              {/* 4 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice4}
+                onHide={handleClosePrice4}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    Planning Pod
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <MargPP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice4}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 5 feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -730,11 +1013,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Binary Stream
+                    Vyapar
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <BinaryF styles={styles} />
+                  <VyparF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF5}>
@@ -742,7 +1025,7 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* matrix usp */}
+              {/* 5 usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -754,11 +1037,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Binary Stream
+                    Vyapar
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <BinaryU styles={styles} />
+                  <VyparU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp5}>
@@ -766,7 +1049,31 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* campus365 feature */}
+              {/* 5 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice5}
+                onHide={handleClosePrice5}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    Planning Pod
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <VyparP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice5}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 6 feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -778,11 +1085,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Strategic ERP
+                    Oracle Fusion Cloud ERP
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <StrategicERPF styles={styles} />
+                  <OraclefuF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF6}>
@@ -790,7 +1097,7 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* campus365 usp */}
+              {/* 6 usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -802,11 +1109,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Strategic ERP
+                    Oracle Fusion Cloud ERP
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <StrategicERPU styles={styles} />
+                  <OraclefuU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp6}>
@@ -814,7 +1121,31 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* fedena feature */}
+              {/* 6 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice6}
+                onHide={handleClosePrice6}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    Oracle Fusion Cloud ERP
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <OraclefuP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice6}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 7 feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -826,11 +1157,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    In4Suite
+                    Busy Accounting
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <In4SuiteF styles={styles} />
+                  <BusyF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF7}>
@@ -838,7 +1169,7 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* fedena usp */}
+              {/* 7 usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -850,11 +1181,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    In4Suite
+                    Busy Accounting
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <In4SuiteU styles={styles} />
+                  <BusyU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp7}>
@@ -862,7 +1193,31 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* HD feature */}
+              {/* 7 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice7}
+                onHide={handleClosePrice7}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    Planning Pod
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <BusyP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice7}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 8 feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -874,11 +1229,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Bhoomi
+                    Ankpal
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <BhoomiF styles={styles} />
+                  <AnkpalF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF8}>
@@ -886,7 +1241,7 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* Hd usp */}
+              {/* 8 usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -898,11 +1253,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Bhoomi
+                    Ankpal
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <BhoomiU styles={styles} />
+                  <AnkpalU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp8}>
@@ -910,7 +1265,31 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* schoolknot feature */}
+              {/* 8 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice8}
+                onHide={handleClosePrice8}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    Ankpal
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <AnkpalP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice8}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 9 feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -922,11 +1301,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    DaeBuild CRM
+                    Wave Accounting
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <DaeBuildF styles={styles} />
+                  <WaveAccF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF9}>
@@ -934,7 +1313,7 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* schoolknot usp */}
+              {/* 9 usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -946,11 +1325,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    DaeBuild CRM
+                    Wave Accounting
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <DaeBuildU styles={styles} />
+                  <WaveAccU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp9}>
@@ -958,7 +1337,31 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* academia feature */}
+              {/* 9 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice9}
+                onHide={handleClosePrice9}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    Planning Pod
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <WaveAccP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice9}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 10 feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -970,11 +1373,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Sell.Do
+                    Smaket
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <SelldoF styles={styles} />
+                  <SmaketF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF10}>
@@ -982,7 +1385,7 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              {/* academia usp */}
+              {/* 10 usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
@@ -994,14 +1397,38 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Sell.Do
+                    Smaket
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <SelldoU styles={styles} />
+                  <SmaketU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp10}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 10 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice10}
+                onHide={handleClosePrice10}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    Smaket
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <SmaketP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice10}>
                     Close
                   </Button>
                 </Modal.Footer>

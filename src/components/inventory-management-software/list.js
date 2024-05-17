@@ -414,7 +414,7 @@ const List = ({ styles }) => {
                     <Link href="/oracle-netsuite">
                       {" "}
                       <h5>Oracle NetSuite ERP</h5>
-                      <p>Handle All Your Accounting Operations With Ease</p>
+                      <p>#1 Cloud Inventory and Stock Management Software for Fast-Growing Businesses</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
@@ -757,7 +757,7 @@ const List = ({ styles }) => {
                     <Link href="/billbook">
                       {" "}
                       <h5>My Bill Book</h5>
-                      <p>Best Accounting Software for Financial Reporting</p>
+                      <p>Easy Inventory and Stock Management Software for Mobile & Desktop</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
@@ -1098,7 +1098,7 @@ const List = ({ styles }) => {
                     <Link href="/margerp">
                       {" "}
                       <h5>Marg ERP 9+Accounting</h5>
-                      <p>Manage your payables and receivables faster</p>
+                      <p>Best Inventory Management software for SMBs</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
@@ -1780,7 +1780,7 @@ const List = ({ styles }) => {
                     <Link href="/oracle-fusion">
                       {" "}
                       <h5>Oracle Fusion Cloud ERP</h5>
-                      <p>SaaS solution with top ERP features & capabilities</p>
+                      <p>Leading Cloud-Based Inventory Planning Software</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
@@ -6969,7 +6969,7 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/sleek-bill-online">
                           <Image
-                            src="/images/sleek-bill-online.png"
+                            src="/images/sleek-bill.jpg"
                             alt="sleek-bill-online"
                             width="120"
                             height="10"
@@ -6981,7 +6981,7 @@ const List = ({ styles }) => {
                         <Link href="/sleek-bill-online">
                           {" "}
                           <h5>Sleek Bill Online</h5>
-                          <p></p>
+                          <p>Full Invoicing solution designed for Indian SMBs</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
