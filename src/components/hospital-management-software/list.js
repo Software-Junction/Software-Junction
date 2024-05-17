@@ -4565,8 +4565,8 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/eventavenue">
                           <Image
-                            src="/images/eventavenue.png"
-                            alt="eventavenue"
+                            src="/images/hospilogix.png"
+                            alt="hospilogix"
                             width="150"
                             height="10"
                             className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
@@ -4576,8 +4576,8 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/eventavenue">
                           {" "}
-                          <h5>EventAvenue</h5>
-                          <p>Software by Event avenue</p>
+                          <h5>Hospilogix</h5>
+                          <p>Improve Scalability With HospiLogix</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
@@ -4594,20 +4594,7 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                      EventAvenue is a leading online registration and payment
-                      gateway software in India, catering to diverse
-                      organizations such as event organizers, corporations,
-                      schools, and non-profits. It offers a 24/7 solution for
-                      seamless online event management, including real-time
-                      registrations, secure payment processing, customizable
-                      tools, and interactive floor plan management. With a focus
-                      on accessibility, it allows global audience reach, easy
-                      data mining, and ensures the highest standards of
-                      security. EventAvenue supports a range of applications,
-                      from conferences and trade shows to class admissions,
-                      donation collections, and more, providing comprehensive
-                      control and insights for effective online registration and
-                      payment handling.
+                    NextGen's Hospilogix is a web-based Hospital Management Software (HMS) solution designed on open-source technologies. With a proven track record in over 100 hospitals across India, ranging from 30 to 800 bed units, it offers seamless electronic management of critical hospital functions, from patient registration to discharge. Notable clients include Medanta, Metro Group of Hospitals, Primus Group of Hospitals, the Indian Army, and the Indian Air Force. This comprehensive HMS solution ensures NABH and NABL compliance, quick implementation (some units in just 3 days), and 7-day support for critical issues.
                     </p>{" "}
                     <hr />
                     <div
@@ -4917,8 +4904,8 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/eventsair">
                           <Image
-                            src="/images/eventsair.png"
-                            alt="eventsair"
+                            src="/images/suvarna.png"
+                            alt="suvarna"
                             width="150"
                             height="10"
                             className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
@@ -4928,8 +4915,8 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/eventsair">
                           {" "}
-                          <h5>EventsAir</h5>
-                          <p>Software by Centium Software</p>
+                          <h5>Suvarna Technosoft's Hospital Information Management System</h5>
+                          <p>Software by Suvarna Technosoft Pvt Ltd</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
@@ -4946,20 +4933,8 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                      EventsAir is a centralized event management platform,
-                      empowering over 350,000 events globally. With a 30-year
-                      history, it has successfully supported major events like
-                      the London Olympics and G20 Summit. This all-in-one
-                      solution seamlessly handles virtual, in-person, and hybrid
-                      events, offering unlimited registrations and transparent
-                      flat-rate monthly pricing. From attracting exhibitors and
-                      managing sponsors to creating engaging experiences with
-                      features like interactive tools, social networking, and
-                      attendee apps, EventsAir ensures seamless event execution.
-                      With robust pre-event, during-event, and post-event
-                      capabilities, it caters to diverse needs, making it a
-                      preferred choice for conferences, meetings, and world
-                      events.
+                    Suvarna Technosoft's Hospital Information Management System (HIMS) is an innovative software solution designed to optimize healthcare operations, enhance patient care, and improve engagement. With 23 years of excellence, Suvarna HIMS offers a suite of products including Laboratory Information Management System (SLIMS), Electronic Medical Record (EMR), Digital Campus Management System, Radiology Information System (RIS), Business Intelligence & MIS, and Document Management System. Engineered for simplicity, reliability, and proven performance, the HIMS has been adopted by over 500 healthcare organizations, serving 15,000+ physicians, 36,000+ healthcare professionals, and managing 60 million patient records. Suvarna HIMS is an accessible and affordable choice, making proven and reliable healthcare solutions available to providers worldwide.
+
                     </p>{" "}
                     <hr />
                     <div
@@ -5269,8 +5244,8 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/picatic">
                           <Image
-                            src="/images/picatic.png"
-                            alt="picatic"
+                            src="/images/knowit.png"
+                            alt="knowit"
                             width="150"
                             height="10"
                             className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
@@ -5280,9 +5255,9 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/picatic">
                           {" "}
-                          <h5>Picatic E-Ticket</h5>
+                          <h5>KnowIT HMS</h5>
                           <p>
-                            Sell Event Tickets Online - Free Event Ticketing
+                          Hospital Management System
                           </p>
                         </Link>
                         <div className="d-flex">
@@ -5300,17 +5275,7 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                      Picatic E-Ticket, Inc. is a online event ticketing
-                      platform established in 2012. Specializing in marketing
-                      and advertising, the company offers eMarketing/Digital
-                      Marketing solutions with a focus on AdTech and E-commerce
-                      verticals. With notable investors such as BDC Capital,
-                      Highline VC, and Sequoia Capital, Picatic has successfully
-                      raised undisclosed amounts through completed seed deals
-                      dating back to 2012. The platform facilitates ticket
-                      sales, event promotion, and event space management,
-                      catering to a diverse range of clients in the dynamic
-                      realm of online events.
+                    KnowIT HMS, a Hospital Management System meticulously crafted for seamless healthcare administration. This integrated ERP solution revolutionizes hospital operations, from patient registration and clinical support to billing, finance, and inventory management. Developed with the latest MVC technology, KnowIT HMS offers a versatile web-based platform available in both SaaS and On-Premise models. Whether for a small clinic or a multi-specialty hospital, KnowIT HMS streamlines processes with modules like Front Office, Clinical Support, and Billing & Collection. Its user-friendly design, modular approach, and robust security features make it an indispensable tool for healthcare institutions seeking efficiency and reliability in their operations. Experience the future of healthcare management with KnowIT HMS.
                     </p>{" "}
                     <hr />
                     <div
@@ -5620,8 +5585,8 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/netxms">
                           <Image
-                            src="/images/netxms.jpg"
-                            alt="netxms"
+                            src="/images/docengage.png"
+                            alt="docengage"
                             width="150"
                             height="10"
                             className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
@@ -5631,8 +5596,8 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/netxms">
                           {" "}
-                          <h5>NetXMS</h5>
-                          <p>Software by RADEN SOLUTIONS</p>
+                          <h5>DocEngage</h5>
+                          <p>India's No:1 EHR/EMR</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
@@ -5649,20 +5614,7 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                      NetXMS is a network monitoring solution, exemplified by
-                      its latest version, NetXMS 4.5.1 (released on Jan 30,
-                      2024). With a focus on proactive monitoring for hybrid
-                      systems, this enterprise-grade software offers elaborate
-                      zoning, proxy functionality, and versatile data processing
-                      options. NetXMS enables users to discover and manage
-                      diverse devices across their network, providing
-                      comprehensive observability through topological maps and
-                      connectivity views. Renowned for its modularity, extensive
-                      features, and scalability, NetXMS has garnered praise from
-                      users for its effectiveness in behavior-based issue
-                      sorting and seamless network management, making it an
-                      all-encompassing tool for organizations seeking robust,
-                      customizable, and secure network monitoring.
+                    DocEngage, a healthcare management solution designed to revolutionize the way medical institutions operate. Offering a holistic platform for both single and multi-speciality hospitals, DocEngage provides a suite of six products, over 30 apps, and seamless integrations to streamline every aspect of healthcare management. From comprehensive hospital management to advanced telehealth services, our platform ensures security with encryption, role-based access control, and full HIPAA compliance. Trusted by renowned healthcare providers like Apollo Homecare and Grand World Elder Care, DocEngage stands as a beacon of innovation, enhancing patient care, engagement, and overall operational efficiency. Join us on the forefront of Digital Healthcare with DocEngage!
                     </p>{" "}
                     <hr />
                     <div
@@ -5972,9 +5924,9 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/ungerboeck">
                           <Image
-                            src="/images/ungerboeck.png"
-                            alt="ungerboeck"
-                            width="150"
+                            src="/images/qualis.png"
+                            alt="qualis"
+                            width="90"
                             height="10"
                             className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
                           />
@@ -5983,8 +5935,8 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/ungerboeck">
                           {" "}
-                          <h5>Underboeck</h5>
-                          <p>Software by Momentus Technologies</p>
+                          <h5>Qualis LIMS</h5>
+                          <p>LAboratory Information Management System</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
@@ -6001,20 +5953,7 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                      Momentus Technologies offers Venue and Event Management
-                      Software designed to streamline operations for diverse
-                      sectors, including convention centers, higher education,
-                      corporate spaces, stadiums, arenas, and arts and culture
-                      organizations. This end-to-end platform unifies data and
-                      resources, providing a powerful suite of solutions such as
-                      CRM, booking, event management, accounting, reporting, and
-                      API integration. With a cloud-based, accessible-anywhere
-                      approach, Momentus empowers teams to enhance efficiency,
-                      unlock insights from quality analytics, and create
-                      extraordinary event experiences. Trusted by over 60,000
-                      users globally, Momentus is dedicated to connecting people
-                      and technologies to manage the world's greatest spaces and
-                      deliver exceptional moments.
+                    Qualis LIMS is an advanced Laboratory Information Management System, uniquely tailored to digitally transform laboratories across diverse industries such as Pharmaceuticals, Lifesciences, and more. Offering a seamless blend of versatility and user-friendly design, this software optimizes operations by automating processes and eliminating paper-based workflows. Boasting integrated modules for sample management, project tracking, and result analysis, Qualis LIMS stands out with its dynamic dashboards and configurable templates. With features like resource planning, compliance adherence, and electronic signatures, it ensures time-saving, reliable, and compliant laboratory operations, fostering uniformity, precision, and an enhanced user experience.
                     </p>{" "}
                     <hr />
                     <div
@@ -6324,8 +6263,8 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/eventtemple">
                           <Image
-                            src="/images/eventtemple.png"
-                            alt="eventtemple"
+                            src="/images/mmi-mediface.jpg"
+                            alt="mmi-mediface"
                             width="150"
                             height="10"
                             className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
@@ -6335,8 +6274,8 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/eventtemple">
                           {" "}
-                          <h5>Event Temple</h5>
-                          <p>The Industry's Leading Venue Management System</p>
+                          <h5> MMI Softwares </h5>
+                          <p>Exclusively Designed for Hospitals</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
@@ -6353,19 +6292,7 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                      Event Temple is a cloud-based hotel and venue management
-                      software designed to enhance efficiency and revenue
-                      generation. Voted #1 globally for Best Event Management
-                      and Best Group Sales in 2021, 2022, and 2023, it offers a
-                      comprehensive growth platform for hotels and venues. With
-                      features like digital proposals, quick response to
-                      inquiries, and powerful reporting, Event Temple
-                      streamlines sales processes, saves time on operations, and
-                      provides a user-friendly experience trusted by thousands
-                      of users in 40 countries. The software's success is
-                      highlighted by testimonials praising its automation,
-                      time-saving capabilities, and contribution to business
-                      growth.
+                    The Hospital Management System by MMI Softwares is an integrated information system designed to streamline and enhance all aspects of a hospital's operations. This comprehensive software manages medical, financial, administrative, legal, and compliance functions, incorporating electronic health records, business intelligence, and revenue cycle services. Tailored for ease of use, the system aims to optimize administration, improve patient care, and maximize revenue for healthcare providers in India. MMI Softwares' Hospital Management Software offers a digital solution that efficiently handles diverse organizational and service processes, promoting seamless collaboration and information sharing across healthcare settings.
                     </p>{" "}
                     <hr />
                     <div
@@ -6675,9 +6602,9 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/tix">
                           <Image
-                            src="/images/tix.png"
-                            alt="tix"
-                            width="100"
+                            src="/images/administratorplus.jpg"
+                            alt="administratorplus"
+                            width="150"
                             height="10"
                             className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
                           />
@@ -6686,8 +6613,8 @@ const List = ({ styles }) => {
                       <div>
                         <Link href="/tix">
                           {" "}
-                          <h5>Tix</h5>
-                          <p>Software by Tix, Inc</p>
+                          <h5>Administrator Plus</h5>
+                          <p>Software by Accurate Info Soft Pvt. Ltd.</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
@@ -6704,21 +6631,686 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                      Tix is a state-of-the-art, ticketing system designed for
-                      diverse organizations such as universities, venues,
-                      promoters, and more. Offering a complete ticketing
-                      solution, Tix features integrated access controls, event
-                      management, and a robust reporting suite. With a
-                      user-friendly interface, Tix supports various sales
-                      channels, including online, mobile, and box office,
-                      allowing seamless ticket transactions. The system also
-                      includes CRM tools for enhanced customer relationships,
-                      email marketing capabilities, and secure payment
-                      processing with PCI Level 1 certification. Tix's
-                      transparent pricing structure, with no hidden fees and low
-                      service charges, makes it a risk-free choice for efficient
-                      and successful event ticketing.
+                    Administrator Plus by Accurate Infosoft, a cutting-edge Hospital Management System Software that stands at the forefront of healthcare administration. With over 25 years of expertise and 200 successful implementations, Administrator Plus offers end-to-end ERP solutions, seamlessly integrating the latest technology to streamline hospital processes. This robust software, designed for multi-specialty hospitals, automates tasks such as billing, appointments, scheduling, and financial auditing, ensuring efficient management. Utilizing Microsoft technologies for the front end and flexible back ends like Oracle and SQL, Administrator Plus is the epitome of innovation, enhancing data security, improving patient care, and revolutionizing the landscape of healthcare management.
                     </p>{" "}
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/tix">
+                          <Image
+                            src="/images/amrita.png"
+                            alt="amrita"
+                            width="100"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/tix">
+                          {" "}
+                          <h5>Amrita Hospital Information System </h5>
+                          <p>Amrita HIS is built on an EMR Foundation for multi</p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/tix">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                    Amrita Hospital Information System (AHIS), a pioneering healthcare informatics suite meticulously crafted by Amrita Vishwa Vidyapeetham. This cutting-edge software represents the epitome of innovation, seamlessly blending science and spirituality to create a platform-independent, fully integrated Enterprise Information System. AHIS stands as a testament to Amrita's leadership in research and development, providing a holistic approach to patient care management across clinical domains. Certified as a Complete EHR, it not only meets international standards but also fosters research, development, and global advancements in medical informatics. Step into the future of healthcare with AHIS, where technology and compassion converge for a transformative impact on healthcare delivery.
+                    </p>{" "}
+                    <hr />
+                    <div
+                      className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
+                    >
+                      <div className="ms-4"></div>
+                      <div className={`${styles["box-btn"]} mb-3`}>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          onClick={handleShowDemo}
+                        >
+                          Get Free Demo
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showDemo}
+                          onHide={handleCloseDemo}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Free Demo</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                date: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                date: Yup.string().required(
+                                  "Please select date."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.date &&
+                                        formik.errors.date
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type={
+                                        isDatePickerFocused ? "date" : "text"
+                                      }
+                                      name="date"
+                                      placeholder="Preferred Demo Date :"
+                                      onFocus={() => setDatePickerFocused(true)}
+                                      onBlur={() => setDatePickerFocused(false)}
+                                      id="date"
+                                    />
+                                    <ErrorMessage
+                                      name="date"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Free Demo
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                          <Modal.Footer className={styles["md-ft"]}>
+                            <p>Instruction :</p>
+                            <ol>
+                              <li style={{ fontSize: "12px" }}>
+                                Fill out the form with your details.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                Click the &quot;Submit Request&quot; button.
+                              </li>
+                              <li style={{ fontSize: "12px" }}>
+                                We will get in touch with you soon.
+                              </li>
+                            </ol>
+                          </Modal.Footer>
+                        </Modal>
+                        <Button
+                          size="sm"
+                          variant="primary"
+                          className="mx-3"
+                          onClick={handleShowPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                        <Modal
+                          aria-labelledby="contained-modal-title-vcenter"
+                          centered
+                          show={showPrice}
+                          onHide={handleClosePrice}
+                        >
+                          <Modal.Header closeButton>
+                            <h3>Request For Price</h3>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <Formik
+                              initialValues={{
+                                username: "",
+                                location: "",
+                                email: "",
+                                number: "",
+                                message: "",
+                                postTimestamp: new Date().toUTCString(),
+                              }}
+                              validationSchema={Yup.object().shape({
+                                username: Yup.string().required(
+                                  "Please enter your full name."
+                                ),
+                                location: Yup.string().required(
+                                  "Please select a location."
+                                ),
+                                email: Yup.string()
+                                  .email("Invalid email address")
+                                  .required("Please enter your email address."),
+                                number: Yup.string().required(
+                                  "Please enter your phone number."
+                                ),
+                                message: Yup.string().required(
+                                  "Please enter a message."
+                                ),
+                              })}
+                              onSubmit={handleFormSubmit}
+                            >
+                              {(formik) => (
+                                <Form>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.username &&
+                                        formik.errors.username
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="text"
+                                      name="username"
+                                      placeholder="Full name"
+                                    />
+                                    <ErrorMessage
+                                      name="username"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.number &&
+                                        formik.errors.number
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="number"
+                                      name="number"
+                                      placeholder="Phone number"
+                                    />
+                                    <ErrorMessage
+                                      name="number"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Form.Group
+                                    className="mb-3"
+                                    controlId="exampleForm.ControlInput1"
+                                  >
+                                    <Field
+                                      className={`form-control ${
+                                        formik.touched.email &&
+                                        formik.errors.email
+                                          ? "is-invalid"
+                                          : ""
+                                      }`}
+                                      type="email"
+                                      name="email"
+                                      placeholder="Bussiness Email address"
+                                    />
+                                    <ErrorMessage
+                                      name="email"
+                                      component="div"
+                                      className={`${styles["valid-clr"]} invalid-feedback`}
+                                    />
+                                  </Form.Group>
+                                  <Button
+                                    variant="warning"
+                                    size="sm"
+                                    className="text-light"
+                                    onClick={formik.handleSubmit}
+                                  >
+                                    Get Pricing
+                                  </Button>
+                                </Form>
+                              )}
+                            </Formik>
+                          </Modal.Body>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={`${styles["main-box"]} bg-light box border mt-4 rounded-4 `}
+                  >
+                    <div className="d-flex p-4">
+                      <div>
+                        <Link href="/tix">
+                          <Image
+                            src="/images/aarogya.png"
+                            alt="aarogya"
+                            width="150"
+                            height="10"
+                            className={`${styles["box-img"]} border p-4 rounded-3 shadow me-4`}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link href="/tix">
+                          {" "}
+                          <h5>Aarogya HMIS</h5>
+                          <p>HOSPITAL SOFTWARE BY Dataman Computer Systems</p>
+                        </Link>
+                        <div className="d-flex">
+                          <div className="me-3">
+                            <Link href="/tix">
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
+                            </Link>
+                          </div>
+                          <div>
+                            <p>(0 Reviews)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="px-4">
+                    Aarogya, the pinnacle of healthcare efficiency and precision. Aarogya stands as a fully integrated Hospital Management Information System (HMIS), catering to the diverse needs of mid-size to large hospitals, laboratories, and polyclinics. With its state-of-the-art features, Aarogya ensures seamless management of outpatient (OPD) and inpatient (IPD) processes, organized operation theater schedules, and streamlined insurance management through integrated TPA modules. From pathology and pharmacy software to comprehensive inventory control, Aarogya optimizes every facet of healthcare administration. Experience transparency in financial processes, coupled with robust payroll and HR management. With additional modules for Blood Bank and Radiology, Aarogya emerges as the ultimate solution for comprehensive healthcare management. Welcome to a new era of healthcare efficiency with Aarogya.
+                                        </p>{" "}
                     <hr />
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
