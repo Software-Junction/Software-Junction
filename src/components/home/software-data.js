@@ -6,7 +6,7 @@ const softwareData = [
   { name: "Accounting Software", pageLink: "/accounting-software" },
   {
     name: "Fixed Asset Accounting Software",
-    pageLink: "/fixed-asset-accounting-software",
+    pageLink: "/fixed-asset-accounting-software"
   },
   { name: "HR Software", pageLink: "/hr-software" },
   { name: "CRM Software", pageLink: "/crm-software" },
@@ -21,24 +21,34 @@ const softwareData = [
   { name: "ERP Software", pageLink: "/erp-software" },
   {
     name: "Construction Management Software",
-    pageLink: "/construction-management-software",
+    pageLink: "/construction-management-software"
   },
   { name: "Ecommerce Software", pageLink: "/e-commerce-software" },
   {
     name: "Billing and Invoicing Software",
-    pageLink: "/billing-and-invoicing-software",
+    pageLink: "/billing-and-invoicing-software"
   },
   { name: "Event Management Software", pageLink: "/event-management-software" },
   {
     name: "Project Management Software",
-    pageLink: "/project-management-software",
+    pageLink: "/project-management-software"
   },
   {
     name: "Property Management Software",
-    pageLink: "/property-management-software",
+    pageLink: "/property-management-software"
   },
-  { name: "Hospital Management Software", pageLink: "/hospital-management-software" },
-  { name: "Inventory Management Software", pageLink: "/inventory-management-software" },
+  {
+    name: "Hospital Management Software",
+    pageLink: "/hospital-management-software"
+  },
+  {
+    name: "Inventory Management Software",
+    pageLink: "/inventory-management-software"
+  },
+  {
+    name: "Office Management Software",
+    pageLink: "/office-management-software"
+  }
 ];
 
 export default softwareData;
