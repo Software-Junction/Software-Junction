@@ -397,7 +397,7 @@ const List = ({ styles }) => {
               >
                 <div className="d-flex p-4">
                   <div>
-                    <Link href="/eventpro">
+                    <Link href="/mocdoc">
                       <Image
                         src="/images/mocdoc.png"
                         alt="mocdoc"
@@ -408,14 +408,14 @@ const List = ({ styles }) => {
                     </Link>
                   </div>
                   <div>
-                    <Link href="/eventpro">
+                    <Link href="/mocdoc">
                       {" "}
                       <h5>MocDoc </h5>
                       <p>Complete End to End System for Managing Hospitals</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
-                        <Link href="/eventpro">
+                        <Link href="/mocdoc">
                           <span className="span-style">
                             0.0 <FaStar className="star-size" />
                           </span>
@@ -743,7 +743,7 @@ const List = ({ styles }) => {
               >
                 <div className="d-flex p-4">
                   <div>
-                    <Link href="/planningpod">
+                    <Link href="/vyapar-hospital-billing-software">
                       <Image
                         src="/images/vyaparhotel.png"
                         alt="vyaparhotel"
@@ -754,14 +754,14 @@ const List = ({ styles }) => {
                     </Link>
                   </div>
                   <div>
-                    <Link href="/planningpod">
+                    <Link href="/vyapar-hospital-billing-software">
                       {" "}
                       <h5>Vyapar Hospital Billing Software</h5>
                       <p>Hospital Accounting Solutions for Small Businesses</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
-                        <Link href="/planningpod">
+                        <Link href="/vyapar-hospital-billing-software">
                           <span className="span-style">
                             0.0 <FaStar className="star-size" />
                           </span>
@@ -1089,7 +1089,7 @@ const List = ({ styles }) => {
               >
                 <div className="d-flex p-4">
                   <div>
-                    <Link href="/weve">
+                    <Link href="/caresoft">
                       <Image
                         src="/images/caresoft.png"
                         alt="caresoft"
@@ -1100,14 +1100,14 @@ const List = ({ styles }) => {
                     </Link>
                   </div>
                   <div>
-                    <Link href="/weve">
+                    <Link href="/caresoft">
                       {" "}
                       <h5>Caresoft</h5>
                       <p>Web Based Hospital Information System</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
-                        <Link href="/weve">
+                        <Link href="/caresoft">
                           <span className="span-style">
                             0.0 <FaStar className="star-size" />
                           </span>
@@ -1432,7 +1432,7 @@ const List = ({ styles }) => {
               >
                 <div className="d-flex p-4">
                   <div>
-                    <Link href="/ticket-tailor">
+                    <Link href="/oracle-healthcare-cloud">
                       <Image
                         src="/images/oracle-healthcare.png"
                         alt="oracle-healthcare"
@@ -1443,14 +1443,14 @@ const List = ({ styles }) => {
                     </Link>
                   </div>
                   <div>
-                    <Link href="/ticket-tailor">
+                    <Link href="/oracle-healthcare-cloud">
                       {" "}
                       <h5>Oracle Healthcare Cloud</h5>
                       <p>Cost-Effective Hospital Management Solution</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
-                        <Link href="/ticket-tailor">
+                        <Link href="/oracle-healthcare-cloud">
                           <span className="span-style">
                             0.0 <FaStar className="star-size" />
                           </span>
@@ -1778,7 +1778,7 @@ const List = ({ styles }) => {
               >
                 <div className="d-flex p-4">
                   <div>
-                    <Link href="/dryfta">
+                    <Link href="/crelio-health">
                       <Image
                         src="/images/crelio.jpg"
                         alt="crelio"
@@ -1789,14 +1789,14 @@ const List = ({ styles }) => {
                     </Link>
                   </div>
                   <div>
-                    <Link href="/dryfta">
+                    <Link href="/crelio-health">
                       {" "}
                       <h5>CrelioHealth LIMS </h5>
                       <p>Advanced web-based LIMS, PACS/RIS with Mobile Apps</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
-                        <Link href="/dryfta">
+                        <Link href="/crelio-health">
                           <span className="span-style">
                             0.0 <FaStar className="star-size" />
                           </span>
@@ -2123,7 +2123,7 @@ const List = ({ styles }) => {
               >
                 <div className="d-flex p-4">
                   <div>
-                    <Link href="/activenet">
+                    <Link href="/miracle-his">
                       <Image
                         src="/images/miracle.png"
                         alt="miracle"
@@ -2134,14 +2134,14 @@ const List = ({ styles }) => {
                     </Link>
                   </div>
                   <div>
-                    <Link href="/activenet">
+                    <Link href="/miracle-his">
                       {" "}
                       <h5>Miracle HIS</h5>
                       <p>Affordable Web-Based Hospital Management System</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
-                        <Link href="/activenet">
+                        <Link href="/miracle-his">
                           <span className="span-style">
                             0.0 <FaStar className="star-size" />
                           </span>
@@ -2467,7 +2467,7 @@ const List = ({ styles }) => {
               >
                 <div className="d-flex p-4">
                   <div>
-                    <Link href="/arlo">
+                    <Link href="/genipulse-hms">
                       <Image
                         src="/images/genipulse.png"
                         alt="genipulse"
@@ -2478,14 +2478,14 @@ const List = ({ styles }) => {
                     </Link>
                   </div>
                   <div>
-                    <Link href="/arlo">
+                    <Link href="/genipulse-hms">
                       {" "}
                       <h5>GeniPulse Hospital Management Software</h5>
                       <p>Complete & affordable Hospital Management System</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
-                        <Link href="/arlo">
+                        <Link href="/genipulse-hms">
                           <span className="span-style">
                             0.0 <FaStar className="star-size" />
                           </span>
@@ -3152,7 +3152,7 @@ const List = ({ styles }) => {
               >
                 <div className="d-flex p-4">
                   <div>
-                    <Link href="/airmeet">
+                    <Link href="/visual-infosoft">
                       <Image
                         src="/images/visual-hospital.png"
                         alt="visual-hospital"
@@ -3163,14 +3163,14 @@ const List = ({ styles }) => {
                     </Link>
                   </div>
                   <div>
-                    <Link href="/airmeet">
+                    <Link href="/visual-infosoft">
                       {" "}
                       <h5>Visual InfoSoft Pvt. Ltd</h5>
                       <p>Helps You Computerizing Your Hospital & Clinic</p>
                     </Link>
                     <div className="d-flex">
                       <div className="me-3">
-                        <Link href="/airmeet">
+                        <Link href="/visual-infosoft">
                           <span className="span-style">
                             0.0 <FaStar className="star-size" />
                           </span>
@@ -3500,7 +3500,7 @@ const List = ({ styles }) => {
                   >
                     <div className="d-flex p-4">
                       <div>
-                        <Link href="/ticketscandy">
+                        <Link href="/karexperts-hims">
                           <Image
                             src="/images/karexpert.png"
                             alt="karexpert"
@@ -3511,7 +3511,7 @@ const List = ({ styles }) => {
                         </Link>
                       </div>
                       <div>
-                        <Link href="/ticketscandy">
+                        <Link href="/karexperts-hims">
                           {" "}
                           <h5>
                             KareXpert's Hospital Information Management System
@@ -3520,7 +3520,7 @@ const List = ({ styles }) => {
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
-                            <Link href="/ticketscandy">
+                            <Link href="/karexperts-hims">
                               <span className="span-style">
                                 0.0 <FaStar className="star-size" />
                               </span>
@@ -3873,12 +3873,9 @@ const List = ({ styles }) => {
                         <div className="d-flex">
                           <div className="me-3">
                             <Link href="/halemind">
-                              <p
-                                className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3s `}
-                                style={{ backgroundColor: "#FC5185 " }}
-                              >
-                                4.4 <FaStar />
-                              </p>
+                              <span className="span-style">
+                                0.0 <FaStar className="star-size" />
+                              </span>
                             </Link>
                           </div>
                           <div>
@@ -4563,7 +4560,7 @@ const List = ({ styles }) => {
                   >
                     <div className="d-flex p-4">
                       <div>
-                        <Link href="/eventavenue">
+                        <Link href="/hospilogix">
                           <Image
                             src="/images/hospilogix.png"
                             alt="hospilogix"
@@ -4574,14 +4571,14 @@ const List = ({ styles }) => {
                         </Link>
                       </div>
                       <div>
-                        <Link href="/eventavenue">
+                        <Link href="/hospilogix">
                           {" "}
                           <h5>Hospilogix</h5>
                           <p>Improve Scalability With HospiLogix</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
-                            <Link href="/eventavenue">
+                            <Link href="/hospilogix">
                               <span className="span-style">
                                 0.0 <FaStar className="star-size" />
                               </span>
@@ -4594,7 +4591,18 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                    NextGen's Hospilogix is a web-based Hospital Management Software (HMS) solution designed on open-source technologies. With a proven track record in over 100 hospitals across India, ranging from 30 to 800 bed units, it offers seamless electronic management of critical hospital functions, from patient registration to discharge. Notable clients include Medanta, Metro Group of Hospitals, Primus Group of Hospitals, the Indian Army, and the Indian Air Force. This comprehensive HMS solution ensures NABH and NABL compliance, quick implementation (some units in just 3 days), and 7-day support for critical issues.
+                      NextGen's Hospilogix is a web-based Hospital Management
+                      Software (HMS) solution designed on open-source
+                      technologies. With a proven track record in over 100
+                      hospitals across India, ranging from 30 to 800 bed units,
+                      it offers seamless electronic management of critical
+                      hospital functions, from patient registration to
+                      discharge. Notable clients include Medanta, Metro Group of
+                      Hospitals, Primus Group of Hospitals, the Indian Army, and
+                      the Indian Air Force. This comprehensive HMS solution
+                      ensures NABH and NABL compliance, quick implementation
+                      (some units in just 3 days), and 7-day support for
+                      critical issues.
                     </p>{" "}
                     <hr />
                     <div
@@ -4902,7 +4910,7 @@ const List = ({ styles }) => {
                   >
                     <div className="d-flex p-4">
                       <div>
-                        <Link href="/eventsair">
+                        <Link href="/suvarna-technosoft-hims">
                           <Image
                             src="/images/suvarna.png"
                             alt="suvarna"
@@ -4913,14 +4921,17 @@ const List = ({ styles }) => {
                         </Link>
                       </div>
                       <div>
-                        <Link href="/eventsair">
+                        <Link href="/suvarna-technosoft-hims">
                           {" "}
-                          <h5>Suvarna Technosoft's Hospital Information Management System</h5>
+                          <h5>
+                            Suvarna Technosoft's Hospital Information Management
+                            System
+                          </h5>
                           <p>Software by Suvarna Technosoft Pvt Ltd</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
-                            <Link href="/eventsair">
+                            <Link href="/suvarna-technosoft-hims">
                               <span className="span-style">
                                 0.0 <FaStar className="star-size" />
                               </span>
@@ -4933,8 +4944,22 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                    Suvarna Technosoft's Hospital Information Management System (HIMS) is an innovative software solution designed to optimize healthcare operations, enhance patient care, and improve engagement. With 23 years of excellence, Suvarna HIMS offers a suite of products including Laboratory Information Management System (SLIMS), Electronic Medical Record (EMR), Digital Campus Management System, Radiology Information System (RIS), Business Intelligence & MIS, and Document Management System. Engineered for simplicity, reliability, and proven performance, the HIMS has been adopted by over 500 healthcare organizations, serving 15,000+ physicians, 36,000+ healthcare professionals, and managing 60 million patient records. Suvarna HIMS is an accessible and affordable choice, making proven and reliable healthcare solutions available to providers worldwide.
-
+                      Suvarna Technosoft's Hospital Information Management
+                      System (HIMS) is an innovative software solution designed
+                      to optimize healthcare operations, enhance patient care,
+                      and improve engagement. With 23 years of excellence,
+                      Suvarna HIMS offers a suite of products including
+                      Laboratory Information Management System (SLIMS),
+                      Electronic Medical Record (EMR), Digital Campus Management
+                      System, Radiology Information System (RIS), Business
+                      Intelligence & MIS, and Document Management System.
+                      Engineered for simplicity, reliability, and proven
+                      performance, the HIMS has been adopted by over 500
+                      healthcare organizations, serving 15,000+ physicians,
+                      36,000+ healthcare professionals, and managing 60 million
+                      patient records. Suvarna HIMS is an accessible and
+                      affordable choice, making proven and reliable healthcare
+                      solutions available to providers worldwide.
                     </p>{" "}
                     <hr />
                     <div
@@ -5242,7 +5267,7 @@ const List = ({ styles }) => {
                   >
                     <div className="d-flex p-4">
                       <div>
-                        <Link href="/picatic">
+                        <Link href="/knowit-hms">
                           <Image
                             src="/images/knowit.png"
                             alt="knowit"
@@ -5253,16 +5278,14 @@ const List = ({ styles }) => {
                         </Link>
                       </div>
                       <div>
-                        <Link href="/picatic">
+                        <Link href="/knowit-hms">
                           {" "}
                           <h5>KnowIT HMS</h5>
-                          <p>
-                          Hospital Management System
-                          </p>
+                          <p>Hospital Management System</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
-                            <Link href="/picatic">
+                            <Link href="/knowit-hms">
                               <span className="span-style">
                                 0.0 <FaStar className="star-size" />
                               </span>
@@ -5275,7 +5298,21 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                    KnowIT HMS, a Hospital Management System meticulously crafted for seamless healthcare administration. This integrated ERP solution revolutionizes hospital operations, from patient registration and clinical support to billing, finance, and inventory management. Developed with the latest MVC technology, KnowIT HMS offers a versatile web-based platform available in both SaaS and On-Premise models. Whether for a small clinic or a multi-specialty hospital, KnowIT HMS streamlines processes with modules like Front Office, Clinical Support, and Billing & Collection. Its user-friendly design, modular approach, and robust security features make it an indispensable tool for healthcare institutions seeking efficiency and reliability in their operations. Experience the future of healthcare management with KnowIT HMS.
+                      KnowIT HMS, a Hospital Management System meticulously
+                      crafted for seamless healthcare administration. This
+                      integrated ERP solution revolutionizes hospital
+                      operations, from patient registration and clinical support
+                      to billing, finance, and inventory management. Developed
+                      with the latest MVC technology, KnowIT HMS offers a
+                      versatile web-based platform available in both SaaS and
+                      On-Premise models. Whether for a small clinic or a
+                      multi-specialty hospital, KnowIT HMS streamlines processes
+                      with modules like Front Office, Clinical Support, and
+                      Billing & Collection. Its user-friendly design, modular
+                      approach, and robust security features make it an
+                      indispensable tool for healthcare institutions seeking
+                      efficiency and reliability in their operations. Experience
+                      the future of healthcare management with KnowIT HMS.
                     </p>{" "}
                     <hr />
                     <div
@@ -5583,7 +5620,7 @@ const List = ({ styles }) => {
                   >
                     <div className="d-flex p-4">
                       <div>
-                        <Link href="/netxms">
+                        <Link href="/doc-engage">
                           <Image
                             src="/images/docengage.png"
                             alt="docengage"
@@ -5594,14 +5631,14 @@ const List = ({ styles }) => {
                         </Link>
                       </div>
                       <div>
-                        <Link href="/netxms">
+                        <Link href="/doc-engage">
                           {" "}
                           <h5>DocEngage</h5>
                           <p>India's No:1 EHR/EMR</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
-                            <Link href="/netxms">
+                            <Link href="/doc-engage">
                               <span className="span-style">
                                 0.0 <FaStar className="star-size" />
                               </span>
@@ -5614,7 +5651,20 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                    DocEngage, a healthcare management solution designed to revolutionize the way medical institutions operate. Offering a holistic platform for both single and multi-speciality hospitals, DocEngage provides a suite of six products, over 30 apps, and seamless integrations to streamline every aspect of healthcare management. From comprehensive hospital management to advanced telehealth services, our platform ensures security with encryption, role-based access control, and full HIPAA compliance. Trusted by renowned healthcare providers like Apollo Homecare and Grand World Elder Care, DocEngage stands as a beacon of innovation, enhancing patient care, engagement, and overall operational efficiency. Join us on the forefront of Digital Healthcare with DocEngage!
+                      DocEngage, a healthcare management solution designed to
+                      revolutionize the way medical institutions operate.
+                      Offering a holistic platform for both single and
+                      multi-speciality hospitals, DocEngage provides a suite of
+                      six products, over 30 apps, and seamless integrations to
+                      streamline every aspect of healthcare management. From
+                      comprehensive hospital management to advanced telehealth
+                      services, our platform ensures security with encryption,
+                      role-based access control, and full HIPAA compliance.
+                      Trusted by renowned healthcare providers like Apollo
+                      Homecare and Grand World Elder Care, DocEngage stands as a
+                      beacon of innovation, enhancing patient care, engagement,
+                      and overall operational efficiency. Join us on the
+                      forefront of Digital Healthcare with DocEngage!
                     </p>{" "}
                     <hr />
                     <div
@@ -5922,7 +5972,7 @@ const List = ({ styles }) => {
                   >
                     <div className="d-flex p-4">
                       <div>
-                        <Link href="/ungerboeck">
+                        <Link href="/qualis-lims">
                           <Image
                             src="/images/qualis.png"
                             alt="qualis"
@@ -5933,14 +5983,14 @@ const List = ({ styles }) => {
                         </Link>
                       </div>
                       <div>
-                        <Link href="/ungerboeck">
+                        <Link href="/qualis-lims">
                           {" "}
                           <h5>Qualis LIMS</h5>
                           <p>LAboratory Information Management System</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
-                            <Link href="/ungerboeck">
+                            <Link href="/qualis-lims">
                               <span className="span-style">
                                 0.0 <FaStar className="star-size" />
                               </span>
@@ -5953,7 +6003,20 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                    Qualis LIMS is an advanced Laboratory Information Management System, uniquely tailored to digitally transform laboratories across diverse industries such as Pharmaceuticals, Lifesciences, and more. Offering a seamless blend of versatility and user-friendly design, this software optimizes operations by automating processes and eliminating paper-based workflows. Boasting integrated modules for sample management, project tracking, and result analysis, Qualis LIMS stands out with its dynamic dashboards and configurable templates. With features like resource planning, compliance adherence, and electronic signatures, it ensures time-saving, reliable, and compliant laboratory operations, fostering uniformity, precision, and an enhanced user experience.
+                      Qualis LIMS is an advanced Laboratory Information
+                      Management System, uniquely tailored to digitally
+                      transform laboratories across diverse industries such as
+                      Pharmaceuticals, Lifesciences, and more. Offering a
+                      seamless blend of versatility and user-friendly design,
+                      this software optimizes operations by automating processes
+                      and eliminating paper-based workflows. Boasting integrated
+                      modules for sample management, project tracking, and
+                      result analysis, Qualis LIMS stands out with its dynamic
+                      dashboards and configurable templates. With features like
+                      resource planning, compliance adherence, and electronic
+                      signatures, it ensures time-saving, reliable, and
+                      compliant laboratory operations, fostering uniformity,
+                      precision, and an enhanced user experience.
                     </p>{" "}
                     <hr />
                     <div
@@ -6261,7 +6324,7 @@ const List = ({ styles }) => {
                   >
                     <div className="d-flex p-4">
                       <div>
-                        <Link href="/eventtemple">
+                        <Link href="/mmi-softwares">
                           <Image
                             src="/images/mmi-mediface.jpg"
                             alt="mmi-mediface"
@@ -6272,14 +6335,14 @@ const List = ({ styles }) => {
                         </Link>
                       </div>
                       <div>
-                        <Link href="/eventtemple">
+                        <Link href="/mmi-softwares">
                           {" "}
                           <h5> MMI Softwares </h5>
                           <p>Exclusively Designed for Hospitals</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
-                            <Link href="/eventtemple">
+                            <Link href="/mmi-softwares">
                               <span className="span-style">
                                 0.0 <FaStar className="star-size" />
                               </span>
@@ -6292,7 +6355,20 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                    The Hospital Management System by MMI Softwares is an integrated information system designed to streamline and enhance all aspects of a hospital's operations. This comprehensive software manages medical, financial, administrative, legal, and compliance functions, incorporating electronic health records, business intelligence, and revenue cycle services. Tailored for ease of use, the system aims to optimize administration, improve patient care, and maximize revenue for healthcare providers in India. MMI Softwares' Hospital Management Software offers a digital solution that efficiently handles diverse organizational and service processes, promoting seamless collaboration and information sharing across healthcare settings.
+                      The Hospital Management System by MMI Softwares is an
+                      integrated information system designed to streamline and
+                      enhance all aspects of a hospital's operations. This
+                      comprehensive software manages medical, financial,
+                      administrative, legal, and compliance functions,
+                      incorporating electronic health records, business
+                      intelligence, and revenue cycle services. Tailored for
+                      ease of use, the system aims to optimize administration,
+                      improve patient care, and maximize revenue for healthcare
+                      providers in India. MMI Softwares' Hospital Management
+                      Software offers a digital solution that efficiently
+                      handles diverse organizational and service processes,
+                      promoting seamless collaboration and information sharing
+                      across healthcare settings.
                     </p>{" "}
                     <hr />
                     <div
@@ -6600,7 +6676,7 @@ const List = ({ styles }) => {
                   >
                     <div className="d-flex p-4">
                       <div>
-                        <Link href="/tix">
+                        <Link href="/administator-plus">
                           <Image
                             src="/images/administratorplus.jpg"
                             alt="administratorplus"
@@ -6611,14 +6687,14 @@ const List = ({ styles }) => {
                         </Link>
                       </div>
                       <div>
-                        <Link href="/tix">
+                        <Link href="/administator-plus">
                           {" "}
                           <h5>Administrator Plus</h5>
                           <p>Software by Accurate Info Soft Pvt. Ltd.</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
-                            <Link href="/tix">
+                            <Link href="/administator-plus">
                               <span className="span-style">
                                 0.0 <FaStar className="star-size" />
                               </span>
@@ -6631,7 +6707,21 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                    Administrator Plus by Accurate Infosoft, a cutting-edge Hospital Management System Software that stands at the forefront of healthcare administration. With over 25 years of expertise and 200 successful implementations, Administrator Plus offers end-to-end ERP solutions, seamlessly integrating the latest technology to streamline hospital processes. This robust software, designed for multi-specialty hospitals, automates tasks such as billing, appointments, scheduling, and financial auditing, ensuring efficient management. Utilizing Microsoft technologies for the front end and flexible back ends like Oracle and SQL, Administrator Plus is the epitome of innovation, enhancing data security, improving patient care, and revolutionizing the landscape of healthcare management.
+                      Administrator Plus by Accurate Infosoft, a cutting-edge
+                      Hospital Management System Software that stands at the
+                      forefront of healthcare administration. With over 25 years
+                      of expertise and 200 successful implementations,
+                      Administrator Plus offers end-to-end ERP solutions,
+                      seamlessly integrating the latest technology to streamline
+                      hospital processes. This robust software, designed for
+                      multi-specialty hospitals, automates tasks such as
+                      billing, appointments, scheduling, and financial auditing,
+                      ensuring efficient management. Utilizing Microsoft
+                      technologies for the front end and flexible back ends like
+                      Oracle and SQL, Administrator Plus is the epitome of
+                      innovation, enhancing data security, improving patient
+                      care, and revolutionizing the landscape of healthcare
+                      management.
                     </p>{" "}
                     <hr />
                     <div
@@ -6939,7 +7029,7 @@ const List = ({ styles }) => {
                   >
                     <div className="d-flex p-4">
                       <div>
-                        <Link href="/tix">
+                        <Link href="/amrita-his">
                           <Image
                             src="/images/amrita.png"
                             alt="amrita"
@@ -6950,14 +7040,16 @@ const List = ({ styles }) => {
                         </Link>
                       </div>
                       <div>
-                        <Link href="/tix">
+                        <Link href="/amrita-his">
                           {" "}
                           <h5>Amrita Hospital Information System </h5>
-                          <p>Amrita HIS is built on an EMR Foundation for multi</p>
+                          <p>
+                            Amrita HIS is built on an EMR Foundation for multi
+                          </p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
-                            <Link href="/tix">
+                            <Link href="/amrita-his">
                               <span className="span-style">
                                 0.0 <FaStar className="star-size" />
                               </span>
@@ -6970,7 +7062,21 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                    Amrita Hospital Information System (AHIS), a pioneering healthcare informatics suite meticulously crafted by Amrita Vishwa Vidyapeetham. This cutting-edge software represents the epitome of innovation, seamlessly blending science and spirituality to create a platform-independent, fully integrated Enterprise Information System. AHIS stands as a testament to Amrita's leadership in research and development, providing a holistic approach to patient care management across clinical domains. Certified as a Complete EHR, it not only meets international standards but also fosters research, development, and global advancements in medical informatics. Step into the future of healthcare with AHIS, where technology and compassion converge for a transformative impact on healthcare delivery.
+                      Amrita Hospital Information System (AHIS), a pioneering
+                      healthcare informatics suite meticulously crafted by
+                      Amrita Vishwa Vidyapeetham. This cutting-edge software
+                      represents the epitome of innovation, seamlessly blending
+                      science and spirituality to create a platform-independent,
+                      fully integrated Enterprise Information System. AHIS
+                      stands as a testament to Amrita's leadership in research
+                      and development, providing a holistic approach to patient
+                      care management across clinical domains. Certified as a
+                      Complete EHR, it not only meets international standards
+                      but also fosters research, development, and global
+                      advancements in medical informatics. Step into the future
+                      of healthcare with AHIS, where technology and compassion
+                      converge for a transformative impact on healthcare
+                      delivery.
                     </p>{" "}
                     <hr />
                     <div
@@ -7278,7 +7384,7 @@ const List = ({ styles }) => {
                   >
                     <div className="d-flex p-4">
                       <div>
-                        <Link href="/tix">
+                        <Link href="/aarogya-hmis">
                           <Image
                             src="/images/aarogya.png"
                             alt="aarogya"
@@ -7289,14 +7395,14 @@ const List = ({ styles }) => {
                         </Link>
                       </div>
                       <div>
-                        <Link href="/tix">
+                        <Link href="/aarogya-hmis">
                           {" "}
                           <h5>Aarogya HMIS</h5>
                           <p>HOSPITAL SOFTWARE BY Dataman Computer Systems</p>
                         </Link>
                         <div className="d-flex">
                           <div className="me-3">
-                            <Link href="/tix">
+                            <Link href="/aarogya-hmis">
                               <span className="span-style">
                                 0.0 <FaStar className="star-size" />
                               </span>
@@ -7309,8 +7415,24 @@ const List = ({ styles }) => {
                       </div>
                     </div>
                     <p className="px-4">
-                    Aarogya, the pinnacle of healthcare efficiency and precision. Aarogya stands as a fully integrated Hospital Management Information System (HMIS), catering to the diverse needs of mid-size to large hospitals, laboratories, and polyclinics. With its state-of-the-art features, Aarogya ensures seamless management of outpatient (OPD) and inpatient (IPD) processes, organized operation theater schedules, and streamlined insurance management through integrated TPA modules. From pathology and pharmacy software to comprehensive inventory control, Aarogya optimizes every facet of healthcare administration. Experience transparency in financial processes, coupled with robust payroll and HR management. With additional modules for Blood Bank and Radiology, Aarogya emerges as the ultimate solution for comprehensive healthcare management. Welcome to a new era of healthcare efficiency with Aarogya.
-                                        </p>{" "}
+                      Aarogya, the pinnacle of healthcare efficiency and
+                      precision. Aarogya stands as a fully integrated Hospital
+                      Management Information System (HMIS), catering to the
+                      diverse needs of mid-size to large hospitals,
+                      laboratories, and polyclinics. With its state-of-the-art
+                      features, Aarogya ensures seamless management of
+                      outpatient (OPD) and inpatient (IPD) processes, organized
+                      operation theater schedules, and streamlined insurance
+                      management through integrated TPA modules. From pathology
+                      and pharmacy software to comprehensive inventory control,
+                      Aarogya optimizes every facet of healthcare
+                      administration. Experience transparency in financial
+                      processes, coupled with robust payroll and HR management.
+                      With additional modules for Blood Bank and Radiology,
+                      Aarogya emerges as the ultimate solution for comprehensive
+                      healthcare management. Welcome to a new era of healthcare
+                      efficiency with Aarogya.
+                    </p>{" "}
                     <hr />
                     <div
                       className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
