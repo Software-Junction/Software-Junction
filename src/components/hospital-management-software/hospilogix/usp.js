@@ -3,40 +3,32 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const uspData = [
   {
-    "title": "Integrated HMS for Seamless Operations",
-    "content": "MocDoc's Integrated Hospital Management System (HMS) serves as a centralized platform that brings together various departments within a healthcare facility. This integration facilitates smooth communication, data sharing, and collaboration among different units, leading to improved overall efficiency and patient care."
+    "title": "Wide Adoption and Credibility",
+    "content": "Implemented at more than <span style=\"color:#FC5185 ;\"><strong>100</strong></span> hospitals across India, including prestigious institutions like Medanta, Metro Group of Hospitals, Primus Group of Hospitals, the Indian Army, and the Indian Air Force. Presence in NABH and NABL accredited hospitals and labs, indicating compliance with quality standards."
   },
   {
-    "title": "Accurate Reporting for Informed Decision-Making",
-    "content": "MocDoc ensures that all generated reports are accurate and meticulously recorded by the system. This commitment to precision enables healthcare organizations to make informed decisions based on reliable data, contributing to better patient outcomes and operational excellence."
+    "title": "Speedy Implementation and Support",
+    "content": "Acknowledges the critical nature of time in hospitals, boasting quick implementation with some units going live in as little as <span style=\"color:#FC5185 ;\"><strong>3</strong></span> days. Provides support for critical issues seven days a week."
   },
   {
-    "title": "Quality Control Enhancement",
-    "content": "Leveraging technically advanced features, MocDoc aims to enhance the quality of services provided by healthcare organizations. These features may include tools for monitoring and improving clinical processes, ensuring adherence to quality standards, and ultimately raising the level of healthcare delivery."
+    "title": "Technological Advancements",
+    "content": "Utilizes open source technology standards to keep the Total Cost of Ownership (TCO) low during deployment. HL7 and DICOM compliant, ensuring seamless integration with medical equipment and third-party applications. Fully functional on thin clients, minimizing the cost of hardware deployment."
   },
   {
-    "title": "Advanced Technology Integration",
-    "content": "MocDoc's Hospital Information Management System is built on cutting-edge and automated technology. This design allows healthcare organizations to leverage the latest advancements, ensuring that they operate efficiently, stay competitive, and adapt to evolving industry standards."
+    "title": "Interoperability and Integration",
+    "content": "Seamlessly integrates with all <span style=\"color:#FC5185 ;\"><strong>HL7/R232</strong></span> compliant medical equipment and third-party applications. Offers integration possibilities with ERP systems like SAP and Oracle."
   },
   {
-    "title": "Global Reach and Customization",
-    "content": "MocDoc positions itself as a global solution adaptable to hospitals worldwide. The software's flexibility allows for easy customization to meet the specific needs and requirements of diverse healthcare facilities, making it a versatile and scalable solution."
+    "title": "Quality and Compliance Focus",
+    "content": "NABH and NABL compliant, emphasizing adherence to quality standards in healthcare."
   },
   {
-    "title": "Seamless Integration with Existing Systems",
-    "content": "MocDoc HMS provides seamless integration with various systems crucial to healthcare operations. This includes Laboratory Information Systems (LIS), Picture Archiving and Communication Systems (PACS), and Electronic Medical Records (EMR), fostering a cohesive and interconnected healthcare ecosystem."
+    "title": "Diverse Industry Presence",
+    "content": "Used by hospitals of varying sizes, ranging from <span style=\"color:#FC5185 ;\"><strong>30</strong></span>-bed units to <span style=\"color:#FC5185 ;\"><strong>800</strong></span>-bed units, showcasing scalability and adaptability."
   },
   {
-    "title": "Specialized EMR Features",
-    "content": "The Visual EMR system in MocDoc offers specialty-wise Electronic Medical Records and Visual Case Sheet options. This feature allows for the creation of follow-up visits while retaining previous data, auto-filling commonly used case sheet information, saving time, and reducing the reliance on paper documentation."
-  },
-  {
-    "title": "Expense Control and Invoice Generation",
-    "content": "The system provides detailed control over expenses through features like FSN Analysis. Additionally, MocDoc allows for the generation of invoices for various purposes such as franchising and outsourcing labs. This ensures financial transparency and helps in monitoring and managing costs effectively."
-  },
-  {
-    "title": "Lab Order Management Automation",
-    "content": "MocDoc streamlines lab processes with features such as the ability to place orders for samples directly from the application, barcode printing, sample data recording, and integration with lab machines. This automation enhances efficiency, accuracy, and overall automation in the laboratory."
+    "title": "Versatile Specialized Modules",
+    "content": "Provides specialty modules catering to specific healthcare needs such as IVF & Infertility, EMR (Electronic Medical Records), CSSD, Oncology, etc."
   }
 ];
 {/* <span style=\"color:#FC5185 ;\"><strong> */}
@@ -52,7 +44,7 @@ const Usp = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={12}>
-            <h3 className="mb-3">USP of MocDoc</h3>
+            <h3 className="mb-3">USP of Hospilogix</h3>
           </Col>
           {uspData.map((item, index) => (
             <Col lg={4} className="mb-4" key={index}>

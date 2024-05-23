@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Details from "./details";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
-import styles from "../mocdoc/moc.module.scss";
+import styles from "../knowit-hms/kno.module.scss";
 const Index = () => {
   return (
     <>
@@ -36,23 +36,23 @@ const Index = () => {
                   </span>
                   &nbsp;
                   <li>
-                    <Link href="">MocDoc</Link>
+                    <Link href="">KnowIT HMS</Link>
                   </li>
                 </ul>
               </div>
               <div>
                 <div className="d-flex">
                   <Image
-                    src="/images/mocdoc.png"
-                    alt="mocdoc"
+                    src="/images/knowit.png"
+                    alt="knowit"
                     width="200"
                     height="10"
                     className={`${styles["box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
                   />
                   <div>
-                    <h3 className="text-light">MocDoc</h3>
+                    <h3 className="text-light">KnowIT HMS</h3>
                     <h5 className="text-light">
-                    Complete End to End System for Managing Hospitals
+                    Hospital Management System
                     </h5>
                     <span className="span-style">
                       0.0 <FaStar className="star-size" />

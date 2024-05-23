@@ -33,9 +33,9 @@ const Details = ({ styles }) => {
         <Usp styles={styles} />
       </section>
 
-      <section className={`${styles["spec"]} mt-5`}>
+      {/* <section className={`${styles["spec"]} mt-5`}>
         <Specs styles={styles} />
-      </section>
+      </section> */}
 
       {/* <section className={`${styles["pricing"]} mt-5`} id="idpricing">
         <Price styles={styles} />

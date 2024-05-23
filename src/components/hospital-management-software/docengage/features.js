@@ -4,80 +4,115 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaCheck } from "react-icons/fa";
 
 const featuresData = [
-  { "title": "Patient Registration" },
-  { "title": "Doctor Schedule & Appointments" },
-  { "title": "Accident & Emergency Care" },
-  { "title": "Inventory Management & Consumption Tracking" },
-  { "title": "Billing & Revenue Cycle Management" },
   { "title": "Referral Management" },
-  { "title": "Hospital Support Function System" },
-  { "title": "Day Care Management System" },
-  { "title": "System Administration Functions" },
-  { "title": "Radiology & Imaging Information System" },
-  { "title": "Billing System" },
-  { "title": "Inventory control" },
-  { "title": "Diagnostic Management" },
-  { "title": "Client Management & Credit Control" },
-  { "title": "Doctor Consultation & Electronic Medical Record" },
-  { "title": "Pharmacy Information System (Drugs" },
-  { "title": "Marketing Control System" },
-  { "title": "Lab Information System" },
-  { "title": "Modality (Diagnostic) Schedule & Appointments" },
-  { "title": "Purchase" },
-  { "title": "Procedure Management" },
-  { "title": "Pharmacy with Inventory" },
-  { "title": "Electronic medical records" },
   { "title": "In-patient Management System" },
-  { "title": "PACS Support" },
-  { "title": "System Administration Functions" },
-  { "title": "Pharmacy Information System (Opticals)" }
+  { "title": "Billing & Revenue Cycle Management" },
+  { "title": "Lab Information System" },
+  { "title": "Expense Management" },
+  { "title": "Practice Management" },
+  { "title": "Customer Management" },
+  { "title": "Inventory Management" },
+  { "title": "Day Care Management System" },
+  { "title": "Appointment Management" },
+  { "title": "Inventory Management & Consumption Tracking" },
+  { "title": "Patient Registration" },
+  { "title": "Electronic medical records" },
+  { "title": "Inventory control" },
+  { "title": "Document Management" },
+  { "title": "Doctor Schedule & Appointments" },
+  { "title": "Modality (Diagnostic) Schedule & Appointments" },
+  { "title": "Pharmacy Information System (Drugs, Opticals)" },
+  { "title": "Doctor Consultation & Electronic Medical Record" },
+  { "title": "Asset Management" },
+  { "title": "Diagnostic Management" },
+  { "title": "Purchase" },
+  { "title": "Case Management" },
+  { "title": "HIPAA Compliant" },
+ 
 ];
 
-// const moreFeatures = [
-//   { "title": "Supplier and Purchase Order Management" },
-//   { "title": "Bank Reconciliation" },
-//   {"title": "Barcode Integration"},
-//   { "title": "Purchase Management" },
-//   { "title": "GST Ready" },
-//   { "title": "Taxation Management" },
-//   { "title": "Integrate Different Payment Gateways" },
-//   { "title": "Fund accounting" },
-//   { "title": "Sales Management" },
-//   { "title": "Billing & Invoicing" },
-//   { "title": "GST Compliance" },
-//   { "title": "Mobile Access" },
-//   { "title": "Accounts payable" },
-//   { "title": "Document Printing" },
-//   { "title": "Account Management" },
-//   { "title": "Analytics" },
-//   { "title": "Warehouse Management" },
-//   { "title": "Live Chat" },
-//   { "title": "Multi-Branch Connectivity" },
-//   { "title": "Balance Sheet" },
-//   { "title": "Bills of Material" },
-//   { "title": "Quotation & Estimates" },
-//   { "title": "Budgeting & Forecasting" },
-//   { "title": "Accounts Receivable" },
-//   { "title": "Compliance Management" },
-//   { "title": "Checks & Controls" },
-//   { "title": "Service Tax" },
-//   { "title": "Collections" },
-//   { "title": "24/7 Support" },
-//   { "title": "GST audit report" },
-//   { "title": "GST returns" },
-//   { "title": "Voucher Management" },
-//   { "title": "GST Tax Invoice" },
-//   { "title": "GST Compatible" },
-//   { "title": "Accounting Integration" },
-//   { "title": "Billing" },
-//   { "title": "Job Work" },
-//   { "title": "MIS Reporting Capabilities" },
-//   { "title": "Data Exchange Capabilities" },
-//   { "title": "Integrated payment processing" },
-//   { "title": "Annual Filings" },
-//   { "title": "Web Access / Restoration" },
-//   { "title": "Statutory Capabilities" }
-// ];
+const moreFeatures = [
+  { "title": "Mobile Access" },
+  { "title": "E-Prescribing" },
+  { "title": "Patient Intake" },
+  { "title": "Patient Records" },
+  { "title": "Billing & Invoicing" },
+  { "title": "Medical History Record" },
+  { "title": "Multi-Physician" },
+  { "title": "Charting" },
+  { "title": "Activity Tracking" },
+  { "title": "Patient Scheduling" },
+  { "title": "Patient Communications" },
+  { "title": "Patient Transfer" },
+  { "title": "Disease Management" },
+  { "title": "Vitals Tracking" },
+  { "title": "Admissions Management" },
+  { "title": "Dashboard" },
+  { "title": "Patient Record Management" },
+  { "title": "Medical History Records" },
+  { "title": "Geriatric Care" },
+  { "title": "EMR/EHR" },
+  { "title": "Patient Billing" },
+  { "title": "Caregiver Management" },
+  { "title": "Out-Patient Management" },
+  { "title": "Analytical Reports" },
+  { "title": "Automated Review & Approval" },
+  { "title": "Patient Discharge" },
+  { "title": "Care Plan Management" },
+  { "title": "Scheduling" },
+  { "title": "EMR / EHR" },
+  { "title": "HIPAA Compliance" },
+  { "title": "Patient Management" },
+  { "title": "Prescription Management" },
+  { "title": "Manage Lab Tests" },
+  { "title": "Patient Records Management" },
+  { "title": "Patient Record Management" },
+  { "title": "Discharge Management" },
+  { "title": "Digital Signature" },
+  { "title": "Medical Equipment Maintenance" },
+  { "title": "Manage Consultations" },
+  { "title": "Patient Portal" },
+  { "title": "Approval Process Control" },
+  { "title": "Assessment Notes" },
+  { "title": "Electronic Health Record" },
+  { "title": "Appointment Scheduling" },
+  { "title": "Multi-Location" },
+  { "title": "Multi-Office" },
+  { "title": "Medication Database" },
+  { "title": "In-Patient Management" },
+  { "title": "Pharmacy with Inventory" },
+  { "title": "Alerts/Notifications" },
+  { "title": "Bed Management" },
+  { "title": "Clinical Care" },
+  { "title": "Email Management" },
+  { "title": "Medication Tracking" },
+  { "title": "Messaging" },
+  { "title": "Case List Management" },
+  { "title": "Medical Billing" },
+  { "title": "Physician Management" },
+  { "title": "Audience Targeting" },
+  { "title": "Care Planning" },
+  { "title": "Care Plan Management" },
+  { "title": "Manage Imaging and Diagnostics" },
+  { "title": "Prescription Management" },
+  { "title": "E/M Coding" },
+  { "title": "Calendar Management" },
+  { "title": "Revenue Management" },
+  { "title": "No-Show Tracking" },
+  { "title": "Approval Workflow" },
+  { "title": "Assessment Management" },
+  { "title": "Due date tracking" },
+  { "title": "Digital Signature" },
+  { "title": "Vitals Tracking" },
+  { "title": "Manage Imaging and Diagnostics" },
+  { "title": "Patient Record Management" },
+  { "title": "Manage Consultations" },
+  { "title": "Physician Portal" },
+  { "title": "No-Show Tracking" },
+  { "title": "For Nursing Homes" },
+  { "title": "For Home Care Providers" },
+  { "title": "Disease Management" }
+];
 
 
 const Features = ({ styles }) => {
@@ -109,7 +144,7 @@ const Features = ({ styles }) => {
 
           {isShowMore && 
           <>
-          {/* {moreFeatures.map((featureM, index) => (
+          {moreFeatures.map((featureM, index) => (
             <Col lg={3} className="mb-4" key={index}>
               <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                 {" "}
@@ -121,16 +156,16 @@ const Features = ({ styles }) => {
                 </h5>
               </div>
             </Col>
-          ))} */}
+          ))}
           </>
           }
-          {/* <Col lg={12}>
+          <Col lg={12}>
             <div className={styles["feature-btn"]}>
               <Button className="mt-4" onClick={toggleReadMoreLess}>
                 {isShowMore ? "Show Less \u2191" : "Show More \u2193"}
               </Button>
             </div>
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </>

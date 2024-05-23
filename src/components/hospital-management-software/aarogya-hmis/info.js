@@ -9,22 +9,23 @@ const Info = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={6}>
-            <h3>What is MocDoc ?</h3>
+            <h3>What is Aarogya HMIS ?</h3>
             <p>
-              MocDoc is a comprehensive Hospital Management System (HMS) and
-              Professional Network that operates on a SaaS-based platform. It
-              serves as an integrated solution for healthcare institutions
-              globally, connecting all departments seamlessly. MocDoc ensures
-              accurate reporting, quality control, and effective time
-              management, contributing to enhanced productivity. Notable
-              features include advanced appointment scheduling, technically
-              advanced solutions, and integration capabilities with LIS, PACS,
-              and EMR systems. With a decade-long presence in the healthcare
-              industry, MocDoc stands out for its customization and integration
-              expertise, offering tailored solutions for hospitals, clinics,
-              labs, and pharmacies. Trusted for its reliable support and
-              advanced functionalities, MocDoc is a cost-effective choice for
-              healthcare professionals.
+              Aarogya, the pinnacle of healthcare efficiency and precision.
+              Aarogya stands as a fully integrated Hospital Management
+              Information System (HMIS), catering to the diverse needs of
+              mid-size to large hospitals, laboratories, and polyclinics. With
+              its state-of-the-art features, Aarogya ensures seamless management
+              of outpatient (OPD) and inpatient (IPD) processes, organized
+              operation theater schedules, and streamlined insurance management
+              through integrated TPA modules. From pathology and pharmacy
+              software to comprehensive inventory control, Aarogya optimizes
+              every facet of healthcare administration. Experience transparency
+              in financial processes, coupled with robust payroll and HR
+              management. With additional modules for Blood Bank and Radiology,
+              Aarogya emerges as the ultimate solution for comprehensive
+              healthcare management. Welcome to a new era of healthcare
+              efficiency with Aarogya.
             </p>
             <div
               className={`${styles["priceplan-box"]} box bg-light  rounded-4 p-3 mb-4 border`}

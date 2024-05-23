@@ -3,40 +3,48 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const uspData = [
   {
-    "title": "Integrated HMS for Seamless Operations",
-    "content": "MocDoc's Integrated Hospital Management System (HMS) serves as a centralized platform that brings together various departments within a healthcare facility. This integration facilitates smooth communication, data sharing, and collaboration among different units, leading to improved overall efficiency and patient care."
+    "title": "Fully Integrated HMIS",
+    "content": "AAROGYA provides a comprehensive Hospital Management Information System (HMIS) that integrates seamlessly with various hospital functionalities, catering to mid-size to large hospitals, investigation labs, and polyclinics."
   },
   {
-    "title": "Accurate Reporting for Informed Decision-Making",
-    "content": "MocDoc ensures that all generated reports are accurate and meticulously recorded by the system. This commitment to precision enables healthcare organizations to make informed decisions based on reliable data, contributing to better patient outcomes and operational excellence."
+    "title": "Efficient OPD Management",
+    "content": "The software ensures organized Outpatient Department (OPD) management, facilitating the handling of a large number of patients attended by multiple doctors. It covers the complete OPD cycle, including registration, patient history, diagnosis, and prescription management."
   },
   {
-    "title": "Quality Control Enhancement",
-    "content": "Leveraging technically advanced features, MocDoc aims to enhance the quality of services provided by healthcare organizations. These features may include tools for monitoring and improving clinical processes, ensuring adherence to quality standards, and ultimately raising the level of healthcare delivery."
+    "title": "Comprehensive IPD Management",
+    "content": "AAROGYA offers a complete Inpatient Management Module, overseeing all inpatient functionalities from patient registration to billing, with detailed tracking of patient records."
   },
   {
-    "title": "Advanced Technology Integration",
-    "content": "MocDoc's Hospital Information Management System is built on cutting-edge and automated technology. This design allows healthcare organizations to leverage the latest advancements, ensuring that they operate efficiently, stay competitive, and adapt to evolving industry standards."
+    "title": "Streamlined OT Management",
+    "content": "The Operation Theater module efficiently handles the scheduling of operation theaters, surgery teams, patient tracking, consumable management, accounting, and roster management, including the issuance of death and birth certificates."
   },
   {
-    "title": "Global Reach and Customization",
-    "content": "MocDoc positions itself as a global solution adaptable to hospitals worldwide. The software's flexibility allows for easy customization to meet the specific needs and requirements of diverse healthcare facilities, making it a versatile and scalable solution."
+    "title": "Integrated TPA Module",
+    "content": "AAROGYA comes with an integrated Third-Party Administrator (TPA) module, providing seamless insurance management for processing bill settlements of patients covered under insurance."
   },
   {
-    "title": "Seamless Integration with Existing Systems",
-    "content": "MocDoc HMS provides seamless integration with various systems crucial to healthcare operations. This includes Laboratory Information Systems (LIS), Picture Archiving and Communication Systems (PACS), and Electronic Medical Records (EMR), fostering a cohesive and interconnected healthcare ecosystem."
+    "title": "Advanced Pathology Lab Management",
+    "content": "The software supports fully configurable laboratory test reports, facilitating the definition of laboratory tests and instant ordering in both outpatient and inpatient scenarios."
   },
   {
-    "title": "Specialized EMR Features",
-    "content": "The Visual EMR system in MocDoc offers specialty-wise Electronic Medical Records and Visual Case Sheet options. This feature allows for the creation of follow-up visits while retaining previous data, auto-filling commonly used case sheet information, saving time, and reducing the reliance on paper documentation."
+    "title": "Centralized Pharmacy Software",
+    "content": "AAROGYA includes a centralized and distributed pharmacy system with functionalities such as stock tracking, ordering, and medicine receipt from wholesalers/vendors."
   },
   {
-    "title": "Expense Control and Invoice Generation",
-    "content": "The system provides detailed control over expenses through features like FSN Analysis. Additionally, MocDoc allows for the generation of invoices for various purposes such as franchising and outsourcing labs. This ensures financial transparency and helps in monitoring and managing costs effectively."
+    "title": "Robust Financial & Accounting Management",
+    "content": "The financial module optimizes monetary flow, providing transparency and accountability, aiding in achieving monetary goals effectively."
   },
   {
-    "title": "Lab Order Management Automation",
-    "content": "MocDoc streamlines lab processes with features such as the ability to place orders for samples directly from the application, barcode printing, sample data recording, and integration with lab machines. This automation enhances efficiency, accuracy, and overall automation in the laboratory."
+    "title": "Integrated Payroll and HR Management",
+    "content": "AAROGYA covers routine HR activities, including attendance and leave management, payroll processing, loan tracking, and employee records for both existing and contractual employees."
+  },
+  {
+    "title": "Efficient Radiology Module",
+    "content": "AAROGYA's Radiology Module allows for multiple tests, providing prompt access to results."
+  },
+  {
+    "title": "Geographical Presence",
+    "content": "With offices in Kanpur, Mumbai, Delhi, and Bengaluru, AAROGYA demonstrates a widespread geographical presence for better client accessibility and support."
   }
 ];
 {/* <span style=\"color:#FC5185 ;\"><strong> */}
@@ -52,7 +60,7 @@ const Usp = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={12}>
-            <h3 className="mb-3">USP of MocDoc</h3>
+            <h3 className="mb-3">USP of Aarogya HMIS</h3>
           </Col>
           {uspData.map((item, index) => (
             <Col lg={4} className="mb-4" key={index}>

@@ -9,22 +9,22 @@ const Info = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={6}>
-            <h3>What is MocDoc ?</h3>
+            <h3>
+              What is KareXpert's Hospital Information Management System ?
+            </h3>
             <p>
-              MocDoc is a comprehensive Hospital Management System (HMS) and
-              Professional Network that operates on a SaaS-based platform. It
-              serves as an integrated solution for healthcare institutions
-              globally, connecting all departments seamlessly. MocDoc ensures
-              accurate reporting, quality control, and effective time
-              management, contributing to enhanced productivity. Notable
-              features include advanced appointment scheduling, technically
-              advanced solutions, and integration capabilities with LIS, PACS,
-              and EMR systems. With a decade-long presence in the healthcare
-              industry, MocDoc stands out for its customization and integration
-              expertise, offering tailored solutions for hospitals, clinics,
-              labs, and pharmacies. Trusted for its reliable support and
-              advanced functionalities, MocDoc is a cost-effective choice for
-              healthcare professionals.
+              KareXpert's Hospital Information Management System (HIMS) is a
+              healthcare management software designed to streamline hospital
+              operations. It offers features such as role-based access control,
+              IPD and OPD management, billing solutions, and facility
+              management. With a user-friendly mobile and web interface, it
+              enhances digital presence and patient engagement. The software
+              covers diverse aspects, including Emergency Response Care, Diet
+              Management, and Patient Feedback, ensuring efficient healthcare
+              delivery. KareXpert's HIMS empowers hospitals with a centralized
+              platform, incorporating AI, data analytics, and connectivity
+              across various healthcare domains for improved patient care and
+              operational excellence.
             </p>
             <div
               className={`${styles["priceplan-box"]} box bg-light  rounded-4 p-3 mb-4 border`}

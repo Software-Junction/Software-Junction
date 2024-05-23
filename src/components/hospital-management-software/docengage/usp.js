@@ -3,40 +3,28 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const uspData = [
   {
-    "title": "Integrated HMS for Seamless Operations",
-    "content": "MocDoc's Integrated Hospital Management System (HMS) serves as a centralized platform that brings together various departments within a healthcare facility. This integration facilitates smooth communication, data sharing, and collaboration among different units, leading to improved overall efficiency and patient care."
+    "title": "Comprehensive Hospital Management",
+    "content": "DocEngage offers a single platform to run the entire hospital. Six products, <span style=\"color:#FC5185;\"><strong>30+</strong></span> apps, <span style=\"color:#FC5185;\"><strong>100+</strong></span> integrations & APIs, and connected systems provide a holistic solution."
   },
   {
-    "title": "Accurate Reporting for Informed Decision-Making",
-    "content": "MocDoc ensures that all generated reports are accurate and meticulously recorded by the system. This commitment to precision enables healthcare organizations to make informed decisions based on reliable data, contributing to better patient outcomes and operational excellence."
+    "title": "Digital Healthcare Solutions",
+    "content": "Emphasizes on digital healthcare in line with the Digital India initiative. Offers a range of products covering OPD, IPD, ICU Telemedicine, Remote Patient Monitoring, CRM, Clinic Software, EHR, Homecare, and HMS."
   },
   {
-    "title": "Quality Control Enhancement",
-    "content": "Leveraging technically advanced features, MocDoc aims to enhance the quality of services provided by healthcare organizations. These features may include tools for monitoring and improving clinical processes, ensuring adherence to quality standards, and ultimately raising the level of healthcare delivery."
+    "title": "Security and Compliance",
+    "content": "Ensures the highest level of security with communication encrypted through SSL, HTTPS, and geographically dispersed data centers. Adheres to ISO <span style=\"color:#FC5185;\"><strong>27001</strong></span>, ISO <span style=\"color:#FC5185;\"><strong>27017</strong></span>, ISO <span style=\"color:#FC5185;\"><strong>27018</strong></span> standards. Implements role-based access control to prevent unauthorized access to patient information. Sensitive data encryption for protection during transmission and storage. HIPAA compliance for safe and secure access to patient records."
   },
   {
-    "title": "Advanced Technology Integration",
-    "content": "MocDoc's Hospital Information Management System is built on cutting-edge and automated technology. This design allows healthcare organizations to leverage the latest advancements, ensuring that they operate efficiently, stay competitive, and adapt to evolving industry standards."
+    "title": "Testimonials from Trusted Clients",
+    "content": "Positive testimonials from well-known healthcare providers like Apollo Homecare, Grand World Elder Care, Seva Bharathi, Chandra Skin and Laser Centre, Pushpa Khanna Memorial Center, Smriti Nursing Home, AESTHETICA360, and Skin Hair and You. Testimonials highlight the commitment, support, and effectiveness of DocEngage in various healthcare settings."
   },
   {
-    "title": "Global Reach and Customization",
-    "content": "MocDoc positions itself as a global solution adaptable to hospitals worldwide. The software's flexibility allows for easy customization to meet the specific needs and requirements of diverse healthcare facilities, making it a versatile and scalable solution."
+    "title": "Digital Transformation for Healthcare Organizations",
+    "content": "Facilitates digital transformation for healthcare organizations, ensuring resourceful systems for managing data, especially during critical situations like the COVID-19 pandemic."
   },
   {
-    "title": "Seamless Integration with Existing Systems",
-    "content": "MocDoc HMS provides seamless integration with various systems crucial to healthcare operations. This includes Laboratory Information Systems (LIS), Picture Archiving and Communication Systems (PACS), and Electronic Medical Records (EMR), fostering a cohesive and interconnected healthcare ecosystem."
-  },
-  {
-    "title": "Specialized EMR Features",
-    "content": "The Visual EMR system in MocDoc offers specialty-wise Electronic Medical Records and Visual Case Sheet options. This feature allows for the creation of follow-up visits while retaining previous data, auto-filling commonly used case sheet information, saving time, and reducing the reliance on paper documentation."
-  },
-  {
-    "title": "Expense Control and Invoice Generation",
-    "content": "The system provides detailed control over expenses through features like FSN Analysis. Additionally, MocDoc allows for the generation of invoices for various purposes such as franchising and outsourcing labs. This ensures financial transparency and helps in monitoring and managing costs effectively."
-  },
-  {
-    "title": "Lab Order Management Automation",
-    "content": "MocDoc streamlines lab processes with features such as the ability to place orders for samples directly from the application, barcode printing, sample data recording, and integration with lab machines. This automation enhances efficiency, accuracy, and overall automation in the laboratory."
+    "title": "Cost-Effective and Productivity-Boosting",
+    "content": "Packages Appointment, EHR, HCRM, HMS, and Telehealth in a single product, reducing costs and increasing productivity. Utilizes AI for predictability."
   }
 ];
 {/* <span style=\"color:#FC5185 ;\"><strong> */}
@@ -52,7 +40,7 @@ const Usp = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={12}>
-            <h3 className="mb-3">USP of MocDoc</h3>
+            <h3 className="mb-3">USP of DocEngage</h3>
           </Col>
           {uspData.map((item, index) => (
             <Col lg={4} className="mb-4" key={index}>

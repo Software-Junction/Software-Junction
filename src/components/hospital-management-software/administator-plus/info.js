@@ -9,22 +9,21 @@ const Info = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={6}>
-            <h3>What is MocDoc ?</h3>
+            <h3>What is Administrator Plus ?</h3>
             <p>
-              MocDoc is a comprehensive Hospital Management System (HMS) and
-              Professional Network that operates on a SaaS-based platform. It
-              serves as an integrated solution for healthcare institutions
-              globally, connecting all departments seamlessly. MocDoc ensures
-              accurate reporting, quality control, and effective time
-              management, contributing to enhanced productivity. Notable
-              features include advanced appointment scheduling, technically
-              advanced solutions, and integration capabilities with LIS, PACS,
-              and EMR systems. With a decade-long presence in the healthcare
-              industry, MocDoc stands out for its customization and integration
-              expertise, offering tailored solutions for hospitals, clinics,
-              labs, and pharmacies. Trusted for its reliable support and
-              advanced functionalities, MocDoc is a cost-effective choice for
-              healthcare professionals.
+              Administrator Plus by Accurate Infosoft, a cutting-edge Hospital
+              Management System Software that stands at the forefront of
+              healthcare administration. With over 25 years of expertise and 200
+              successful implementations, Administrator Plus offers end-to-end
+              ERP solutions, seamlessly integrating the latest technology to
+              streamline hospital processes. This robust software, designed for
+              multi-specialty hospitals, automates tasks such as billing,
+              appointments, scheduling, and financial auditing, ensuring
+              efficient management. Utilizing Microsoft technologies for the
+              front end and flexible back ends like Oracle and SQL,
+              Administrator Plus is the epitome of innovation, enhancing data
+              security, improving patient care, and revolutionizing the
+              landscape of healthcare management.
             </p>
             <div
               className={`${styles["priceplan-box"]} box bg-light  rounded-4 p-3 mb-4 border`}

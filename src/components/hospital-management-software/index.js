@@ -62,10 +62,11 @@ const Index = () => {
               <Row>
                 <Col lg={12}>
                 <h3 className="mt-5">Top 10 Software Comparision Table</h3>
+                <Cmpchat styles={styles} />
                 </Col>
               </Row>
             </Container>
-            <Cmpchat styles={styles} />
+            
             {/* <Related styles={styles} /> */}
             {/* <Review styles={styles}/> */}
             {/* <Compare styles={styles} /> */}

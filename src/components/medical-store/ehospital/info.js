@@ -29,7 +29,7 @@ const Info = ({ styles }) => {
     <>
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={7}>
             <h3>What is e-Hospital ?</h3>
             <p className={styles['text-alignment']}>
               e-Hospital, an integral part of India's Ayushman Bharath Digital
@@ -55,7 +55,7 @@ const Info = ({ styles }) => {
               <Button variant="primary" href="#idpricing">View Pricing</Button>
             </div>
           </Col>
-          <Col lg={{span:4,offset:2}}>
+          <Col lg={{span:4,offset:1}}>
             {/* <Image
               src="/images/astralss.png"
               alt="astralss"

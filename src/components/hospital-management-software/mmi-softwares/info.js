@@ -9,22 +9,20 @@ const Info = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={6}>
-            <h3>What is MocDoc ?</h3>
+            <h3>What is MMI Softwares ?</h3>
             <p>
-              MocDoc is a comprehensive Hospital Management System (HMS) and
-              Professional Network that operates on a SaaS-based platform. It
-              serves as an integrated solution for healthcare institutions
-              globally, connecting all departments seamlessly. MocDoc ensures
-              accurate reporting, quality control, and effective time
-              management, contributing to enhanced productivity. Notable
-              features include advanced appointment scheduling, technically
-              advanced solutions, and integration capabilities with LIS, PACS,
-              and EMR systems. With a decade-long presence in the healthcare
-              industry, MocDoc stands out for its customization and integration
-              expertise, offering tailored solutions for hospitals, clinics,
-              labs, and pharmacies. Trusted for its reliable support and
-              advanced functionalities, MocDoc is a cost-effective choice for
-              healthcare professionals.
+              The Hospital Management System by MMI Softwares is an integrated
+              information system designed to streamline and enhance all aspects
+              of a hospital's operations. This comprehensive software manages
+              medical, financial, administrative, legal, and compliance
+              functions, incorporating electronic health records, business
+              intelligence, and revenue cycle services. Tailored for ease of
+              use, the system aims to optimize administration, improve patient
+              care, and maximize revenue for healthcare providers in India. MMI
+              Softwares' Hospital Management Software offers a digital solution
+              that efficiently handles diverse organizational and service
+              processes, promoting seamless collaboration and information
+              sharing across healthcare settings.
             </p>
             <div
               className={`${styles["priceplan-box"]} box bg-light  rounded-4 p-3 mb-4 border`}

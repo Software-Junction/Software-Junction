@@ -9,22 +9,21 @@ const Info = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={6}>
-            <h3>What is MocDoc ?</h3>
+            <h3>What is Qualis LIMS ?</h3>
             <p>
-              MocDoc is a comprehensive Hospital Management System (HMS) and
-              Professional Network that operates on a SaaS-based platform. It
-              serves as an integrated solution for healthcare institutions
-              globally, connecting all departments seamlessly. MocDoc ensures
-              accurate reporting, quality control, and effective time
-              management, contributing to enhanced productivity. Notable
-              features include advanced appointment scheduling, technically
-              advanced solutions, and integration capabilities with LIS, PACS,
-              and EMR systems. With a decade-long presence in the healthcare
-              industry, MocDoc stands out for its customization and integration
-              expertise, offering tailored solutions for hospitals, clinics,
-              labs, and pharmacies. Trusted for its reliable support and
-              advanced functionalities, MocDoc is a cost-effective choice for
-              healthcare professionals.
+              Qualis LIMS is an advanced Laboratory Information Management
+              System, uniquely tailored to digitally transform laboratories
+              across diverse industries such as Pharmaceuticals, Lifesciences,
+              and more. Offering a seamless blend of versatility and
+              user-friendly design, this software optimizes operations by
+              automating processes and eliminating paper-based workflows.
+              Boasting integrated modules for sample management, project
+              tracking, and result analysis, Qualis LIMS stands out with its
+              dynamic dashboards and configurable templates. With features like
+              resource planning, compliance adherence, and electronic
+              signatures, it ensures time-saving, reliable, and compliant
+              laboratory operations, fostering uniformity, precision, and an
+              enhanced user experience.
             </p>
             <div
               className={`${styles["priceplan-box"]} box bg-light  rounded-4 p-3 mb-4 border`}

@@ -6,7 +6,7 @@ const Price = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={12}>
-            <h3 className="mb-3">MocDoc Pricing</h3>
+            <h3 className="mb-3">DocEngage Pricing</h3>
           </Col>
           <Col lg={3} className="mb-3">
             <div

@@ -27,7 +27,7 @@ const Specs = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={12}>
-            <h3 className="mb-4">MocDoc Specifications</h3>
+            <h3 className="mb-4">Amrita Hospital Information System Specifications</h3>
           </Col>
           <Row>
             <Col lg={12}>
@@ -35,31 +35,26 @@ const Specs = ({ styles }) => {
                 className={`${styles["soft-specs"]} border bg-light rounded-4 p-4`}
               >
                 <Row>
-                  {/* <Col lg={3} className="mb-3">
+                  <Col lg={3} className="mb-3">
                     <h5>Supported Platforms :</h5>
-                  </Col> */}
-                  {/* <Col lg={9} className="mb-3">
+                  </Col>
+                  <Col lg={9} className="mb-3">
                     <div className={`${styles["spec-mob"]} d-flex`}>
                       <h5 className="me-3">
                         <span className={styles["icon-clr"]}>
                           <FaGlobe />
                         </span>{" "}
                         Web App
-                      </h5> */}
-                      {/* <h5 className="me-3">
+                      </h5>
+                      <h5 className="me-3">
                         <span className={styles["icon-clr"]}>
                           <IoLogoWindows />
                         </span>{" "}
                         Windows
-                      </h5> */}
-                      {/* <h5 className="me-3">
-                        <span className={styles["icon-clr"]}>
-                          <IoLogoApple />
-                        </span>{" "}
-                        MacOs
-                      </h5> */}
-                    {/* </div>
-                  </Col> */}
+                      </h5>
+                      
+                    </div>
+                  </Col>
                   <Col lg={3} className="mb-3">
                     <h5>Deployment :</h5>
                   </Col>
@@ -70,7 +65,7 @@ const Specs = ({ styles }) => {
                     <h5>Subscription Plan :</h5>
                   </Col>
                   <Col lg={9} className="mb-3">
-                    <h5>Both</h5>
+                    <h5>Monthly, Yearly</h5>
                   </Col>
                   <Col lg={3} className="mb-3">
                     <h5>Accessibility :</h5>
@@ -83,12 +78,7 @@ const Specs = ({ styles }) => {
                         </span>{" "}
                         Customization
                       </h5>
-                      <h5 className="me-3">
-                        <span className={styles["icon-clr"]}>
-                          <MdGames />
-                        </span>{" "}
-                        API
-                      </h5>
+                     
                       <h5 className="me-3">
                         <span className={styles["icon-clr"]}>
                           <FaMobileAlt />
@@ -128,24 +118,14 @@ const Specs = ({ styles }) => {
                         </span>{" "}
                         StartUps
                       </h5>
-                      {/* <h5 className="me-3">
-                        <span className={styles["icon-clr"]}>
-                          <FaBuilding />
-                        </span>{" "}
-                        Agencies
-                      </h5> */}
+                      
                       <h5 className="me-3">
                         <span className={styles["icon-clr"]}>
                           <BsBuildingsFill />
                         </span>{" "}
                         Enterprise
                       </h5>
-                      {/* <h5 className="me-3">
-                        <span className={styles["icon-clr"]}>
-                          <FaUserTie />
-                        </span>{" "}
-                        Freelancers
-                      </h5> */}
+                      
                     </div>
                   </Col>
                   <Col lg={3} className="mb-3">
@@ -165,12 +145,7 @@ const Specs = ({ styles }) => {
                         </span>{" "}
                         Phone
                       </h5>
-                      <h5 className="me-3">
-                        <span className={styles["icon-clr"]}>
-                          <GiTeacher />
-                        </span>{" "}
-                        Training
-                      </h5>
+                     
                       <h5 className="me-3">
                         <span className={styles["icon-clr"]}>
                           <BsFillTicketPerforatedFill />
@@ -189,30 +164,22 @@ const Specs = ({ styles }) => {
                       <span className={styles["icon-clr"]}>
                         <FaBuilding />
                       </span>{" "}
-                      Company Name : MocDoc
+                      Company Name : Amrita Technologies
                     </h5>
                     <h5 className="mb-3">
                       <span className={styles["icon-clr"]}>
                         <BsBuildingsFill />
                       </span>{" "}
-                      Headquarter : Chennai
+                      Headquarter : Castro Valley
                     </h5>
-                    <h5 className="mb-3">
-                      <span className={styles["icon-clr"]}>
-                        <FaGlobe />
-                      </span>{" "}
-                      Website :{" "}
-                      <Button size="sm" variant="primary">
-                        visit website
-                      </Button>
-                    </h5>
+                   
                     <h5 className="mb-3">
                       <span className={styles["icon-clr"]}>
                         <FaMapLocationDot />
                       </span>{" "}
                       Full Address :{" "}
                       <p className="mt-2">
-                        Yro Systems Private Limited, #17, 3rd Cross Street, Swamy Square, Vijayanagar, Velachery, Chennai - 600 042
+                      10200 Crow Canyon Road Castro Valley, CA 94552, USA
                       </p>
                     </h5>
                   </Col>

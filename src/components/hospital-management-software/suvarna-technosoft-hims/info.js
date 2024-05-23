@@ -9,22 +9,25 @@ const Info = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={6}>
-            <h3>What is MocDoc ?</h3>
+            <h3>
+              What is Suvarna Technosoft's Hospital Information Management
+              System ?
+            </h3>
             <p>
-              MocDoc is a comprehensive Hospital Management System (HMS) and
-              Professional Network that operates on a SaaS-based platform. It
-              serves as an integrated solution for healthcare institutions
-              globally, connecting all departments seamlessly. MocDoc ensures
-              accurate reporting, quality control, and effective time
-              management, contributing to enhanced productivity. Notable
-              features include advanced appointment scheduling, technically
-              advanced solutions, and integration capabilities with LIS, PACS,
-              and EMR systems. With a decade-long presence in the healthcare
-              industry, MocDoc stands out for its customization and integration
-              expertise, offering tailored solutions for hospitals, clinics,
-              labs, and pharmacies. Trusted for its reliable support and
-              advanced functionalities, MocDoc is a cost-effective choice for
-              healthcare professionals.
+              Suvarna Technosoft's Hospital Information Management System (HIMS)
+              is an innovative software solution designed to optimize healthcare
+              operations, enhance patient care, and improve engagement. With 23
+              years of excellence, Suvarna HIMS offers a suite of products
+              including Laboratory Information Management System (SLIMS),
+              Electronic Medical Record (EMR), Digital Campus Management System,
+              Radiology Information System (RIS), Business Intelligence & MIS,
+              and Document Management System. Engineered for simplicity,
+              reliability, and proven performance, the HIMS has been adopted by
+              over 500 healthcare organizations, serving 15,000+ physicians,
+              36,000+ healthcare professionals, and managing 60 million patient
+              records. Suvarna HIMS is an accessible and affordable choice,
+              making proven and reliable healthcare solutions available to
+              providers worldwide.
             </p>
             <div
               className={`${styles["priceplan-box"]} box bg-light  rounded-4 p-3 mb-4 border`}

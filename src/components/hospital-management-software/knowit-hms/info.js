@@ -9,22 +9,21 @@ const Info = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={6}>
-            <h3>What is MocDoc ?</h3>
+            <h3>What is KnowIT HMS ?</h3>
             <p>
-              MocDoc is a comprehensive Hospital Management System (HMS) and
-              Professional Network that operates on a SaaS-based platform. It
-              serves as an integrated solution for healthcare institutions
-              globally, connecting all departments seamlessly. MocDoc ensures
-              accurate reporting, quality control, and effective time
-              management, contributing to enhanced productivity. Notable
-              features include advanced appointment scheduling, technically
-              advanced solutions, and integration capabilities with LIS, PACS,
-              and EMR systems. With a decade-long presence in the healthcare
-              industry, MocDoc stands out for its customization and integration
-              expertise, offering tailored solutions for hospitals, clinics,
-              labs, and pharmacies. Trusted for its reliable support and
-              advanced functionalities, MocDoc is a cost-effective choice for
-              healthcare professionals.
+              KnowIT HMS, a Hospital Management System meticulously crafted for
+              seamless healthcare administration. This integrated ERP solution
+              revolutionizes hospital operations, from patient registration and
+              clinical support to billing, finance, and inventory management.
+              Developed with the latest MVC technology, KnowIT HMS offers a
+              versatile web-based platform available in both SaaS and On-Premise
+              models. Whether for a small clinic or a multi-specialty hospital,
+              KnowIT HMS streamlines processes with modules like Front Office,
+              Clinical Support, and Billing & Collection. Its user-friendly
+              design, modular approach, and robust security features make it an
+              indispensable tool for healthcare institutions seeking efficiency
+              and reliability in their operations. Experience the future of
+              healthcare management with KnowIT HMS.
             </p>
             <div
               className={`${styles["priceplan-box"]} box bg-light  rounded-4 p-3 mb-4 border`}

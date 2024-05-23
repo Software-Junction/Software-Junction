@@ -3,40 +3,36 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const uspData = [
   {
-    "title": "Integrated HMS for Seamless Operations",
-    "content": "MocDoc's Integrated Hospital Management System (HMS) serves as a centralized platform that brings together various departments within a healthcare facility. This integration facilitates smooth communication, data sharing, and collaboration among different units, leading to improved overall efficiency and patient care."
+    "title": "All-in-One Solution",
+    "content": "KareXpert's HIMS provides a complete suite of tools, including Advanced HIMS, EMR/EHR, Virtual Care, LIMS, RIS/PACS, Pharmacy, Connected Ambulance, and Home Care. This all-in-one approach ensures that all aspects of hospital management are integrated into a single platform."
   },
   {
-    "title": "Accurate Reporting for Informed Decision-Making",
-    "content": "MocDoc ensures that all generated reports are accurate and meticulously recorded by the system. This commitment to precision enables healthcare organizations to make informed decisions based on reliable data, contributing to better patient outcomes and operational excellence."
+    "title": "Digital Presence and Branding",
+    "content": "Establish a strong digital presence across channels with mobile and web interfaces. The software includes white-labeled mobile apps, allowing hospitals to enhance their brand image and engage with patients through personalized applications."
   },
   {
-    "title": "Quality Control Enhancement",
-    "content": "Leveraging technically advanced features, MocDoc aims to enhance the quality of services provided by healthcare organizations. These features may include tools for monitoring and improving clinical processes, ensuring adherence to quality standards, and ultimately raising the level of healthcare delivery."
+    "title": "Patient-Centric Features",
+    "content": "From IPD and OPD management to Patient Daycare, Operation Theater (OT) Management, and Emergency Response Care, the system focuses on improving patient care, experience, and satisfaction."
   },
   {
-    "title": "Advanced Technology Integration",
-    "content": "MocDoc's Hospital Information Management System is built on cutting-edge and automated technology. This design allows healthcare organizations to leverage the latest advancements, ensuring that they operate efficiently, stay competitive, and adapt to evolving industry standards."
+    "title": "Operations Management",
+    "content": "The software aids in optimizing hospital operations with features such as Facility Management, Housekeeping, and CSSD inventory management, contributing to improved efficiency and productivity."
   },
   {
-    "title": "Global Reach and Customization",
-    "content": "MocDoc positions itself as a global solution adaptable to hospitals worldwide. The software's flexibility allows for easy customization to meet the specific needs and requirements of diverse healthcare facilities, making it a versatile and scalable solution."
+    "title": "Online Hospital Platform",
+    "content": "Offer an all-in-one online platform for patients, doctors, and enterprise clients. Features like Patient Portal, Corporate Admin Portal, and Doctor Portal facilitate seamless communication and interaction."
   },
   {
-    "title": "Seamless Integration with Existing Systems",
-    "content": "MocDoc HMS provides seamless integration with various systems crucial to healthcare operations. This includes Laboratory Information Systems (LIS), Picture Archiving and Communication Systems (PACS), and Electronic Medical Records (EMR), fostering a cohesive and interconnected healthcare ecosystem."
+    "title": "Patient Feedback Management",
+    "content": "Capture and analyze patient feedback with a dedicated system, allowing hospitals to continuously monitor satisfaction levels and identify areas for improvement in service quality."
   },
   {
-    "title": "Specialized EMR Features",
-    "content": "The Visual EMR system in MocDoc offers specialty-wise Electronic Medical Records and Visual Case Sheet options. This feature allows for the creation of follow-up visits while retaining previous data, auto-filling commonly used case sheet information, saving time, and reducing the reliance on paper documentation."
+    "title": "Healthcare Portfolio",
+    "content": "KareXpert's extensive healthcare portfolio goes beyond HIMS, encompassing AI & Data Analytics, Virtual Care, Pharmacy, Connected Ambulance, and more, providing a holistic approach to healthcare management."
   },
   {
-    "title": "Expense Control and Invoice Generation",
-    "content": "The system provides detailed control over expenses through features like FSN Analysis. Additionally, MocDoc allows for the generation of invoices for various purposes such as franchising and outsourcing labs. This ensures financial transparency and helps in monitoring and managing costs effectively."
-  },
-  {
-    "title": "Lab Order Management Automation",
-    "content": "MocDoc streamlines lab processes with features such as the ability to place orders for samples directly from the application, barcode printing, sample data recording, and integration with lab machines. This automation enhances efficiency, accuracy, and overall automation in the laboratory."
+    "title": "Global Reach and Recognition",
+    "content": "With a corporate office in Gurugram, India, KareXpert caters to regions worldwide, including Southeast Asia, the Middle East, Africa, Europe, the US, and North America."
   }
 ];
 {/* <span style=\"color:#FC5185 ;\"><strong> */}
@@ -52,7 +48,7 @@ const Usp = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={12}>
-            <h3 className="mb-3">USP of MocDoc</h3>
+            <h3 className="mb-3">USP of KareXpert's Hospital Information Management System</h3>
           </Col>
           {uspData.map((item, index) => (
             <Col lg={4} className="mb-4" key={index}>

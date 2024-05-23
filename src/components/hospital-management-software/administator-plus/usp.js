@@ -3,40 +3,36 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const uspData = [
   {
-    "title": "Integrated HMS for Seamless Operations",
-    "content": "MocDoc's Integrated Hospital Management System (HMS) serves as a centralized platform that brings together various departments within a healthcare facility. This integration facilitates smooth communication, data sharing, and collaboration among different units, leading to improved overall efficiency and patient care."
-  },
-  {
-    "title": "Accurate Reporting for Informed Decision-Making",
-    "content": "MocDoc ensures that all generated reports are accurate and meticulously recorded by the system. This commitment to precision enables healthcare organizations to make informed decisions based on reliable data, contributing to better patient outcomes and operational excellence."
-  },
-  {
-    "title": "Quality Control Enhancement",
-    "content": "Leveraging technically advanced features, MocDoc aims to enhance the quality of services provided by healthcare organizations. These features may include tools for monitoring and improving clinical processes, ensuring adherence to quality standards, and ultimately raising the level of healthcare delivery."
+    "title": "Extensive Experience",
+    "content": "Accurate Infosoft boasts over <span style=\"color:#FC5185 ;\"><strong>25</strong></span> years of experience in the field, having implemented the Hospital Management System in over <span style=\"color:#FC5185 ;\"><strong>200</strong></span> locations."
   },
   {
     "title": "Advanced Technology Integration",
-    "content": "MocDoc's Hospital Information Management System is built on cutting-edge and automated technology. This design allows healthcare organizations to leverage the latest advancements, ensuring that they operate efficiently, stay competitive, and adapt to evolving industry standards."
+    "content": "The system utilizes the latest technologies, including Microsoft technologies for the front end and flexible back-end options such as Oracle and SQL."
   },
   {
-    "title": "Global Reach and Customization",
-    "content": "MocDoc positions itself as a global solution adaptable to hospitals worldwide. The software's flexibility allows for easy customization to meet the specific needs and requirements of diverse healthcare facilities, making it a versatile and scalable solution."
+    "title": "Automation of Key Processes",
+    "content": "The software automates critical processes within hospital management, including billing, appointments, scheduling, regulatory compliance, and financial auditing."
   },
   {
-    "title": "Seamless Integration with Existing Systems",
-    "content": "MocDoc HMS provides seamless integration with various systems crucial to healthcare operations. This includes Laboratory Information Systems (LIS), Picture Archiving and Communication Systems (PACS), and Electronic Medical Records (EMR), fostering a cohesive and interconnected healthcare ecosystem."
+    "title": "Modules for Comprehensive Management",
+    "content": "The software includes modules for various aspects of hospital management, such as billing, prescriptions, appointments, OT (Operation Theater) management, lab management, and accounting."
   },
   {
-    "title": "Specialized EMR Features",
-    "content": "The Visual EMR system in MocDoc offers specialty-wise Electronic Medical Records and Visual Case Sheet options. This feature allows for the creation of follow-up visits while retaining previous data, auto-filling commonly used case sheet information, saving time, and reducing the reliance on paper documentation."
+    "title": "Accessibility of Patient History",
+    "content": "The Hospital Information System (HIS) allows easy access to a patient's comprehensive data, including history, ailments, professionals involved, lab results, and payment details."
   },
   {
-    "title": "Expense Control and Invoice Generation",
-    "content": "The system provides detailed control over expenses through features like FSN Analysis. Additionally, MocDoc allows for the generation of invoices for various purposes such as franchising and outsourcing labs. This ensures financial transparency and helps in monitoring and managing costs effectively."
+    "title": "Proven Track Record",
+    "content": "Accurate Infosoft highlights achievements, including over <span style=\"color:#FC5185 ;\"><strong>8000</strong></span> successful projects, <span style=\"color:#FC5185 ;\"><strong>2000+</strong></span> satisfied clients, <span style=\"color:#FC5185 ;\"><strong>100+</strong></span> professionals, and <span style=\"color:#FC5185 ;\"><strong>25+</strong></span> years of experience."
   },
   {
-    "title": "Lab Order Management Automation",
-    "content": "MocDoc streamlines lab processes with features such as the ability to place orders for samples directly from the application, barcode printing, sample data recording, and integration with lab machines. This automation enhances efficiency, accuracy, and overall automation in the laboratory."
+    "title": "Global Presence",
+    "content": "Accurate Info Solution, the parent company, has a global presence and partners with various companies to plan, build, and manage application software."
+  },
+  {
+    "title": "Responsive Support",
+    "content": "The provided contact information and the option to request a call back or contact the sales team via WhatsApp emphasize a commitment to responsive customer support."
   }
 ];
 {/* <span style=\"color:#FC5185 ;\"><strong> */}
@@ -52,7 +48,7 @@ const Usp = ({ styles }) => {
       <Container>
         <Row>
           <Col lg={12}>
-            <h3 className="mb-3">USP of MocDoc</h3>
+            <h3 className="mb-3">USP of Administrator Plus</h3>
           </Col>
           {uspData.map((item, index) => (
             <Col lg={4} className="mb-4" key={index}>
