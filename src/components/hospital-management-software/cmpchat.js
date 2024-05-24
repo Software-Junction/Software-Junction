@@ -1,130 +1,188 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 // 1
-import WhovaF from "../event-management-software/whova/features";
-import WhovaU from "../event-management-software/whova/usp";
+import EhospitalF from "../medical-store/ehospital/features";
+import EhospitalU from "../medical-store/ehospital/usp";
+import EhospitalP from "../medical-store/ehospital/price";
 
 //2
-import EventproF from "../event-management-software/eventpro/features";
-import EventproU from "../event-management-software/eventpro/usp";
+import MocdocF from "../hospital-management-software/mocdoc/features";
+import MocdocU from "../hospital-management-software/mocdoc/usp";
+// import Mocdocp from "../hospital-management-software/mocdoc/price"
 
 //3
-import PlanningF from "../event-management-software/planning-pod/features";
-import PlanningU from "../event-management-software/planning-pod/usp";
+import VyaparF from "../hospital-management-software/vyapar-hospital-billing-software/features";
+import VyaparU from "../hospital-management-software/vyapar-hospital-billing-software/usp";
+import VyaparP from "../hospital-management-software/vyapar-hospital-billing-software/price";
 
 //4
-import WeveF from "../event-management-software/weve/features";
-import WeveU from "../event-management-software/weve/usp";
+import CaresoftF from "../hospital-management-software/caresoft/features";
+import CaresoftU from "../hospital-management-software/caresoft/usp";
+import CaresoftP from "../hospital-management-software/caresoft/price";
 
 //5
-import TicketF from "../event-management-software/ticket-tailor/features";
-import TicketU from "../event-management-software/ticket-tailor/usp";
+import OracleF from "../hospital-management-software/oracle-healthcare-cloud/features";
+import OracleU from "../hospital-management-software/oracle-healthcare-cloud/usp";
+import OracleP from "../hospital-management-software/oracle-healthcare-cloud/price";
 
 //6
-import DryftaF from "../event-management-software/dryfta/features";
-import DryftaU from "../event-management-software/dryfta/usp";
+import CrelioF from "../hospital-management-software/creliohealth/features";
+import CrelioU from "../hospital-management-software/creliohealth/usp";
+import CrelioP from "../hospital-management-software/creliohealth/price";
 
 //7
-import ActiveF from "../event-management-software/active-net/features";
-import ActiveU from "../event-management-software/active-net/usp";
+import MiracleF from "../hospital-management-software/miracle-his/features";
+import MiracleU from "../hospital-management-software/miracle-his/usp";
+import MiracleP from "../hospital-management-software/miracle-his/price";
 
 //8
-import ArloF from "../event-management-software/arlo/features";
-import ArloU from "../event-management-software/arlo/usp";
+import GeniF from "../hospital-management-software/genipulse-hms/features";
+import GeniU from "../hospital-management-software/genipulse-hms/usp";
+import GeniP from "../hospital-management-software/genipulse-hms/price";
 
 //9
-import EventorgF from "../event-management-software/eventorg/features";
-import EventorgU from "../event-management-software/eventorg/usp";
+import MedixcelF from "../clinic-management/medixcel/features";
+import MedixcelU from "../clinic-management/medixcel/usp";
+import MedixcelP from "../clinic-management/medixcel/price";
 
 //10
-import AirmeetF from "../event-management-software/airmeet/features";
-import AirmeetU from "../event-management-software/airmeet/usp";
+import VisualF from "../hospital-management-software/visual-infosoft/features";
+import VisualU from "../hospital-management-software/visual-infosoft/usp";
+import VisualP from "../hospital-management-software/visual-infosoft/price";
 
 const Cmpchat = ({ styles }) => {
   //1
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);
+  const [showPrice1, setShowPrice1] = useState(false);
+
   //2
   const [showUsp2, setShowUsp2] = useState(false);
   const [showF2, setShowF2] = useState(false);
+  // const [showPrice2, setShowPrice2] = useState(false);
+
   //3
   const [showF3, setShowF3] = useState(false);
   const [showUsp3, setShowUsp3] = useState(false);
+  const [showPrice3, setShowPrice3] = useState(false);
   //4
   const [showF4, setShowF4] = useState(false);
   const [showUsp4, setShowUsp4] = useState(false);
+  const [showPrice4, setShowPrice4] = useState(false);
+
   //5
   const [showF5, setShowF5] = useState(false);
   const [showUsp5, setShowUsp5] = useState(false);
+  const [showPrice5, setShowPrice5] = useState(false);
+
   //6
   const [showF6, setShowF6] = useState(false);
   const [showUsp6, setShowUsp6] = useState(false);
+  const [showPrice6, setShowPrice6] = useState(false);
+  
   //7
   const [showF7, setShowF7] = useState(false);
   const [showUsp7, setShowUsp7] = useState(false);
+  const [showPrice7, setShowPrice7] = useState(false);
+
   //8
   const [showF8, setShowF8] = useState(false);
   const [showUsp8, setShowUsp8] = useState(false);
+  const [showPrice8, setShowPrice8] = useState(false);
+
   //9
   const [showF9, setShowF9] = useState(false);
   const [showUsp9, setShowUsp9] = useState(false);
+  const [showPrice9, setShowPrice9] = useState(false);
+
   //10
   const [showF10, setShowF10] = useState(false);
   const [showUsp10, setShowUsp10] = useState(false);
+  const [showPrice10, setShowPrice10] = useState(false);
 
   //1 features and usp
   const handleCloseF1 = () => setShow1(false);
   const handleShowF1 = () => setShow1(true);
   const handleCloseUsp1 = () => setShowUsp1(false);
   const handleShowUsp1 = () => setShowUsp1(true);
+  const handleClosePrice1 = () => setShowPrice1(false);
+  const handleShowPrice1 = () => setShowPrice1(true);
+
   //2 features and usp
   const handleCloseF2 = () => setShowF2(false);
   const handleShowF2 = () => setShowF2(true);
   const handleCloseUsp2 = () => setShowUsp2(false);
   const handleShowUsp2 = () => setShowUsp2(true);
-  //3 features and usp
+  // const handleClosePrice2 = () => setShowPrice2(false);
+  // const handleShowPrice2 = () => setShowPrice2(true);
+
+  //3 features and usp, price
   const handleCloseF3 = () => setShowF3(false);
   const handleShowF3 = () => setShowF3(true);
   const handleCloseUsp3 = () => setShowUsp3(false);
   const handleShowUsp3 = () => setShowUsp3(true);
+  const handleClosePrice3 = () => setShowPrice3(false);
+  const handleShowPrice3 = () => setShowPrice3(true);
+
   //4 features and usp
   const handleCloseF4 = () => setShowF4(false);
   const handleShowF4 = () => setShowF4(true);
   const handleCloseUsp4 = () => setShowUsp4(false);
   const handleShowUsp4 = () => setShowUsp4(true);
+  const handleClosePrice4 = () => setShowPrice4(false);
+  const handleShowPrice4 = () => setShowPrice4(true);
+
   //5 features and usp
   const handleCloseF5 = () => setShowF5(false);
   const handleShowF5 = () => setShowF5(true);
   const handleCloseUsp5 = () => setShowUsp5(false);
   const handleShowUsp5 = () => setShowUsp5(true);
-  //6 features and usp
+  const handleClosePrice5 = () => setShowPrice5(false);
+  const handleShowPrice5 = () => setShowPrice5(true);
+
+  //6 features and usp,price
   const handleCloseF6 = () => setShowF6(false);
   const handleShowF6 = () => setShowF6(true);
   const handleCloseUsp6 = () => setShowUsp6(false);
   const handleShowUsp6 = () => setShowUsp6(true);
+  const handleClosePrice6 = () => setShowPrice6(false);
+  const handleShowPrice6 = () => setShowPrice6(true);
+
   //7 features and usp
   const handleCloseF7 = () => setShowF7(false);
   const handleShowF7 = () => setShowF7(true);
   const handleCloseUsp7 = () => setShowUsp7(false);
   const handleShowUsp7 = () => setShowUsp7(true);
-  //8 features and usp
+  const handleClosePrice7 = () => setShowPrice7(false);
+  const handleShowPrice7 = () => setShowPrice7(true);
+
+  //8 features and usp,price
   const handleCloseF8 = () => setShowF8(false);
   const handleShowF8 = () => setShowF8(true);
   const handleCloseUsp8 = () => setShowUsp8(false);
   const handleShowUsp8 = () => setShowUsp8(true);
+  const handleClosePrice8 = () => setShowPrice8(false);
+  const handleShowPrice8 = () => setShowPrice8(true);
+
   //9 features and usp
   const handleCloseF9 = () => setShowF9(false);
   const handleShowF9 = () => setShowF9(true);
   const handleCloseUsp9 = () => setShowUsp9(false);
   const handleShowUsp9 = () => setShowUsp9(true);
-  //10 features and usp
+  const handleClosePrice9 = () => setShowPrice9(false);
+  const handleShowPrice9 = () => setShowPrice9(true);
+
+  //10 features and usp, price
   const handleCloseF10 = () => setShowF10(false);
   const handleShowF10 = () => setShowF10(true);
   const handleCloseUsp10 = () => setShowUsp10(false);
   const handleShowUsp10 = () => setShowUsp10(true);
+  const handleClosePrice10 = () => setShowPrice10(false);
+  const handleShowPrice10 = () => setShowPrice10(true);
 
   return (
     <>
@@ -136,28 +194,50 @@ const Cmpchat = ({ styles }) => {
                 className={`${styles["main-table"]} border bg-light rounded-4  my-4`}
               >
                 <Table responsive bordered className={`${styles["thead"]}`}>
-                  <thead className={styles["heading-stick"]}>
+                  <thead>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Whova</th>
-                      <th>EventPro</th>
-                      <th>Planning Pod</th>
-                      <th>Weve</th>
-                      <th>Ticket Tailor</th>
-                      <th>Dryfta</th>
-                      <th>ACTIVE Net</th>
-                      <th>Arlo</th>
-                      <th>EventOrg</th>
-                      <th className={styles["tbl-hd1"]}>Airmeet</th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/ehospital">e-Hospital</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/mocdoc">MocDoc</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/vyapar-hospital-billing-software">Vyapar Hospital Billing Software</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/caresoft">Caresoft</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/oracle-healthcare-cloud">Oracle Healthcare Cloud</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/crelio-health">
+                          CrelioHealth LIMS
+                        </Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/miracle-his">Miracle HIS</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/genipulse-hms">GeniPulse Hospital Management Software</Link>
+                      </th>
+                      <th className={styles["heading-link"]}>
+                        <Link href="/medixcel">Medixcel</Link>
+                      </th>
+                      <th className={styles["tbl-hd1"]}>
+                        <Link href="/visual-infosoft">Visual InfoSoft Pvt. Ltd</Link>
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>Features</td>
                       <td>
+                        <p>Procedure Management</p>
+                        <p> Referral Management</p>
                         <p>Inventory Management</p>
-                        <p>Ticket Management</p>
-                        <p>Registration Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -167,9 +247,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p> Calendar Management</p>
-                        <p>Security Management</p>
-                        <p>Customizable Dashboard</p>
+                        <p>Patient Registration</p>
+                        <p>Referral Management</p>
+                        <p>Diagnostic Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -179,9 +259,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p>Meeting Management</p>
-                        <p>Security Management</p>
-                        <p>Catering Management</p>
+                        <p>Vendor Management</p>
+                        <p>Customer Management</p>
+                        <p>Taxation Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -191,9 +271,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p>Group Management</p>
-                        <p> Meeting Management</p>
-                        <p> Internal Meetings</p>
+                        <p> Expense Management</p>
+                        <p> Patient Registration</p>
+                        <p> Document Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -203,9 +283,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p>Attendance Management</p>
-                        <p>Contact Management</p>
-                        <p>Payment Processing</p>
+                        <p>Claims Management</p>
+                        <p>Physician Management</p>
+                        <p> Expense Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -215,9 +295,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p>Registration Management</p>
-                        <p>Wedding Management</p>
-                        <p> Sponsorship Management</p>
+                        <p>Appointment Management</p>
+                        <p> Financial Management</p>
+                        <p>Referral Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -227,9 +307,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p>Exhibit Management</p>
-                        <p>Ticket Management</p>
-                        <p>Attendee Management</p>
+                        <p>Procedure Management</p>
+                        <p>Diagnostic Management</p>
+                        <p>Revenue Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -239,9 +319,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p>Travel Management</p>
-                        <p> Registration Management</p>
-                        <p>Customer Management</p>
+                        <p>Claims Management</p>
+                        <p>Expense Management</p>
+                        <p>Physician Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -251,9 +331,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p>Vendor Management</p>
-                        <p>Sponsorship Management</p>
-                        <p>Exhibit Management</p>
+                        <p> Appointment Management</p>
+                        <p>Barcode Integration</p>
+                        <p>Patient Registration</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -263,9 +343,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                       <td>
-                        <p>Customizable Branding</p>
-                        <p>Customizable Templates</p>
-                        <p>Attendee Management</p>
+                        <p>Patient Registration</p>
+                        <p>Diagnostic Management</p>
+                        <p>Accounting Management</p>
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
@@ -279,9 +359,9 @@ const Cmpchat = ({ styles }) => {
                       <td>USP</td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Award-Winning Event App</p>
-                          <p>Enhanced Attendee Experience</p>
-                          <p>Sponsor and Exhibitor Delight</p>
+                          <p>Integration with Ayushman Bharath Digital Mission (ABDM)</p>
+                          <p>Ayushman Bharath Health Account (ABHA)</p>
+                          <p>Digital Patient Records and Reports</p>
                         </div>
                         <Button
                           size="sm"
@@ -293,9 +373,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Efficient Venue and Catering Management</p>
-                          <p>Productivity Boosty</p>
-                          <p>Testimonials and Endorsements</p>
+                          <p>Integrated HMS for Seamless Operations</p>
+                          <p>Accurate Reporting for Informed Decision-Making</p>
+                          <p>Quality Control Enhancement</p>
                         </div>
                         <Button
                           size="sm"
@@ -307,9 +387,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Integrated Excellence</p>
-                          <p>Effortless Collaboration</p>
-                          <p>Drama-Free Event Tracking</p>
+                          <p>Efficient Billing Processes</p>
+                          <p>Simplified Insurance Claim Processing</p>
+                          <p>Accurate and Error-Free Billing</p>
                         </div>
                         <Button
                           size="sm"
@@ -321,9 +401,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Virtual Event Platform</p>
-                          <p>Fun Virtual Events</p>
-                          <p>Collaboration with The Go Game</p>
+                          <p>Enhanced Patient Care</p>
+                          <p>Optimized Resource Management</p>
+                          <p>Streamlined Workflows</p>
                         </div>
                         <Button
                           size="sm"
@@ -335,9 +415,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Unbeatable Value</p>
-                          <p>More than Ticketing</p>
-                          <p>Discover Live Events</p>
+                          <p>Healthcare Cloud Infrastructure</p>
+                          <p>Multicloud Adoption Acceleration</p>
+                          <p>AI Vision and Drones for Inventory Management</p>
                         </div>
                         <Button
                           size="sm"
@@ -349,9 +429,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Global Trust</p>
-                          <p>Revenue Optimization</p>
-                          <p>Virtual Event Excellence</p>
+                          <p>Highest Rated LIMS System</p>
+                          <p>Sample Journey Optimization</p>
+                          <p>Quick & Easy Lab Reporting</p>
                         </div>
                         <Button
                           size="sm"
@@ -364,9 +444,9 @@ const Cmpchat = ({ styles }) => {
 
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Integrated and Comprehensive Solution</p>
-                          <p>Child Care Management with Safety Features</p>
-                          <p>League Management Efficiency</p>
+                          <p>Paperless Hospital Environment</p>
+                          <p>Internet-Based Accessibility</p>
+                          <p>Decision Support System</p>
                         </div>
                         <Button
                           size="sm"
@@ -378,9 +458,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Repeating Events Made Easy</p>
-                          <p>Additional Features for Enhanced Experience</p>
-                          <p>Industry-Specific Solutions</p>
+                          <p>Integrated HMS for Seamless Operations</p>
+                          <p>Accurate Reporting for Informed Decision-Making</p>
+                          <p>Quality Control Enhancement</p>
                         </div>
                         <Button
                           size="sm"
@@ -392,9 +472,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Multi-Event Capability</p>
-                          <p>Flexible Module System</p>
-                          <p>Live Event Streaming Integration</p>
+                          <p>Seamless Integration</p>
+                          <p>Efficiency and Productivity</p>
+                          <p>Holistic Healthcare Solution</p>
                         </div>
                         <Button
                           size="sm"
@@ -406,9 +486,9 @@ const Cmpchat = ({ styles }) => {
                       </td>
                       <td>
                         <div className={styles["clm-height"]}>
-                          <p>Analytics and Insights</p>
-                          <p>High Engagement and Collaboration</p>
-                          <p>Immersive Experience</p>
+                          <p>Extensive Experience</p>
+                          <p>Wide Range of Products</p>
+                          <p>Pioneer in Pharmacy Software</p>
                         </div>
                         <Button
                           size="sm"
@@ -419,7 +499,9 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+
+                      {/* *****Ratings****** */}
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -519,19 +601,119 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
+
                     <tr>
                       <td>Pricing Plan</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
-                      <td>Available on Request</td>
+                      {/* 1 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          // variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice1}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
+                      {/* 2 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          style={{ fontSize: "10px" }}
+                          // onClick={handleShowPrice2}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
+                      {/* 3 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice3}
+                        >
+                          View Pricing
+                        </Button>
+                      </td>
+                      {/* 4 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          // variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice4}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
+                      {/* 5 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          // variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice5}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
+                      {/* 6 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice6}
+                        >
+                          View Pricing
+                        </Button>
+                      </td>
+                      {/* 7 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          // variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice7}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
+                      {/* 8 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice8}
+                        >
+                          View Pricing
+                        </Button>
+                      </td>
+                      {/* 9 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          // variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice9}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
+                      {/* 10 */}
+                      <td>
+                        <Button
+                          size="sm"
+                          // variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice10}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
                     </tr>
                   </tbody>
                 </Table>
@@ -549,11 +731,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Whova
+                    e-Hospital
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <WhovaF styles={styles} />
+                  <EhospitalF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF1}>
@@ -573,11 +755,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Whova
+                    e-Hospital
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <WhovaU styles={styles} />
+                  <EhospitalU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp1}>
@@ -585,6 +767,30 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
+              {/* 1 Price */}
+              {/* <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice1}
+                onHide={handleClosePrice1}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    e-Hospital
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <EhospitalP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice1}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal> */}
               {/* 2 features */}
               <Modal
                 style={{ color: "#000" }}
@@ -597,11 +803,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    EventPro
+                   MocDoc
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <EventproF styles={styles} />
+                  <MocdocF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF2}>
@@ -621,11 +827,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    EventPro
+                   MocDoc
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <EventproU styles={styles} />
+                  <MocdocU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp2}>
@@ -633,6 +839,30 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
+              {/* 2 price */}
+              {/* <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice2}
+                onHide={handleClosePrice2}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    MocDoc
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <Mocdocp styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice2}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal> */}
               {/* 3 feature */}
               <Modal
                 style={{ color: "#000" }}
@@ -645,11 +875,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Planning Pod
+                    Vyapar Hospital Billing Software
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <PlanningF styles={styles} />
+                  <VyaparF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF3}>
@@ -669,14 +899,38 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Planning Pod
+                    Vyapar Hospital Billing Software
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <PlanningU styles={styles} />
+                  <VyaparU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp3}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 3 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice3}
+                onHide={handleClosePrice3}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Vyapar Hospital Billing Software
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <VyaparP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice3}>
                     Close
                   </Button>
                 </Modal.Footer>
@@ -693,11 +947,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Weve
+                    Caresoft
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <WeveF styles={styles} />
+                  <CaresoftF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF4}>
@@ -717,11 +971,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Weve
+                    Caresoft
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <WeveU styles={styles} />
+                  <CaresoftU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp4}>
@@ -729,6 +983,30 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
+              {/* 4 price */}
+              {/* <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice4}
+                onHide={handleClosePrice4}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Caresoft
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <CaresoftP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice4}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal> */}
               {/* 5 feature */}
               <Modal
                 style={{ color: "#000" }}
@@ -741,11 +1019,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Ticket Tailor
+                  Oracle Healthcare Cloud
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <TicketF styles={styles} />
+                  <OracleF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF5}>
@@ -765,11 +1043,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Ticket Tailor
+                  Oracle Healthcare Cloud
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <TicketU styles={styles} />
+                  <OracleU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp5}>
@@ -777,6 +1055,30 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
+              {/* 5 price */}
+              {/* <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice5}
+                onHide={handleClosePrice5}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Oracle Healthcare Cloud
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <OracleP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice5}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal> */}
               {/* 6 feature */}
               <Modal
                 style={{ color: "#000" }}
@@ -789,11 +1091,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Dryfta
+                    CrelioHealth LIMS
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <DryftaF styles={styles} />
+                  <CrelioF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF6}>
@@ -813,14 +1115,38 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Dryfta
+                    CrelioHealth LIMS
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <DryftaU styles={styles} />
+                  <CrelioU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp6}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 6 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice6}
+                onHide={handleClosePrice6}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    CrelioHealth LIMS
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <CrelioP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice6}>
                     Close
                   </Button>
                 </Modal.Footer>
@@ -837,11 +1163,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    ACTIVE Net
+                    Miracle HIS
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <ActiveF styles={styles} />
+                  <MiracleF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF7}>
@@ -861,11 +1187,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    ACTIVE Net
+                    Miracle HIS
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <ActiveU styles={styles} />
+                  <MiracleU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp7}>
@@ -873,6 +1199,30 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
+              {/* 7 price */}
+              {/* <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice7}
+                onHide={handleClosePrice7}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Miracle HIS
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <MiracleP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice7}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal> */}
               {/* 8 feature */}
               <Modal
                 style={{ color: "#000" }}
@@ -885,11 +1235,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Arlo
+                    GeniPulse Hospital Management Software
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <ArloF styles={styles} />
+                  <GeniF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF8}>
@@ -909,14 +1259,38 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Arlo
+                    GeniPulse Hospital Management Software
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <ArloU styles={styles} />
+                  <GeniU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp8}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              {/* 8 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice8}
+                onHide={handleClosePrice8}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    GeniPulse Hospital Management Software
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <GeniP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice8}>
                     Close
                   </Button>
                 </Modal.Footer>
@@ -933,11 +1307,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    EventOrg
+                    Medixcel
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <EventorgF styles={styles} />
+                  <MedixcelF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF9}>
@@ -957,11 +1331,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    EventOrg
+                    Medixcel
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <EventorgU styles={styles} />
+                  <MedixcelU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp9}>
@@ -969,6 +1343,30 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
+              {/* 9 price */}
+              {/* <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice9}
+                onHide={handleClosePrice9}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    Medixcel{" "}
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <MedixcelP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice9}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal> */}
               {/* 10 feature */}
               <Modal
                 style={{ color: "#000" }}
@@ -981,11 +1379,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Airmeet
+                    Visual InfoSoft Pvt. Ltd
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <AirmeetF styles={styles} />
+                  <VisualF styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseF10}>
@@ -1005,11 +1403,11 @@ const Cmpchat = ({ styles }) => {
               >
                 <Modal.Header closeButton>
                   <Modal.Title id="example-custom-modal-styling-title">
-                    Airmeet
+                    Visual InfoSoft Pvt. Ltd
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <AirmeetU styles={styles} />
+                  <VisualU styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseUsp10}>
@@ -1017,6 +1415,30 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
+              {/* 10 price */}
+              {/* <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice10}
+                onHide={handleClosePrice10}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                    Visual InfoSoft Pvt. Ltd
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <VisualP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice10}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal> */}
             </Col>
           </Row>
         </Container>

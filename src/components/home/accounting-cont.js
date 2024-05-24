@@ -75,7 +75,7 @@ const accountingcont = ({ styles }) => {
   const options = {
     plugins: {
       legend: {
-        position: "right", // Position legend to the right
+        position: "top", // Position legend to the right
         labels: {
           boxWidth: 20,
           color: "#fff",
@@ -89,7 +89,7 @@ const accountingcont = ({ styles }) => {
         },
         font: {
           weight: "bold",
-          size: 12,
+          size: 10,
         },
         textAlign: "center",
         anchor: "center",
@@ -138,15 +138,15 @@ const accountingcont = ({ styles }) => {
             </Col>
           ))}
           <div className="pie-modal">
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} size="lg" centered>
               <Modal.Header closeButton>
                 <Modal.Title>Software Score</Modal.Title>
               </Modal.Header>
-              <Modal.Body>
+              <Modal.Body className={`${styles['body-content']} d-flex justify-content-between`}>
                 <div className={styles['pie-height']}>
                   <Pie data={data} options={options} />
                 </div>
-                <div className="box shadow rounded-3 bg-light p-3">
+                <div className="box shadow rounded-3 w-100 bg-light p-3">
                   <Formik
                     initialValues={{
                       username: "",
