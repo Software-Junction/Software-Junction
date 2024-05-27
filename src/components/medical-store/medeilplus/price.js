@@ -10,7 +10,7 @@ const Price = ({styles}) => {
             </Col>
             <Col lg={3} className='mb-3'>
                 <div className={`${styles['price-box']} box  bg-light border h-100 rounded-4 p-4`}>
-                    <div className='text-center'>
+                    <div className='text-center price-text'>
                     <h5>Starter<br/><br/>&#8377; 7500</h5>
                     <p>Per Year</p>
                     </div>

@@ -111,7 +111,7 @@ const Smslist = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -246,7 +246,7 @@ const Smslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -455,7 +455,7 @@ const Smslist = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -590,7 +590,7 @@ const Smslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -801,7 +801,7 @@ const Smslist = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -936,7 +936,7 @@ const Smslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -1147,7 +1147,7 @@ const Smslist = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -1282,7 +1282,7 @@ const Smslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -1491,7 +1491,7 @@ const Smslist = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -1626,7 +1626,7 @@ const Smslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -1834,7 +1834,7 @@ const Smslist = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -1969,7 +1969,7 @@ const Smslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -2178,7 +2178,7 @@ const Smslist = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -2313,7 +2313,7 @@ const Smslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -2523,7 +2523,7 @@ const Smslist = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -2658,7 +2658,7 @@ const Smslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -2867,7 +2867,7 @@ const Smslist = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -3002,7 +3002,7 @@ const Smslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -3211,7 +3211,7 @@ const Smslist = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -3346,7 +3346,7 @@ const Smslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -3557,7 +3557,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -3698,7 +3698,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -3907,7 +3907,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -4048,7 +4048,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -4258,7 +4258,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -4399,7 +4399,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -4610,7 +4610,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -4751,7 +4751,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -4963,7 +4963,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -5104,7 +5104,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -5316,7 +5316,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -5457,7 +5457,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -5669,7 +5669,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -5810,7 +5810,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -6021,7 +6021,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -6162,7 +6162,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -6372,7 +6372,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -6513,7 +6513,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -6725,7 +6725,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -6866,7 +6866,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -7075,7 +7075,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -7216,7 +7216,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -7429,7 +7429,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -7570,7 +7570,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -7779,7 +7779,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -7920,7 +7920,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -8129,7 +8129,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -8270,7 +8270,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}
@@ -8480,7 +8480,7 @@ const Smslist = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -8621,7 +8621,7 @@ const Smslist = ({ styles }) => {
                                     className="text-light"
                                     onClick={formik.handleSubmit}
                                   >
-                                    Get Free Demo
+                                    Submit
                                   </Button>
                                 </Form>
                               )}

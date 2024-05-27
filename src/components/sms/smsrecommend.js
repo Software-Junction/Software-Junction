@@ -271,7 +271,7 @@ const Smsrecommend = ({ styles }) => {
       <section className={`${styles["content"]} mt-5 pb-5`}>
         <Container>
           <Row>
-            <Col lg={8}>
+            {/* <Col lg={8}>
               <Image
                 src="/images/campus.png"
                 alt="campus"
@@ -279,11 +279,11 @@ const Smsrecommend = ({ styles }) => {
                 width="800"
                 className={styles["camp-img-mob"]}
               />
-            </Col>
+            </Col> */}
 
-            <Col lg={8}>
+            <Col lg={7}>
               <div id="1">
-                <h5 className="mt-5">What is School management software ?</h5>
+                <h5 className="">What is School management software ?</h5>
                 <p className="mt-4">
                   School management software is a computerized solution
                   specifically designed to automate and streamline the various
@@ -1719,11 +1719,11 @@ const Smsrecommend = ({ styles }) => {
                 </ol>
               </div>
             </Col>
-            <Col lg={4}>
+            <Col lg={{span:4, offset: 1}}>
               <div
-                className={`${styles["content-box"]} box bg-light rounded-4 p-4 border overflow-auto mt-5`}
+                className={`${styles["content-box"]} box bg-light rounded-4 p-4 border overflow-auto`}
               >
-                <h5>Table of content</h5>
+                <h3>Table of content</h3>
                 <div className="mt-3">
                   <ol>
                     <Link href="#1">

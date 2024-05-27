@@ -244,7 +244,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -590,7 +590,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -936,7 +936,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -1279,7 +1279,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -1625,7 +1625,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -1970,7 +1970,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -2314,7 +2314,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -2659,7 +2659,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -2999,7 +2999,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -3345,7 +3345,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}

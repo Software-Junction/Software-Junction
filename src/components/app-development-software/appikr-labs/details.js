@@ -41,9 +41,9 @@ const Details = ({ styles }) => {
         <Price styles={styles} />
       </section> */}
 
-      <section className={`${styles["review"]} mt-5`} id="idreview">
+      {/* <section className={`${styles["review"]} mt-5`} id="idreview">
         <Review styles={styles} />
-      </section>
+      </section> */}
 
       {/* <section className={`${styles["alternative"]} mt-5`} id="idalternative">
         <Alternative styles={styles} />
@@ -53,9 +53,9 @@ const Details = ({ styles }) => {
         <Compare styles={styles} />
       </section> */}
 
-      <section className={`${styles["faq"]} mt-5`}>
+      {/* <section className={`${styles["faq"]} mt-5`}>
         <Faq styles={styles} />
-      </section>
+      </section> */}
     </>
   );
 };

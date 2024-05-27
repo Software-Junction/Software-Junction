@@ -6,6 +6,11 @@ import Education from '../cms/cmpchat';
 import Erp from '../erp-software/cmpchat';
 import Hr from '../hr-software/cmpchat';
 import Crm from '../crm-software/cmpchat';
+import Agriculture from '../agriculture-software/cmpchat';
+import App from '../app-development-software/cmpchat';
+import Billing from '../billing-and-invoicing-software/cmpchat';
+
+
 
 const Comparison = ({ styles }) => {
   return (
@@ -24,24 +29,31 @@ const Comparison = ({ styles }) => {
           className={`${styles["compare-tab"]}`}
           justify
         >
-          <Tab eventKey="Accounting" title="Accounting">
+          <Tab eventKey="Accounting" title="Accounting Software">
            <Accounting styles={styles}/>
-            {/* <List styles={styles} />
-            <Related styles={styles} /> */}
-           
           </Tab>
-          <Tab eventKey="Education" title="Education">
+
+          <Tab eventKey="Education" title="Education Software">
             <Education styles={styles} />
             
           </Tab>
-          <Tab eventKey="ERP" title="ERP">
+          <Tab eventKey="ERP" title="ERP Software">
             <Erp styles={styles} />
           </Tab>
-          <Tab eventKey="HR" title="HR">
+          <Tab eventKey="HR" title="HR Software">
             <Hr styles={styles} />
           </Tab>
-          <Tab eventKey="CRM" title="CRM">
+          <Tab eventKey="CRM" title="CRM Software">
             <Crm styles={styles} />
+          </Tab>
+          <Tab eventKey="Agriculture" title="Agriculture Software">
+            <Agriculture styles={styles} />
+          </Tab>
+          <Tab eventKey="App" title="App Development Software">
+            <App styles={styles} />
+          </Tab>
+          <Tab eventKey="Billing" title="Billing Software">
+            <Billing styles={styles} />
           </Tab>
         </Tabs>
         </div>

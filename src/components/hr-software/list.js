@@ -103,13 +103,7 @@ const List = ({ styles }) => {
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
                   <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
+                    
                   </div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
@@ -117,7 +111,7 @@ const List = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -252,7 +246,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -454,13 +448,7 @@ const List = ({ styles }) => {
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
                   <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
+                    
                   </div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
@@ -468,7 +456,7 @@ const List = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -603,7 +591,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -804,13 +792,7 @@ const List = ({ styles }) => {
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
                   <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
+                    
                   </div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
@@ -818,7 +800,7 @@ const List = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -953,7 +935,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -1155,13 +1137,7 @@ const List = ({ styles }) => {
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
                   <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
+                    
                   </div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
@@ -1169,7 +1145,7 @@ const List = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -1304,7 +1280,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -1509,13 +1485,7 @@ const List = ({ styles }) => {
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
                   <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
+                    
                   </div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
@@ -1523,7 +1493,7 @@ const List = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -1658,7 +1628,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -1862,13 +1832,7 @@ const List = ({ styles }) => {
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
                   <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
+                    
                   </div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
@@ -1876,7 +1840,7 @@ const List = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -2011,7 +1975,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -2213,13 +2177,7 @@ const List = ({ styles }) => {
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
                   <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
+                    
                   </div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
@@ -2227,7 +2185,7 @@ const List = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -2362,7 +2320,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -2565,13 +2523,7 @@ const List = ({ styles }) => {
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
                   <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
+                    
                   </div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
@@ -2579,7 +2531,7 @@ const List = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -2714,7 +2666,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -2918,13 +2870,7 @@ const List = ({ styles }) => {
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
                   <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
+                    
                   </div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
@@ -2932,7 +2878,7 @@ const List = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -3067,7 +3013,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -3269,13 +3215,7 @@ const List = ({ styles }) => {
                   className={`${styles["box-foot"]} d-flex justify-content-between p-1`}
                 >
                   <div className="ms-4">
-                    <p>
-                      Starting Price :
-                      <span className="text-success fw-bold">
-                        {" "}
-                        Available on Request
-                      </span>
-                    </p>
+                    
                   </div>
                   <div className={`${styles["box-btn"]} mb-3`}>
                     <Button
@@ -3283,7 +3223,7 @@ const List = ({ styles }) => {
                       variant="primary"
                       onClick={handleShowDemo}
                     >
-                      Free demo
+                      Get Free demo
                     </Button>
                     <Modal
                       aria-labelledby="contained-modal-title-vcenter"
@@ -3418,7 +3358,7 @@ const List = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -3640,7 +3580,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -3999,7 +3939,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -4362,7 +4302,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -4721,7 +4661,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -5083,7 +5023,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -5442,7 +5382,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -5804,7 +5744,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -6164,7 +6104,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -6525,7 +6465,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -6886,7 +6826,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -7243,7 +7183,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -7604,7 +7544,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -7965,7 +7905,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -8325,7 +8265,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -8686,7 +8626,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -9047,7 +8987,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -9409,7 +9349,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -9765,7 +9705,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -10124,7 +10064,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"
@@ -10486,7 +10426,7 @@ const List = ({ styles }) => {
                           variant="primary"
                           onClick={handleShowDemo}
                         >
-                          Free demo
+                          Get Free demo
                         </Button>
                         <Modal
                           aria-labelledby="contained-modal-title-vcenter"

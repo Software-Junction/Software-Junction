@@ -67,8 +67,15 @@ const Index = () => {
               </Row>
             </Container>
             
-            {/* <Related styles={styles} /> */}
-            {/* <Review styles={styles}/> */}
+            {/* <Container>
+              <Row>
+                <Col lg={12}>
+                <h3 className="mt-5">Top 10 Software Comparision Table</h3>
+                <Cmpchat styles={styles} />
+                </Col>
+              </Row>
+            </Container>
+{/* <Related styles={styles} /> */}            {/* <Review styles={styles}/> */}
             {/* <Compare styles={styles} /> */}
           </Tab>
           <Tab eventKey="Buyer's Guide" title="Buyer's Guide">

@@ -11,7 +11,7 @@ const Pricing = ({styles}) => {
             </Col>
             <Col lg={3} className='mb-3'>
                 <div className={`${styles['price-box']} box  bg-light border h-100 rounded-4 p-4`}>
-                    <div className='text-center'>
+                    <div className='text-center price-text'>
                     <h5>Daimond Plan<br/><br/>$3067</h5>
                     <p>Per Year</p>
                     </div>
@@ -30,7 +30,7 @@ const Pricing = ({styles}) => {
             </Col>
             <Col lg={3} className='mb-3'>
             <div className={`${styles['price-box']} box  bg-light border h-100 rounded-4 p-4`}>
-                    <div className='text-center'>
+                    <div className='text-center price-text'>
                     <h5>Platinum Plan<br/><br/>$5899</h5>
                     <p>Per Year</p>
                     </div>
@@ -49,7 +49,7 @@ const Pricing = ({styles}) => {
             </Col>
             <Col lg={3} className='mb-3'>
             <div className={`${styles['price-box']} box  bg-light border h-100 rounded-4 p-4`}>
-                    <div className='text-center'>
+                    <div className='text-center price-text'>
                     <h5>Enterprise Plan<br/><br/>$9439</h5>
                     <p>Per Year</p>
                     </div>
@@ -68,7 +68,7 @@ const Pricing = ({styles}) => {
             </Col>
             <Col lg={3} className='mb-3'>
             <div className={`${styles['price-box']} box  bg-light border h-100 rounded-4 p-4`}>
-                    <div className='text-center'>
+                    <div className='text-center price-text'>
                     <h5>Professional Plan<br/><br/>$18999</h5>
                     <p>Per Year</p>
                     </div>

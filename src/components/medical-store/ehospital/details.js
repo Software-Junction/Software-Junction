@@ -53,7 +53,7 @@ const Details = ({ styles }) => {
         <Compare styles={styles} />
       </section> */}
 
-      {/* <section className={`${styles["faq"]} mt-5`}>
+     {/* <section className={`${styles["faq"]} mt-5`}>
         <Faq styles={styles} />
       </section> */}
     </>

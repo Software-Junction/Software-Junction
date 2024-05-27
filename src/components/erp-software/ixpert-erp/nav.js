@@ -24,13 +24,13 @@ const Nav = ({styles}) => {
               >
                 USP
               </Button>
-              <Button
+             {/* <Button
                 variant="outline-dark"
                 className={`${styles['nav-btn']} ms-4 mt-3`}
                 href="#idreview"
               >
                 Reviews
-              </Button>
+              </Button> */}
               {/* <Button
                 variant="outline-dark"
                 className={`${styles['nav-btn']} ms-4 mt-3`}

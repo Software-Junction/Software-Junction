@@ -248,7 +248,7 @@ const Lmslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -591,7 +591,7 @@ const Lmslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -931,7 +931,7 @@ const Lmslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -1273,7 +1273,7 @@ const Lmslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -1616,7 +1616,7 @@ const Lmslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -1959,7 +1959,7 @@ const Lmslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -2303,7 +2303,7 @@ const Lmslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -2649,7 +2649,7 @@ const Lmslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -2995,7 +2995,7 @@ const Lmslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}
@@ -3338,7 +3338,7 @@ const Lmslist = ({ styles }) => {
                                 className="text-light"
                                 onClick={formik.handleSubmit}
                               >
-                                Get Free Demo
+                                Submit
                               </Button>
                             </Form>
                           )}

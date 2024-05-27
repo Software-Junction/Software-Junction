@@ -2,24 +2,35 @@ import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
 import { FaStar } from "react-icons/fa";
+import Link from "next/link";
+
 import Usp from "./schoolcanva/usp";
 import Feature from "./schoolcanva/readmore";
+
 import EdumaatF from "./edumaat/edufeatures";
 import Edumaatusp from "./edumaat/eduusp";
+
 import AstralF from "./astral/astralfeatures";
 import Astralusp from "./astral/astralusp";
+
 import CtrlF from "./ctrl/ctrlfeatures";
 import Ctrlusp from "./ctrl/ctrlusp";
+
 import ClassF from "./matrix/matrixfeatures";
 import Classusp from "./matrix/matrixusp";
+
 import CampF from "./camp/campfeatures";
 import Campusp from "./camp/campusp";
+
 import IschoolF from "./ischool/ischoolfeatures";
 import Ischoolusp from "./ischool/ischoolusp";
+
 import AdvantaF from "./advanta/advantafeatures";
 import Advantausp from "./advanta/advantausp";
+
 import ShriF from "./shriconnect/shrifeatures";
 import Shriusp from "./shriconnect/shriusp";
+
 import VedantaF from "./vedanta/vedfeatures";
 import Vedantausp from "./vedanta/vedusp";
 
@@ -123,16 +134,16 @@ const Cmpchat = ({ styles }) => {
                   <thead>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>SchoolCanvas</th>
-                      <th>EDUMAAT</th>
-                      <th>Astral Technologies</th>
-                      <th>Ctrl Campus</th>
-                      <th>Class Matrix</th>
-                      <th>CampSteer</th>
-                      <th>iSchool</th>
-                      <th>Advanta Rapid ERP</th>
-                      <th>ShriConnect</th>
-                      <th className={styles["tbl-hd1"]}>Vedanta School ERP</th>
+                      <th className={styles["heading-link"]}><Link href='/schoolcanva'>SchoolCanvas</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/edumaat'>EDUMAAT</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/astral'>Astral Technologies</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/ctrl'>Ctrl Campus</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/matrix'>Class Matrix</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/camp'>CampSteer</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/ischool'>iSchool</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/advanta'>Advanta Rapid ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/shriconnect'>ShriConnect</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/vedanta'>Vedanta School ERP</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -391,7 +402,8 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* Ratings */}
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -491,7 +503,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

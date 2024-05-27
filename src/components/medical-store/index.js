@@ -59,8 +59,23 @@ const Index = () => {
           <Tab eventKey="All Products" title="All Products">
             {/* <Ads1 styles={styles} /> */}
             <List styles={styles} />
-            <Related styles={styles} />
-            {/* <Review styles={styles}/> */}
+            <Container>
+              <Row>
+                <Col lg={12}>
+                <h3 className="mt-5">Top 10 Software Comparision Table</h3>
+                <Cmpchat styles={styles} />
+                </Col>
+              </Row>
+            </Container>
+            {/* <Container>
+              <Row>
+                <Col lg={12}>
+                <h3 className="mt-5">Top 10 Software Comparision Table</h3>
+                <Cmpchat styles={styles} />
+                </Col>
+              </Row>
+            </Container>
+            {/* <Related styles={styles} /> */}            {/* <Review styles={styles}/> */}
             {/* <Compare styles={styles} /> */}
           </Tab>
           <Tab eventKey="Buyer's Guide" title="Buyer's Guide">
@@ -70,7 +85,7 @@ const Index = () => {
           {/* <Tab eventKey="Trends" title="Trends">
             <Trend styles={styles} />
           </Tab> */}
-          <Tab eventKey="Compare" title="Compare">
+          <Tab eventKey="Compare" title="Top 10 Software Comparision Table">
             <Cmpchat styles={styles} />
           </Tab>
         </Tabs>

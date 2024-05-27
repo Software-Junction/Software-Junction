@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
 import { FaStar } from "react-icons/fa";
+import Link from "next/link";
+
 import Usp from "../cms/schoolcanva/usp";
 import Feature from "../cms/schoolcanva/readmore";
 import EdumaatF from "../cms/edumaat/edufeatures";
@@ -123,16 +125,16 @@ const Cmpchat = ({ styles }) => {
                   <thead>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>KOOBA Library</th>
-                      <th>Alexandria</th>
-                      <th>Koha ILS</th>
-                      <th>SmartLib</th>
-                      <th>Librarian</th>
-                      <th>SchoolCanvas</th>
-                      <th>EDUMAAT</th>
-                      <th>Digital School Web Solution</th>
-                      <th>Campus365</th>
-                      <th className={styles["tbl-hd1"]}>Chanakya ERP</th>
+                      <th className={styles["heading-link"]}><Link href='/koob'>KOOBA Library</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/alexandria'>Alexandria</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/koha'>Koha ILS</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/smart'>SmartLib</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/librarian'>Librarian</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/schoolcanva'>SchoolCanvas</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/edumaat'>EDUMAAT</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/digital'>Digital School Web Solution</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/campus'>Campus365</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/chanakya'>Chanakya ERP</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -415,7 +417,8 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* Ratings */}
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -515,7 +518,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

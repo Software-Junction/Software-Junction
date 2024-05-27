@@ -97,6 +97,8 @@ border-bottom: var(--bs-nav-underline-border-width) solid black;
 
 }
 .compare-tab{
+  overflow-x: scroll;
+  width: 100%;
   .nav-tabs .nav-item{
     @media(max-width: 767px){
       margin-top: 10px !important;
@@ -355,4 +357,6 @@ color: #000;
     margin-bottom: 0.20rem;
   }
 }
-
+.price-text{
+  text-align: center !important;
+}

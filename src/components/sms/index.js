@@ -60,7 +60,15 @@ const Index = () => {
           <Tab eventKey="All Products" title="All Products">
             {/* <Smsads1 styles={styles} /> */}
             <Smslist styles={styles} />
-            <Smsrelated styles={styles} />
+            <Container>
+              <Row>
+                <Col lg={12}>
+                <h3 className="mt-5">Top 10 Software Comparision Table</h3>
+                <Cmpchat styles={styles} />
+                </Col>
+              </Row>
+            </Container>
+            {/* <Smsrelated styles={styles} /> */}
             {/* <Review styles={styles}/> */}
             {/* <Compare styles={styles} /> */}
           </Tab>
@@ -71,7 +79,7 @@ const Index = () => {
           {/* <Tab eventKey="Trends" title="Trends">
             <Smstrend styles={styles} />
           </Tab> */}
-          <Tab eventKey="Compare" title="Compare">
+          <Tab eventKey="Compare" title="Top 10 Software Comparision Table">
             <Cmpchat styles={styles} />
           </Tab>
         </Tabs>
