@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 // 1
@@ -139,16 +140,16 @@ const Cmpchat = ({ styles }) => {
                   <thead className={styles["heading-stick"]}>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Horizon ERP</th>
-                      <th>Viramati's ERP-FAMS</th>
-                      <th>Oracle Fusion Cloud ERP</th>
-                      <th>TallyPrime</th>
-                      <th>Vyapar</th>
-                      <th>Marg ERP 9+Accounting</th>
-                      <th>Infor CloudSuite™ ERP</th>
-                      <th>Banibro ERP</th>
-                      <th>ProQsmart</th>
-                      <th className={styles["tbl-hd1"]}>Oracle NetSuite ERP</th>
+                      <th className={styles["heading-link"]}><Link href='/horizon'>Horizon ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/virmati-erp-fams'>Viramati's ERP-FAMS</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/oracle-fusion'>Oracle Fusion Cloud ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/tallyprime'>TallyPrime</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/vyapar'>Vyapar</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/margerp'>Marg ERP 9+Accounting</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/infor-cloudsuite'>Infor CloudSuite™ ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/banibro-solution'>Banibro ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/proqsmart'>ProQsmart</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/oracle-netsuite'>Oracle NetSuite ERP</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -419,7 +420,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -519,7 +520,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

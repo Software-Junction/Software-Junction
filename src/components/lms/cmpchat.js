@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
-import { FaStar } from "react-icons/fa";
 import Link from "next/link";
+import { FaStar } from "react-icons/fa";
 
 import Usp from "../cms/schoolcanva/usp";
 import Feature from "../cms/schoolcanva/readmore";
@@ -418,7 +418,7 @@ const Cmpchat = ({ styles }) => {
                       </td>
                     </tr>
                     {/* Ratings */}
-                    {/* <tr>
+                   {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}

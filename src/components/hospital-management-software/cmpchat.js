@@ -501,7 +501,7 @@ const Cmpchat = ({ styles }) => {
                     </tr>
 
                       {/* *****Ratings****** */}
-                    {/* <tr>
+                   {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}

@@ -269,7 +269,7 @@ const Recommend = ({ styles }) => {
       <section className={`${styles["content"]} mt-5 pb-5`}>
         <Container>
           <Row>
-            <Col lg={8}>
+           {/* <Col lg={8}>
               <Image
                 src="/images/campus.png"
                 alt="campus"
@@ -277,11 +277,11 @@ const Recommend = ({ styles }) => {
                 width="800"
                 className={styles["camp-img-mob"]}
               />
-            </Col>
+            </Col> */}
 
-            <Col lg={8}>
-              <div id="1">
-                <h5 className="mt-5">
+            <Col lg={7} className="text-alignment">
+              <div id="1" className="question">
+                <h5 className="">
                   What is a property management software ?
                 </h5>
                 <p className="mt-4">
@@ -1251,11 +1251,11 @@ const Recommend = ({ styles }) => {
                 </ol>
               </div>
             </Col>
-            <Col lg={4}>
+            <Col lg={{span:4, offset: 1}}>
               <div
-                className={`${styles["content-box"]} box bg-light rounded-4 p-4 border overflow-auto mt-5`}
+                className={`${styles["content-box"]} box bg-light rounded-4 p-4 border overflow-auto `}
               >
-                <h5>Table of content</h5>
+                <h3>Table of content</h3>
                 <div className="mt-3">
                   <ol>
                     <Link href="#1">

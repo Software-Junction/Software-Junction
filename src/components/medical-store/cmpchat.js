@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 import MedicinF from "../medical-store/medicin/features";
@@ -133,16 +134,16 @@ const Cmpchat = ({ styles }) => {
                   <thead>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Medicin Pharmacy Management Software</th>
-                      <th>LOGIC ERP</th>
-                      <th>Gofrugal's Pharmacy Software </th>
-                      <th>Visual Chemist Store</th>
-                      <th>Ecogreen Express</th>
-                      <th>Meddoz</th>
-                      <th>Medeil Cloud POS</th>
-                      <th>Adysoft Medical Store Management</th>
-                      <th>eVitalRx</th>
-                      <th className={styles["tbl-hd1"]}>CBO ERP Limited</th>
+                      <th className={styles["heading-link"]}><Link href='/medicin'>Medicin Pharmacy Management Software</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/logic'>LOGIC ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/gofrugal'>Gofrugal's Pharmacy Software</Link> </th>
+                      <th className={styles["heading-link"]}><Link href='/visual'>Visual Chemist Store</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/ecogreen'>Ecogreen Express</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/meddoz'>Meddoz</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/medeil'>Medeil Cloud POS</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/adysoft'>Adysoft Medical Store Management</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/evital'>eVitalRx</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/cbo'>CBO ERP Limited</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -417,7 +418,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -517,7 +518,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

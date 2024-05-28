@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 import FigJamF from "../project-management-software/figjam/features";
@@ -129,16 +130,16 @@ const Cmpchat = ({ styles }) => {
                   <thead className={styles["heading-stick"]}>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>FigJam</th>
-                      <th>Zoho Projects</th>
-                      <th>BugHerd</th>
-                      <th>Jira Software</th>
-                      <th>WebWork Tracker</th>
-                      <th>Minitab Engage</th>
-                      <th>Celoxis</th>
-                      <th>NetSuite OpenAir</th>
-                      <th>ProProfs Project Management Software</th>
-                      <th className={styles["tbl-hd1"]}>SmartTask </th>
+                      <th className={styles["heading-link"]}><Link href='/figjam'>FigJam</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/zoho-projects'>Zoho Projects</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/bugherd'>BugHerd</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/jira'>Jira Software</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/webwork'>WebWork Tracker</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/minitab-engage'>Minitab Engage</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/celoxis'>Celoxis</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/netsuite-openair'>NetSuite OpenAir</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/proprofs'>ProProfs Project Management Software</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/smart-task'>SmartTask </Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -409,7 +410,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -509,7 +510,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

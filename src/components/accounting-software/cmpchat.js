@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 import ZohoF from "../accounting-software/zoho-books/features";
@@ -133,16 +134,16 @@ const Cmpchat = ({ styles }) => {
                   <thead>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Zoho Books</th>
-                      <th>My Bill Book</th>
-                      <th>Oracle Fusion Cloud ERP</th>
-                      <th>Oracle NetSuite ERP</th>
-                      <th>Vyapar</th>
-                      <th>Ankpal</th>
-                      <th>Deskera</th>
-                      <th>Wave Accounting</th>
-                      <th>Marg ERP 9+Accounting</th>
-                      <th className={styles["tbl-hd1"]}>Freshbooks</th>
+                      <th className={styles["heading-link"]}><Link href='/zoho-books'>Zoho Books</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/billbook'>My Bill Book</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/oracle-fusion'>Oracle Fusion Cloud ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/oracle-netsuite'>Oracle NetSuite ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/vyapar'>Vyapar</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/ankpal'>Ankpal</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/deskera'>Deskera</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/wave-accounting'>Wave Accounting</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/margerp'>Marg ERP 9+Accounting</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/freshbooks'>Freshbooks</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -413,7 +414,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -513,7 +514,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

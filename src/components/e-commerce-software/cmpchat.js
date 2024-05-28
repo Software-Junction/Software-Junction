@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 import UniwareF from "../e-commerce-software/uniware/features";
@@ -129,16 +130,16 @@ const Cmpchat = ({ styles }) => {
                   <thead className={styles["heading-stick"]}>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Uniware </th>
-                      <th>BigCommerce</th>
-                      <th>PrestaShop</th>
-                      <th>Shopnix</th>
-                      <th>StoreHippo</th>
-                      <th>Primaseller</th>
-                      <th>OroCommerce</th>
-                      <th>3dcart</th>
-                      <th>Shopify</th>
-                      <th className={styles["tbl-hd1"]}>CommerceUp </th>
+                      <th className={styles["heading-link"]}><Link href='/uniware'>Uniware</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/bigcommerce'>BigCommerce</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/prestashop'>PrestaShop</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/storehippo'>Shopnix</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/shopnix'>StoreHippo</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/primaseller'>Primaseller</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/orocommerce'>OroCommerce</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/3dcart'>3dcart</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/shopify'>Shopify</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/commerceUp'>CommerceUp</Link> </th>
                     </tr>
                   </thead>
                   <tbody>
@@ -412,7 +413,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -512,7 +513,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

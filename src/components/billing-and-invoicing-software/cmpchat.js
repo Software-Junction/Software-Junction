@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 import GoBill from "../billing-and-invoicing-software/go-gst-bill/features";
@@ -129,16 +130,16 @@ const Cmpchat = ({ styles }) => {
                   <thead className={styles["heading-stick"]}>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Go GST Bill</th>
-                      <th>ProfitBooks</th>
-                      <th>Zoho Invoices</th>
-                      <th>eRetail Cybertech - pranaPOS </th>
-                      <th>IVEPOS</th>
-                      <th>CaptainBiz</th>
-                      <th>QuickBooks Online</th>
-                      <th>Spectrum Billing Solution</th>
-                      <th>Oracle Fusion Cloud ERP</th>
-                      <th className={styles["tbl-hd1"]}>My Bill Book </th>
+                      <th className={styles["heading-link"]}><Link href='/go-gst-bill'>Go GST Bill</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/profit-books'>ProfitBooks</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/zoho-invoices'>Zoho Invoices</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/eretail-cybertech'>eRetail Cybertech - pranaPOS </Link></th>
+                      <th className={styles["heading-link"]}><Link href='/ivepos'>IVEPOS</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/captain-biz'>CaptainBiz</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/quickbooksonline'>QuickBooks Online</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/spectrumbilling'>Spectrum Billing Solution</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/oracle-fusion'>Oracle Fusion Cloud ERP</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/billbook'>My Bill Book</Link> </th>
                     </tr>
                   </thead>
                   <tbody>
@@ -409,7 +410,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -509,7 +510,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

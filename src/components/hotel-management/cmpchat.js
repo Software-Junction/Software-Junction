@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 import VyaparF from "../hotel-management/vyapar-hotel/features";
@@ -129,16 +130,16 @@ const Cmpchat = ({ styles }) => {
                   <thead className={styles["heading-stick"]}>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Vyapar</th>
-                      <th>KWHotel</th>
-                      <th>Stayflexi</th>
-                      <th>SYSOTEL.AI</th>
-                      <th>eZee Absolute</th>
-                      <th>DJUBO</th>
-                      <th>InnKey</th>
-                      <th>SabeeApp</th>
-                      <th>MyHotelLine</th>
-                      <th className={styles["tbl-hd1"]}>THMS</th>
+                      <th className={styles["heading-link"]}><Link href='/vyapar-hotel'>Vyapar</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/kwhotel'>KWHotel</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/stayflexi'>Stayflexi</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/sysotel'>SYSOTEL.AI</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/ezee-absolute'>eZee Absolute</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/djubo'>DJUBO</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/innkey'>InnKey</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/sabeeapp'>SabeeApp</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/myhotelline'>MyHotelLine</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/hms'>THMS</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -407,7 +408,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -507,7 +508,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

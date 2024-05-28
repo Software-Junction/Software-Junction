@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 // 1
@@ -139,16 +140,16 @@ const Cmpchat = ({ styles }) => {
                   <thead className={styles["heading-stick"]}>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Intellicus</th>
-                      <th>Stata</th>
-                      <th>Oracle Database</th>
-                      <th>Zoho Analytics</th>
-                      <th>Oracle Analytics</th>
-                      <th>NVivo</th>
-                      <th>Domo</th>
-                      <th>SAS Analytics Pro</th>
-                      <th>WebFOCUS</th>
-                      <th className={styles["tbl-hd1"]}>Ideata Analytics</th>
+                      <th className={styles["heading-link"]}><Link href='/intellicus'>Intellicus</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/stata'>Stata</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/oracle-database'>Oracle Database</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/zoho-analytics'>Zoho Analytics</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/oracle-analytics'>Oracle Analytics</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/nvivo'>NVivo</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/domo'>Domo</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/sas-analytic-pro'>SAS Analytics Pro</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/webfocus'>WebFOCUS</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/ideata-analytics'>Ideata Analytics</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -424,7 +425,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -524,7 +525,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

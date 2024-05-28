@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 import HroneF from "../hr-software/hrone/features";
@@ -133,16 +134,16 @@ const Cmpchat = ({ styles }) => {
                   <thead>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>HROne</th>
-                      <th>Spine HRMS</th>
-                      <th>Qandle</th>
-                      <th>Keka</th>
-                      <th>factoHR</th>
-                      <th>WalletHR</th>
-                      <th>Nitso HRMS</th>
-                      <th>HRMantra</th>
-                      <th>Peoplebox</th>
-                      <th className={styles["tbl-hd1"]}>Workable</th>
+                      <th className={styles["heading-link"]}><Link href='/hrone'>HROne</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/spine-hrms'>Spine HRMS</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/qandle'>Qandle</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/keka'>Keka</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/factohr'>factoHR</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/wallethr'>WalletHR</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/nitso-hrms'>Nitso HRMS</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/hrmantra'>HRMantra</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/peoplebox'>Peoplebox</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/workable'>Workable</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -413,7 +414,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -513,7 +514,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

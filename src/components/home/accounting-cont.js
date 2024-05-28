@@ -75,11 +75,15 @@ const accountingcont = ({ styles }) => {
   const options = {
     plugins: {
       legend: {
-        position: "top", // Position legend to the right
+        position: "bottom", // Position legend to the right
         labels: {
           boxWidth: 20,
           color: "#fff",
+          font:{
+            size: 10,
+          }
         },
+
       },
       datalabels: {
         color: "#fff",
@@ -152,6 +156,7 @@ const accountingcont = ({ styles }) => {
                       username: "",
                       email: "",
                       number: "",
+                      employee: "",
                       postTimestamp: new Date().toUTCString(),
                     }}
                     validationSchema={Yup.object().shape({
@@ -164,6 +169,9 @@ const accountingcont = ({ styles }) => {
                         .required("Please enter your email address."),
                       number: Yup.string().required(
                         "Please enter your phone number."
+                      ),
+                      employee: Yup.string().required(
+                        "Please select employee strength."
                       ),
                     })}
                     onSubmit={handleFormSubmit}
@@ -230,6 +238,35 @@ const accountingcont = ({ styles }) => {
                             className={`${styles["valid-clr"]} invalid-feedback`}
                           />
                         </Form.Group>
+                        <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                         <Button
                           variant="warning"
                           size="sm"

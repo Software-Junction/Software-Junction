@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 import ZohoF from "../crm-software/zoho-crm/features";
@@ -134,16 +135,16 @@ const Cmpchat = ({ styles }) => {
                   <thead className={styles['heading-stick']}>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Zoho CRM</th>
-                      <th>NetHunt CRM</th>
-                      <th>Freshsales</th>
-                      <th>Salesforce</th>
-                      <th>NetSuite CRM</th>
-                      <th>Salesflare</th>
-                      <th>Free CRM</th>
-                      <th>AutomateCRM</th>
-                      <th>iCRM</th>
-                      <th className={styles["tbl-hd1"]}>TigerLRM</th>
+                      <th className={styles["heading-link"]}><Link href='/zoho-crm'>Zoho CRM</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/nethunt'>NetHunt CRM</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/freshsales'>Freshsales</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/salesforce'>Salesforce</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/netsuite-crm'>NetSuite CRM</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/salesflare'>Salesflare</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/free-crm'>Free CRM</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/automatecrm'>AutomateCRM</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/icrm'>iCRM</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/tigerlrm'>TigerLRM</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -416,7 +417,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -516,7 +517,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

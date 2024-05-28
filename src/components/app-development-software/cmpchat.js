@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 // 1
@@ -139,16 +140,16 @@ const Cmpchat = ({ styles }) => {
                   <thead className={styles["heading-stick"]}>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Oracle Cloud Infrastructure (OCI)</th>
-                      <th>Oracle Database</th>
-                      <th>Ready4S</th>
-                      <th>Alpha Software</th>
-                      <th>Appy Pie</th>
-                      <th>hedgehog lab</th>
-                      <th>IntelliJ IDEA</th>
-                      <th>AppSheet</th>
-                      <th>Mag+</th>
-                      <th className={styles["tbl-hd1"]}>Mobincube</th>
+                      <th className={styles["heading-link"]}><Link href='/oracle-cloud-infrastructure'>Oracle Cloud Infrastructure (OCI)</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/oracledatabase'>Oracle Database</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/ready-4s'>Ready4S</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/alpha-software'>Alpha Software</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/appy-pie'>Appy Pie</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/hedgehog-lab'>hedgehog lab</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/intellij-idea'>IntelliJ IDEA</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/appsheet'>AppSheet</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/mag+'>Mag+</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/mobincube'>Mobincube</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -424,7 +425,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -524,7 +525,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 import AstralF from "../real-estate-software/astral/features";
@@ -129,16 +130,16 @@ const Cmpchat = ({ styles }) => {
                   <thead className={styles["heading-stick"]}>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Astral Technologies</th>
-                      <th>Contractor Foreman</th>
-                      <th>Bhoomi</th>
-                      <th>Strategic ERP</th>
-                      <th>Procore</th>
-                      <th>Tiemchart</th>
-                      <th>Tactive</th>
-                      <th>Viewpoint</th>
-                      <th>Binary Stream</th>
-                      <th className={styles["tbl-hd1"]}>BlueDolphin </th>
+                      <th className={styles["heading-link"]}><Link href='/astral-tec'>Astral Technologies</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/contractor-foreman'>Contractor Foreman</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/bhoomi'>Bhoomi</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/strategic-erp'>Strategic ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/procore'>Procore</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/tiemchart'>Tiemchart</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/tactive'>Tactive</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/viewpoint'>Viewpoint</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/binary-stream'>Binary Stream</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/bluedolphin'>BlueDolphin</Link> </th>
                     </tr>
                   </thead>
                   <tbody>
@@ -412,7 +413,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -512,7 +513,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

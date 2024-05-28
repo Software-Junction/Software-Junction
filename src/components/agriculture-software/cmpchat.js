@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 import AgworldF from "../agriculture-software/agworld/features";
@@ -129,16 +130,16 @@ const Cmpchat = ({ styles }) => {
                   <thead className={styles["heading-stick"]}>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Agworld Farm Management Software</th>
-                      <th>AGRIVI's Farm Management Software</th>
-                      <th>Croptracker</th>
-                      <th>EasyFarm</th>
-                      <th>Farmbrite</th>
-                      <th>FieldMargin</th>
-                      <th>Chetu</th>
-                      <th>AgriSys ERP</th>
-                      <th>FarmERP</th>
-                      <th className={styles["tbl-hd1"]}>AgriWebb</th>
+                      <th className={styles["heading-link"]}><Link href='/agworld'>Agworld Farm Management Software</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/agrivi'>AGRIVI's Farm Management Software</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/croptracker'>Croptracker</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/easyfarm'>EasyFarm</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/farmbrite'>Farmbrite</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/fieldmargin'>FieldMargin</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/chetu'>Chetu</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/agrisys'>AgriSys ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/farmerp'>FarmERP</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/agriwebb'>AgriWebb</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -409,7 +410,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -509,7 +510,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 import VyaparF from "../accounting-software/vyapar/features";
@@ -129,16 +130,16 @@ const Cmpchat = ({ styles }) => {
                   <thead className={styles["heading-stick"]}>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Vyapar</th>
-                      <th>MMI Softwares Pvt. Ltd</th>
-                      <th>Oracle Fusion Cloud ERP</th>
-                      <th>My Bill Book</th>
-                      <th>Oracle NetSuite ERP</th>
-                      <th>LOGIC ERP</th>
-                      <th>Vastralaya</th>
-                      <th>Ginesys Retail ERP</th>
-                      <th>Pretture</th>
-                      <th className={styles["tbl-hd1"]}>Uprow POS</th>
+                      <th className={styles["heading-link"]}><Link href='/vyapar'>Vyapar</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/mmi-software'>MMI Softwares Pvt. Ltd</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/oracle-fusion'>Oracle Fusion Cloud ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/billbook'>My Bill Book</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/oracle-netsuite'>Oracle NetSuite ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/logic-erp'>LOGIC ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/vastralaya'>Vastralaya</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/ginesys-retail'>Ginesys Retail ERP</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/pretture'>Pretture</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/uprow-pos'>Uprow POS</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -409,7 +410,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -509,7 +510,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

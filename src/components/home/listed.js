@@ -78,7 +78,7 @@ const Listed = ({ styles }) => {
                   number: "",
                  
                   companyname: "",
-                  
+                  employee: "",
                   postTimestamp: new Date().toUTCString(),
                 }}
                 validationSchema={Yup.object().shape({
@@ -95,13 +95,16 @@ const Listed = ({ styles }) => {
                   companyname: Yup.string().required(
                     "Please enter your Company Name."
                   ),
-                
+                  employee: Yup.string().required(
+                    "Please select employee strength."
+                  ),
                   message: Yup.string().required("Please enter a message."),
                 })}
                 onSubmit={handleFormSubmit}
               >
                 {(formik) => (
                   <Form method="post" id="contact-form">
+                    <Row>
                     <Form.Group
                         className="mb-3"
                         controlId="exampleForm.ControlInput1"
@@ -123,6 +126,37 @@ const Listed = ({ styles }) => {
                           className={`${styles["valid-clr"]} invalid-feedback`}
                         />
                       </Form.Group>
+                      <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                        as={Col}
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select py-2 ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
+                      </Row>
                     <Row>
                       <Form.Group
                         className="mb-3"

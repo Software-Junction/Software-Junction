@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 import HealconF from "../clinic-management/healcon-practice/features";
@@ -129,16 +130,16 @@ const Cmpchat = ({ styles }) => {
                   <thead className={styles["heading-stick"]}>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
-                      <th>Healcon Practice</th>
-                      <th>Practo Ray</th>
-                      <th>ClinSav</th>
-                      <th>DocEngage</th>
-                      <th>CrelioHealth</th>
-                      <th>Webmedy</th>
-                      <th>Qmarksoft</th>
-                      <th>Clinicmaster</th>
-                      <th>Medixcel</th>
-                      <th className={styles["tbl-hd1"]}>Lybrate</th>
+                      <th className={styles["heading-link"]}><Link href='/healcon-practice'>Healcon Practice</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/practo-ray'>Practo Ray</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/clinsav'>ClinSav</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/docengage'>DocEngage</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/creliohealth'>CrelioHealth</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/webmedy'>Webmedy</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/qmarksoft'>Qmarksoft</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/clinicmaster'>Clinicmaster</Link></th>
+                      <th className={styles["heading-link"]}><Link href='/medixcel'>Medixcel</Link></th>
+                      <th className={styles["tbl-hd1"]}><Link href='/lybrate'>Lybrate</Link></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -409,7 +410,7 @@ const Cmpchat = ({ styles }) => {
                         </Button>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Ratings</td>
                       <td>
                         {" "}
@@ -509,7 +510,7 @@ const Cmpchat = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Pricing Plan</td>
                       <td>Available on Request</td>

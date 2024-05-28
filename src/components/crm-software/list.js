@@ -132,6 +132,7 @@ const List = ({ styles }) => {
                             number: "",
                             message: "",
                             date: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -148,6 +149,9 @@ const List = ({ styles }) => {
                               "Please enter your phone number."
                             ),
                             date: Yup.string().required("Please select date."),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
+                            ),
                             message: Yup.string().required(
                               "Please enter a message."
                             ),
@@ -218,7 +222,8 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
-                              <Form.Group
+
+                                <Form.Group
                                 className="mb-3"
                                 controlId="exampleForm.ControlInput1"
                               >
@@ -241,6 +246,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+   <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -293,6 +327,7 @@ const List = ({ styles }) => {
                             email: "",
                             number: "",
                             message: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -307,6 +342,9 @@ const List = ({ styles }) => {
                               .required("Please enter your email address."),
                             number: Yup.string().required(
                               "Please enter your phone number."
+                            ),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
                             ),
                             message: Yup.string().required(
                               "Please enter a message."
@@ -378,6 +416,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+<Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+  >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -476,6 +543,7 @@ const List = ({ styles }) => {
                             number: "",
                             message: "",
                             date: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -492,6 +560,9 @@ const List = ({ styles }) => {
                               "Please enter your phone number."
                             ),
                             date: Yup.string().required("Please select date."),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
+                            ),
                             message: Yup.string().required(
                               "Please enter a message."
                             ),
@@ -562,7 +633,8 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
-                              <Form.Group
+
+                                <Form.Group
                                 className="mb-3"
                                 controlId="exampleForm.ControlInput1"
                               >
@@ -585,6 +657,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+   <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -637,6 +738,7 @@ const List = ({ styles }) => {
                             email: "",
                             number: "",
                             message: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -651,6 +753,9 @@ const List = ({ styles }) => {
                               .required("Please enter your email address."),
                             number: Yup.string().required(
                               "Please enter your phone number."
+                            ),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
                             ),
                             message: Yup.string().required(
                               "Please enter a message."
@@ -722,6 +827,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+<Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+  >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -825,6 +959,7 @@ const List = ({ styles }) => {
                             number: "",
                             message: "",
                             date: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -841,6 +976,9 @@ const List = ({ styles }) => {
                               "Please enter your phone number."
                             ),
                             date: Yup.string().required("Please select date."),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
+                            ),
                             message: Yup.string().required(
                               "Please enter a message."
                             ),
@@ -911,7 +1049,8 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
-                              <Form.Group
+
+                                <Form.Group
                                 className="mb-3"
                                 controlId="exampleForm.ControlInput1"
                               >
@@ -934,6 +1073,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+   <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -986,6 +1154,7 @@ const List = ({ styles }) => {
                             email: "",
                             number: "",
                             message: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -1000,6 +1169,9 @@ const List = ({ styles }) => {
                               .required("Please enter your email address."),
                             number: Yup.string().required(
                               "Please enter your phone number."
+                            ),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
                             ),
                             message: Yup.string().required(
                               "Please enter a message."
@@ -1071,6 +1243,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+<Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+  >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -1173,6 +1374,7 @@ const List = ({ styles }) => {
                             number: "",
                             message: "",
                             date: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -1189,6 +1391,9 @@ const List = ({ styles }) => {
                               "Please enter your phone number."
                             ),
                             date: Yup.string().required("Please select date."),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
+                            ),
                             message: Yup.string().required(
                               "Please enter a message."
                             ),
@@ -1259,7 +1464,8 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
-                              <Form.Group
+
+                                <Form.Group
                                 className="mb-3"
                                 controlId="exampleForm.ControlInput1"
                               >
@@ -1282,6 +1488,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+   <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -1334,6 +1569,7 @@ const List = ({ styles }) => {
                             email: "",
                             number: "",
                             message: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -1348,6 +1584,9 @@ const List = ({ styles }) => {
                               .required("Please enter your email address."),
                             number: Yup.string().required(
                               "Please enter your phone number."
+                            ),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
                             ),
                             message: Yup.string().required(
                               "Please enter a message."
@@ -1419,6 +1658,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+<Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+  >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -1522,6 +1790,7 @@ const List = ({ styles }) => {
                             number: "",
                             message: "",
                             date: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -1538,6 +1807,9 @@ const List = ({ styles }) => {
                               "Please enter your phone number."
                             ),
                             date: Yup.string().required("Please select date."),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
+                            ),
                             message: Yup.string().required(
                               "Please enter a message."
                             ),
@@ -1608,7 +1880,8 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
-                              <Form.Group
+
+                                <Form.Group
                                 className="mb-3"
                                 controlId="exampleForm.ControlInput1"
                               >
@@ -1631,6 +1904,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+   <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -1683,6 +1985,7 @@ const List = ({ styles }) => {
                             email: "",
                             number: "",
                             message: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -1697,6 +2000,9 @@ const List = ({ styles }) => {
                               .required("Please enter your email address."),
                             number: Yup.string().required(
                               "Please enter your phone number."
+                            ),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
                             ),
                             message: Yup.string().required(
                               "Please enter a message."
@@ -1768,6 +2074,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+<Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+  >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -1869,6 +2204,7 @@ const List = ({ styles }) => {
                             number: "",
                             message: "",
                             date: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -1885,6 +2221,9 @@ const List = ({ styles }) => {
                               "Please enter your phone number."
                             ),
                             date: Yup.string().required("Please select date."),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
+                            ),
                             message: Yup.string().required(
                               "Please enter a message."
                             ),
@@ -1955,7 +2294,8 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
-                              <Form.Group
+
+                                <Form.Group
                                 className="mb-3"
                                 controlId="exampleForm.ControlInput1"
                               >
@@ -1978,6 +2318,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+   <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -2030,6 +2399,7 @@ const List = ({ styles }) => {
                             email: "",
                             number: "",
                             message: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -2044,6 +2414,9 @@ const List = ({ styles }) => {
                               .required("Please enter your email address."),
                             number: Yup.string().required(
                               "Please enter your phone number."
+                            ),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
                             ),
                             message: Yup.string().required(
                               "Please enter a message."
@@ -2115,6 +2488,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+<Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+  >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -2213,6 +2615,7 @@ const List = ({ styles }) => {
                             number: "",
                             message: "",
                             date: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -2229,6 +2632,9 @@ const List = ({ styles }) => {
                               "Please enter your phone number."
                             ),
                             date: Yup.string().required("Please select date."),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
+                            ),
                             message: Yup.string().required(
                               "Please enter a message."
                             ),
@@ -2299,7 +2705,8 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
-                              <Form.Group
+
+                                <Form.Group
                                 className="mb-3"
                                 controlId="exampleForm.ControlInput1"
                               >
@@ -2322,6 +2729,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+   <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -2374,6 +2810,7 @@ const List = ({ styles }) => {
                             email: "",
                             number: "",
                             message: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -2388,6 +2825,9 @@ const List = ({ styles }) => {
                               .required("Please enter your email address."),
                             number: Yup.string().required(
                               "Please enter your phone number."
+                            ),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
                             ),
                             message: Yup.string().required(
                               "Please enter a message."
@@ -2459,6 +2899,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+<Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+  >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -2560,6 +3029,7 @@ const List = ({ styles }) => {
                             number: "",
                             message: "",
                             date: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -2576,6 +3046,9 @@ const List = ({ styles }) => {
                               "Please enter your phone number."
                             ),
                             date: Yup.string().required("Please select date."),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
+                            ),
                             message: Yup.string().required(
                               "Please enter a message."
                             ),
@@ -2646,7 +3119,8 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
-                              <Form.Group
+
+                                <Form.Group
                                 className="mb-3"
                                 controlId="exampleForm.ControlInput1"
                               >
@@ -2669,6 +3143,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+   <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -2721,6 +3224,7 @@ const List = ({ styles }) => {
                             email: "",
                             number: "",
                             message: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -2735,6 +3239,9 @@ const List = ({ styles }) => {
                               .required("Please enter your email address."),
                             number: Yup.string().required(
                               "Please enter your phone number."
+                            ),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
                             ),
                             message: Yup.string().required(
                               "Please enter a message."
@@ -2806,6 +3313,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+<Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+  >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -2904,6 +3440,7 @@ const List = ({ styles }) => {
                             number: "",
                             message: "",
                             date: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -2920,6 +3457,9 @@ const List = ({ styles }) => {
                               "Please enter your phone number."
                             ),
                             date: Yup.string().required("Please select date."),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
+                            ),
                             message: Yup.string().required(
                               "Please enter a message."
                             ),
@@ -2990,7 +3530,8 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
-                              <Form.Group
+
+                                <Form.Group
                                 className="mb-3"
                                 controlId="exampleForm.ControlInput1"
                               >
@@ -3013,6 +3554,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+   <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -3065,6 +3635,7 @@ const List = ({ styles }) => {
                             email: "",
                             number: "",
                             message: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -3079,6 +3650,9 @@ const List = ({ styles }) => {
                               .required("Please enter your email address."),
                             number: Yup.string().required(
                               "Please enter your phone number."
+                            ),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
                             ),
                             message: Yup.string().required(
                               "Please enter a message."
@@ -3150,6 +3724,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+<Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+  >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -3250,6 +3853,7 @@ const List = ({ styles }) => {
                             number: "",
                             message: "",
                             date: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -3266,6 +3870,9 @@ const List = ({ styles }) => {
                               "Please enter your phone number."
                             ),
                             date: Yup.string().required("Please select date."),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
+                            ),
                             message: Yup.string().required(
                               "Please enter a message."
                             ),
@@ -3336,7 +3943,8 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
-                              <Form.Group
+
+                                <Form.Group
                                 className="mb-3"
                                 controlId="exampleForm.ControlInput1"
                               >
@@ -3359,6 +3967,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+   <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -3411,6 +4048,7 @@ const List = ({ styles }) => {
                             email: "",
                             number: "",
                             message: "",
+                            employee: "",
                             postTimestamp: new Date().toUTCString(),
                           }}
                           validationSchema={Yup.object().shape({
@@ -3425,6 +4063,9 @@ const List = ({ styles }) => {
                               .required("Please enter your email address."),
                             number: Yup.string().required(
                               "Please enter your phone number."
+                            ),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
                             ),
                             message: Yup.string().required(
                               "Please enter a message."
@@ -3496,6 +4137,35 @@ const List = ({ styles }) => {
                                   className={`${styles["valid-clr"]} invalid-feedback`}
                                 />
                               </Form.Group>
+<Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+  >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
                               <Button
                                 variant="warning"
                                 size="sm"
@@ -8493,6 +9163,7 @@ const List = ({ styles }) => {
                       email: "",
                       number: "",
                       message: "",
+                      employee: "",
                       postTimestamp: new Date().toUTCString(),
                     }}
                     validationSchema={Yup.object().shape({
@@ -8507,6 +9178,9 @@ const List = ({ styles }) => {
                         .required("Please enter your email address."),
                       number: Yup.string().required(
                         "Please enter your phone number."
+                      ),
+                      employee: Yup.string().required(
+                        "Please select employee strength."
                       ),
                       message: Yup.string().required("Please enter a message."),
                     })}
@@ -8551,7 +9225,36 @@ const List = ({ styles }) => {
                             className={`${styles["valid-clr"]} invalid-feedback`}
                           />
                         </Form.Group>
-                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                       <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
+<Form.Group className="mb-3" controlId="formBasicEmail">
                           <Field
                             className={`form-control ${
                               formik.touched.email && formik.errors.email

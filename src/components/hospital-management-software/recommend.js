@@ -316,7 +316,7 @@ const Recommend = ({ styles }) => {
               />
             </Col> */}
 
-            <Col lg={7} className={styles['text-alignment']}>
+            <Col lg={7} className="text-alignment">
               <div id="1" className="question">
                 <h5 className="">What is hospital management software ?</h5>
                 <p className="mt-4">
