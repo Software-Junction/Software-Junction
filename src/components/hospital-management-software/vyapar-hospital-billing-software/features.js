@@ -134,13 +134,16 @@ const Features = ({ styles }) => {
     setSearchQuery(e.target.value);
   };
 
-  const filteredFeaturesData = featuresData.filter((feature) =>
+  const combinedFeatures = [...featuresData, ...moreFeatures];
+  const filteredFeatures = combinedFeatures.filter((feature) =>
     feature.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  const filteredMoreFeatures = moreFeatures.filter((feature) =>
-    feature.title.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  const displayFeatures = searchQuery
+    ? filteredFeatures
+    : isShowMore
+    ? combinedFeatures
+    : featuresData;
 
   return (
     <>
@@ -161,7 +164,7 @@ const Features = ({ styles }) => {
             </Form>
           </Col>
 
-          {filteredFeaturesData.map((feature, index) => (
+          {displayFeatures.map((feature, index) => (
             <Col lg={3} className="mb-4" key={index}>
               <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                 {" "}
@@ -175,7 +178,7 @@ const Features = ({ styles }) => {
             </Col>
           ))}
 
-          {isShowMore && 
+          {/* {isShowMore && 
           <>
           {filteredMoreFeatures.map((featureM, index) => (
             <Col lg={3} className="mb-4" key={index}>
@@ -191,7 +194,8 @@ const Features = ({ styles }) => {
             </Col>
           ))}
           </>
-          }
+          } */}
+          {!searchQuery && (
           <Col lg={12}>
             <div className={styles["feature-btn"]}>
               <Button className="mt-4" onClick={toggleReadMoreLess}>
@@ -199,6 +203,7 @@ const Features = ({ styles }) => {
               </Button>
             </div>
           </Col>
+           )}
         </Row>
       </Container>
     </>

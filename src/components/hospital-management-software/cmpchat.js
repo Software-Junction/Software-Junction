@@ -1,8 +1,11 @@
 import React from "react";
 import { useState } from "react";
-import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import { Container, Row, Col, Table, Modal, Button, Form } from "react-bootstrap";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa";
+import { Formik, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
+import axios from "axios";
 
 // 1
 import EhospitalF from "../medical-store/ehospital/features";
@@ -58,7 +61,7 @@ const Cmpchat = ({ styles }) => {
   //1
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);
-  const [showPrice1, setShowPrice1] = useState(false);
+  // const [showPrice1, setShowPrice1] = useState(false);
 
   //2
   const [showUsp2, setShowUsp2] = useState(false);
@@ -72,12 +75,12 @@ const Cmpchat = ({ styles }) => {
   //4
   const [showF4, setShowF4] = useState(false);
   const [showUsp4, setShowUsp4] = useState(false);
-  const [showPrice4, setShowPrice4] = useState(false);
+  // const [showPrice4, setShowPrice4] = useState(false);
 
   //5
   const [showF5, setShowF5] = useState(false);
   const [showUsp5, setShowUsp5] = useState(false);
-  const [showPrice5, setShowPrice5] = useState(false);
+  // const [showPrice5, setShowPrice5] = useState(false);
 
   //6
   const [showF6, setShowF6] = useState(false);
@@ -87,7 +90,7 @@ const Cmpchat = ({ styles }) => {
   //7
   const [showF7, setShowF7] = useState(false);
   const [showUsp7, setShowUsp7] = useState(false);
-  const [showPrice7, setShowPrice7] = useState(false);
+  // const [showPrice7, setShowPrice7] = useState(false);
 
   //8
   const [showF8, setShowF8] = useState(false);
@@ -97,12 +100,12 @@ const Cmpchat = ({ styles }) => {
   //9
   const [showF9, setShowF9] = useState(false);
   const [showUsp9, setShowUsp9] = useState(false);
-  const [showPrice9, setShowPrice9] = useState(false);
+  // const [showPrice9, setShowPrice9] = useState(false);
 
   //10
   const [showF10, setShowF10] = useState(false);
   const [showUsp10, setShowUsp10] = useState(false);
-  const [showPrice10, setShowPrice10] = useState(false);
+  // const [showPrice10, setShowPrice10] = useState(false);
 
   //1 features and usp
   const handleCloseF1 = () => setShow1(false);
@@ -184,6 +187,29 @@ const Cmpchat = ({ styles }) => {
   const handleClosePrice10 = () => setShowPrice10(false);
   const handleShowPrice10 = () => setShowPrice10(true);
 
+
+  const handleFormSubmit = async (values, actions) => {
+    try {
+      await axios.post(
+        "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
+        values
+      );
+      actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
+      window.location.reload();
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      actions.setSubmitting(false);
+    }
+  };
+  
+  const [showGetPrice, setShowGetPrice] = useState(false);
+  
+  const handleCloseGetPrice = () => setShowGetPrice(false);
+    const handleShowGetPrice = () => setShowGetPrice(true);
+
+    
   return (
     <>
       <section className={`${styles["soft-chat"]} `}>
@@ -611,7 +637,7 @@ const Cmpchat = ({ styles }) => {
                           size="sm"
                           // variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice1}
+                          onClick={handleShowGetPrice}
                         >
                           Get Pricing
                         </Button>
@@ -621,7 +647,7 @@ const Cmpchat = ({ styles }) => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          // onClick={handleShowPrice2}
+                          onClick={handleShowGetPrice}
                         >
                           Get Pricing
                         </Button>
@@ -643,7 +669,7 @@ const Cmpchat = ({ styles }) => {
                           size="sm"
                           // variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice4}
+                          onClick={handleShowGetPrice}
                         >
                           Get Pricing
                         </Button>
@@ -654,7 +680,7 @@ const Cmpchat = ({ styles }) => {
                           size="sm"
                           // variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice5}
+                          onClick={handleShowGetPrice}
                         >
                           Get Pricing
                         </Button>
@@ -676,7 +702,7 @@ const Cmpchat = ({ styles }) => {
                           size="sm"
                           // variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice7}
+                          onClick={handleShowGetPrice}
                         >
                           Get Pricing
                         </Button>
@@ -698,7 +724,7 @@ const Cmpchat = ({ styles }) => {
                           size="sm"
                           // variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice9}
+                          onClick={handleShowGetPrice}
                         >
                           Get Pricing
                         </Button>
@@ -709,7 +735,7 @@ const Cmpchat = ({ styles }) => {
                           size="sm"
                           // variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice10}
+                          onClick={handleShowGetPrice}
                         >
                           Get Pricing
                         </Button>
@@ -881,10 +907,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <VyaparF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF3}>
                     Close
                   </Button>
+                  <h5 className="text-light">Want to know more about the Software <Link href='' style={{color:"#FC5185"}}>"Click Here"</Link></h5>
                 </Modal.Footer>
               </Modal>
               {/* 3 usp */}
@@ -1439,6 +1466,156 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal> */}
+
+                      {/* Get Pricing Modal */}
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showGetPrice}
+                      onHide={handleCloseGetPrice}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Price</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            employee: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
+                            ),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                        <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                        >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Pricing
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                    </Modal>
             </Col>
           </Row>
         </Container>
