@@ -209,6 +209,14 @@ const Cmpchat = ({ styles }) => {
   const handleCloseGetPrice = () => setShowGetPrice(false);
     const handleShowGetPrice = () => setShowGetPrice(true);
 
+    const [showSoftware, setShowSoftware] = useState(false);
+
+    const handleCloseSoftware = () => setShowSoftware(false);
+
+    const handleShowSoftware = () => {
+      setShowSoftware(true);
+      setShowF3(false);
+    }
     
   return (
     <>
@@ -911,9 +919,157 @@ const Cmpchat = ({ styles }) => {
                   <Button variant="secondary" onClick={handleCloseF3}>
                     Close
                   </Button>
-                  <h5 className="text-light">Want to know more about the Software <Link href='' style={{color:"#FC5185"}}>"Click Here"</Link></h5>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
+              <Modal
+                  aria-labelledby="contained-modal-title-vcenter"
+                  centered
+                  show={showSoftware}
+                  onHide={handleCloseSoftware}
+                >
+                  <Modal.Header closeButton>
+                    <h3>Request For Free Demo</h3>
+                  </Modal.Header>
+                  <Modal.Body>
+                    <Formik
+                      initialValues={{
+                        username: "",
+                       
+                        email: "",
+                        number: "",
+                        
+                        employee: "",
+                        postTimestamp: new Date().toUTCString(),
+                      }}
+                      validationSchema={Yup.object().shape({
+                        username: Yup.string().required(
+                          "Please enter your full name."
+                        ),
+                      
+                        email: Yup.string()
+                          .email("Invalid email address")
+                          .required("Please enter your email address."),
+                        number: Yup.string().required(
+                          "Please enter your phone number."
+                        ),
+                        
+                        employee: Yup.string().required(
+                          "Please select employee strength."
+                        ),
+                        
+                      })}
+                      onSubmit={handleFormSubmit}
+                    >
+                      {(formik) => (
+                        <Form>
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Field
+                              className={`form-control ${
+                                formik.touched.username &&
+                                formik.errors.username
+                                  ? "is-invalid"
+                                  : ""
+                              }`}
+                              type="text"
+                              name="username"
+                              placeholder="Full name"
+                            />
+                            <ErrorMessage
+                              name="username"
+                              component="div"
+                              className={`${styles["valid-clr"]} invalid-feedback`}
+                            />
+                          </Form.Group>
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Field
+                              className={`form-control ${
+                                formik.touched.number && formik.errors.number
+                                  ? "is-invalid"
+                                  : ""
+                              }`}
+                              type="number"
+                              name="number"
+                              placeholder="Phone number"
+                            />
+                            <ErrorMessage
+                              name="number"
+                              component="div"
+                              className={`${styles["valid-clr"]} invalid-feedback`}
+                            />
+                          </Form.Group>
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Field
+                              className={`form-control ${
+                                formik.touched.email && formik.errors.email
+                                  ? "is-invalid"
+                                  : ""
+                              }`}
+                              type="email"
+                              name="email"
+                              placeholder="Bussiness Email address"
+                            />
+                            <ErrorMessage
+                              name="email"
+                              component="div"
+                              className={`${styles["valid-clr"]} invalid-feedback`}
+                            />
+                          </Form.Group>
+
+                          
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Field
+                              as="select"
+                              id="mySelect"
+                              className={`form-select ${
+                                formik.touched.employee &&
+                                formik.errors.employee
+                                  ? "is-invalid"
+                                  : ""
+                              }`}
+                              name="mySelect"
+                            >
+                              <option value="" disabled selected>
+                                Employee Strength :
+                              </option>
+                              <option value="option1">Under 20</option>
+                              <option value="option2">20- 150</option>
+                              <option value="option3">150- 500</option>
+                              <option value="option4">500 - 1000</option>
+                              <option value="option5">Over 1000</option>
+                            </Field>
+                            <ErrorMessage
+                              name="employee"
+                              component="div"
+                              className={`${styles["valid-clr"]} invalid-feedback`}
+                            />
+                          </Form.Group>
+                          <Button
+                            variant="warning"
+                            size="sm"
+                            className="text-light"
+                            onClick={formik.handleSubmit}
+                          >
+                            Submit
+                          </Button>
+                        </Form>
+                      )}
+                    </Formik>
+                  </Modal.Body>
+                  
+                </Modal>
               {/* 3 usp */}
               <Modal
                 style={{ color: "#000" }}
