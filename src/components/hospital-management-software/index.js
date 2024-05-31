@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import Ads1 from "./ads1";
 import List from "./list";
 import Related from "./related";
@@ -8,11 +8,50 @@ import Recommend from "./recommend";
 import Trend from "./trend";
 import Cmpchat from "./cmpchat";
 import Link from "next/link";
-import { Container, Row, Col, Tab, Tabs } from "react-bootstrap";
+import { Container, Row, Col, Tab, Tabs, Form, Modal,Button } from "react-bootstrap";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { Formik, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
+import axios from "axios";
+import softwareData from "../home/software-data";
 import styles from "./hos.module.scss";
 
 const Index = () => {
+
+  const [activeKey, setActiveKey] = useState('All Products');
+
+  const [showCall, setShowCall] = useState(false);
+
+  const handleCloseCall = () => setShowCall(false);
+
+  useEffect(() => {
+    if (activeKey === 'Compare') {
+      setTimeout(() => {
+        setShowCall(true);
+      }, 1000);
+    } else {
+      setShowCall(false);
+    }
+  }, [activeKey]);
+
+
+  const handleFormSubmit = async (values, actions) => {
+    try {
+      await axios.post(
+        "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
+        values
+      );
+      actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
+      window.location.reload();
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      actions.setSubmitting(false);
+    }
+  };
+
+
   return (
     <>
       <section className={`${styles["head-bg"]} `}>
@@ -50,7 +89,9 @@ const Index = () => {
           <Row>
             <Col lg={12}> */}
         <Tabs
-          defaultActiveKey="All Products"
+          // defaultActiveKey="All Products"
+          activeKey={activeKey}
+        onSelect={(k) => setActiveKey(k)}
           id="justify-tab-example"
           className={`${styles["cms-tab"]} shadow mb-3`}
           // justify
@@ -92,6 +133,251 @@ const Index = () => {
         {/* </Col>
           </Row>
         </Container> */}
+
+          <Modal
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+            show={showCall}
+            onHide={handleCloseCall}
+          >
+            <Modal.Header>
+              <div style={{ width: "500px" }}>
+                <h3>Discover the Perfect Software Solution Compare table</h3>
+                <p>
+                  Welcome to Software Junction, where we make finding the right
+                  software for your needs a breeze! Fill out the form below, and
+                  let us guide you to the perfect software solution tailored to
+                  your requirements.
+                </p>
+              </div>
+            </Modal.Header>
+            <Modal.Body>
+              <Formik
+                initialValues={{
+                  username: "",
+                  location: "",
+                  email: "",
+                  number: "",
+                  message: "",
+                  companyname: "",
+                  date: "",
+                  software: "",
+                  employee: "",
+                  postTimestamp: new Date().toUTCString(),
+                }}
+                validationSchema={Yup.object().shape({
+                  username: Yup.string().required(
+                    "Please enter your full name."
+                  ),
+                  location: Yup.string().required("Please select a location."),
+                  email: Yup.string()
+                    .email("Invalid email address")
+                    .required("Please enter your email address."),
+                  number: Yup.string().required(
+                    "Please enter your phone number."
+                  ),
+                  companyname: Yup.string().required(
+                    "Please enter your Company Name."
+                  ),
+                  software: Yup.string().required(
+                    "Please select a software category."
+                  ),
+                  employee: Yup.string().required(
+                    "Please select employee strength."
+                  ),
+                  date: Yup.string().required("Please select date."),
+                  message: Yup.string().required("Please enter a message."),
+                })}
+                onSubmit={handleFormSubmit}
+              >
+                {(formik) => (
+                  <Form method="post" id="contact-form">
+                    <Row>
+                      <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                        as={Col}
+                      >
+                        <Field
+                          className={`form-control ${
+                            formik.touched.username && formik.errors.username
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          type="text"
+                          name="username"
+                          placeholder="Full name"
+                        />
+                        <ErrorMessage
+                          name="username"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
+
+                      <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                        as={Col}
+                      >
+                        <Field
+                          className={`form-control ${
+                            formik.touched.number && formik.errors.number
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          type="number"
+                          name="number"
+                          placeholder="Phone number"
+                        />
+                        <ErrorMessage
+                          name="number"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
+                    </Row>
+                    <Row>
+                      <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                        as={Col}
+                      >
+                        <Field
+                          className={`form-control ${
+                            formik.touched.email && formik.errors.email
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          type="email"
+                          name="email"
+                          placeholder="Bussiness Email address"
+                        />
+                        <ErrorMessage
+                          name="email"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
+
+                      <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                        as={Col}
+                      >
+                        <Field
+                          className={`form-control ${
+                            formik.touched.companyname &&
+                            formik.errors.companyname
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          type="text"
+                          name="companyname"
+                          placeholder="Company Name"
+                        />
+                        <ErrorMessage
+                          name="companyname"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
+                    </Row>
+                    <Row>
+                      <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                        as={Col}
+                      >
+                        <Field
+                          as="select"
+                          className={`form-select ${
+                            formik.touched.software && formik.errors.software
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Type of Software Needed
+                          </option>
+                          {softwareData.map((software, index) => (
+                            <option key={index} value={software.name}>
+                              {software.name}
+                            </option>
+                          ))}
+                        </Field>
+                        <ErrorMessage
+                          name="software"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
+
+                      <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                        as={Col}
+                      >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
+                    </Row>
+                    <Form.Group
+                      className="mb-3"
+                      controlId="exampleForm.ControlTextarea1"
+                    >
+                      <Form.Control
+                        as="textarea"
+                        rows={3}
+                        placeholder="Current Challenges or Pain Points :"
+                      />
+                    </Form.Group>
+                    <div className="d-flex justify-content-between">
+                      <Button
+                        variant="warning"
+                        size="sm"
+                        className="text-light"
+                        onClick={formik.handleSubmit}
+                      >
+                        Request Now
+                      </Button>
+                      <Button
+                        variant="warning"
+                        size="sm"
+                        className="text-light"
+                        onClick={handleCloseCall}
+                      >
+                        Close
+                      </Button>
+                    </div>
+                  </Form>
+                )}
+              </Formik>
+            </Modal.Body>
+          </Modal>
       </section>
     </>
   );

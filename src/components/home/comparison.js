@@ -22,7 +22,7 @@ const Comparison = ({ styles }) => {
               <h3 className="mb-4">Comparison Table</h3>
             </Col>
             <Col lg={12}>
-              <div className="compare-tab">
+              <div className={`${styles['tabs-overflow']} compare-tab`}>
             <Tabs
           defaultActiveKey="Accounting"
           id="justify-tab-example"
