@@ -1,8 +1,11 @@
 import React from "react";
 import { useState } from "react";
-import { Container, Row, Col, Table, Modal, Button } from "react-bootstrap";
+import { Container, Row, Col, Table, Modal, Button, Form } from "react-bootstrap";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa";
+import { Formik, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
+import axios from "axios";
 
 import AgworldF from "../agriculture-software/agworld/features";
 import AgworldU from "../agriculture-software/agworld/usp";
@@ -117,6 +120,41 @@ const Cmpchat = ({ styles }) => {
   const handleCloseUsp10 = () => setShowUsp10(false);
   const handleShowUsp10 = () => setShowUsp10(true);
 
+
+ const handleFormSubmit = async (values, actions) => {
+    try {
+      await axios.post(
+        "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
+        values
+      );
+      actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
+      window.location.reload();
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      actions.setSubmitting(false);
+    }
+  };
+ 
+ const [showSoftware, setShowSoftware] = useState(false);
+
+    const handleCloseSoftware = () => setShowSoftware(false);
+
+    const handleShowSoftware = () => {
+      setShowSoftware(true);
+      setShow1(false);
+      setShowF2(false);
+      setShowF3(false);
+      setShowF4(false);
+      setShowF5(false);
+      setShowF6(false);
+      setShowF7(false);
+      setShowF8(false);
+      setShowF9(false);
+      setShowF10(false);
+    }
+    
   return (
     <>
       <section className={`${styles["soft-chat"]} `}>
@@ -545,10 +583,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <AGRIVIF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF2}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* schoolcanva feature */}
@@ -569,10 +608,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <AgworldF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF1}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* schoolcanva usp */}
@@ -641,10 +681,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <CroptrackerF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF3}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* digital usp */}
@@ -689,10 +730,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <EasyFarmF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF4}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* chanakya usp */}
@@ -737,10 +779,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <FarmbriteF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF5}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* matrix usp */}
@@ -785,10 +828,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <FieldMarginF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF6}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* campus365 usp */}
@@ -833,10 +877,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <ChetuF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF7}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* fedena usp */}
@@ -881,10 +926,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <AgriSysF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF8}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* Hd usp */}
@@ -929,10 +975,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <FarmERPF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF9}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* schoolknot usp */}
@@ -977,10 +1024,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <AgriWebbF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF10}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* academia usp */}
@@ -1007,6 +1055,156 @@ const Cmpchat = ({ styles }) => {
                   </Button>
                 </Modal.Footer>
               </Modal>
+                {/* Free demo modal */}
+                    <Modal
+                  aria-labelledby="contained-modal-title-vcenter"
+                  centered
+                  show={showSoftware}
+                  onHide={handleCloseSoftware}
+                >
+                  <Modal.Header closeButton>
+                    <h3>Request For Free Demo</h3>
+                  </Modal.Header>
+                  <Modal.Body>
+                    <Formik
+                      initialValues={{
+                        username: "",
+                       
+                        email: "",
+                        number: "",
+                        
+                        employee: "",
+                        postTimestamp: new Date().toUTCString(),
+                      }}
+                      validationSchema={Yup.object().shape({
+                        username: Yup.string().required(
+                          "Please enter your full name."
+                        ),
+                      
+                        email: Yup.string()
+                          .email("Invalid email address")
+                          .required("Please enter your email address."),
+                        number: Yup.string().required(
+                          "Please enter your phone number."
+                        ),
+                        
+                        employee: Yup.string().required(
+                          "Please select employee strength."
+                        ),
+                        
+                      })}
+                      onSubmit={handleFormSubmit}
+                    >
+                      {(formik) => (
+                        <Form>
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Field
+                              className={`form-control ${
+                                formik.touched.username &&
+                                formik.errors.username
+                                  ? "is-invalid"
+                                  : ""
+                              }`}
+                              type="text"
+                              name="username"
+                              placeholder="Full name"
+                            />
+                            <ErrorMessage
+                              name="username"
+                              component="div"
+                              className={`${styles["valid-clr"]} invalid-feedback`}
+                            />
+                          </Form.Group>
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Field
+                              className={`form-control ${
+                                formik.touched.number && formik.errors.number
+                                  ? "is-invalid"
+                                  : ""
+                              }`}
+                              type="number"
+                              name="number"
+                              placeholder="Phone number"
+                            />
+                            <ErrorMessage
+                              name="number"
+                              component="div"
+                              className={`${styles["valid-clr"]} invalid-feedback`}
+                            />
+                          </Form.Group>
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Field
+                              className={`form-control ${
+                                formik.touched.email && formik.errors.email
+                                  ? "is-invalid"
+                                  : ""
+                              }`}
+                              type="email"
+                              name="email"
+                              placeholder="Bussiness Email address"
+                            />
+                            <ErrorMessage
+                              name="email"
+                              component="div"
+                              className={`${styles["valid-clr"]} invalid-feedback`}
+                            />
+                          </Form.Group>
+
+                          
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Field
+                              as="select"
+                              id="mySelect"
+                              className={`form-select ${
+                                formik.touched.employee &&
+                                formik.errors.employee
+                                  ? "is-invalid"
+                                  : ""
+                              }`}
+                              name="mySelect"
+                            >
+                              <option value="" disabled selected>
+                                Employee Strength :
+                              </option>
+                              <option value="option1">Under 20</option>
+                              <option value="option2">20- 150</option>
+                              <option value="option3">150- 500</option>
+                              <option value="option4">500 - 1000</option>
+                              <option value="option5">Over 1000</option>
+                            </Field>
+                            <ErrorMessage
+                              name="employee"
+                              component="div"
+                              className={`${styles["valid-clr"]} invalid-feedback`}
+                            />
+                          </Form.Group>
+                          <Button
+                            variant="warning"
+                            size="sm"
+                            className="text-light"
+                            onClick={formik.handleSubmit}
+                          >
+                            Submit
+                          </Button>
+                        </Form>
+                      )}
+                    </Formik>
+                  </Modal.Body>
+                  
+                </Modal>
+
             </Col>
           </Row>
         </Container>

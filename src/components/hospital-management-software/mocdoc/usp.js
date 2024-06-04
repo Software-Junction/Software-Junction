@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import styles from "../mocdoc/moc.module.scss";
 
 const uspData = [
   {
@@ -46,7 +47,7 @@ const renderHTML = (rawHTML) => {
   });
 };
 
-const Usp = ({ styles }) => {
+const Usp = () => {
   return (
     <>
       <Container>
@@ -57,7 +58,7 @@ const Usp = ({ styles }) => {
           {uspData.map((item, index) => (
             <Col lg={4} className="mb-4" key={index}>
               <div
-                className={`${styles["box-bgclr"]} box h-100 p-4 rounded-4 border text-center`}
+                className={`${styles["box-bgclr"]} box h-100 p-4 rounded-4 border text-center `}
               >
                 <h5>{item.title}</h5>
                 <br />

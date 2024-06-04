@@ -58,6 +58,10 @@ import VisualU from "../hospital-management-software/visual-infosoft/usp";
 import VisualP from "../hospital-management-software/visual-infosoft/price";
 
 const Cmpchat = ({ styles }) => {
+
+  const [fullscreen, setFullscreen] = useState(true);
+
+  
   //1
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);
@@ -215,7 +219,16 @@ const Cmpchat = ({ styles }) => {
 
     const handleShowSoftware = () => {
       setShowSoftware(true);
+      setShow1(false);
+      setShowF2(false);
       setShowF3(false);
+      setShowF4(false);
+      setShowF5(false);
+      setShowF6(false);
+      setShowF7(false);
+      setShowF8(false);
+      setShowF9(false);
+      setShowF10(false);
     }
     
   return (
@@ -771,10 +784,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <EhospitalF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF1}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 1 usp */}
@@ -843,10 +857,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <MocdocF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF2}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 2 usp */}
@@ -911,7 +926,7 @@ const Cmpchat = ({ styles }) => {
                   <Modal.Title id="example-custom-modal-styling-title">
                     Vyapar Hospital Billing Software
                   </Modal.Title>
-                </Modal.Header>
+                </Modal.Header> 
                 <Modal.Body>
                   <VyaparF styles={styles} />
                 </Modal.Body>
@@ -922,154 +937,7 @@ const Cmpchat = ({ styles }) => {
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
-              <Modal
-                  aria-labelledby="contained-modal-title-vcenter"
-                  centered
-                  show={showSoftware}
-                  onHide={handleCloseSoftware}
-                >
-                  <Modal.Header closeButton>
-                    <h3>Request For Free Demo</h3>
-                  </Modal.Header>
-                  <Modal.Body>
-                    <Formik
-                      initialValues={{
-                        username: "",
-                       
-                        email: "",
-                        number: "",
-                        
-                        employee: "",
-                        postTimestamp: new Date().toUTCString(),
-                      }}
-                      validationSchema={Yup.object().shape({
-                        username: Yup.string().required(
-                          "Please enter your full name."
-                        ),
-                      
-                        email: Yup.string()
-                          .email("Invalid email address")
-                          .required("Please enter your email address."),
-                        number: Yup.string().required(
-                          "Please enter your phone number."
-                        ),
-                        
-                        employee: Yup.string().required(
-                          "Please select employee strength."
-                        ),
-                        
-                      })}
-                      onSubmit={handleFormSubmit}
-                    >
-                      {(formik) => (
-                        <Form>
-                          <Form.Group
-                            className="mb-3"
-                            controlId="exampleForm.ControlInput1"
-                          >
-                            <Field
-                              className={`form-control ${
-                                formik.touched.username &&
-                                formik.errors.username
-                                  ? "is-invalid"
-                                  : ""
-                              }`}
-                              type="text"
-                              name="username"
-                              placeholder="Full name"
-                            />
-                            <ErrorMessage
-                              name="username"
-                              component="div"
-                              className={`${styles["valid-clr"]} invalid-feedback`}
-                            />
-                          </Form.Group>
-                          <Form.Group
-                            className="mb-3"
-                            controlId="exampleForm.ControlInput1"
-                          >
-                            <Field
-                              className={`form-control ${
-                                formik.touched.number && formik.errors.number
-                                  ? "is-invalid"
-                                  : ""
-                              }`}
-                              type="number"
-                              name="number"
-                              placeholder="Phone number"
-                            />
-                            <ErrorMessage
-                              name="number"
-                              component="div"
-                              className={`${styles["valid-clr"]} invalid-feedback`}
-                            />
-                          </Form.Group>
-                          <Form.Group
-                            className="mb-3"
-                            controlId="exampleForm.ControlInput1"
-                          >
-                            <Field
-                              className={`form-control ${
-                                formik.touched.email && formik.errors.email
-                                  ? "is-invalid"
-                                  : ""
-                              }`}
-                              type="email"
-                              name="email"
-                              placeholder="Bussiness Email address"
-                            />
-                            <ErrorMessage
-                              name="email"
-                              component="div"
-                              className={`${styles["valid-clr"]} invalid-feedback`}
-                            />
-                          </Form.Group>
-
-                          
-                          <Form.Group
-                            className="mb-3"
-                            controlId="exampleForm.ControlInput1"
-                          >
-                            <Field
-                              as="select"
-                              id="mySelect"
-                              className={`form-select ${
-                                formik.touched.employee &&
-                                formik.errors.employee
-                                  ? "is-invalid"
-                                  : ""
-                              }`}
-                              name="mySelect"
-                            >
-                              <option value="" disabled selected>
-                                Employee Strength :
-                              </option>
-                              <option value="option1">Under 20</option>
-                              <option value="option2">20- 150</option>
-                              <option value="option3">150- 500</option>
-                              <option value="option4">500 - 1000</option>
-                              <option value="option5">Over 1000</option>
-                            </Field>
-                            <ErrorMessage
-                              name="employee"
-                              component="div"
-                              className={`${styles["valid-clr"]} invalid-feedback`}
-                            />
-                          </Form.Group>
-                          <Button
-                            variant="warning"
-                            size="sm"
-                            className="text-light"
-                            onClick={formik.handleSubmit}
-                          >
-                            Submit
-                          </Button>
-                        </Form>
-                      )}
-                    </Formik>
-                  </Modal.Body>
-                  
-                </Modal>
+              
               {/* 3 usp */}
               <Modal
                 style={{ color: "#000" }}
@@ -1100,8 +968,9 @@ const Cmpchat = ({ styles }) => {
                 centered
                 show={showPrice3}
                 onHide={handleClosePrice3}
+                fullscreen={fullscreen}
                 className="cmpchat-modal"
-                aria-labelledby="example-custom-modal-sizes-title-lg"
+                aria-labelledby="example-custom-modal-sizes-title-xl"
                 size="xl"
               >
                 <Modal.Header closeButton>
@@ -1136,10 +1005,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <CaresoftF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF4}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 4 usp */}
@@ -1208,10 +1078,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <OracleF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF5}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 5 usp */}
@@ -1280,10 +1151,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <CrelioF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF6}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 6 usp */}
@@ -1352,10 +1224,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <MiracleF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF7}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 7 usp */}
@@ -1424,10 +1297,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <GeniF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF8}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 8 usp */}
@@ -1496,10 +1370,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <MedixcelF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF9}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 9 usp */}
@@ -1568,10 +1443,11 @@ const Cmpchat = ({ styles }) => {
                 <Modal.Body>
                   <VisualF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseF10}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 10 usp */}
@@ -1772,6 +1648,159 @@ const Cmpchat = ({ styles }) => {
                         </Formik>
                       </Modal.Body>
                     </Modal>
+
+                      {/* Free demo modal */}
+                    <Modal
+                  aria-labelledby="contained-modal-title-vcenter"
+                  centered
+                  show={showSoftware}
+                  onHide={handleCloseSoftware}
+                >
+                  <Modal.Header closeButton>
+                    <h3>Request For Free Demo</h3>
+                  </Modal.Header>
+                  <Modal.Body>
+                    <Formik
+                      initialValues={{
+                        username: "",
+                       
+                        email: "",
+                        number: "",
+                        
+                        employee: "",
+                        postTimestamp: new Date().toUTCString(),
+                      }}
+                      validationSchema={Yup.object().shape({
+                        username: Yup.string().required(
+                          "Please enter your full name."
+                        ),
+                      
+                        email: Yup.string()
+                          .email("Invalid email address")
+                          .required("Please enter your email address."),
+                        number: Yup.string().required(
+                          "Please enter your phone number."
+                        ),
+                        
+                        employee: Yup.string().required(
+                          "Please select employee strength."
+                        ),
+                        
+                      })}
+                      onSubmit={handleFormSubmit}
+                    >
+                      {(formik) => (
+                        <Form>
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Field
+                              className={`form-control ${
+                                formik.touched.username &&
+                                formik.errors.username
+                                  ? "is-invalid"
+                                  : ""
+                              }`}
+                              type="text"
+                              name="username"
+                              placeholder="Full name"
+                            />
+                            <ErrorMessage
+                              name="username"
+                              component="div"
+                              className={`${styles["valid-clr"]} invalid-feedback`}
+                            />
+                          </Form.Group>
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Field
+                              className={`form-control ${
+                                formik.touched.number && formik.errors.number
+                                  ? "is-invalid"
+                                  : ""
+                              }`}
+                              type="number"
+                              name="number"
+                              placeholder="Phone number"
+                            />
+                            <ErrorMessage
+                              name="number"
+                              component="div"
+                              className={`${styles["valid-clr"]} invalid-feedback`}
+                            />
+                          </Form.Group>
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Field
+                              className={`form-control ${
+                                formik.touched.email && formik.errors.email
+                                  ? "is-invalid"
+                                  : ""
+                              }`}
+                              type="email"
+                              name="email"
+                              placeholder="Bussiness Email address"
+                            />
+                            <ErrorMessage
+                              name="email"
+                              component="div"
+                              className={`${styles["valid-clr"]} invalid-feedback`}
+                            />
+                          </Form.Group>
+
+                          
+                          <Form.Group
+                            className="mb-3"
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Field
+                              as="select"
+                              id="mySelect"
+                              className={`form-select ${
+                                formik.touched.employee &&
+                                formik.errors.employee
+                                  ? "is-invalid"
+                                  : ""
+                              }`}
+                              name="mySelect"
+                            >
+                              <option value="" disabled selected>
+                                Employee Strength :
+                              </option>
+                              <option value="option1">Under 20</option>
+                              <option value="option2">20- 150</option>
+                              <option value="option3">150- 500</option>
+                              <option value="option4">500 - 1000</option>
+                              <option value="option5">Over 1000</option>
+                            </Field>
+                            <ErrorMessage
+                              name="employee"
+                              component="div"
+                              className={`${styles["valid-clr"]} invalid-feedback`}
+                            />
+                          </Form.Group>
+                          <Button
+                            variant="warning"
+                            size="sm"
+                            className="text-light"
+                            onClick={formik.handleSubmit}
+                          >
+                            Submit
+                          </Button>
+                        </Form>
+                      )}
+                    </Formik>
+                  </Modal.Body>
+                  
+                </Modal>
+
+              
+
             </Col>
           </Row>
         </Container>

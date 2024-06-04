@@ -26,7 +26,7 @@ const Comparison = ({ styles }) => {
             <Tabs
           defaultActiveKey="Accounting"
           id="justify-tab-example"
-          className={`${styles["compare-tab"]}`}
+          className={`${styles["compare-tab-overflow"]}`}
           justify
         >
           <Tab eventKey="Accounting" title="Accounting Software">

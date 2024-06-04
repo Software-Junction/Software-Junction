@@ -111,7 +111,10 @@
 }
 .list {
   .main-box {
-    box-shadow: -3px 3px 0px 0px #fc5185;
+    box-shadow: -3px 3px 0px 0px #FC5185 ;
+    p{
+      text-align: justify;
+    }
     .p-style,
     .p-style1 {
       font-size: 12px !important;
@@ -445,11 +448,12 @@
     width: 80% !important;
     color: #000 !important;
   }
-  .know-more {
-    color: #fff !important;
-    .click-here {
-      color: #fc5185;
-      cursor: pointer;
-    }
+}
+
+.know-more {
+  color: #fff !important;
+  .click-here {
+    color: #fc5185;
+    cursor: pointer;
   }
 }

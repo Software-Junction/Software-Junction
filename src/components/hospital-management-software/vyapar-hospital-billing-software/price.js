@@ -76,7 +76,6 @@ const Price = ({ styles }) => {
                 <Button variant="primary" size="sm" onClick={handleShowDemo}>
                   Free Trail
                 </Button>
-                
               </div>
             </div>
           </Col>

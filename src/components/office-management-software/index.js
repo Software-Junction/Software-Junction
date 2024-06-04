@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import Ads1 from "./ads1";
 import List from "./list";
 import Related from "./related";
@@ -8,11 +8,53 @@ import Recommend from "./recommend";
 import Trend from "./trend";
 import Cmpchat from "./cmpchat";
 import Link from "next/link";
-import { Container, Row, Col, Tab, Tabs } from "react-bootstrap";
+import { Container, Row, Col, Tab, Tabs, Form, Modal,Button } from "react-bootstrap";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { Formik, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
+import axios from "axios";
+import softwareData from "../home/software-data";
 import styles from "./office-mangement-software.module.scss";
 
 const Index = () => {
+
+  const [activeKey, setActiveKey] = useState('All Products');
+
+  const [showCall, setShowCall] = useState(false);
+
+  const handleCloseCall = () => setShowCall(false);
+
+  useEffect(() => {
+    let timer;
+    if (activeKey === 'Compare') {
+      timer = setTimeout(() => {
+      
+        setShowCall(true);
+      }, 120000);
+    } else {
+      setShowCall(false);
+    }
+    return () => clearTimeout(timer);
+  }, [activeKey]);
+
+
+  const handleFormSubmit = async (values, actions) => {
+    try {
+      await axios.post(
+        "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
+        values
+      );
+      actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
+      window.location.reload();
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      actions.setSubmitting(false);
+    }
+  };
+
+
   return (
     <>
       <section className={`${styles["head-bg"]} `}>
@@ -51,7 +93,9 @@ const Index = () => {
           <Row>
             <Col lg={12}> */}
         <Tabs
-          defaultActiveKey="All Products"
+          // defaultActiveKey="All Products"
+          activeKey={activeKey}
+        onSelect={(k) => setActiveKey(k)}
           id="justify-tab-example"
           className={`${styles["cms-tab"]} shadow mb-3`}
           // justify

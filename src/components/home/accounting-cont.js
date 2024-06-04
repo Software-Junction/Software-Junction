@@ -151,6 +151,7 @@ const accountingcont = ({ styles }) => {
                   <Pie data={data} options={options} />
                 </div>
                 <div className="box shadow rounded-3 w-100 bg-light p-3">
+                  <h3 className="text-dark ">Get Free Demo</h3>
                   <Formik
                     initialValues={{
                       username: "",
@@ -273,7 +274,7 @@ const accountingcont = ({ styles }) => {
                           className="text-light"
                           onClick={formik.handleSubmit}
                         >
-                          Get Free Demo
+                          Submit
                         </Button>
                       </Form>
                     )}

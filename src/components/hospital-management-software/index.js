@@ -25,13 +25,16 @@ const Index = () => {
   const handleCloseCall = () => setShowCall(false);
 
   useEffect(() => {
+    let timer;
     if (activeKey === 'Compare') {
-      setTimeout(() => {
+      timer = setTimeout(() => {
+      
         setShowCall(true);
-      }, 1000);
+      }, 120000);
     } else {
       setShowCall(false);
     }
+    return () => clearTimeout(timer);
   }, [activeKey]);
 
 
@@ -141,13 +144,11 @@ const Index = () => {
             onHide={handleCloseCall}
           >
             <Modal.Header>
-              <div style={{ width: "500px" }}>
-                <h3>Discover the Perfect Software Solution Compare table</h3>
+              <div>
+                <h3>Still Confused !</h3>
+                <h5>Get Recommendation from an Expert</h5>
                 <p>
-                  Welcome to Software Junction, where we make finding the right
-                  software for your needs a breeze! Fill out the form below, and
-                  let us guide you to the perfect software solution tailored to
-                  your requirements.
+                  Fill out the form below and get the Expert guide you to the perfect Software Solution tailored to your requirements
                 </p>
               </div>
             </Modal.Header>

@@ -97,8 +97,8 @@ border-bottom: var(--bs-nav-underline-border-width) solid black;
 
 }
 .compare-tab{
-  overflow-x: scroll;
-  width: 100%;
+  // overflow-x: scroll;
+  // width: 100%;
   .nav-tabs .nav-item{
     @media(max-width: 767px){
       margin-top: 10px !important;
@@ -312,7 +312,7 @@ iframe {
 }
 .cmpchat-modal-usp{
   .modal-content{
-      color: #fff;
+      color: #000;
 }
 }
 .category-list{
