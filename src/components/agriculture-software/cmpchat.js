@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./agriculture-software.module.scss";
+
 
 import AgworldF from "../agriculture-software/agworld/features";
 import AgworldU from "../agriculture-software/agworld/usp";
@@ -37,7 +39,7 @@ import FarmERPU from "../agriculture-software/farmerp/usp";
 import AgriWebbF from "../agriculture-software/agriwebb/features";
 import AgriWebbU from "../agriculture-software/agriwebb/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

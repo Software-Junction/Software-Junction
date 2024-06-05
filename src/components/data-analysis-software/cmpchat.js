@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./data.module.scss";
+
 
 // 1
 import IntellicusF from "../data-analysis-software/intellicus/features";
@@ -47,7 +49,7 @@ import WebfocusU from "../data-analysis-software/webfocus/usp";
 import IdeataF from "../data-analysis-software/ideata-analytics/features";
 import IdeataU from "../data-analysis-software/ideata-analytics/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

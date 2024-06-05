@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./erp.module.scss";
+
 
 // 1
 import HorizonF from "../accounting-software/horizon/features";
@@ -47,7 +49,7 @@ import ProqsmartU from "../erp-software/proqsmart/usp";
 import NetsuiteF from "../accounting-software/oracle-netsuite/features";
 import NetsuiteU from "../accounting-software/oracle-netsuite/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

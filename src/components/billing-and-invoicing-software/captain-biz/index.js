@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Details from "./details";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
-import styles from "../profit-books/profit-books.module.scss";
+import styles from "../captain-biz/captain-biz.module.scss";
 const Index = () => {
   return (
     <>

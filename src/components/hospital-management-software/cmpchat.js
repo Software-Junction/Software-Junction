@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./hos.module.scss";
+
 
 // 1
 import EhospitalF from "../medical-store/ehospital/features";
@@ -57,7 +59,7 @@ import VisualF from "../hospital-management-software/visual-infosoft/features";
 import VisualU from "../hospital-management-software/visual-infosoft/usp";
 import VisualP from "../hospital-management-software/visual-infosoft/price";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
 
   const [fullscreen, setFullscreen] = useState(true);
 

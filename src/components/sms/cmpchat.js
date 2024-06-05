@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./sms.module.scss";
+
 
 import Usp from "../cms/schoolcanva/usp";
 import Feature from "../cms/schoolcanva/readmore";
@@ -29,7 +31,7 @@ import AcadF from '../sms/academia/acadfeatures';
 import Acadusp from '../sms/academia/acadusp';
 
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [showSf, setShowSf] = useState(false);
   const [showUsp, setShowUsp] = useState(false);

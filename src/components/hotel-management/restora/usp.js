@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import styles from "../restora/res.module.scss";
 
 const uspData = [
   {
@@ -34,7 +35,7 @@ const renderHTML = (rawHTML) => {
   });
 };
 
-const Usp = ({ styles }) => {
+const Usp = () => {
   return (
     <>
       <Container>

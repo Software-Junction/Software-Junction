@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./billing-and-invoicing-software.module.scss";
+
 
 import GoBill from "../billing-and-invoicing-software/go-gst-bill/features";
 import GoBillU from "../billing-and-invoicing-software/go-gst-bill/usp";
@@ -37,7 +39,7 @@ import OracleFusionU from "../accounting-software/oracle-fusion/usp";
 import BillBookF from "../accounting-software/billbook/features";
 import BillBookU from "../accounting-software/billbook/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

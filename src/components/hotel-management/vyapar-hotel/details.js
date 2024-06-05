@@ -30,7 +30,7 @@ const Details = ({ styles }) => {
       </section>
 
       {/* <section className={styles["usp"]} id="idusp">
-        <Usp styles={styles} />
+        <Usp />
       </section> */}
 
       <section className={`${styles["spec"]} mt-5`}>

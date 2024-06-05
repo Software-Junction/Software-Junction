@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./crm.module.scss";
+
 
 import ZohoF from "../crm-software/zoho-crm/features";
 import ZohoU from "../crm-software/zoho-crm/usp";
@@ -38,7 +40,7 @@ import TigerF from '../crm-software/tigerlrm/features';
 import TigerU from '../crm-software/tigerlrm/usp';
 
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

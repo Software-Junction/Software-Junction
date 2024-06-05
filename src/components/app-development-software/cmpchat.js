@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./app-development-software.module.scss";
+
 
 // 1
 import OracleCF from "../app-development-software/oracle-cloud-infrastructure/features";
@@ -47,7 +49,7 @@ import MagU from "../app-development-software/mag+/usp";
 import MobincubeF from "../app-development-software/mobincube/features";
 import MobincubeU from "../app-development-software/mobincube/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

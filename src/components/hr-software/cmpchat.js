@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./hr.module.scss";
+
 
 import HroneF from "../hr-software/hrone/features";
 import HroneU from "../hr-software/hrone/usp";
@@ -37,7 +39,7 @@ import PeopleU from "../hr-software/peoplebox/usp";
 import WorkableF from "../hr-software/workable/features";
 import WorkableU from "../hr-software/workable/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

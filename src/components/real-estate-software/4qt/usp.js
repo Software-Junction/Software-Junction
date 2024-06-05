@@ -47,7 +47,7 @@ const renderHTML = (rawHTML) => {
   });
 };
 
-const Usp = ({ styles }) => {
+const Usp = () => {
   return (
     <>
       <Container>

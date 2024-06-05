@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button,Form } from "react-bootstrap";
 import { FaCheck } from "react-icons/fa";
 
 const featuresData = [
@@ -142,19 +142,41 @@ const moreFeatures = [
 
 
 const Features = ({ styles }) => {
-  const [isShowMore, setIsShowMore] = useState(false);
+   const [isShowMore, setIsShowMore] = useState(false);
   const toggleReadMoreLess = () => {
     setIsShowMore(!isShowMore);
   };
+
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearch = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
+  const filteredFeatures = featuresData.filter((feature) =>
+    feature.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <>
       <Container>
         <Row>
           <Col lg={12}>
             <h3 className="mb-4">Key Features</h3>
+            <Form>
+              <Form.Group>
+            <Form.Control
+              type="text"
+              placeholder="Search Features..."
+              value={searchQuery}
+              onChange={handleSearch}
+              className="mb-4"
+            />
+            </Form.Group>
+            </Form>
           </Col>
 
-          {featuresData.map((feature, index) => (
+          {filteredFeatures.map((feature, index) => (
             <Col lg={3} className="mb-4" key={index}>
               <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                 {" "}

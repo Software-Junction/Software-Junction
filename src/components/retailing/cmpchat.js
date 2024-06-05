@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./retailing.module.scss";
+
 
 import VyaparF from "../accounting-software/vyapar/features";
 import VyaparU from "../accounting-software/vyapar/usp";
@@ -37,7 +39,7 @@ import PrettureU from "../retailing/pretture/usp";
 import UprowF from "../retailing/uprow-pos/features";
 import UprowU from "../retailing/uprow-pos/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

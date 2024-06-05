@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./e-commerce-software.module.scss";
+
 
 import UniwareF from "../e-commerce-software/uniware/features";
 import UniwareU from "../e-commerce-software/uniware/usp";
@@ -37,7 +39,7 @@ import ShopifyU from "../e-commerce-software/shopify/usp";
 import CommerceUpF from "../e-commerce-software/commerceUp/features";
 import CommerceUpU from "../e-commerce-software/commerceUp/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

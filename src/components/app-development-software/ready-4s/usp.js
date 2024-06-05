@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import styles from "../ready-4s/ready-4s.module.scss";
 
 const uspData = [
   {
@@ -40,7 +41,7 @@ const renderHTML = (rawHTML) => {
   });
 };
 
-const Usp = ({ styles }) => {
+const Usp = () => {
   return (
     <>
       <Container>

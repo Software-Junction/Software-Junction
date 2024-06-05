@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./construction-management-software.module.scss";
+
 
 import AstralF from "../real-estate-software/astral/features";
 import AstralU from "../real-estate-software/astral/usp";
@@ -37,7 +39,7 @@ import BinarySU from "../real-estate-software/binary-stream/usp";
 import BlueDolphinF from "../construction-management-software/bluedolphin/features";
 import BlueDolphinU from "../construction-management-software/bluedolphin/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./call-center-software.module.scss";
+
 
 import EnthuF from "../call-center-software/enthu/features";
 import EnthuU from "../call-center-software/enthu/usp";
@@ -37,7 +39,7 @@ import KnowlarityU from "../call-center-software/knowlarity/usp";
 import ExotelF from "../call-center-software/exotel/features";
 import ExotelU from "../call-center-software/exotel/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./event.module.scss";
+
 
 // 1
 import WhovaF from "../event-management-software/whova/features";
@@ -51,7 +53,7 @@ import AirmeetF from "../event-management-software/airmeet/features";
 import AirmeetU from "../event-management-software/airmeet/usp";
 import AirmeetP from "../event-management-software/airmeet/price";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //1
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

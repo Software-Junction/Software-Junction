@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import styles from "../ticket-tailor/tic.module.scss";
 
 const uspData = [
   {
@@ -46,7 +47,7 @@ const renderHTML = (rawHTML) => {
   });
 };
 
-const Usp = ({ styles }) => {
+const Usp = () => {
   return (
     <>
       <Container>

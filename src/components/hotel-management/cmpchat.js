@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./hotel.module.scss";
+
 
 import VyaparF from "../hotel-management/vyapar-hotel/features";
 import VyaparU from "../hotel-management/vyapar-hotel/usp";
@@ -37,7 +39,7 @@ import MyhotellineU from "../hotel-management/myhotelline/usp";
 import ThmsF from "../hotel-management/hms/features";
 import ThmsU from "../hotel-management/hms/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

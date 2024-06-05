@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Details from "./details";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
-import styles from "../figjam/figjam.module.scss";
+import styles from "../netsuite-openair/openair.module.scss";
 const Index = () => {
   return (
     <>

@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./property-management-software.module.scss";
+
 
 import StayflexiF from "../hotel-management/stayflexi/features";
 import StayflexiU from "../hotel-management/stayflexi/usp";
@@ -37,7 +39,7 @@ import PropertywareU from "../property-management-software/propertyware/usp";
 import ReLeasedF from "../property-management-software/re-leased/features";
 import ReLeasedU from "../property-management-software/re-leased/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./clinic.module.scss";
+
 
 import HealconF from "../clinic-management/healcon-practice/features";
 import HealconU from "../clinic-management/healcon-practice/usp";
@@ -37,7 +39,7 @@ import MedixcelU from "../clinic-management/medixcel/usp";
 import LybrateF from "../clinic-management/lybrate/features";
 import LybrateU from "../clinic-management/lybrate/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

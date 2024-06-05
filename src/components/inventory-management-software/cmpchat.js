@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./inventory-management-software.module.scss";
+
 
 // 1
 import ZohoF from "../accounting-software/zoho-books/features";
@@ -57,7 +59,7 @@ import SmaketF from "../accounting-software/smaket/features";
 import SmaketU from "../accounting-software/smaket/usp";
 import SmaketP from "../accounting-software/smaket/price";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //1
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

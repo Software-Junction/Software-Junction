@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import styles from "./project-management-software.module.scss";
+
 
 import FigJamF from "../project-management-software/figjam/features";
 import FigJamU from "../project-management-software/figjam/usp";
@@ -37,7 +39,7 @@ import ProProfsU from "../project-management-software/proprofs/usp";
 import SmartTaskF from "../project-management-software/smart-task/features";
 import SmartTaskU from "../project-management-software/smart-task/usp";
 
-const Cmpchat = ({ styles }) => {
+const Cmpchat = () => {
   //schoolcanva
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);

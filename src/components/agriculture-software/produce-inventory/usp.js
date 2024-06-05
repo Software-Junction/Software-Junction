@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import styles from "../produce-inventory/produce-inventory.module.scss";
 
 const uspData = [
   {
@@ -32,7 +33,7 @@ const renderHTML = (rawHTML) => {
   });
 };
 
-const Usp = ({ styles }) => {
+const Usp = () => {
   return (
     <>
       <Container>

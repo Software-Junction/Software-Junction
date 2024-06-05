@@ -120,7 +120,7 @@ const Details = ({ styles }) => {
       </section>
 
       <section className={styles["usp"]} id="idusp">
-        <Usp styles={styles} />
+        <Usp styles={styles}/>
       </section>
 
       <section className={`${styles["spec"]} mt-5`}>
