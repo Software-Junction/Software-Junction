@@ -202,7 +202,7 @@ const Cmpchat = () => {
                         </Button>
                       </td>
                       <td>
-                        <p>Billing System</p>
+                        <p>Inventory Management</p>
                         <p>Billing Management</p>
                         <p>Barcode Scanning</p>
                         <Button

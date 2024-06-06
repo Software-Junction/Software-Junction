@@ -1,6 +1,35 @@
-import React from 'react'
-import { Container, Row, Col, Button } from "react-bootstrap";
-const Price = ({styles}) => {
+import React from "react";
+import { Container, Row, Col, Button, Form } from "react-bootstrap";
+import Link from "next/link";
+import { useState } from "react";
+import Modal from "react-bootstrap/Modal";
+import { Formik, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
+import axios from "axios";
+
+const Price = ({ styles }) => {
+  const handleFormSubmit = async (values, actions) => {
+    try {
+      await axios.post(
+        "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
+        values
+      );
+      actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
+      window.location.reload();
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      actions.setSubmitting(false);
+    }
+  };
+
+  const [isDatePickerFocused, setDatePickerFocused] = useState(false);
+
+  const [showDemo, setShowDemo] = useState(false);
+
+  const handleCloseDemo = () => setShowDemo(false);
+  const handleShowDemo = () => setShowDemo(true);
   return (
     <>
       <Container>
@@ -22,9 +51,11 @@ const Price = ({styles}) => {
                         <li>One Location Included</li>
                         <li>500 sms per month</li>
                     </ul>
-                    <div className='text-center'>
-                    <Button variant='primary' size='sm' className={styles['price-btn']}>Free Trail</Button>
-                    </div>
+                    <div className="text-center">
+                <Button variant="primary" size="sm" onClick={handleShowDemo}>
+                  Free Trail
+                </Button>
+              </div>
                 </div>
             </Col>
             <Col lg={3} className='mb-3'>

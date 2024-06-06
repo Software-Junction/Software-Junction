@@ -32,50 +32,22 @@ const accountingcont = ({ styles }) => {
       imageSrc: "/images/vyaparlogo.png",
       imageAlt: "vyaparlogo",
       headingText: "Vyapar",
+      pieData: [25, 25, 25, 25], // Example data for pie chart
     },
     {
       badgeText: "10",
       imageSrc: "/images/vyaparlogo.png",
       imageAlt: "vyaparlogo",
-      headingText: "Vyapar",
-    },
-    {
-      badgeText: "10",
-      imageSrc: "/images/vyaparlogo.png",
-      imageAlt: "vyaparlogo",
-      headingText: "Vyapar",
-    },
-    {
-      badgeText: "10",
-      imageSrc: "/images/vyaparlogo.png",
-      imageAlt: "vyaparlogo",
-      headingText: "Vyapar",
+      headingText: "Billbook",
+      pieData: [25, 30, 20, 25],
     },
     // Add more data objects as needed
   ];
 
-  const data = {
-    labels: [
-      "Reviews Score",
-      "Product page\nScore",
-      "Content Score",
-      "Market presence\nScore",
-    ],
-    datasets: [
-      {
-        label: "Scores",
-        data: [25, 25, 25, 25],
-        backgroundColor: ["#30c771", "#ffae00", "#d94244", "#FC5185"],
-        borderColor: ["#30c771", "#ffae00", "#d94244", "#FC5185"],
-        borderWidth: 1,
-      },
-    ],
-  };
-
   const options = {
     plugins: {
       legend: {
-        position: "bottom", // Position legend to the right
+        position: "bottom",
         labels: {
           boxWidth: 20,
           color: "#fff",
@@ -83,7 +55,6 @@ const accountingcont = ({ styles }) => {
             size: 10,
           }
         },
-
       },
       datalabels: {
         color: "#fff",
@@ -102,9 +73,31 @@ const accountingcont = ({ styles }) => {
   };
 
   const [show, setShow] = useState(false);
+  const [selectedCard, setSelectedCard] = useState(null);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = (card) => {
+    setSelectedCard(card);
+    setShow(true);
+  };
+
+  const getPieData = (card) => ({
+    labels: [
+      "Reviews Score",
+      "Product page\nScore",
+      "Content Score",
+      "Market presence\nScore",
+    ],
+    datasets: [
+      {
+        label: "Scores",
+        data: card ? card.pieData : [0, 0, 0, 0],
+        backgroundColor: ["#30c771", "#ffae00", "#d94244", "#FC5185"],
+        borderColor: ["#30c771", "#ffae00", "#d94244", "#FC5185"],
+        borderWidth: 1,
+      },
+    ],
+  });
 
   return (
     <>
@@ -134,7 +127,7 @@ const accountingcont = ({ styles }) => {
                   size="sm"
                   variant="primary"
                   className="w-100"
-                  onClick={handleShow}
+                  onClick={() => handleShow(data)}
                 >
                   Free Demo
                 </Button>
@@ -148,7 +141,7 @@ const accountingcont = ({ styles }) => {
               </Modal.Header>
               <Modal.Body className={`${styles['body-content']} d-flex justify-content-between`}>
                 <div className={styles['pie-height']}>
-                  <Pie data={data} options={options} />
+                  <Pie data={getPieData(selectedCard)} options={options} />
                 </div>
                 <div className="box shadow rounded-3 w-100 bg-light p-3">
                   <h3 className="text-dark ">Get Free Demo</h3>
@@ -159,6 +152,7 @@ const accountingcont = ({ styles }) => {
                       number: "",
                       employee: "",
                       postTimestamp: new Date().toUTCString(),
+                      headingText: selectedCard ? selectedCard.headingText : "",
                     }}
                     validationSchema={Yup.object().shape({
                       username: Yup.string().required(
@@ -179,6 +173,11 @@ const accountingcont = ({ styles }) => {
                   >
                     {(formik) => (
                       <Form>
+                        <input
+        type="hidden"
+        name="headingText"
+        value={formik.values.headingText}
+      />
                         <Form.Group
                           className="mb-3"
                           controlId="exampleForm.ControlInput1"
