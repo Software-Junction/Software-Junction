@@ -277,7 +277,7 @@ const Header = () => {
                 </Link>
                 <Link
                   className={`${styles["txt-color1"]} nav-link p-2`}
-                  href="/franchise"
+                  href="/review"
                 >
                   Write a review
                 </Link>

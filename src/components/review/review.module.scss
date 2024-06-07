@@ -1,0 +1,14 @@
+.review-page {
+  margin-top: 80px;
+  .write-review {
+    position: sticky;
+    top: 120px;
+    box-shadow: -3px 3px 0px 0px #fc5185;
+    border: 1px solid #fc5185;
+
+    li {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+}

@@ -75,7 +75,7 @@ const Price = ({ styles }) => {
                     <li>2 Free Staff logins</li>
                     </ul>
                     <div className='text-center'>
-                    <Button variant='primary' size='sm' className={styles['price-btn1']}>Free Trail</Button>
+                    <Button variant='primary' size='sm' className={styles['price-btn1']} onClick={handleShowDemo}>Free Trail</Button>
                     </div>
                 </div>
             </Col>
@@ -97,7 +97,7 @@ const Price = ({ styles }) => {
                     <li>5 Free Staff logins</li>
                     </ul>
                     <div className='text-center'>
-                    <Button variant='primary' size='sm' className={styles['price-btn1']}>Free Trail</Button>
+                    <Button variant='primary' size='sm' className={styles['price-btn1']} onClick={handleShowDemo}>Free Trail</Button>
                     </div>
                 </div>
             </Col>  
