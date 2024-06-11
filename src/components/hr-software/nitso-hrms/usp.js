@@ -24,7 +24,7 @@ const uspData = [
     "content": "The software promotes a Single Source of Truth approach, ensuring that everyone in the organization relies on the same data for decision-making. This feature enhances data accuracy and consistency across various departments."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

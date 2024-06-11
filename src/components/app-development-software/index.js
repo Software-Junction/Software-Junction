@@ -68,7 +68,7 @@ const Index = () => {
                     <Link href="/#">Home</Link>
                   </li>
                   &nbsp;
-                  <span style={{ color: "#FC5185 " }}>
+                  <span style={{ color: "#f95738 " }}>
                     <MdKeyboardDoubleArrowRight />
                   </span>
                   &nbsp;

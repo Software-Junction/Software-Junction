@@ -5,18 +5,18 @@ import styles from "../leadforce/lead.module.scss";
 const uspData = [
   {
     "title": "99.9% Lead Performance",
-    "content": "LeadForce ensures an exceptional lead performance, recovering around <span style=\"color:#FC5185 ;\"><strong>25%</strong></span> of a company's loss in inbound call traffic."
+    "content": "LeadForce ensures an exceptional lead performance, recovering around <span style=\"color:#f95738 ;\"><strong>25%</strong></span> of a company's loss in inbound call traffic."
   },
   {
     "title": "Effective CRM Performance",
-    "content": "LeadForce is a vital solution for CRM, enhancing communication between companies and customers by <span style=\"color:#FC5185 ;\"><strong>100%.</strong></span>"
+    "content": "LeadForce is a vital solution for CRM, enhancing communication between companies and customers by <span style=\"color:#f95738 ;\"><strong>100%.</strong></span>"
   },
   {
     "title": "Global Vision and Location Independence",
     "content": "LeadForce operates globally, thinking big, drawing inspiration from human values, and emphasizing sustainability, all while being location-independent."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

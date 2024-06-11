@@ -12,7 +12,7 @@ const uspData = [
   },
   {
     "title": "Diverse and Satisfied Clientele",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>With over 56,000</strong></span> delighted clients spanning various business segments like automobile, hardware, pharma, FMCG, grocery, and manufacturing, Chanakya ERP has a proven track record."
+    "content": "<span style=\"color:#f95738 ;\"><strong>With over 56,000</strong></span> delighted clients spanning various business segments like automobile, hardware, pharma, FMCG, grocery, and manufacturing, Chanakya ERP has a proven track record."
   },
   {
     "title": "Tailored for Professionals",
@@ -24,7 +24,7 @@ const uspData = [
   },
   {
     "title": "Versatile Printing Options",
-    "content": "Offers a variety of standard printing formats<span style=\"color:#FC5185 ;\"><strong> (15 types) </strong></span>compliant with GST regulations. Users can choose the desired format, providing flexibility for different needs."
+    "content": "Offers a variety of standard printing formats<span style=\"color:#f95738 ;\"><strong> (15 types) </strong></span>compliant with GST regulations. Users can choose the desired format, providing flexibility for different needs."
   }
 ];
 const renderHTML = (rawHTML) => {

@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Global Reach and Experience",
     content:
-      "Serving agribusinesses in <span style=\"color:#FC5185 ;\"><strong>25+ countries since 2001</strong></span>. International presence and experience in diverse agricultural landscapes.",
+      "Serving agribusinesses in <span style=\"color:#f95738 ;\"><strong>25+ countries since 2001</strong></span>. International presence and experience in diverse agricultural landscapes.",
   },
   {
     title: "Commitment to Sustainable Agriculture",
@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Focus on Food Safety",
     content:
-      "Being a Global GAP member, FarmERP is committed to ensuring sustainable resource management and <span style=\"color:#FC5185 ;\"><strong>100% safe</strong></span> food production. Emphasis on safe and responsible agricultural practices.",
+      "Being a Global GAP member, FarmERP is committed to ensuring sustainable resource management and <span style=\"color:#f95738 ;\"><strong>100% safe</strong></span> food production. Emphasis on safe and responsible agricultural practices.",
   },
   {
     title: "Climate Resilience and Carbon Footprint Reduction",
@@ -45,7 +45,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

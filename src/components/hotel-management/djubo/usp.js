@@ -20,7 +20,7 @@ const uspData = [
     "content": "DJUBO's roadmap includes plans for further enhancements, such as the development of a concierge app, exploration of Internet of Things (IoT) applications, in-stay feedback solicitation, and deeper functionality in areas like accounting, store management, and more."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

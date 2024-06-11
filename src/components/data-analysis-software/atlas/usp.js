@@ -16,7 +16,7 @@ const uspData = [
     "content": "Combine AI-driven insights with user control, accelerating research progress and enabling researchers to push boundaries in qualitative analysis, ultimately making meaningful contributions to their fields."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

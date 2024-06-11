@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Anti-Cyber Crime Measures",
     content:
-      "IP address-based access, firewalls, anti-spam, and anti-virus tools are implemented to prevent cyber threats. The software undergoes vulnerability assessments against OWASP <span style=\"color:#FC5185 ;\"><strong> top 10</strong></span>.",
+      "IP address-based access, firewalls, anti-spam, and anti-virus tools are implemented to prevent cyber threats. The software undergoes vulnerability assessments against OWASP <span style=\"color:#f95738 ;\"><strong> top 10</strong></span>.",
   },
   {
     title: "Low Learning Curve",
@@ -31,11 +31,11 @@ const uspData = [
   {
     title: "Trusted Globally",
     content:
-      'The software is trusted and loved by <span style="color:#FC5185 ;"><strong>2000</strong></span> hotels across <span style="color:#FC5185 ;"><strong>40+</strong></span> countries, highlighting its global acceptance and reliability.',
+      'The software is trusted and loved by <span style="color:#f95738 ;"><strong>2000</strong></span> hotels across <span style="color:#f95738 ;"><strong>40+</strong></span> countries, highlighting its global acceptance and reliability.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

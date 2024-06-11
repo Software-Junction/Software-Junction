@@ -9,11 +9,11 @@ const uspData = [
   },
   {
     "title": "Cloud and Mobile Ready",
-    "content": "HROne is cloud and mobile-ready, offering flexibility and accessibility. The award-winning mobile app has been used by over <span style=\"color:#FC5185 ;\"><strong> 5 lakh+ users in India.</strong></span> This adaptability allows HR professionals to manage tasks and access information on the go."
+    "content": "HROne is cloud and mobile-ready, offering flexibility and accessibility. The award-winning mobile app has been used by over <span style=\"color:#f95738 ;\"><strong> 5 lakh+ users in India.</strong></span> This adaptability allows HR professionals to manage tasks and access information on the go."
   },
   {
     "title": "Security and Compliance",
-    "content": "HROne prioritizes data security, being powered with Microsoft Azure and complying with GDPR and <span style=\"color:#FC5185 ;\"><strong> ISO27001 standards.</strong></span> The emphasis on security ensures the safe handling and storage of sensitive HR data."
+    "content": "HROne prioritizes data security, being powered with Microsoft Azure and complying with GDPR and <span style=\"color:#f95738 ;\"><strong> ISO27001 standards.</strong></span> The emphasis on security ensures the safe handling and storage of sensitive HR data."
   },
   {
     "title": "Configurability and Integration",
@@ -28,7 +28,7 @@ const uspData = [
     "content": "HROne positions itself as an innovative HR tech solution, evident through features like the mobile app, HROne Labs, and integration with emerging technologies like AI."
   } 
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

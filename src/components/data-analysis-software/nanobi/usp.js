@@ -28,7 +28,7 @@ const uspData = [
     "content": "Nanobi takes a consultative approach, working closely with clients to understand their needs and offer customized solutions, supported by an Analytics Maturity Assessment Model for tailored implementation guidance."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

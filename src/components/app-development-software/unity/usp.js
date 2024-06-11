@@ -6,17 +6,17 @@ const uspData = [
   {
     title: "Cross-Platform Deployment",
     content:
-      'Unity creators can deploy their projects to <span style="color:#FC5185 ;"><strong>20+</strong></span> platforms, allowing for extensive reach and accessibility across various devices and systems.',
+      'Unity creators can deploy their projects to <span style="color:#f95738 ;"><strong>20+</strong></span> platforms, allowing for extensive reach and accessibility across various devices and systems.',
   },
   {
     title: "Massive Downloads and Popularity",
     content:
-      'With a staggering <span style="color:#FC5185 ;"><strong>3.6 billion</strong></span> downloads per month of applications made with Unity, it showcases the widespread adoption and popularity of Unity-created content.',
+      'With a staggering <span style="color:#f95738 ;"><strong>3.6 billion</strong></span> downloads per month of applications made with Unity, it showcases the widespread adoption and popularity of Unity-created content.',
   },
   {
     title: "Game Development Dominance",
     content:
-      '<span style="color:#FC5185 ;"><strong>82</strong></span> out of the top <span style="color:#FC5185 ;"><strong>100</strong></span> games use Unity, highlighting its dominance in the gaming industry and its trusted role in helping games grow.',
+      '<span style="color:#f95738 ;"><strong>82</strong></span> out of the top <span style="color:#f95738 ;"><strong>100</strong></span> games use Unity, highlighting its dominance in the gaming industry and its trusted role in helping games grow.',
   },
   {
     title: "End-to-End Tools and Services",
@@ -26,12 +26,12 @@ const uspData = [
   {
     title: "Versatility in Film and Animation",
     content:
-      'Unity offers a complete toolchain for <span style="color:#FC5185 ;"><strong>3D</strong></span> creation, simulation, and rendering, making it an ideal choice for advancing film or animation projects of any size or type.',
+      'Unity offers a complete toolchain for <span style="color:#f95738 ;"><strong>3D</strong></span> creation, simulation, and rendering, making it an ideal choice for advancing film or animation projects of any size or type.',
   },
   {
     title: "Enterprise Solutions",
     content:
-      'Unity provides creation tools and enterprise support for transforming CAD and <span style="color:#FC5185 ;"><strong>3D</strong></span> data into immersive apps and experiences, catering to the needs of the industrial sector.',
+      'Unity provides creation tools and enterprise support for transforming CAD and <span style="color:#f95738 ;"><strong>3D</strong></span> data into immersive apps and experiences, catering to the needs of the industrial sector.',
   },
   {
     title: "Unity AI Integration",
@@ -40,7 +40,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

@@ -37,7 +37,7 @@ const Eduusp = ({ styles }) => {
               </p>
               <p>
                 <strong>Description : </strong> With support for
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <strong> 100+ languages</strong>
                 </span>
                 , Edumaat is not bound by language barriers. It allows users to

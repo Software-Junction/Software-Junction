@@ -11,7 +11,7 @@ const uspData = [
   {
     title: "Proven Track Record",
     content:
-      'The company boasts a strong reputation, having earned the trust of over <span style="color:#FC5185 ;"><strong>2000</strong></span> clients and <span style="color:#FC5185 ;"><strong>200+</strong></span> global brands across <span style="color:#FC5185 ;"><strong>70+</strong></span> countries. The inclusion of multiple awards further reinforces their credibility and success in delivering quality solutions.',
+      'The company boasts a strong reputation, having earned the trust of over <span style="color:#f95738 ;"><strong>2000</strong></span> clients and <span style="color:#f95738 ;"><strong>200+</strong></span> global brands across <span style="color:#f95738 ;"><strong>70+</strong></span> countries. The inclusion of multiple awards further reinforces their credibility and success in delivering quality solutions.',
   },
   {
     title: "Expertise in Leading Technologies",
@@ -36,11 +36,11 @@ const uspData = [
   {
     title: "Longevity and Stability",
     content:
-      'With over <span style="color:#FC5185 ;"><strong>21</strong></span> years of service, Brainvire emphasizes its experience and longevity in the industry, implying stability and a deep understanding of client needs.',
+      'With over <span style="color:#f95738 ;"><strong>21</strong></span> years of service, Brainvire emphasizes its experience and longevity in the industry, implying stability and a deep understanding of client needs.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

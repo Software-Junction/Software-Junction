@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "Trust and Data Security",
     content:
-      "Exotel prioritizes data security, being PCI-DSS and ISO <span style=\"color:#FC5185 ;\"><strong>27001:2013</strong></span> compliant, ensuring peace of mind for businesses entrusting their customer data.",
+      "Exotel prioritizes data security, being PCI-DSS and ISO <span style=\"color:#f95738 ;\"><strong>27001:2013</strong></span> compliant, ensuring peace of mind for businesses entrusting their customer data.",
   },
   {
     title: "Cloud-first Infrastructure",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

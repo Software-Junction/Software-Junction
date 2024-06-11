@@ -21,11 +21,11 @@ const uspData = [
   {
     title: "Higher Contact Rate",
     content:
-      "By utilizing Dialer360's dialer, businesses can dynamically increase contact rates up to <span style=\"color:#FC5185 ;\"><strong>5X</strong></span>, enabling more productive conversations and driving better results.",
+      "By utilizing Dialer360's dialer, businesses can dynamically increase contact rates up to <span style=\"color:#f95738 ;\"><strong>5X</strong></span>, enabling more productive conversations and driving better results.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

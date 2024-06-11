@@ -5,7 +5,7 @@ import styles from "../efacto/efacto.module.scss";
 const uspData = [
   {
     "title": "Proven Track Record",
-    "content": "Tested and trusted with over <span style=\"color:#FC5185 ;\"><strong>1000</strong></span> users in grocery stores, <span style=\"color:#FC5185 ;\"><strong>300+</strong></span> users in gift galleries, <span style=\"color:#FC5185 ;\"><strong>100+</strong></span> users in cosmetic retail stores, <span style=\"color:#FC5185 ;\"><strong>100+</strong></span> users in apparels & footwear, and more across different sectors."
+    "content": "Tested and trusted with over <span style=\"color:#f95738 ;\"><strong>1000</strong></span> users in grocery stores, <span style=\"color:#f95738 ;\"><strong>300+</strong></span> users in gift galleries, <span style=\"color:#f95738 ;\"><strong>100+</strong></span> users in cosmetic retail stores, <span style=\"color:#f95738 ;\"><strong>100+</strong></span> users in apparels & footwear, and more across different sectors."
   },
   {
     "title": "Sector-Specific Modules",
@@ -28,7 +28,7 @@ const uspData = [
     "content": "Encompassing modules for Procurement & Planning, Point of Sale (POS) Billing, Order Management & Sales, Repacking & Making, CRM & Loyalty Programme, Accounting, TDS & GST, Shop Floor & Manufacturing, and Dashboard & MIS App."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

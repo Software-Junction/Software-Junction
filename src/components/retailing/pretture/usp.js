@@ -24,7 +24,7 @@ const uspData = [
     "content": "Users can analyze the performance of in-house and outsourced jobbers through consolidated reports, identifying efficient contributors and areas for improvement."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

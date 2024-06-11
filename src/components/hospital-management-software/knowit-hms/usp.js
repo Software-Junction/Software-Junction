@@ -24,7 +24,7 @@ const uspData = [
     "content": "Developed using state-of-the-art web-based N-tier architecture, including MVC with the .NET framework, SQL Server, and Internet Information Server."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

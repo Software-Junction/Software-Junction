@@ -20,7 +20,7 @@ const uspData = [
     "content": "Hot Inn ERP is specifically designed for the unique needs of the Indian hospitality industry. Understanding the local market dynamics and requirements, the software offers features tailored to the nuances of hotel management in India."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

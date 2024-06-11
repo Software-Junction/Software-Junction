@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const uspData = [
   {
     "title": "Innovative Technology Leadership",
-    "content": "With a dedicated team of <span style=\"color:#FC5185 ;\"><strong>50+ professionals,</strong></span> ScholarSYS stands out for its commitment to innovation and technology. Regular updates and a forward-thinking approach place it at the forefront of advancements in school management software."
+    "content": "With a dedicated team of <span style=\"color:#f95738 ;\"><strong>50+ professionals,</strong></span> ScholarSYS stands out for its commitment to innovation and technology. Regular updates and a forward-thinking approach place it at the forefront of advancements in school management software."
   },
   {
     "title": "Paperless Automation and Modern Solutions",
@@ -20,7 +20,7 @@ const uspData = [
   },
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

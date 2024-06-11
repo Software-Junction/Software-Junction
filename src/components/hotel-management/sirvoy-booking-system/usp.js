@@ -13,14 +13,14 @@ const uspData = [
   },
   {
     "title": "Global Reach and Multilingual Support",
-    "content": "Sirvoy serves thousands of hotels in over <span style=\"color:#FC5185 ;\"><strong>115</strong></span> countries, with its Booking Engine available in <span style=\"color:#FC5185 ;\"><strong>20+</strong></span> languages. This global reach enhances the software's applicability to diverse hospitality markets."
+    "content": "Sirvoy serves thousands of hotels in over <span style=\"color:#f95738 ;\"><strong>115</strong></span> countries, with its Booking Engine available in <span style=\"color:#f95738 ;\"><strong>20+</strong></span> languages. This global reach enhances the software's applicability to diverse hospitality markets."
   },
   {
     "title": "Free Trial Period",
-    "content": "Potential users can try Sirvoy free for <span style=\"color:#FC5185 ;\"><strong>14</strong></span> days to explore its features and determine the most suitable plan for their property. This demonstrates confidence in the product and allows users to experience its benefits firsthand."
+    "content": "Potential users can try Sirvoy free for <span style=\"color:#f95738 ;\"><strong>14</strong></span> days to explore its features and determine the most suitable plan for their property. This demonstrates confidence in the product and allows users to experience its benefits firsthand."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

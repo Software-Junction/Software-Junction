@@ -7,19 +7,19 @@ const uspData = [
   },
   {
     "title": "Global Recognition",
-    "content": "Teachmint boasts recognition from various sources, including being ranked among the top companies by LinkedIn, receiving awards such as 'EdTech Startup of the Year,' <span style=\"color:#FC5185 ;\"><strong>and being certified with ISO27001.</strong></span> These accolades contribute to its credibility and trustworthiness."
+    "content": "Teachmint boasts recognition from various sources, including being ranked among the top companies by LinkedIn, receiving awards such as 'EdTech Startup of the Year,' <span style=\"color:#f95738 ;\"><strong>and being certified with ISO27001.</strong></span> These accolades contribute to its credibility and trustworthiness."
   },
   {
     "title": "User Satisfaction",
-    "content": "The platform has garnered positive feedback from users, including principals, CEOs, and school management, highlighting its seamless integration, efficiency, and support for a strong parent-school connection. A high customer satisfaction score of <span style=\"color:#FC5185 ;\"><strong> 96% adds credibility to its effectiveness.</strong></span>"
+    "content": "The platform has garnered positive feedback from users, including principals, CEOs, and school management, highlighting its seamless integration, efficiency, and support for a strong parent-school connection. A high customer satisfaction score of <span style=\"color:#f95738 ;\"><strong> 96% adds credibility to its effectiveness.</strong></span>"
   },
   {
     "title": "International Presence",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>With users in over 25 countries and 15 million+ users,</strong></span> Teachmint has established a global presence, indicating its adaptability and relevance across diverse educational settings."
+    "content": "<span style=\"color:#f95738 ;\"><strong>With users in over 25 countries and 15 million+ users,</strong></span> Teachmint has established a global presence, indicating its adaptability and relevance across diverse educational settings."
   },
   {
     "title": "Security Measures",
-    "content": "The platform ensures the secure and efficient management of student data. <span style=\"color:#FC5185 ;\"><strong>Its ISO27001 certification</strong></span> further emphasizes the commitment to data security and privacy."
+    "content": "The platform ensures the secure and efficient management of student data. <span style=\"color:#f95738 ;\"><strong>Its ISO27001 certification</strong></span> further emphasizes the commitment to data security and privacy."
   },
   {
     "title": "Ease of Adoption",
@@ -31,7 +31,7 @@ const uspData = [
   },
   {
     "title": "Supporting NEP 2020",
-    "content": "The platform positions itself as ready for the <span style=\"color:#FC5185 ;\"><strong>National Education Policy (NEP) 2020,</strong></span> aligning with the latest educational standards and requirements."
+    "content": "The platform positions itself as ready for the <span style=\"color:#f95738 ;\"><strong>National Education Policy (NEP) 2020,</strong></span> aligning with the latest educational standards and requirements."
   }
 ];
 const renderHTML = (rawHTML) => {

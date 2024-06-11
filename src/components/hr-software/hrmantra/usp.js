@@ -5,11 +5,11 @@ import styles from "../hrmantra/man.module.scss";
 const uspData = [
   {
     "title": "Unmatched ROI",
-    "content": "HRMantra promises an exceptional <span style=\"color:#FC5185 ;\"><strong>10 times</strong></span> Return on Investment (ROI) by costing just the <span style=\"color:#FC5185 ;\"><strong>3-minute</strong></span> average salary of all employees. This ensures significant cost-effectiveness for businesses."
+    "content": "HRMantra promises an exceptional <span style=\"color:#f95738 ;\"><strong>10 times</strong></span> Return on Investment (ROI) by costing just the <span style=\"color:#f95738 ;\"><strong>3-minute</strong></span> average salary of all employees. This ensures significant cost-effectiveness for businesses."
   },
   {
     "title": "Time Efficiency",
-    "content": "The software saves an impressive <span style=\"color:#FC5185 ;\"><strong>30 minutes</strong></span> per employee per day, enhancing overall productivity. This time-saving feature is crucial for streamlining HR processes and boosting employee efficiency."
+    "content": "The software saves an impressive <span style=\"color:#f95738 ;\"><strong>30 minutes</strong></span> per employee per day, enhancing overall productivity. This time-saving feature is crucial for streamlining HR processes and boosting employee efficiency."
   },
   {
     "title": "AI-Driven Innovation",
@@ -21,11 +21,11 @@ const uspData = [
   },
   {
     "title": "Global Accessibility",
-    "content": "The software is multi-lingual, multi-currency, and multi-timezone, ensuring global usability. Accessible from any smartphone with an easy-to-use interface, it saves <span style=\"color:#FC5185 ;\"><strong>30 minutes</strong></span> per employee daily, contributing to a <span style=\"color:#FC5185 ;\"><strong>6%</strong></span> improvement in productivity."
+    "content": "The software is multi-lingual, multi-currency, and multi-timezone, ensuring global usability. Accessible from any smartphone with an easy-to-use interface, it saves <span style=\"color:#f95738 ;\"><strong>30 minutes</strong></span> per employee daily, contributing to a <span style=\"color:#f95738 ;\"><strong>6%</strong></span> improvement in productivity."
   },
   {
     "title": "Proven Track Record",
-    "content": "Celebrating <span style=\"color:#FC5185 ;\"><strong>23 years</strong></span> of HRMS excellence, HRMantra showcases its extensive experience and expertise with over <span style=\"color:#FC5185 ;\"><strong>500 clients, 10,000+</strong></span> person years of expertise, and <span style=\"color:#FC5185 ;\"><strong>5,00,000+ users.</strong></span>"
+    "content": "Celebrating <span style=\"color:#f95738 ;\"><strong>23 years</strong></span> of HRMS excellence, HRMantra showcases its extensive experience and expertise with over <span style=\"color:#f95738 ;\"><strong>500 clients, 10,000+</strong></span> person years of expertise, and <span style=\"color:#f95738 ;\"><strong>5,00,000+ users.</strong></span>"
   },
   {
     "title": "Clientele Trust",
@@ -37,10 +37,10 @@ const uspData = [
   },
   {
     "title": "Certified Compliances",
-    "content": "HRMantra complies with essential certifications such as SOC II, GDPR, and <span style=\"color:#FC5185 ;\"><strong>ISO 27001,</strong></span> ensuring the highest standards of data security and privacy."
+    "content": "HRMantra complies with essential certifications such as SOC II, GDPR, and <span style=\"color:#f95738 ;\"><strong>ISO 27001,</strong></span> ensuring the highest standards of data security and privacy."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

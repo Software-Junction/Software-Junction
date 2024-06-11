@@ -20,7 +20,7 @@ const uspData = [
     "content": "Stata ensures truly reproducible research by providing a platform where analyses can be easily replicated and shared, fostering transparency and accountability in scientific endeavors."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

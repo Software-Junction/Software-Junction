@@ -24,7 +24,7 @@ const uspData = [
     "content": "In addition to product offerings, Astral Technologies provides a range of services, including Application Development, ERP/CRM Solutions, Web, and Enterprise Portal Development, Website Design & Development, Ecommerce Development, and Mobile Apps for both Android and IOS platforms."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

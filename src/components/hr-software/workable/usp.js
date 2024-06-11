@@ -5,7 +5,7 @@ import styles from "../workable/work.module.scss";
 const uspData = [
   {
     "title": "Efficient and Comprehensive Recruiting",
-    "content": "Workable enables one-click job posting to <span style=\"color:#FC5185 ;\"><strong>200+ sites,</strong></span> AI-powered sourcing, and employee referrals, streamlining the candidate sourcing and attraction process.The platform manages the entire hiring process, from sourcing to employee onboarding and management, offering a comprehensive solution."
+    "content": "Workable enables one-click job posting to <span style=\"color:#f95738 ;\"><strong>200+ sites,</strong></span> AI-powered sourcing, and employee referrals, streamlining the candidate sourcing and attraction process.The platform manages the entire hiring process, from sourcing to employee onboarding and management, offering a comprehensive solution."
   },
   {
     "title": "Time-Saving Automation",
@@ -17,11 +17,11 @@ const uspData = [
   },
   {
     "title": "Proven Success Stories",
-    "content": "Highlighting success stories from companies like Navarro and Eurobank, showcasing tangible results such as a <span style=\"color:#FC5185 ;\"><strong>50%</strong></span> reduction in time to hire and a <span style=\"color:#FC5185 ;\"><strong>22%</strong></span> increase in application rates."
+    "content": "Highlighting success stories from companies like Navarro and Eurobank, showcasing tangible results such as a <span style=\"color:#f95738 ;\"><strong>50%</strong></span> reduction in time to hire and a <span style=\"color:#f95738 ;\"><strong>22%</strong></span> increase in application rates."
   },
   {
     "title": "Global Reach and Support",
-    "content": "Workable connects with LinkedIn, Google, and <span style=\"color:#FC5185 ;\"><strong>70+</strong></span> other apps, making it a globally accessible platform.Fast and award-winning support with a quick response time of about <span style=\"color:#FC5185 ;\"><strong>25 seconds</strong></span> by phone or chat."
+    "content": "Workable connects with LinkedIn, Google, and <span style=\"color:#f95738 ;\"><strong>70+</strong></span> other apps, making it a globally accessible platform.Fast and award-winning support with a quick response time of about <span style=\"color:#f95738 ;\"><strong>25 seconds</strong></span> by phone or chat."
   },
   {
     "title": "Trusted Security and Compliance",
@@ -33,10 +33,10 @@ const uspData = [
   },
   {
     "title": "Free Trial for Exploration",
-    "content": "Encouraging potential users to explore the full platform with a <span style=\"color:#FC5185 ;\"><strong>15-day free trial,</strong></span> emphasizing confidence in the product's capabilities."
+    "content": "Encouraging potential users to explore the full platform with a <span style=\"color:#f95738 ;\"><strong>15-day free trial,</strong></span> emphasizing confidence in the product's capabilities."
   } 
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

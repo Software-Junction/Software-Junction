@@ -11,7 +11,7 @@ const uspData = [
   {
     title: "Tailored Features Based on User Input",
     content:
-      "The software has been developed in collaboration with growers, packers, cooperatives, and associations <span style=\"color:#FC5185 ;\"><strong>since 2006</strong></span>. The emphasis is on prioritizing features that users value the most, ensuring that the software meets the specific needs of the agriculture industry.",
+      "The software has been developed in collaboration with growers, packers, cooperatives, and associations <span style=\"color:#f95738 ;\"><strong>since 2006</strong></span>. The emphasis is on prioritizing features that users value the most, ensuring that the software meets the specific needs of the agriculture industry.",
   },
   {
     title: "Enhanced Productivity and Connectivity",
@@ -26,11 +26,11 @@ const uspData = [
   {
     title: "Analytics and Reports",
     content:
-      "With the capability to generate over<span style=\"color:#FC5185 ;\"><strong> 50 reports</strong></span>, Croptracker simplifies tracking a farm's progress and expedites the auditing process. This allows users to focus more on the farm and less on paperwork.",
+      "With the capability to generate over<span style=\"color:#f95738 ;\"><strong> 50 reports</strong></span>, Croptracker simplifies tracking a farm's progress and expedites the auditing process. This allows users to focus more on the farm and less on paperwork.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

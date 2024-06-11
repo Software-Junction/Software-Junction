@@ -24,7 +24,7 @@ const uspData = [
     "content": "EventOrg establishes its global presence with offices in Kochi, India, and Cleveland, United States. This not only demonstrates a commitment to serving a diverse clientele but also ensures responsive customer support across different time zones."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

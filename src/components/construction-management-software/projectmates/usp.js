@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Award-Winning Application",
     content:
-      'Recognized in the construction industry for over <span style="color:#FC5185 ;"><strong>20 years</strong></span>. Trusted by more than <span style="color:#FC5185 ;"><strong>100,000</strong></span> current projects.',
+      'Recognized in the construction industry for over <span style="color:#f95738 ;"><strong>20 years</strong></span>. Trusted by more than <span style="color:#f95738 ;"><strong>100,000</strong></span> current projects.',
   },
   {
     title: "Streamlined Construction Processes",
@@ -50,7 +50,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

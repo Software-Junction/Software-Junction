@@ -25,14 +25,14 @@ const uspData = [
   },
   {
     "title": "Seamless API Integrations",
-    "content": "Boasts <span style=\"color:#FC5185 ;\"><strong>1000+</strong></span> out-of-the-box Enterprise API integrations for centralized support operations and extraordinary agent performance."
+    "content": "Boasts <span style=\"color:#f95738 ;\"><strong>1000+</strong></span> out-of-the-box Enterprise API integrations for centralized support operations and extraordinary agent performance."
   },
   {
     "title": "Enterprise-Grade Security and Compliance",
     "content": "Encrypts sensitive data, masks PHI/PPI information, and provides access only to necessary information, ensuring enterprise-grade security and compliance."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

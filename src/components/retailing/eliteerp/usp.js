@@ -13,14 +13,14 @@ const uspData = [
   },
   {
     "title": "360° Development, Control, and Operational Efficiency",
-    "content": "The ERP solution aims to provide a comprehensive solution for businesses by offering <span style=\"color:#FC5185 ;\"><strong>360°</strong></span> development, control, management, and operational efficiency. This implies that eLiteERP covers various aspects of business processes and activities."
+    "content": "The ERP solution aims to provide a comprehensive solution for businesses by offering <span style=\"color:#f95738 ;\"><strong>360°</strong></span> development, control, management, and operational efficiency. This implies that eLiteERP covers various aspects of business processes and activities."
   },
   {
     "title": "Built on Latest Microsoft .NET Platform",
     "content": "The use of the latest Microsoft .NET platform and in-built integration with MS Office suggests that eLite ERP is technologically up-to-date, ensuring compatibility and seamless integration with widely used business tools."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

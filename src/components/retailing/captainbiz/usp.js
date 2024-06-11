@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Trusted by Businesses",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong>46,000</strong></span> small and medium-sized businesses (SMBs) across India using CaptainBiz, it has gained trust in the market. Additionally, being recommended by the Goods & Services Tax Network (GSTN) adds to its credibility."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong>46,000</strong></span> small and medium-sized businesses (SMBs) across India using CaptainBiz, it has gained trust in the market. Additionally, being recommended by the Goods & Services Tax Network (GSTN) adds to its credibility."
   },
   {
     "title": "Industry-Specific Solutions",
@@ -20,7 +20,7 @@ const uspData = [
     "content": "CaptainBiz is endorsed by GSTN, indicating its compliance with Goods and Services Tax regulations. This is crucial for businesses in India to ensure accurate and hassle-free tax filing."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Integration and Automation",
     content:
-      "Seamless integration of financial transactions, purchase processes, and production planning. Automation features for TDS, <span style=\"color:#FC5185 ;\"><strong>Form 16A</strong></span>, and voucher posting based on workflow.",
+      "Seamless integration of financial transactions, purchase processes, and production planning. Automation features for TDS, <span style=\"color:#f95738 ;\"><strong>Form 16A</strong></span>, and voucher posting based on workflow.",
   },
   {
     title: "Seed-Specific Functionality",
@@ -45,7 +45,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

@@ -5,7 +5,7 @@ import styles from "../timelabs/tim.module.scss";
 const uspData = [
   {
     "title": "Proven Industry Experience",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong>12 years</strong></span> of domain excellence and processing more than <span style=\"color:#FC5185 ;\"><strong>700,000</strong></span> employee records every month, Timelabs has established itself as a time-honored HR software trusted by leaders in various industries."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong>12 years</strong></span> of domain excellence and processing more than <span style=\"color:#f95738 ;\"><strong>700,000</strong></span> employee records every month, Timelabs has established itself as a time-honored HR software trusted by leaders in various industries."
   },
   {
     "title": "Humanized System for Performance Vibes",
@@ -20,7 +20,7 @@ const uspData = [
     "content": "The endorsement of Timelabs by top brands adds a layer of trust and reliability. The fact that other businesses, possibly in the same industry, swear by Timelabs' services can be a compelling reason for prospective clients to choose the software."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

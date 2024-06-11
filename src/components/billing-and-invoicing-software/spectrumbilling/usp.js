@@ -31,11 +31,11 @@ const uspData = [
   {
     title: "Premier RCM Experts",
     content:
-      "Reach out to our premier RCM experts at <span style=\"color:#FC5185 ;\"><strong> 872-810-3621</strong></span> for unparalleled assistance and information, reflecting our commitment to excellence.",
+      "Reach out to our premier RCM experts at <span style=\"color:#f95738 ;\"><strong> 872-810-3621</strong></span> for unparalleled assistance and information, reflecting our commitment to excellence.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

@@ -12,7 +12,7 @@ const uspData = [
   },
   {
     "title": "Trusted by a Large User Base",
-    "content": "Proven Track Record: The software has earned the trust of <span style=\"color:#FC5185 ;\"><strong>over 300</strong></span> schools and colleges, serving more than 500,000 students and teachers. This track record establishes Jupsoft eConnect-K12 as a reliable and preferred choice in the education sector."
+    "content": "Proven Track Record: The software has earned the trust of <span style=\"color:#f95738 ;\"><strong>over 300</strong></span> schools and colleges, serving more than 500,000 students and teachers. This track record establishes Jupsoft eConnect-K12 as a reliable and preferred choice in the education sector."
   },
   {
     "title": "Integration Capabilities",
@@ -20,12 +20,12 @@ const uspData = [
   },
   {
     "title": "Proven Industry Expertise",
-    "content": "Established Reputation: Jupsoft Technologies, <span style=\"color:#FC5185 ;\"><strong>established in 2004,</strong></span> has become a major player in the IT industry. The company specializes in providing integrated modules for educational institutions, showcasing technical expertise and a commitment to delivering projects on time and within budget. Positive long-term working relationships with clients further attest to the company's reputation and reliability."
+    "content": "Established Reputation: Jupsoft Technologies, <span style=\"color:#f95738 ;\"><strong>established in 2004,</strong></span> has become a major player in the IT industry. The company specializes in providing integrated modules for educational institutions, showcasing technical expertise and a commitment to delivering projects on time and within budget. Positive long-term working relationships with clients further attest to the company's reputation and reliability."
   }
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

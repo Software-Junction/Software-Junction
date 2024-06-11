@@ -24,7 +24,7 @@ const uspData = [
     "content": "KareXpert's reach extends globally, with a presence in India, Southeast Asia, the Middle East, Africa, Europe, the US, and North America. The software is designed to scale and adapt to different healthcare environments, making it suitable for diverse regions and healthcare settings."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

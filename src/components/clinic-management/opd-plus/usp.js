@@ -32,7 +32,7 @@ const uspData = [
     "content": "<strong>USP:</strong> Flexibility for customization and integration with existing systems. <br/><strong>Highlight:</strong> Tailor the software to specific needs and integrate seamlessly with other systems, ensuring compatibility and adaptability."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

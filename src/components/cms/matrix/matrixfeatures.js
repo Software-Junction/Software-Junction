@@ -20,7 +20,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Student Assessment Reports
@@ -31,7 +31,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Biometric Attendance Management
@@ -42,7 +42,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Admission Receipt Generation
@@ -53,7 +53,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Time & Attendance Management
@@ -64,7 +64,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Admissions Management
@@ -75,7 +75,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Faculty Management
@@ -86,7 +86,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Online Results Declaration
@@ -97,7 +97,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; E-library Members Management
@@ -108,7 +108,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Transport / Fleet management
@@ -119,7 +119,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Accounting Integration
@@ -130,7 +130,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Fee Management
@@ -141,7 +141,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Lecture Management
@@ -152,7 +152,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Laboratory Management
@@ -163,7 +163,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Examination Management
@@ -174,7 +174,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Staff Management
@@ -185,7 +185,7 @@ const Matrixfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; HR & Payroll

@@ -5,15 +5,15 @@ import styles from "../cbo/cbo.module.scss";
 const uspData = [
   {
     "title": "Certified Quality",
-    "content": "As a certified <span style=\"color:#FC5185 ;\"><strong>ISO 9001:2008 company,</strong></span> CBO ERP Limited emphasizes quality control in its software solutions. This certification underscores the commitment to delivering high-quality products that meet international standards."
+    "content": "As a certified <span style=\"color:#f95738 ;\"><strong>ISO 9001:2008 company,</strong></span> CBO ERP Limited emphasizes quality control in its software solutions. This certification underscores the commitment to delivering high-quality products that meet international standards."
   },
   {
     "title": "Global Presence",
-    "content": "With a customer base of <span style=\"color:#FC5185 ;\"><strong>1100+</strong></span> clients in Bharat (India) and overseas, CBO ERP Limited has established itself as a leading service provider worldwide. The company's global reach indicates its ability to meet the diverse needs of businesses operating in different regions."
+    "content": "With a customer base of <span style=\"color:#f95738 ;\"><strong>1100+</strong></span> clients in Bharat (India) and overseas, CBO ERP Limited has established itself as a leading service provider worldwide. The company's global reach indicates its ability to meet the diverse needs of businesses operating in different regions."
   },
   {
     "title": "Information Security",
-    "content": "Holding the<span style=\"color:#FC5185 ;\"><strong> ISO 27001:2013</strong></span> certification for information security, CBO ERP Limited prioritizes the protection of sensitive data. This ensures that the software solutions maintain a high level of security, crucial for businesses dealing with confidential information."
+    "content": "Holding the<span style=\"color:#f95738 ;\"><strong> ISO 27001:2013</strong></span> certification for information security, CBO ERP Limited prioritizes the protection of sensitive data. This ensures that the software solutions maintain a high level of security, crucial for businesses dealing with confidential information."
   },
   {
     "title": "End-to-End Business Solutions",
@@ -32,7 +32,7 @@ const uspData = [
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

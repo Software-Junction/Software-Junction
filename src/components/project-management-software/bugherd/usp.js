@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Customer Testimonials",
     content:
-      'Over <span style="color:#FC5185 ;"><strong>10,000</strong></span> companies and <span style="color:#FC5185 ;"><strong>350,000</strong></span> users across <span style="color:#FC5185 ;"><strong>172</strong></span> countries trust BugHerd. Customer reviews highlight time savings, improved implementation speed, and enhanced feedback collection.',
+      'Over <span style="color:#f95738 ;"><strong>10,000</strong></span> companies and <span style="color:#f95738 ;"><strong>350,000</strong></span> users across <span style="color:#f95738 ;"><strong>172</strong></span> countries trust BugHerd. Customer reviews highlight time savings, improved implementation speed, and enhanced feedback collection.',
   },
   {
     title: "Integrate with Ease",
@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "CEO's Personal Guarantee",
     content:
-      '<span style="color:#FC5185 ;"><strong>14</strong></span>-day free trial without needing a credit card. <span style="color:#FC5185 ;"><strong>60</strong></span>-day money-back guarantee if not satisfied with the purchase. CEO Steve is confident you\'ll love the tool and offers a substantial guarantee.',
+      '<span style="color:#f95738 ;"><strong>14</strong></span>-day free trial without needing a credit card. <span style="color:#f95738 ;"><strong>60</strong></span>-day money-back guarantee if not satisfied with the purchase. CEO Steve is confident you\'ll love the tool and offers a substantial guarantee.',
   },
   {
     title: "Use Cases",
@@ -25,7 +25,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

@@ -20,7 +20,7 @@ const uspData = [
   {
     title: "Customizable Content Management System (CMS)",
     content:
-    "Iolite School Management System includes a Content Management System (CMS) that is <span style=\"color:#FC5185 ;\"><strong>100% customizable.</strong></span> This allows schools to manage and update their websites dynamically, ensuring that the information is always current and relevant."
+    "Iolite School Management System includes a Content Management System (CMS) that is <span style=\"color:#f95738 ;\"><strong>100% customizable.</strong></span> This allows schools to manage and update their websites dynamically, ensuring that the information is always current and relevant."
   },
   {
     title: "Finance Management Automation",
@@ -40,7 +40,7 @@ const uspData = [
   {
     title: "Proven Track Record",
     content:
-    "<span style=\"color:#FC5185 ;\"><strong>With over 20 Plus clients and 5,000 Plus users across India</strong></span>, Iolite School Management Software has a proven track record of successful implementation and user satisfaction. This track record demonstrates the software's reliability and effectiveness."
+    "<span style=\"color:#f95738 ;\"><strong>With over 20 Plus clients and 5,000 Plus users across India</strong></span>, Iolite School Management Software has a proven track record of successful implementation and user satisfaction. This track record demonstrates the software's reliability and effectiveness."
   },
   {
     title: "Industry-Specific Software Products",

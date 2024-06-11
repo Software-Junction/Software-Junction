@@ -13,7 +13,7 @@ const uspData = [
   },
   {
     "title": "Speed and Scalability",
-    "content": "With Intellicus, users can expedite implementation, obtaining their first reports and dashboards in as early as <span style=\"color:#FC5185 ;\"><strong>15 days.</strong></span> Moreover, it provides scalability, allowing businesses to migrate BI workloads to a more scalable and cost-effective platform."
+    "content": "With Intellicus, users can expedite implementation, obtaining their first reports and dashboards in as early as <span style=\"color:#f95738 ;\"><strong>15 days.</strong></span> Moreover, it provides scalability, allowing businesses to migrate BI workloads to a more scalable and cost-effective platform."
   },
   {
     "title": "Modular and Customizable Solution",
@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "Global Adoption",
-    "content": "The software's popularity is underlined by its adoption by more than <span style=\"color:#FC5185 ;\"><strong>17,000</strong></span> enterprises worldwide, indicating its versatility and effectiveness across diverse industries and scales."
+    "content": "The software's popularity is underlined by its adoption by more than <span style=\"color:#f95738 ;\"><strong>17,000</strong></span> enterprises worldwide, indicating its versatility and effectiveness across diverse industries and scales."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

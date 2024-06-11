@@ -11,12 +11,12 @@ const uspData = [
   {
     title: "Wide Range of Tractor Models",
     content:
-      "John Deere offers a diverse range of tractor models, catering to different power requirements ranging from <span style=\"color:#FC5185 ;\"><strong>28 HP </strong></span>to <span style=\"color:#FC5185 ;\"><strong>75 HP</strong></span>. This variety allows farmers to choose the right tractor for their specific needs.",
+      "John Deere offers a diverse range of tractor models, catering to different power requirements ranging from <span style=\"color:#f95738 ;\"><strong>28 HP </strong></span>to <span style=\"color:#f95738 ;\"><strong>75 HP</strong></span>. This variety allows farmers to choose the right tractor for their specific needs.",
   },
   {
     title: "5-Year Warranty",
     content:
-      "The company stands behind the durability and reliability of its tractors by offering a <span style=\"color:#FC5185 ;\"><strong>5-year warranty</strong></span> on all models. This commitment to quality provides peace of mind to customers.",
+      "The company stands behind the durability and reliability of its tractors by offering a <span style=\"color:#f95738 ;\"><strong>5-year warranty</strong></span> on all models. This commitment to quality provides peace of mind to customers.",
   },
   {
     title: "Precision Agriculture Solutions",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

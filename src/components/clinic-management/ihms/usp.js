@@ -21,7 +21,7 @@ const uspData = [
   },
   {
     "title": "Multiple Language Support",
-    "content": "The HMS supports <span style=\"color:#FC5185 ;\"><strong>21</strong></span> different languages, making it accessible to a diverse user base. This multilingual support is essential for catering to the linguistic diversity within the healthcare community."
+    "content": "The HMS supports <span style=\"color:#f95738 ;\"><strong>21</strong></span> different languages, making it accessible to a diverse user base. This multilingual support is essential for catering to the linguistic diversity within the healthcare community."
   },
   {
     "title": "Easy Customization",
@@ -44,7 +44,7 @@ const uspData = [
     "content": "The system facilitates private messaging between doctors and patients, enhancing communication within the healthcare ecosystem. This feature supports secure and direct communication, fostering collaboration and quick exchange of information."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

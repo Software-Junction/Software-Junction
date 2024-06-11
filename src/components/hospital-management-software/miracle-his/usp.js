@@ -32,7 +32,7 @@ const uspData = [
     "content": "Miracle HIS assists in better drug usage administration, ensuring a review of effectiveness. This feature leads to a reduction in harmful drug interactions and promotes more appropriate pharmaceutical operations."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

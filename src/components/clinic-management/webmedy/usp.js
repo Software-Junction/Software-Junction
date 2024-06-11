@@ -13,7 +13,7 @@ const uspData = [
   },
   {
     "title": "Insightful Clinical Reports",
-    "content": "<strong>Data Analysis :</strong> Webmedy offers clinical reports that enable practitioners to gain valuable insights into patient data, supporting informed decision-making.<br/><strong> Search Functionality :</strong> The ability to search for patients based on specific diagnoses or medications using <span style=\"color:#FC5185 ;\"><strong>ICD-10 codes</strong></span> enhances efficiency in managing patient information."
+    "content": "<strong>Data Analysis :</strong> Webmedy offers clinical reports that enable practitioners to gain valuable insights into patient data, supporting informed decision-making.<br/><strong> Search Functionality :</strong> The ability to search for patients based on specific diagnoses or medications using <span style=\"color:#f95738 ;\"><strong>ICD-10 codes</strong></span> enhances efficiency in managing patient information."
   },
   {
     "title": "Easy Billing and Revenue Cycle Management",
@@ -25,14 +25,14 @@ const uspData = [
   },
   {
     "title": "Data Security",
-    "content": "<strong>HIPAA Compliance :</strong> Webmedy ensures the security of patient data by deploying in a HIPAA-compliant cloud infrastructure.<br/><strong> Encryption :</strong> Data transmission is secured using military-grade <span style=\"color:#FC5185 ;\"><strong>2048-bit encryption,</strong></span> and stored data is kept in highly secure <span style=\"color:#FC5185 ;\"><strong>ISO 27001</strong></span> certified data centers."
+    "content": "<strong>HIPAA Compliance :</strong> Webmedy ensures the security of patient data by deploying in a HIPAA-compliant cloud infrastructure.<br/><strong> Encryption :</strong> Data transmission is secured using military-grade <span style=\"color:#f95738 ;\"><strong>2048-bit encryption,</strong></span> and stored data is kept in highly secure <span style=\"color:#f95738 ;\"><strong>ISO 27001</strong></span> certified data centers."
   },
   {
     "title": "Philanthropic Initiatives",
-    "content": "<strong>Charitable Donations :</strong> Webmedy contributes to charitable causes by donating a percentage of subscriptions to charity institutions worldwide.<br/><strong> Discounts for Service :</strong> Practitioners serving underprivileged communities receive up to a <span style=\"color:#FC5185 ;\"><strong>50%</strong></span> discount on subscription charges, demonstrating a commitment to social responsibility."
+    "content": "<strong>Charitable Donations :</strong> Webmedy contributes to charitable causes by donating a percentage of subscriptions to charity institutions worldwide.<br/><strong> Discounts for Service :</strong> Practitioners serving underprivileged communities receive up to a <span style=\"color:#f95738 ;\"><strong>50%</strong></span> discount on subscription charges, demonstrating a commitment to social responsibility."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

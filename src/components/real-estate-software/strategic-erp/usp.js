@@ -25,14 +25,14 @@ const uspData = [
   },
   {
     "title": "Recognized Awards and Accolades",
-    "content": "StrategicERP has received awards and accolades <span style=\"color:#FC5185 ;\"><strong> since 2005 </strong></span>, highlighting its excellence in various business verticals. The emphasis is on customer satisfaction and gratitude, driving continuous improvement and software upgrades."
+    "content": "StrategicERP has received awards and accolades <span style=\"color:#f95738 ;\"><strong> since 2005 </strong></span>, highlighting its excellence in various business verticals. The emphasis is on customer satisfaction and gratitude, driving continuous improvement and software upgrades."
   },
   {
     "title": "Wide Industry Coverage",
     "content": "The software caters not only to Real Estate and Construction but also extends its solutions to Infrastructure, Manufacturing, and other industries, showcasing versatility and applicability across diverse business domains."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

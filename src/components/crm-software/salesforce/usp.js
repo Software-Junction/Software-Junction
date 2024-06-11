@@ -17,10 +17,10 @@ const uspData = [
   },
   {
     "title": "Trusted Technology",
-    "content": "Recognized among the Fortune <span style=\"color:#FC5185 ;\"><strong>100</strong></span> Best Companies to Work For <span style=\"color:#FC5185 ;\"><strong>2023 for 15</strong></span> consecutive years, Salesforce is trusted as a reliable and esteemed technology partner."
+    "content": "Recognized among the Fortune <span style=\"color:#f95738 ;\"><strong>100</strong></span> Best Companies to Work For <span style=\"color:#f95738 ;\"><strong>2023 for 15</strong></span> consecutive years, Salesforce is trusted as a reliable and esteemed technology partner."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

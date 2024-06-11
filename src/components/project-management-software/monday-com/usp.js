@@ -11,7 +11,7 @@ const uspData = [
   {
     title: "Cross-Team Collaboration and Efficiency",
     content:
-      'The platform emphasizes its role in driving collaboration and efficiency, citing a <span style="color:#FC5185 ;"><strong>40%</strong></span> improvement in cross-team collaboration for Universal Music Group\'s marketing department.',
+      'The platform emphasizes its role in driving collaboration and efficiency, citing a <span style="color:#f95738 ;"><strong>40%</strong></span> improvement in cross-team collaboration for Universal Music Group\'s marketing department.',
   },
   {
     title: "Integration Capabilities",
@@ -25,7 +25,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

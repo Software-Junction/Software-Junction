@@ -26,16 +26,16 @@ const uspData = [
   {
     title: "Regular Product Updates and Stability",
     content:
-      "Offers regular product updates to enhance solutions and maximize performance. Boasts a stable farm management ecosystem with<span style=\"color:#FC5185 ;\"><strong> 99.9% uptime</strong></span>, ensuring reliability for users.",
+      "Offers regular product updates to enhance solutions and maximize performance. Boasts a stable farm management ecosystem with<span style=\"color:#f95738 ;\"><strong> 99.9% uptime</strong></span>, ensuring reliability for users.",
   },
   {
     title: "Decade of Commitment",
     content:
-      "Demonstrates a decade-long commitment to improving collaboration within agriculture, emphasizing a focus on the user since the company's inception in <span style=\"color:#FC5185 ;\"><strong>2009</strong></span>.",
+      "Demonstrates a decade-long commitment to improving collaboration within agriculture, emphasizing a focus on the user since the company's inception in <span style=\"color:#f95738 ;\"><strong>2009</strong></span>.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

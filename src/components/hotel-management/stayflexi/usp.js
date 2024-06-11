@@ -5,7 +5,7 @@ import styles from "../stayflexi/flexi.module.scss";
 const uspData = [
   {
     "title": "Efficient Onboarding",
-    "content": "The claim of onboarding in <span style=\"color:#FC5185 ;\"><strong>10 minutes</strong></span> highlights the platform's user-friendly nature. This likely involves a straightforward setup process, intuitive interfaces, and possibly automated tools to facilitate a quick start for users."
+    "content": "The claim of onboarding in <span style=\"color:#f95738 ;\"><strong>10 minutes</strong></span> highlights the platform's user-friendly nature. This likely involves a straightforward setup process, intuitive interfaces, and possibly automated tools to facilitate a quick start for users."
   },
   {
     "title": "Uber for Hotels - bidflexi",
@@ -13,7 +13,7 @@ const uspData = [
   },
   {
     "title": "Global Trust",
-    "content": "The mention of over <span style=\"color:#FC5185 ;\"><strong>2000</strong></span> properties worldwide trusting Stayflexi implies a widespread adoption and acceptance within the global hospitality market. Trust is a crucial factor in the industry, and this point emphasizes the platform's reliability."
+    "content": "The mention of over <span style=\"color:#f95738 ;\"><strong>2000</strong></span> properties worldwide trusting Stayflexi implies a widespread adoption and acceptance within the global hospitality market. Trust is a crucial factor in the industry, and this point emphasizes the platform's reliability."
   },
   {
     "title": "Operating System for Hospitality",
@@ -33,7 +33,7 @@ const uspData = [
   },
   {
     "title": "Payment Automation and Protection",
-    "content": "The Payments Hub automates payment processes, aiming to reduce last-minute cancellations. It supports multiple currencies and payment methods, providing flexibility to accommodate a diverse range of guests. The <span style=\"color:#FC5185 ;\"><strong>360-degree</strong></span> chargeback protection indicates a commitment to securing financial transactions."
+    "content": "The Payments Hub automates payment processes, aiming to reduce last-minute cancellations. It supports multiple currencies and payment methods, providing flexibility to accommodate a diverse range of guests. The <span style=\"color:#f95738 ;\"><strong>360-degree</strong></span> chargeback protection indicates a commitment to securing financial transactions."
   },
   {
     "title": "Flexibility for Different Property Types",
@@ -41,10 +41,10 @@ const uspData = [
   },
   {
     "title": "Extensive Integrations",
-    "content": "The platform integrates with over <span style=\"color:#FC5185 ;\"><strong>100</strong></span> booking channels and supports <span style=\"color:#FC5185 ;\"><strong>50+</strong></span> currencies. This interoperability is essential for hoteliers, allowing them to seamlessly connect with various tools and platforms, facilitating efficient business operations."
+    "content": "The platform integrates with over <span style=\"color:#f95738 ;\"><strong>100</strong></span> booking channels and supports <span style=\"color:#f95738 ;\"><strong>50+</strong></span> currencies. This interoperability is essential for hoteliers, allowing them to seamlessly connect with various tools and platforms, facilitating efficient business operations."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

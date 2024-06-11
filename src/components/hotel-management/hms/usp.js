@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "Proven Track Record",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong>4000+</strong></span> hotels and restaurants using THMS across India, Truelogics Infotech's software has a proven track record of successfully powering diverse businesses in the hospitality industry."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong>4000+</strong></span> hotels and restaurants using THMS across India, Truelogics Infotech's software has a proven track record of successfully powering diverse businesses in the hospitality industry."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

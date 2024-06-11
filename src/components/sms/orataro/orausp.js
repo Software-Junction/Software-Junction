@@ -4,15 +4,15 @@ import { Container, Row, Col } from "react-bootstrap";
 const uspData = [
   {
     "title": "Extensive Network",
-    "content": "The platform is currently connected with <span style=\"color:#FC5185 ;\"><strong>900 institutes.</strong></span> This signifies a wide network of educational institutions that are utilizing ORATARO for monitoring and improving their performance. The extensive network implies a level of trust and adoption within the education sector."
+    "content": "The platform is currently connected with <span style=\"color:#f95738 ;\"><strong>900 institutes.</strong></span> This signifies a wide network of educational institutions that are utilizing ORATARO for monitoring and improving their performance. The extensive network implies a level of trust and adoption within the education sector."
   },
   {
     "title": "Skilled Teaching Staff",
-    "content": "ORATARO boasts a team of <span style=\"color:#FC5185 ;\"><strong> 23,500 highly skilled teachers.</strong></span> This emphasizes the quality of education provided through the platform. The dedication of these teachers to each student suggests a personalized and attentive approach to teaching, which can contribute to better learning outcomes."
+    "content": "ORATARO boasts a team of <span style=\"color:#f95738 ;\"><strong> 23,500 highly skilled teachers.</strong></span> This emphasizes the quality of education provided through the platform. The dedication of these teachers to each student suggests a personalized and attentive approach to teaching, which can contribute to better learning outcomes."
   },
   {
     "title": "Large Student Base",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>With 650,000 enrolled students,</strong></span> ORATARO attracts a significant user base. The mention of \"smart study\" features indicates that the platform incorporates intelligent and effective learning methodologies. Live updates on class activities, circulars, and homework keep parents informed and engaged in their child's education."
+    "content": "<span style=\"color:#f95738 ;\"><strong>With 650,000 enrolled students,</strong></span> ORATARO attracts a significant user base. The mention of \"smart study\" features indicates that the platform incorporates intelligent and effective learning methodologies. Live updates on class activities, circulars, and homework keep parents informed and engaged in their child's education."
   },
   {
     "title": "Advanced Digital Education Framework",
@@ -29,7 +29,7 @@ const uspData = [
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

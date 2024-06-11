@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "👩‍🌾 Trusted by Farmers and Educators:",
     content:
-    " With over<span style=\"color:#FC5185 ;\"><strong> 2499 happy farmers</strong></span> and <span style=\"color:#FC5185 ;\"><strong>20 years</strong></span> of supporting educators, EasyFarm has proven its reliability and effectiveness in the field."
+    " With over<span style=\"color:#f95738 ;\"><strong> 2499 happy farmers</strong></span> and <span style=\"color:#f95738 ;\"><strong>20 years</strong></span> of supporting educators, EasyFarm has proven its reliability and effectiveness in the field."
   },
   {
     title: "🌍 Accessible Anytime, Anywhere",
@@ -26,11 +26,11 @@ const uspData = [
   {
     title: "🔒 Security and Stability",
     content:
-    " Trust EasyFarm's stability with <span style=\"color:#FC5185 ;\"><strong> 30+ years</strong></span> of field use. Your data is secure, and our software provides a stable platform for your farm management needs."
+    " Trust EasyFarm's stability with <span style=\"color:#f95738 ;\"><strong> 30+ years</strong></span> of field use. Your data is secure, and our software provides a stable platform for your farm management needs."
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

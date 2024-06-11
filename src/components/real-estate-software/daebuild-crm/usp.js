@@ -32,7 +32,7 @@ const uspData = [
     "content": "DaeBuild CRM provides detailed reports and trend mapping with drill-down data, offering insights into pre-sales and post-sales activities, inquiry MIS reports, inventory, revenue, outstanding reports, and performance reports."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

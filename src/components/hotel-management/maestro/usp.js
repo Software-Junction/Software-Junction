@@ -5,7 +5,7 @@ import styles from "../maestro/mae.module.scss";
 const uspData = [
   {
     "title": "20+ hospitality solutions",
-    "content": "Maestro PMS offers an all-in-one property management software solution designed exclusively for independent hospitality groups. The system provides <span style=\"color:#FC5185 ;\"><strong>20+</strong></span> hospitality solutions, covering areas such as Front Office & CRM, Sales & Catering, Spa & Activities, Online Booking Engine, Condo Owner & Online Portal, and more."
+    "content": "Maestro PMS offers an all-in-one property management software solution designed exclusively for independent hospitality groups. The system provides <span style=\"color:#f95738 ;\"><strong>20+</strong></span> hospitality solutions, covering areas such as Front Office & CRM, Sales & Catering, Spa & Activities, Online Booking Engine, Condo Owner & Online Portal, and more."
   },
   {
     "title": "Deployment Flexibility",
@@ -13,18 +13,18 @@ const uspData = [
   },
   {
     "title": "Innovative Technologies for Digital Guest and Staff Experience",
-    "content": "Maestro PMS supports the latest mobile, contact-free, and web-responsive technologies to enhance both the digital guest and staff experience. The platform integrates <span style=\"color:#FC5185 ;\"><strong>2-way</strong></span> guest text, live chat support, and open APIs, contributing to a digitized guest experience."
+    "content": "Maestro PMS supports the latest mobile, contact-free, and web-responsive technologies to enhance both the digital guest and staff experience. The platform integrates <span style=\"color:#f95738 ;\"><strong>2-way</strong></span> guest text, live chat support, and open APIs, contributing to a digitized guest experience."
   },
   {
     "title": "Extensive Integration Support",
-    "content": "Maestro PMS supports more than <span style=\"color:#FC5185 ;\"><strong>800</strong></span> third-party integrations through its extensive collection of open APIs. The system is designed to \"play well with others,\" allowing seamless integration with a variety of external tools and services."
+    "content": "Maestro PMS supports more than <span style=\"color:#f95738 ;\"><strong>800</strong></span> third-party integrations through its extensive collection of open APIs. The system is designed to \"play well with others,\" allowing seamless integration with a variety of external tools and services."
   },
   {
     "title": "Legacy of Innovation and Experience",
-    "content": "Maestro PMS boasts a <span style=\"color:#FC5185 ;\"><strong>43-year</strong></span> legacy of developing innovative hotel management software. The system has a reputation for advanced, flexible technology and a dedication to outstanding customer service."
+    "content": "Maestro PMS boasts a <span style=\"color:#f95738 ;\"><strong>43-year</strong></span> legacy of developing innovative hotel management software. The system has a reputation for advanced, flexible technology and a dedication to outstanding customer service."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

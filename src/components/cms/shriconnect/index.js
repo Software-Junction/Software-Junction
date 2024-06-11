@@ -16,8 +16,8 @@ const Index = () => {
             <Col lg={12}>
             <div className={`${styles['shri-breadcr']} `}>
                 <ul>
-                 <li> <Link href="/#">Home</Link></li>&nbsp;<span style={{color : '#FC5185 '}}><MdKeyboardDoubleArrowRight /></span>&nbsp;
-                  <li><Link href="/cms">Campus Management System</Link></li>&nbsp;<span style={{color : '#FC5185 '}}><MdKeyboardDoubleArrowRight /></span>&nbsp;
+                 <li> <Link href="/#">Home</Link></li>&nbsp;<span style={{color : '#f95738 '}}><MdKeyboardDoubleArrowRight /></span>&nbsp;
+                  <li><Link href="/cms">Campus Management System</Link></li>&nbsp;<span style={{color : '#f95738 '}}><MdKeyboardDoubleArrowRight /></span>&nbsp;
                   <li><Link href="">ShriConnect</Link></li>
                 </ul>
              </div>
@@ -39,7 +39,7 @@ const Index = () => {
                     <div className="d-flex mt-3">
                       <Link href="">
                         <p className="text-light">
-                          <span style={{color : '#FC5185 '}}>
+                          <span style={{color : '#f95738 '}}>
                             <FaPenToSquare />
                           </span>&nbsp;
                           Write a review
@@ -48,7 +48,7 @@ const Index = () => {
                       <Link href="">
                         <p className="ms-4 text-light">
                           Visit Website &nbsp;
-                          <span style={{color : '#FC5185 '}}>
+                          <span style={{color : '#f95738 '}}>
                             <FaArrowUpRightFromSquare />
                           </span>
                         </p>

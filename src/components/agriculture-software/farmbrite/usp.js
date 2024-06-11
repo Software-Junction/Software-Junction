@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Insightful Reporting and Analytics",
     content:
-      "Provides over <span style=\"color:#FC5185 ;\"><strong> 40</strong></span> pre-built user-friendly farm-specific reports, integrated dashboards, and custom reports. Offers instant insight into farm operations, aiding in decision-making, organic certifications, and compliance reporting.",
+      "Provides over <span style=\"color:#f95738 ;\"><strong> 40</strong></span> pre-built user-friendly farm-specific reports, integrated dashboards, and custom reports. Offers instant insight into farm operations, aiding in decision-making, organic certifications, and compliance reporting.",
   },
   {
     title: "Holistic Farm Data Management",
@@ -35,7 +35,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

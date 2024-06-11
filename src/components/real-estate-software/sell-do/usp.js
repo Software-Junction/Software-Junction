@@ -5,19 +5,19 @@ import styles from "../sell-do/sell-do.module.scss";
 const uspData = [
   {
     "title": "Proven Industry Trust",
-    "content": "Trusted by over <span style=\"color:#FC5185 ;\"><strong>1000+ brands </strong></span>, including prominent names like Casagrand, Ansal Housing, Hiranandani, Amanora, Runwal, Puraniks, and more. Demonstrates a strong reputation and reliability within the real estate sector."
+    "content": "Trusted by over <span style=\"color:#f95738 ;\"><strong>1000+ brands </strong></span>, including prominent names like Casagrand, Ansal Housing, Hiranandani, Amanora, Runwal, Puraniks, and more. Demonstrates a strong reputation and reliability within the real estate sector."
   },
   {
     "title": "Extensive Experience",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>15+ years</strong></span> of experience in the real estate CRM industry, showcasing a deep understanding of the sector's dynamics and challenges."
+    "content": "<span style=\"color:#f95738 ;\"><strong>15+ years</strong></span> of experience in the real estate CRM industry, showcasing a deep understanding of the sector's dynamics and challenges."
   },
   {
     "title": "Impressive Performance Metrics",
-    "content": "Managed over <span style=\"color:#FC5185 ;\"><strong> 50 million </strong></span> leads, demonstrating the capability to handle a high volume of potential clients. Successfully handled <span style=\"color:#FC5185 ;\"><strong> 450 million </strong></span> customer interactions, highlighting effective customer relationship management. Facilitated the sale of <span style=\"color:#FC5185 ;\"><strong> USD 25 billion </strong></span> worth of real estate inventory, showcasing substantial business impact."
+    "content": "Managed over <span style=\"color:#f95738 ;\"><strong> 50 million </strong></span> leads, demonstrating the capability to handle a high volume of potential clients. Successfully handled <span style=\"color:#f95738 ;\"><strong> 450 million </strong></span> customer interactions, highlighting effective customer relationship management. Facilitated the sale of <span style=\"color:#f95738 ;\"><strong> USD 25 billion </strong></span> worth of real estate inventory, showcasing substantial business impact."
   },
   {
     "title": "ISO Compliance",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>ISO 27001</span></strong> compliance ensures a commitment to information security, instilling confidence in data protection and privacy."
+    "content": "<span style=\"color:#f95738 ;\"><strong>ISO 27001</span></strong> compliance ensures a commitment to information security, instilling confidence in data protection and privacy."
   },
   {
     "title": "Recognition and Awards",
@@ -25,10 +25,10 @@ const uspData = [
   },
   {
     "title": "Quick Deployment and Onboarding",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>7 days* </strong></span>to set up and deploy a fully functional system, with an extensive <span style=\"color:#FC5185 ;\"><strong> 30-day </strong></span> onboarding period for all users."
+    "content": "<span style=\"color:#f95738 ;\"><strong>7 days* </strong></span>to set up and deploy a fully functional system, with an extensive <span style=\"color:#f95738 ;\"><strong> 30-day </strong></span> onboarding period for all users."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

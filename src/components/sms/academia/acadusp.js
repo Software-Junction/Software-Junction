@@ -8,7 +8,7 @@ const uspData = [
   },
   {
     "title": "Process Automation",
-    "content": "The software boasts a substantial reduction<span style=\"color:#FC5185 ;\"><strong> (10 times)</strong></span> in human intervention across institutional operations. This includes key areas like admissions, attendance tracking, examination processes, and student management. The emphasis is on automating routine tasks to enhance efficiency and reduce manual effort."
+    "content": "The software boasts a substantial reduction<span style=\"color:#f95738 ;\"><strong> (10 times)</strong></span> in human intervention across institutional operations. This includes key areas like admissions, attendance tracking, examination processes, and student management. The emphasis is on automating routine tasks to enhance efficiency and reduce manual effort."
   },
   {
     "title": "Enhanced Parent Experience",
@@ -33,7 +33,7 @@ const uspData = [
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

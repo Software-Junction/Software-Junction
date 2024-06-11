@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "Trusted by a Wide Community",
     content:
-      "Highlighting the trust of <span style=\"color:#FC5185 ;\"><strong>16,000 farmers</strong></span> and ranchers worldwide adds credibility to AgriWebb's effectiveness and reliability. Real-life success stories from different farmers reinforce the software's positive impact on various farming enterprises.",
+      "Highlighting the trust of <span style=\"color:#f95738 ;\"><strong>16,000 farmers</strong></span> and ranchers worldwide adds credibility to AgriWebb's effectiveness and reliability. Real-life success stories from different farmers reinforce the software's positive impact on various farming enterprises.",
   },
   {
     title: "Free Trial without Obligation",
@@ -25,7 +25,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

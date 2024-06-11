@@ -6,12 +6,12 @@ const uspData = [
   {
     title: "Proven Client Success",
     content:
-      'With over <span style="color:#FC5185;"><strong>35 years</strong></span> in the industry, Yardi highlights its commitment to taking care of clients, employees, and communities. Client success stories, such as those from Rexford Industrial, MG Properties Group, and the Housing Authority of the County of Santa Barbara, showcase positive outcomes using Yardi solutions.',
+      'With over <span style="color:#f95738;"><strong>35 years</strong></span> in the industry, Yardi highlights its commitment to taking care of clients, employees, and communities. Client success stories, such as those from Rexford Industrial, MG Properties Group, and the Housing Authority of the County of Santa Barbara, showcase positive outcomes using Yardi solutions.',
   },
   {
     title: "Innovative Technology Across Disciplines",
     content:
-      'Yardi Elevate is mentioned as a system that spans across all disciplines, instilling confidence throughout the organization. The use of RentCafe Reach SEO services resulted in a <span style="color:#FC5185;"><strong>21%</strong></span> increase in organic traffic for MG Properties Group.',
+      'Yardi Elevate is mentioned as a system that spans across all disciplines, instilling confidence throughout the organization. The use of RentCafe Reach SEO services resulted in a <span style="color:#f95738;"><strong>21%</strong></span> increase in organic traffic for MG Properties Group.',
   },
   {
     title: "Efficient Waitlist Management",
@@ -31,16 +31,16 @@ const uspData = [
   {
     title: "Industry Recognition and Participation",
     content:
-      "Yardi's involvement in industry events like<span style=\"color:#FC5185 ;\"><strong>  OPTECH 2023</strong></span> and its affiliation with organizations such as Multi-Housing News and Commercial Property Executive showcase its commitment to staying current with industry trends and innovations.",
+      "Yardi's involvement in industry events like<span style=\"color:#f95738 ;\"><strong>  OPTECH 2023</strong></span> and its affiliation with organizations such as Multi-Housing News and Commercial Property Executive showcase its commitment to staying current with industry trends and innovations.",
   },
   {
     title: "Diverse Range of Products and Affiliates",
     content:
-      "Yardi offers a range of products and affiliates, including Breeze, RentCafe, CommercialCafe, CondoCafe, StorageCafe, VendorCafe, Yardi Kube, Yardi Marketplace, Yardi Matrix, <span style=\"color:#FC5185 ;\"><strong> Point2 </strong></span>, PropertyShark, ALMSA, and more, providing clients with a diverse set of tools and resources.",
+      "Yardi offers a range of products and affiliates, including Breeze, RentCafe, CommercialCafe, CondoCafe, StorageCafe, VendorCafe, Yardi Kube, Yardi Marketplace, Yardi Matrix, <span style=\"color:#f95738 ;\"><strong> Point2 </strong></span>, PropertyShark, ALMSA, and more, providing clients with a diverse set of tools and resources.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

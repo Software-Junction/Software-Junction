@@ -5,7 +5,7 @@ import styles from "../akrivia/ak.module.scss";
 const uspData = [
   {
     "title": "Comprehensive Solution",
-    "content": "Akrivia HCM provides a holistic solution covering the entire employee lifecycle, incorporating <span style=\"color:#FC5185 ;\"><strong>20+ modules and 100+ features.</strong></span> This includes functionalities for recruitment, time and attendance tracking, leave management, core HR optimization, employee engagement, performance management, learning management, and payroll and expenses processing."
+    "content": "Akrivia HCM provides a holistic solution covering the entire employee lifecycle, incorporating <span style=\"color:#f95738 ;\"><strong>20+ modules and 100+ features.</strong></span> This includes functionalities for recruitment, time and attendance tracking, leave management, core HR optimization, employee engagement, performance management, learning management, and payroll and expenses processing."
   },
   {
     "title": "User-Friendly Experience",
@@ -21,7 +21,7 @@ const uspData = [
   },
   {
     "title": "Data Security",
-    "content": "The platform prioritizes data security by implementing encryption in multiple layers. This robust security measure helps safeguard organizational data, ensuring confidentiality and integrity. Adherence to industry standards like<span style=\"color:#FC5185 ;\"><strong> ISO-27001-2013, ISO-27701-2019,</strong></span> GDPR, and AICPA certifications further underscores the commitment to data security."
+    "content": "The platform prioritizes data security by implementing encryption in multiple layers. This robust security measure helps safeguard organizational data, ensuring confidentiality and integrity. Adherence to industry standards like<span style=\"color:#f95738 ;\"><strong> ISO-27001-2013, ISO-27701-2019,</strong></span> GDPR, and AICPA certifications further underscores the commitment to data security."
   },
   {
     "title": "Consultative Approach",
@@ -29,7 +29,7 @@ const uspData = [
   },
   {
     "title": "Multi-Country Payroll",
-    "content": "Akrivia HCM facilitates payroll processing across <span style=\"color:#FC5185 ;\"><strong>15 countries</strong></span> in multiple currencies. This feature is designed to simplify the complexities of payroll calculations and currency conversions, ensuring accuracy and compliance."
+    "content": "Akrivia HCM facilitates payroll processing across <span style=\"color:#f95738 ;\"><strong>15 countries</strong></span> in multiple currencies. This feature is designed to simplify the complexities of payroll calculations and currency conversions, ensuring accuracy and compliance."
   },
   {
     "title": "AI-Enabled Chatbot",
@@ -37,10 +37,10 @@ const uspData = [
   },
   {
     "title": "Certifications",
-    "content": "Akrivia HCM holds various certifications, including <span style=\"color:#FC5185 ;\"><strong>ISO-27001-2013, ISO-27701-2019,</strong></span> GDPR, and AICPA certifications. These certifications validate the platform's commitment to maintaining high standards of security, privacy, and compliance with industry regulations."
+    "content": "Akrivia HCM holds various certifications, including <span style=\"color:#f95738 ;\"><strong>ISO-27001-2013, ISO-27701-2019,</strong></span> GDPR, and AICPA certifications. These certifications validate the platform's commitment to maintaining high standards of security, privacy, and compliance with industry regulations."
   } 
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

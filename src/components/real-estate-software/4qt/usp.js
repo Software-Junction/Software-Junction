@@ -10,7 +10,7 @@ const uspData = [
   {
     title: "Extensive Industry Experience",
     content:
-      "With over <span style=\"color:#FC5185 ;\"><strong>15 years</strong></span> of web development experience, 4QT is a trusted and leading real estate ERP provider in India. The company has served <span style=\"color:#FC5185 ;\"><strong>400+ clients</strong></span> and successfully managed <span style=\"color:#FC5185 ;\"><strong>1500+ projects</strong></span> since its establishment in <span style=\"color:#FC5185 ;\"><strong>2001</strong></span>.",
+      "With over <span style=\"color:#f95738 ;\"><strong>15 years</strong></span> of web development experience, 4QT is a trusted and leading real estate ERP provider in India. The company has served <span style=\"color:#f95738 ;\"><strong>400+ clients</strong></span> and successfully managed <span style=\"color:#f95738 ;\"><strong>1500+ projects</strong></span> since its establishment in <span style=\"color:#f95738 ;\"><strong>2001</strong></span>.",
   },
   {
     title: "RealBOOST™ Technology",
@@ -20,12 +20,12 @@ const uspData = [
   {
     title: "Customer Satisfaction Guarantee",
     content:
-      "4QT proudly guarantees <span style=\"color:#FC5185 ;\"><strong>100%</strong></span> customer satisfaction. The emphasis on customer satisfaction reflects the company's commitment to delivering effective and reliable software solutions.",
+      "4QT proudly guarantees <span style=\"color:#f95738 ;\"><strong>100%</strong></span> customer satisfaction. The emphasis on customer satisfaction reflects the company's commitment to delivering effective and reliable software solutions.",
   },
   {
     title: "Featured Products and Integrations",
     content:
-      "4QT's ERP solutions integrate with popular real estate platforms such as Magicbricks, <span style=\"color:#FC5185 ;\"><strong> 99Acres </strong></span>, and CommonFloor. The software offers features like lead management, marketing, CRM, sales management, and construction ERP, making it a one-stop solution for real estate professionals.",
+      "4QT's ERP solutions integrate with popular real estate platforms such as Magicbricks, <span style=\"color:#f95738 ;\"><strong> 99Acres </strong></span>, and CommonFloor. The software offers features like lead management, marketing, CRM, sales management, and construction ERP, making it a one-stop solution for real estate professionals.",
   },
   {
     title: "Industry Recognition",
@@ -39,7 +39,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

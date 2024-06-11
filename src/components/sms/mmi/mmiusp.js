@@ -19,7 +19,7 @@ const uspData = [
     "content": "The software is designed to provide a secure and flexible school accounting system. Schools can rely on it for effective financial management, ensuring that accounting processes are not only streamlined but also adhere to the highest standards of security."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

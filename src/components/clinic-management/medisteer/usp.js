@@ -40,7 +40,7 @@ const uspData = [
     "content": "<strong>Appointment Scheduling :</strong> Online appointment scheduling for patient convenience. Complaint Tracking: Facility for patients to register complaints and track their resolution.<br/><strong> Communication Integration :</strong> Integration with SMS and Email for effective communication between the system and users."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

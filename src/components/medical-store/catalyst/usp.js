@@ -21,7 +21,7 @@ const uspData = [
   },
   {
     "title": "Proven Results",
-    "content": "Trusted by leading technology companies, Catalyst has a track record of delivering results, including a<span style=\"color:#FC5185 ;\"><strong> 200%</strong></span> increase in upsell opportunities in just<span style=\"color:#FC5185 ;\"><strong> 3 months.</strong></span>"
+    "content": "Trusted by leading technology companies, Catalyst has a track record of delivering results, including a<span style=\"color:#f95738 ;\"><strong> 200%</strong></span> increase in upsell opportunities in just<span style=\"color:#f95738 ;\"><strong> 3 months.</strong></span>"
   }
   
   
@@ -30,7 +30,7 @@ const uspData = [
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

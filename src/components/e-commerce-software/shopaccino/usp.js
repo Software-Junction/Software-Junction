@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "30+ Free Responsive Themes",
     content:
-      'The availability of over <span style="color:#FC5185 ;"><strong>30</strong></span> free responsive themes for creating an ecommerce website suggests a focus on design flexibility, allowing businesses to customize their online presence.',
+      'The availability of over <span style="color:#f95738 ;"><strong>30</strong></span> free responsive themes for creating an ecommerce website suggests a focus on design flexibility, allowing businesses to customize their online presence.',
   },
   {
     title: "Marketing and Customer Engagement Tools",
@@ -35,7 +35,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

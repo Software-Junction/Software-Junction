@@ -28,7 +28,7 @@ const uspData = [
     "content": "TallyPrime ensures data safety even during unforeseen events like network disruptions or power failures."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Global Voice Coverage",
     content:
-      "AVOXI provides coverage in over <span style=\"color:#FC5185 ;\"><strong>150 countries</strong></span>, offering various number types and local caller ID to increase answer rates.",
+      "AVOXI provides coverage in over <span style=\"color:#f95738 ;\"><strong>150 countries</strong></span>, offering various number types and local caller ID to increase answer rates.",
   },
   {
     title: "Cloud Voice Network",
@@ -21,11 +21,11 @@ const uspData = [
   {
     title: "Contact Center Tech Integration",
     content:
-      "AVOXI integrates seamlessly with over<span style=\"color:#FC5185 ;\"><strong> 40 CCaaS</strong></span>, UCaaS, and CPaaS solutions, allowing businesses to merge voice data with CRM and service apps.",
+      "AVOXI integrates seamlessly with over<span style=\"color:#f95738 ;\"><strong> 40 CCaaS</strong></span>, UCaaS, and CPaaS solutions, allowing businesses to merge voice data with CRM and service apps.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

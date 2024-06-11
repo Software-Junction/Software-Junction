@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Efficiency Improvement",
     content:
-      'The platform aims to boost productivity by providing built-in collaboration tools, workflows, and transparent time tracking. Customer testimonials, like the <span style="color:#FC5185;"><strong>35%</strong></span> increase in productivity from a Swiss business, highlight the platform\'s effectiveness in improving efficiency.',
+      'The platform aims to boost productivity by providing built-in collaboration tools, workflows, and transparent time tracking. Customer testimonials, like the <span style="color:#f95738;"><strong>35%</strong></span> increase in productivity from a Swiss business, highlight the platform\'s effectiveness in improving efficiency.',
   },
   {
     title: "Visual Project Planning",
@@ -26,7 +26,7 @@ const uspData = [
   {
     title: "Multilingual and Globally Accessible",
     content:
-      'Paymo is available in <span style="color:#FC5185;"><strong>22</strong></span> languages, showcasing its global accessibility and catering to a diverse user base.',
+      'Paymo is available in <span style="color:#f95738;"><strong>22</strong></span> languages, showcasing its global accessibility and catering to a diverse user base.',
   },
   {
     title: "Testimonials and Success Stories",
@@ -35,7 +35,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

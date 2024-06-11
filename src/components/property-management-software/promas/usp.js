@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Experience and Reliability",
     content:
-      'The company boasts over <span style="color:#FC5185;"><strong>35 years</strong></span> of experience in providing property management software. Emphasis on rock-solid accounting software and management tools.',
+      'The company boasts over <span style="color:#f95738;"><strong>35 years</strong></span> of experience in providing property management software. Emphasis on rock-solid accounting software and management tools.',
   },
   {
     title: "Specialization",
@@ -25,7 +25,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

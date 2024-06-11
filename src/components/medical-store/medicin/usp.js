@@ -13,7 +13,7 @@ const uspData = [
   },
   {
     "title": "Reports and Analytics",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong>200</strong></span> types of useful reports, user-wise reports, and a dashboard module for day book/sales, the software empowers users with insights into their business performance and aids in decision-making."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong>200</strong></span> types of useful reports, user-wise reports, and a dashboard module for day book/sales, the software empowers users with insights into their business performance and aids in decision-making."
   },
   {
     "title": "Customer Relationship Management",
@@ -35,7 +35,7 @@ const uspData = [
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

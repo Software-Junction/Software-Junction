@@ -17,10 +17,10 @@ const uspData = [
   },
   {
     "title": "Proven Results",
-    "content": "Backed by over <span style=\"color:#FC5185 ;\"><strong>2000</strong></span> satisfied customers worldwide, Funnel.io delivers tangible outcomes such as increased return on advertising spend (ROAS) and significant cost savings."
+    "content": "Backed by over <span style=\"color:#f95738 ;\"><strong>2000</strong></span> satisfied customers worldwide, Funnel.io delivers tangible outcomes such as increased return on advertising spend (ROAS) and significant cost savings."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Proven Success",
     content:
-      'With a track record of managing and delivering successful projects worth over <span style="color:#FC5185 ;"><strong>$3 billion</strong></span>, Tiemchart is a reliable choice for businesses of all sizes.',
+      'With a track record of managing and delivering successful projects worth over <span style="color:#f95738 ;"><strong>$3 billion</strong></span>, Tiemchart is a reliable choice for businesses of all sizes.',
   },
   {
     title: "Project Portfolio Management",
@@ -31,11 +31,11 @@ const uspData = [
   {
     title: "Global Presence",
     content:
-      'Tiemchart is a global IT platform with offices in the Netherlands and India, serving enterprises worldwide. The core development team brings over <span style="color:#FC5185 ;"><strong>20 years</strong></span> of combined experience in systems like SAP, Oracle, PeopleSoft, and JDE.',
+      'Tiemchart is a global IT platform with offices in the Netherlands and India, serving enterprises worldwide. The core development team brings over <span style="color:#f95738 ;"><strong>20 years</strong></span> of combined experience in systems like SAP, Oracle, PeopleSoft, and JDE.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

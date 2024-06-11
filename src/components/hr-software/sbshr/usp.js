@@ -24,7 +24,7 @@ const uspData = [
     "content": "Access our rich HR resources, including a blog, videos, HR library, HR calculator, and job listings. Stay informed and empowered with the tools you need for effective HR management."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

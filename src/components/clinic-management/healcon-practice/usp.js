@@ -21,11 +21,11 @@ const uspData = [
   },
   {
     "title": "Industry-Leading Security",
-    "content": "Healcon Practice places a high priority on data security. All data transmissions between the user's browser and Healcon servers are encrypted using <span style=\"color:#FC5185 ;\"><strong>SHA-256</strong></span> encryption, ensuring protection against potential security threats. The software operates on HIPAA-compliant data centers, providing an additional layer of security for medical records."
+    "content": "Healcon Practice places a high priority on data security. All data transmissions between the user's browser and Healcon servers are encrypted using <span style=\"color:#f95738 ;\"><strong>SHA-256</strong></span> encryption, ensuring protection against potential security threats. The software operates on HIPAA-compliant data centers, providing an additional layer of security for medical records."
   },
   {
     "title": "Global Trust",
-    "content": "The software has gained the trust of thousands of doctors across <span style=\"color:#FC5185 ;\"><strong>33</strong></span> countries and is utilized in various medical specialties. This global recognition speaks to its adaptability and effectiveness in diverse healthcare settings."
+    "content": "The software has gained the trust of thousands of doctors across <span style=\"color:#f95738 ;\"><strong>33</strong></span> countries and is utilized in various medical specialties. This global recognition speaks to its adaptability and effectiveness in diverse healthcare settings."
   },
   {
     "title": "Enterprise Ready",
@@ -44,7 +44,7 @@ const uspData = [
     "content": "Multiple geographical backups of data are performed throughout the day. This, coupled with adherence to the highest standards of data security, ensures that patient health records remain safe and accessible, even in the face of natural disasters."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

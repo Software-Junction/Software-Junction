@@ -24,7 +24,7 @@ const uspData = [
     "content": "Oracle Database has a track record of success with various customers across industries, including healthcare, finance, retail, and technology. These success stories demonstrate the effectiveness of Oracle Database in solving real-world business challenges."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

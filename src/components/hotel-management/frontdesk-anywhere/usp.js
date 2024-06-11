@@ -13,7 +13,7 @@ const uspData = [
   },
   {
     "title": "Channel Manager for Extensive Reach",
-    "content": "<strong>Connectivity with Major OTAs:</strong> The integrated channel manager connects with over <span style=\"color:#FC5185 ;\"><strong>350</strong></span> major distribution channels, including popular online travel agencies (OTAs) like Expedia, Booking.com, and Agoda. <br/><strong>Centralized Inventory Management:</strong> The channel manager facilitates centralized inventory management by connecting the property to <span style=\"color:#FC5185 ;\"><strong>130+</strong></span> OTAs, GDS (Global Distribution System), and vacation rental portals. This expands the property's reach and increases visibility."
+    "content": "<strong>Connectivity with Major OTAs:</strong> The integrated channel manager connects with over <span style=\"color:#f95738 ;\"><strong>350</strong></span> major distribution channels, including popular online travel agencies (OTAs) like Expedia, Booking.com, and Agoda. <br/><strong>Centralized Inventory Management:</strong> The channel manager facilitates centralized inventory management by connecting the property to <span style=\"color:#f95738 ;\"><strong>130+</strong></span> OTAs, GDS (Global Distribution System), and vacation rental portals. This expands the property's reach and increases visibility."
   },
   {
     "title": "Custom-Made Hotel Websites",
@@ -25,7 +25,7 @@ const uspData = [
   },
   {
     "title": "Global Presence and Recognition",
-    "content": "<strong>Trusted by Hotels Worldwide:</strong> The mention of being trusted by hotels in over <span style=\"color:#FC5185 ;\"><strong>35</strong></span> countries, including notable establishments, emphasizes the global acceptance and reliability of Frontdesk Anywhere."
+    "content": "<strong>Trusted by Hotels Worldwide:</strong> The mention of being trusted by hotels in over <span style=\"color:#f95738 ;\"><strong>35</strong></span> countries, including notable establishments, emphasizes the global acceptance and reliability of Frontdesk Anywhere."
   },
   {
     "title": "Global Support",
@@ -36,7 +36,7 @@ const uspData = [
     "content": "<strong>Secure Cloud Services:</strong> The platform complies with industry standards such as PCI DSS (Payment Card Industry Data Security Standard) and utilizes Microsoft Azure for secure cloud services. This commitment to data security reassures users about the protection of sensitive information."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

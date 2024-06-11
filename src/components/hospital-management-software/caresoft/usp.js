@@ -37,7 +37,7 @@ const uspData = [
   },
   {
     "title": "Trusted and Award-Winning",
-    "content": "Caresoft has been recognized as a leading healthcare solution provider, with over <span style=\"color:#FC5185 ;\"><strong>15</strong></span> years of domain experience. The software has received awards, such as being labeled as the 'Trending Software' for the year <span style=\"color:#FC5185 ;\"><strong>2019</strong></span>."
+    "content": "Caresoft has been recognized as a leading healthcare solution provider, with over <span style=\"color:#f95738 ;\"><strong>15</strong></span> years of domain experience. The software has received awards, such as being labeled as the 'Trending Software' for the year <span style=\"color:#f95738 ;\"><strong>2019</strong></span>."
   },
   {
     "title": "Global Approach and Compliance",
@@ -56,7 +56,7 @@ const uspData = [
     "content": "Caresoft provides a single solution that is configurable and customizable for various healthcare providers, ranging from small clinics to large hospitals."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

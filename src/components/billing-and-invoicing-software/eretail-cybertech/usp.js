@@ -21,11 +21,11 @@ const uspData = [
   {
     title: "Free Trial Offer",
     content:
-      'Start a <span style="color:#FC5185 ;"><strong>14-day trial</strong></span> for instant access to our comprehensive cloud POS software for retail stores.',
+      'Start a <span style="color:#f95738 ;"><strong>14-day trial</strong></span> for instant access to our comprehensive cloud POS software for retail stores.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

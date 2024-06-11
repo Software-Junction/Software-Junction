@@ -5,7 +5,7 @@ import styles from "../meddoz/medo.module.scss";
 const uspData = [
   {
     "title": "Extensive Drug Database",
-    "content": "With a preloaded database of over <span style=\"color:#FC5185 ;\"><strong>100,000 drugs,</strong></span> Meddoz offers an extensive range that caters to the needs of pharmacies of all sizes. This abundance ensures that pharmacies have access to a comprehensive inventory without the hassle of manual data entry."
+    "content": "With a preloaded database of over <span style=\"color:#f95738 ;\"><strong>100,000 drugs,</strong></span> Meddoz offers an extensive range that caters to the needs of pharmacies of all sizes. This abundance ensures that pharmacies have access to a comprehensive inventory without the hassle of manual data entry."
   },
   {
     "title": "Experienced Software Development Company",
@@ -21,7 +21,7 @@ const uspData = [
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

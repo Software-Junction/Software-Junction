@@ -13,14 +13,14 @@ const uspData = [
   },
   {
     "title": "Proven Track Record",
-    "content": "Clinicmaster boasts an impressive track record with over <span style=\"color:#FC5185 ;\"><strong>15,000</strong></span> professionals using their EMR system, handling more than <span style=\"color:#FC5185 ;\"><strong>31,130</strong></span> chart entries daily. The platform bills over <span style=\"color:#FC5185 ;\"><strong>$1 billion</strong></span> in medical services annually and facilitates over <span style=\"color:#FC5185 ;\"><strong>9.5 million</strong></span> appointments each year."
+    "content": "Clinicmaster boasts an impressive track record with over <span style=\"color:#f95738 ;\"><strong>15,000</strong></span> professionals using their EMR system, handling more than <span style=\"color:#f95738 ;\"><strong>31,130</strong></span> chart entries daily. The platform bills over <span style=\"color:#f95738 ;\"><strong>$1 billion</strong></span> in medical services annually and facilitates over <span style=\"color:#f95738 ;\"><strong>9.5 million</strong></span> appointments each year."
   },
   {
     "title": "Engaging Content",
     "content": "The website features engaging content, including a demo booking option, a tour, and a newsletter subscription, demonstrating a commitment to user experience and ongoing communication."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

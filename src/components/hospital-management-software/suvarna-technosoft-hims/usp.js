@@ -13,18 +13,18 @@ const uspData = [
   },
   {
     "title": "Proven Track Record",
-    "content": "Suvarna takes pride in the fact that its products and solutions are being used and accepted by over <span style=\"color:#FC5185;\"><strong>500</strong></span> healthcare organizations of all sizes. The mention of <span style=\"color:#FC5185;\"><strong>23</strong></span> years of excellence further reinforces the company's proven track record."
+    "content": "Suvarna takes pride in the fact that its products and solutions are being used and accepted by over <span style=\"color:#f95738;\"><strong>500</strong></span> healthcare organizations of all sizes. The mention of <span style=\"color:#f95738;\"><strong>23</strong></span> years of excellence further reinforces the company's proven track record."
   },
   {
     "title": "Client Base and Reach",
-    "content": "Highlighting a client base of <span style=\"color:#FC5185;\"><strong>15,000+</strong></span> physicians, <span style=\"color:#FC5185;\"><strong>36,000+</strong></span> healthcare professionals, and <span style=\"color:#FC5185;\"><strong>4,000+</strong></span> healthcare organizations, Suvarna showcases the widespread acceptance and usage of its products."
+    "content": "Highlighting a client base of <span style=\"color:#f95738;\"><strong>15,000+</strong></span> physicians, <span style=\"color:#f95738;\"><strong>36,000+</strong></span> healthcare professionals, and <span style=\"color:#f95738;\"><strong>4,000+</strong></span> healthcare organizations, Suvarna showcases the widespread acceptance and usage of its products."
   },
   {
     "title": "Large Patient Database",
-    "content": "The software has managed over <span style=\"color:#FC5185;\"><strong>60 million</strong></span> patient records, indicating the scalability and capability of Suvarna's solutions to handle a vast amount of healthcare data."
+    "content": "The software has managed over <span style=\"color:#f95738;\"><strong>60 million</strong></span> patient records, indicating the scalability and capability of Suvarna's solutions to handle a vast amount of healthcare data."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

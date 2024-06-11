@@ -24,7 +24,7 @@ const uspData = [
     "content": "The software provides a unified platform where everyone in the organization can collaborate. This leads to faster issue resolution, improved communication, and quicker realization of ideas. By fostering collaboration, BatchMaster HERD contributes to creating a positive and efficient workplace culture."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

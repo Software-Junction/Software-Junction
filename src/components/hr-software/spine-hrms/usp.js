@@ -5,7 +5,7 @@ import styles from "../spine-hrms/spine.module.scss";
 const uspData = [
   {
     "title": "Industry Specialization",
-    "content": "Highlight the <span style=\"color:#FC5185 ;\"><strong>20 years</strong></span> of experience in the associated domain, emphasizing the company's deep understanding and commitment to meeting industry requirements."
+    "content": "Highlight the <span style=\"color:#f95738 ;\"><strong>20 years</strong></span> of experience in the associated domain, emphasizing the company's deep understanding and commitment to meeting industry requirements."
   },
   {
     "title": "Integrated Solution",
@@ -24,7 +24,7 @@ const uspData = [
     "content": "Mention the partner presence both in India and overseas, indicating a global reach and credibility."
   } 
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

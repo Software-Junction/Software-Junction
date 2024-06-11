@@ -63,7 +63,7 @@ const Index = () => {
             <Col lg={12}>
               <div className={`${styles['breadcr']} `}>
                 <ul>
-                 <li> <Link href="/#">Home</Link></li>&nbsp;<span style={{color : '#FC5185 '}}><MdKeyboardDoubleArrowRight /></span>&nbsp;
+                 <li> <Link href="/#">Home</Link></li>&nbsp;<span style={{color : '#f95738 '}}><MdKeyboardDoubleArrowRight /></span>&nbsp;
                   <li><Link href="">Campus Management System</Link></li>
                 </ul>
              </div>

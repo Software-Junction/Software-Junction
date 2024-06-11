@@ -5,7 +5,7 @@ import styles from "../zimyo/zimyo.module.scss";
 const uspData = [
   {
     "title": "Centralized Efficiency",
-    "content": "Zimyo offers a centralized platform with over <span style=\"color:#FC5185 ;\"><strong>40 modules.</strong></span> This consolidation of HR functions streamlines processes, making it easier for businesses to manage their workforce efficiently. Interactive dashboards provide a holistic view of workforce data. This comprehensive approach not only enhances decision-making but also reduces operational costs for businesses."
+    "content": "Zimyo offers a centralized platform with over <span style=\"color:#f95738 ;\"><strong>40 modules.</strong></span> This consolidation of HR functions streamlines processes, making it easier for businesses to manage their workforce efficiently. Interactive dashboards provide a holistic view of workforce data. This comprehensive approach not only enhances decision-making but also reduces operational costs for businesses."
   },
   {
     "title": "Data Security Assurance",
@@ -17,14 +17,14 @@ const uspData = [
   },
   {
     "title": "Global Recognition",
-    "content": "Zimyo boasts a substantial customer base, with over <span style=\"color:#FC5185 ;\"><strong>2,000</strong></span> clients and more than <span style=\"color:#FC5185 ;\"><strong>5 million</strong></span> users globally."
+    "content": "Zimyo boasts a substantial customer base, with over <span style=\"color:#f95738 ;\"><strong>2,000</strong></span> clients and more than <span style=\"color:#f95738 ;\"><strong>5 million</strong></span> users globally."
   },
   {
     "title": "Resourceful Support",
     "content": "Zimyo provides a wealth of resources to support HR professionals. Blogs, guides, calculators, and templates offer valuable insights and tools for effective HR management. The commitment to customer support, regular webinars, and customer stories further enrich the user experience, fostering continuous learning and improvement."
   } 
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

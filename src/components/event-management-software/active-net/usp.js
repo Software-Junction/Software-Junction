@@ -36,7 +36,7 @@ const uspData = [
     "content": "The software showcases real-world success stories, such as the Town of Saugeen Shores in Ontario, Canada, and the Village of Hawthorn Woods, Illinois. These case studies highlight improvements in customer accessibility, increased enrollment, and revenue growth after adopting ACTIVE Net®."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

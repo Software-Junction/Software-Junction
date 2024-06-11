@@ -16,7 +16,7 @@ const uspData = [
     "content": "Gain insights into orders, production, inventory, and finances with robust forecasting and tracking capabilities."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

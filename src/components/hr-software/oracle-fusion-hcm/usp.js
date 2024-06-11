@@ -36,7 +36,7 @@ const uspData = [
     "content": "While not explicitly mentioned in the content, being a cloud-based solution from a major enterprise like Oracle implies a strong emphasis on security.Security practices are crucial in handling sensitive HR data, ensuring compliance with data protection regulations, and building trust among users."
   } 
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Any Source, Any Data Connectivity",
-    "content": "The platform offers over <span style=\"color:#FC5185 ;\"><strong>35</strong></span> out-of-the-box native data connection choices, enabling users to unify data from various sources securely."
+    "content": "The platform offers over <span style=\"color:#f95738 ;\"><strong>35</strong></span> out-of-the-box native data connection choices, enabling users to unify data from various sources securely."
   },
   {
     "title": "Built-in Data Preparation and Enrichment",
@@ -24,7 +24,7 @@ const uspData = [
     "content": "Users have the flexibility to choose between native cloud, private hosted cloud, or deployment via Oracle Cloud Marketplace."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

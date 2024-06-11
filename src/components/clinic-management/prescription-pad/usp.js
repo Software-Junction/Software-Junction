@@ -5,7 +5,7 @@ import styles from "../prescription-pad/pres.module.scss";
 const uspData = [
   {
     "title": "Efficiency and Time-Saving",
-    "content": "Claims to write <span style=\"color:#FC5185 ;\"><strong>100% safe,</strong></span> error-free, and evidence-based prescriptions in under <span style=\"color:#FC5185 ;\"><strong>2 minutes.</strong></span> Emphasizes that a new prescription can take less than <span style=\"color:#FC5185 ;\"><strong>2 minutes</strong></span> to complete."
+    "content": "Claims to write <span style=\"color:#f95738 ;\"><strong>100% safe,</strong></span> error-free, and evidence-based prescriptions in under <span style=\"color:#f95738 ;\"><strong>2 minutes.</strong></span> Emphasizes that a new prescription can take less than <span style=\"color:#f95738 ;\"><strong>2 minutes</strong></span> to complete."
   },
   {
     "title": "Value-Added Services (VAS)",
@@ -13,14 +13,14 @@ const uspData = [
   },
   {
     "title": "Cost and Time Savings",
-    "content": "Claims to save cost and money by completing a new prescription in less than <span style=\"color:#FC5185 ;\"><strong>2 minutes.</strong></span> Highlights the ability to scan patient's past history and family history, providing useful tips."
+    "content": "Claims to save cost and money by completing a new prescription in less than <span style=\"color:#f95738 ;\"><strong>2 minutes.</strong></span> Highlights the ability to scan patient's past history and family history, providing useful tips."
   },
   {
     "title": "Pharmacopoeia - Trusted Data Sources",
-    "content": "Boasts a comprehensive pharmacopoeia with prescribing information for nearly <span style=\"color:#FC5185 ;\"><strong>70,000</strong></span> brands of Indian, British, and American drugs. Includes full monographs of nearly <span style=\"color:#FC5185 ;\"><strong>3,000</strong></span> generic drugs compiled from reputable sources like the PDR of the U.S.A., Martindale book of pharmacology, and the British National Formulary."
+    "content": "Boasts a comprehensive pharmacopoeia with prescribing information for nearly <span style=\"color:#f95738 ;\"><strong>70,000</strong></span> brands of Indian, British, and American drugs. Includes full monographs of nearly <span style=\"color:#f95738 ;\"><strong>3,000</strong></span> generic drugs compiled from reputable sources like the PDR of the U.S.A., Martindale book of pharmacology, and the British National Formulary."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

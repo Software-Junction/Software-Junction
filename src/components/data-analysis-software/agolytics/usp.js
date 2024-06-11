@@ -20,7 +20,7 @@ const uspData = [
     "content": "Algolytics' tools like AdvancedMiner, Automatic Business Modeler, Scoring.One, and Event Engine are trusted by businesses worldwide, offering robust functionality and reliability to drive innovation and operational efficiency."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

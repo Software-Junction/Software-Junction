@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Impressive User Stats",
     content:
-      "Highlighting the significant numbers, such as over <span style=\"color:#FC5185 ;\"><strong> $2 million </strong></span>earned by users, <span style=\"color:#FC5185 ;\"><strong>132,420</strong></span> published applications, and <span style=\"color:#FC5185 ;\"><strong>171,453,657</strong></span> application downloads, can showcase the platform's popularity and success.",
+      "Highlighting the significant numbers, such as over <span style=\"color:#f95738 ;\"><strong> $2 million </strong></span>earned by users, <span style=\"color:#f95738 ;\"><strong>132,420</strong></span> published applications, and <span style=\"color:#f95738 ;\"><strong>171,453,657</strong></span> application downloads, can showcase the platform's popularity and success.",
   },
   {
     title: "Educational Resources",
@@ -40,7 +40,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

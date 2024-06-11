@@ -17,14 +17,14 @@ const uspData = [
   },
   {
     "title": "Years of Establishment",
-    "content": "The copyright notice \"<span style=\"color:#FC5185 ;\"><strong>© 2018</strong></span> MMI Softwares Pvt. Ltd.\" indicates that the company has been in operation since 2018. This could be seen as a testament to their experience and longevity in the industry, potentially instilling trust in their products and services."
+    "content": "The copyright notice \"<span style=\"color:#f95738 ;\"><strong>© 2018</strong></span> MMI Softwares Pvt. Ltd.\" indicates that the company has been in operation since 2018. This could be seen as a testament to their experience and longevity in the industry, potentially instilling trust in their products and services."
   },
   {
     "title": "Professional Website Design and Development",
     "content": "While not explicitly mentioned as a USP, the inclusion of \"WEBSITE DESIGN AND DEVELOPMENT\" in their service offerings could suggest that the company offers a holistic approach to digital solutions, covering both software and website development."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

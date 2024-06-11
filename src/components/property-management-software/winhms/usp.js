@@ -26,7 +26,7 @@ const uspData = [
   {
     title: "Proven Track Record",
     content:
-      'Having been in business since <span style="color:#FC5185 ;"><strong>2000</strong></span>, WINHMS has served over <span style="color:#FC5185 ;"><strong>1400</strong></span> clients across <span style="color:#FC5185 ;"><strong>20+</strong></span> countries, showcasing its longevity and successful implementation on a global scale.',
+      'Having been in business since <span style="color:#f95738 ;"><strong>2000</strong></span>, WINHMS has served over <span style="color:#f95738 ;"><strong>1400</strong></span> clients across <span style="color:#f95738 ;"><strong>20+</strong></span> countries, showcasing its longevity and successful implementation on a global scale.',
   },
   {
     title: "Responsive Customer Support",
@@ -35,7 +35,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

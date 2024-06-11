@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "Extensive Integrations",
     content:
-      'Wrike boasts <span style="color:#FC5185 ;"><strong>400+</strong></span> integrations, catering to the preferences of project managers who may already be using tools like Slack, Google Docs, and more.',
+      'Wrike boasts <span style="color:#f95738 ;"><strong>400+</strong></span> integrations, catering to the preferences of project managers who may already be using tools like Slack, Google Docs, and more.',
   },
   {
     title: "Testimonials from Satisfied Users",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

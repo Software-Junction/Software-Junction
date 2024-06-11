@@ -11,12 +11,12 @@ const uspData = [
   {
     title: "Trusted by 70,000+ SMEs",
     content:
-      'The software has gained the trust of over <span style="color:#FC5185 ;"><strong>70,000+</strong></span> SMEs, indicating its reliability and popularity among businesses.',
+      'The software has gained the trust of over <span style="color:#f95738 ;"><strong>70,000+</strong></span> SMEs, indicating its reliability and popularity among businesses.',
   },
   {
     title: "Premium Membership Options",
     content:
-      "A paid premium membership is available for users who require advanced features like one-click E-Waybill, E-Invoice, Return filing reports, etc. The premium membership comes with a <span style=\"color:#FC5185 ;\"><strong>  30-day free trial</strong></span>.",
+      "A paid premium membership is available for users who require advanced features like one-click E-Waybill, E-Invoice, Return filing reports, etc. The premium membership comes with a <span style=\"color:#f95738 ;\"><strong>  30-day free trial</strong></span>.",
   },
   {
     title: "Comprehensive Features",
@@ -26,7 +26,7 @@ const uspData = [
   {
     title: "Customization Options",
     content:
-      'While offering <span style="color:#FC5185 ;"><strong>350+</strong></span> options under settings to meet various business needs, the software is open to customizations, and users are encouraged to contact the support team for assistance.',
+      'While offering <span style="color:#f95738 ;"><strong>350+</strong></span> options under settings to meet various business needs, the software is open to customizations, and users are encouraged to contact the support team for assistance.',
   },
   {
     title: "Easy Customer and Vendor Management",
@@ -36,7 +36,7 @@ const uspData = [
 ];
 
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

@@ -92,8 +92,8 @@ const accountingcont = ({ styles }) => {
       {
         label: "Scores",
         data: card ? card.pieData : [0, 0, 0, 0],
-        backgroundColor: ["#30c771", "#ffae00", "#d94244", "#FC5185"],
-        borderColor: ["#30c771", "#ffae00", "#d94244", "#FC5185"],
+        backgroundColor: ["#30c771", "#ffae00", "#d94244", "#f95738"],
+        borderColor: ["#30c771", "#ffae00", "#d94244", "#f95738"],
         borderWidth: 1,
       },
     ],

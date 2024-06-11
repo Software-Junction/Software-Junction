@@ -11,21 +11,21 @@ const uspData = [
   {
     title: "Time and Productivity Savings",
     content:
-      "Users can save time and increase efficiency by avoiding data re-entries. A reported <span style=\"color:#FC5185 ;\"><strong> 30% increase</strong></span> in workforce productivity is attributed to managing data more efficiently through Kizeo Forms.",
+      "Users can save time and increase efficiency by avoiding data re-entries. A reported <span style=\"color:#f95738 ;\"><strong> 30% increase</strong></span> in workforce productivity is attributed to managing data more efficiently through Kizeo Forms.",
   },
   {
     title: "Industry-Specific Solutions",
     content:
-      "Kizeo Forms enables the creation of industry-specific solutions, including <span style=\"color:#FC5185 ;\"><strong> 5S</strong></span> Audit checklists, security reports, maintenance reports, contact collection apps, return to work forms, and more.",
+      "Kizeo Forms enables the creation of industry-specific solutions, including <span style=\"color:#f95738 ;\"><strong> 5S</strong></span> Audit checklists, security reports, maintenance reports, contact collection apps, return to work forms, and more.",
   },
   {
     title: "Global Presence",
     content:
-      "Present in  <span style=\"color:#FC5185 ;\"><strong>52 countries</strong></span>, Kizeo Forms is utilized by professionals worldwide.",
+      "Present in  <span style=\"color:#f95738 ;\"><strong>52 countries</strong></span>, Kizeo Forms is utilized by professionals worldwide.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

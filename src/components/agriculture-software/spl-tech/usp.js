@@ -16,12 +16,12 @@ const uspData = [
   {
     title: "Diverse Product Range",
     content:
-      "The product range includes <span style=\"color:#FC5185 ;\"><strong>Scanalyzer 3D</strong></span>, Scanalyzer HTS, Scanalyzer PL, Scanalyzer Field, Laser Transmitters (Dual Grade and Single Grade), Laser Plain Receivers, Control Boxes, and other tools related to precision agriculture and water management.",
+      "The product range includes <span style=\"color:#f95738 ;\"><strong>Scanalyzer 3D</strong></span>, Scanalyzer HTS, Scanalyzer PL, Scanalyzer Field, Laser Transmitters (Dual Grade and Single Grade), Laser Plain Receivers, Control Boxes, and other tools related to precision agriculture and water management.",
   },
   {
     title: "Phenomics/Phenotyping Solutions",
     content:
-      "SPL Technologies provides solutions in the field of plant phenomics and phenotyping, including technologies like <span style=\"color:#FC5185 ;\"><strong>Scanalyzer 3D</strong></span>, HTS, PL, and Field.",
+      "SPL Technologies provides solutions in the field of plant phenomics and phenotyping, including technologies like <span style=\"color:#f95738 ;\"><strong>Scanalyzer 3D</strong></span>, HTS, PL, and Field.",
   },
   {
     title: "Information Management and Yield Monitoring",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

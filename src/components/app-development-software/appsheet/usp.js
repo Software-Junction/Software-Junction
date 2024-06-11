@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "Integration with Google Workspace and Third-Party Apps",
     content:
-      "AppSheet seamlessly integrates with Google Workspace apps like Gmail, Sheets, and Spaces. Additionally, it connects to third-party apps such as <span style=\"color:#FC5185 ;\"><strong> Office 365</strong></span>, Dropbox, and Salesforce.com. The platform also allows integration with SQL databases, Apigee, REST APIs, and OData.",
+      "AppSheet seamlessly integrates with Google Workspace apps like Gmail, Sheets, and Spaces. Additionally, it connects to third-party apps such as <span style=\"color:#f95738 ;\"><strong> Office 365</strong></span>, Dropbox, and Salesforce.com. The platform also allows integration with SQL databases, Apigee, REST APIs, and OData.",
   },
   {
     title: "User Testimonials",
@@ -36,11 +36,11 @@ const uspData = [
   {
     title: "Wide Adoption",
     content:
-      'Over <span style="color:#FC5185 ;"><strong>4.5</strong></span> million apps have been created with AppSheet, indicating its widespread use and popularity among users.',
+      'Over <span style="color:#f95738 ;"><strong>4.5</strong></span> million apps have been created with AppSheet, indicating its widespread use and popularity among users.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

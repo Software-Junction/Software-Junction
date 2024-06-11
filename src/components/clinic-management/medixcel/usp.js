@@ -28,7 +28,7 @@ const uspData = [
     "content": "Prioritizing the security of patient information, the software adheres to industry-standard security protocols and compliance requirements. This ensures that healthcare providers can trust the system to safeguard sensitive patient data."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

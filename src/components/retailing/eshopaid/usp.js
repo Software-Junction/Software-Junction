@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Deployment Flexibility",
-    "content": "Offers both Online Cloud POS and Thin Offline POS deployment models. Online Cloud POS ensures <span style=\"color:#FC5185 ;\"><strong>100%</strong></span> real-time transactions and is suitable for businesses with low to medium transaction volumes. Thin Offline POS is ideal for high transaction volumes or locations with inconsistent internet connectivity, allowing local transactions with later synchronization."
+    "content": "Offers both Online Cloud POS and Thin Offline POS deployment models. Online Cloud POS ensures <span style=\"color:#f95738 ;\"><strong>100%</strong></span> real-time transactions and is suitable for businesses with low to medium transaction volumes. Thin Offline POS is ideal for high transaction volumes or locations with inconsistent internet connectivity, allowing local transactions with later synchronization."
   },
   {
     "title": "Scalable for Businesses of All Sizes",
@@ -24,7 +24,7 @@ const uspData = [
     "content": "Built-in CRM engine enables businesses to register and track every customer, including service preferences and visit details. Connects with customers via SMS, contributing to customer retention and reducing costs."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

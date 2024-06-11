@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "Contribution to Carbon Removal",
-    "content": "SimplifyAnalytics contributes <span style=\"color:#FC5185 ;\"><strong>1%</strong></span> of its revenue to carbon removal, supporting frontier carbon removal technologies to counteract climate change."
+    "content": "SimplifyAnalytics contributes <span style=\"color:#f95738 ;\"><strong>1%</strong></span> of its revenue to carbon removal, supporting frontier carbon removal technologies to counteract climate change."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

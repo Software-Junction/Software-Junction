@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Accessibility",
     content:
-      'Shopify caters to a diverse range of users, from individual entrepreneurs to large brands, making it accessible for everyone. The platform supports businesses in <span style="color:#FC5185 ;"><strong>170+</strong></span> countries, emphasizing its global reach.',
+      'Shopify caters to a diverse range of users, from individual entrepreneurs to large brands, making it accessible for everyone. The platform supports businesses in <span style="color:#f95738 ;"><strong>170+</strong></span> countries, emphasizing its global reach.',
   },
   {
     title: "Ease of Use",
@@ -40,7 +40,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

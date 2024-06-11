@@ -5,7 +5,7 @@ import styles from "../planning-pod/plan.module.scss";
 const uspData = [
   {
     "title": "Integrated Excellence",
-    "content": "Bring together over <span style=\"color:#FC5185 ;\"><strong>20</strong></span> specialized event tools seamlessly integrated into one platform. No more scattered data, spreadsheets, or stand-alone apps. With Planning Pod, manage your entire event lifecycle from a single, convenient location."
+    "content": "Bring together over <span style=\"color:#f95738 ;\"><strong>20</strong></span> specialized event tools seamlessly integrated into one platform. No more scattered data, spreadsheets, or stand-alone apps. With Planning Pod, manage your entire event lifecycle from a single, convenient location."
   },
   {
     "title": "Effortless Collaboration",
@@ -20,7 +20,7 @@ const uspData = [
     "content": "Seamlessly integrate with hundreds of platforms, including Google, Quickbooks, Salesforce, MailChimp, Slack, and EventBrite. Share data across apps via Zapier, ensuring your workflow remains interconnected and efficient."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

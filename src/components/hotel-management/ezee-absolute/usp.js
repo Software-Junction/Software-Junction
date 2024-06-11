@@ -13,7 +13,7 @@ const uspData = [
   },
   {
     "title": "Stable Hotel Channel Manager",
-    "content": "The hotel channel manager is connected with <span style=\"color:#FC5185 ;\"><strong>130+</strong></span> online travel agencies (OTAs), global distribution systems (GDS), and vacation rental portals. This connectivity maximizes the hotel's reach by distributing inventory across a wide range of platforms."
+    "content": "The hotel channel manager is connected with <span style=\"color:#f95738 ;\"><strong>130+</strong></span> online travel agencies (OTAs), global distribution systems (GDS), and vacation rental portals. This connectivity maximizes the hotel's reach by distributing inventory across a wide range of platforms."
   },
   {
     "title": "Smart Yield Management",
@@ -33,26 +33,26 @@ const uspData = [
   },
   {
     "title": "Dedicated Customer Support",
-    "content": "eZee Absolute offers <span style=\"color:#FC5185 ;\"><strong>24x7x365</strong></span> live support through chat, emails, and calls. This ensures that users receive ongoing assistance and support whenever they need it."
+    "content": "eZee Absolute offers <span style=\"color:#f95738 ;\"><strong>24x7x365</strong></span> live support through chat, emails, and calls. This ensures that users receive ongoing assistance and support whenever they need it."
   },
   {
     "title": "Global Presence",
-    "content": "With users in over <span style=\"color:#FC5185 ;\"><strong>170</strong></span> countries and serving leading properties worldwide, eZee Absolute has established a strong global presence. This wide adoption speaks to its reliability and effectiveness in catering to diverse hospitality industry needs."
+    "content": "With users in over <span style=\"color:#f95738 ;\"><strong>170</strong></span> countries and serving leading properties worldwide, eZee Absolute has established a strong global presence. This wide adoption speaks to its reliability and effectiveness in catering to diverse hospitality industry needs."
   },
   {
     "title": "PCI DSS Certified and High Uptime",
-    "content": "The system is PCI DSS certified, ensuring compliance with stringent security standards. Additionally, it boasts a <span style=\"color:#FC5185 ;\"><strong>99.99%</strong></span> uptime, providing users with a reliable and stable platform for their operations."
+    "content": "The system is PCI DSS certified, ensuring compliance with stringent security standards. Additionally, it boasts a <span style=\"color:#f95738 ;\"><strong>99.99%</strong></span> uptime, providing users with a reliable and stable platform for their operations."
   },
   {
     "title": "Integration with Third-Party Solutions",
-    "content": "eZee Absolute is integrated with over <span style=\"color:#FC5185 ;\"><strong>500</strong></span> third-party solutions. This extensive integration enhances the software's capabilities by providing users with a comprehensive ecosystem of tools and services to support their hospitality business."
+    "content": "eZee Absolute is integrated with over <span style=\"color:#f95738 ;\"><strong>500</strong></span> third-party solutions. This extensive integration enhances the software's capabilities by providing users with a comprehensive ecosystem of tools and services to support their hospitality business."
   },
   {
     "title": "Tailored for Specific Markets",
     "content": "The software is customized to meet the specific norms and requirements of various countries, including India, South Africa, Oman, Malaysia, and Thailand. This customization ensures that the system aligns with local regulations and business practices."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

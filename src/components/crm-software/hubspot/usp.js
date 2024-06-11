@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Unlimited and Timeless",
-    "content": "Enjoy unlimited data and support for up to <span style=\"color:#FC5185 ;\"><strong>1,000,000</strong></span> contacts, without any time limitations."
+    "content": "Enjoy unlimited data and support for up to <span style=\"color:#f95738 ;\"><strong>1,000,000</strong></span> contacts, without any time limitations."
   },
   {
     "title": "Time-Saving Tools",
@@ -20,7 +20,7 @@ const uspData = [
     "content": "Beyond the free CRM, HubSpot offers premium enterprise software for marketing, sales, customer service, content management, and operations."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "Proven Success and Long-term Partnership",
     content:
-      'With more than <span style="color:#FC5185 ;"><strong>8,000</strong></span> clients globally, half of whom have been with Trimble Viewpoint for a decade or longer, the software establishes itself as a stable and long-term partner. Success stories from various construction projects demonstrate the software\'s reliability and effectiveness.',
+      'With more than <span style="color:#f95738 ;"><strong>8,000</strong></span> clients globally, half of whom have been with Trimble Viewpoint for a decade or longer, the software establishes itself as a stable and long-term partner. Success stories from various construction projects demonstrate the software\'s reliability and effectiveness.',
   },
   {
     title: "Tailored for Contractors",
@@ -36,7 +36,7 @@ const uspData = [
   {
     title: "Return on Investment (ROI)",
     content:
-      'Success stories, such as Pacegrade Ltd achieving a <span style="color:#FC5185 ;"><strong>10x</strong></span> ROI by using Field View, highlight the tangible benefits and cost savings that clients can experience with Trimble Viewpoint software.',
+      'Success stories, such as Pacegrade Ltd achieving a <span style="color:#f95738 ;"><strong>10x</strong></span> ROI by using Field View, highlight the tangible benefits and cost savings that clients can experience with Trimble Viewpoint software.',
   },
   {
     title: "Global Reach",
@@ -50,7 +50,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

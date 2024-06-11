@@ -5,7 +5,7 @@ import styles from "../proqsmart/pro.module.scss";
 const uspData = [
   {
     "title": "Efficiency and Cost Savings",
-    "content": "ProQsmart promises to streamline CapEx procurement processes, enabling faster project deliveries by awarding contracts to the right vendors at the right price and on time. It claims to save upwards of <span style=\"color:#FC5185 ;\"><strong>40%</strong></span> on procurement time and <span style=\"color:#FC5185 ;\"><strong>10%</strong></span> on direct costs."
+    "content": "ProQsmart promises to streamline CapEx procurement processes, enabling faster project deliveries by awarding contracts to the right vendors at the right price and on time. It claims to save upwards of <span style=\"color:#f95738 ;\"><strong>40%</strong></span> on procurement time and <span style=\"color:#f95738 ;\"><strong>10%</strong></span> on direct costs."
   },
   {
     "title": "AI-Powered Automation",
@@ -13,18 +13,18 @@ const uspData = [
   },
   {
     "title": "Transparency and Compliance",
-    "content": "ProQsmart emphasizes transparency and maximum savings, boasting a <span style=\"color:#FC5185 ;\"><strong>65%</strong></span> reduction in touchpoints, <span style=\"color:#FC5185 ;\"><strong>36%</strong></span> time saved, and improved compliance. This suggests enhanced transparency in procurement processes and better adherence to regulatory requirements."
+    "content": "ProQsmart emphasizes transparency and maximum savings, boasting a <span style=\"color:#f95738 ;\"><strong>65%</strong></span> reduction in touchpoints, <span style=\"color:#f95738 ;\"><strong>36%</strong></span> time saved, and improved compliance. This suggests enhanced transparency in procurement processes and better adherence to regulatory requirements."
   },
   {
     "title": "Ease of Use and Customization",
-    "content": "With a focus on ease of use and customization, ProQsmart claims to offer a <span style=\"color:#FC5185 ;\"><strong>50%</strong></span> faster implementation process and a <span style=\"color:#FC5185 ;\"><strong>40%</strong></span> boost in customization potential without any coding required. This implies a user-friendly interface and flexibility to adapt to diverse business needs."
+    "content": "With a focus on ease of use and customization, ProQsmart claims to offer a <span style=\"color:#f95738 ;\"><strong>50%</strong></span> faster implementation process and a <span style=\"color:#f95738 ;\"><strong>40%</strong></span> boost in customization potential without any coding required. This implies a user-friendly interface and flexibility to adapt to diverse business needs."
   },
   {
     "title": "Testimonials and Success Stories",
     "content": "The inclusion of testimonials from Megha Vijay, Head of Projects & Cost Management at Muffin Group, highlights real-world success stories and endorsements, adding credibility to the software's claims."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

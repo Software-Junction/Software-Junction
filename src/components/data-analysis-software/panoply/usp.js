@@ -5,7 +5,7 @@ import styles from "../panoply/pan.module.scss";
 const uspData = [
   {
     "title": "Efficient Data Processing",
-    "content": "The platform boasts fast implementation, claiming to be <span style=\"color:#FC5185 ;\"><strong>30</strong></span> times faster and <span style=\"color:#FC5185 ;\"><strong>50%</strong></span> cheaper than alternatives. It can handle large volumes of data, having extracted trillions of rows."
+    "content": "The platform boasts fast implementation, claiming to be <span style=\"color:#f95738 ;\"><strong>30</strong></span> times faster and <span style=\"color:#f95738 ;\"><strong>50%</strong></span> cheaper than alternatives. It can handle large volumes of data, having extracted trillions of rows."
   },
   {
     "title": "Analysis-Ready Tables",
@@ -20,7 +20,7 @@ const uspData = [
     "content": "The platform seamlessly integrates with various Business Intelligence (BI) tools, allowing users to update dashboards and perform analytics using their preferred tools."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

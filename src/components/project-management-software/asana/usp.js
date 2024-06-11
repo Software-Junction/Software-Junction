@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Integration Capabilities",
     content:
-      'Asana boasts over <span style="color:#FC5185 ;"><strong>300</strong></span> integrations, allowing seamless connectivity with enterprise tools that organizations already use. This integration capability enhances efficiency and ensures a smooth workflow by connecting Asana with other essential business applications.',
+      'Asana boasts over <span style="color:#f95738 ;"><strong>300</strong></span> integrations, allowing seamless connectivity with enterprise tools that organizations already use. This integration capability enhances efficiency and ensures a smooth workflow by connecting Asana with other essential business applications.',
   },
   {
     title: "Enterprise-Grade Security",
@@ -21,11 +21,11 @@ const uspData = [
   {
     title: "Usage by Fortune 100 Companies",
     content:
-      'Asana proudly states that <span style="color:#FC5185 ;"><strong>80%</strong></span> of Fortune <span style=\"color:#FC5185 ;\"><strong> 100 companies </strong></span> choose their platform. The inclusion of recognizable logos such as Amazon, McKesson, Johnson & Johnson, Dell, and Merck adds credibility and demonstrates the trust that major corporations place in Asana.',
+      'Asana proudly states that <span style="color:#f95738 ;"><strong>80%</strong></span> of Fortune <span style=\"color:#f95738 ;\"><strong> 100 companies </strong></span> choose their platform. The inclusion of recognizable logos such as Amazon, McKesson, Johnson & Johnson, Dell, and Merck adds credibility and demonstrates the trust that major corporations place in Asana.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

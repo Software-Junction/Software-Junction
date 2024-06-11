@@ -21,12 +21,12 @@ const uspData = [
   {
     title: "Extensive Partner Ecosystem",
     content:
-      'The Partner Connect program, with over <span style="color:#FC5185;"><strong>140</strong></span> partners, offers flexibility and choice to users. This can be highlighted as a USP, showcasing the collaborative nature of MRI Software and the ability for users to tailor solutions to their specific needs.',
+      'The Partner Connect program, with over <span style="color:#f95738;"><strong>140</strong></span> partners, offers flexibility and choice to users. This can be highlighted as a USP, showcasing the collaborative nature of MRI Software and the ability for users to tailor solutions to their specific needs.',
   },
   {
     title: "Global Presence",
     content:
-      'MRI Software has a global presence, serving clients in over <span style="color:#FC5185;"><strong>170</strong></span> countries. The extensive reach can be positioned as a strength, emphasizing the software\'s adaptability to diverse real estate markets.',
+      'MRI Software has a global presence, serving clients in over <span style="color:#f95738;"><strong>170</strong></span> countries. The extensive reach can be positioned as a strength, emphasizing the software\'s adaptability to diverse real estate markets.',
   },
   {
     title: "Continuous Innovation",
@@ -35,7 +35,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

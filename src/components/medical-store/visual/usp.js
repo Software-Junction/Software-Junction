@@ -5,7 +5,7 @@ import styles from "../visual/vis.module.scss";
 const uspData = [
   {
     "title": "Tailored Solution for Pharmaceutical Businesses",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>Retail 108</strong></span> Pharmacy Chemist Shop Medical Store Software is meticulously designed to cater to the specific needs of Pharmacy, Chemist Shops, and Medical Stores. <span style=\"color:#FC5185 ;\"><strong>With over 20,000</strong></span> satisfied users in India and abroad, it is a proven solution for the pharmaceutical retail sector."
+    "content": "<span style=\"color:#f95738 ;\"><strong>Retail 108</strong></span> Pharmacy Chemist Shop Medical Store Software is meticulously designed to cater to the specific needs of Pharmacy, Chemist Shops, and Medical Stores. <span style=\"color:#f95738 ;\"><strong>With over 20,000</strong></span> satisfied users in India and abroad, it is a proven solution for the pharmaceutical retail sector."
   },
   {
     "title": "Master Database Management",
@@ -21,14 +21,14 @@ const uspData = [
   },
   {
     "title": "Easy108 Mobile App",
-    "content": "Engage customers with the <span style=\"color:#FC5185 ;\"><strong>Easy 108 mobile app,</strong></span> allowing them to view products, place orders, receive bills, and access payment history. For business owners, the app enables product and offer management, order processing, and real-time insights into sales and operations."
+    "content": "Engage customers with the <span style=\"color:#f95738 ;\"><strong>Easy 108 mobile app,</strong></span> allowing them to view products, place orders, receive bills, and access payment history. For business owners, the app enables product and offer management, order processing, and real-time insights into sales and operations."
   }
   
   
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

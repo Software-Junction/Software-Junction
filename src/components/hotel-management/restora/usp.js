@@ -21,14 +21,14 @@ const uspData = [
   },
   {
     "title": "21-Day Free Trial for Exploration",
-    "content": "Restora POS allows potential clients to explore its capabilities risk-free with a <span style=\"color:#FC5185 ;\"><strong>21-day free trial.</strong></span> This commitment to transparency and confidence in the product encourages businesses to experience the benefits firsthand before making a commitment."
+    "content": "Restora POS allows potential clients to explore its capabilities risk-free with a <span style=\"color:#f95738 ;\"><strong>21-day free trial.</strong></span> This commitment to transparency and confidence in the product encourages businesses to experience the benefits firsthand before making a commitment."
   },
   {
     "title": "Global Presence and Recognition",
     "content": "With a presence in Bangladesh and the UAE, Restora POS has positioned itself as a global player in the restaurant POS industry. Its world-class reputation signifies trust and reliability for businesses worldwide."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

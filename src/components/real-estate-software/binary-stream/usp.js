@@ -28,7 +28,7 @@ const uspData = [
     "content": "Purpose-built tools within Dynamics GP addressing specific issues in document delivery and processing overhead. Batch emailing for delivering invoices, SOP documents, AR statements, purchase orders, and payroll documents with automated attachments."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -17,10 +17,10 @@ const uspData = [
   },
   {
     "title": "Customizable and Tailored Customer Onboarding",
-    "content": "Buildium offers a <span style=\"color:#FC5185 ;\"><strong>14-day</strong></span> free trial with customized customer onboarding, allowing users to experience the software's benefits with minimal risk. The platform is designed to adapt to the unique needs of property owners, landlords, and property management businesses."
+    "content": "Buildium offers a <span style=\"color:#f95738 ;\"><strong>14-day</strong></span> free trial with customized customer onboarding, allowing users to experience the software's benefits with minimal risk. The platform is designed to adapt to the unique needs of property owners, landlords, and property management businesses."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -4,11 +4,11 @@ import { Container, Row, Col } from "react-bootstrap";
 const uspData = [
   {
     "title": "22+ Years of Expertise",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>With over 22 years of expertise,</strong></span> Vidyalaya brings a wealth of experience to the table. The product is a result of continuous refinement and adaptation to the evolving needs of educational institutions."
+    "content": "<span style=\"color:#f95738 ;\"><strong>With over 22 years of expertise,</strong></span> Vidyalaya brings a wealth of experience to the table. The product is a result of continuous refinement and adaptation to the evolving needs of educational institutions."
   },
   {
     "title": "Global Client Base",
-    "content": "Vidyalaya boasts a global client base of<span style=\"color:#FC5185 ;\"><strong> 1600+ educational institutions.</strong></span> This widespread adoption signifies the system's reliability, effectiveness, and adaptability to diverse educational environments."
+    "content": "Vidyalaya boasts a global client base of<span style=\"color:#f95738 ;\"><strong> 1600+ educational institutions.</strong></span> This widespread adoption signifies the system's reliability, effectiveness, and adaptability to diverse educational environments."
   },
   {
     "title": "Integrated School Management Software",

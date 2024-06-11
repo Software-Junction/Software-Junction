@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "Customization",
     content:
-      "Chetu highlights its ability to provide tailored solutions, including custom software development for specific needs such as land mapping, <span style=\"color:#FC5185 ;\"><strong>3D field design</strong></span>, smart controllers, and sensors.",
+      "Chetu highlights its ability to provide tailored solutions, including custom software development for specific needs such as land mapping, <span style=\"color:#f95738 ;\"><strong>3D field design</strong></span>, smart controllers, and sensors.",
   },
   {
     title: "Regulatory Compliance",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

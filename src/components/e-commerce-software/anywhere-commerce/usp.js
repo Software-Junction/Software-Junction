@@ -31,7 +31,7 @@ const uspData = [
   {
     title: "Pioneers of Mobile Payments",
     content:
-      'AnywhereCommerce boasts a significant track record, having sold over <span style="color:#FC5185 ;"><strong>20 million</strong></span> card readers since its establishment in <span style=\"color:#FC5185 ;\"><strong> 2006 </strong></span>. This long-standing presence establishes them as pioneers in the field, demonstrating a history of reliability, innovation, and continuous improvement in mobile payment solutions.',
+      'AnywhereCommerce boasts a significant track record, having sold over <span style="color:#f95738 ;"><strong>20 million</strong></span> card readers since its establishment in <span style=\"color:#f95738 ;\"><strong> 2006 </strong></span>. This long-standing presence establishes them as pioneers in the field, demonstrating a history of reliability, innovation, and continuous improvement in mobile payment solutions.',
   },
   {
     title: "Tailored Solutions for Diverse Clients",
@@ -40,7 +40,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

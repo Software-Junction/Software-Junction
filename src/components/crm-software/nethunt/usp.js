@@ -24,7 +24,7 @@ const uspData = [
     "content": "Positive G2 customer reviews and recognition as a Google Cloud Partner validate the software's quality and security."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

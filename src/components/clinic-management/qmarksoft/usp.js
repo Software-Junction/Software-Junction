@@ -40,7 +40,7 @@ const uspData = [
     "content": "Qmarksoft offers a range of software solutions beyond pathology, catering to schools, hospitals, educational institutes, and other related industries."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

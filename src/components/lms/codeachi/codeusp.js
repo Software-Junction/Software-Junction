@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const uspData = [
   {
     "title": "Free Training and Support",
-    "content": "CodeAchi offers free training sessions along with video tutorials. The training is structured to be user-friendly, enabling individuals to use the software effectively, even if they are not professional librarians. Additionally, the company provides<span style=\"color:#FC5185 ;\"><strong> 24x7 online support</strong></span> through various channels, including live chat, WhatsApp, Skype, and email, ensuring assistance is readily available."
+    "content": "CodeAchi offers free training sessions along with video tutorials. The training is structured to be user-friendly, enabling individuals to use the software effectively, even if they are not professional librarians. Additionally, the company provides<span style=\"color:#f95738 ;\"><strong> 24x7 online support</strong></span> through various channels, including live chat, WhatsApp, Skype, and email, ensuring assistance is readily available."
   },
   {
     "title": "Fully Featured",
@@ -12,7 +12,7 @@ const uspData = [
   },
   {
     "title": "30 Days Refund Policy",
-    "content": "CodeAchi expresses confidence in their product by offering a <span style=\"color:#FC5185 ;\"><strong> 30-day refund policy</strong></span>. If users are not satisfied with the software within the first <span style=\"color:#FC5185 ;\"><strong>30 days of purchase,</strong></span> they can request a refund, demonstrating the company's commitment to customer satisfaction."
+    "content": "CodeAchi expresses confidence in their product by offering a <span style=\"color:#f95738 ;\"><strong> 30-day refund policy</strong></span>. If users are not satisfied with the software within the first <span style=\"color:#f95738 ;\"><strong>30 days of purchase,</strong></span> they can request a refund, demonstrating the company's commitment to customer satisfaction."
   },
   {
     "title": "Global Trust",
@@ -30,7 +30,7 @@ const uspData = [
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

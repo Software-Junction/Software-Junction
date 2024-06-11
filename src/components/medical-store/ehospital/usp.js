@@ -29,10 +29,10 @@ const uspData = [
   },
   {
     "title": "Government Endorsement and Regular Updates",
-    "content": "The mention of <span style=\"color:#FC5185 ;\"><strong>'© NIC, 2015 | All Rights Reserved®. |</strong></span> Govt. Of India' and the information about the latest build update on <span style=\"color:#FC5185 ;\"><strong>Nov 09, 2023,</strong></span> adds credibility and indicates that the software is endorsed by the government. Regular updates showcase a commitment to ongoing improvement and adaptation to evolving healthcare needs."
+    "content": "The mention of <span style=\"color:#f95738 ;\"><strong>'© NIC, 2015 | All Rights Reserved®. |</strong></span> Govt. Of India' and the information about the latest build update on <span style=\"color:#f95738 ;\"><strong>Nov 09, 2023,</strong></span> adds credibility and indicates that the software is endorsed by the government. Regular updates showcase a commitment to ongoing improvement and adaptation to evolving healthcare needs."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

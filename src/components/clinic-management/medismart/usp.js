@@ -20,7 +20,7 @@ const uspData = [
     "content": "Medismarts EMR provides dedicated customer support, ensuring that healthcare organizations receive prompt assistance and uninterrupted service. This commitment to customer satisfaction enhances the overall user experience."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

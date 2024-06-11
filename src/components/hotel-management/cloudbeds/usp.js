@@ -17,14 +17,14 @@ const uspData = [
   },
   {
     "title": "International Presence and Partner Ecosystem",
-    "content": "Cloudbeds operates in over <span style=\"color:#FC5185 ;\"><strong>157</strong></span> countries, serves <span style=\"color:#FC5185 ;\"><strong>40+</strong></span> countries with employees, speaks <span style=\"color:#FC5185 ;\"><strong>30+</strong></span> languages, and has over <span style=\"color:#FC5185 ;\"><strong>600</strong></span> partner integrations."
+    "content": "Cloudbeds operates in over <span style=\"color:#f95738 ;\"><strong>157</strong></span> countries, serves <span style=\"color:#f95738 ;\"><strong>40+</strong></span> countries with employees, speaks <span style=\"color:#f95738 ;\"><strong>30+</strong></span> languages, and has over <span style=\"color:#f95738 ;\"><strong>600</strong></span> partner integrations."
   },
   {
     "title": "Global Reach and Direct Reservations",
-    "content": "Cloudbeds has a wide global reach, with <span style=\"color:#FC5185 ;\"><strong>11M+</strong></span> direct reservations per year, indicating its popularity and effectiveness in the hospitality industry."
+    "content": "Cloudbeds has a wide global reach, with <span style=\"color:#f95738 ;\"><strong>11M+</strong></span> direct reservations per year, indicating its popularity and effectiveness in the hospitality industry."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

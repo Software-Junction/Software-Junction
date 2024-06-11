@@ -11,12 +11,12 @@ const uspData = [
   {
     title: "GST Compliance",
     content:
-      'The software is fully integrated with the Goods and Services Tax (GST) system in India. It supports GST invoices, quotes, delivery notes, purchase orders, bills, credit notes, GSTR <span style="color:#FC5185 ;"><strong>1</strong></span>, and GSTR <span style="color:#FC5185 ;"><strong>3B</strong></span>, ensuring accurate and compliant financial transactions.',
+      'The software is fully integrated with the Goods and Services Tax (GST) system in India. It supports GST invoices, quotes, delivery notes, purchase orders, bills, credit notes, GSTR <span style="color:#f95738 ;"><strong>1</strong></span>, and GSTR <span style="color:#f95738 ;"><strong>3B</strong></span>, ensuring accurate and compliant financial transactions.',
   },
   {
     title: "Personalized Templates",
     content:
-      'Users can create impressive and personalized invoices quickly with optimized templates. The software allows for up to <span style="color:#FC5185 ;"><strong>20</strong></span> products on a single page, enhancing the professional presentation of invoices.',
+      'Users can create impressive and personalized invoices quickly with optimized templates. The software allows for up to <span style="color:#f95738 ;"><strong>20</strong></span> products on a single page, enhancing the professional presentation of invoices.',
   },
   {
     title: "Comprehensive Document Support",
@@ -25,7 +25,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

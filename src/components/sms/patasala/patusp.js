@@ -24,7 +24,7 @@ const uspData = [
   },
   {
     "title": "Extensive Feature Set",
-    "content": "The platform boasts a cloud-based web solution <span style=\"color:#FC5185 ;\"><strong>with over 40 modules,</strong></span> customizable settings and documents, mobile apps for all stakeholders, and dashboards for both academic and financial insights."
+    "content": "The platform boasts a cloud-based web solution <span style=\"color:#f95738 ;\"><strong>with over 40 modules,</strong></span> customizable settings and documents, mobile apps for all stakeholders, and dashboards for both academic and financial insights."
   },
   {
     "title": "Innovative Approach and Easy-to-Use Software",
@@ -33,7 +33,7 @@ const uspData = [
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

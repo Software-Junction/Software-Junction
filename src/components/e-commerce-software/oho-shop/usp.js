@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "Sales Booster Features",
     content:
-      'The platform includes built-in promotional features such as social media sharing, push notifications, SEO-friendly websites, discount and coupon management, <span style="color:#FC5185 ;"><strong>10</strong></span>x faster checkout, QR code/deep link integration, enhancing the potential for increased sales.',
+      'The platform includes built-in promotional features such as social media sharing, push notifications, SEO-friendly websites, discount and coupon management, <span style="color:#f95738 ;"><strong>10</strong></span>x faster checkout, QR code/deep link integration, enhancing the potential for increased sales.',
   },
   {
     title: "Diverse Industry Application",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

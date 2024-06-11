@@ -13,14 +13,14 @@ const uspData = [
   },
   {
     "title": "Global Reach and Adoption",
-    "content": "With usage in <span style=\"color:#FC5185 ;\"><strong>200+</strong></span> cities worldwide and satisfied clients globally, Easy Clinic has a proven track record of efficiency and effectiveness. The software is trusted and embraced by healthcare professionals across different regions."
+    "content": "With usage in <span style=\"color:#f95738 ;\"><strong>200+</strong></span> cities worldwide and satisfied clients globally, Easy Clinic has a proven track record of efficiency and effectiveness. The software is trusted and embraced by healthcare professionals across different regions."
   },
   {
     "title": "Free 30-Day Trial with Full Support and Training",
     "content": "Easy Clinic offers a risk-free trial period, allowing users to experience the software without the need for a credit card. During this period, full support and training are provided to ensure a smooth onboarding process."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

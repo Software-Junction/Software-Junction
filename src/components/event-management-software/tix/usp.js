@@ -17,7 +17,7 @@ const uspData = [
   },
   {
     "title": "Secure and Trustworthy",
-    "content": "PCI Level <span style=\"color:#FC5185 ;\"><strong>1</strong></span> certified for the highest level of payment card industry security.\n<span style=\"color:#FC5185 ;\"><strong>128</strong></span>-bit SSL encryption ensures the safety of sensitive information.\nCompliance with Visa Global Registry of Service Providers and Nevada Gaming Commission standards."
+    "content": "PCI Level <span style=\"color:#f95738 ;\"><strong>1</strong></span> certified for the highest level of payment card industry security.\n<span style=\"color:#f95738 ;\"><strong>128</strong></span>-bit SSL encryption ensures the safety of sensitive information.\nCompliance with Visa Global Registry of Service Providers and Nevada Gaming Commission standards."
   },
   {
     "title": "Multi-Industry Capabilities",
@@ -32,7 +32,7 @@ const uspData = [
     "content": "Thousands of venues, promoters, producers, universities, and more rely on Tix as their complete box office and online ticketing solution."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

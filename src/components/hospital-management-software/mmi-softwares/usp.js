@@ -20,7 +20,7 @@ const uspData = [
     "content": "The system facilitates digital record-keeping, making all processes more efficient. Moreover, the capability to share these records across different healthcare settings ensures seamless collaboration and communication among various stakeholders in the healthcare ecosystem."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

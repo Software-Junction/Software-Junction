@@ -5,17 +5,17 @@ const uspData = [
   {
     title: "Data Security Prowess",
     content:
-      '<span style="color:#FC5185 ;"><strong>100% commitment to data security</strong></span>, safeguarding sensitive information with regular backups and advanced security features.Prioritizing non-negotiable data protection, ensuring the safety of the vast volume of school and student data.',
+      '<span style="color:#f95738 ;"><strong>100% commitment to data security</strong></span>, safeguarding sensitive information with regular backups and advanced security features.Prioritizing non-negotiable data protection, ensuring the safety of the vast volume of school and student data.',
   },
   {
     title: "Comprehensive Module Offerings",
     content:
-      '<span style="color:#FC5185 ;"><strong>Over 40 modules</strong></span> cover every aspect of school management, from admission and fees to curriculum planning and library management.<span style="color:#FC5185 ;"><strong>A 360° approach</strong></span> to modern school management, including dynamic calendar management, online assessment, and student analytics.',
+      '<span style="color:#f95738 ;"><strong>Over 40 modules</strong></span> cover every aspect of school management, from admission and fees to curriculum planning and library management.<span style="color:#f95738 ;"><strong>A 360° approach</strong></span> to modern school management, including dynamic calendar management, online assessment, and student analytics.',
   },
   {
     title: "Recognized Excellence",
     content:
-      "Awarded 'The Innovative School ERP Solution' at The World Education Summit, highlighting commitment to innovation in education.Trusted by legacy institutions with a track record of successful implementation in <span style=\"color:#FC5185 ;\"><strong>100+ schools and serving over 200,000 students.</strong></span>",
+      "Awarded 'The Innovative School ERP Solution' at The World Education Summit, highlighting commitment to innovation in education.Trusted by legacy institutions with a track record of successful implementation in <span style=\"color:#f95738 ;\"><strong>100+ schools and serving over 200,000 students.</strong></span>",
   },
   {
     title: "Future-Ready Education Ecosystem",

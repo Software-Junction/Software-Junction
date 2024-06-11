@@ -13,22 +13,22 @@ const uspData = [
   },
   {
     "title": "Subscription Pricing Model",
-    "content": "Retail Pro adopts a 'Pay as You Grow' subscription pricing model, starting at <span style=\"color:#FC5185 ;\"><strong>$119</strong></span> USD monthly for the initial user at each location and <span style=\"color:#FC5185 ;\"><strong>$99</strong></span> USD monthly for each additional user per location. This pricing model is designed to accommodate businesses of varying sizes."
+    "content": "Retail Pro adopts a 'Pay as You Grow' subscription pricing model, starting at <span style=\"color:#f95738 ;\"><strong>$119</strong></span> USD monthly for the initial user at each location and <span style=\"color:#f95738 ;\"><strong>$99</strong></span> USD monthly for each additional user per location. This pricing model is designed to accommodate businesses of varying sizes."
   },
   {
     "title": "Localized for Regional Requirements",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong>30 years</strong></span> of experience, Retail Pro understands the importance of regional adaptations. The platform is fully translatable, supporting local languages, tax regulations (such as VAT, GST/HST), and other regional requirements. The robust API allows for centralized flexibility to adapt to specific regional needs."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong>30 years</strong></span> of experience, Retail Pro understands the importance of regional adaptations. The platform is fully translatable, supporting local languages, tax regulations (such as VAT, GST/HST), and other regional requirements. The robust API allows for centralized flexibility to adapt to specific regional needs."
   },
   {
     "title": "Global Presence",
-    "content": "Retail Pro has a global presence, serving customers in <span style=\"color:#FC5185 ;\"><strong>130+</strong></span> countries, with over <span style=\"color:#FC5185 ;\"><strong>9,000</strong></span> customers and <span style=\"color:#FC5185 ;\"><strong>54,000</strong></span> stores relying on its software. The platform supports <span style=\"color:#FC5185 ;\"><strong>159,000</strong></span> points of sale worldwide."
+    "content": "Retail Pro has a global presence, serving customers in <span style=\"color:#f95738 ;\"><strong>130+</strong></span> countries, with over <span style=\"color:#f95738 ;\"><strong>9,000</strong></span> customers and <span style=\"color:#f95738 ;\"><strong>54,000</strong></span> stores relying on its software. The platform supports <span style=\"color:#f95738 ;\"><strong>159,000</strong></span> points of sale worldwide."
   },
   {
     "title": "Certified Business Partners",
     "content": "Retail Pro encourages potential users to engage with certified Retail Pro Business Partners for consultations. This ensures that the Retail Pro POS system is a good fit for the specific retail business, highlighting a commitment to personalized service."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

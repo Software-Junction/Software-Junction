@@ -28,7 +28,7 @@ const uspData = [
     "content": "All-Powerful NetXMS Enterprise Edition\nLonger support cycles\nReliable new feature releases\nIncreased confidence with the Enterprise edition service package"
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

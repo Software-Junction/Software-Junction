@@ -13,7 +13,7 @@ const uspData = [
   },
   {
     "title": "Global Trust and Presence",
-    "content": "With over a million users across <span style=\"color:#FC5185 ;\"><strong>40+ countries</strong></span> and endorsements from reputable companies like Meghna Bank Ltd, LOLC Holdings PLC, and Zaluvida Corporate SDN BHD, PeoplesHR is a trusted HR partner on a global scale."
+    "content": "With over a million users across <span style=\"color:#f95738 ;\"><strong>40+ countries</strong></span> and endorsements from reputable companies like Meghna Bank Ltd, LOLC Holdings PLC, and Zaluvida Corporate SDN BHD, PeoplesHR is a trusted HR partner on a global scale."
   },
   {
     "title": "Client Testimonials and Long-Term Relationships",
@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "Mobile Accessibility",
-    "content": "PeoplesHR offers the convenience of an HR mobile app, allowing users to experience the benefits of HCM on the go. The app is available in over <span style=\"color:#FC5185 ;\"><strong>15 languages,</strong></span> enhancing accessibility for a diverse user base."
+    "content": "PeoplesHR offers the convenience of an HR mobile app, allowing users to experience the benefits of HCM on the go. The app is available in over <span style=\"color:#f95738 ;\"><strong>15 languages,</strong></span> enhancing accessibility for a diverse user base."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

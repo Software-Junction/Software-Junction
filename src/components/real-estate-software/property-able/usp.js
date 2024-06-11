@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "ISO 27001 Certified and Verisign Secured",
     content:
-      "The software platform is presented as secure and trustworthy, with <span style=\"color:#FC5185 ;\"><strong>ISO 27001</strong></span> certification and Verisign security, ensuring the confidentiality of customer information.",
+      "The software platform is presented as secure and trustworthy, with <span style=\"color:#f95738 ;\"><strong>ISO 27001</strong></span> certification and Verisign security, ensuring the confidentiality of customer information.",
   },
   {
     title: "Global Presence",
@@ -25,7 +25,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

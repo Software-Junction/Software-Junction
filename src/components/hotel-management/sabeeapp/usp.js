@@ -9,11 +9,11 @@ const uspData = [
   },
   {
     "title": "Commission-Free Direct Bookings",
-    "content": "The Booking Engine enables hotels to turn their websites into successful sales channels, boosting direct, commission-free reservations by <span style=\"color:#FC5185 ;\"><strong>20%.</strong></span>"
+    "content": "The Booking Engine enables hotels to turn their websites into successful sales channels, boosting direct, commission-free reservations by <span style=\"color:#f95738 ;\"><strong>20%.</strong></span>"
   },
   {
     "title": "Global Provider",
-    "content": "SabeeApp is positioned as a global provider, supporting hoteliers in <span style=\"color:#FC5185 ;\"><strong>70+</strong></span> countries. It has earned the trust of major players in the travel industry, as indicated by partnerships with brands like Agoda, Booking.com, Airbnb, and Expedia."
+    "content": "SabeeApp is positioned as a global provider, supporting hoteliers in <span style=\"color:#f95738 ;\"><strong>70+</strong></span> countries. It has earned the trust of major players in the travel industry, as indicated by partnerships with brands like Agoda, Booking.com, Airbnb, and Expedia."
   },
   {
     "title": "Personalized Onboarding and Multilingual Support",
@@ -32,7 +32,7 @@ const uspData = [
     "content": "SabeeApp places importance on the guest journey, offering tools from online check-in to keyless door opening to create a personalized and memorable experience for guests."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

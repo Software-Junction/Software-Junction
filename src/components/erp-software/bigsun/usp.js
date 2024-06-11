@@ -16,7 +16,7 @@ const uspData = [
     "content": "Despite our extensive reach and reliability, we provide personalized support, ensuring that every client receives the attention and assistance they need for successful ERP implementation and usage."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

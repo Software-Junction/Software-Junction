@@ -13,7 +13,7 @@ const uspData = [
   },
   {
     "title": "Security 360",
-    "content": "DocEngage ensures the highest level of security with communication encryption through SSL and HTTPS, geographically dispersed data centers, and compliance with <span style=\"color:#FC5185 ;\"><strong>ISO 27001, ISO 27017, and ISO 27018</strong></span> standards."
+    "content": "DocEngage ensures the highest level of security with communication encryption through SSL and HTTPS, geographically dispersed data centers, and compliance with <span style=\"color:#f95738 ;\"><strong>ISO 27001, ISO 27017, and ISO 27018</strong></span> standards."
   },
   {
     "title": "HIPAA Compliance",
@@ -29,14 +29,14 @@ const uspData = [
   },
   {
     "title": "Positive Customer Testimonials",
-    "content": "The software has received positive feedback from various healthcare institutions, such as Apollo Homecare, Grand World Elder Care, Seva Bharati, Chandra Skin and Laser Centre, Pushpa Khanna Memorial Center, Smriti Nursing Home, <span style=\"color:#FC5185 ;\"><strong>AESTHETICA360,</strong></span> and Skin Hair and You."
+    "content": "The software has received positive feedback from various healthcare institutions, such as Apollo Homecare, Grand World Elder Care, Seva Bharati, Chandra Skin and Laser Centre, Pushpa Khanna Memorial Center, Smriti Nursing Home, <span style=\"color:#f95738 ;\"><strong>AESTHETICA360,</strong></span> and Skin Hair and You."
   },
   {
     "title": "Single Platform Solution",
     "content": "DocEngage packages Appointment, EHR, HCRM, HMS, and Telehealth into a single product, aiming to reduce costs, increase productivity, and leverage AI for predictability."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

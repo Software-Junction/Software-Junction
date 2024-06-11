@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "Enhanced Security Measures",
     content:
-      'The software ensures <span style="color:#FC5185 ;"><strong>2028</strong></span>-bit encrypted security, prioritizing the protection of sensitive data and transactions.',
+      'The software ensures <span style="color:#f95738 ;"><strong>2028</strong></span>-bit encrypted security, prioritizing the protection of sensitive data and transactions.',
   },
   {
     title: "Inventory and Order Management",
@@ -40,7 +40,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

@@ -36,7 +36,7 @@ const uspData = [
     "content": "Offers limited but essential integrations with platforms like PayPal and Etsy."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

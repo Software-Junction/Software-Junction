@@ -11,7 +11,7 @@ const uspData = [
   {
     title: "Trusted by Global Corporations",
     content:
-      'WorkflowGen has earned the trust of hundreds of corporations worldwide, including industry giants like <span style="color:#FC5185 ;"><strong>3M</strong></span>, ABB, Abbott, KPMG, OTIS,Safran, Sony, and Toshiba. This endorsement highlights its reliability and suitability for diverse business needs.',
+      'WorkflowGen has earned the trust of hundreds of corporations worldwide, including industry giants like <span style="color:#f95738 ;"><strong>3M</strong></span>, ABB, Abbott, KPMG, OTIS,Safran, Sony, and Toshiba. This endorsement highlights its reliability and suitability for diverse business needs.',
   },
   {
     title: "Highly Integrated Processes with Innovative Technologies",
@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Cloud-Optimized for Seamless Integration",
     content:
-      "WorkflowGen seamlessly connects processes to cloud-based ecosystems with optimized support for Microsoft Graph, Google APIs, and Azure. This ensures compatibility with <span style=\"color:#FC5185 ;\"><strong>Office 365</strong></span>, G Suite, and other collaboration tools, aligning with modern cloud-based workflows.",
+      "WorkflowGen seamlessly connects processes to cloud-based ecosystems with optimized support for Microsoft Graph, Google APIs, and Azure. This ensures compatibility with <span style=\"color:#f95738 ;\"><strong>Office 365</strong></span>, G Suite, and other collaboration tools, aligning with modern cloud-based workflows.",
   },
   {
     title: "Enhance Digital Business with Battle-Tested Automation",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

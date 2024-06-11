@@ -5,11 +5,11 @@ import styles from "../officekit/kit.module.scss";
 const uspData = [
   {
     "title": "Passionate Transformation of Traditional HR",
-    "content": "Founded in <span style=\"color:#FC5185 ;\"><strong>2016</strong></span> by proactive and resilient entrepreneurs, OfficeKit HR is driven by a passion for transforming traditional HR practices through the adoption of technology.The focus is on addressing critical challenges faced by businesses, envisioning a collaborative approach that integrates talent, technology, and transformation."
+    "content": "Founded in <span style=\"color:#f95738 ;\"><strong>2016</strong></span> by proactive and resilient entrepreneurs, OfficeKit HR is driven by a passion for transforming traditional HR practices through the adoption of technology.The focus is on addressing critical challenges faced by businesses, envisioning a collaborative approach that integrates talent, technology, and transformation."
   },
   {
     "title": "Global Presence and Reach",
-    "content": "With a presence in more than<span style=\"color:#FC5185 ;\"><strong> 25 countries,</strong></span> OfficeKit HR demonstrates a global footprint, making it a recognized and trusted solution on an international scale.This global presence indicates adaptability to diverse regulatory environments and an understanding of varied business cultures."
+    "content": "With a presence in more than<span style=\"color:#f95738 ;\"><strong> 25 countries,</strong></span> OfficeKit HR demonstrates a global footprint, making it a recognized and trusted solution on an international scale.This global presence indicates adaptability to diverse regulatory environments and an understanding of varied business cultures."
   },
   {
     "title": "Security and Reliability",
@@ -32,7 +32,7 @@ const uspData = [
     "content": "OfficeKit HR positions itself as a versatile solution suitable for businesses of all sizes, from small enterprises to large-scale corporations.This inclusivity ensures that the software can meet the HR management needs of a wide range of organizations, making it adaptable and scalable."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

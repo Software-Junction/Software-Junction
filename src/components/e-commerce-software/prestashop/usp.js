@@ -11,7 +11,7 @@ const uspData = [
   {
     title: "Open Source Community Support",
     content:
-      'Boasting a community of over <span style="color:#FC5185 ;"><strong>1 million</strong></span> members, including experts and partners, PrestaShop offers a collaborative environment where users can find solutions, share insights, and accelerate the growth of their ecommerce ventures.',
+      'Boasting a community of over <span style="color:#f95738 ;"><strong>1 million</strong></span> members, including experts and partners, PrestaShop offers a collaborative environment where users can find solutions, share insights, and accelerate the growth of their ecommerce ventures.',
   },
   {
     title: "Dedicated Support and Resources",
@@ -21,11 +21,11 @@ const uspData = [
   {
     title: "Global Network of Experts",
     content:
-      'With over <span style="color:#FC5185 ;"><strong>250</strong></span> experts and <span style="color:#FC5185 ;"><strong>150</strong></span> partners, PrestaShop connects businesses with a global network of professionals who can provide additional assistance and expertise, ensuring the success of ecommerce endeavors.',
+      'With over <span style="color:#f95738 ;"><strong>250</strong></span> experts and <span style="color:#f95738 ;"><strong>150</strong></span> partners, PrestaShop connects businesses with a global network of professionals who can provide additional assistance and expertise, ensuring the success of ecommerce endeavors.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

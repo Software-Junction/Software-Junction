@@ -21,14 +21,14 @@ const uspData = [
   },
   {
     "title": "Cost Savings and Increased Sales",
-    "content": "Proven testimonials showcase a <span style=\"color:#FC5185 ;\"><strong>25%</strong></span> reduction in operational costs and a remarkable <span style=\"color:#FC5185 ;\"><strong>20x</strong></span> increase in sales."
+    "content": "Proven testimonials showcase a <span style=\"color:#f95738 ;\"><strong>25%</strong></span> reduction in operational costs and a remarkable <span style=\"color:#f95738 ;\"><strong>20x</strong></span> increase in sales."
   },
   {
     "title": "Customized Solutions for Industries and Regions",
     "content": "Stingo caters to various industries and regions, providing tailored solutions for real estate, manufacturing, and support ticket management."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

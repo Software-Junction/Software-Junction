@@ -11,12 +11,12 @@ const uspData = [
   {
     title: "Easy Implementation",
     content:
-      "Download and start billing within minutes, with<span style=\"color:#FC5185 ;\"><strong>  800+</strong></span> local centers and<span style=\"color:#FC5185 ;\"><strong> 250+</strong></span> customer care executives for support.",
+      "Download and start billing within minutes, with<span style=\"color:#f95738 ;\"><strong>  800+</strong></span> local centers and<span style=\"color:#f95738 ;\"><strong> 250+</strong></span> customer care executives for support.",
   },
   {
     title: "Customizable",
     content:
-      "Tailor Marg ERP to your unique business needs with<span style=\"color:#FC5185 ;\"><strong> 2500+</strong></span> software configurations.",
+      "Tailor Marg ERP to your unique business needs with<span style=\"color:#f95738 ;\"><strong> 2500+</strong></span> software configurations.",
   },
   {
     title: "Free E-Invoicing",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

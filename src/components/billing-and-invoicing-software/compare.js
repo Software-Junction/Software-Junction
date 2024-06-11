@@ -30,7 +30,7 @@ const Compare = ({ styles }) => {
                           <div className="me-3">
                             <p
                               className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{backgroundColor: '#FC5185 '}}
+                              style={{backgroundColor: '#f95738 '}}
                             >
                               4.4 <FaStar />
                             </p>
@@ -50,7 +50,7 @@ const Compare = ({ styles }) => {
                           <div className="me-3">
                             <p
                               className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{backgroundColor: '#FC5185 '}}
+                              style={{backgroundColor: '#f95738 '}}
                             >
                               4.4 <FaStar />
                             </p>
@@ -71,7 +71,7 @@ const Compare = ({ styles }) => {
                           <div className="me-3">
                             <p
                               className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{backgroundColor: '#FC5185 '}}
+                              style={{backgroundColor: '#f95738 '}}
                             >
                               4.4 <FaStar />
                             </p>
@@ -92,7 +92,7 @@ const Compare = ({ styles }) => {
                           <div className="me-3">
                             <p
                               className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{backgroundColor: '#FC5185 '}}
+                              style={{backgroundColor: '#f95738 '}}
                             >
                               4.4 <FaStar />
                             </p>
@@ -113,7 +113,7 @@ const Compare = ({ styles }) => {
                           <div className="me-3">
                             <p
                               className={`${styles["p-style1"]} border text-light pe-1 ps-2 pt-1 rounded-3 `}
-                              style={{backgroundColor: '#FC5185 '}}
+                              style={{backgroundColor: '#f95738 '}}
                             >
                               4.4 <FaStar />
                             </p>

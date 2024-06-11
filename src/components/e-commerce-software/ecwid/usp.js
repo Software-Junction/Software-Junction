@@ -16,16 +16,16 @@ const uspData = [
   {
     title: "Trusted by 1.6 Million Small Businesses",
     content:
-      'The platform boasts a substantial user base, with <span style="color:#FC5185 ;"><strong>1.6 million</strong></span> small businesses trusting Ecwid for their e-commerce needs. This not only reflects its reliability but also suggests a thriving community of users.',
+      'The platform boasts a substantial user base, with <span style="color:#f95738 ;"><strong>1.6 million</strong></span> small businesses trusting Ecwid for their e-commerce needs. This not only reflects its reliability but also suggests a thriving community of users.',
   },
   {
     title: "Fast Implementation",
     content:
-      'Ranked as the №1 fastest implementation e-commerce platform in <span style="color:#FC5185 ;"><strong>2023</strong></span>, Ecwid emphasizes efficiency. Businesses can swiftly set up their online store and start selling without unnecessary delays, providing a quick and hassle-free experience.',
+      'Ranked as the №1 fastest implementation e-commerce platform in <span style="color:#f95738 ;"><strong>2023</strong></span>, Ecwid emphasizes efficiency. Businesses can swiftly set up their online store and start selling without unnecessary delays, providing a quick and hassle-free experience.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

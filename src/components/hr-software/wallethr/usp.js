@@ -13,7 +13,7 @@ const uspData = [
   },
   {
     "title": "Proven Cost Savings",
-    "content": "Testimonials from Auto Ancillary Manufacturing highlight that WalletHR contributes to significant cost savings, specifically mentioning a <span style=\"color:#FC5185 ;\"><strong>7% reduction</strong></span> in turnover year on year. This emphasizes the tangible financial benefits that businesses can derive from implementing WalletHR."
+    "content": "Testimonials from Auto Ancillary Manufacturing highlight that WalletHR contributes to significant cost savings, specifically mentioning a <span style=\"color:#f95738 ;\"><strong>7% reduction</strong></span> in turnover year on year. This emphasizes the tangible financial benefits that businesses can derive from implementing WalletHR."
   },
   {
     "title": "Compliance-Focused Solutions",
@@ -32,7 +32,7 @@ const uspData = [
     "content": "WalletHR's presence in multiple cities globally, including Chennai, Bengaluru, Coimbatore, Hyderabad, Mumbai, NCR, Kenya, Ghana, UAE, and Tanzania, highlights its ability to cater to businesses on a global scale. This global footprint enhances its appeal to multinational companies."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

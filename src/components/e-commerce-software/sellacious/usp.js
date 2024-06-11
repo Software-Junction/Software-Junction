@@ -6,12 +6,12 @@ const uspData = [
   {
     title: "Rapid Store Creation",
     content:
-      'Sellacious boasts the ability to create a fully functional online store or Joomla Marketplace in under <span style="color:#FC5185 ;"><strong>2 minutes</strong></span>. This quick setup ensures that users can kickstart their eCommerce journey swiftly and efficiently.',
+      'Sellacious boasts the ability to create a fully functional online store or Joomla Marketplace in under <span style="color:#f95738 ;"><strong>2 minutes</strong></span>. This quick setup ensures that users can kickstart their eCommerce journey swiftly and efficiently.',
   },
   {
     title: "Rule Filtering",
     content:
-      'With more than <span style="color:#FC5185 ;"><strong>500</strong></span> combinations available, Sellacious provides detailed rule filters for aspects such as tax, discount, and shipping. This level of customization ensures that businesses can adapt their rules based on geographic location, date, quantity, size, and more.',
+      'With more than <span style="color:#f95738 ;"><strong>500</strong></span> combinations available, Sellacious provides detailed rule filters for aspects such as tax, discount, and shipping. This level of customization ensures that businesses can adapt their rules based on geographic location, date, quantity, size, and more.',
   },
   {
     title: "Multiple Variants Support",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

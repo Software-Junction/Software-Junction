@@ -28,7 +28,7 @@ const uspData = [
     "content": "HRMThread's availability in major cities across India, including Mumbai, Delhi & NCR, Bangalore, Hyderabad, Kolkata, Indore, Coimbatore, Vijaywada, Chennai, and Ahmedabad, makes it a practical choice for businesses with multiple branches or operations in different geographic locations. This ensures that the software is tailored to the needs of a diverse and widespread clientele."
   } 
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

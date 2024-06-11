@@ -26,11 +26,11 @@ const uspData = [
   {
     title: "Industry Recognition",
     content:
-      "Ameyo has received several awards and recognitions, including mentions in Gartner Magic Quadrant, Frost & Sullivan Asia Pacific CCI Leadership Award, and Deloitte Technology Fast<span style=\"color:#FC5185 ;\"><strong> 500</strong></span> Asia Pacific.",
+      "Ameyo has received several awards and recognitions, including mentions in Gartner Magic Quadrant, Frost & Sullivan Asia Pacific CCI Leadership Award, and Deloitte Technology Fast<span style=\"color:#f95738 ;\"><strong> 500</strong></span> Asia Pacific.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

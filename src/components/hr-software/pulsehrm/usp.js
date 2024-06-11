@@ -5,7 +5,7 @@ import styles from "../pulsehrm/pul.module.scss";
 const uspData = [
   {
     "title": "Paperless Onboarding and Offboarding",
-    "content": "PulseHRM emphasizes a <span style=\"color:#FC5185 ;\"><strong>100% paperless</strong></span> onboarding and offboarding process, streamlining employee document management and manual processes."
+    "content": "PulseHRM emphasizes a <span style=\"color:#f95738 ;\"><strong>100% paperless</strong></span> onboarding and offboarding process, streamlining employee document management and manual processes."
   },
   {
     "title": "Biometric Integration and Workforce Management",
@@ -24,7 +24,7 @@ const uspData = [
     "content": "PulseHRM not only offers a software solution but also provides consulting services such as Apex development, application maintenance, performance tuning, integration, interoperability, migration services, and customized solutions."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -33,11 +33,11 @@ const uspData = [
   },
   {
     "title":"Industry Recognition",
-    "content":"Award-winning software recognized as \"Top Pharmaceutical Industry Software.\" <span style=\"color:#FC5185 ;\"><strong>Trusted by 5000+</strong></span> pharmacies and chemists globally, with success stories from satisfied users."
+    "content":"Award-winning software recognized as \"Top Pharmaceutical Industry Software.\" <span style=\"color:#f95738 ;\"><strong>Trusted by 5000+</strong></span> pharmacies and chemists globally, with success stories from satisfied users."
   },
   {
     "title": "Free Trial and Easy Implementation",
-    "content": "Free trial option to experience the software's benefits. Quick implementation with the ability to open an online pharmacy store  <span style=\"color:#FC5185 ;\"><strong>in just 5 days</strong></span>."
+    "content": "Free trial option to experience the software's benefits. Quick implementation with the ability to open an online pharmacy store  <span style=\"color:#f95738 ;\"><strong>in just 5 days</strong></span>."
   },
   {
     "title": "ERP Flexibility",
@@ -48,7 +48,7 @@ const uspData = [
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

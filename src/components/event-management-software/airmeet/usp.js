@@ -17,14 +17,14 @@ const uspData = [
   },
   {
     "title": "Trusted by Organizations",
-    "content": "The platform boasts being trusted by over <span style=\"color:#FC5185 ;\"><strong>4000</strong></span> organizations, including well-known names like Capgemini and Kaiser Permanente."
+    "content": "The platform boasts being trusted by over <span style=\"color:#f95738 ;\"><strong>4000</strong></span> organizations, including well-known names like Capgemini and Kaiser Permanente."
   },
   {
     "title": "Success in Different Industries",
     "content": "The platform's success is highlighted across various industries, including IT & SaaS, education, VCs & accelerators, and communities."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

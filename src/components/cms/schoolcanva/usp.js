@@ -16,7 +16,7 @@ const Usp = ({styles}) => {
               <h5>Comprehensive Automation</h5>
               <p>
                 <strong>USP : </strong>School Canvas provides an all-in-one,
-                <span style={{color:'#FC5185 '}}><strong>360-degree</strong></span> solution to automate every aspect of school
+                <span style={{color:'#f95738 '}}><strong>360-degree</strong></span> solution to automate every aspect of school
                 management, from admission to certificate generation, fee
                 collection, and academic analysis.
               </p>
@@ -135,7 +135,7 @@ const Usp = ({styles}) => {
             >
               <h5>Proven Track Record</h5>
               <p>
-                <strong>USP : </strong>School Canvas boasts over <span style={{color:'#FC5185 '}}><strong>550</strong></span> reputed
+                <strong>USP : </strong>School Canvas boasts over <span style={{color:'#f95738 '}}><strong>550</strong></span> reputed
                 schools as customers and more than 13 years of experience in
                 school ERP.
               </p>

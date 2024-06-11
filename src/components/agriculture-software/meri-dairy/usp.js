@@ -26,11 +26,11 @@ const uspData = [
   {
     title: "Payment Register",
     content:
-      "Easy-to-use payment register for dairy software. Customizable for <span style=\"color:#FC5185 ;\"><strong>10 days</strong></span> or <span style=\"color:#FC5185 ;\"><strong>30 days</strong></span> based on user requirements.",
+      "Easy-to-use payment register for dairy software. Customizable for <span style=\"color:#f95738 ;\"><strong>10 days</strong></span> or <span style=\"color:#f95738 ;\"><strong>30 days</strong></span> based on user requirements.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

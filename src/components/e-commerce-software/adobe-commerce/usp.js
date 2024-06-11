@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Personalized Experiences",
     content:
-      'Adobe Commerce emphasizes the creation of uniquely personalized <span style="color:#FC5185 ;"><strong>B2B</strong></span> and <span style="color:#FC5185 ;"><strong>B2C</strong></span> experiences. Utilizes Native AI to drive personalized content, promotions, recommendations, and site searches in real-time. AI-driven tools enhance customer interactions and boost conversions.',
+      'Adobe Commerce emphasizes the creation of uniquely personalized <span style="color:#f95738 ;"><strong>B2B</strong></span> and <span style="color:#f95738 ;"><strong>B2C</strong></span> experiences. Utilizes Native AI to drive personalized content, promotions, recommendations, and site searches in real-time. AI-driven tools enhance customer interactions and boost conversions.',
   },
   {
     title: "Scalable and Composable Commerce",
@@ -31,7 +31,7 @@ const uspData = [
   {
     title: "Leader in Digital Commerce",
     content:
-    "Recognized as a Leader in the<span style=\"color:#FC5185 ;\"><strong> 2023</strong></span> Gartner® Magic Quadrant™ for Digital Commerce, reinforcing Adobe's industry leadership.Highlights the platform's strength, vision, and ability to execute in the digital commerce space."
+    "Recognized as a Leader in the<span style=\"color:#f95738 ;\"><strong> 2023</strong></span> Gartner® Magic Quadrant™ for Digital Commerce, reinforcing Adobe's industry leadership.Highlights the platform's strength, vision, and ability to execute in the digital commerce space."
       },
   {
     title: "Comprehensive Holiday Shopping Trends Analysis",
@@ -40,7 +40,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

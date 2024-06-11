@@ -20,7 +20,7 @@ const uspData = [
     "content": "Quirkos offers discounts for students, academics, non-profit organizations, and the public sector, as well as special pricing for users in the global majority world, making qualitative analysis software accessible to everyone."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

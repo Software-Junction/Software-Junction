@@ -16,21 +16,21 @@ const uspData = [
   {
     title: 'Certification as "CREDAI Preferred ERP Partner"',
     content:
-      'Farvision ERP has been certified as the "CREDAI Preferred ERP Partner" for the years <span style="color:#FC5185 ;"><strong>2014-15</strong></span> and <span style="color:#FC5185 ;"><strong>2015-16</strong></span>. This certification highlights the trust and preference it has gained within the real estate industry.',
+      'Farvision ERP has been certified as the "CREDAI Preferred ERP Partner" for the years <span style="color:#f95738 ;"><strong>2014-15</strong></span> and <span style="color:#f95738 ;"><strong>2015-16</strong></span>. This certification highlights the trust and preference it has gained within the real estate industry.',
   },
   {
     title: "Long-standing Experience",
     content:
-      'Gamut Infosystems Ltd. has over <span style="color:#FC5185 ;"><strong>30 years</strong></span> of experience, establishing them as a trusted ERP provider in India. The company\'s expertise contributes to the reliability of Farvision ERP.',
+      'Gamut Infosystems Ltd. has over <span style="color:#f95738 ;"><strong>30 years</strong></span> of experience, establishing them as a trusted ERP provider in India. The company\'s expertise contributes to the reliability of Farvision ERP.',
   },
   {
     title: "Global Presence",
     content:
-      'Farvision ERP is used in over <span style="color:#FC5185 ;"><strong>7 countries</strong></span>, emphasizing its adaptability to diverse business environments and its acceptance on a global scale.',
+      'Farvision ERP is used in over <span style="color:#f95738 ;"><strong>7 countries</strong></span>, emphasizing its adaptability to diverse business environments and its acceptance on a global scale.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

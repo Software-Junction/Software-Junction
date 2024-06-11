@@ -17,14 +17,14 @@ const uspData = [
   },
   {
     "title": "Recognition and Awards",
-    "content": "Trusted by industry experts, Uprow POS has been recognized with prestigious awards, including the Emerging Product of the Year <span style=\"color:#FC5185 ;\"><strong>2020</strong></span> by Tiecon Chandigarh, and acknowledgment from Startup Punjab, Govt of Punjab, as an innovative startup idea of the year."
+    "content": "Trusted by industry experts, Uprow POS has been recognized with prestigious awards, including the Emerging Product of the Year <span style=\"color:#f95738 ;\"><strong>2020</strong></span> by Tiecon Chandigarh, and acknowledgment from Startup Punjab, Govt of Punjab, as an innovative startup idea of the year."
   },
   {
     "title": "Analytics and Reporting",
     "content": "Gain valuable insights into your business performance with real-time analytics. Track overdue invoices, cash flows, P&L, balance sheets, and more, empowering you to make data-driven decisions."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

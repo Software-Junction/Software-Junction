@@ -9,14 +9,14 @@ const uspData = [
   },
   {
     "title": "Awards and Recognition",
-    "content": "The software has received accolades, including the  <span style=\"color:#FC5185 ;\"><strong> 'Best Support 2023' </strong></span> and recognition as the 'Most Popular Software  <span style=\"color:#FC5185 ;\"><strong>2022</strong></span>.' Additionally, it is acknowledged for being recommended by users and offering the best value in fall  <span style=\"color:#FC5185 ;\"><strong>2020 </strong></span>."
+    "content": "The software has received accolades, including the  <span style=\"color:#f95738 ;\"><strong> 'Best Support 2023' </strong></span> and recognition as the 'Most Popular Software  <span style=\"color:#f95738 ;\"><strong>2022</strong></span>.' Additionally, it is acknowledged for being recommended by users and offering the best value in fall  <span style=\"color:#f95738 ;\"><strong>2020 </strong></span>."
   },
   {
     "title": "Advanced Web-Based Automation",
     "content": "Buildesk facilitates business process automation through its advanced web-based software solution. The solution integrates operations, finance, and inventory management, solving challenges related to departmental coordination."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

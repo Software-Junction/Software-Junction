@@ -5,7 +5,7 @@ import styles from "../tigerlrm/tiger.module.scss";
 const uspData = [
   {
     "title": "AI-Powered Sales Enablement",
-    "content": "TigerLRM integrates AI to boost conversion rates by <span style=\"color:#FC5185 ;\"><strong>300%,</strong></span> providing advanced lead scoring and built-in sales enablement tools."
+    "content": "TigerLRM integrates AI to boost conversion rates by <span style=\"color:#f95738 ;\"><strong>300%,</strong></span> providing advanced lead scoring and built-in sales enablement tools."
   },
   {
     "title": "Sales Management Augmentation",
@@ -20,7 +20,7 @@ const uspData = [
     "content": "Globee Awards Gold recipient, showcasing TigerLRM's industry recognition and excellence."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -21,7 +21,7 @@ const uspData = [
   },
   {
     "title": "Impressive Track Record",
-    "content": "<span style=\"color:#FC5185 ;\"><strong> With 18,000 </strong></span> leads handled per day, <span style=\"color:#FC5185 ;\"><strong> 800 projects </strong></span> managed till date, <span style=\"color:#FC5185 ;\"><strong>  2,500 users </strong></span> on the BMS, and <span style=\"color:#FC5185 ;\"><strong> 30,000 units </strong></span> sold till date, the BMS has a proven track record of success in the real estate industry."
+    "content": "<span style=\"color:#f95738 ;\"><strong> With 18,000 </strong></span> leads handled per day, <span style=\"color:#f95738 ;\"><strong> 800 projects </strong></span> managed till date, <span style=\"color:#f95738 ;\"><strong>  2,500 users </strong></span> on the BMS, and <span style=\"color:#f95738 ;\"><strong> 30,000 units </strong></span> sold till date, the BMS has a proven track record of success in the real estate industry."
   },
   {
     "title": "Startup India Recognized",
@@ -32,7 +32,7 @@ const uspData = [
     "content": "Acknowledged by Software Suggest and boasting positive user ratings, the BMS stands out as a reliable and well-regarded solution within the real estate software landscape."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

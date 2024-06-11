@@ -48,7 +48,7 @@ const uspData = [
     "content": "Capability to handle billing for different departments within the hospital. Segregation of billing by departments such as radiology, pathology, and pharmacy."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -13,10 +13,10 @@ const uspData = [
   },
   {
     "title": "Large User Base",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong>10,000</strong></span> companies worldwide using ERPNext, it establishes credibility and reliability as a trusted ERP solution."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong>10,000</strong></span> companies worldwide using ERPNext, it establishes credibility and reliability as a trusted ERP solution."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

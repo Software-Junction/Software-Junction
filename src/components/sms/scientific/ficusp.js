@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const uspData = [
   {
     "title": "Financial Management",
-    "content": "Efficiently manage fees, admissions, salary, and accounts in one integrated system.Set up fees structures, online payments, concessions, and easily collect fees with minimal effort.Analyze fees collection with over <span style=\"color:#FC5185 ;\"><strong>50 detailed</strong></span> reports for transparent financial tracking."
+    "content": "Efficiently manage fees, admissions, salary, and accounts in one integrated system.Set up fees structures, online payments, concessions, and easily collect fees with minimal effort.Analyze fees collection with over <span style=\"color:#f95738 ;\"><strong>50 detailed</strong></span> reports for transparent financial tracking."
   },
   {
     "title": "Communication Excellence",
@@ -40,7 +40,7 @@ const uspData = [
   },
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

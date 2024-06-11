@@ -29,7 +29,7 @@ const uspData = [
   },
   {
     "title": "Night Audit Software",
-    "content": "A <span style=\"color:#FC5185 ;\"><strong>360-degree</strong></span> view of every transaction, including night audit trails, enhances data security for hotel operations."
+    "content": "A <span style=\"color:#f95738 ;\"><strong>360-degree</strong></span> view of every transaction, including night audit trails, enhances data security for hotel operations."
   },
   {
     "title": "Procurement & Purchase Management",
@@ -44,7 +44,7 @@ const uspData = [
     "content": "A payroll module allows tracking and management of staff/employee time attendance, schedules, leaves, and other activities."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

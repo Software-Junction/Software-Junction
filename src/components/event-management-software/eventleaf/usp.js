@@ -25,10 +25,10 @@ const uspData = [
   },
   {
     "title": "No-Obligation Trial",
-    "content": "The platform offers a <span style=\"color:#FC5185 ;\"><strong>\"TRY FOR FREE\"</strong></span> option without requiring a credit card, allowing potential users to explore the features and benefits before committing."
+    "content": "The platform offers a <span style=\"color:#f95738 ;\"><strong>\"TRY FOR FREE\"</strong></span> option without requiring a credit card, allowing potential users to explore the features and benefits before committing."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

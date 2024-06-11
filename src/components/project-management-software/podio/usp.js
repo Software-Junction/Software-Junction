@@ -21,11 +21,11 @@ const uspData = [
   {
     title: "Secure & Reliable",
     content:
-      'Podio boasts a high level of dependability, with a <span style="color:#FC5185;"><strong>99.99%</strong></span> uptime in the last year. As part of Citrix, it adheres to rigorous security standards. Data is stored securely with Amazon Web Services, ensuring continuity for businesses. The platform also employs HTTPS-encryption, Advanced Encryption Standards, and compliance with privacy frameworks for enhanced security.',
+      'Podio boasts a high level of dependability, with a <span style="color:#f95738;"><strong>99.99%</strong></span> uptime in the last year. As part of Citrix, it adheres to rigorous security standards. Data is stored securely with Amazon Web Services, ensuring continuity for businesses. The platform also employs HTTPS-encryption, Advanced Encryption Standards, and compliance with privacy frameworks for enhanced security.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

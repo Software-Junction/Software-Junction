@@ -17,7 +17,7 @@ const uspData = [
   },
   {
     "title": "Extensive Interfaces",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong>175</strong></span> interfaces, mycloud can seamlessly connect with third-party hardware and software. This extensibility ensures that the software can integrate with a wide range of systems, providing flexibility and adaptability to the hotel's specific needs."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong>175</strong></span> interfaces, mycloud can seamlessly connect with third-party hardware and software. This extensibility ensures that the software can integrate with a wide range of systems, providing flexibility and adaptability to the hotel's specific needs."
   },
   {
     "title": "Security Measures",
@@ -25,14 +25,14 @@ const uspData = [
   },
   {
     "title": "Free Trial Offer",
-    "content": "Interested users are encouraged to take advantage of a <span style=\"color:#FC5185 ;\"><strong>30-day</strong></span> free trial. This allows potential customers to experience the software firsthand, explore its features, and evaluate its suitability for their specific hotel needs before making a commitment."
+    "content": "Interested users are encouraged to take advantage of a <span style=\"color:#f95738 ;\"><strong>30-day</strong></span> free trial. This allows potential customers to experience the software firsthand, explore its features, and evaluate its suitability for their specific hotel needs before making a commitment."
   },
   {
     "title": "Trusted and Loved",
-    "content": "The software has gained trust and popularity among a diverse range of hotels, from small <span style=\"color:#FC5185 ;\"><strong>2-room</strong></span> properties to large <span style=\"color:#FC5185 ;\"><strong>300-room</strong></span> city hotels. This indicates the software's adaptability and effectiveness in meeting the operational requirements of different types of hotel properties."
+    "content": "The software has gained trust and popularity among a diverse range of hotels, from small <span style=\"color:#f95738 ;\"><strong>2-room</strong></span> properties to large <span style=\"color:#f95738 ;\"><strong>300-room</strong></span> city hotels. This indicates the software's adaptability and effectiveness in meeting the operational requirements of different types of hotel properties."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

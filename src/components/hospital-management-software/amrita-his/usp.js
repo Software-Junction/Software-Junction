@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Certification and Regulatory Compliance",
-    "content": "AHIS has received certification from the Certification Commission for Health Information Technology (CCHIT®), complying with the <span style=\"color:#FC5185 ;\"><strong>2011/2012</strong></span> criteria. This certification attests to its adherence to the Stage <span style=\"color:#FC5185 ;\"><strong>1</strong></span> meaningful use measures required for funding under the American Recovery and Reinvestment Act (ARRA)."
+    "content": "AHIS has received certification from the Certification Commission for Health Information Technology (CCHIT®), complying with the <span style=\"color:#f95738 ;\"><strong>2011/2012</strong></span> criteria. This certification attests to its adherence to the Stage <span style=\"color:#f95738 ;\"><strong>1</strong></span> meaningful use measures required for funding under the American Recovery and Reinvestment Act (ARRA)."
   },
   {
     "title": "Development Methodology",
@@ -24,7 +24,7 @@ const uspData = [
     "content": "AHIS aligns seamlessly with Amrita Vishwa Vidyapeetham's vision of integrating science and spirituality. This unique approach sets it apart from conventional healthcare information systems, emphasizing a holistic perspective."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

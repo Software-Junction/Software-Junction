@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "30% MORE SALES AND REVENUE",
-    "content": "Unlock the secret to success with a <span style=\"color:#FC5185 ;\"><strong>30%</strong></span> increase in sales and revenue. Through an ever-evolving platform, enhanced user experiences, and groundbreaking marketing tools, your event becomes a sensation that captivates audiences and turns every occasion into a success story."
+    "content": "Unlock the secret to success with a <span style=\"color:#f95738 ;\"><strong>30%</strong></span> increase in sales and revenue. Through an ever-evolving platform, enhanced user experiences, and groundbreaking marketing tools, your event becomes a sensation that captivates audiences and turns every occasion into a success story."
   },
   {
     "title": "SEAMLESS ONLINE SELLING",
@@ -24,7 +24,7 @@ const uspData = [
     "content": "Already selling tickets online? Think of TicketsCandy as your dynamic sidekick. Integrate our platform alongside your existing solutions to diversify and amplify your reach, ensuring no ticket goes unsold and expanding your audience."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -16,12 +16,12 @@ const uspData = [
   {
     title: "Integrated Vector Database for AI",
     content:
-      "Oracle introduces an integrated vector database to augment generative AI and increase developer productivity. The AI vector similarity search in Oracle Database <span style=\"color:#FC5185 ;\"><strong>23c </strong></span> allows accurate and quick search in semantic and business data.",
+      "Oracle introduces an integrated vector database to augment generative AI and increase developer productivity. The AI vector similarity search in Oracle Database <span style=\"color:#f95738 ;\"><strong>23c </strong></span> allows accurate and quick search in semantic and business data.",
   },
   {
     title: "Low-Code Application Development",
     content:
-      "Oracle APEX (Application Express) <span style=\"color:#FC5185 ;\"><strong> 23.2 </strong></span>enables faster and more efficient development of enterprise-level low-code applications that can be deployed across all platforms.",
+      "Oracle APEX (Application Express) <span style=\"color:#f95738 ;\"><strong> 23.2 </strong></span>enables faster and more efficient development of enterprise-level low-code applications that can be deployed across all platforms.",
   },
   {
     title: "Leadership in Industry Analyst Reports",
@@ -31,7 +31,7 @@ const uspData = [
   {
     title: "Cost Optimization and High Performance",
     content:
-      "Oracle's database services offer cost-optimized and high-performance versions, meeting the diverse needs of customers. The IDC study indicates that Oracle Autonomous Database provides significant savings with a <span style=\"color:#FC5185 ;\"><strong> 417% ROI</strong></span> over five years.",
+      "Oracle's database services offer cost-optimized and high-performance versions, meeting the diverse needs of customers. The IDC study indicates that Oracle Autonomous Database provides significant savings with a <span style=\"color:#f95738 ;\"><strong> 417% ROI</strong></span> over five years.",
   },
   {
     title: "Security Solutions",
@@ -60,7 +60,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

@@ -20,7 +20,7 @@ const uspData = [
     "content": "Automation features, such as Probation Policy Automation, Employee Confirmation Workflows, and Attendance Regularisations, contribute to increased operational efficiency and reduced manual workload."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -5,7 +5,7 @@ const uspData = [
   {
     title: "Multilingual Support",
     content:
-    "SchoolMate offers its services in <span style=\"color:#FC5185 ;\"><strong>17 European languages</strong></span>, ensuring that users can interact with the platform in their preferred language.This multilingual support is crucial for international and diverse language schools, creating a more inclusive and user-friendly experience."
+    "SchoolMate offers its services in <span style=\"color:#f95738 ;\"><strong>17 European languages</strong></span>, ensuring that users can interact with the platform in their preferred language.This multilingual support is crucial for international and diverse language schools, creating a more inclusive and user-friendly experience."
     },
   {
     title: " Modular System",

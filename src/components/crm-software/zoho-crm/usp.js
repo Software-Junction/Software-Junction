@@ -5,11 +5,11 @@ import styles from "../zoho-crm/zoho.module.scss";
 const uspData = [
   {
     "title": "Visionary Recognition",
-    "content": "Zoho CRM is acknowledged as a Visionary in the <span style=\"color:#FC5185 ;\"><strong>2023</strong></span> Gartner Magic Quadrant for Sales Force Automation Platforms, showcasing innovation and industry leadership."
+    "content": "Zoho CRM is acknowledged as a Visionary in the <span style=\"color:#f95738 ;\"><strong>2023</strong></span> Gartner Magic Quadrant for Sales Force Automation Platforms, showcasing innovation and industry leadership."
   },
   {
     "title": "Global Empowerment",
-    "content": "Trusted by <span style=\"color:#FC5185 ;\"><strong>250,000+</strong></span> businesses worldwide, Zoho CRM demonstrates its effectiveness across diverse industries and sizes."
+    "content": "Trusted by <span style=\"color:#f95738 ;\"><strong>250,000+</strong></span> businesses worldwide, Zoho CRM demonstrates its effectiveness across diverse industries and sizes."
   },
   {
     "title": "Made in India",
@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "Extensive Integration Capabilities",
-    "content": "Seamlessly integrating with <span style=\"color:#FC5185 ;\"><strong>800+</strong></span> apps, Zoho CRM ensures compatibility with various third-party tools, enhancing workflow efficiency."
+    "content": "Seamlessly integrating with <span style=\"color:#f95738 ;\"><strong>800+</strong></span> apps, Zoho CRM ensures compatibility with various third-party tools, enhancing workflow efficiency."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

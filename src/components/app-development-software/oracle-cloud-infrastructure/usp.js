@@ -21,22 +21,22 @@ const uspData = [
   {
     title: "Distributed Cloud Options",
     content:
-      "OCI provides solutions for hybrid cloud deployments, with trusted cloud solutions for various locations, including Oracle Exadata Cloud@Customer deployed in over<span style=\"color:#FC5185 ;\"><strong> 60 countries</strong></span>.",
+      "OCI provides solutions for hybrid cloud deployments, with trusted cloud solutions for various locations, including Oracle Exadata Cloud@Customer deployed in over<span style=\"color:#f95738 ;\"><strong> 60 countries</strong></span>.",
   },
   {
     title: "Dedicated Cloud Offerings",
     content:
-      "OCI Dedicated Region and Oracle Alloy are highlighted as unique products providing over<span style=\"color:#FC5185 ;\"><strong> 100 cloud services</strong></span> at public cloud pricing, entirely within the customer's data centers.",
+      "OCI Dedicated Region and Oracle Alloy are highlighted as unique products providing over<span style=\"color:#f95738 ;\"><strong> 100 cloud services</strong></span> at public cloud pricing, entirely within the customer's data centers.",
   },
   {
     title: "Comprehensive Cloud Services",
     content:
-      "OCI offers a common set of<span style=\"color:#FC5185 ;\"><strong> 100+ services</strong></span> in each cloud region, covering a wide range of categories such as compute, storage, databases, machine learning, AI, analytics, and more.",
+      "OCI offers a common set of<span style=\"color:#f95738 ;\"><strong> 100+ services</strong></span> in each cloud region, covering a wide range of categories such as compute, storage, databases, machine learning, AI, analytics, and more.",
   },
   {
     title: "Global Cloud Data Center Coverage",
     content:
-      "OCI spans <span style=\"color:#FC5185 ;\"><strong>48 </strong></span>interconnected geographic commercial and government cloud regions, providing consistent services and pricing worldwide.",
+      "OCI spans <span style=\"color:#f95738 ;\"><strong>48 </strong></span>interconnected geographic commercial and government cloud regions, providing consistent services and pricing worldwide.",
   },
   {
     title: "Cost-Effective Pricing",
@@ -50,7 +50,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

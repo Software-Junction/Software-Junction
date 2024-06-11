@@ -13,14 +13,14 @@ const uspData = [
   },
   {
     "title": "Proven Track Record",
-    "content": "Trusted by over <span style=\"color:#FC5185 ;\"><strong>1,000</strong></span> businesses, indicating credibility and reliability in the market."
+    "content": "Trusted by over <span style=\"color:#f95738 ;\"><strong>1,000</strong></span> businesses, indicating credibility and reliability in the market."
   },
   {
     "title": "Free Trial Offer",
     "content": "Businesses can experience the benefits of SoulCRM with a free trial, allowing them to set up their teams for success before committing."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

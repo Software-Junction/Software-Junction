@@ -17,10 +17,10 @@ const uspData = [
   },
   {
     "title": "ISO Certified",
-    "content": "PeopleWorks holds <span style=\"color:#FC5185 ;\"><strong>ISO 9001:2015 & ISO 27001:2013 certifications,</strong></span> indicating its commitment to maintaining high standards in quality management and information security. These certifications provide assurance to clients regarding the reliability and security of the HRMS software."
+    "content": "PeopleWorks holds <span style=\"color:#f95738 ;\"><strong>ISO 9001:2015 & ISO 27001:2013 certifications,</strong></span> indicating its commitment to maintaining high standards in quality management and information security. These certifications provide assurance to clients regarding the reliability and security of the HRMS software."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "Extensive Integrations",
     content:
-      "With over <span style=\"color:#FC5185 ;\"><strong>200 integrations</strong></span> with popular third-party apps and<span style=\"color:#FC5185 ;\"><strong> 45 native apps</strong></span>, Zoho Desk seamlessly integrates with the tools businesses use daily, extending its capabilities and enhancing efficiency.",
+      "With over <span style=\"color:#f95738 ;\"><strong>200 integrations</strong></span> with popular third-party apps and<span style=\"color:#f95738 ;\"><strong> 45 native apps</strong></span>, Zoho Desk seamlessly integrates with the tools businesses use daily, extending its capabilities and enhancing efficiency.",
   },
   {
     title: "Mobile Accessibility",
@@ -31,11 +31,11 @@ const uspData = [
   {
     title: "Fast Implementation and Customization",
     content:
-      "Zoho Desk offers <span style=\"color:#FC5185 ;\"><strong>50% faster implementation</strong></span> compared to most customer service software, along with customizable workspaces tailored to fit any industry, brand, or department.",
+      "Zoho Desk offers <span style=\"color:#f95738 ;\"><strong>50% faster implementation</strong></span> compared to most customer service software, along with customizable workspaces tailored to fit any industry, brand, or department.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

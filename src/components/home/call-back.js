@@ -41,7 +41,7 @@ const Callback = ({ styles }) => {
             <Col lg={3}>
               <h5 className="text-light mb-5 fw-bold">
                 {" "}
-                <span className="pe-2" style={{ color: "#FC5185 " }}>
+                <span className="pe-2" style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 Get Expert Assistance
@@ -50,7 +50,7 @@ const Callback = ({ styles }) => {
             <Col lg={3}>
               <h5 className="text-light mb-5 fw-bold">
                 {" "}
-                <span className="pe-2" style={{ color: "#FC5185 " }}>
+                <span className="pe-2" style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 Save Time and Money
@@ -59,7 +59,7 @@ const Callback = ({ styles }) => {
             <Col lg={3}>
               <h5 className="text-light mb-5 fw-bold">
                 {" "}
-                <span className="pe-2" style={{ color: "#FC5185 " }}>
+                <span className="pe-2" style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 Avoid Software Headaches
@@ -68,7 +68,7 @@ const Callback = ({ styles }) => {
             <Col lg={3}>
               <h5 className="text-light mb-5 fw-bold">
                 {" "}
-                <span className="pe-2" style={{ color: "#FC5185 " }}>
+                <span className="pe-2" style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 Get Wide Options

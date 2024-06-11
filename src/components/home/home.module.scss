@@ -1,11 +1,11 @@
 .home-slidebanner {
   margin-top: 40px;
   .search-txt-clr {
-    color: #3f72af;
+    color: #335c67;
     cursor: pointer;
   }
   .search-txt-clr:hover {
-    color: #fc5185;
+    color: #f95738;
   }
 }
 .industry {
@@ -47,7 +47,7 @@
   }
 }
 .callback {
-  background-color: #3f72af;
+  background-color: #335c67;
 }
 .accounting-container {
   .col-mob {
@@ -59,7 +59,7 @@
         display: flex;
         justify-content: end;
         .badge-cont {
-          background-color: #fc5185;
+          background-color: #f95738;
           color: #fff;
         }
       }
@@ -85,7 +85,7 @@ display: flex;
         display: flex;
         justify-content: end;
         .badge-cont {
-          background-color: #fc5185;
+          background-color: #f95738;
           color: #fff;
         }
       }
@@ -111,7 +111,7 @@ display: flex;
         display: flex;
         justify-content: end;
         .badge-cont {
-          background-color: #fc5185;
+          background-color: #f95738;
           color: #fff;
         }
       }
@@ -131,7 +131,7 @@ display: flex;
         display: flex;
         justify-content: end;
         .badge-cont {
-          background-color: #fc5185;
+          background-color: #f95738;
           color: #fff;
         }
       }
@@ -151,7 +151,7 @@ display: flex;
         display: flex;
         justify-content: end;
         .badge-cont {
-          background-color: #fc5185;
+          background-color: #f95738;
           color: #fff;
         }
       }
@@ -169,28 +169,28 @@ display: flex;
       margin-bottom: 20px;
     }
     .activeCategory {
-      border: 1px solid #3f72af;
+      border: 1px solid #335c67;
       border-radius: 5px;
-      color: #3f72af;
+      color: #335c67;
       padding: 10px 0px;
       cursor: pointer;
     }
     .activeCategory:hover {
-      border: 1px solid #3f72af;
+      border: 1px solid #335c67;
       border-radius: 5px;
-      background-color: #3f72af;
+      background-color: #335c67;
       color: #fff;
     }
     .category {
       cursor: pointer;
-      color: #3f72af;
+      color: #335c67;
       padding: 10px 0px;
     }
 
     .category:hover {
-      border: 1px solid #3f72af;
+      border: 1px solid #335c67;
       border-radius: 5px;
-      background-color: #3f72af;
+      background-color: #335c67;
       color: #fff;
     }
   }
@@ -258,7 +258,7 @@ display: flex;
     }
   }
   .box {
-    border: 2px solid #3f72af;
+    border: 2px solid #335c67;
     width: 100%;
     border-radius: 10px;
     // .box-p-font{
@@ -267,7 +267,7 @@ display: flex;
     .vs-box {
       border: 2px solid;
       border-radius: 100%;
-      background-color: #fc5185;
+      background-color: #f95738;
       color: white;
       position: relative;
       right: 16px;
@@ -319,9 +319,9 @@ display: flex;
   }
   .main-box-mar {
     .mar-title {
-      color: #3f72af;
+      color: #335c67;
     }
-    box-shadow: -3px 3px 0px 0px #3f72af;
+    box-shadow: -3px 3px 0px 0px #335c67;
   }
   .box-strip {
     display: flex;
@@ -350,7 +350,7 @@ display: flex;
     .box4 {
       width: 25%;
       text-align: center;
-      background-color: #3f72af;
+      background-color: #335c67;
       color: #fff;
     }
   }
@@ -362,7 +362,7 @@ display: flex;
   }
   .demo {
     // background: linear-gradient(to right , #fe9040 ,#cf5d81);
-    background-color: #3f72af;
+    background-color: #335c67;
     height: 50vh;
     @media (max-width: 767px) {
       height: 75vh;
@@ -462,11 +462,11 @@ display: flex;
     font-size: 14px !important;
   }
   .visitor-box {
-    box-shadow: -3px 3px 0px 0px #fc5185;
-    border: 1px solid #fc5185;
+    box-shadow: -3px 3px 0px 0px #f95738;
+    border: 1px solid #f95738;
   }
   .company-box {
-    box-shadow: -3px 3px 0px 0px #fc5185;
-    border: 1px solid #fc5185;
+    box-shadow: -3px 3px 0px 0px #f95738;
+    border: 1px solid #f95738;
   }
 }

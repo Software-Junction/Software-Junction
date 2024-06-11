@@ -17,10 +17,10 @@ const uspData = [
   },
   {
     "title": "Global Presence and Track Record",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong>60,000</strong></span> users across <span style=\"color:#FC5185 ;\"><strong>57</strong></span> countries and processing over $<span style=\"color:#FC5185 ;\"><strong>10 billion</strong></span> in revenue annually, Momentus has a global presence and a track record of successful implementations. This can instill confidence in potential users regarding the reliability and effectiveness of the platform."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong>60,000</strong></span> users across <span style=\"color:#f95738 ;\"><strong>57</strong></span> countries and processing over $<span style=\"color:#f95738 ;\"><strong>10 billion</strong></span> in revenue annually, Momentus has a global presence and a track record of successful implementations. This can instill confidence in potential users regarding the reliability and effectiveness of the platform."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

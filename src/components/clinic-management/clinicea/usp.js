@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Global Trust and Reach",
-    "content": "Used across <span style=\"color:#FC5185 ;\"><strong>6 continents,</strong></span> highlighting a global presence. Founded in <span style=\"color:#FC5185 ;\"><strong>November 2012,</strong></span> emphasizing years of experience in the industry. Trusted from Sydney to Manila, Ho Chi Minh to Shanghai, and beyond."
+    "content": "Used across <span style=\"color:#f95738 ;\"><strong>6 continents,</strong></span> highlighting a global presence. Founded in <span style=\"color:#f95738 ;\"><strong>November 2012,</strong></span> emphasizing years of experience in the industry. Trusted from Sydney to Manila, Ho Chi Minh to Shanghai, and beyond."
   },
   {
     "title": "Stunning Prescriptions",
@@ -17,7 +17,7 @@ const uspData = [
   },
   {
     "title": "Super Easy EMR Customization",
-    "content": "Revolutionary technology uses clinical intelligence to digitize paper forms and consents. Offers a personalized EMR with no bloat, noise, or clutter. Automated <span style=\"color:#FC5185 ;\"><strong>1-page</strong></span> medical summary for each patient."
+    "content": "Revolutionary technology uses clinical intelligence to digitize paper forms and consents. Offers a personalized EMR with no bloat, noise, or clutter. Automated <span style=\"color:#f95738 ;\"><strong>1-page</strong></span> medical summary for each patient."
   },
   {
     "title": "Visual Visit Comparison",
@@ -25,7 +25,7 @@ const uspData = [
   },
   {
     "title": "Smart Imaging Tools",
-    "content": "Cloud-based smart imaging tool with features like auto-filtering based on gender and annotation capabilities. Ability to compare up to <span style=\"color:#FC5185 ;\"><strong>4 images</strong></span> at a time and create slideshows for each patient."
+    "content": "Cloud-based smart imaging tool with features like auto-filtering based on gender and annotation capabilities. Ability to compare up to <span style=\"color:#f95738 ;\"><strong>4 images</strong></span> at a time and create slideshows for each patient."
   },
   {
     "title": "Smart Virtual Assistants",
@@ -37,10 +37,10 @@ const uspData = [
   },
   {
     "title": "Comprehensive Support and Training",
-    "content": "Offers <span style=\"color:#FC5185 ;\"><strong>1-on-1</strong></span> trainings and unlimited support to ensure the effective use of the platform."
+    "content": "Offers <span style=\"color:#f95738 ;\"><strong>1-on-1</strong></span> trainings and unlimited support to ensure the effective use of the platform."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

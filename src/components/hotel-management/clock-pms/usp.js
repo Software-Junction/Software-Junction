@@ -5,7 +5,7 @@ import styles from "../clock-pms/clock.module.scss";
 const uspData = [
   {
     "title": "Proven Track Record",
-    "content": "The software has been utilized by leading hotels, resorts, and hotel groups worldwide since <span style=\"color:#FC5185 ;\"><strong>1996,</strong></span> emphasizing its reliability and long-standing presence in the industry."
+    "content": "The software has been utilized by leading hotels, resorts, and hotel groups worldwide since <span style=\"color:#f95738 ;\"><strong>1996,</strong></span> emphasizing its reliability and long-standing presence in the industry."
   },
   {
     "title": "Tailored Tools for Different Domains",
@@ -24,7 +24,7 @@ const uspData = [
     "content": "Clock PMS+ highlights its open API, ensuring seamless integration with various applications such as Adyen, SiteMinder, and Pace. This emphasizes the software's compatibility with third-party solutions for payment, distribution, management, marketing, and more."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Top-notch Security and Privacy",
-    "content": "Security is a top priority for factoHR, offering watertight security through encryption at rest and <span style=\"color:#FC5185 ;\"><strong>SOC Type 2 certified</strong></span> cloud data centers. This commitment to data security distinguishes it from competitors that compromise on privacy and security, potentially leading to data leaks."
+    "content": "Security is a top priority for factoHR, offering watertight security through encryption at rest and <span style=\"color:#f95738 ;\"><strong>SOC Type 2 certified</strong></span> cloud data centers. This commitment to data security distinguishes it from competitors that compromise on privacy and security, potentially leading to data leaks."
   },
   {
     "title": "Scalability Across Business Sizes",
@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "Client Testimonials and Awards",
-    "content": "With a track record of <span style=\"color:#FC5185 ;\"><strong>17 years,</strong></span> factoHR showcases client testimonials attesting to its positive impact on businesses. Additionally, the receipt of appreciations, awards, and recognition adds to its credibility and reinforces its commitment to helping organizations and employees perform excellently."
+    "content": "With a track record of <span style=\"color:#f95738 ;\"><strong>17 years,</strong></span> factoHR showcases client testimonials attesting to its positive impact on businesses. Additionally, the receipt of appreciations, awards, and recognition adds to its credibility and reinforces its commitment to helping organizations and employees perform excellently."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

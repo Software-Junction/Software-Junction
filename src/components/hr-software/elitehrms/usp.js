@@ -28,7 +28,7 @@ const uspData = [
     "content": "The software facilitates quick implementation on all modules, particularly through excel uploads. This feature expedites the onboarding process, allowing users to swiftly integrate the software into their operations. Quick implementation is crucial for minimizing downtime and maximizing the benefits of the software."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

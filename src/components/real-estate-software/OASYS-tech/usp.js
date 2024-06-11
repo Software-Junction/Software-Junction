@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "11 Years of Consistent Excellence",
     content:
-      "With over <span style=\"color:#FC5185 ;\"><strong> 11 years</strong></span> of industry experience, OASYS Tech Solutions has built a sterling reputation for consistently exceeding client expectations. The company's long-standing presence in the market is a testament to its reliability, expertise, and commitment to delivering exceptional service.",
+      "With over <span style=\"color:#f95738 ;\"><strong> 11 years</strong></span> of industry experience, OASYS Tech Solutions has built a sterling reputation for consistently exceeding client expectations. The company's long-standing presence in the market is a testament to its reliability, expertise, and commitment to delivering exceptional service.",
   },
   {
     title: "Empanelment with Government and PSU",
@@ -31,11 +31,11 @@ const uspData = [
   {
     title: "Customer Satisfaction",
     content:
-      "Boasting a  <span style=\"color:#FC5185 ;\"><strong> 99.9% </strong></span> customer satisfaction rate based on <span style=\"color:#FC5185 ;\"><strong> 750+ reviews </strong></span> and <span style=\"color:#FC5185 ;\"><strong> 20,000 objective </strong></span> resources, OASYS Tech Solutions emphasizes its commitment to delivering quality service. The high satisfaction rate reflects the company's ability to meet and exceed the expectations of its diverse client base.",
+      "Boasting a  <span style=\"color:#f95738 ;\"><strong> 99.9% </strong></span> customer satisfaction rate based on <span style=\"color:#f95738 ;\"><strong> 750+ reviews </strong></span> and <span style=\"color:#f95738 ;\"><strong> 20,000 objective </strong></span> resources, OASYS Tech Solutions emphasizes its commitment to delivering quality service. The high satisfaction rate reflects the company's ability to meet and exceed the expectations of its diverse client base.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

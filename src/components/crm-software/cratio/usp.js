@@ -5,7 +5,7 @@ import styles from "../cratio/cratio.module.scss";
 const uspData = [
   {
     "title": "Proven Track Record",
-    "content": "The CRM software has <span style=\"color:#FC5185 ;\"><strong>15+ years</strong></span> of experience in the sales CRM industry. Trusted by over <span style=\"color:#FC5185 ;\"><strong>1,00,000</strong></span> users and loved by <span style=\"color:#FC5185 ;\"><strong>1000+</strong></span> companies in India."
+    "content": "The CRM software has <span style=\"color:#f95738 ;\"><strong>15+ years</strong></span> of experience in the sales CRM industry. Trusted by over <span style=\"color:#f95738 ;\"><strong>1,00,000</strong></span> users and loved by <span style=\"color:#f95738 ;\"><strong>1000+</strong></span> companies in India."
   },
   {
     "title": "Lead Automation & Distribution",
@@ -28,7 +28,7 @@ const uspData = [
     "content": "Tailored CRM solutions for various industries, including B2B companies, real estate, financial services, education, tours & travel, recruitment, professional services, and others."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

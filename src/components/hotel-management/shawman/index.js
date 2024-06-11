@@ -21,7 +21,7 @@ const Index = () => {
                     <Link href="/#">Home</Link>
                   </li>
                   &nbsp;
-                  <span style={{ color: "#FC5185 " }}>
+                  <span style={{ color: "#f95738 " }}>
                     <MdKeyboardDoubleArrowRight />
                   </span>
                   &nbsp;
@@ -31,7 +31,7 @@ const Index = () => {
                     </Link>
                   </li>
                   &nbsp;
-                  <span style={{ color: "#FC5185 " }}>
+                  <span style={{ color: "#f95738 " }}>
                     <MdKeyboardDoubleArrowRight />
                   </span>
                   &nbsp;
@@ -56,14 +56,14 @@ const Index = () => {
                     </h5>
                     <p
                       className={`${styles["p-style1"]} border text-light ps-2 pt-1 rounded-3 `}
-                      style={{ backgroundColor: "#FC5185 ", width: "48px" }}
+                      style={{ backgroundColor: "#f95738 ", width: "48px" }}
                     >
                       4.4 <FaStar />
                     </p>
                     <div className="d-flex">
                       <Link href="">
                         <p className="text-light">
-                          <span style={{ color: "#FC5185 " }}>
+                          <span style={{ color: "#f95738 " }}>
                             <FaPenToSquare />
                           </span>
                           &nbsp; Write a review
@@ -72,7 +72,7 @@ const Index = () => {
                       <Link href="">
                         <p className="ms-4 text-light">
                           Visit Website &nbsp;
-                          <span style={{ color: "#FC5185 " }}>
+                          <span style={{ color: "#f95738 " }}>
                             <FaArrowUpRightFromSquare />
                           </span>
                         </p>

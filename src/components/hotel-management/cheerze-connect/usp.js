@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Trusted Worldwide",
-    "content": "The system has a global reach, serving more than <span style=\"color:#FC5185 ;\"><strong>20</strong></span> countries and over <span style=\"color:#FC5185 ;\"><strong>750</strong></span> properties. The testimonials from properties like Aaravi Hotel, G5 Hotel, Rathna Residency Hotel, and Delightz Inn add credibility, showcasing that the system is trusted by a diverse range of establishments."
+    "content": "The system has a global reach, serving more than <span style=\"color:#f95738 ;\"><strong>20</strong></span> countries and over <span style=\"color:#f95738 ;\"><strong>750</strong></span> properties. The testimonials from properties like Aaravi Hotel, G5 Hotel, Rathna Residency Hotel, and Delightz Inn add credibility, showcasing that the system is trusted by a diverse range of establishments."
   },
   {
     "title": "Customizable",
@@ -24,7 +24,7 @@ const uspData = [
     "content": "Cheerze Connect seamlessly integrates with popular third-party platforms such as TripAdvisor, Tally, OYO, and Onity. This integration capability enhances the functionality of the system by connecting it with other widely used tools and services in the hospitality industry."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

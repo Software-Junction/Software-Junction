@@ -26,11 +26,11 @@ const uspData = [
   {
     title: "Faster Time to Value",
     content:
-      'Leverages the experience gained from thousands of worldwide deployments over <span style="color:#FC5185 ;"><strong>2 decades</strong></span>. Offers intelligent, stepped implementations for rapid business value and a predictable timeframe for going live on NetSuite.',
+      'Leverages the experience gained from thousands of worldwide deployments over <span style="color:#f95738 ;"><strong>2 decades</strong></span>. Offers intelligent, stepped implementations for rapid business value and a predictable timeframe for going live on NetSuite.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

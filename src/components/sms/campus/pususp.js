@@ -24,7 +24,7 @@ const uspData = [
   },
   {
     "title": "Proven Track Record",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>Trusted by more than 2,000 institutes in over 20 countries,</strong></span> Campus 365 has gained recognition through partnerships with notable institutions, including Daikin, Unacademy, Sanfort Group of Schools, Microtek Institute, and others. Its track record attests to its effectiveness in enhancing institutional excellence."
+    "content": "<span style=\"color:#f95738 ;\"><strong>Trusted by more than 2,000 institutes in over 20 countries,</strong></span> Campus 365 has gained recognition through partnerships with notable institutions, including Daikin, Unacademy, Sanfort Group of Schools, Microtek Institute, and others. Its track record attests to its effectiveness in enhancing institutional excellence."
   },
   {
     "title": "Continuous Improvement and Updates",
@@ -36,7 +36,7 @@ const uspData = [
   },
   {
     "title": "Industry Recognition",
-    "content": "Campus 365 has received accolades such as the<span style=\"color:#FC5185 ;\"><strong> Top 10 Hottest Startups by CB Insights (2017),</strong></span> Best Education Platform at IAMA Awards (2017), <span style=\"color:#FC5185 ;\"><strong> and Top 20 Startups at EdTech Global Awards (2019).</strong></span> These recognitions highlight the software's impact and significance in the education technology landscape."
+    "content": "Campus 365 has received accolades such as the<span style=\"color:#f95738 ;\"><strong> Top 10 Hottest Startups by CB Insights (2017),</strong></span> Best Education Platform at IAMA Awards (2017), <span style=\"color:#f95738 ;\"><strong> and Top 20 Startups at EdTech Global Awards (2019).</strong></span> These recognitions highlight the software's impact and significance in the education technology landscape."
   }
 ];
 const renderHTML = (rawHTML) => {

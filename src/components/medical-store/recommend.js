@@ -131,7 +131,7 @@ const Recommend = ({ styles }) => {
                     <div>
                       <p
                         className={`${styles["p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
-                        style={{ backgroundColor: "#FC5185 " }}
+                        style={{ backgroundColor: "#f95738 " }}
                       >
                         4.4 <FaStar />
                       </p>
@@ -171,7 +171,7 @@ const Recommend = ({ styles }) => {
                     <div>
                       <p
                         className={`${styles["p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
-                        style={{ backgroundColor: "#FC5185 " }}
+                        style={{ backgroundColor: "#f95738 " }}
                       >
                         4.4 <FaStar />
                       </p>
@@ -209,7 +209,7 @@ const Recommend = ({ styles }) => {
                     <div>
                       <p
                         className={`${styles["p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
-                        style={{ backgroundColor: "#FC5185 " }}
+                        style={{ backgroundColor: "#f95738 " }}
                       >
                         4.4 <FaStar />
                       </p>
@@ -247,7 +247,7 @@ const Recommend = ({ styles }) => {
                     <div>
                       <p
                         className={`${styles["p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
-                        style={{ backgroundColor: "#FC5185 " }}
+                        style={{ backgroundColor: "#f95738 " }}
                       >
                         4.4 <FaStar />
                       </p>

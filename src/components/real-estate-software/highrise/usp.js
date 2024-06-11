@@ -40,7 +40,7 @@ const uspData = [
     "content": "Throughout various modules, Highrise ERP emphasizes centralized document management, enabling efficient scanning, retrieval, and storage of important documents."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

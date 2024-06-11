@@ -11,7 +11,7 @@ const uspData = [
   {
     title: "Extensive Templates",
     content:
-      'With over <span style="color:#FC5185 ;"><strong>300</strong></span> ready-made templates, FigJam provides a wide range of starting points for different use cases, facilitating quick project kickoffs, flow charts, meetings, and more.',
+      'With over <span style="color:#f95738 ;"><strong>300</strong></span> ready-made templates, FigJam provides a wide range of starting points for different use cases, facilitating quick project kickoffs, flow charts, meetings, and more.',
   },
   {
     title: "AI-Powered Features",
@@ -35,7 +35,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

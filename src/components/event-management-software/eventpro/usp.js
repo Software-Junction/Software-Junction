@@ -20,7 +20,7 @@ const uspData = [
     "content": "Positive testimonials from clients, such as the endorsement from Jenny McAlloon of Sunshine Convention Centre, Victoria University, highlight the software's evolution with businesses and its recommendation for all-purpose venue, catering, and events software."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

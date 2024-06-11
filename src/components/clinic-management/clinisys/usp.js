@@ -5,18 +5,18 @@ import styles from "../clinisys/sys.module.scss";
 const uspData = [
   {
     "title": "Global Impact",
-    "content": "As the leading clinical lab systems provider, Clinisys serves over <span style=\"color:#FC5185 ;\"><strong>3,500</strong></span> customers worldwide. Their platform facilitates billions of lab tests each year, contributing significantly to healthcare improvement, life sciences advancements, and robust public health surveillance on a global scale."
+    "content": "As the leading clinical lab systems provider, Clinisys serves over <span style=\"color:#f95738 ;\"><strong>3,500</strong></span> customers worldwide. Their platform facilitates billions of lab tests each year, contributing significantly to healthcare improvement, life sciences advancements, and robust public health surveillance on a global scale."
   },
   {
     "title": "Expertise and Efficiency",
-    "content": "With <span style=\"color:#FC5185 ;\"><strong>40 years</strong></span> of experience in the laboratory field and a team of over <span style=\"color:#FC5185 ;\"><strong>1,450</strong></span> lab professionals, Clinisys brings a wealth of expertise to the table. The solutions they provide are tailored to specific industries, supporting lab managers and professionals in optimizing their workflows for enhanced efficiency."
+    "content": "With <span style=\"color:#f95738 ;\"><strong>40 years</strong></span> of experience in the laboratory field and a team of over <span style=\"color:#f95738 ;\"><strong>1,450</strong></span> lab professionals, Clinisys brings a wealth of expertise to the table. The solutions they provide are tailored to specific industries, supporting lab managers and professionals in optimizing their workflows for enhanced efficiency."
   },
   {
     "title": "Innovation for Tomorrow",
     "content": "Clinisys has defined a modern laboratory platform that incorporates efficient workflows, accessible data, and innovative tools. This approach empowers their customers to deliver testing and diagnostic services at scale, ensuring that laboratories are equipped for the evolving needs of the healthcare and scientific communities."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

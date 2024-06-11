@@ -9,14 +9,14 @@ const uspData = [
   },
   {
     "title": "Trusted by over 12,000 innovators globally",
-    "content": "Patsnap's reputation is built on trust and reliability, with a large and diverse user base of over <span style=\"color:#FC5185 ;\"><strong>12,000</strong></span> innovators worldwide. This demonstrates the platform's effectiveness in meeting the needs of organizations across various industries and geographies."
+    "content": "Patsnap's reputation is built on trust and reliability, with a large and diverse user base of over <span style=\"color:#f95738 ;\"><strong>12,000</strong></span> innovators worldwide. This demonstrates the platform's effectiveness in meeting the needs of organizations across various industries and geographies."
   },
   {
     "title": "Ensures data security and compliance",
-    "content": "Patsnap prioritizes data confidentiality and security by employing secure, proprietary AI models trained exclusively on patent-related data. Additionally, the platform adheres to <span style=\"color:#FC5185 ;\"><strong>ISO 27001</strong></span> certification standards and complies with regulations such as GDPR, CCPA, and CPDA to ensure that customer data is protected and handled responsibly."
+    "content": "Patsnap prioritizes data confidentiality and security by employing secure, proprietary AI models trained exclusively on patent-related data. Additionally, the platform adheres to <span style=\"color:#f95738 ;\"><strong>ISO 27001</strong></span> certification standards and complies with regulations such as GDPR, CCPA, and CPDA to ensure that customer data is protected and handled responsibly."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

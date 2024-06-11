@@ -13,7 +13,7 @@ const uspData = [
   },
   {
     "title": "Efficiency and Cost Savings",
-    "content": "Claims to reduce production costs by up to <span style=\"color:#FC5185 ;\"><strong>30%</strong></span>, maximizing efficiency and profitability for businesses."
+    "content": "Claims to reduce production costs by up to <span style=\"color:#f95738 ;\"><strong>30%</strong></span>, maximizing efficiency and profitability for businesses."
   },
   {
     "title": "Integration + Innovation + Intelligence",
@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "Expand Sure Shield",
-    "content": "Guarantees data protection with multiple location storage, Microsoft Azure, <span style=\"color:#FC5185 ;\"><strong>99.9%</strong></span> uptime, SSL encryption, and private database, ensuring the security and integrity of sensitive business information."
+    "content": "Guarantees data protection with multiple location storage, Microsoft Azure, <span style=\"color:#f95738 ;\"><strong>99.9%</strong></span> uptime, SSL encryption, and private database, ensuring the security and integrity of sensitive business information."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

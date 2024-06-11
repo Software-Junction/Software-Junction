@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Extensive Library of UI Controls",
     content:
-      'The platform boasts a library of over <span style="color:#FC5185 ;"><strong>150</strong></span> in-built UI controls, such as Tablegrid, Card list, Charts, Dashboards, and Form controls. These controls are designed to be responsive and native across different devices.',
+      'The platform boasts a library of over <span style="color:#f95738 ;"><strong>150</strong></span> in-built UI controls, such as Tablegrid, Card list, Charts, Dashboards, and Form controls. These controls are designed to be responsive and native across different devices.',
   },
   {
     title: "Action Configuration",
@@ -55,7 +55,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

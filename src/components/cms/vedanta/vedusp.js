@@ -10,7 +10,7 @@ const uspData = [
   {
     title: "Versatility with Modules",
     content:
-    "<span style=\"color:#FC5185 ;\"><strong>Featuring 28 modules</strong></span>, Advanta's software provides a versatile and customizable experience. Users can tailor the software to their specific needs, choosing only the modules that are relevant to their operations. This adaptability ensures a streamlined and efficient workflow."
+    "<span style=\"color:#f95738 ;\"><strong>Featuring 28 modules</strong></span>, Advanta's software provides a versatile and customizable experience. Users can tailor the software to their specific needs, choosing only the modules that are relevant to their operations. This adaptability ensures a streamlined and efficient workflow."
   },
   {
     title: "Comprehensive Support",

@@ -5,7 +5,7 @@ import styles from "../dryfta/dry.module.scss";
 const uspData = [
   {
     "title": "Global Trust",
-    "content": "Trusted by universities and nonprofits across <span style=\"color:#FC5185 ;\"><strong>20+</strong></span> countries, Dryfta has become the go-to choice for renowned institutions like Johns Hopkins University, Delft University, and more. Its global footprint underscores its reliability and effectiveness."
+    "content": "Trusted by universities and nonprofits across <span style=\"color:#f95738 ;\"><strong>20+</strong></span> countries, Dryfta has become the go-to choice for renowned institutions like Johns Hopkins University, Delft University, and more. Its global footprint underscores its reliability and effectiveness."
   },
   {
     "title": "Revenue Optimization",
@@ -21,14 +21,14 @@ const uspData = [
   },
   {
     "title": "Promotion Powerhouse",
-    "content": "Boost your event's visibility with the EventBoost platform. Effortlessly submit your event to over <span style=\"color:#FC5185 ;\"><strong>100+</strong></span> high-traffic listing sites, choose tailored promotion strategies, and access real-time performance insights for data-driven decision-making."
+    "content": "Boost your event's visibility with the EventBoost platform. Effortlessly submit your event to over <span style=\"color:#f95738 ;\"><strong>100+</strong></span> high-traffic listing sites, choose tailored promotion strategies, and access real-time performance insights for data-driven decision-making."
   },
   {
     "title": "Real-Time Insights",
     "content": "Track, analyze, and optimize your event performance in real-time. Generate reports, share insights, and enhance attendee engagement with personalized communications. The platform's analytics provide a snapshot of your event's success."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

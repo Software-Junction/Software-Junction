@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Award-Winning Design",
-    "content": "Fantastical has won the Mac App of the Year <span style=\"color:#FC5185 ;\"><strong>2020</strong></span> and the Apple Design Award Winner in <span style=\"color:#FC5185 ;\"><strong>2015</strong></span>, showcasing its excellence in design and user interface."
+    "content": "Fantastical has won the Mac App of the Year <span style=\"color:#f95738 ;\"><strong>2020</strong></span> and the Apple Design Award Winner in <span style=\"color:#f95738 ;\"><strong>2015</strong></span>, showcasing its excellence in design and user interface."
   },
   {
     "title": "Powerful Views",
@@ -44,7 +44,7 @@ const uspData = [
     "content": "Fantastical is fully localized in English, French, German, Italian, Spanish, and Japanese, making it accessible to users globally."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

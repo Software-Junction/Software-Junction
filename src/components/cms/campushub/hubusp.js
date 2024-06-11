@@ -20,12 +20,12 @@ const uspData = [
   {
     title: "Trusted by Numerous Institutions",
     content:
-    "TechQuest Services' School Management System has gained the trust of <span style=\"color:#FC5185 ;\"><strong>over 100 schools and colleges, serving more than 10,000 students and teachers.</strong></span> This track record of successful implementation establishes the software's reliability and effectiveness."
+    "TechQuest Services' School Management System has gained the trust of <span style=\"color:#f95738 ;\"><strong>over 100 schools and colleges, serving more than 10,000 students and teachers.</strong></span> This track record of successful implementation establishes the software's reliability and effectiveness."
     },
   {
     title: "Experienced and Dynamic Team",
     content:
-    "TechQuest Services is backed by a dynamic team of graduates and MBA professionals, bringing a wealth of experience in school software development. <span style=\"color:#FC5185 ;\"><strong> With a 10-year presence in the industry</strong></span> , the company has a proven record of delivering high-quality solutions."
+    "TechQuest Services is backed by a dynamic team of graduates and MBA professionals, bringing a wealth of experience in school software development. <span style=\"color:#f95738 ;\"><strong> With a 10-year presence in the industry</strong></span> , the company has a proven record of delivering high-quality solutions."
     }
   
 ];

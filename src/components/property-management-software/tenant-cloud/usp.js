@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Customizable Reports",
     content:
-      "TenantCloud allows users to generate customized reports, including essential financial reports like the <span style=\"color:#FC5185 ;\"><strong> 1099 Tax Form </strong></span>, Rent Roll Report, Rentability Report, and Profit/Loss Statement.",
+      "TenantCloud allows users to generate customized reports, including essential financial reports like the <span style=\"color:#f95738 ;\"><strong> 1099 Tax Form </strong></span>, Rent Roll Report, Rentability Report, and Profit/Loss Statement.",
   },
   {
     title: "Versatility Across User Types",
@@ -35,7 +35,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

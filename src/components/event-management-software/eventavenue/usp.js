@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "Donation Collection Made Easy",
-    "content": "Collect donations globally with multiple payment options, backed by in-built data storage facilities. For certified NGOs, leverage FIRC for <span style=\"color:#FC5185 ;\"><strong>80G</strong></span> compliance effortlessly."
+    "content": "Collect donations globally with multiple payment options, backed by in-built data storage facilities. For certified NGOs, leverage FIRC for <span style=\"color:#f95738 ;\"><strong>80G</strong></span> compliance effortlessly."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

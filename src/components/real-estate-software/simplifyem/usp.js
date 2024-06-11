@@ -17,7 +17,7 @@ const uspData = [
   },
   {
     "title": "Proven Industry Leadership",
-    "content": "Established in  <span style=\"color:#FC5185 ;\"><strong>2006</strong></span>, SimplifyEm is positioned as the industry leader in online property management software. Over <span style=\"color:#FC5185 ;\"><strong>$42 billion</strong></span> in property assets managed by the software, showcasing its widespread adoption and trust among property managers."
+    "content": "Established in  <span style=\"color:#f95738 ;\"><strong>2006</strong></span>, SimplifyEm is positioned as the industry leader in online property management software. Over <span style=\"color:#f95738 ;\"><strong>$42 billion</strong></span> in property assets managed by the software, showcasing its widespread adoption and trust among property managers."
   },
   {
     "title": "Credibility and Endorsements",
@@ -25,7 +25,7 @@ const uspData = [
   }
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

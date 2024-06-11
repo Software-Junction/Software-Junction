@@ -313,7 +313,7 @@ const Index = () => {
                       <Row>
                         <Form.Group
                           className="mb-3"
-                          controlId="exampleForm.ControlInput1"
+                          // controlId="exampleForm.ControlInput1"
                           as={Col}
                         >
                           <Form.Label>
@@ -339,7 +339,7 @@ const Index = () => {
 
                         <Form.Group
                           className="mb-3"
-                          controlId="exampleForm.ControlInput1"
+                          // controlId="exampleForm.ControlInput2"
                           as={Col}
                         >
                           <Form.Label>Features and Functionality</Form.Label>
@@ -365,7 +365,7 @@ const Index = () => {
                       <Row>
                         <Form.Group
                           className="mb-3"
-                          controlId="exampleForm.ControlInput1"
+                          // controlId="exampleForm.ControlInput3"
                           as={Col}
                         >
                           <Form.Label>Performance and Speed</Form.Label>
@@ -389,7 +389,7 @@ const Index = () => {
 
                         <Form.Group
                           className="mb-3"
-                          controlId="exampleForm.ControlInput1"
+                          // controlId="exampleForm.ControlInput4"
                           as={Col}
                         >
                           <Form.Label>Customization Options</Form.Label>
@@ -415,7 +415,7 @@ const Index = () => {
                       <Row>
                         <Form.Group
                           className="mb-3"
-                          controlId="exampleForm.ControlInput1"
+                          // controlId="exampleForm.ControlInput5"
                           as={Col}
                         >
                           <Form.Label>Value for Money</Form.Label>
@@ -439,7 +439,7 @@ const Index = () => {
 
                         <Form.Group
                           className="mb-3"
-                          controlId="exampleForm.ControlInput1"
+                          // controlId="exampleForm.ControlInput6"
                           as={Col}
                         >
                           <Form.Label>Customer Support</Form.Label>
@@ -465,7 +465,7 @@ const Index = () => {
                       <Row>
                         <Form.Group
                           className="mb-3"
-                          controlId="exampleForm.ControlInput1"
+                          // controlId="exampleForm.ControlInput7"
                           as={Col}
                         >
                           <Form.Label>Integration Capabilities</Form.Label>
@@ -489,7 +489,7 @@ const Index = () => {
 
                         <Form.Group
                           className="mb-3"
-                          controlId="exampleForm.ControlInput1"
+                          // controlId="exampleForm.ControlInput8"
                           as={Col}
                         >
                           <Form.Label>Reporting and Analytics</Form.Label>

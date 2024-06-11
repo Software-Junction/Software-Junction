@@ -5,15 +5,15 @@ import styles from "../visual-infosoft/vis.module.scss";
 const uspData = [
   {
     "title": "Extensive Experience",
-    "content": "Visual InfoSoft Pvt. Ltd. has been dedicated to developing healthcare solutions since <span style=\"color:#FC5185 ;\"><strong>1996</strong></span>, showcasing over two decades of experience in the field."
+    "content": "Visual InfoSoft Pvt. Ltd. has been dedicated to developing healthcare solutions since <span style=\"color:#f95738 ;\"><strong>1996</strong></span>, showcasing over two decades of experience in the field."
   },
   {
     "title": "Wide Range of Products",
-    "content": "The company offers a comprehensive suite of <span style=\"color:#FC5185 ;\"><strong>17+</strong></span> healthcare software solutions, catering to various medical specialties, including Ophthalmology, ENT, Psychiatry, Gynecology, and more."
+    "content": "The company offers a comprehensive suite of <span style=\"color:#f95738 ;\"><strong>17+</strong></span> healthcare software solutions, catering to various medical specialties, including Ophthalmology, ENT, Psychiatry, Gynecology, and more."
   },
   {
     "title": "Pioneer in Pharmacy Software",
-    "content": "The company introduced the first Windows-based pharmacy software in India in <span style=\"color:#FC5185 ;\"><strong>2001</strong></span>, emphasizing its role as an innovator in the healthcare software space."
+    "content": "The company introduced the first Windows-based pharmacy software in India in <span style=\"color:#f95738 ;\"><strong>2001</strong></span>, emphasizing its role as an innovator in the healthcare software space."
   },
   {
     "title": "Billing and Inventory Management",
@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "Comprehensive Hospital Management System (HMS)",
-    "content": "The company offers a robust HMS with <span style=\"color:#FC5185 ;\"><strong>36</strong></span> different modules, covering various aspects of hospital management, making it suitable for larger healthcare facilities."
+    "content": "The company offers a robust HMS with <span style=\"color:#f95738 ;\"><strong>36</strong></span> different modules, covering various aspects of hospital management, making it suitable for larger healthcare facilities."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

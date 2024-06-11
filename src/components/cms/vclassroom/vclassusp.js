@@ -25,7 +25,7 @@ const uspData = [
   {
     title: "Security and Privacy",
     content:
-    "VClassrooming prioritizes the security of sensitive information with a secured <span style=\"color:#FC5185 ;\"><strong> 128-bit encryption system.</strong></span> This commitment to data protection ensures a safe and trusted environment for all users, instilling confidence in both educational institutions and their stakeholders."
+    "VClassrooming prioritizes the security of sensitive information with a secured <span style=\"color:#f95738 ;\"><strong> 128-bit encryption system.</strong></span> This commitment to data protection ensures a safe and trusted environment for all users, instilling confidence in both educational institutions and their stakeholders."
     },
   {
     title: "Extensive Reporting and Customization",

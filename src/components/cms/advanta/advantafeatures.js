@@ -20,7 +20,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; User Customisation
@@ -31,7 +31,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Email Integration
@@ -42,7 +42,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Reception & Front Office
@@ -53,7 +53,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Attendance Management
@@ -64,7 +64,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Admission
@@ -75,7 +75,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Accounting
@@ -86,7 +86,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Inventory Management
@@ -97,7 +97,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Library Management
@@ -108,7 +108,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Transport / Fleet management
@@ -119,7 +119,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Courses and Batches Management
@@ -130,7 +130,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Fee Management
@@ -141,7 +141,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Event Management
@@ -152,7 +152,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Academics
@@ -163,7 +163,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Examination Management
@@ -174,7 +174,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Activities
@@ -185,7 +185,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; HR & Payroll
@@ -196,7 +196,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Mobile Support
@@ -207,7 +207,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Hostel Management
@@ -218,7 +218,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Database backup/restore (Management)
@@ -229,7 +229,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; SMS
@@ -240,7 +240,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Time Table
@@ -251,7 +251,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Registration Management
@@ -262,7 +262,7 @@ const Advantafeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Student Info Management

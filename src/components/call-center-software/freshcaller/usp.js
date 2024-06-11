@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Intuitive and Scalable",
     content:
-      "Freshcaller allows businesses to set up their contact center quickly and efficiently. It offers advanced inbound routing and supports global operations with options to bring your own carrier or purchase numbers from over<span style=\"color:#FC5185 ;\"><strong> 90 countries </strong></span>.",
+      "Freshcaller allows businesses to set up their contact center quickly and efficiently. It offers advanced inbound routing and supports global operations with options to bring your own carrier or purchase numbers from over<span style=\"color:#f95738 ;\"><strong> 90 countries </strong></span>.",
   },
   {
     title: "Effortless Performance",
@@ -25,7 +25,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

@@ -51,7 +51,7 @@ const Sysfeatures = ({ styles }) => {
               <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                 {" "}
                 <h5>
-                  <span style={{ color: "#FC5185 " }}>
+                  <span style={{ color: "#f95738 " }}>
                     <FaCheck />
                   </span>
                   &nbsp; {feature.title}
@@ -67,7 +67,7 @@ const Sysfeatures = ({ styles }) => {
               <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                 {" "}
                 <h5>
-                  <span style={{ color: "#FC5185 " }}>
+                  <span style={{ color: "#f95738 " }}>
                     <FaCheck />
                   </span>
                   &nbsp; {featureM.title}

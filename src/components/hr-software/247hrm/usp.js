@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Custom Workflows",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>247HRM</strong></span> allows organizations to create custom workflows that seamlessly integrate with existing HR processes and department structures. This customization ensures that the software aligns with the unique needs of each organization."
+    "content": "<span style=\"color:#f95738 ;\"><strong>247HRM</strong></span> allows organizations to create custom workflows that seamlessly integrate with existing HR processes and department structures. This customization ensures that the software aligns with the unique needs of each organization."
   },
   {
     "title": "Client Testimonials",
@@ -17,11 +17,11 @@ const uspData = [
   },
   {
     "title": "Years of HR Experience",
-    "content": "InterBiz Solutions LLP brings a collective <span style=\"color:#FC5185 ;\"><strong>60 years</strong></span> of HR experience to the development and implementation of their HRMS solution, indicating a deep understanding of HR challenges and requirements."
+    "content": "InterBiz Solutions LLP brings a collective <span style=\"color:#f95738 ;\"><strong>60 years</strong></span> of HR experience to the development and implementation of their HRMS solution, indicating a deep understanding of HR challenges and requirements."
   },
   {
     "title": "Wide Client Base",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong>800</strong></span> clients across <span style=\"color:#FC5185 ;\"><strong>20</strong></span> industry verticals, <span style=\"color:#FC5185 ;\"><strong>247HRM</strong></span> has a broad client base. This diverse experience demonstrates the adaptability of the software to different business contexts."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong>800</strong></span> clients across <span style=\"color:#f95738 ;\"><strong>20</strong></span> industry verticals, <span style=\"color:#f95738 ;\"><strong>247HRM</strong></span> has a broad client base. This diverse experience demonstrates the adaptability of the software to different business contexts."
   },
   {
     "title": "Geographical Presence",
@@ -37,14 +37,14 @@ const uspData = [
   },
   {
     "title": "Global Presence",
-    "content": "In addition to a strong presence in India, <span style=\"color:#FC5185 ;\"><strong>247HRM</strong></span> has expanded its reach to international locations such as Dubai, UAE, Abu Dhabi, Qatar, and Sharjah, demonstrating its global aspirations."
+    "content": "In addition to a strong presence in India, <span style=\"color:#f95738 ;\"><strong>247HRM</strong></span> has expanded its reach to international locations such as Dubai, UAE, Abu Dhabi, Qatar, and Sharjah, demonstrating its global aspirations."
   },
   {
     "title": "Diverse Industry Focus",
     "content": "The software caters to a wide range of industries, including hospitals, accountants, IT & software, education, logistics, manufacturing, small businesses, and startups. This industry-focused approach ensures that the software meets the specific needs of different business sectors."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

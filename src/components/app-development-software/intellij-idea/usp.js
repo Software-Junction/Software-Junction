@@ -31,7 +31,7 @@ const uspData = [
   {
     title: "Latest Features (2024.1)",
     content:
-      'General Availability of JetBrains AI Assistant with enhanced code generation and context-aware AI chat. Full support for <span style="color:#FC5185 ;"><strong>Java 21</strong></span> features. Run to Cursor inlay option in the debugger. Out-of-the-box Kubernetes development experience in Ultimate edition.',
+      'General Availability of JetBrains AI Assistant with enhanced code generation and context-aware AI chat. Full support for <span style="color:#f95738 ;"><strong>Java 21</strong></span> features. Run to Cursor inlay option in the debugger. Out-of-the-box Kubernetes development experience in Ultimate edition.',
   },
   {
     title: "Trusted by Leading Companies",
@@ -40,7 +40,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

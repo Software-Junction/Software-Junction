@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Global Reach and Multi-Cultural Collaboration",
     content:
-      "With a presence in over <span style=\"color:#FC5185 ;\"><strong> 10 countries</strong></span> and collaboration with teams from Switzerland to the US, Middle East, India, and African countries, Techzone provides a unique cross-cultural approach to project delivery, ensuring diverse perspectives and global expertise.",
+      "With a presence in over <span style=\"color:#f95738 ;\"><strong> 10 countries</strong></span> and collaboration with teams from Switzerland to the US, Middle East, India, and African countries, Techzone provides a unique cross-cultural approach to project delivery, ensuring diverse perspectives and global expertise.",
   },
   {
     title: "Industry-Specific Expertise",
@@ -16,12 +16,12 @@ const uspData = [
   {
     title: "Real Estate Dominance",
     content:
-      "Techzone stands out as a leader in real estate solutions with a proven track record. Their real estate portal solutions are utilized in more than <span style=\"color:#FC5185 ;\"><strong>10</strong></span> countries, boasting over <span style=\"color:#FC5185 ;\"><strong>2 million</strong></span> property listings in <span style=\"color:#FC5185 ;\"><strong>five languages</strong></span>, making them a go-to choice for real estate businesses globally.",
+      "Techzone stands out as a leader in real estate solutions with a proven track record. Their real estate portal solutions are utilized in more than <span style=\"color:#f95738 ;\"><strong>10</strong></span> countries, boasting over <span style=\"color:#f95738 ;\"><strong>2 million</strong></span> property listings in <span style=\"color:#f95738 ;\"><strong>five languages</strong></span>, making them a go-to choice for real estate businesses globally.",
   },
   {
     title: "Agile Development and Fast Deployment",
     content:
-      "Techzone emphasizes fast development cycles, adaptable design, and a customer-first approach. With <span style=\"color:#FC5185 ;\"><strong>800+</strong></span> successful deliveries, they offer agile development processes and lifetime support for bug fixing, ensuring prompt and reliable solutions.",
+      "Techzone emphasizes fast development cycles, adaptable design, and a customer-first approach. With <span style=\"color:#f95738 ;\"><strong>800+</strong></span> successful deliveries, they offer agile development processes and lifetime support for bug fixing, ensuring prompt and reliable solutions.",
   },
   {
     title: "Digital Marketing Expertise",
@@ -35,7 +35,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

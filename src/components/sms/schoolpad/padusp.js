@@ -8,7 +8,7 @@ const uspData = [
   },
   {
     "title": "Proven Track Record",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong>8000 educators</strong></span> using SchoolPad daily, the software has a proven track record of reliability and trust within the education community. This user base demonstrates its widespread acceptance and adoption by educational institutions."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong>8000 educators</strong></span> using SchoolPad daily, the software has a proven track record of reliability and trust within the education community. This user base demonstrates its widespread acceptance and adoption by educational institutions."
   },
   {
     "title": "Data Management and Progress Tracking",
@@ -20,11 +20,11 @@ const uspData = [
   },
   {
     "title": "Quantifiable Results",
-    "content": "The software boasts impressive numbers, including<span style=\"color:#FC5185 ;\"><strong> 5,00,000+</strong></span> updates shared with parents, <span style=\"color:#FC5185 ;\"><strong>1,11,000+</strong></span> parent-teacher conversations, <span style=\"color:#FC5185 ;\"><strong>1,50,000+</strong></span> managed student profiles, <span style=\"color:#FC5185 ;\"><strong>1,00,000+</strong></span> report cards generated, and <span style=\"color:#FC5185 ;\"><strong>45,000+</strong></span> online fee transactions. These statistics showcase the software's impact and efficiency."
+    "content": "The software boasts impressive numbers, including<span style=\"color:#f95738 ;\"><strong> 5,00,000+</strong></span> updates shared with parents, <span style=\"color:#f95738 ;\"><strong>1,11,000+</strong></span> parent-teacher conversations, <span style=\"color:#f95738 ;\"><strong>1,50,000+</strong></span> managed student profiles, <span style=\"color:#f95738 ;\"><strong>1,00,000+</strong></span> report cards generated, and <span style=\"color:#f95738 ;\"><strong>45,000+</strong></span> online fee transactions. These statistics showcase the software's impact and efficiency."
   },
   {
     "title": "Wide Adoption",
-    "content": "Over <span style=\"color:#FC5185 ;\"><strong>300 schools</strong></span> choosing SchoolPad's School Management Software reflects its widespread adoption within the education sector. This suggests that schools across different regions and educational levels find value in the software."
+    "content": "Over <span style=\"color:#f95738 ;\"><strong>300 schools</strong></span> choosing SchoolPad's School Management Software reflects its widespread adoption within the education sector. This suggests that schools across different regions and educational levels find value in the software."
   },
   {
     "title": "Customization",
@@ -32,7 +32,7 @@ const uspData = [
   }
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

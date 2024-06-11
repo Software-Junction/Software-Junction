@@ -36,7 +36,7 @@ const uspData = [
     "content": "Lybrate allows doctors to synchronize their social media platforms, enabling single-click posting and centralized management of social media activities. This feature helps doctors stay active and engaged on various platforms effortlessly."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

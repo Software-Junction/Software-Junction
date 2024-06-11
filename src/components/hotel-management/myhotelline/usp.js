@@ -17,14 +17,14 @@ const uspData = [
   },
   {
     "title": "Experienced Team and 24/7 Customer Support",
-    "content": "Backed by a highly experienced team with over <span style=\"color:#FC5185 ;\"><strong>20 years</strong></span> in the industry, our software comes with a <span style=\"color:#FC5185 ;\"><strong>99.5%</strong></span> uptime guarantee. We provide complete customer <span style=\"color:#FC5185 ;\"><strong>support 24/7</strong></span>, ensuring that you can overcome operational challenges with ease."
+    "content": "Backed by a highly experienced team with over <span style=\"color:#f95738 ;\"><strong>20 years</strong></span> in the industry, our software comes with a <span style=\"color:#f95738 ;\"><strong>99.5%</strong></span> uptime guarantee. We provide complete customer <span style=\"color:#f95738 ;\"><strong>support 24/7</strong></span>, ensuring that you can overcome operational challenges with ease."
   },
   {
     "title": "Proven Results and Cost Efficiency",
-    "content": "Testimonials from satisfied users highlight the tangible benefits, including a <span style=\"color:#FC5185 ;\"><strong>20%</strong></span> average increase in reservations, <span style=\"color:#FC5185 ;\"><strong>100+</strong></span> manual hours eliminated monthly, and a <span style=\"color:#FC5185 ;\"><strong>26%</strong></span> lower cost compared to competitors. The software provides a <span style=\"color:#FC5185 ;\"><strong>1.5x</strong></span> technology return on investment."
+    "content": "Testimonials from satisfied users highlight the tangible benefits, including a <span style=\"color:#f95738 ;\"><strong>20%</strong></span> average increase in reservations, <span style=\"color:#f95738 ;\"><strong>100+</strong></span> manual hours eliminated monthly, and a <span style=\"color:#f95738 ;\"><strong>26%</strong></span> lower cost compared to competitors. The software provides a <span style=\"color:#f95738 ;\"><strong>1.5x</strong></span> technology return on investment."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

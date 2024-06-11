@@ -40,7 +40,7 @@ const uspData = [
     "content": "Manage schedules, tasks, and activities with a group calendar, facilitating better coordination and organization."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

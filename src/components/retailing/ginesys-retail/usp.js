@@ -17,7 +17,7 @@ const uspData = [
   },
   {
     "title": "Powerful Reporting Engine",
-    "content": "Ginesys offers a robust reporting tool with over <span style=\"color:#FC5185 ;\"><strong>200</strong></span> standard reports, allowing users to customize and analyze data according to their specific needs. The reporting engine is highlighted as a key feature, providing business owners with actionable insights for decision-making."
+    "content": "Ginesys offers a robust reporting tool with over <span style=\"color:#f95738 ;\"><strong>200</strong></span> standard reports, allowing users to customize and analyze data according to their specific needs. The reporting engine is highlighted as a key feature, providing business owners with actionable insights for decision-making."
   },
   {
     "title": "Audit Logs for Security",
@@ -28,7 +28,7 @@ const uspData = [
     "content": "For businesses involved in garment manufacturing, Ginesys provides cloud-based software that streamlines complex production processes. It ensures accurate calculations of finished costs and facilitates easy tracking of raw materials across different stages of production."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

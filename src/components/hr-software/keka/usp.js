@@ -25,10 +25,10 @@ const uspData = [
   },
   {
     "title": "Scalability",
-    "content": "Keka is favored by companies of varying sizes, ranging from <span style=\"color:#FC5185 ;\"><strong>20 to 20,000 employees.</strong></span> This indicates the software's scalability, catering to the needs of small businesses as well as large enterprises. The ability to scale ensures that Keka can grow alongside the evolving requirements of its user base."
+    "content": "Keka is favored by companies of varying sizes, ranging from <span style=\"color:#f95738 ;\"><strong>20 to 20,000 employees.</strong></span> This indicates the software's scalability, catering to the needs of small businesses as well as large enterprises. The ability to scale ensures that Keka can grow alongside the evolving requirements of its user base."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

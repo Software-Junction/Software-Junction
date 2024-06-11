@@ -20,7 +20,7 @@ const Ctrlfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Admissions Management
@@ -31,7 +31,7 @@ const Ctrlfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Library Management
@@ -42,7 +42,7 @@ const Ctrlfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; School Management
@@ -53,7 +53,7 @@ const Ctrlfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Financial Management
@@ -64,7 +64,7 @@ const Ctrlfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Student Info Management
@@ -75,7 +75,7 @@ const Ctrlfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Document Management
@@ -86,7 +86,7 @@ const Ctrlfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; College Management
@@ -97,7 +97,7 @@ const Ctrlfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Fee Management
@@ -108,7 +108,7 @@ const Ctrlfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Transport / Fleet management
@@ -119,7 +119,7 @@ const Ctrlfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Academics
@@ -130,7 +130,7 @@ const Ctrlfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Student Evaluation Report

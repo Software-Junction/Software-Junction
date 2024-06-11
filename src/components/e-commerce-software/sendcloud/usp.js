@@ -26,12 +26,12 @@ const uspData = [
   {
     title: "Extensive Integrations",
     content:
-      'Sendcloud offers integration with over <span style="color:#FC5185 ;"><strong>50</strong></span> popular e-commerce platforms, including Shopify, WooCommerce, Magento, and more. This broad range of integrations ensures compatibility with various systems, making it easier for businesses to adopt Sendcloud into their existing workflows.',
+      'Sendcloud offers integration with over <span style="color:#f95738 ;"><strong>50</strong></span> popular e-commerce platforms, including Shopify, WooCommerce, Magento, and more. This broad range of integrations ensures compatibility with various systems, making it easier for businesses to adopt Sendcloud into their existing workflows.',
   },
   {
     title: "Carrier Connectivity",
     content:
-      'Sendcloud enables businesses to connect to over <span style="color:#FC5185 ;"><strong>100</strong></span> different carriers. This allows flexibility in choosing the most suitable carriers for shipping. Access to a diverse range of carriers enhances shipping options and can lead to cost savings.',
+      'Sendcloud enables businesses to connect to over <span style="color:#f95738 ;"><strong>100</strong></span> different carriers. This allows flexibility in choosing the most suitable carriers for shipping. Access to a diverse range of carriers enhances shipping options and can lead to cost savings.',
   },
   {
     title: "Shipping Intelligence - Tracey",
@@ -41,7 +41,7 @@ const uspData = [
   {
     title: "Customer Success Stories",
     content:
-      'Sendcloud highlights success stories, such as a <span style="color:#FC5185 ;"><strong>58% </strong></span>increase in<span style=\"color:#FC5185 ;\"><strong> B2C orders</strong></span> for a case study with Boots. Customer success stories provide evidence of the platform\'s effectiveness and its positive impact on businesses.',
+      'Sendcloud highlights success stories, such as a <span style="color:#f95738 ;"><strong>58% </strong></span>increase in<span style=\"color:#f95738 ;\"><strong> B2C orders</strong></span> for a case study with Boots. Customer success stories provide evidence of the platform\'s effectiveness and its positive impact on businesses.',
   },
   {
     title: "Shipping Expertise",
@@ -51,16 +51,16 @@ const uspData = [
   {
     title: "Uptime and Documentation",
     content:
-      'Sendcloud boasts an uptime of <span style="color:#FC5185 ;"><strong>99.99%</strong></span>, ensuring reliability and availability for users. Clean and easy-to-read documentation for APIs makes it easier for businesses to integrate and utilize Sendcloud\'s features.',
+      'Sendcloud boasts an uptime of <span style="color:#f95738 ;"><strong>99.99%</strong></span>, ensuring reliability and availability for users. Clean and easy-to-read documentation for APIs makes it easier for businesses to integrate and utilize Sendcloud\'s features.',
   },
   {
     title: "Certifications",
     content:
-      "The platform is BSI certified, indicating compliance with <span style=\"color:#FC5185 ;\"><strong>ISO27001</strong></span> and other quality management standards. Certifications provide assurance to businesses regarding the platform's commitment to security and quality.",
+      "The platform is BSI certified, indicating compliance with <span style=\"color:#f95738 ;\"><strong>ISO27001</strong></span> and other quality management standards. Certifications provide assurance to businesses regarding the platform's commitment to security and quality.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Founded on Experience",
-    "content": "With a foundation established in <span style=\"color:#FC5185 ;\"><strong>2012</strong></span>, Picatic has a substantial track record in the industry. This longevity suggests a wealth of experience and expertise in catering to the diverse needs of event organizers."
+    "content": "With a foundation established in <span style=\"color:#f95738 ;\"><strong>2012</strong></span>, Picatic has a substantial track record in the industry. This longevity suggests a wealth of experience and expertise in catering to the diverse needs of event organizers."
   },
   {
     "title": "Strategic Investor Backing",
@@ -20,7 +20,7 @@ const uspData = [
     "content": "Picatic's presence in AdTech and E-commerce verticals suggests a tech-savvy approach, potentially incorporating advanced marketing and digital solutions into its platform for more effective event promotion and management."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

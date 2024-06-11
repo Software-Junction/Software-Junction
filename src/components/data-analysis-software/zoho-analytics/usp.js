@@ -20,7 +20,7 @@ const uspData = [
     "content": "The platform is equipped with time-tested and accredited enterprise-grade security features and a governance framework to ensure continuous data management and stewardship, providing peace of mind to users regarding data security and compliance."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

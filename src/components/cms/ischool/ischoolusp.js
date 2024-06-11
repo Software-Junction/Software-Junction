@@ -15,7 +15,7 @@ const uspData = [
   {
     title: "Safety First",
     content:
-      "The software <span style=\"color:#FC5185 ;\"><strong> guarantees a 100% secured environment</strong></span>, prioritizing the long-term safety of students, teachers, and school administrators. Robust data protection measures are implemented to safeguard sensitive information within the system.",
+      "The software <span style=\"color:#f95738 ;\"><strong> guarantees a 100% secured environment</strong></span>, prioritizing the long-term safety of students, teachers, and school administrators. Robust data protection measures are implemented to safeguard sensitive information within the system.",
   },
   {
     title: "Feature-Rich Platform",

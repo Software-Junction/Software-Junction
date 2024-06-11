@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "High-Performance Low-Code Platform",
     content:
-      "OutSystems is positioned as the <span style=\"color:#FC5185 ;\"><strong> #1 Low-Code Platform® </strong></span>, uniting design, code, and deployment for high-performance innovation. The platform is designed to deliver the speed needed for developing innovative applications that can scale to millions of users.",
+      "OutSystems is positioned as the <span style=\"color:#f95738 ;\"><strong> #1 Low-Code Platform® </strong></span>, uniting design, code, and deployment for high-performance innovation. The platform is designed to deliver the speed needed for developing innovative applications that can scale to millions of users.",
   },
   {
     title: "Full Stack Development and Cloud-Native Architecture",
@@ -35,7 +35,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

@@ -32,7 +32,7 @@ const uspData = [
     "content": "Xperts Hotel includes SMS integration, offering a powerful tool for businesses to promote their services and stay competitive in the market."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

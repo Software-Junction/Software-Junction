@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Trusted by Over 12000+ Businesses",
-    "content": "PACT has a track record of serving businesses of all sizes and across diverse industry verticals since its foundation in <span style=\"color:#FC5185 ;\"><strong>1998</strong></span>."
+    "content": "PACT has a track record of serving businesses of all sizes and across diverse industry verticals since its foundation in <span style=\"color:#f95738 ;\"><strong>1998</strong></span>."
   },
   {
     "title": "Seamless Integrations with 3rd Party Applications",
@@ -17,10 +17,10 @@ const uspData = [
   },
   {
     "title": "Modular ERP Software",
-    "content": "PACT RevenU offers <span style=\"color:#FC5185 ;\"><strong>15</strong></span> modules covering every business function, allowing businesses to customize their ERP solution according to specific needs."
+    "content": "PACT RevenU offers <span style=\"color:#f95738 ;\"><strong>15</strong></span> modules covering every business function, allowing businesses to customize their ERP solution according to specific needs."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

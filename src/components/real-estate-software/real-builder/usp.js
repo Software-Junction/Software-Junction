@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "25 Years of Experience",
     content:
-      "Real Builder comes with the backing of <span style=\"color:#FC5185 ;\"><strong>25 years</strong></span> of experience, indicating a wealth of industry knowledge and a proven track record in delivering successful projects.",
+      "Real Builder comes with the backing of <span style=\"color:#f95738 ;\"><strong>25 years</strong></span> of experience, indicating a wealth of industry knowledge and a proven track record in delivering successful projects.",
   },
   {
     title: "Successful Project Track Record",
@@ -35,7 +35,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

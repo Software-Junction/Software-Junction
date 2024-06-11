@@ -21,21 +21,21 @@ const uspData = [
   {
     title: "Customization and Reports",
     content:
-      'Custom fields in features like Requests for Information (RFIs) and equipment logs allow users to tailor the system to their specific needs. The software includes over <span style="color:#FC5185 ;"><strong>100</strong></span> reports and <span style="color:#FC5185 ;"><strong>50</strong></span> prebuilt forms, with the ability to create custom reports for better information management.',
+      'Custom fields in features like Requests for Information (RFIs) and equipment logs allow users to tailor the system to their specific needs. The software includes over <span style="color:#f95738 ;"><strong>100</strong></span> reports and <span style="color:#f95738 ;"><strong>50</strong></span> prebuilt forms, with the ability to create custom reports for better information management.',
   },
   {
     title: "Integration Capabilities",
     content:
-      'Contractor Foreman seamlessly integrates with popular tools such as QuickBooks, Google Calendar, <span style=\"color:#FC5185 ;\"><strong>Outlook 365, Zapier</strong></span>, and more. The platform\'s ability to connect with <span style="color:#FC5185 ;"><strong>50+</strong></span> other systems enhances efficiency and reduces the need for double data entry.',
+      'Contractor Foreman seamlessly integrates with popular tools such as QuickBooks, Google Calendar, <span style=\"color:#f95738 ;\"><strong>Outlook 365, Zapier</strong></span>, and more. The platform\'s ability to connect with <span style="color:#f95738 ;"><strong>50+</strong></span> other systems enhances efficiency and reduces the need for double data entry.',
   },
   {
     title: "Free Demo and Trial",
     content:
-      'Prospective users can sign up for a <span style="color:#FC5185 ;"><strong>30-day</strong></span> free trial or schedule a demo to experience Contractor Foreman in action. A <span style="color:#FC5185 ;"><strong>100-day</strong></span> money-back guarantee adds an extra layer of assurance for new customers.',
+      'Prospective users can sign up for a <span style="color:#f95738 ;"><strong>30-day</strong></span> free trial or schedule a demo to experience Contractor Foreman in action. A <span style="color:#f95738 ;"><strong>100-day</strong></span> money-back guarantee adds an extra layer of assurance for new customers.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

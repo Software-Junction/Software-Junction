@@ -5,15 +5,15 @@ import styles from "../greythr/grey.module.scss";
 const uspData = [
   {
     "title": "Customer Trust and Base",
-    "content": "Serving over <span style=\"color:#FC5185 ;\"><strong>20,000</strong></span> companies in <span style=\"color:#FC5185 ;\"><strong>250+</strong></span> cities indicates a strong customer base, showcasing that businesses across diverse industries and locations trust greytHR for their HR and payroll needs."
+    "content": "Serving over <span style=\"color:#f95738 ;\"><strong>20,000</strong></span> companies in <span style=\"color:#f95738 ;\"><strong>250+</strong></span> cities indicates a strong customer base, showcasing that businesses across diverse industries and locations trust greytHR for their HR and payroll needs."
   },
   {
     "title": "Statutory Compliance Assurance",
-    "content": "greytHR places a strong emphasis on ensuring <span style=\"color:#FC5185 ;\"><strong>100%</strong></span> statutory compliance. This is crucial for businesses to adhere to local and national regulations, reducing the risk of legal issues related to HR and payroll."
+    "content": "greytHR places a strong emphasis on ensuring <span style=\"color:#f95738 ;\"><strong>100%</strong></span> statutory compliance. This is crucial for businesses to adhere to local and national regulations, reducing the risk of legal issues related to HR and payroll."
   },
   {
     "title": "Proactive Customer Support",
-    "content": "greytHR offers proactive customer support, with a quick response time of under <span style=\"color:#FC5185 ;\"><strong>2 hours</strong></span> and a resolution time of under <span style=\"color:#FC5185 ;\"><strong>6 hours</strong></span> for the majority of queries. This support is crucial for minimizing downtime and ensuring smooth HR operations."
+    "content": "greytHR offers proactive customer support, with a quick response time of under <span style=\"color:#f95738 ;\"><strong>2 hours</strong></span> and a resolution time of under <span style=\"color:#f95738 ;\"><strong>6 hours</strong></span> for the majority of queries. This support is crucial for minimizing downtime and ensuring smooth HR operations."
   },
   {
     "title": "Growing Knowledge Framework",
@@ -21,7 +21,7 @@ const uspData = [
   },
   {
     "title": "Global Reach",
-    "content": "The platform's presence in <span style=\"color:#FC5185 ;\"><strong>22+ countries</strong></span> indicates that greytHR is designed to cater to a global audience, understanding and adapting to the diverse needs of businesses worldwide."
+    "content": "The platform's presence in <span style=\"color:#f95738 ;\"><strong>22+ countries</strong></span> indicates that greytHR is designed to cater to a global audience, understanding and adapting to the diverse needs of businesses worldwide."
   },
   {
     "title": "Continuous Improvement Focus",
@@ -32,7 +32,7 @@ const uspData = [
     "content": "A testimonial describing greytHR as a \"Good HR software for startups\" suggests that the platform is user-friendly and well-suited for businesses in their early stages, providing essential HR functionalities without unnecessary complexity."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

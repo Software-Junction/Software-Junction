@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Over Three Decades of Expertise",
     content:
-      "With more than <span style=\"color:#FC5185 ;\"><strong>32 years</strong></span> of experience in the field, Plan-A-Head brings a wealth of knowledge and expertise to the development of the Macadamia software. The longevity of their presence in the industry establishes trust among farmers who rely on their software solutions.",
+      "With more than <span style=\"color:#f95738 ;\"><strong>32 years</strong></span> of experience in the field, Plan-A-Head brings a wealth of knowledge and expertise to the development of the Macadamia software. The longevity of their presence in the industry establishes trust among farmers who rely on their software solutions.",
   },
   {
     title: "End-to-End Agricultural Management",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

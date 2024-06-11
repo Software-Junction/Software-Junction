@@ -5,7 +5,7 @@ import styles from "../fusionretail/fus.module.scss";
 const uspData = [
   {
     "title": "Global Presence",
-    "content": "With <span style=\"color:#FC5185 ;\"><strong>35,000</strong></span> installations in <span style=\"color:#FC5185 ;\"><strong>40</strong></span> countries and <span style=\"color:#FC5185 ;\"><strong>20</strong></span> years in business, FusionRetail has a global presence, indicating reliability and trustworthiness."
+    "content": "With <span style=\"color:#f95738 ;\"><strong>35,000</strong></span> installations in <span style=\"color:#f95738 ;\"><strong>40</strong></span> countries and <span style=\"color:#f95738 ;\"><strong>20</strong></span> years in business, FusionRetail has a global presence, indicating reliability and trustworthiness."
   },
   {
     "title": "Industry-Specific Solutions",
@@ -13,14 +13,14 @@ const uspData = [
   },
   {
     "title": "Performance Enhancements",
-    "content": "The software claims to bring about a <span style=\"color:#FC5185 ;\"><strong>20-30%</strong></span> increase in sales, reduced inventory holding costs, devoted staff with high efficiency, increased space productivity, maximized margin with lower investment, loyal customers for repeat business, and a reduction in expenses by <span style=\"color:#FC5185 ;\"><strong>20-40%.</strong></span>"
+    "content": "The software claims to bring about a <span style=\"color:#f95738 ;\"><strong>20-30%</strong></span> increase in sales, reduced inventory holding costs, devoted staff with high efficiency, increased space productivity, maximized margin with lower investment, loyal customers for repeat business, and a reduction in expenses by <span style=\"color:#f95738 ;\"><strong>20-40%.</strong></span>"
   },
   {
     "title": "Single Platform Efficiency",
     "content": "FusionRetail serves as a single platform, eliminating the complexity of maintaining separate software for POS, back office, and web store management."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -1311,7 +1311,7 @@ const List = ({ styles }) => {
                         <Link href="/appfolio-realm">
                           <p
                             className={`${styles["p-style1"]} border text-light  ps-2 pe-1 pt-1 rounded-3 `}
-                            style={{ backgroundColor: "#FC5185 " }}
+                            style={{ backgroundColor: "#f95738 " }}
                           >
                             4.4 <FaStar />
                           </p>

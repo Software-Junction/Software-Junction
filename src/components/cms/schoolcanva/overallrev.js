@@ -49,7 +49,7 @@ const Overallrev = ({ styles }) => {
                 <h5 className="mt-4">Schoolcanvas Pros and Cons</h5>
                 <div className="d-flex mt-3">
                     <div>
-                        <h5>Pros <span style={{color : '#FC5185 '}}><FaFaceSmile/></span></h5>
+                        <h5>Pros <span style={{color : '#f95738 '}}><FaFaceSmile/></span></h5>
                         <ul>
                             <li>Its User friendly software and awesome customer support whenever you need</li>
                             <li>All features in one app</li>
@@ -57,7 +57,7 @@ const Overallrev = ({ styles }) => {
                         </ul>
                     </div>
                     <div>
-                        <h5>Cons <span style={{color : '#FC5185 '}}><FaFaceFrown/></span></h5>
+                        <h5>Cons <span style={{color : '#f95738 '}}><FaFaceFrown/></span></h5>
                         <ul>
                             <li>As of now I have used all Academic Features and SchoolCanvas have everything</li>
                             <li>Some connectivity issues</li>

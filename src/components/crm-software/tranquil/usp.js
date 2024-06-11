@@ -24,7 +24,7 @@ const uspData = [
     "content": "Tailored features for real estate professionals, covering lead management, site visits, and deal closures."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -11,12 +11,12 @@ const uspData = [
   {
     title: "Proven Experience",
     content:
-      'With <span style="color:#FC5185 ;"><strong>20</strong></span> years of business experience, 3dcart has established itself as a reliable and experienced player in the eCommerce industry.',
+      'With <span style="color:#f95738 ;"><strong>20</strong></span> years of business experience, 3dcart has established itself as a reliable and experienced player in the eCommerce industry.',
   },
   {
     title: "Recognition and Awards",
     content:
-      'Awarded as the <span style="color:#FC5185 ;"><strong>2018</strong></span> Best Shopping Cart, 3dcart has been recognized for its excellence in providing eCommerce solutions.',
+      'Awarded as the <span style="color:#f95738 ;"><strong>2018</strong></span> Best Shopping Cart, 3dcart has been recognized for its excellence in providing eCommerce solutions.',
   },
   {
     title: "Top SEO Platform",
@@ -45,7 +45,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

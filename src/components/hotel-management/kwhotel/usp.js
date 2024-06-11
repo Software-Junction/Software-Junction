@@ -21,7 +21,7 @@ const uspData = [
   },
   {
     "title": "Innovative Technology",
-    "content": "Features like self-check-in kiosks <span style=\"color:#FC5185 ;\"><strong>(Sezam24)</strong></span> and integration with POSbistro POS system showcase KWHotel's commitment to adopting innovative technology for the benefit of both hoteliers and guests."
+    "content": "Features like self-check-in kiosks <span style=\"color:#f95738 ;\"><strong>(Sezam24)</strong></span> and integration with POSbistro POS system showcase KWHotel's commitment to adopting innovative technology for the benefit of both hoteliers and guests."
   },
   {
     "title": "Long-Term Rental Management",
@@ -29,14 +29,14 @@ const uspData = [
   },
   {
     "title": "Global Reach",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong>5,000</strong></span> customers in <span style=\"color:#FC5185 ;\"><strong>160</strong></span> countries and support for <span style=\"color:#FC5185 ;\"><strong>21</strong></span> languages, KWHotel demonstrates its global appeal and adaptability to diverse hotel environments."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong>5,000</strong></span> customers in <span style=\"color:#f95738 ;\"><strong>160</strong></span> countries and support for <span style=\"color:#f95738 ;\"><strong>21</strong></span> languages, KWHotel demonstrates its global appeal and adaptability to diverse hotel environments."
   },
   {
     "title": "Free Version with Hotel Audit",
-    "content": "The offer of a free version, coupled with a hotel audit providing over <span style=\"color:#FC5185 ;\"><strong>60+</strong></span> professional tips, showcases KWHotel's commitment to supporting hoteliers in optimizing their operations."
+    "content": "The offer of a free version, coupled with a hotel audit providing over <span style=\"color:#f95738 ;\"><strong>60+</strong></span> professional tips, showcases KWHotel's commitment to supporting hoteliers in optimizing their operations."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -29,10 +29,10 @@ const uspData = [
   },
   {
     "title": "Exclusive Benefits for Early Adopters",
-    "content": "Join <span style=\"color:#FC5185 ;\"><strong>'The Golden 200'</strong></span> club for exclusive updates and special benefits. Early adopters receive priority access to new features and improvements."
+    "content": "Join <span style=\"color:#f95738 ;\"><strong>'The Golden 200'</strong></span> club for exclusive updates and special benefits. Early adopters receive priority access to new features and improvements."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

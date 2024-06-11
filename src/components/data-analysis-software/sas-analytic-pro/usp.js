@@ -20,7 +20,7 @@ const uspData = [
     "content": "SAS Analytics Pro Advanced Programming offers additional statistical techniques for quality assessment, time-series analysis, and optimization, empowering statisticians with the tools they need to tackle complex analytical challenges."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

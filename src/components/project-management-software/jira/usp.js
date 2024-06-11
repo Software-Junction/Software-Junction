@@ -21,17 +21,17 @@ const uspData = [
   {
     title: "Proven Results",
     content:
-      'Highlighting benefits such as a <span style="color:#FC5185 ;"><strong>900%</strong></span> increase in deployments and a <span style="color:#FC5185 ;"><strong>50%</strong></span> decrease in cycle time. Trusted by more than <span style="color:#FC5185 ;"><strong>100,000</strong></span> organizations, reinforcing its effectiveness in real-world scenarios.',
+      'Highlighting benefits such as a <span style="color:#f95738 ;"><strong>900%</strong></span> increase in deployments and a <span style="color:#f95738 ;"><strong>50%</strong></span> decrease in cycle time. Trusted by more than <span style="color:#f95738 ;"><strong>100,000</strong></span> organizations, reinforcing its effectiveness in real-world scenarios.',
   },
   {
     title: "Scalability",
     content:
-      'Jira Software is built for teams of varying sizes, from <span style="color:#FC5185 ;"><strong>1</strong></span> to <span style="color:#FC5185 ;"><strong>35,000</strong></span>, without causing growing pains. Offers best-of-breed features, security, and privacy to scale seamlessly regardless of company size.',
+      'Jira Software is built for teams of varying sizes, from <span style="color:#f95738 ;"><strong>1</strong></span> to <span style="color:#f95738 ;"><strong>35,000</strong></span>, without causing growing pains. Offers best-of-breed features, security, and privacy to scale seamlessly regardless of company size.',
   },
   {
     title: "Free Forever Option",
     content:
-      'Jira Software provides a free forever plan for teams up to <span style="color:#FC5185 ;"><strong>10</strong></span> members, making it accessible for small teams. This allows teams to experience and benefit from Jira\'s features without immediate cost.',
+      'Jira Software provides a free forever plan for teams up to <span style="color:#f95738 ;"><strong>10</strong></span> members, making it accessible for small teams. This allows teams to experience and benefit from Jira\'s features without immediate cost.',
   },
   {
     title: "Enterprise Solutions",
@@ -45,7 +45,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

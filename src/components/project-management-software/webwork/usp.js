@@ -26,26 +26,26 @@ const uspData = [
   {
     title: "Award-Winning and Trusted Software",
     content:
-      'Positive reviews from <span style="color:#FC5185 ;"><strong>140K+</strong></span> happy users. Recognized for excellence and user satisfaction.',
+      'Positive reviews from <span style="color:#f95738 ;"><strong>140K+</strong></span> happy users. Recognized for excellence and user satisfaction.',
   },
   {
     title: "Data Security and GDPR Compliance",
     content:
-      "GDPR-compliant for data privacy and security. Screenshots are end-to-end encrypted and stored on <span style=\"color:#FC5185 ;\"><strong> Amazon S3 cloud</strong></span>.",
+      "GDPR-compliant for data privacy and security. Screenshots are end-to-end encrypted and stored on <span style=\"color:#f95738 ;\"><strong> Amazon S3 cloud</strong></span>.",
   },
   {
     title: "Exceptional Customer Support",
     content:
-      '<span style="color:#FC5185 ;"><strong>24/7</strong></span> customer support with a <span style="color:#FC5185 ;"><strong>1.5-hour</strong></span> average response time. Remarkable <span style="color:#FC5185 ;"><strong>99%</strong></span> customer happiness rating.',
+      '<span style="color:#f95738 ;"><strong>24/7</strong></span> customer support with a <span style="color:#f95738 ;"><strong>1.5-hour</strong></span> average response time. Remarkable <span style="color:#f95738 ;"><strong>99%</strong></span> customer happiness rating.',
   },
   {
     title: "Proven Time and Cost Savings",
     content:
-      'Teams using WebWork save an average of <span style="color:#FC5185 ;"><strong>41:30</strong></span> hours per month. Increased productivity by <span style="color:#FC5185 ;"><strong>25%</strong></span> on average after <span style="color:#FC5185 ;"><strong>3</strong></span> months of use. Potential to increase revenue by an average of <span style="color:#FC5185 ;"><strong>$799.6</strong></span> per month.',
+      'Teams using WebWork save an average of <span style="color:#f95738 ;"><strong>41:30</strong></span> hours per month. Increased productivity by <span style="color:#f95738 ;"><strong>25%</strong></span> on average after <span style="color:#f95738 ;"><strong>3</strong></span> months of use. Potential to increase revenue by an average of <span style="color:#f95738 ;"><strong>$799.6</strong></span> per month.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

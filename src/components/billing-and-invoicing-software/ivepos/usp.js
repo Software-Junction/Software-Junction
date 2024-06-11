@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Large Customer Base",
     content:
-      'Trusted by <span style="color:#FC5185 ;"><strong>30,000+</strong></span> businesses across <span style="color:#FC5185 ;"><strong>70+</strong></span> cities.',
+      'Trusted by <span style="color:#f95738 ;"><strong>30,000+</strong></span> businesses across <span style="color:#f95738 ;"><strong>70+</strong></span> cities.',
   },
   {
     title: "Global Presence",
@@ -33,7 +33,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

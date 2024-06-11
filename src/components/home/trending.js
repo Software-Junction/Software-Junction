@@ -103,7 +103,7 @@ export default Trending;
 //                 <h5 className="ps-4 pt-4">QuickHeal</h5>
 //                 <p
 //                   className={`${styles["p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-4`}
-//                   style={{backgroundColor: '#FC5185 '}}
+//                   style={{backgroundColor: '#f95738 '}}
 //                 >
 //                   4.4 <FaStar />
 //                 </p>
@@ -127,7 +127,7 @@ export default Trending;
 //                 <h5 className="ps-4 pt-4">Smartflo-cloud</h5>
 //                 <p
 //                   className={`${styles["p-style1"]} border text-light  ps-2 pt-1 rounded-3 ms-4`}
-//                   style={{backgroundColor: '#FC5185 '}}
+//                   style={{backgroundColor: '#f95738 '}}
 //                 >
 //                   4.4 <FaStar />
 //                 </p>
@@ -151,7 +151,7 @@ export default Trending;
 //                 <h5 className="ps-4 pt-4">SuperOps.Ai</h5>
 //                 <p
 //                   className={`${styles["p-style2"]} border text-light  ps-2 pt-1 rounded-3 ms-4`}
-//                   style={{backgroundColor: '#FC5185 '}}
+//                   style={{backgroundColor: '#f95738 '}}
 //                 >
 //                   4.4 <FaStar />
 //                 </p>
@@ -175,7 +175,7 @@ export default Trending;
 //                 <h5 className="ps-4 pt-4">Microsoft office 365</h5>
 //                 <p
 //                   className={`${styles["p-style3"]} border text-light  ps-2 pt-1 rounded-3 ms-4`}
-//                   style={{backgroundColor: '#FC5185 '}}
+//                   style={{backgroundColor: '#f95738 '}}
 //                 >
 //                   4.4 <FaStar />
 //                 </p>
@@ -199,7 +199,7 @@ export default Trending;
 //                 <h5 className="ps-4 pt-4">Zoho Books</h5>
 //                 <p
 //                   className={`${styles["p-style4"]} border text-light  ps-2 pt-1 rounded-3 ms-4`}
-//                   style={{backgroundColor: '#FC5185 '}}
+//                   style={{backgroundColor: '#f95738 '}}
 //                 >
 //                   4.4 <FaStar />
 //                 </p>
@@ -223,7 +223,7 @@ export default Trending;
 //                 <h5 className="ps-4 pt-4">Adobe Cloud for Enterprise</h5>
 //                 <p
 //                   className={`${styles["p-style5"]} border text-light  ps-2 pt-1 rounded-3 ms-4`}
-//                   style={{backgroundColor: '#FC5185 '}}
+//                   style={{backgroundColor: '#f95738 '}}
 //                 >
 //                   4.4 <FaStar />
 //                 </p>

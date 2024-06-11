@@ -5,7 +5,7 @@ import styles from "../creliohealth/cre.module.scss";
 const uspData = [
   {
     "title": "Highest Rated LIMS System",
-    "content": "CrelioHealth's LIMS System boasts a <span style=\"color:#FC5185;\"><strong>92%</strong></span> average satisfaction score worldwide. This high rating reflects the system's performance, reliability, and user satisfaction, indicating that it meets or exceeds the expectations of laboratories globally."
+    "content": "CrelioHealth's LIMS System boasts a <span style=\"color:#f95738;\"><strong>92%</strong></span> average satisfaction score worldwide. This high rating reflects the system's performance, reliability, and user satisfaction, indicating that it meets or exceeds the expectations of laboratories globally."
   },
   {
     "title": "Sample Journey Optimization",
@@ -32,7 +32,7 @@ const uspData = [
     "content": "CrelioHealth's LIMS System offers advanced features for future-ready automation. This includes rule-based auto-validation of lab reports, automated dispatch of completed lab reports, interface capabilities with lab instruments, and automatic outsourcing of test samples. These features position the system as a forward-looking solution that embraces automation for enhanced efficiency."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

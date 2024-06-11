@@ -17,7 +17,7 @@ const uspData = [
   },
   {
     "title": "Security and Trust",
-    "content": "Zoho People prioritizes trust and customer security, with data security and privacy measures in place. Built on a cloud infrastructure, the software ensures the safety and protection of data <span style=\"color:#FC5185 ;\"><strong>24/7.</strong></span>"
+    "content": "Zoho People prioritizes trust and customer security, with data security and privacy measures in place. Built on a cloud infrastructure, the software ensures the safety and protection of data <span style=\"color:#f95738 ;\"><strong>24/7.</strong></span>"
   },
   {
     "title": "Business Agility",
@@ -25,10 +25,10 @@ const uspData = [
   },
   {
     "title": "Integration Capabilities",
-    "content": "Zoho People integrates seamlessly with other essential tools and platforms, including QuickBooks, Zapier, <span style=\"color:#FC5185 ;\"><strong>Office 365,</strong></span> Zoho CRM, Adobe Sign, Zoho Recruit, and more. This integration enhances the overall efficiency of HR processes."
+    "content": "Zoho People integrates seamlessly with other essential tools and platforms, including QuickBooks, Zapier, <span style=\"color:#f95738 ;\"><strong>Office 365,</strong></span> Zoho CRM, Adobe Sign, Zoho Recruit, and more. This integration enhances the overall efficiency of HR processes."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

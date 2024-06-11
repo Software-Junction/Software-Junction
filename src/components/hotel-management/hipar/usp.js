@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "24x7 Connectivity",
-    "content": "The software ensures constant connectivity with users through <span style=\"color:#FC5185 ;\"><strong>24x7</strong></span> support via email and phone. This commitment to availability helps address any issues promptly and keeps operations running smoothly."
+    "content": "The software ensures constant connectivity with users through <span style=\"color:#f95738 ;\"><strong>24x7</strong></span> support via email and phone. This commitment to availability helps address any issues promptly and keeps operations running smoothly."
   },
   {
     "title": "Comprehensive Module Coverage",
@@ -20,7 +20,7 @@ const uspData = [
     "content": "Hipar prioritizes a user-friendly interface, incorporating thoughtful details that enhance the overall user experience. This focus on usability contributes to higher productivity and, ultimately, greater profitability for hotel businesses."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

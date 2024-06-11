@@ -40,7 +40,7 @@ const uspData = [
     "content": "MocDoc streamlines lab processes with features such as the ability to place orders for samples directly from the application, barcode printing, sample data recording, and integration with lab machines. This automation enhances efficiency, accuracy, and overall automation in the laboratory."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

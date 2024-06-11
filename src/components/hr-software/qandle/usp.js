@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "App Rating",
-    "content": "Qandle holds an impressive <span style=\"color:#FC5185 ;\"><strong>4.4 average rating from over 1300 users,</strong></span> making it a top choice in the HRMS software category. The high rating is attributed to Qandle's earnest approach towards users and their needs."
+    "content": "Qandle holds an impressive <span style=\"color:#f95738 ;\"><strong>4.4 average rating from over 1300 users,</strong></span> making it a top choice in the HRMS software category. The high rating is attributed to Qandle's earnest approach towards users and their needs."
   },
   {
     "title": "Smart Integrations",
@@ -17,11 +17,11 @@ const uspData = [
   },
   {
     "title": "Industry Recognition",
-    "content": "Qandle is recognized among the <span style=\"color:#FC5185 ;\"><strong>20 best</strong></span> HR Software Solutions globally, emphasizing its quality and effectiveness in the industry."
+    "content": "Qandle is recognized among the <span style=\"color:#f95738 ;\"><strong>20 best</strong></span> HR Software Solutions globally, emphasizing its quality and effectiveness in the industry."
   },
   {
     "title": "Wide Range of HR Modules",
-    "content": "Qandle provides a comprehensive suite of over <span style=\"color:#FC5185 ;\"><strong>40 HR modules,</strong></span> covering all aspects from hiring and onboarding to analytics and offboarding."
+    "content": "Qandle provides a comprehensive suite of over <span style=\"color:#f95738 ;\"><strong>40 HR modules,</strong></span> covering all aspects from hiring and onboarding to analytics and offboarding."
   },
   {
     "title": "Global Presence",
@@ -29,10 +29,10 @@ const uspData = [
   },
   {
     "title": "Reliability and Security",
-    "content": "Qandle ensures high reliability with <span style=\"color:#FC5185 ;\"><strong>99.99%</strong></span> uptime over the last three years. The software is highly secure, being ISO certified and GDPR compliant, instilling confidence in users regarding data protection."
+    "content": "Qandle ensures high reliability with <span style=\"color:#f95738 ;\"><strong>99.99%</strong></span> uptime over the last three years. The software is highly secure, being ISO certified and GDPR compliant, instilling confidence in users regarding data protection."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

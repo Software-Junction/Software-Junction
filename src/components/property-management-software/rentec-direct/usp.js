@@ -11,12 +11,12 @@ const uspData = [
   {
     title: "Pricing",
     content:
-      'Pricing starts at <span style="color:#FC5185 ;"><strong>$45/month</strong></span> for landlords and <span style="color:#FC5185 ;"><strong>$55/month</strong></span> for property managers. The transparent pricing structure provides clarity for potential users.',
+      'Pricing starts at <span style="color:#f95738 ;"><strong>$45/month</strong></span> for landlords and <span style="color:#f95738 ;"><strong>$55/month</strong></span> for property managers. The transparent pricing structure provides clarity for potential users.',
   },
   {
     title: "Tenant Screening",
     content:
-      'Offers instant credit, criminal, and eviction reports for comprehensive tenant screening. Pricing for reports is specified at <span style="color:#FC5185 ;"><strong>$18</strong></span> each.',
+      'Offers instant credit, criminal, and eviction reports for comprehensive tenant screening. Pricing for reports is specified at <span style="color:#f95738 ;"><strong>$18</strong></span> each.',
   },
   {
     title: "Segregates Solutions",
@@ -25,7 +25,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

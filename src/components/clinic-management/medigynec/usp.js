@@ -28,7 +28,7 @@ const uspData = [
     "content": "Users can generate actionable reports on patients to evaluate outcomes for various procedures such as Hormone Replacement Therapy (HRT), pap smears, and upcoming deliveries."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

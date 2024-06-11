@@ -16,7 +16,7 @@ const uspData = [
     "content": "MAXQDA offers flexibility with its compatibility across both Windows and macOS operating systems. This ensures consistency and ease of use, allowing researchers to seamlessly transition between different devices and environments."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

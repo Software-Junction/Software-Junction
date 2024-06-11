@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Proven Track Record",
-    "content": "With a remarkable <span style=\"color:#FC5185 ;\"><strong>10-year</strong></span> track record of success in diverse industries, Banibro Solutions has experience and expertise in delivering effective ERP solutions."
+    "content": "With a remarkable <span style=\"color:#f95738 ;\"><strong>10-year</strong></span> track record of success in diverse industries, Banibro Solutions has experience and expertise in delivering effective ERP solutions."
   },
   {
     "title": "Swift ERP Implementation",
@@ -24,7 +24,7 @@ const uspData = [
     "content": "Continuous guidance provided by proficient specialists, ensuring effortless and progressive system upkeep."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -16,11 +16,11 @@ const uspData = [
   {
     title: "Cost-Effectiveness",
     content:
-      "Mateusz Brzeski from Contact Solutions highlights a <span style=\"color:#FC5185 ;\"><strong> 40% cost reduction</strong></span> compared to other calling software, indicating CrazyCall's affordability and transparency in pricing, which could be a significant USP for businesses looking to cut costs without compromising on quality.",
+      "Mateusz Brzeski from Contact Solutions highlights a <span style=\"color:#f95738 ;\"><strong> 40% cost reduction</strong></span> compared to other calling software, indicating CrazyCall's affordability and transparency in pricing, which could be a significant USP for businesses looking to cut costs without compromising on quality.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

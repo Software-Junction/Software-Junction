@@ -28,7 +28,7 @@ const uspData = [
     "content": "The system emphasizes the importance of data security, offering secured access to sensitive information. Better control on operations is highlighted as a benefit, providing confidence to hotel management in handling critical data."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

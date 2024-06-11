@@ -21,14 +21,14 @@ const uspData = [
   },
   {
     "title": "Compliance with Clinical Establishment Rules 2018 (Nalam Clinic)",
-    "content": "NALAM Clinic is highlighted as designed exclusively to meet the requirements of the Clinical Establishment Rules <span style=\"color:#FC5185 ;\"><strong>2018.</strong></span> It emphasizes the importance of maintaining detailed medical records and databases to comply with regulatory standards."
+    "content": "NALAM Clinic is highlighted as designed exclusively to meet the requirements of the Clinical Establishment Rules <span style=\"color:#f95738 ;\"><strong>2018.</strong></span> It emphasizes the importance of maintaining detailed medical records and databases to comply with regulatory standards."
   },
   {
     "title": "Preventive Support Services",
     "content": "Nalam Support and Services include preventive support, emphasizing the idea that 'Prevention is better than Cure' for software issues. This proactive support approach may ensure the software's stability and reliability."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

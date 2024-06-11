@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Proven Track Record",
     content:
-      "AGRIVI highlights its success by being trusted by Fortune <span style=\"color:#FC5185 ;\"><strong>500 companies</strong></span>, showcasing case studies and testimonials from renowned organizations like Nestlé, demonstrating the platform's effectiveness in achieving sustainability goals, improving efficiency, and increasing revenue.",
+      "AGRIVI highlights its success by being trusted by Fortune <span style=\"color:#f95738 ;\"><strong>500 companies</strong></span>, showcasing case studies and testimonials from renowned organizations like Nestlé, demonstrating the platform's effectiveness in achieving sustainability goals, improving efficiency, and increasing revenue.",
   },
   {
     title: "Tailored Industry Reports",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

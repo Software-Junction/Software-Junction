@@ -20,7 +20,7 @@ const uspData = [
     "content": "Domo's customers, including well-known organizations like Regional One Health and Torchy's Tacos, testify to the platform's ability to provide real-time insights, enable quick decision-making, and drive transformative actions."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

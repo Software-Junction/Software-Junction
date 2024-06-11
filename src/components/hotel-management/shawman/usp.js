@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "Long-standing Industry Leadership",
-    "content": "ShawMan Technologies, the provider of ShawMan PMS, has been a leader in the HoReCa (Hotel, Restaurant, and Catering) industry for more than <span style=\"color:#FC5185 ;\"><strong>25 years.</strong></span> This extensive experience signifies reliability and expertise in delivering technology solutions."
+    "content": "ShawMan Technologies, the provider of ShawMan PMS, has been a leader in the HoReCa (Hotel, Restaurant, and Catering) industry for more than <span style=\"color:#f95738 ;\"><strong>25 years.</strong></span> This extensive experience signifies reliability and expertise in delivering technology solutions."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

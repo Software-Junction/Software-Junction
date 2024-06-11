@@ -11,7 +11,7 @@ const uspData = [
   {
     title: "Trusted by Leading Brands",
     content:
-      'With over <span style="color:#FC5185 ;"><strong>20,000</strong></span> businesses trusting Unicommerce, the platform has successfully helped companies maximize productivity and profitability. Testimonials from well-known brands like Honasa Consumer, Urban Company, Marico, and Edamama highlight the platform\'s positive impact on order management, inventory visibility, and business growth.',
+      'With over <span style="color:#f95738 ;"><strong>20,000</strong></span> businesses trusting Unicommerce, the platform has successfully helped companies maximize productivity and profitability. Testimonials from well-known brands like Honasa Consumer, Urban Company, Marico, and Edamama highlight the platform\'s positive impact on order management, inventory visibility, and business growth.',
   },
   {
     title: "Specialized E-commerce Enablement Solutions",
@@ -21,16 +21,16 @@ const uspData = [
   {
     title: "Extensive Integrations",
     content:
-      'Unicommerce boasts <span style="color:#FC5185 ;"><strong>200+</strong></span> plug-and-play integrations, offering seamless connectivity across global marketplaces, carts, logistics providers, ERP, and POS systems. This allows businesses to automate their operations efficiently.',
+      'Unicommerce boasts <span style="color:#f95738 ;"><strong>200+</strong></span> plug-and-play integrations, offering seamless connectivity across global marketplaces, carts, logistics providers, ERP, and POS systems. This allows businesses to automate their operations efficiently.',
   },
   {
     title: "Industry Recognition",
     content:
-      "Unicommerce has received awards and recognition, positioning itself as the  <span style=\"color:#FC5185 ;\"><strong>#1 cloud-based</strong></span> e-commerce solution and technology enablement platform for businesses.",
+      "Unicommerce has received awards and recognition, positioning itself as the  <span style=\"color:#f95738 ;\"><strong>#1 cloud-based</strong></span> e-commerce solution and technology enablement platform for businesses.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

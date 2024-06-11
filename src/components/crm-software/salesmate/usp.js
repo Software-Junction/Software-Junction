@@ -28,7 +28,7 @@ const uspData = [
     "content": "Can be used on mobile, tablet, or inside Gmail, enabling work from anywhere."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

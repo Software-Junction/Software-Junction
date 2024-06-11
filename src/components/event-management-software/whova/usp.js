@@ -5,11 +5,11 @@ import styles from "../whova/who.module.scss";
 const uspData = [
   {
     "title": "Award-Winning Event App",
-    "content": "Whova's event app has received recognition, including the ETA Best Event App Award and being part of the Global Top <span style=\"color:#FC5185 ;\"><strong>100</strong></span> Software Companies. This showcases the software's commitment to excellence and innovation in the event industry."
+    "content": "Whova's event app has received recognition, including the ETA Best Event App Award and being part of the Global Top <span style=\"color:#f95738 ;\"><strong>100</strong></span> Software Companies. This showcases the software's commitment to excellence and innovation in the event industry."
   },
   {
     "title": "Enhanced Attendee Experience",
-    "content": "The event app aims to make attendees <span style=\"color:#FC5185 ;\"><strong>10</strong></span> times happier by providing a seamless and engaging experience. Features like personalized agendas, live polls, messaging, and interactive elements contribute to a positive and memorable experience for event participants."
+    "content": "The event app aims to make attendees <span style=\"color:#f95738 ;\"><strong>10</strong></span> times happier by providing a seamless and engaging experience. Features like personalized agendas, live polls, messaging, and interactive elements contribute to a positive and memorable experience for event participants."
   },
   {
     "title": "Sponsor and Exhibitor Delight",
@@ -25,10 +25,10 @@ const uspData = [
   },
   {
     "title": "Proven Track Record",
-    "content": "The software boasts a track record of successfully revolutionizing event engagement, with mentions of facilitating <span style=\"color:#FC5185 ;\"><strong>3,000</strong></span> events in one year."
+    "content": "The software boasts a track record of successfully revolutionizing event engagement, with mentions of facilitating <span style=\"color:#f95738 ;\"><strong>3,000</strong></span> events in one year."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

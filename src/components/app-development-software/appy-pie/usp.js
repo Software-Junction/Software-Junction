@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Affordability",
     content:
-      "Appy Pie offers a no-code development platform that costs at least  <span style=\"color:#FC5185 ;\"><strong> 1/10th </strong></span>of the industry standards, making it highly accessible to businesses and individuals with varying budgets.",
+      "Appy Pie offers a no-code development platform that costs at least  <span style=\"color:#f95738 ;\"><strong> 1/10th </strong></span>of the industry standards, making it highly accessible to businesses and individuals with varying budgets.",
   },
   {
     title: "Speed and Efficiency",
@@ -45,7 +45,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

@@ -9,15 +9,15 @@ const uspData = [
   },
   {
     "title": "User Base and Global Reach",
-    "content": "Trusted by over <span style=\"color:#FC5185 ;\"><strong>50,000</strong></span> doctors. Over <span style=\"color:#FC5185 ;\"><strong>25</strong></span> million appointments booked. Used in <span style=\"color:#FC5185 ;\"><strong>5</strong></span> countries, indicating its international presence and adaptability."
+    "content": "Trusted by over <span style=\"color:#f95738 ;\"><strong>50,000</strong></span> doctors. Over <span style=\"color:#f95738 ;\"><strong>25</strong></span> million appointments booked. Used in <span style=\"color:#f95738 ;\"><strong>5</strong></span> countries, indicating its international presence and adaptability."
   },
   {
     "title": "Reducing No-Shows and Improving Efficiency",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>70%</strong></span> reduction in no-shows through automated appointment reminders. Easy rescheduling and cancellations for patients. Turn-by-turn directions via smart SMSes for seamless clinic visits."
+    "content": "<span style=\"color:#f95738 ;\"><strong>70%</strong></span> reduction in no-shows through automated appointment reminders. Easy rescheduling and cancellations for patients. Turn-by-turn directions via smart SMSes for seamless clinic visits."
   },
   {
     "title": "Digital Records and Patient Engagement",
-    "content": "Efficient management of patient data with easy access to digital health records. Automated sharing of records with patients, promoting eco-friendly practices. Increased appointment bookings <span style=\"color:#FC5185 ;\"><strong>(25%)</strong></span> when digital records are shared."
+    "content": "Efficient management of patient data with easy access to digital health records. Automated sharing of records with patients, promoting eco-friendly practices. Increased appointment bookings <span style=\"color:#f95738 ;\"><strong>(25%)</strong></span> when digital records are shared."
   },
   {
     "title": "Practo Prime",
@@ -29,10 +29,10 @@ const uspData = [
   },
   {
     "title": "Data Security Measures",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>256-bit</strong></span> end-to-end encryption and HIPAA-compliant data center for data safety. Regular automated backups and two-factor authentication. IP whitelisting for added security."
+    "content": "<span style=\"color:#f95738 ;\"><strong>256-bit</strong></span> end-to-end encryption and HIPAA-compliant data center for data safety. Regular automated backups and two-factor authentication. IP whitelisting for added security."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

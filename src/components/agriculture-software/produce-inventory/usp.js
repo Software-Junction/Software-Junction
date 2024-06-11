@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "Proven Track Record",
     content:
-      "With a history dating back to <span style=\"color:#FC5185 ;\"><strong>1989</strong></span>, WaudWare underscores its experience and reliability in providing software solutions tailored to the produce industry. This long-standing presence may instill confidence in potential customers.",
+      "With a history dating back to <span style=\"color:#f95738 ;\"><strong>1989</strong></span>, WaudWare underscores its experience and reliability in providing software solutions tailored to the produce industry. This long-standing presence may instill confidence in potential customers.",
   },
   {
     title: "Customer Base",
@@ -25,7 +25,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

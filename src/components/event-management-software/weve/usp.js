@@ -21,18 +21,18 @@ const uspData = [
   },
   {
     "title": "Seamless Transitions",
-    "content": "Weve can reportedly adjust in-person events to virtual or hybrid with as little as <span style=\"color:#FC5185 ;\"><strong>24</strong></span> hours notice. This highlights the platform's adaptability and responsiveness to unexpected changes, making it a reliable choice for dynamic event planning."
+    "content": "Weve can reportedly adjust in-person events to virtual or hybrid with as little as <span style=\"color:#f95738 ;\"><strong>24</strong></span> hours notice. This highlights the platform's adaptability and responsiveness to unexpected changes, making it a reliable choice for dynamic event planning."
   },
   {
     "title": "Over 20 Years of Experience",
-    "content": "The mention of over <span style=\"color:#FC5185 ;\"><strong>20</strong></span> years of experience suggests that Weve has a long and successful track record in the industry. This longevity can be seen as a testament to its reliability and expertise."
+    "content": "The mention of over <span style=\"color:#f95738 ;\"><strong>20</strong></span> years of experience suggests that Weve has a long and successful track record in the industry. This longevity can be seen as a testament to its reliability and expertise."
   },
   {
     "title": "Satisfied Customers",
     "content": "The list of well-known customers, including Adobe, Disney, Nike, SpaceX, eBay, Dropbox, LinkedIn, Sequoia, and Netflix, serves as social proof of Weve's credibility and appeal to reputable organizations."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

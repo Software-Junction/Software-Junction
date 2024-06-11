@@ -5,7 +5,7 @@ import styles from "../vtiger/vtiger.module.scss";
 const uspData = [
   {
     "title": "One View",
-    "content": "A <span style=\"color:#FC5185 ;\"><strong>360-degree</strong></span> view of customer data in a single place for better customer understanding."
+    "content": "A <span style=\"color:#f95738 ;\"><strong>360-degree</strong></span> view of customer data in a single place for better customer understanding."
   },
   {
     "title": "Affordable",
@@ -13,14 +13,14 @@ const uspData = [
   },
   {
     "title": "Integrations",
-    "content": "Connects with over <span style=\"color:#FC5185 ;\"><strong>500+</strong></span> apps for extended functionality."
+    "content": "Connects with over <span style=\"color:#f95738 ;\"><strong>500+</strong></span> apps for extended functionality."
   },
   {
     "title": "Security",
     "content": "Data security compliance with GDPR, ISO, and other standards built around an Open Source core."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

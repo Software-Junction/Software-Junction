@@ -20,7 +20,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Library Management
@@ -31,7 +31,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Faculty Management
@@ -42,7 +42,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Bookstore Management
@@ -53,7 +53,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Registration Management
@@ -64,7 +64,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Examination Management
@@ -75,7 +75,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Medical Management
@@ -86,7 +86,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Attendance management
@@ -97,7 +97,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Inventory Management
@@ -108,7 +108,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Student Info Management
@@ -119,7 +119,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; School Management
@@ -130,7 +130,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Classroom Management
@@ -141,7 +141,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Financial Management
@@ -152,7 +152,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Facility Management
@@ -163,7 +163,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Fee Management
@@ -174,7 +174,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Email Integration
@@ -185,7 +185,7 @@ const Astralfeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Time Table
@@ -198,7 +198,7 @@ const Astralfeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Database backup/restore (Management)
@@ -209,7 +209,7 @@ const Astralfeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Scheduling
@@ -220,7 +220,7 @@ const Astralfeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Student Information / Records
@@ -231,7 +231,7 @@ const Astralfeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; SMS
@@ -242,7 +242,7 @@ const Astralfeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Accounting
@@ -253,7 +253,7 @@ const Astralfeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Student Portal
@@ -264,7 +264,7 @@ const Astralfeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Academics
@@ -275,7 +275,7 @@ const Astralfeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Admission

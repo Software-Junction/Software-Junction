@@ -29,7 +29,7 @@ const Savialternative = ({styles}) => {
                     <Link href="/product">
                       <p
                         className={`${styles["sav-p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
-                        style={{backgroundColor: '#FC5185 '}}
+                        style={{backgroundColor: '#f95738 '}}
                       >
                         4.4 <FaStar />
                       </p>
@@ -70,7 +70,7 @@ const Savialternative = ({styles}) => {
                     <Link href="/product">
                       <p
                         className={`${styles["sav-p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
-                        style={{backgroundColor: '#FC5185 '}}
+                        style={{backgroundColor: '#f95738 '}}
                       >
                         4.4 <FaStar />
                       </p>
@@ -111,7 +111,7 @@ const Savialternative = ({styles}) => {
                     <Link href="/product">
                       <p
                         className={`${styles["sav-p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
-                        style={{backgroundColor: '#FC5185 '}}
+                        style={{backgroundColor: '#f95738 '}}
                       >
                         4.4 <FaStar />
                       </p>
@@ -152,7 +152,7 @@ const Savialternative = ({styles}) => {
                     <Link href="/product">
                       <p
                         className={`${styles["sav-p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
-                        style={{backgroundColor: '#FC5185 '}}
+                        style={{backgroundColor: '#f95738 '}}
                       >
                         4.4 <FaStar />
                       </p>

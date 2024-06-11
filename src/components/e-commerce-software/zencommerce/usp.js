@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Zero Commission on Sales",
     content:
-      'Unlike some e-commerce platforms, Zencommerce boasts a <span style="color:#FC5185 ;"><strong>0%</strong></span> commission on sales. This means that entrepreneurs can keep the entirety of their profits without a percentage being deducted by the platform.',
+      'Unlike some e-commerce platforms, Zencommerce boasts a <span style="color:#f95738 ;"><strong>0%</strong></span> commission on sales. This means that entrepreneurs can keep the entirety of their profits without a percentage being deducted by the platform.',
   },
   {
     title: "Graphic Themes and Payment System Included",
@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Over 250 Inbuilt Functions",
     content:
-      'Zencommerce offers a comprehensive set of over <span style="color:#FC5185 ;"><strong>250</strong></span> inbuilt functions that can be controlled with a single mouse click. This simplifies the process for users, allowing them to focus on managing orders and growing their online business.',
+      'Zencommerce offers a comprehensive set of over <span style="color:#f95738 ;"><strong>250</strong></span> inbuilt functions that can be controlled with a single mouse click. This simplifies the process for users, allowing them to focus on managing orders and growing their online business.',
   },
   {
     title: "Complete E-store Software with Integrations",
@@ -31,11 +31,11 @@ const uspData = [
   {
     title: "Modern Payment Solutions with Partnered Companies",
     content:
-      'Zencommerce provides fast, safe, and competitive modern payment solutions with no setup fee. Partnering with reputable payment companies like CCavenue and PayU, the platform offers preferential rates starting from <span style="color:#FC5185 ;"><strong>1%</strong></span> commission, making it an attractive option for Indian e-commerce.',
+      'Zencommerce provides fast, safe, and competitive modern payment solutions with no setup fee. Partnering with reputable payment companies like CCavenue and PayU, the platform offers preferential rates starting from <span style="color:#f95738 ;"><strong>1%</strong></span> commission, making it an attractive option for Indian e-commerce.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

@@ -20,13 +20,13 @@ const uspData = [
   },
   {
     "title": "Simplified 30-Day Free Trial",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>The 30-day</strong></span> free trial is presented as a straightforward way for libraries to experience the benefits of LibraryWorld without any commitment. This approach indicates a high level of confidence in the product and a commitment to customer satisfaction."
+    "content": "<span style=\"color:#f95738 ;\"><strong>The 30-day</strong></span> free trial is presented as a straightforward way for libraries to experience the benefits of LibraryWorld without any commitment. This approach indicates a high level of confidence in the product and a commitment to customer satisfaction."
   }
   
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

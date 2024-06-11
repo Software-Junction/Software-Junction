@@ -28,7 +28,7 @@ const uspData = [
     "content": "The presence of offices globally and partnerships with major players like British Airways and Booking.com indicate a broad industry reach and recognition."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -40,7 +40,7 @@ const uspData = [
     "content": "Additional solutions like Smart Boss, Promo Engine, Retail POS ERP Integration, MyShopz, and E-Invoice enhance the capabilities of the POS software."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

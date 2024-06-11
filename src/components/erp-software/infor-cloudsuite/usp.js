@@ -20,7 +20,7 @@ const uspData = [
     "content": "Emphasis on building long-term relationships beyond just software provision, suggesting a collaborative approach to addressing business challenges and goals"
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

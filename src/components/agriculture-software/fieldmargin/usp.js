@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "Efficient Farm Mapping",
     content:
-      "Map your farm quickly in just<span style=\"color:#FC5185 ;\"><strong> 30 minutes</strong></span>. Add detailed features such as crops, rotations, fences, gateways, buildings, and water pipes.",
+      "Map your farm quickly in just<span style=\"color:#f95738 ;\"><strong> 30 minutes</strong></span>. Add detailed features such as crops, rotations, fences, gateways, buildings, and water pipes.",
   },
   {
     title: "Livestock Management",
@@ -21,11 +21,11 @@ const uspData = [
   {
     title: "Global Adoption",
     content:
-      "Trusted by thousands of farms worldwide. Over <span style=\"color:#FC5185 ;\"><strong> 50 million</strong></span> hectares mapped, showcasing its reliability and scalability.",
+      "Trusted by thousands of farms worldwide. Over <span style=\"color:#f95738 ;\"><strong> 50 million</strong></span> hectares mapped, showcasing its reliability and scalability.",
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

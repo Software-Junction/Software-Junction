@@ -29,14 +29,14 @@ const uspData = [
   },
   {
     "title": "Wide Industry Adoption",
-    "content": "Trusted by over <span style=\"color:#FC5185 ;\"><strong>2000</strong></span> customers globally, including well-known brands."
+    "content": "Trusted by over <span style=\"color:#f95738 ;\"><strong>2000</strong></span> customers globally, including well-known brands."
   },
   {
     "title": "No-Code Customization",
     "content": "Managers can optimize processes without extensive IT support or coding."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

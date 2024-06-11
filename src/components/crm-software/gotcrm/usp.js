@@ -5,22 +5,22 @@ import styles from '../gotcrm/got.module.scss'
 const uspData = [
   {
     "title": "Global Recognition",
-    "content": "Trusted by <span style=\"color:#FC5185 ;\"><strong>2000</strong></span> customers worldwide, positioning it as the \"World's Best GOT CRM <span style=\"color:#FC5185 ;\"><strong>2020.</strong></span>\""
+    "content": "Trusted by <span style=\"color:#f95738 ;\"><strong>2000</strong></span> customers worldwide, positioning it as the \"World's Best GOT CRM <span style=\"color:#f95738 ;\"><strong>2020.</strong></span>\""
   },
   {
     "title": "Synergetic Integration with Social Apps",
-    "content": "Seamlessly collaborate with <span style=\"color:#FC5185 ;\"><strong>60+</strong></span> social apps, ensuring a connected digital ecosystem."
+    "content": "Seamlessly collaborate with <span style=\"color:#f95738 ;\"><strong>60+</strong></span> social apps, ensuring a connected digital ecosystem."
   },
   {
     "title": "Flexibility and Trial Period",
-    "content": "Experience the CRM's flexibility with a <span style=\"color:#FC5185 ;\"><strong>15-day</strong></span> free trial, no credit card required, and no hidden costs."
+    "content": "Experience the CRM's flexibility with a <span style=\"color:#f95738 ;\"><strong>15-day</strong></span> free trial, no credit card required, and no hidden costs."
   },
   {
     "title": "Tailored for All Business Types",
     "content": "Versatile CRM catering to enterprises and small businesses with lead and product management, sales automation, and anytime support."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

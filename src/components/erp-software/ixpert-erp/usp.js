@@ -36,7 +36,7 @@ const uspData = [
     "content": "Tailored solutions for managing supermarket, hypermarket, and apparel/footwear operations, providing real-time insights, visibility, and control over business processes to increase revenue and improve efficiency."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

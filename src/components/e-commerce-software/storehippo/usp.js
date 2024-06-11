@@ -6,22 +6,22 @@ const uspData = [
   {
     title: "Global Commerce Capabilities",
     content:
-      'Target both local and international markets with a single ecommerce platform. <span style="color:#FC5185 ;"><strong>300+</strong></span> Enterprise-grade features for a comprehensive global business solution. Multi Currency payments and invoicing for seamless transactions worldwide. Multilingual ecommerce solutions to cater to diverse language preferences. Build brand or country-specific stores to tailor your approach.',
+      'Target both local and international markets with a single ecommerce platform. <span style="color:#f95738 ;"><strong>300+</strong></span> Enterprise-grade features for a comprehensive global business solution. Multi Currency payments and invoicing for seamless transactions worldwide. Multilingual ecommerce solutions to cater to diverse language preferences. Build brand or country-specific stores to tailor your approach.',
   },
   {
     title: "Hyperlocal E-commerce Strength",
     content:
-      '<span style="color:#FC5185 ;"><strong>30+</strong></span> Logistics providers for efficient and varied delivery options. Inbuilt delivery boy management software for streamlined operations. Marketplace solutions to create and manage your brand marketplace. Faster deliveries with automatic order routing to the nearest dealers.',
+      '<span style="color:#f95738 ;"><strong>30+</strong></span> Logistics providers for efficient and varied delivery options. Inbuilt delivery boy management software for streamlined operations. Marketplace solutions to create and manage your brand marketplace. Faster deliveries with automatic order routing to the nearest dealers.',
   },
   {
     title: "Mobile-First Architecture",
     content:
-      'Acknowledging the significance of mobile commerce with <span style="color:#FC5185 ;"><strong>73%</strong></span> of ecommerce occurring on mobile devices. Zero additional cost to build Android and iOS apps for broader market reach. Quick loading pages with Single Page Application (SPA) for a seamless buying experience. Progressive Web App (PWA) stores that function as hybrid apps across devices. Ensures a seamless user experience even in poor or no internet zones.',
+      'Acknowledging the significance of mobile commerce with <span style="color:#f95738 ;"><strong>73%</strong></span> of ecommerce occurring on mobile devices. Zero additional cost to build Android and iOS apps for broader market reach. Quick loading pages with Single Page Application (SPA) for a seamless buying experience. Progressive Web App (PWA) stores that function as hybrid apps across devices. Ensures a seamless user experience even in poor or no internet zones.',
   },
   {
     title: "Faster Performance",
     content:
-      'Less than <span style="color:#FC5185 ;"><strong>50ms</strong></span> average response time, ensuring a fast and responsive platform. <span style="color:#FC5185 ;"><strong>500 million+</strong></span> API requests per month showcase scalability. <span style="color:#FC5185 ;"><strong>4x</strong></span> faster page switch time compared to traditional cart software. Unparalleled speed, catering to a few to billions of buyers.',
+      'Less than <span style="color:#f95738 ;"><strong>50ms</strong></span> average response time, ensuring a fast and responsive platform. <span style="color:#f95738 ;"><strong>500 million+</strong></span> API requests per month showcase scalability. <span style="color:#f95738 ;"><strong>4x</strong></span> faster page switch time compared to traditional cart software. Unparalleled speed, catering to a few to billions of buyers.',
   },
   {
     title: "Security Measures",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

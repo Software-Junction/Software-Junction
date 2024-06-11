@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Multicloud Adoption Acceleration",
-    "content": "According to a report by <span style=\"color:#FC5185 ;\"><strong>451</strong></span> Research, the COVID-19 pandemic accelerated cloud infrastructure and multicloud adoption. OCI enables innovation and cost optimization in healthcare through its cloud services."
+    "content": "According to a report by <span style=\"color:#f95738 ;\"><strong>451</strong></span> Research, the COVID-19 pandemic accelerated cloud infrastructure and multicloud adoption. OCI enables innovation and cost optimization in healthcare through its cloud services."
   },
   {
     "title": "AI Vision and Drones for Inventory Management",
@@ -33,7 +33,7 @@ const uspData = [
   },
   {
     "title": "Security and Compliance",
-    "content": "OCI undergoes regular independent third-party audits, ensuring compliance with industry standards such as ISO <span style=\"color:#FC5185 ;\"><strong>27000</strong></span> series, SOC, HDS, HIPAA, and HITRUST. Emphasis on data security and patient privacy in healthcare operations."
+    "content": "OCI undergoes regular independent third-party audits, ensuring compliance with industry standards such as ISO <span style=\"color:#f95738 ;\"><strong>27000</strong></span> series, SOC, HDS, HIPAA, and HITRUST. Emphasis on data security and patient privacy in healthcare operations."
   },
   {
     "title": "Customer Success Stories",
@@ -44,7 +44,7 @@ const uspData = [
     "content": "Offers a Free Tier for building, testing, and deploying applications on Oracle Cloud. Oracle Cloud Lift Services provide guidance from cloud engineers for planning, architecting, prototyping, and managing cloud migrations."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

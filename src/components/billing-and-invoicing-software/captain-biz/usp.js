@@ -6,12 +6,12 @@ const uspData = [
   {
     title: "Trusted and Recommended",
     content:
-      'Trusted by <span style="color:#FC5185 ;"><strong>46,000+</strong></span> SMBs across India and recommended by GST-Network.',
+      'Trusted by <span style="color:#f95738 ;"><strong>46,000+</strong></span> SMBs across India and recommended by GST-Network.',
   },
   {
     title: "Flexible Pricing Plans",
     content:
-      'Bronze to Diamond plans with <span style=\"color:#FC5185 ;\"><strong> 3 months </strong></span> <span style=\"color:#FC5185 ;\"><strong>10 years duration</strong></span>, offering a <span style="color:#FC5185 ;"><strong>14-day</strong></span> free trial.',
+      'Bronze to Diamond plans with <span style=\"color:#f95738 ;\"><strong> 3 months </strong></span> <span style=\"color:#f95738 ;\"><strong>10 years duration</strong></span>, offering a <span style="color:#f95738 ;"><strong>14-day</strong></span> free trial.',
   },
   {
     title: "Social Media Presence",
@@ -20,7 +20,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

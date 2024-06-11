@@ -5,7 +5,7 @@ import styles from "../ticket-tailor/tic.module.scss";
 const uspData = [
   {
     "title": "Unbeatable Value",
-    "content": "Flexible and fair pricing with no contracts or tiers. Claims to save <span style=\"color:#FC5185 ;\"><strong>73%</strong></span> on ticketing compared to a lead competitor."
+    "content": "Flexible and fair pricing with no contracts or tiers. Claims to save <span style=\"color:#f95738 ;\"><strong>73%</strong></span> on ticketing compared to a lead competitor."
   },
   {
     "title": "More than Ticketing",
@@ -17,7 +17,7 @@ const uspData = [
   },
   {
     "title": "Data Security",
-    "content": "Priority on data security with features like <span style=\"color:#FC5185 ;\"><strong>2 Factor</strong></span> Authentication, regular pen-testing, and sophisticated data encryption processes."
+    "content": "Priority on data security with features like <span style=\"color:#f95738 ;\"><strong>2 Factor</strong></span> Authentication, regular pen-testing, and sophisticated data encryption processes."
   },
   {
     "title": "Payments Compliance",
@@ -25,7 +25,7 @@ const uspData = [
   },
   {
     "title": "Uptime and Reliability",
-    "content": "Boasts <span style=\"color:#FC5185 ;\"><strong>99.99%</strong></span> uptime, claiming better performance than Facebook, Twitter, and Eventbrite."
+    "content": "Boasts <span style=\"color:#f95738 ;\"><strong>99.99%</strong></span> uptime, claiming better performance than Facebook, Twitter, and Eventbrite."
   },
   {
     "title": "Integration Compatibility",
@@ -33,14 +33,14 @@ const uspData = [
   },
   {
     "title": "Getting Started",
-    "content": "Offers free account setup, and the first <span style=\"color:#FC5185 ;\"><strong>5</strong></span> tickets are free to help users get started. Provides a demo call option with the team."
+    "content": "Offers free account setup, and the first <span style=\"color:#f95738 ;\"><strong>5</strong></span> tickets are free to help users get started. Provides a demo call option with the team."
   },
   {
     "title": "Calculations",
     "content": "Provides a comparison of Ticket Tailor's pricing against Eventbrite's, claiming significant cost savings."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

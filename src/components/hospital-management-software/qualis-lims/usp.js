@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "Data Integrity and Compliance",
-    "content": "Built from the ground up to meet data integrity, GxP, ISO<span style=\"color:#FC5185;\"><strong>17025</strong></span>, <span style=\"color:#FC5185;\"><strong>21</strong></span> CFR Part <span style=\"color:#FC5185;\"><strong>11</strong></span>, and EudraLex Annex <span style=\"color:#FC5185;\"><strong>11</strong></span> compliance. Provides full traceability with electronic records protection and electronic signature support."
+    "content": "Built from the ground up to meet data integrity, GxP, ISO<span style=\"color:#f95738;\"><strong>17025</strong></span>, <span style=\"color:#f95738;\"><strong>21</strong></span> CFR Part <span style=\"color:#f95738;\"><strong>11</strong></span>, and EudraLex Annex <span style=\"color:#f95738;\"><strong>11</strong></span> compliance. Provides full traceability with electronic records protection and electronic signature support."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

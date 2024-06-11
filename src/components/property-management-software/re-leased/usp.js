@@ -11,7 +11,7 @@ const uspData = [
   {
     title: "360-Degree Property View",
     content:
-      'The platform provides a complete view of properties, leases, tenants, and related information. This <span style="color:#FC5185;"><strong>360-degree</strong></span> perspective helps avoid costly mistakes, missed rent reviews, and human errors in property management.',
+      'The platform provides a complete view of properties, leases, tenants, and related information. This <span style="color:#f95738;"><strong>360-degree</strong></span> perspective helps avoid costly mistakes, missed rent reviews, and human errors in property management.',
   },
   {
     title: "Automated Reminders and Processes",
@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Global Customer Base",
     content:
-      'With over <span style="color:#FC5185;"><strong>1,300</strong></span> companies and <span style="color:#FC5185;"><strong>275,000+</strong></span> leases managed on the platform, Re-Leased has gained the trust of a diverse customer base globally.',
+      'With over <span style="color:#f95738;"><strong>1,300</strong></span> companies and <span style="color:#f95738;"><strong>275,000+</strong></span> leases managed on the platform, Re-Leased has gained the trust of a diverse customer base globally.',
   },
   {
     title: "Industry-Specific Solutions",
@@ -31,16 +31,16 @@ const uspData = [
   {
     title: "Trusted by Industry Leaders",
     content:
-      "Re-Leased is trusted by prominent names in commercial property, such as CPP, ActivityPlex, Stasia, AMS Property, Mackersey Development, Attune Asset Management, and <span style=\"color:#FC5185 ;\"><strong> 100</strong></span> Market Group, among others.",
+      "Re-Leased is trusted by prominent names in commercial property, such as CPP, ActivityPlex, Stasia, AMS Property, Mackersey Development, Attune Asset Management, and <span style=\"color:#f95738 ;\"><strong> 100</strong></span> Market Group, among others.",
   },
   {
     title: "Global Team and Presence",
     content:
-      'With a team of over <span style="color:#FC5185;"><strong>170</strong></span> professionals globally, Re-Leased ensures that users receive comprehensive support and assistance.',
+      'With a team of over <span style="color:#f95738;"><strong>170</strong></span> professionals globally, Re-Leased ensures that users receive comprehensive support and assistance.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

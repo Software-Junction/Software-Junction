@@ -6,12 +6,12 @@ const uspData = [
   {
     title: "Inventory Amplification",
     content:
-      "Synchronized stock across multiple locations, including  <span style=\"color:#FC5185 ;\"><strong> 3PL </strong></span>and FBA. Automated replenishment based on low stock or backorder. Warehouse Management System (WMS) for optimized picklists and precise inventory tracking down to bin locations. Automated Workflows: Order processing that can split orders across locations based on inventory. Unified pick, pack, and ship processes across channels. Dropshipping capabilities with automated purchase order creation. Truly Omnichannel: Real-time inventory synchronization across online channels, <span style=\"color:#FC5185 ;\"><strong> B2B</strong></span>, POS, and phone orders. Catalog management with bundle creation and price lists for better control over pricing. In-built POS module for retail chains and <span style=\"color:#FC5185 ;\"><strong> B2B</strong></span> order processing.",
+      "Synchronized stock across multiple locations, including  <span style=\"color:#f95738 ;\"><strong> 3PL </strong></span>and FBA. Automated replenishment based on low stock or backorder. Warehouse Management System (WMS) for optimized picklists and precise inventory tracking down to bin locations. Automated Workflows: Order processing that can split orders across locations based on inventory. Unified pick, pack, and ship processes across channels. Dropshipping capabilities with automated purchase order creation. Truly Omnichannel: Real-time inventory synchronization across online channels, <span style=\"color:#f95738 ;\"><strong> B2B</strong></span>, POS, and phone orders. Catalog management with bundle creation and price lists for better control over pricing. In-built POS module for retail chains and <span style=\"color:#f95738 ;\"><strong> B2B</strong></span> order processing.",
   },
   {
     title: "Ease of Use",
     content:
-      'Primaseller prides itself on being easy to use, with a quick setup process that allows users to connect all channels within <span style="color:#FC5185 ;"><strong>10</strong></span> minutes. Features like importing catalogs and customers from online channels and Excel imports contribute to user-friendly operations.',
+      'Primaseller prides itself on being easy to use, with a quick setup process that allows users to connect all channels within <span style="color:#f95738 ;"><strong>10</strong></span> minutes. Features like importing catalogs and customers from online channels and Excel imports contribute to user-friendly operations.',
   },
   {
     title: "Focus on Growth",
@@ -20,7 +20,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

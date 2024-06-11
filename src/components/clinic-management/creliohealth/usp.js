@@ -36,7 +36,7 @@ const uspData = [
     "content": "CrelioHealth prioritizes patient privacy and security. All patient records and transactions are stored and encrypted end-to-end in the patient management system. The platform is also HIPAA-compliant, ensuring that automated notifications and messages sent to patients are secure, timely, and error-free."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

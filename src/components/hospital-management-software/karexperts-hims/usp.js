@@ -36,7 +36,7 @@ const uspData = [
     "content": "With a corporate office in Gurugram, India, KareXpert caters to regions worldwide, including Southeast Asia, the Middle East, Africa, Europe, the US, and North America."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

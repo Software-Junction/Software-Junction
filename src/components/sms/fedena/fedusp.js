@@ -8,11 +8,11 @@ const uspData = [
   },
   {
     "title": "Global Reach",
-    "content": "What : <span style=\"color:#FC5185 ;\"><strong>Used by 40,000+ schools and colleges in over 200 countries,</strong></span> available in 20+ languages.<br/>Why: Offers a globally accessible platform, ensuring institutions worldwide can benefit from its features and capabilities."
+    "content": "What : <span style=\"color:#f95738 ;\"><strong>Used by 40,000+ schools and colleges in over 200 countries,</strong></span> available in 20+ languages.<br/>Why: Offers a globally accessible platform, ensuring institutions worldwide can benefit from its features and capabilities."
   },
   {
     "title": "Multipurpose Functionality",
-    "content": "What : <span style=\"color:#FC5185 ;\"><strong>With 100+ modules,</strong></span> Fedena serves as a multipurpose school management system. Provides a comprehensive solution adaptable to various educational needs, including examinations, online classes, and more."
+    "content": "What : <span style=\"color:#f95738 ;\"><strong>With 100+ modules,</strong></span> Fedena serves as a multipurpose school management system. Provides a comprehensive solution adaptable to various educational needs, including examinations, online classes, and more."
   },
   {
     "title": "Customized for Education Boards",
@@ -24,7 +24,7 @@ const uspData = [
   },
   {
     "title": "Integration Options",
-    "content": "What : <span style=\"color:#FC5185 ;\"><strong>Supports up to 20 integrations,</strong></span> including biometric, location, and payment gateway.<br/>Why : Enhances functionality by seamlessly integrating with other tools, offering a more holistic and efficient solution."
+    "content": "What : <span style=\"color:#f95738 ;\"><strong>Supports up to 20 integrations,</strong></span> including biometric, location, and payment gateway.<br/>Why : Enhances functionality by seamlessly integrating with other tools, offering a more holistic and efficient solution."
   },
   {
     "title": "Institute Testimonials",

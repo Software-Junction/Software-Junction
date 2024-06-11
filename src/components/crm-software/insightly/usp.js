@@ -20,7 +20,7 @@ const uspData = [
     "content": "AppConnect seamlessly integrates with applications across finance, HR, sales, marketing, support, devOps/IT, and e-commerce."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

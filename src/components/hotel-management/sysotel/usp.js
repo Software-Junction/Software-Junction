@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Revenue and Yield Optimization",
-    "content": "SYSOTEL.AI focuses on increasing both the top line (total revenue) and optimizing the bottom line (net profit) for hoteliers. By leveraging the system, hotels can potentially boost their revenue by <span style=\"color:#FC5185 ;\"><strong>15-20%</strong></span> and optimize their bottom line by <span style=\"color:#FC5185 ;\"><strong>12-18%,</strong></span> indicating a significant impact on overall financial performance."
+    "content": "SYSOTEL.AI focuses on increasing both the top line (total revenue) and optimizing the bottom line (net profit) for hoteliers. By leveraging the system, hotels can potentially boost their revenue by <span style=\"color:#f95738 ;\"><strong>15-20%</strong></span> and optimize their bottom line by <span style=\"color:#f95738 ;\"><strong>12-18%,</strong></span> indicating a significant impact on overall financial performance."
   },
   {
     "title": "Operational Solutions",
@@ -28,7 +28,7 @@ const uspData = [
     "content": "The primary goal of SYSOTEL.AI is to maximize hotel profitability. This involves the systematic collection and analysis of market data, AI/ML-based evaluation of market demand, rates, and inventory, and real-time distribution to optimize revenue generation."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

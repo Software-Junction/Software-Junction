@@ -20,7 +20,7 @@ const uspData = [
     "content": "The software is positioned as a choice for global leaders to stay ahead of competitors, implying its effectiveness and reliability in driving business success."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

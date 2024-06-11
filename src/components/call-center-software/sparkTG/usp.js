@@ -6,7 +6,7 @@ const uspData = [
   {
     title: "High Reliability and Uptime",
     content:
-      "With a <span style=\"color:#FC5185 ;\"><strong>99.99% uptime guarantee </strong></span> and backup solutions, SparkTG ensures uninterrupted service, crucial for businesses relying on telephony solutions.",
+      "With a <span style=\"color:#f95738 ;\"><strong>99.99% uptime guarantee </strong></span> and backup solutions, SparkTG ensures uninterrupted service, crucial for businesses relying on telephony solutions.",
   },
   {
     title: "Exceptional Audio Quality",
@@ -25,7 +25,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

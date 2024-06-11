@@ -26,16 +26,16 @@ const uspData = [
   {
     title: "Global Success Stories",
     content:
-      'Procore boasts a track record of over <span style="color:#FC5185 ;"><strong>1,000,000</strong></span> projects in <span style="color:#FC5185 ;"><strong>150+</strong></span> countries, with numerous industry leaders and well-known companies attesting to its effectiveness. Customer success stories, such as Ananda Development, highlight the positive impact Procore has on construction teams worldwide.',
+      'Procore boasts a track record of over <span style="color:#f95738 ;"><strong>1,000,000</strong></span> projects in <span style="color:#f95738 ;"><strong>150+</strong></span> countries, with numerous industry leaders and well-known companies attesting to its effectiveness. Customer success stories, such as Ananda Development, highlight the positive impact Procore has on construction teams worldwide.',
   },
   {
     title: "Extensive Integrations",
     content:
-      'Procore\'s App Marketplace features seamless integrations with over <span style="color:#FC5185 ;"><strong>500</strong></span> out-of-the-box applications, allowing users to connect to the tools they already use and love.',
+      'Procore\'s App Marketplace features seamless integrations with over <span style="color:#f95738 ;"><strong>500</strong></span> out-of-the-box applications, allowing users to connect to the tools they already use and love.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

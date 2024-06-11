@@ -16,7 +16,7 @@ const uspData = [
   {
     title: "Powerful Reporting and Dashboards",
     content:
-      "Experience the industry's most powerful reporting and dashboard capabilities. Celoxis offers <span style=\"color:#FC5185 ;\"><strong> 100% </strong></span>customizable dashboards that accelerate decision-making by visualizing data your way. Schedule reports directly to key stakeholders, enhancing transparency and accountability.",
+      "Experience the industry's most powerful reporting and dashboard capabilities. Celoxis offers <span style=\"color:#f95738 ;\"><strong> 100% </strong></span>customizable dashboards that accelerate decision-making by visualizing data your way. Schedule reports directly to key stakeholders, enhancing transparency and accountability.",
   },
   {
     title: "Top-Rated by Industry Experts",
@@ -26,7 +26,7 @@ const uspData = [
   {
     title: "Seamless Integration",
     content:
-      "Connect seamlessly with over <span style=\"color:#FC5185 ;\"><strong> 400</strong></span> popular business applications. Celoxis' easy-to-use and powerful API ensure smooth integration with any custom or in-house software, enhancing the adaptability of the solution.",
+      "Connect seamlessly with over <span style=\"color:#f95738 ;\"><strong> 400</strong></span> popular business applications. Celoxis' easy-to-use and powerful API ensure smooth integration with any custom or in-house software, enhancing the adaptability of the solution.",
   },
   {
     title: "Trusted by Thousands",
@@ -35,7 +35,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

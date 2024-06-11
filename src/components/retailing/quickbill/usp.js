@@ -24,7 +24,7 @@ const uspData = [
     "content": "QuickBill offers robust credit sales management features, including credit notes for sales returns. This is particularly advantageous for businesses engaged in credit transactions, providing them with effective tools for managing credit sales and returns."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -20,7 +20,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Leave Policy Management
@@ -31,7 +31,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Grant Opportunity Search
@@ -42,7 +42,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; For Classroom
@@ -53,7 +53,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Member Accounts
@@ -64,7 +64,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Support Audio/Images/Video
@@ -75,7 +75,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Medical Management
@@ -86,7 +86,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Reviewer Management
@@ -97,7 +97,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Event Calendar
@@ -108,7 +108,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Expense Tracking
@@ -119,7 +119,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Reception & Front Office
@@ -130,7 +130,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Taxation & Assessment
@@ -141,7 +141,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Dispatch Monitoring
@@ -152,7 +152,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Voting Management
@@ -163,7 +163,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Church Libraries
@@ -174,7 +174,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Student Group Management
@@ -185,7 +185,7 @@ const Edufeatures = ({ styles }) => {
             <div className="box h-100 shadow border rounded-4 p-4 bg-light">
               {" "}
               <h5>
-                <span style={{ color: "#FC5185 " }}>
+                <span style={{ color: "#f95738 " }}>
                   <FaCheck />
                 </span>
                 &nbsp; Facial Recognition Attendance
@@ -198,7 +198,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Shift Planner
@@ -209,7 +209,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; School Libraries
@@ -220,7 +220,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Applicant Portal
@@ -231,7 +231,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Recognition Management
@@ -242,7 +242,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Insightful Statistics
@@ -253,7 +253,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Parent Communication
@@ -264,7 +264,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Expense Manager
@@ -275,7 +275,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Exam Planner
@@ -286,7 +286,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Business Coaching
@@ -297,7 +297,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Law Libraries
@@ -308,7 +308,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Built in LMS
@@ -319,7 +319,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Teacher Dashboard
@@ -330,7 +330,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Confirmation/Reminders
@@ -341,7 +341,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Event Registration
@@ -352,7 +352,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Report Cards
@@ -363,7 +363,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Video Conferencing
@@ -374,7 +374,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Online Registration
@@ -385,7 +385,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Scorecards
@@ -396,7 +396,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Surveys
@@ -407,7 +407,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Commenting / Notes
@@ -418,7 +418,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Internal Meetings
@@ -429,7 +429,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Post-Meeting Tools
@@ -440,7 +440,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Evaluation Management
@@ -451,7 +451,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Financial Aid Management
@@ -462,7 +462,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Reviewer Portal
@@ -473,7 +473,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; HR Management
@@ -484,7 +484,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Academic/Education
@@ -495,7 +495,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Feedback System
@@ -506,7 +506,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Journal Formats
@@ -517,7 +517,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Employee Tracking
@@ -528,7 +528,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Attendance management
@@ -539,7 +539,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Time Table
@@ -550,7 +550,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Time Tracking
@@ -561,7 +561,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Reception & Front Office
@@ -572,7 +572,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Time & Attendance Management
@@ -583,7 +583,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Mobile App
@@ -594,7 +594,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; HR & Payroll
@@ -605,7 +605,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Inventory Management
@@ -616,7 +616,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Library Management
@@ -627,7 +627,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Payment Gateway Integration
@@ -638,7 +638,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Event Management
@@ -649,7 +649,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Leave Management
@@ -660,7 +660,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; SMS Integration
@@ -671,7 +671,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Payroll Integration
@@ -682,7 +682,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Multi-Location
@@ -693,7 +693,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Admissions Management
@@ -704,7 +704,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Punctuation Check
@@ -715,7 +715,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; DOCX
@@ -726,7 +726,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; LaTeX
@@ -737,7 +737,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Customized Report Cards
@@ -748,7 +748,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Download in PDF
@@ -759,7 +759,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; School branded App
@@ -770,7 +770,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Practice Test Question Bank
@@ -781,7 +781,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Mobile Donations
@@ -792,7 +792,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Self Assessment
@@ -803,7 +803,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Grammar Check
@@ -814,7 +814,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Plagiarism Detection
@@ -825,7 +825,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Gamification
@@ -836,7 +836,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Style Check
@@ -847,7 +847,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Scenario Planning
@@ -858,7 +858,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Analytics & Reporting
@@ -869,7 +869,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Contextual Speller
@@ -880,7 +880,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Dictionary / Thesaurus
@@ -891,7 +891,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Spell Check
@@ -902,7 +902,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Test / Quiz Creation
@@ -913,7 +913,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Live Tutorials
@@ -924,7 +924,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; User Access Permissions
@@ -935,7 +935,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Barcoding/RFID
@@ -946,7 +946,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Skill Testing
@@ -957,7 +957,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Check-in / Check-out
@@ -968,7 +968,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Member Communities
@@ -979,7 +979,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Learner Portal
@@ -990,7 +990,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Volunteer Profiles
@@ -1001,7 +1001,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Leave & Absence Reporting
@@ -1012,7 +1012,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Faculty / Staff Management
@@ -1023,7 +1023,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Expiration Management
@@ -1034,7 +1034,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Form Builder
@@ -1045,7 +1045,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Real-time Chat
@@ -1056,7 +1056,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Text Messaging
@@ -1067,7 +1067,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; KPIs
@@ -1078,7 +1078,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Onsite Registration
@@ -1089,7 +1089,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Group Registration
@@ -1100,7 +1100,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Refund Automation
@@ -1111,7 +1111,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Class Summary
@@ -1122,7 +1122,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Curve Scores
@@ -1133,7 +1133,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Independent/Private
@@ -1144,7 +1144,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Certification Tracking
@@ -1155,7 +1155,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Grade Calculations
@@ -1166,7 +1166,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Weighted Assignments
@@ -1177,7 +1177,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Lesson Planning
@@ -1188,7 +1188,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Electronic Assignments & Tests
@@ -1199,7 +1199,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Parent/Student Portal
@@ -1210,7 +1210,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Parent / Child Records
@@ -1221,7 +1221,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; For Private Schools
@@ -1232,7 +1232,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; For Summer Camps
@@ -1243,7 +1243,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Academic / Education
@@ -1254,7 +1254,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Food Program Records
@@ -1265,7 +1265,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Lesson Plan Management
@@ -1276,7 +1276,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Committee Meetings
@@ -1287,7 +1287,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Board Meetings
@@ -1298,7 +1298,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Self Check-in/Check-out
@@ -1309,7 +1309,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Instructor Management
@@ -1320,7 +1320,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Customizable Forms
@@ -1331,7 +1331,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Applicant Management
@@ -1342,7 +1342,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; View Student Monitors
@@ -1353,7 +1353,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Food Service Management
@@ -1364,7 +1364,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Class Loading
@@ -1375,7 +1375,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Field Reporting
@@ -1386,7 +1386,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Incident Mapping
@@ -1397,7 +1397,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Public Libraries
@@ -1408,7 +1408,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Communication Tools
@@ -1419,7 +1419,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Private Libraries
@@ -1430,7 +1430,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Lesson Notes
@@ -1441,7 +1441,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Life Coaching
@@ -1452,7 +1452,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Interactive Learning
@@ -1463,7 +1463,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Mentor/Coach Matching
@@ -1474,7 +1474,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Sport Coaching
@@ -1485,7 +1485,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Recommendations Management
@@ -1496,7 +1496,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; White Label
@@ -1507,7 +1507,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Reviewer Management
@@ -1518,7 +1518,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Computer Based Test
@@ -1529,7 +1529,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Online Classes
@@ -1540,7 +1540,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Upcoming Batches
@@ -1551,7 +1551,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Group Attendance
@@ -1562,7 +1562,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Geofencing Time And Attendance
@@ -1573,7 +1573,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Attendance Reporting
@@ -1584,7 +1584,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Employee Hourly Wages
@@ -1595,7 +1595,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Live Class Enablement
@@ -1606,7 +1606,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Admin Controls
@@ -1617,7 +1617,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Automatic Test Creation & Grading
@@ -1628,7 +1628,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Dedicated Support Manager
@@ -1639,7 +1639,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Centralized Finance Manager
@@ -1650,7 +1650,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Deviceless GPS Tracking
@@ -1661,7 +1661,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Immunization Records
@@ -1672,7 +1672,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Testing / Assessments
@@ -1683,7 +1683,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Transcripts
@@ -1694,7 +1694,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Media Management
@@ -1705,7 +1705,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Tests/Assessments
@@ -1716,7 +1716,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Virtual Classroom
@@ -1727,7 +1727,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Progress Reports
@@ -1738,7 +1738,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Discount/Coupon Management
@@ -1749,7 +1749,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Class Registration
@@ -1760,7 +1760,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Activity Registration
@@ -1772,7 +1772,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Remote Access/Control
@@ -1784,7 +1784,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Learning Plans
@@ -1796,7 +1796,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Grant Award Tracking
@@ -1808,7 +1808,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Individual Reports
@@ -1820,7 +1820,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Online Applications
@@ -1832,7 +1832,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Aggregate Reports
@@ -1844,7 +1844,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Group Summary Report
@@ -1856,7 +1856,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Rater Tracking
@@ -1868,7 +1868,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Photo Gallery
@@ -1880,7 +1880,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Orientation Management
@@ -1892,7 +1892,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Agenda Management
@@ -1904,7 +1904,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Meeting Preparation Tools
@@ -1916,7 +1916,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Skills Assessments
@@ -1928,7 +1928,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Individualized Assessments
@@ -1940,7 +1940,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Colleges / Universities
@@ -1952,7 +1952,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Program Management
@@ -1964,7 +1964,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Engagement Monitoring
@@ -1976,7 +1976,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Scoring
@@ -1988,7 +1988,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Online Calendar
@@ -2000,7 +2000,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Corporate/Business
@@ -2012,7 +2012,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Menu Planning
@@ -2024,7 +2024,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Content Management
@@ -2036,7 +2036,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Reporting/Analytics
@@ -2048,7 +2048,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Automated Shift Scheduling
@@ -2060,7 +2060,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Import references
@@ -2072,7 +2072,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Centralized Monitoring
@@ -2084,7 +2084,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Real-time Scheduling
@@ -2095,7 +2095,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Resource Scheduling
@@ -2106,7 +2106,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Class Scheduling
@@ -2117,7 +2117,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Space Planning
@@ -2128,7 +2128,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Room Scheduling
@@ -2139,7 +2139,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Parents Survey
@@ -2150,7 +2150,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Online Assessment
@@ -2161,7 +2161,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Re-Formatting Manuscripts
@@ -2172,7 +2172,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Customisable Sections
@@ -2183,7 +2183,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Automatic Citation Numbering
@@ -2194,7 +2194,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Tables
@@ -2205,7 +2205,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Auto-Formatting Manuscripts
@@ -2216,7 +2216,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Equation Editor
@@ -2227,7 +2227,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Suggestions
@@ -2238,7 +2238,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Admission CRM
@@ -2249,7 +2249,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; School Bus Attendance
@@ -2260,7 +2260,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Student Management
@@ -2271,7 +2271,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Daily Reports
@@ -2282,7 +2282,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Parent App
@@ -2293,7 +2293,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Teacher App
@@ -2304,7 +2304,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Alumni Management
@@ -2315,7 +2315,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Recurring Donations
@@ -2326,7 +2326,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Receipts / Statements
@@ -2337,7 +2337,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Donor Management
@@ -2348,7 +2348,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Recurring Giving
@@ -2359,7 +2359,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Member Database
@@ -2370,7 +2370,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Online Donations
@@ -2381,7 +2381,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Contribution Tracking
@@ -2392,7 +2392,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Committee Management
@@ -2403,7 +2403,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Approval Process Management
@@ -2414,7 +2414,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Minutes Management
@@ -2425,7 +2425,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Overtime Calculation
@@ -2436,7 +2436,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; GPS tracking
@@ -2447,7 +2447,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Competency Management
@@ -2458,7 +2458,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Automated Scheduling
@@ -2469,7 +2469,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Group Scheduling
@@ -2480,7 +2480,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Donor Database
@@ -2491,7 +2491,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Donation Tracking
@@ -2502,7 +2502,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Email Marketing
@@ -2513,7 +2513,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Reporting & Statistics
@@ -2524,7 +2524,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Fees
@@ -2535,7 +2535,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Gift Management
@@ -2546,7 +2546,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Online payments
@@ -2557,7 +2557,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Class Management
@@ -2568,7 +2568,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Certification Management
@@ -2579,7 +2579,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Gradebook
@@ -2590,7 +2590,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Social Learning
@@ -2601,7 +2601,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Training Companies
@@ -2612,7 +2612,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; eCommerce
@@ -2623,7 +2623,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Synchronous Learning
@@ -2634,7 +2634,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Blended Learning
@@ -2645,7 +2645,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Live / Video Conferencing
@@ -2656,7 +2656,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Appointment Scheduling
@@ -2667,7 +2667,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Skills Tracking
@@ -2678,7 +2678,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Built-In Course Authoring
@@ -2689,7 +2689,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Corporate / Business
@@ -2700,7 +2700,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Asynchronous Learning
@@ -2711,7 +2711,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Group Management
@@ -2722,7 +2722,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Audio / Video Conferencing
@@ -2733,7 +2733,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Discussion Boards
@@ -2744,7 +2744,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Brainstorming
@@ -2755,7 +2755,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Materials Management
@@ -2766,7 +2766,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Pledge Management
@@ -2777,7 +2777,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Fixed Asset Management
@@ -2788,7 +2788,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Time Management
@@ -2799,7 +2799,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Member Directory
@@ -2810,7 +2810,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Volunteer Management
@@ -2821,7 +2821,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Internet Usage Monitoring
@@ -2832,7 +2832,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Succession Planning
@@ -2843,7 +2843,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Scorecarding
@@ -2854,7 +2854,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Communication Management
@@ -2865,7 +2865,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Progress Tracking
@@ -2876,7 +2876,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Multi-User Collaboration
@@ -2887,7 +2887,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Weighted Questions
@@ -2898,7 +2898,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Maintenance Management
@@ -2909,7 +2909,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Individual Development Plans
@@ -2920,7 +2920,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Wait List Management
@@ -2931,7 +2931,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; K-12
@@ -2942,7 +2942,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Student Portal
@@ -2953,7 +2953,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Question Randomizing
@@ -2964,7 +2964,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; School District
@@ -2975,7 +2975,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Student Information / Records
@@ -2986,7 +2986,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Question Branching
@@ -2997,7 +2997,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Results Reporting
@@ -3008,7 +3008,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Special Education
@@ -3019,7 +3019,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Parent Portal
@@ -3030,7 +3030,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Cafeteria Management
@@ -3041,7 +3041,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Enrollment Management
@@ -3052,7 +3052,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Housing Management
@@ -3063,7 +3063,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Clinic Management
@@ -3074,7 +3074,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Higher Education
@@ -3085,7 +3085,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Independent / Private
@@ -3096,7 +3096,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Facility Management
@@ -3107,7 +3107,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Curriculum Management
@@ -3118,7 +3118,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Classroom Management
@@ -3129,7 +3129,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Assessment Management
@@ -3140,7 +3140,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Behavior Management
@@ -3151,7 +3151,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Bookstore Management
@@ -3162,7 +3162,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Attendance Tracking
@@ -3173,7 +3173,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Member Portal
@@ -3184,7 +3184,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Facility Scheduling
@@ -3195,7 +3195,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Badge Management
@@ -3206,7 +3206,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; HRM
@@ -3217,7 +3217,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Paper Tests
@@ -3228,7 +3228,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Client Management
@@ -3239,7 +3239,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Generate Reports
@@ -3250,7 +3250,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Employee Training
@@ -3261,7 +3261,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Overtime Management
@@ -3272,7 +3272,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Student Manage
@@ -3283,7 +3283,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Roadmapping
@@ -3294,7 +3294,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Customization
@@ -3305,7 +3305,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Mailing list management
@@ -3316,7 +3316,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Question Bank
@@ -3327,7 +3327,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Quizzes
@@ -3338,7 +3338,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Marketing Management
@@ -3349,7 +3349,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Automatic Grading
@@ -3360,7 +3360,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Customizable Workflows
@@ -3371,7 +3371,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Certification
@@ -3382,7 +3382,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Time Reminder
@@ -3393,7 +3393,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Result Release
@@ -3404,7 +3404,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; School Management
@@ -3415,7 +3415,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; College Management
@@ -3426,7 +3426,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Purchase Management
@@ -3437,7 +3437,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Accessibility
@@ -3448,7 +3448,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Multi-Located Branched Integration
@@ -3459,7 +3459,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Biometric Attendance Management
@@ -3470,7 +3470,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Student Evaluation Report
@@ -3481,7 +3481,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Faculty Management
@@ -3492,7 +3492,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Staff Management
@@ -3503,7 +3503,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Lecture Management
@@ -3514,7 +3514,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Laboratory Management
@@ -3525,7 +3525,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Course Management
@@ -3536,7 +3536,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Data Management
@@ -3547,7 +3547,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Reporting
@@ -3558,7 +3558,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Grading Assessment System Integration
@@ -3569,7 +3569,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Job Category Management
@@ -3580,7 +3580,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Admission Receipt Generation
@@ -3591,7 +3591,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; E-library Members Management
@@ -3602,7 +3602,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Rich Text Editor
@@ -3613,7 +3613,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Mileage Tracking
@@ -3624,7 +3624,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Self-Registration
@@ -3635,7 +3635,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Vehicle Tracking
@@ -3646,7 +3646,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Integrate Different Payment Gateways
@@ -3657,7 +3657,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Forms Management
@@ -3668,7 +3668,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Purchasing
@@ -3679,7 +3679,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Customizable Reporting
@@ -3690,7 +3690,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Online Results Declaration
@@ -3701,7 +3701,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Student Assessment Reports
@@ -3712,7 +3712,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Calendar Management
@@ -3723,7 +3723,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Polls / Voting
@@ -3734,7 +3734,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Role-Based Permissions
@@ -3745,7 +3745,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Contract Management
@@ -3756,7 +3756,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Mass Texting
@@ -3767,7 +3767,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Scheduling
@@ -3778,7 +3778,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Approval Process Control
@@ -3789,7 +3789,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Self Check-in / Check-Out
@@ -3800,7 +3800,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Ad hoc Analysis
@@ -3811,7 +3811,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Feedback Management
@@ -3822,7 +3822,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Goal Setting / Tracking
@@ -3833,7 +3833,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Key Performance Indicators
@@ -3844,7 +3844,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Strategic Planning
@@ -3855,7 +3855,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Kiosk Integration
@@ -3866,7 +3866,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Budgeting & Forecasting
@@ -3877,7 +3877,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Surveys & Feedback
@@ -3888,7 +3888,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Consolidation / Roll-Up
@@ -3899,7 +3899,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Serials Management
@@ -3910,7 +3910,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Ad Hoc Reports
@@ -3921,7 +3921,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Quantitative Analysis
@@ -3932,7 +3932,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Qualitative Analysis
@@ -3943,7 +3943,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Campaign Management
@@ -3954,7 +3954,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Goal Management
@@ -3965,7 +3965,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Unicode Compliance
@@ -3976,7 +3976,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Acquisition Management
@@ -3987,7 +3987,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; OPAC
@@ -3998,7 +3998,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Reserve Shelf Management
@@ -4009,7 +4009,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Circulation Management
@@ -4020,7 +4020,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Payment Processing
@@ -4031,7 +4031,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Barcoding / RFID
@@ -4042,7 +4042,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Fee Collection
@@ -4053,7 +4053,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Search Functionality
@@ -4064,7 +4064,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Patron Management
@@ -4075,7 +4075,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Residential Properties
@@ -4086,7 +4086,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Periodicals Management
@@ -4097,7 +4097,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Resource Management
@@ -4108,7 +4108,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Accounting Integration
@@ -4119,7 +4119,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Requirements Management
@@ -4130,7 +4130,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Billing & Invoicing
@@ -4141,7 +4141,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Idea Management
@@ -4152,7 +4152,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Overtime Tracking
@@ -4163,7 +4163,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Collaboration
@@ -4174,7 +4174,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Workflow Management
@@ -4185,7 +4185,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Electronic Signature
@@ -4196,7 +4196,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Compliance Management
@@ -4207,7 +4207,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Absence Management
@@ -4218,7 +4218,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Employee Scheduling
@@ -4229,7 +4229,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Timesheet Management
@@ -4240,7 +4240,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; FMLA Tracking
@@ -4251,7 +4251,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Franchise Management
@@ -4262,7 +4262,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Work order management
@@ -4273,7 +4273,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; User Management
@@ -4284,7 +4284,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Assessments
@@ -4295,7 +4295,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Applications Management
@@ -4306,7 +4306,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Interview Management
@@ -4317,7 +4317,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Self Service Portal
@@ -4328,7 +4328,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Candidate Management
@@ -4339,7 +4339,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Onboarding
@@ -4350,7 +4350,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Recruiting Management
@@ -4361,7 +4361,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Collaboration Tools
@@ -4372,7 +4372,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Employee Management
@@ -4383,7 +4383,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Application Integration
@@ -4394,7 +4394,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Fundraising Management
@@ -4405,7 +4405,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Barcode Scanning
@@ -4416,7 +4416,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; General Ledger
@@ -4427,7 +4427,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Invoices
@@ -4438,7 +4438,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Applicant tracking
@@ -4449,7 +4449,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Data Security
@@ -4460,7 +4460,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Dispatching
@@ -4471,7 +4471,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Accounts payable
@@ -4482,7 +4482,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Fund accounting
@@ -4493,7 +4493,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Catalog Management
@@ -4504,7 +4504,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; API Integration
@@ -4515,7 +4515,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Mobile App
@@ -4526,7 +4526,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Membership Management
@@ -4537,7 +4537,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Contact Management
@@ -4548,7 +4548,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Travel Management
@@ -4559,7 +4559,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Transport / Fleet management
@@ -4570,7 +4570,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Training Management
@@ -4581,7 +4581,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; User Customisation
@@ -4592,7 +4592,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; SMS
@@ -4603,7 +4603,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Registration Management
@@ -4614,7 +4614,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Student Info Management
@@ -4625,7 +4625,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Survey Management
@@ -4636,7 +4636,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Shift Management
@@ -4647,7 +4647,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Multiuser Login & Role-based access control
@@ -4658,7 +4658,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Project Management
@@ -4669,7 +4669,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Payroll Management
@@ -4680,7 +4680,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Online Tests & Psychometric Tests
@@ -4691,7 +4691,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Knowledge Management
@@ -4702,7 +4702,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Mobile Support
@@ -4713,7 +4713,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Kiosk System
@@ -4724,7 +4724,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Mass Email
@@ -4735,7 +4735,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Expense Tracking
@@ -4746,7 +4746,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Help Desk
@@ -4757,7 +4757,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Event Calendar
@@ -4768,7 +4768,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Financial Management
@@ -4779,7 +4779,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Hostel Management
@@ -4790,7 +4790,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Fee Management
@@ -4801,7 +4801,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Employee Self Service Management
@@ -4812,7 +4812,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Examination Management
@@ -4823,7 +4823,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; CRM integration
@@ -4834,7 +4834,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Activities
@@ -4845,7 +4845,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Database backup/restore (Management)
@@ -4856,7 +4856,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Attendance management
@@ -4867,7 +4867,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Customer Management
@@ -4878,7 +4878,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Document Management
@@ -4889,7 +4889,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Email Integration
@@ -4900,7 +4900,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Courses and Batches Management
@@ -4911,7 +4911,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; CRM
@@ -4922,7 +4922,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Admission
@@ -4933,7 +4933,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Accounting
@@ -4944,7 +4944,7 @@ const Edufeatures = ({ styles }) => {
                 <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                   {" "}
                   <h5>
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaCheck />
                     </span>
                     &nbsp; Academics

@@ -137,7 +137,7 @@ const Escreview = ({ styles }) => {
                 <div>
                   <h5>
                     Pros{" "}
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaFaceSmile />
                     </span>
                   </h5>
@@ -156,7 +156,7 @@ const Escreview = ({ styles }) => {
                 <div>
                   <h5>
                     Cons{" "}
-                    <span style={{ color: "#FC5185 " }}>
+                    <span style={{ color: "#f95738 " }}>
                       <FaFaceFrown />
                     </span>
                   </h5>
@@ -287,7 +287,7 @@ const Escreview = ({ styles }) => {
             </p>
             <h5 className="mt-4">
               Pros{" "}
-              <span style={{ color: "#FC5185 " }}>
+              <span style={{ color: "#f95738 " }}>
                 <FaFaceSmile />
               </span>
             </h5>
@@ -299,7 +299,7 @@ const Escreview = ({ styles }) => {
             </p>
             <h5>
               Cons{" "}
-              <span style={{ color: "#FC5185 " }}>
+              <span style={{ color: "#f95738 " }}>
                 <FaFaceFrown />
               </span>
             </h5>
@@ -426,7 +426,7 @@ const Escreview = ({ styles }) => {
             </p>
             <h5 className="mt-4">
               Pros{" "}
-              <span style={{ color: "#FC5185 " }}>
+              <span style={{ color: "#f95738 " }}>
                 <FaFaceSmile />
               </span>
             </h5>
@@ -438,7 +438,7 @@ const Escreview = ({ styles }) => {
             </p>
             <h5>
               Cons{" "}
-              <span style={{ color: "#FC5185 " }}>
+              <span style={{ color: "#f95738 " }}>
                 <FaFaceFrown />
               </span>
             </h5>

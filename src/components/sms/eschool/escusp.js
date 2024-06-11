@@ -24,11 +24,11 @@ const uspData = [
   },
   {
     "title": "Experience",
-    "content": "<span style=\"color:#FC5185 ;\"><strong>Developed since 2008,</strong></span> eSchoolApp has undergone continuous evolution based on feedback from millions of end-users. This extensive experience contributes to a highly evolved, tried, and tested product."
+    "content": "<span style=\"color:#f95738 ;\"><strong>Developed since 2008,</strong></span> eSchoolApp has undergone continuous evolution based on feedback from millions of end-users. This extensive experience contributes to a highly evolved, tried, and tested product."
   }
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

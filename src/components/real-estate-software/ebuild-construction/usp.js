@@ -20,7 +20,7 @@ const uspData = [
     "content": "eBuild Construction has a diverse portfolio of projects, including new homes, renovations, additions, and more. This showcases the company's versatility and ability to handle projects of varying sizes and complexities."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

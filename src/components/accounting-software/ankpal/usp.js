@@ -13,7 +13,7 @@ const uspData = [
     "content": "The ease of accessing things. Channelized Sales and Purchases. Account integration. Direct salary components. Manual management of bank transaction integration. I am using these sections daily and my work is being completed smoothly without any errors. The customer support team is very kind and helpful at any point in time. They care for me and they have answered my silly questions very politely."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

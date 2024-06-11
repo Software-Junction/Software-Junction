@@ -24,7 +24,7 @@ const uspData = [
     "content": "<strong>Complimentary 1-hour assessment:</strong> Conducting an initial assessment to identify the needs, strengths, weaknesses, and opportunities within the healthcare practice.<br/><strong>In-depth evaluation:</strong> Further evaluating and addressing practice goals, strategic plans, technology needs, competitive landscape, clinical processes, and financial processes."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

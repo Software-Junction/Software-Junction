@@ -5,7 +5,7 @@ import styles from "../servetel/servetel.module.scss";
 const uspData = [
   {
     "title": "Reliability and Uptime",
-    "content": "Servetel guarantees <span style=\"color:#FC5185 ;\"><strong>99.99%</strong></span> uptime with <span style=\"color:#FC5185 ;\"><strong>N+1</strong></span> redundant infrastructure, ensuring stable and efficient communication between businesses and their customers."
+    "content": "Servetel guarantees <span style=\"color:#f95738 ;\"><strong>99.99%</strong></span> uptime with <span style=\"color:#f95738 ;\"><strong>N+1</strong></span> redundant infrastructure, ensuring stable and efficient communication between businesses and their customers."
   },
   {
     "title": "Customer Support",
@@ -17,7 +17,7 @@ const uspData = [
   }
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

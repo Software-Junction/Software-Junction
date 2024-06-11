@@ -29,7 +29,7 @@ const uspData = [
   },
   {
     "title": "Global Presence",
-    "content": "The software has international resellers in the USA, UAE, Indonesia, and India. It has maintained a presence in the evolving IT landscape since<span style=\"color:#FC5185 ;\"><strong> 2006.</strong></span>"
+    "content": "The software has international resellers in the USA, UAE, Indonesia, and India. It has maintained a presence in the evolving IT landscape since<span style=\"color:#f95738 ;\"><strong> 2006.</strong></span>"
   }
   
   
@@ -38,7 +38,7 @@ const uspData = [
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

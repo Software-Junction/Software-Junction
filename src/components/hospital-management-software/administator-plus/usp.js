@@ -5,7 +5,7 @@ import styles from "../administator-plus/adm.module.scss";
 const uspData = [
   {
     "title": "Extensive Experience",
-    "content": "Accurate Infosoft boasts over <span style=\"color:#FC5185 ;\"><strong>25</strong></span> years of experience in the field, having implemented the Hospital Management System in over <span style=\"color:#FC5185 ;\"><strong>200</strong></span> locations."
+    "content": "Accurate Infosoft boasts over <span style=\"color:#f95738 ;\"><strong>25</strong></span> years of experience in the field, having implemented the Hospital Management System in over <span style=\"color:#f95738 ;\"><strong>200</strong></span> locations."
   },
   {
     "title": "Advanced Technology Integration",
@@ -25,7 +25,7 @@ const uspData = [
   },
   {
     "title": "Proven Track Record",
-    "content": "Accurate Infosoft highlights achievements, including over <span style=\"color:#FC5185 ;\"><strong>8000</strong></span> successful projects, <span style=\"color:#FC5185 ;\"><strong>2000+</strong></span> satisfied clients, <span style=\"color:#FC5185 ;\"><strong>100+</strong></span> professionals, and <span style=\"color:#FC5185 ;\"><strong>25+</strong></span> years of experience."
+    "content": "Accurate Infosoft highlights achievements, including over <span style=\"color:#f95738 ;\"><strong>8000</strong></span> successful projects, <span style=\"color:#f95738 ;\"><strong>2000+</strong></span> satisfied clients, <span style=\"color:#f95738 ;\"><strong>100+</strong></span> professionals, and <span style=\"color:#f95738 ;\"><strong>25+</strong></span> years of experience."
   },
   {
     "title": "Global Presence",
@@ -36,7 +36,7 @@ const uspData = [
     "content": "The provided contact information and the option to request a call back or contact the sales team via WhatsApp emphasize a commitment to responsive customer support."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

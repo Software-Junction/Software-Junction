@@ -35,7 +35,7 @@ const uspData = [
     "content": "The mention of a carefully and simply designed system, combined with the right ingredients, emphasizes the software's development process. This suggests a level of expertise and thoughtfulness in crafting a solution that meets the diverse needs of educational institutions."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

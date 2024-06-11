@@ -11,7 +11,7 @@ const uspData = [
   {
     title: "Seamless Integration",
     content:
-      "Zoho Projects provides the advantage of integrating with various Zoho apps and third-party applications such as Zoho CRM, Zendesk, Slack, GitHub, JIRA, Zapier, Dropbox, <span style=\"color:#FC5185 ;\"><strong> Office 365</strong></span>, and more, offering a holistic ecosystem for users.",
+      "Zoho Projects provides the advantage of integrating with various Zoho apps and third-party applications such as Zoho CRM, Zendesk, Slack, GitHub, JIRA, Zapier, Dropbox, <span style=\"color:#f95738 ;\"><strong> Office 365</strong></span>, and more, offering a holistic ecosystem for users.",
   },
   {
     title: "Customer Testimonials and Recognition",
@@ -21,7 +21,7 @@ const uspData = [
   {
     title: "Security and Reliability",
     content:
-      "Zoho Projects emphasizes its commitment to security with <span style=\"color:#FC5185 ;\"><strong> ISO 27001</strong></span> enterprise-grade standards, providing users with a reliable and secure environment for their project management needs.",
+      "Zoho Projects emphasizes its commitment to security with <span style=\"color:#f95738 ;\"><strong> ISO 27001</strong></span> enterprise-grade standards, providing users with a reliable and secure environment for their project management needs.",
   },
   {
     title: "Free and Affordable Options",
@@ -30,7 +30,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

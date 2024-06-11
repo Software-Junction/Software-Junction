@@ -5,7 +5,7 @@ import styles from "../docengage/doc.module.scss";
 const uspData = [
   {
     "title": "Comprehensive Hospital Management",
-    "content": "DocEngage offers a single platform to run the entire hospital. Six products, <span style=\"color:#FC5185;\"><strong>30+</strong></span> apps, <span style=\"color:#FC5185;\"><strong>100+</strong></span> integrations & APIs, and connected systems provide a holistic solution."
+    "content": "DocEngage offers a single platform to run the entire hospital. Six products, <span style=\"color:#f95738;\"><strong>30+</strong></span> apps, <span style=\"color:#f95738;\"><strong>100+</strong></span> integrations & APIs, and connected systems provide a holistic solution."
   },
   {
     "title": "Digital Healthcare Solutions",
@@ -13,7 +13,7 @@ const uspData = [
   },
   {
     "title": "Security and Compliance",
-    "content": "Ensures the highest level of security with communication encrypted through SSL, HTTPS, and geographically dispersed data centers. Adheres to ISO <span style=\"color:#FC5185;\"><strong>27001</strong></span>, ISO <span style=\"color:#FC5185;\"><strong>27017</strong></span>, ISO <span style=\"color:#FC5185;\"><strong>27018</strong></span> standards. Implements role-based access control to prevent unauthorized access to patient information. Sensitive data encryption for protection during transmission and storage. HIPAA compliance for safe and secure access to patient records."
+    "content": "Ensures the highest level of security with communication encrypted through SSL, HTTPS, and geographically dispersed data centers. Adheres to ISO <span style=\"color:#f95738;\"><strong>27001</strong></span>, ISO <span style=\"color:#f95738;\"><strong>27017</strong></span>, ISO <span style=\"color:#f95738;\"><strong>27018</strong></span> standards. Implements role-based access control to prevent unauthorized access to patient information. Sensitive data encryption for protection during transmission and storage. HIPAA compliance for safe and secure access to patient records."
   },
   {
     "title": "Testimonials from Trusted Clients",
@@ -28,7 +28,7 @@ const uspData = [
     "content": "Packages Appointment, EHR, HCRM, HMS, and Telehealth in a single product, reducing costs and increasing productivity. Utilizes AI for predictability."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

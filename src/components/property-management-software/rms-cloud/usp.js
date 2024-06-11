@@ -6,12 +6,12 @@ const uspData = [
   {
     title: "Global Trust",
     content:
-      'Trusted by over <span style="color:#FC5185;"><strong>7,000</strong></span> properties in <span style="color:#FC5185;"><strong>70</strong></span> countries with a user base of <span style="color:#FC5185;"><strong>184,000</strong></span> global users. Over <span style="color:#FC5185;"><strong>40 years</strong></span> of industry expertise, making RMS a market leader.',
+      'Trusted by over <span style="color:#f95738;"><strong>7,000</strong></span> properties in <span style="color:#f95738;"><strong>70</strong></span> countries with a user base of <span style="color:#f95738;"><strong>184,000</strong></span> global users. Over <span style="color:#f95738;"><strong>40 years</strong></span> of industry expertise, making RMS a market leader.',
   },
   {
     title: "Scalability and Flexibility",
     content:
-      'Built as an enterprise-enabled solution, RMS is scalable for large hospitality groups. Centralized database for multiple properties, group-level functionality, and <span style="color:#FC5185;"><strong>550+</strong></span> integration partners for a customized tech stack.',
+      'Built as an enterprise-enabled solution, RMS is scalable for large hospitality groups. Centralized database for multiple properties, group-level functionality, and <span style="color:#f95738;"><strong>550+</strong></span> integration partners for a customized tech stack.',
   },
   {
     title: "Innovative Technology",
@@ -26,7 +26,7 @@ const uspData = [
   {
     title: "Enterprise Features",
     content:
-      'RMS offers group-level functionality, customizable dashboards, <span style="color:#FC5185;"><strong>360-degree</strong></span> reporting, and a range of enterprise features designed for businesses with multiple properties.',
+      'RMS offers group-level functionality, customizable dashboards, <span style="color:#f95738;"><strong>360-degree</strong></span> reporting, and a range of enterprise features designed for businesses with multiple properties.',
   },
   {
     title: "Innovative Payment Solutions",
@@ -35,7 +35,7 @@ const uspData = [
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

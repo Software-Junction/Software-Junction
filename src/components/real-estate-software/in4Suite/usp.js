@@ -24,7 +24,7 @@ const uspData = [
     "content": "The Lead Product Expert, Ashok Kumar, assures potential clients that In4Suite® is the best ERP for Real Estate businesses and invites them to request a free demo for a quick and informative overview."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

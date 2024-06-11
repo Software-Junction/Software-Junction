@@ -41,16 +41,16 @@ const uspData = [
   {
     title: "24/7 Support",
     content:
-      'Need help? We\'ve got you covered. Our excellent support team is available <span style="color:#FC5185 ;"><strong> 24/7</strong></span> to assist you whenever you need it, ensuring a smooth experience for creators at any time of the day.',
+      'Need help? We\'ve got you covered. Our excellent support team is available <span style="color:#f95738 ;"><strong> 24/7</strong></span> to assist you whenever you need it, ensuring a smooth experience for creators at any time of the day.',
   },
   {
     title: "Thriving Community",
     content:
-      'Join a community of over <span style="color:#FC5185 ;"><strong>32,000</strong></span> creators who have successfully turned their passion into income using our platform. Benefit from shared experiences, insights, and support from like-minded individuals.',
+      'Join a community of over <span style="color:#f95738 ;"><strong>32,000</strong></span> creators who have successfully turned their passion into income using our platform. Benefit from shared experiences, insights, and support from like-minded individuals.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

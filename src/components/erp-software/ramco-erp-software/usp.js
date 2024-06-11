@@ -16,7 +16,7 @@ const uspData = [
     "content": "Ramco ERP software is intelligent and intuitive, proactively presenting relevant information to users based on their role and security privileges."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

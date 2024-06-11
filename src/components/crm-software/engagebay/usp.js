@@ -16,7 +16,7 @@ const uspData = [
     "content": "The platform emphasizes automation across marketing, email sequences, ticket management, and deal tracking for increased efficiency."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

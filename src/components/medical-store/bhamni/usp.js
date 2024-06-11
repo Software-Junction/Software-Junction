@@ -17,7 +17,7 @@ const uspData = [
   },
   {
     "title": "Extensive Implementations",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong>500 sites across 50+</strong></span> countries and more than<span style=\"color:#FC5185 ;\"><strong> 4,000</strong></span> users managing over <span style=\"color:#FC5185 ;\"><strong>2 million</strong></span> patient records, Bahmni has a proven track record of successful implementations worldwide."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong>500 sites across 50+</strong></span> countries and more than<span style=\"color:#f95738 ;\"><strong> 4,000</strong></span> users managing over <span style=\"color:#f95738 ;\"><strong>2 million</strong></span> patient records, Bahmni has a proven track record of successful implementations worldwide."
   },
   {
     "title": "Digital Public Good Recognition",
@@ -37,7 +37,7 @@ const uspData = [
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

@@ -25,10 +25,10 @@ const uspData = [
   },
   {
     "title": "Standards Compliance",
-    "content": "It adheres to industry standards such as <span style=\"color:#FC5185 ;\"><strong>NABH/NABL, DICOM, and HL7,</strong></span> ensuring that the software meets the high-quality standards expected in the healthcare sector."
+    "content": "It adheres to industry standards such as <span style=\"color:#f95738 ;\"><strong>NABH/NABL, DICOM, and HL7,</strong></span> ensuring that the software meets the high-quality standards expected in the healthcare sector."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

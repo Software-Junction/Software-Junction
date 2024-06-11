@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "Free Trial Offering",
-    "content": "Arlo provides a risk-free opportunity for potential users to explore its capabilities with a free <span style=\"color:#FC5185 ;\"><strong>14-day trial</strong></span>."
+    "content": "Arlo provides a risk-free opportunity for potential users to explore its capabilities with a free <span style=\"color:#f95738 ;\"><strong>14-day trial</strong></span>."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

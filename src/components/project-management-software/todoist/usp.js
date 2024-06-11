@@ -11,21 +11,21 @@ const uspData = [
   {
     title: "Long-Term Trust and Reliability",
     content:
-      'Todoist emphasizes its long-term commitment, having been developed for <span style="color:#FC5185 ;"><strong>16 years and 334 days</strong></span>. Users are assured that the app will not compromise its integrity by selling out to the highest bidder, instilling trust and reliability.',
+      'Todoist emphasizes its long-term commitment, having been developed for <span style="color:#f95738 ;"><strong>16 years and 334 days</strong></span>. Users are assured that the app will not compromise its integrity by selling out to the highest bidder, instilling trust and reliability.',
   },
   {
     title: "Global User Base and Recognition",
     content:
-      'Todoist boasts an impressive user base, with <span style="color:#FC5185 ;"><strong>30+</strong></span> million app downloads, <span style="color:#FC5185 ;"><strong>2 billion</strong></span> tasks completed, and users across <span style="color:#FC5185 ;"><strong>160+</strong></span> countries. The app has received positive reviews, including being named the best to-do list app by the New York Times’ Wirecutter.',
+      'Todoist boasts an impressive user base, with <span style="color:#f95738 ;"><strong>30+</strong></span> million app downloads, <span style="color:#f95738 ;"><strong>2 billion</strong></span> tasks completed, and users across <span style="color:#f95738 ;"><strong>160+</strong></span> countries. The app has received positive reviews, including being named the best to-do list app by the New York Times’ Wirecutter.',
   },
   {
     title: "Proven Track Record",
     content:
-      'The app\'s credibility is highlighted by the fact that it has over <span style="color:#FC5185 ;"><strong>1 million</strong></span> Pro users. This suggests that a substantial number of users find value in the premium features offered by Todoist.',
+      'The app\'s credibility is highlighted by the fact that it has over <span style="color:#f95738 ;"><strong>1 million</strong></span> Pro users. This suggests that a substantial number of users find value in the premium features offered by Todoist.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

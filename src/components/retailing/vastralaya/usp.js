@@ -28,7 +28,7 @@ const uspData = [
     "content": "Presence in multiple locations, with offices in Kanpur, Mumbai, Delhi, and Bengaluru, showcasing widespread accessibility and support."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

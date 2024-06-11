@@ -20,7 +20,7 @@ const uspData = [
     "content": "Orion Software encourages clients to follow them on social media platforms for further engagement and updates."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

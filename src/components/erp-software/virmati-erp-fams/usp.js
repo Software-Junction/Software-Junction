@@ -17,10 +17,10 @@ const uspData = [
   },
   {
     "title": "Proven Track Record and Accreditations",
-    "content": "Virmati Group's <span style=\"color:#FC5185 ;\"><strong>25+</strong></span> years track record, ISO <span style=\"color:#FC5185 ;\"><strong>9001</strong></span> certification, CMM Level <span style=\"color:#FC5185 ;\"><strong>3</strong></span>, Microsoft Gold Certified Partner, and ISV Partner for HP, IBM & Microsoft."
+    "content": "Virmati Group's <span style=\"color:#f95738 ;\"><strong>25+</strong></span> years track record, ISO <span style=\"color:#f95738 ;\"><strong>9001</strong></span> certification, CMM Level <span style=\"color:#f95738 ;\"><strong>3</strong></span>, Microsoft Gold Certified Partner, and ISV Partner for HP, IBM & Microsoft."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

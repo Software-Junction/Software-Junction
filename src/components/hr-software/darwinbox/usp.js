@@ -17,7 +17,7 @@ const uspData = [
   },
   {
     "title": "Global Presence",
-    "content": "Darwinbox has a significant global presence, serving over <span style=\"color:#FC5185 ;\"><strong>850</strong></span> enterprises with more than <span style=\"color:#FC5185 ;\"><strong>2.2 million</strong></span> employees across <span style=\"color:#FC5185 ;\"><strong>116 countries,</strong></span> showcasing its ability to cater to diverse organizational needs on an international scale."
+    "content": "Darwinbox has a significant global presence, serving over <span style=\"color:#f95738 ;\"><strong>850</strong></span> enterprises with more than <span style=\"color:#f95738 ;\"><strong>2.2 million</strong></span> employees across <span style=\"color:#f95738 ;\"><strong>116 countries,</strong></span> showcasing its ability to cater to diverse organizational needs on an international scale."
   },
   {
     "title": "Customer Success Stories",
@@ -29,10 +29,10 @@ const uspData = [
   },
   {
     "title": "ISO Certifications and Gartner Peer Insights Reviews",
-    "content": "Darwinbox holds ISO certifications, indicating a commitment to quality standards. Additionally, the platform boasts a high rating of <span style=\"color:#FC5185 ;\"><strong>4.8 based on 362 reviews</strong></span> on Gartner Peer Insights as of <span style=\"color:#FC5185 ;\"><strong>December 5, 2023.</strong></span>"
+    "content": "Darwinbox holds ISO certifications, indicating a commitment to quality standards. Additionally, the platform boasts a high rating of <span style=\"color:#f95738 ;\"><strong>4.8 based on 362 reviews</strong></span> on Gartner Peer Insights as of <span style=\"color:#f95738 ;\"><strong>December 5, 2023.</strong></span>"
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

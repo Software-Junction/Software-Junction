@@ -9,7 +9,7 @@ const uspData = [
   },
   {
     "title": "Revenue Boost through Comprehensive Store Management",
-    "content": "<strong>USP :</strong> \"<span style=\"color:#FC5185 ;\"><strong>2X</strong></span> Revenue Generation\"\n<br/><strong>Benefit :</strong> Efficiently manage your pharmacy store, allowing you to focus on revenue generation strategies and business growth."
+    "content": "<strong>USP :</strong> \"<span style=\"color:#f95738 ;\"><strong>2X</strong></span> Revenue Generation\"\n<br/><strong>Benefit :</strong> Efficiently manage your pharmacy store, allowing you to focus on revenue generation strategies and business growth."
   },
   {
     "title": "Home Delivery Integration with Dunzo",
@@ -29,14 +29,14 @@ const uspData = [
   },
   {
     "title": "Trusted by 20,000+ Pharma Retailers in India",
-    "content": " <strong>USP :</strong> \"<span style=\"color:#FC5185 ;\"><strong>Trusted by 20,000+</strong></span> pharma retailers, wholesalers, and marketing companies across India\"\n<br/> <strong>Benefit :</strong> Join a vast community of satisfied users, gaining credibility and trust in the Indian pharmacy market."
+    "content": " <strong>USP :</strong> \"<span style=\"color:#f95738 ;\"><strong>Trusted by 20,000+</strong></span> pharma retailers, wholesalers, and marketing companies across India\"\n<br/> <strong>Benefit :</strong> Join a vast community of satisfied users, gaining credibility and trust in the Indian pharmacy market."
   }
   
   
   
   
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

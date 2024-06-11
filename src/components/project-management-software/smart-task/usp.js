@@ -16,16 +16,16 @@ const uspData = [
   {
     title: "Trusted by Thousands",
     content:
-      'With over <span style="color:#FC5185 ;"><strong>20,000</strong></span> teams worldwide relying on SmartTask, it establishes trust and credibility in its ability to meet the diverse needs of teams across different industries.',
+      'With over <span style="color:#f95738 ;"><strong>20,000</strong></span> teams worldwide relying on SmartTask, it establishes trust and credibility in its ability to meet the diverse needs of teams across different industries.',
   },
   {
     title: "Dedicated Support",
     content:
-      'SmartTask emphasizes supporting user growth with dedicated support, including free training and setup. It has been voted <span style="color:#FC5185 ;"><strong>#1</strong></span> in Ease of Use, ensuring a user-friendly experience.',
+      'SmartTask emphasizes supporting user growth with dedicated support, including free training and setup. It has been voted <span style="color:#f95738 ;"><strong>#1</strong></span> in Ease of Use, ensuring a user-friendly experience.',
   },
 ];
 {
-  /* <span style=\"color:#FC5185 ;\"><strong> */
+  /* <span style=\"color:#f95738 ;\"><strong> */
 }
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {

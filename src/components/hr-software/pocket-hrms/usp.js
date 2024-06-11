@@ -17,14 +17,14 @@ const uspData = [
   },
   {
     "title": "Futuristic Vision for Digital Bharat 2.0",
-    "content": "Positions itself as a key player in contributing to the vision of Digital Bharat <span style=\"color:#FC5185 ;\"><strong>2.0.</strong></span> Aligns with the future of the HR industry by incorporating AI and cloud-based technology."
+    "content": "Positions itself as a key player in contributing to the vision of Digital Bharat <span style=\"color:#f95738 ;\"><strong>2.0.</strong></span> Aligns with the future of the HR industry by incorporating AI and cloud-based technology."
   },
   {
     "title": "Global Presence",
     "content": "Indicates a presence in major cities across India, including Mumbai, Delhi, Chennai, Bangalore, Hyderabad, Pune, Kolkata, Jaipur, Indore, and Ahmedabad. Offers accessibility and support to a wide geographical audience."
   } 
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

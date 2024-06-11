@@ -21,10 +21,10 @@ const uspData = [
   },
   {
     "title": "11 Years of Expertise",
-    "content": "With over <span style=\"color:#FC5185 ;\"><strong> 11 years </strong></span> of experience, Romio Technologies brings a wealth of knowledge to the table. Their longevity in the industry signifies stability, expertise, and a deep understanding of the challenges faced by businesses in the Hospitality and F&B sector."
+    "content": "With over <span style=\"color:#f95738 ;\"><strong> 11 years </strong></span> of experience, Romio Technologies brings a wealth of knowledge to the table. Their longevity in the industry signifies stability, expertise, and a deep understanding of the challenges faced by businesses in the Hospitality and F&B sector."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

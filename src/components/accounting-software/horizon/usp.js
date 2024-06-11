@@ -32,7 +32,7 @@ const uspData = [
     "content": "Tailor your bill printing with your logo and simplify communication with customers through email invoicing for a professional touch."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },

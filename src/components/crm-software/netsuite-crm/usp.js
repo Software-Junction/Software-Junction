@@ -24,7 +24,7 @@ const uspData = [
     "content": "NetSuite CRM is included with the NetSuite platform, providing a cost-effective, cloud-based solution for businesses of all sizes."
   }
 ];
-{/* <span style=\"color:#FC5185 ;\"><strong> */}
+{/* <span style=\"color:#f95738 ;\"><strong> */}
 const renderHTML = (rawHTML) => {
   return React.createElement("p", {
     dangerouslySetInnerHTML: { __html: rawHTML },
