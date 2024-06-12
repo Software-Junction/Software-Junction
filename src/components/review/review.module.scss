@@ -1,10 +1,13 @@
 .review-page {
-  margin-top: 80px;
+  padding-top: 80px;
+  background-color: #F6F1F1;
+
   .write-review {
     position: sticky;
     top: 120px;
     box-shadow: -3px 3px 0px 0px #f95738;
     border: 1px solid #f95738;
+    background-color: #fff;
 
     li {
       font-size: 14px;

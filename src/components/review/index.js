@@ -30,9 +30,12 @@ const Index = () => {
 
   const [searchResults, setSearchResults] = useState([]);
 
+  const [softwareSelected, setSoftwareSelected] = useState(false);
+
   const handleSearchChange = (e) => {
     const value = e.target.value;
     setSearchQuery(value);
+    setSoftwareSelected(false);
     if (value.trim() !== "") {
       const filteredResults = softwareList.software_list.filter((software) =>
         software.toLowerCase().startsWith(value.toLowerCase())
@@ -45,13 +48,15 @@ const Index = () => {
 
   const handleSoftwareSelect = (software, setFieldValue) => {
     setSearchQuery(software);
-    setFieldValue("software", software);
-    setSearchResults([]);
+    setFieldValue("software", software); // Update Formik's state
+    setSearchResults([]); // Clear search results
+    setSoftwareSelected(true); // Indicate that a software has been selected
   };
+
 
   return (
     <>
-      <section className={`${styles["review-page"]} mb-4`}>
+      <section className={`${styles["review-page"]} pb-4`}>
         <Container>
           <Row>
             <Col lg={12}>
@@ -97,7 +102,8 @@ const Index = () => {
               </div>
             </Col>
             <Col lg={8}>
-              <div className="box shadow rounded-3 p-4">
+              <div className="box shadow rounded-3 p-4 bg-light">
+                <h3 className="mb-3">Write A Review For</h3>
                 <Formik
                   initialValues={{
                     software:"",
@@ -175,7 +181,10 @@ const Index = () => {
                             name="software"
                             placeholder="Search for Software . . ."
                             value={searchQuery}
-                          onChange={handleSearchChange}
+                          onChange={(e) => {
+                            handleSearchChange(e);
+                            formik.setFieldValue("software", "");
+                          }}
                           />
                         {/* <Form.Control
                           placeholder="Search for Products"
@@ -185,17 +194,28 @@ const Index = () => {
                           value={searchQuery}
                           onChange={handleSearchChange}
                         /> */}
-                        {searchQuery && searchResults.length > 0 && (
-                          <div className={`${styles['search-box']} box shadow p-4 rounded-3`}>
-                            {searchResults.map((software, index) => (
-                              <div
-                                key={index}
-                                className={`${styles["search-txt-clr"]} mb-3`}
-                                onClick={() => handleSoftwareSelect(software, formik.setFieldValue)}
-                              >
-                                {software}
-                              </div>
-                            ))}
+                        {searchQuery && !softwareSelected && (
+                          <div
+                            className={`${styles["search-box"]} box shadow p-4 rounded-3`}
+                          >
+                            {searchResults.length > 0 ? (
+                              searchResults.map((software, index) => (
+                                <div
+                                  key={index}
+                                  className={`${styles["search-txt-clr"]} mb-3`}
+                                  onClick={() =>
+                                    handleSoftwareSelect(
+                                      software,
+                                      formik.setFieldValue
+                                    )
+                                  }
+                                >
+                                  {software}
+                                </div>
+                              ))
+                            ) : (
+                              <div>No results found.</div>
+                            )}
                           </div>
                         )}
                         <ErrorMessage

@@ -263,6 +263,10 @@ iframe {
 .btn-warning:hover{
   border: 1px solid #f95738 ;
 }
+.btn-secondary{
+  background-color: #f95738  !important;
+  border: 1px solid #f95738 ;
+}
 .btn-outline-primary{
   border: 1px solid #335c67 !important;
   color: #335c67;
@@ -301,16 +305,21 @@ iframe {
 }
 
 .cmpchat-modal{
-
+.modal-header{
+  color: #fff;
+}
   .modal-content{
       color: #000;
       .btn-primary{
-        background-color: #fff !important;
-        color: #000;
+        background-color: #f95738 !important;
+        color: #fff;
       }
 }
 }
 .cmpchat-modal-usp{
+  .modal-header{
+    color: #fff;
+  }
   .modal-content{
       color: #000;
 }

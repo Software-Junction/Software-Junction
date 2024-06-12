@@ -316,7 +316,8 @@ const Features = ({ styles }) => {
             </Form>
           </Col>
 
-          {displayFeatures.map((feature, index) => (
+          {displayFeatures.length > 0 ? (
+          displayFeatures.map((feature, index) => (
             <Col lg={3} className="mb-4" key={index}>
               <div className="box h-100 shadow border rounded-4 p-4 bg-light">
                 {" "}
@@ -328,7 +329,12 @@ const Features = ({ styles }) => {
                 </h5>
               </div>
             </Col>
-          ))}
+          ))
+        ) : (
+          <div className="box shadow border rounded-4 p-4 bg-light text-center">
+                <h5>No records found</h5>
+              </div>
+        )}
 
           {/* {isShowMore && 
           <>
