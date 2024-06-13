@@ -155,6 +155,16 @@ const Cmpchat = () => {
       setShowF8(false);
       setShowF9(false);
       setShowF10(false);
+      setShowUsp1(false);
+      setShowUsp2(false);
+      setShowUsp3(false);
+      setShowUsp4(false);
+      setShowUsp5(false);
+      setShowUsp6(false);
+      setShowUsp7(false);
+      setShowUsp8(false);
+      setShowUsp9(false);
+      setShowUsp10(false);
     }
     
   return (

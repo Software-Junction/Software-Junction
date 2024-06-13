@@ -181,6 +181,16 @@ const Cmpchat = () => {
       setShowF8(false);
       setShowF9(false);
       setShowF10(false);
+      setShowUsp1(false);
+      setShowUsp2(false);
+      setShowUsp3(false);
+      setShowUsp4(false);
+      setShowUsp5(false);
+      setShowUsp6(false);
+      setShowUsp7(false);
+      setShowUsp8(false);
+      setShowUsp9(false);
+      setShowUsp10(false);
     }
     
   return (
@@ -751,10 +761,11 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <WhovaU styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseUsp1}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 2 features */}
@@ -800,10 +811,11 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <EventproU styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseUsp2}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 3 feature */}
@@ -849,10 +861,11 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <PlanningU styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseUsp3}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 3 price */}
@@ -922,10 +935,11 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <WeveU styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseUsp4}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 5 feature */}
@@ -971,10 +985,11 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <TicketU styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseUsp5}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 6 feature */}
@@ -1020,10 +1035,11 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <DryftaU styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseUsp6}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 6 price */}
@@ -1093,10 +1109,11 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <ActiveU styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseUsp7}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 8 feature */}
@@ -1142,10 +1159,11 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <ArloU styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseUsp8}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 8 price */}
@@ -1215,10 +1233,11 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <EventorgU styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseUsp9}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 10 feature */}
@@ -1264,10 +1283,11 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <AirmeetU styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="d-flex justify-content-between">
                   <Button variant="secondary" onClick={handleCloseUsp10}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* 10 price */}
