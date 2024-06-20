@@ -43,6 +43,7 @@ const Cmpchat = () => {
   //1
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);
+  // const [showPrice1, setShowPrice1] = useState(false);
   //2
   const [showUsp2, setShowUsp2] = useState(false);
   const [showF2, setShowF2] = useState(false);

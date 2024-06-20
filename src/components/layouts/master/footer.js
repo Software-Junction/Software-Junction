@@ -154,7 +154,7 @@ const Footer = () => {
           </Row>
         </Container>
       </section>
-      <ScrollToTop smooth color="white" height="20" style={{ backgroundColor: "#335c67" }} />
+      <ScrollToTop smooth color="white" height="20" style={{ backgroundColor: "#335c67", border:"2px solid #f95738" }} />
 
     </>
   )
