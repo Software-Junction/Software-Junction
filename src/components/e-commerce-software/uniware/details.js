@@ -38,7 +38,7 @@ const Details = ({ styles }) => {
       </section>
  
       {/*<section className={`${styles["pricing"]} mt-5`} id="idpricing">
-        <Price styles={styles} />
+        <Price />
       </section> */}
 
       {/* <section className={`${styles["review"]} mt-5`} id="idreview">

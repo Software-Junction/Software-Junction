@@ -7,7 +7,7 @@ import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 
-const Price = ({ styles }) => {
+const Price = () => {
   const handleFormSubmit = async (values, actions) => {
     try {
       await axios.post(
