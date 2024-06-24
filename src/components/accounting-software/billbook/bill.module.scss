@@ -145,6 +145,14 @@
         font-size: 14px;
     }
 }
+.price-box{
+    box-shadow: -3px 3px 0px 0px #f95738 ;
+    .price-btn{
+        height: 200px;
+        overflow-y:auto;
+    }
+  
+}
 
 .review{
     p{

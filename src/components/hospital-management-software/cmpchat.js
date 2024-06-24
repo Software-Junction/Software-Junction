@@ -118,8 +118,8 @@ const Cmpchat = () => {
   const handleShowF1 = () => setShow1(true);
   const handleCloseUsp1 = () => setShowUsp1(false);
   const handleShowUsp1 = () => setShowUsp1(true);
-  const handleClosePrice1 = () => setShowPrice1(false);
-  const handleShowPrice1 = () => setShowPrice1(true);
+  // const handleClosePrice1 = () => setShowPrice1(false);
+  // const handleShowPrice1 = () => setShowPrice1(true);
 
   //2 features and usp
   const handleCloseF2 = () => setShowF2(false);
@@ -142,16 +142,16 @@ const Cmpchat = () => {
   const handleShowF4 = () => setShowF4(true);
   const handleCloseUsp4 = () => setShowUsp4(false);
   const handleShowUsp4 = () => setShowUsp4(true);
-  const handleClosePrice4 = () => setShowPrice4(false);
-  const handleShowPrice4 = () => setShowPrice4(true);
+  // const handleClosePrice4 = () => setShowPrice4(false);
+  // const handleShowPrice4 = () => setShowPrice4(true);
 
   //5 features and usp
   const handleCloseF5 = () => setShowF5(false);
   const handleShowF5 = () => setShowF5(true);
   const handleCloseUsp5 = () => setShowUsp5(false);
   const handleShowUsp5 = () => setShowUsp5(true);
-  const handleClosePrice5 = () => setShowPrice5(false);
-  const handleShowPrice5 = () => setShowPrice5(true);
+  // const handleClosePrice5 = () => setShowPrice5(false);
+  // const handleShowPrice5 = () => setShowPrice5(true);
 
   //6 features and usp,price
   const handleCloseF6 = () => setShowF6(false);
@@ -166,8 +166,8 @@ const Cmpchat = () => {
   const handleShowF7 = () => setShowF7(true);
   const handleCloseUsp7 = () => setShowUsp7(false);
   const handleShowUsp7 = () => setShowUsp7(true);
-  const handleClosePrice7 = () => setShowPrice7(false);
-  const handleShowPrice7 = () => setShowPrice7(true);
+  // const handleClosePrice7 = () => setShowPrice7(false);
+  // const handleShowPrice7 = () => setShowPrice7(true);
 
   //8 features and usp,price
   const handleCloseF8 = () => setShowF8(false);
@@ -182,16 +182,16 @@ const Cmpchat = () => {
   const handleShowF9 = () => setShowF9(true);
   const handleCloseUsp9 = () => setShowUsp9(false);
   const handleShowUsp9 = () => setShowUsp9(true);
-  const handleClosePrice9 = () => setShowPrice9(false);
-  const handleShowPrice9 = () => setShowPrice9(true);
+  // const handleClosePrice9 = () => setShowPrice9(false);
+  // const handleShowPrice9 = () => setShowPrice9(true);
 
   //10 features and usp, price
   const handleCloseF10 = () => setShowF10(false);
   const handleShowF10 = () => setShowF10(true);
   const handleCloseUsp10 = () => setShowUsp10(false);
   const handleShowUsp10 = () => setShowUsp10(true);
-  const handleClosePrice10 = () => setShowPrice10(false);
-  const handleShowPrice10 = () => setShowPrice10(true);
+  // const handleClosePrice10 = () => setShowPrice10(false);
+  // const handleShowPrice10 = () => setShowPrice10(true);
 
 
   const handleFormSubmit = async (values, actions) => {

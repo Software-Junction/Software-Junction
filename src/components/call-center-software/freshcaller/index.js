@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Details from "./details";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
-import styles from "../enthu/enthu.module.scss";
+import styles from "../freshcaller/freshcaller.module.scss";
 const Index = () => {
   return (
     <>

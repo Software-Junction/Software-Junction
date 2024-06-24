@@ -64,7 +64,6 @@ const Cmpchat = () => {
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);
   const [showPrice1, setShowPrice1] = useState(false);
-  // const [showPrice1, setShowPrice1] = useState(false);
 
   //2
   const [showUsp2, setShowUsp2] = useState(false);
@@ -207,7 +206,12 @@ const Cmpchat = () => {
     }
   };
  
- const [showSoftware, setShowSoftware] = useState(false);
+  const [showGetPrice, setShowGetPrice] = useState(false);
+  
+  const handleCloseGetPrice = () => setShowGetPrice(false);
+    const handleShowGetPrice = () => setShowGetPrice(true);
+
+    const [showSoftware, setShowSoftware] = useState(false);
 
     const handleCloseSoftware = () => setShowSoftware(false);
 
@@ -669,7 +673,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          // onClick={handleShowPrice2}
+                          onClick={handleShowGetPrice}
                         >
                           Get Pricing
                         </Button>
@@ -713,7 +717,7 @@ const Cmpchat = () => {
                           size="sm"
                           // variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          // onClick={handleShowPrice6}
+                          onClick={handleShowGetPrice}
                         >
                           Get Pricing
                         </Button>
@@ -1507,7 +1511,158 @@ const Cmpchat = () => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-                {/* Free demo modal */}
+                      {/* Get Pricing Modal */}
+                    <Modal
+                      aria-labelledby="contained-modal-title-vcenter"
+                      centered
+                      show={showGetPrice}
+                      onHide={handleCloseGetPrice}
+                    >
+                      <Modal.Header closeButton>
+                        <h3>Request For Price</h3>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Formik
+                          initialValues={{
+                            username: "",
+                            location: "",
+                            email: "",
+                            number: "",
+                            message: "",
+                            employee: "",
+                            postTimestamp: new Date().toUTCString(),
+                          }}
+                          validationSchema={Yup.object().shape({
+                            username: Yup.string().required(
+                              "Please enter your full name."
+                            ),
+                            location: Yup.string().required(
+                              "Please select a location."
+                            ),
+                            email: Yup.string()
+                              .email("Invalid email address")
+                              .required("Please enter your email address."),
+                            number: Yup.string().required(
+                              "Please enter your phone number."
+                            ),
+                            employee: Yup.string().required(
+                              "Please select employee strength."
+                            ),
+                            message: Yup.string().required(
+                              "Please enter a message."
+                            ),
+                          })}
+                          onSubmit={handleFormSubmit}
+                        >
+                          {(formik) => (
+                            <Form>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.username &&
+                                    formik.errors.username
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="text"
+                                  name="username"
+                                  placeholder="Full name"
+                                />
+                                <ErrorMessage
+                                  name="username"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.number &&
+                                    formik.errors.number
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="number"
+                                  name="number"
+                                  placeholder="Phone number"
+                                />
+                                <ErrorMessage
+                                  name="number"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                              <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput1"
+                              >
+                                <Field
+                                  className={`form-control ${
+                                    formik.touched.email && formik.errors.email
+                                      ? "is-invalid"
+                                      : ""
+                                  }`}
+                                  type="email"
+                                  name="email"
+                                  placeholder="Bussiness Email address"
+                                />
+                                <ErrorMessage
+                                  name="email"
+                                  component="div"
+                                  className={`${styles["valid-clr"]} invalid-feedback`}
+                                />
+                              </Form.Group>
+                        <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                        >
+                        <Field
+                          as="select"
+                          id="mySelect"
+                          className={`form-select ${
+                            formik.touched.employee && formik.errors.employee
+                              ? "is-invalid"
+                              : ""
+                          }`}
+                          name="mySelect"
+                        >
+                          <option value="" disabled selected>
+                            Employee Strength :
+                          </option>
+                          <option value="option1">Under 20</option>
+                          <option value="option2">20- 150</option>
+                          <option value="option3">150- 500</option>
+                          <option value="option4">500 - 1000</option>
+                          <option value="option5">Over 1000</option>
+                        </Field>
+                        <ErrorMessage
+                          name="employee"
+                          component="div"
+                          className={`${styles["valid-clr"]} invalid-feedback`}
+                        />
+                      </Form.Group>
+                              <Button
+                                variant="warning"
+                                size="sm"
+                                className="text-light"
+                                onClick={formik.handleSubmit}
+                              >
+                                Get Pricing
+                              </Button>
+                            </Form>
+                          )}
+                        </Formik>
+                      </Modal.Body>
+                    </Modal>
+               
+
+ 		{/* Free demo modal */}
                     <Modal
                   aria-labelledby="contained-modal-title-vcenter"
                   centered

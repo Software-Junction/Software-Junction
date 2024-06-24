@@ -40,7 +40,16 @@ const Compare = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                      <td>Available on Request</td>
+                      <td>
+                        <Button
+                          size="sm"
+                          // variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowGetPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
                       <td>Yes</td>
                     </tr>
                     <tr>
@@ -60,7 +69,16 @@ const Compare = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                      <td>Available on Request</td>
+                      <td>
+                        <Button
+                          size="sm"
+                          // variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowGetPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
                       <td>Yes</td>
                     </tr>
                     <tr>
@@ -81,7 +99,16 @@ const Compare = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                      <td>Available on Request</td>
+                      <td>
+                        <Button
+                          size="sm"
+                          // variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowGetPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
                       <td>Yes</td>
                     </tr>
                     <tr>
@@ -102,7 +129,16 @@ const Compare = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                      <td>Available on Request</td>
+                      <td>
+                        <Button
+                          size="sm"
+                          // variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowGetPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
                       <td>Yes</td>
                     </tr>
                     <tr>
@@ -123,7 +159,16 @@ const Compare = ({ styles }) => {
                           </div>
                         </div>
                       </td>
-                      <td>Available on Request</td>
+                      <td>
+                        <Button
+                          size="sm"
+                          // variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowGetPrice}
+                        >
+                          Get Pricing
+                        </Button>
+                      </td>
                       <td>Yes</td>
                     </tr>
                   </tbody>
