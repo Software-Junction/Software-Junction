@@ -9,7 +9,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import ChartDataLabels from "chartjs-plugin-datalabels";
 ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 
-const erpcont = ({ styles }) => {
+const inventorycont = ({ styles }) => {
   const handleFormSubmit = async (values, actions) => {
     try {
       await axios.post(
@@ -29,31 +29,87 @@ const erpcont = ({ styles }) => {
   const cardData = [
     {
       badgeText: "10",
-      imageSrc: "/images/horizon.png",
-      imageAlt: "Horizon",
-      headingText: "Horizon ERP",
-      pieData: [30, 20, 25, 25], // Example data for pie chart
-    },
-    {
-      badgeText: "10",
-      imageSrc: "/images/horizon.png",
-      imageAlt: "Horizon",
-      headingText: "Horizon ERP",
+      imageSrc: "/images/zohobooks.png",
+      imageAlt: "zohobooks",
+      headingText: "Zoho Books",
       pieData: [25, 25, 25, 25], // Example data for pie chart
     },
     {
       badgeText: "10",
-      imageSrc: "/images/horizon.png",
-      imageAlt: "Horizon",
-      headingText: "Horizon ERP",
-      pieData: [25, 25, 25, 25], // Example data for pie chart
+      imageSrc: "/images/oraclenet.png",
+      imageAlt: "oraclenet",
+      headingText: "Oracle NetSuite",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/mybillbook.png",
+      imageAlt: "mybillbook",
+      headingText: "My Bill Book",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/marg.png",
+      imageAlt: "marg",
+      headingText: "Marg ERP 9+Accounting",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/vyaparlogo.png",
+      imageAlt: "vyaparlogo",
+      headingText: "Vyapar",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/oracle.png",
+      imageAlt: "oracle",
+      headingText: "Oracle Fusion Cloud",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/hdpos.png",
+      imageAlt: "hdpos",
+      headingText: "HyperDrive Solutions' POS Billing",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/genie.jpg",
+      imageAlt: "genie",
+      headingText: "GenieBooks",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/saral.png",
+      imageAlt: "saral",
+      headingText: "Saral Account",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/alignbooks.jpg",
+      imageAlt: "alignbooks",
+      headingText: "AlignBooks",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/giddh.png",
+      imageAlt: "giddh",
+      headingText: "Giddh",
+      pieData: [25, 30, 20, 25],
     },
     {
       badgeText: "10",
       imageSrc: "/images/horizon.png",
-      imageAlt: "Horizon",
+      imageAlt: "horizon",
       headingText: "Horizon ERP",
-      pieData: [25, 25, 25, 25], // Example data for pie chart
+      pieData: [25, 30, 20, 25],
     },
     // Add more data objects as needed
   ];
@@ -115,7 +171,7 @@ const erpcont = ({ styles }) => {
 
   return (
     <>
-      <Container className={styles["erp-container"]}>
+      <Container className={styles["inventory-container"]}>
         <Row>
           {cardData.map((data, index) => (
             <Col lg={3} className={`${styles["col-mob"]} mb-3`} key={index}>
@@ -127,16 +183,17 @@ const erpcont = ({ styles }) => {
                     {data.badgeText}
                   </p>
                 </div>
-                <div>
+                <div className={styles['height']}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
-                    width="120"
+                    width="100"
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                </div>
+                
                 <h5 className="my-3">{data.headingText}</h5>
+                </div>
                 <Button
                   size="sm"
                   variant="primary"
@@ -304,155 +361,169 @@ const erpcont = ({ styles }) => {
             </Modal>
           </div>
           {/* <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/horizon.png"
-                        alt="horizon"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">Horizon ERP</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col>
 
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/horizon.png"
-                        alt="horizon"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">Horizon ERP</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col>
+          <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col>
 
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/horizon.png"
-                        alt="horizon"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">Horizon ERP</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col>
+          <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col>
 
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/horizon.png"
-                        alt="horizon"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">Horizon ERP</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col>
+          <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col>
 
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/horizon.png"
-                        alt="horizon"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">Horizon ERP</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col>
+          <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col>
 
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/horizon.png"
-                        alt="horizon"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">Horizon ERP</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col>
+          <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col>
 
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/horizon.png"
-                        alt="horizon"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">Horizon ERP</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col> */}
+          <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col> */}
         </Row>
       </Container>
     </>
   );
 };
 
-export default erpcont;
+export default inventorycont;

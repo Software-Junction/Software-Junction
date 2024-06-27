@@ -8,6 +8,7 @@ import Listed from "./listed";
 import Video from "./video";
 import Scoring from "./scoring";
 import Benefit from "./benefit";
+import Test from './test';
 import styles from "./home.module.scss"
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
     {/* <Callback styles={styles}/> */}
     <Trending styles={styles}/>
     <Comparison styles={styles}/>
+    {/* <Test /> */}
     <Listed styles={styles}/>
     <Video styles={styles}/>
     <Scoring styles={styles}/>

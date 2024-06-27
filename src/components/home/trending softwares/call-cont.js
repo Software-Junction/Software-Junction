@@ -9,7 +9,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import ChartDataLabels from "chartjs-plugin-datalabels";
 ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 
-const accountingcont = ({ styles }) => {
+const callcont = ({ styles }) => {
   const handleFormSubmit = async (values, actions) => {
     try {
       await axios.post(
@@ -29,16 +29,86 @@ const accountingcont = ({ styles }) => {
   const cardData = [
     {
       badgeText: "10",
-      imageSrc: "/images/vyaparlogo.png",
-      imageAlt: "vyaparlogo",
-      headingText: "Vyapar",
+      imageSrc: "/images/enthu.png",
+      imageAlt: "enthu",
+      headingText: "Enthu",
       pieData: [25, 25, 25, 25], // Example data for pie chart
     },
     {
       badgeText: "10",
-      imageSrc: "/images/vyaparlogo.png",
-      imageAlt: "vyaparlogo",
-      headingText: "Billbook",
+      imageSrc: "/images/cloudtalk.png",
+      imageAlt: "cloudtalk",
+      headingText: "CloudTalk",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/servetel.png",
+      imageAlt: "servetel",
+      headingText: "Servetel",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/aavaz.jpg",
+      imageAlt: "aavaz",
+      headingText: "Aavaz",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/freshcaller.png",
+      imageAlt: "freshcaller",
+      headingText: "Freshcaller",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/ameyo.png",
+      imageAlt: "ameyo",
+      headingText: "Ameyo",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/mightycall.png",
+      imageAlt: "mightycall",
+      headingText: "MightyCall",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/zendesk.png",
+      imageAlt: "zendesk",
+      headingText: "Zendesk",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/avoxi.png",
+      imageAlt: "avoxi",
+      headingText: "AVOXI",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/crazycall.jpg",
+      imageAlt: "crazycall",
+      headingText: "CrazyCall",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/avaya.png",
+      imageAlt: "avaya",
+      headingText: "Avaya",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/hoduCC.jpg",
+      imageAlt: "hoduCC",
+      headingText: "HoduCC",
       pieData: [25, 30, 20, 25],
     },
     // Add more data objects as needed
@@ -51,9 +121,9 @@ const accountingcont = ({ styles }) => {
         labels: {
           boxWidth: 20,
           color: "#fff",
-          font:{
+          font: {
             size: 10,
-          }
+          },
         },
       },
       datalabels: {
@@ -101,7 +171,7 @@ const accountingcont = ({ styles }) => {
 
   return (
     <>
-      <Container className={styles["accounting-container"]}>
+      <Container className={styles["call-container"]}>
         <Row>
           {cardData.map((data, index) => (
             <Col lg={3} className={`${styles["col-mob"]} mb-3`} key={index}>
@@ -113,16 +183,17 @@ const accountingcont = ({ styles }) => {
                     {data.badgeText}
                   </p>
                 </div>
-                <div>
+                <div className={styles['height']}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
-                    width="120"
+                    width="100"
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                </div>
+                
                 <h5 className="my-3">{data.headingText}</h5>
+                </div>
                 <Button
                   size="sm"
                   variant="primary"
@@ -139,8 +210,10 @@ const accountingcont = ({ styles }) => {
               <Modal.Header closeButton>
                 <Modal.Title>Software Score</Modal.Title>
               </Modal.Header>
-              <Modal.Body className={`${styles['body-content']} d-flex justify-content-between`}>
-                <div className={styles['pie-height']}>
+              <Modal.Body
+                className={`${styles["body-content"]} d-flex justify-content-between`}
+              >
+                <div className={styles["pie-height"]}>
                   <Pie data={getPieData(selectedCard)} options={options} />
                 </div>
                 <div className="box shadow rounded-3 w-100 bg-light p-3">
@@ -174,10 +247,10 @@ const accountingcont = ({ styles }) => {
                     {(formik) => (
                       <Form>
                         <input
-        type="hidden"
-        name="headingText"
-        value={formik.values.headingText}
-      />
+                          type="hidden"
+                          name="headingText"
+                          value={formik.values.headingText}
+                        />
                         <Form.Group
                           className="mb-3"
                           controlId="exampleForm.ControlInput1"
@@ -239,34 +312,34 @@ const accountingcont = ({ styles }) => {
                           />
                         </Form.Group>
                         <Form.Group
-                        className="mb-3"
-                        controlId="exampleForm.ControlInput1"
-                      >
-                        <Field
-                          as="select"
-                          id="mySelect"
-                          className={`form-select ${
-                            formik.touched.employee && formik.errors.employee
-                              ? "is-invalid"
-                              : ""
-                          }`}
-                          name="mySelect"
+                          className="mb-3"
+                          controlId="exampleForm.ControlInput1"
                         >
-                          <option value="" disabled selected>
-                            Employee Strength :
-                          </option>
-                          <option value="option1">Under 20</option>
-                          <option value="option2">20- 150</option>
-                          <option value="option3">150- 500</option>
-                          <option value="option4">500 - 1000</option>
-                          <option value="option5">Over 1000</option>
-                        </Field>
-                        <ErrorMessage
-                          name="employee"
-                          component="div"
-                          className={`${styles["valid-clr"]} invalid-feedback`}
-                        />
-                      </Form.Group>
+                          <Field
+                            as="select"
+                            id="mySelect"
+                            className={`form-select ${
+                              formik.touched.employee && formik.errors.employee
+                                ? "is-invalid"
+                                : ""
+                            }`}
+                            name="mySelect"
+                          >
+                            <option value="" disabled selected>
+                              Employee Strength :
+                            </option>
+                            <option value="option1">Under 20</option>
+                            <option value="option2">20- 150</option>
+                            <option value="option3">150- 500</option>
+                            <option value="option4">500 - 1000</option>
+                            <option value="option5">Over 1000</option>
+                          </Field>
+                          <ErrorMessage
+                            name="employee"
+                            component="div"
+                            className={`${styles["valid-clr"]} invalid-feedback`}
+                          />
+                        </Form.Group>
                         <Button
                           variant="warning"
                           size="sm"
@@ -453,4 +526,4 @@ const accountingcont = ({ styles }) => {
   );
 };
 
-export default accountingcont;
+export default callcont;

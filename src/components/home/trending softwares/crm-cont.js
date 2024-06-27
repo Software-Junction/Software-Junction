@@ -10,7 +10,6 @@ import ChartDataLabels from "chartjs-plugin-datalabels";
 ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 
 const crmcont = ({ styles }) => {
-
   const handleFormSubmit = async (values, actions) => {
     try {
       await axios.post(
@@ -32,28 +31,85 @@ const crmcont = ({ styles }) => {
       badgeText: "10",
       imageSrc: "/images/zohocrm.jpg",
       imageAlt: "zohocrm",
-      headingText: "Zoho",
+      headingText: "Zoho CRM",
       pieData: [25, 25, 25, 25],
     },
     {
       badgeText: "10",
-      imageSrc: "/images/zohocrm.jpg",
-      imageAlt: "zohocrm",
-      headingText: "Zoho",
+      imageSrc: "/images/nethunt.png",
+      imageAlt: "nethunt",
+      headingText: "NetHunt CRM",
       pieData: [25, 25, 25, 25],
     },
     {
       badgeText: "10",
-      imageSrc: "/images/zohocrm.jpg",
-      imageAlt: "zohocrm",
-      headingText: "Zoho",
+      imageSrc: "/images/freshsales.png",
+      imageAlt: "freshsales",
+      headingText: "Freshsales",
       pieData: [25, 25, 25, 25],
     },
     {
       badgeText: "10",
-      imageSrc: "/images/zohocrm.jpg",
-      imageAlt: "zohocrm",
-      headingText: "Zoho",
+      imageSrc: "/images/salesforce.jpg",
+      imageAlt: "salesforce",
+      headingText: "Salesforce",
+      pieData: [25, 25, 25, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/oraclenet.png",
+      imageAlt: "oraclenet",
+      headingText: "NetSuite CRM",
+      pieData: [25, 25, 25, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/salesflare.png",
+      imageAlt: "salesflare",
+      headingText: "Salesflare",
+      pieData: [25, 25, 25, 25],
+    },
+
+    {
+      badgeText: "10",
+      imageSrc: "/images/kapture.jpg",
+      imageAlt: "kapture",
+      headingText: "Kapture CRM",
+      pieData: [25, 25, 25, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/salesmate.jpg",
+      imageAlt: "salesmate",
+      headingText: "Salesmate",
+      pieData: [25, 25, 25, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/engagebay.png",
+      imageAlt: "engagebay",
+      headingText: "EngageBay",
+      pieData: [25, 25, 25, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/tranquil.png",
+      imageAlt: "tranquil",
+      headingText: "Tranquil CRM",
+      pieData: [25, 25, 25, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/vtiger.png",
+      imageAlt: "vtiger",
+      headingText: "Vtiger CRM",
+      pieData: [25, 25, 25, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/leadforce.png",
+      imageAlt: "leadforce",
+      headingText: "LeadForce",
       pieData: [25, 25, 25, 25],
     },
     // Add more data objects as needed
@@ -66,9 +122,9 @@ const crmcont = ({ styles }) => {
         labels: {
           boxWidth: 20,
           color: "#fff",
-          font:{
+          font: {
             size: 10,
-          }
+          },
         },
       },
       datalabels: {
@@ -116,42 +172,49 @@ const crmcont = ({ styles }) => {
 
   return (
     <>
-       <Container className={styles['crm-container']}>
-      <Row>
-      {cardData.map((data, index) => (
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`} key={index}>
-                  <div
-              className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4 bg-light`}
-            >
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>{data.badgeText}</p>
-                    </div>
-                    <div>
-                      <Image
-                        src={data.imageSrc}
-                        alt={data.imageAlt}
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">{data.headingText}</h5>
-                    <Button size="sm" variant="primary" className="w-100"  onClick={() => handleShow(data)}>
-                      Free Demo
-                    </Button>
-                    
-                    
-                    </div>
-                    
-                </Col>
-))}
-<div className="pie-modal">
+      <Container className={styles["crm-container"]}>
+        <Row>
+          {cardData.map((data, index) => (
+            <Col lg={3} className={`${styles["col-mob"]} mb-3`} key={index}>
+              <div
+                className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4 bg-light`}
+              >
+                <div className={styles["badge"]}>
+                  <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                    {data.badgeText}
+                  </p>
+                </div>
+                <div className={styles['height']}>
+                  <Image
+                    src={data.imageSrc}
+                    alt={data.imageAlt}
+                    width="120"
+                    height="10"
+                    className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                  />
+                
+                <h5 className="my-3">{data.headingText}</h5>
+                </div>
+                <Button
+                  size="sm"
+                  variant="primary"
+                  className="w-100"
+                  onClick={() => handleShow(data)}
+                >
+                  Free Demo
+                </Button>
+              </div>
+            </Col>
+          ))}
+          <div className="pie-modal">
             <Modal show={show} onHide={handleClose} size="lg" centered>
               <Modal.Header closeButton>
                 <Modal.Title>Software Score</Modal.Title>
               </Modal.Header>
-              <Modal.Body className={`${styles['body-content']} d-flex justify-content-between`}>
-                <div className={styles['pie-height']}>
+              <Modal.Body
+                className={`${styles["body-content"]} d-flex justify-content-between`}
+              >
+                <div className={styles["pie-height"]}>
                   <Pie data={getPieData(selectedCard)} options={options} />
                 </div>
                 <div className="box shadow rounded-3 w-100 bg-light p-3">
@@ -185,10 +248,10 @@ const crmcont = ({ styles }) => {
                     {(formik) => (
                       <Form>
                         <input
-        type="hidden"
-        name="headingText"
-        value={formik.values.headingText}
-      />
+                          type="hidden"
+                          name="headingText"
+                          value={formik.values.headingText}
+                        />
                         <Form.Group
                           className="mb-3"
                           controlId="exampleForm.ControlInput1"
@@ -250,34 +313,34 @@ const crmcont = ({ styles }) => {
                           />
                         </Form.Group>
                         <Form.Group
-                        className="mb-3"
-                        controlId="exampleForm.ControlInput1"
-                      >
-                        <Field
-                          as="select"
-                          id="mySelect"
-                          className={`form-select ${
-                            formik.touched.employee && formik.errors.employee
-                              ? "is-invalid"
-                              : ""
-                          }`}
-                          name="mySelect"
+                          className="mb-3"
+                          controlId="exampleForm.ControlInput1"
                         >
-                          <option value="" disabled selected>
-                            Employee Strength :
-                          </option>
-                          <option value="option1">Under 20</option>
-                          <option value="option2">20- 150</option>
-                          <option value="option3">150- 500</option>
-                          <option value="option4">500 - 1000</option>
-                          <option value="option5">Over 1000</option>
-                        </Field>
-                        <ErrorMessage
-                          name="employee"
-                          component="div"
-                          className={`${styles["valid-clr"]} invalid-feedback`}
-                        />
-                      </Form.Group>
+                          <Field
+                            as="select"
+                            id="mySelect"
+                            className={`form-select ${
+                              formik.touched.employee && formik.errors.employee
+                                ? "is-invalid"
+                                : ""
+                            }`}
+                            name="mySelect"
+                          >
+                            <option value="" disabled selected>
+                              Employee Strength :
+                            </option>
+                            <option value="option1">Under 20</option>
+                            <option value="option2">20- 150</option>
+                            <option value="option3">150- 500</option>
+                            <option value="option4">500 - 1000</option>
+                            <option value="option5">Over 1000</option>
+                          </Field>
+                          <ErrorMessage
+                            name="employee"
+                            component="div"
+                            className={`${styles["valid-clr"]} invalid-feedback`}
+                          />
+                        </Form.Group>
                         <Button
                           variant="warning"
                           size="sm"
@@ -298,7 +361,7 @@ const crmcont = ({ styles }) => {
               </Modal.Footer>
             </Modal>
           </div>
-                {/* <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+          {/* <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
                   <div className="box border shadow rounded-3 p-4 text-center bg-light">
                   <div className={styles['badge']}>
                       <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
@@ -444,10 +507,10 @@ const crmcont = ({ styles }) => {
                     </Button>
                   </div>
                 </Col> */}
-              </Row>
-              </Container>
+        </Row>
+      </Container>
     </>
-  )
-}
+  );
+};
 
-export default crmcont
+export default crmcont;

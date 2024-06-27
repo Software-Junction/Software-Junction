@@ -9,7 +9,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import ChartDataLabels from "chartjs-plugin-datalabels";
 ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 
-const educationcont = ({ styles }) => {
+const propertycont = ({ styles }) => {
   const handleFormSubmit = async (values, actions) => {
     try {
       await axios.post(
@@ -29,31 +29,87 @@ const educationcont = ({ styles }) => {
   const cardData = [
     {
       badgeText: "10",
-      imageSrc: "/images/school.png",
-      imageAlt: "school",
-      headingText: "Campus365",
-      pieData: [30, 20, 25, 25], // Example data for pie chart
-    },
-    {
-      badgeText: "10",
-      imageSrc: "/images/school.png",
-      imageAlt: "school",
-      headingText: "SchoolCanva",
+      imageSrc: "/images/stayflexi.png",
+      imageAlt: "stayflexi",
+      headingText: "Stayflexi",
       pieData: [25, 25, 25, 25], // Example data for pie chart
     },
     {
       badgeText: "10",
-      imageSrc: "/images/school.png",
-      imageAlt: "school",
-      headingText: "SchoolCanva",
-      pieData: [25, 25, 25, 25], // Example data for pie chart
+      imageSrc: "/images/sysotel.png",
+      imageAlt: "sysotel",
+      headingText: "SYSOTEL.AI",
+      pieData: [25, 30, 20, 25],
     },
     {
       badgeText: "10",
-      imageSrc: "/images/school.png",
-      imageAlt: "school",
-      headingText: "SchoolCanva",
-      pieData: [25, 25, 25, 25], // Example data for pie chart
+      imageSrc: "/images/buildium.png",
+      imageAlt: "buildium",
+      headingText: "Buildium",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/appfolio-realm.png",
+      imageAlt: "appfolio-realm",
+      headingText: "AppFolio Realm",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/mri-software.png",
+      imageAlt: "mri-software",
+      headingText: "MRI Software",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/rent-manager.jpg",
+      imageAlt: "rent-manager",
+      headingText: "Rent Manager",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/ssandc.png",
+      imageAlt: "ssandc",
+      headingText: "SS&C SKYLINE",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/rms-cloud.png",
+      imageAlt: "rms-cloud",
+      headingText: "RMS Cloud",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/yardi.png",
+      imageAlt: "yardi",
+      headingText: "Yardi",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/tenant-cloud.jpg",
+      imageAlt: "tenant-cloud",
+      headingText: "TenantCloud",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/rentec-direct.png",
+      imageAlt: "rentec-direct",
+      headingText: "Rentec Direct",
+      pieData: [25, 30, 20, 25],
+    },
+    {
+      badgeText: "10",
+      imageSrc: "/images/innkey.png",
+      imageAlt: "innkey",
+      headingText: "InnKey",
+      pieData: [25, 30, 20, 25],
     },
     // Add more data objects as needed
   ];
@@ -115,7 +171,7 @@ const educationcont = ({ styles }) => {
 
   return (
     <>
-      <Container className={styles["education-container"]}>
+      <Container className={styles["property-container"]}>
         <Row>
           {cardData.map((data, index) => (
             <Col lg={3} className={`${styles["col-mob"]} mb-3`} key={index}>
@@ -127,16 +183,17 @@ const educationcont = ({ styles }) => {
                     {data.badgeText}
                   </p>
                 </div>
-                <div>
+                <div className={styles['height']}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
-                    width="120"
+                    width="100"
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                </div>
+                
                 <h5 className="my-3">{data.headingText}</h5>
+                </div>
                 <Button
                   size="sm"
                   variant="primary"
@@ -148,7 +205,6 @@ const educationcont = ({ styles }) => {
               </div>
             </Col>
           ))}
-
           <div className="pie-modal">
             <Modal show={show} onHide={handleClose} size="lg" centered>
               <Modal.Header closeButton>
@@ -305,155 +361,169 @@ const educationcont = ({ styles }) => {
             </Modal>
           </div>
           {/* <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/school.png"
-                        alt="school"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">SchoolCanva</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col>
 
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/school.png"
-                        alt="school"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">SchoolCanva</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col>
+          <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col>
 
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/school.png"
-                        alt="school"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">SchoolCanva</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col>
+          <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col>
 
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/school.png"
-                        alt="school"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">SchoolCanva</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col>
+          <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col>
 
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/school.png"
-                        alt="school"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">SchoolCanva</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col>
+          <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col>
 
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/school.png"
-                        alt="school"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">SchoolCanva</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col>
+          <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col>
 
-                <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
-                  <div className="box border shadow rounded-3 p-4 text-center bg-light">
-                  <div className={styles['badge']}>
-                      <p className={`${styles['badge-cont']} badge rounded-pill`}>10</p>
-                    </div>
-                    <div>
-                      <Image
-                        src="/images/school.png"
-                        alt="school"
-                        width="120"
-                        height="10"
-                        className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
-                      />
-                    </div>
-                    <h5 className="my-3">SchoolCanva</h5>
-                    <Button size="sm" variant="primary" className="w-100">
-                      Free Demo
-                    </Button>
-                  </div>
-                </Col> */}
+          <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
+            <div className="box border shadow rounded-3 p-4 text-center bg-light">
+              <div className={styles["badge"]}>
+                <p className={`${styles["badge-cont"]} badge rounded-pill`}>
+                  10
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/images/vyaparlogo.png"
+                  alt="vyaparlogo"
+                  width="120"
+                  height="10"
+                  className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
+                />
+              </div>
+              <h5 className="my-3">Vyapar</h5>
+              <Button size="sm" variant="primary" className="w-100">
+                Free Demo
+              </Button>
+            </div>
+          </Col> */}
         </Row>
       </Container>
     </>
   );
 };
 
-export default educationcont;
+export default propertycont;

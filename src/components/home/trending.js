@@ -3,11 +3,23 @@ import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Link from "next/link";
-import Accounting from "./accounting-cont";
-import Education from "./education-cont";
-import Erp from './erp-cont';
-import Hr from './hr-cont';
-import Crm from './crm-cont';
+import Accounting from "./trending softwares/accounting-cont";
+import Erp from './trending softwares/erp-cont';
+import Hr from './trending softwares/hr-cont';
+import Crm from './trending softwares/crm-cont';
+import Ecommerce from './trending softwares/ecommerce-cont';
+import Billing from './trending softwares/billing-cont';
+import Event from './trending softwares/event-cont';
+import Project from './trending softwares/project-cont';
+import Hotel from './trending softwares/hotel-cont';
+import Call from './trending softwares/call-cont';
+import Property from './trending softwares/property-cont';
+import Hospital from './trending softwares/hospital-cont';
+import Inventory from './trending softwares/inventory-cont';
+import App from './trending softwares/app-cont';
+import Retailing from './trending softwares/retailing-cont';
+
+
 
 const Trending = ({ styles }) => {
   const [selectedCategory, setSelectedCategory] = useState("accounting");
@@ -26,35 +38,105 @@ const Trending = ({ styles }) => {
                 className={selectedCategory === 'accounting' ? styles.activeCategory : styles.category}
                 
               >
-                Accounting
-              </h5>
-              <h5
-                onClick={() => setSelectedCategory("education")}
-                className={selectedCategory === 'education' ? styles.activeCategory : styles.category}
-                
-              >
-                Education
-              </h5>
-              <h5
-                onClick={() => setSelectedCategory("erp")}
-                className={selectedCategory === 'erp' ? styles.activeCategory : styles.category}
-                
-              >
-                ERP
+                Accounting Software
               </h5>
               <h5
                 onClick={() => setSelectedCategory("hr")}
                 className={selectedCategory === 'hr' ? styles.activeCategory : styles.category}
                 
               >
-                HR
+                HR Software
               </h5>
               <h5
                 onClick={() => setSelectedCategory("crm")}
                 className={selectedCategory === 'crm' ? styles.activeCategory : styles.category}
                 
               >
-                CRM
+                CRM Software
+              </h5>
+              <h5
+                onClick={() => setSelectedCategory("erp")}
+                className={selectedCategory === 'erp' ? styles.activeCategory : styles.category}
+                
+              >
+                ERP Software
+              </h5>
+              <h5
+                onClick={() => setSelectedCategory("ecommerce")}
+                className={selectedCategory === 'ecommerce' ? styles.activeCategory : styles.category}
+                
+              >
+                Ecommerce Software
+              </h5>
+              <h5
+                onClick={() => setSelectedCategory("billing")}
+                className={selectedCategory === 'billing' ? styles.activeCategory : styles.category}
+                
+              >
+                Billing and Invoicing Software
+              </h5>
+              <h5
+                onClick={() => setSelectedCategory("event")}
+                className={selectedCategory === 'event' ? styles.activeCategory : styles.category}
+                
+              >
+                Event Management Software
+              </h5>
+              <h5
+                onClick={() => setSelectedCategory("project")}
+                className={selectedCategory === 'project' ? styles.activeCategory : styles.category}
+                
+              >
+                Project Management Software
+              </h5>
+              <h5
+                onClick={() => setSelectedCategory("hotel")}
+                className={selectedCategory === 'hotel' ? styles.activeCategory : styles.category}
+                
+              >
+                Hotel Management Software
+              </h5>
+              <h5
+                onClick={() => setSelectedCategory("call")}
+                className={selectedCategory === 'call' ? styles.activeCategory : styles.category}
+                
+              >
+                Call Center Software
+              </h5>
+              <h5
+                onClick={() => setSelectedCategory("property")}
+                className={selectedCategory === 'property' ? styles.activeCategory : styles.category}
+                
+              >
+                Property Management Software
+              </h5>
+              <h5
+                onClick={() => setSelectedCategory("hospital")}
+                className={selectedCategory === 'hospital' ? styles.activeCategory : styles.category}
+                
+              >
+                Hospital Management Software
+              </h5>
+              <h5
+                onClick={() => setSelectedCategory("inventory")}
+                className={selectedCategory === 'inventory' ? styles.activeCategory : styles.category}
+                
+              >
+                Inventory Management Software
+              </h5>
+              <h5
+                onClick={() => setSelectedCategory("app")}
+                className={selectedCategory === 'app' ? styles.activeCategory : styles.category}
+                
+              >
+                App Development Software
+              </h5>
+              <h5
+                onClick={() => setSelectedCategory("retailing")}
+                className={selectedCategory === 'retailing' ? styles.activeCategory : styles.category}
+                
+              >
+                Retailing Software
               </h5>
               {/* <h5>Accounting</h5>
               <h5>Education</h5>
@@ -66,17 +148,47 @@ const Trending = ({ styles }) => {
               {selectedCategory === "accounting" && (
                 <Accounting styles={styles} />
               )}
-              {selectedCategory === "education" && (
-                <Education styles={styles} />
-              )}
-               {selectedCategory === "erp" && (
-                <Erp styles={styles} />
-              )}
                {selectedCategory === "hr" && (
                 <Hr styles={styles} />
               )}
                {selectedCategory === "crm" && (
                 <Crm styles={styles} />
+              )}
+               {selectedCategory === "erp" && (
+                <Erp styles={styles} />
+              )}
+              {selectedCategory === "ecommerce" && (
+                <Ecommerce styles={styles} />
+              )}
+              {selectedCategory === "billing" && (
+                <Billing styles={styles} />
+              )}
+              {selectedCategory === "event" && (
+                <Event styles={styles} />
+              )}
+              {selectedCategory === "project" && (
+                <Project styles={styles} />
+              )}
+              {selectedCategory === "hotel" && (
+                <Hotel styles={styles} />
+              )}
+              {selectedCategory === "call" && (
+                <Call styles={styles} />
+              )}
+              {selectedCategory === "property" && (
+                <Property styles={styles} />
+              )}
+              {selectedCategory === "hospital" && (
+                <Hospital styles={styles} />
+              )}
+              {selectedCategory === "inventory" && (
+                <Inventory styles={styles} />
+              )}
+              {selectedCategory === "app" && (
+                <App styles={styles} />
+              )}
+              {selectedCategory === "retailing" && (
+                <Retailing styles={styles} />
               )}
             </Col>
           </Row>
