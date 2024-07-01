@@ -11,7 +11,7 @@ const Video = ({ styles }) => {
             <Col lg={6}>
               <iframe
                 width="560"
-                height="315"
+                height="350"
                 src="https://www.youtube.com/embed/hdI2bqOjy3c?si=P0c-uGc8qPl5xnOL"
                 title="YouTube video player"
                 frameborder="0"

@@ -98,7 +98,7 @@ const Price = () => {
                         
                     </ul>
                     <div className='text-center'>
-                    <Button variant='primary' size='sm' className={styles['price-btn2']}>Free Trail</Button>
+                    <Button variant='primary' size='sm' className={styles['price-btn2']} onClick={handleShowDemo}>Free Trail</Button>
                     </div>
                 </div>
               <Modal

@@ -10,7 +10,7 @@ const Scoring = ({ styles }) => {
           <Row>
             <Col lg={12}>
               <h3 className="mb-3">Scoring Methodology</h3>
-              <h5 className="mb-4">
+              <h5 className={`${styles['sub-heading']} mb-4`}>
                 At Software Junction, we believe in providing our visitors and
                 software companies with valuable insights into the software
                 landscape. To facilitate informed decision- making, we have

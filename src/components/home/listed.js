@@ -57,7 +57,7 @@ const Listed = ({ styles }) => {
           <Row>
             <Col lg={12}>
               <h3 className="mb-4">Get Listed</h3>
-              <h5 className="mb-4">
+              <h5 className={`${styles['sub-heading']} mb-4`}>
                 Getting listed on Software Junction can provide numerous
                 advantages, such as increased visibility, brand exposure, and
                 accessibility to a targeted audience actively searching for

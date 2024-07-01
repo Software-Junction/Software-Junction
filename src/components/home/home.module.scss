@@ -549,6 +549,7 @@
       border-radius: 5px;
       color: #335c67;
       padding: 10px;
+      background-color: #fff;
       cursor: pointer;
     }
     .activeCategory:hover {
@@ -716,15 +717,22 @@
   }
 }
 .video-sec {
+  h5{
+    font-weight: 400 !important;
+  }
   p {
     font-size: 14px !important;
   }
   ul li {
     font-size: 14px !important;
+    margin-bottom: 10px;
   }
 }
 .scoring {
   background-color: #f6f1f1;
+  .sub-heading{
+    font-weight: 400 !important;
+  }
   p {
     font-size: 14px !important;
   }
@@ -785,6 +793,9 @@
   }
 }
 .listed {
+  .sub-heading{
+    font-weight: 400 !important;
+  }
   background-color: #f6f1f1;
   p {
     font-size: 14px !important;
@@ -887,8 +898,12 @@
   }
 }
 .benefit {
+  .sub-heading{
+    font-weight: 400 !important;
+  }
   ul li {
     font-size: 14px !important;
+    margin-bottom: 10px;
   }
   .visitor-box {
     box-shadow: -3px 3px 0px 0px #f95738;

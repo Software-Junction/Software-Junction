@@ -11,9 +11,11 @@ import styles from "./acc.module.scss";
 
 import ZohoF from "../accounting-software/zoho-books/features";
 import ZohoU from "../accounting-software/zoho-books/usp";
+import ZohoP from "../accounting-software/zoho-books/price";
 
 import BillF from "../accounting-software/billbook/features";
 import BillU from "../accounting-software/billbook/usp";
+import BillP from "../accounting-software/billbook/price";
 
 import FusF from "../accounting-software/oracle-fusion/features";
 import FusU from "../accounting-software/oracle-fusion/usp";
@@ -23,78 +25,94 @@ import NetU from "../accounting-software/oracle-netsuite/usp";
 
 import VyaF from "../accounting-software/vyapar/features";
 import VyaU from "../accounting-software/vyapar/usp";
+import VyaP from "../accounting-software/vyapar/price";
 
 import AnkF from "../accounting-software/ankpal/features";
 import AnkU from "../accounting-software/ankpal/usp";
+import AnkP from "../accounting-software/ankpal/price";
 
 import DesF from "../accounting-software/deskera/features";
 import DesU from "../accounting-software/deskera/usp";
+import DesP from "../accounting-software/deskera/price";
 
 import WaveF from "../accounting-software/wave-accounting/features";
 import WaveU from "../accounting-software/wave-accounting/usp";
+import WaveP from "../accounting-software/wave-accounting/price";
 
 import MargF from "../accounting-software/margerp/features";
 import MargU from "../accounting-software/margerp/usp";
+import MargP from "../accounting-software/margerp/price";
 
 import FreshF from "../accounting-software/freshbooks/features";
 import FreshU from "../accounting-software/freshbooks/usp";
+import FreshP from "../accounting-software/freshbooks/price";
 
 const Cmpchat = () => {
   //1
   const [show1, setShow1] = useState(false);
   const [showUsp1, setShowUsp1] = useState(false);
-  // const [showPrice1, setShowPrice1] = useState(false);
+  const [showPrice1, setShowPrice1] = useState(false);
   //2
   const [showUsp2, setShowUsp2] = useState(false);
   const [showF2, setShowF2] = useState(false);
-  // const [showPrice2, setShowPrice2] = useState(false);
+  const [showPrice2, setShowPrice2] = useState(false);
+
   //3
   const [showF3, setShowF3] = useState(false);
   const [showUsp3, setShowUsp3] = useState(false);
   // const [showPrice3, setShowPrice3] = useState(false);
+
   //4
   const [showF4, setShowF4] = useState(false);
   const [showUsp4, setShowUsp4] = useState(false);
   // const [showPrice4, setShowPrice4] = useState(false);
+
   //5
   const [showF5, setShowF5] = useState(false);
   const [showUsp5, setShowUsp5] = useState(false);
-  // const [showPrice5, setShowPrice5] = useState(false);
+  const [showPrice5, setShowPrice5] = useState(false);
+
   //6
   const [showF6, setShowF6] = useState(false);
   const [showUsp6, setShowUsp6] = useState(false);
-  // const [showPrice6, setShowPrice6] = useState(false);
+  const [showPrice6, setShowPrice6] = useState(false);
+
   //7
   const [showF7, setShowF7] = useState(false);
   const [showUsp7, setShowUsp7] = useState(false);
-  // const [showPrice7, setShowPrice7] = useState(false);
+  const [showPrice7, setShowPrice7] = useState(false);
+
   //8
   const [showF8, setShowF8] = useState(false);
   const [showUsp8, setShowUsp8] = useState(false);
-  // const [showPrice8, setShowPrice8] = useState(false);
+  const [showPrice8, setShowPrice8] = useState(false);
+
   //9
   const [showF9, setShowF9] = useState(false);
   const [showUsp9, setShowUsp9] = useState(false);
-  // const [showPrice9, setShowPrice9] = useState(false);
+  const [showPrice9, setShowPrice9] = useState(false);
+
   //10
   const [showF10, setShowF10] = useState(false);
   const [showUsp10, setShowUsp10] = useState(false);
-  // const [showPrice10, setShowPrice10] = useState(false);
+  const [showPrice10, setShowPrice10] = useState(false);
 
   //1 features and usp
   const handleCloseF1 = () => setShow1(false);
   const handleShowF1 = () => setShow1(true);
   const handleCloseUsp1 = () => setShowUsp1(false);
   const handleShowUsp1 = () => setShowUsp1(true);
-  // const handleClosePrice1 = () => setShowPrice1(false);
-  // const handleShowPrice1 = () => setShowPrice1(true);
+  const handleClosePrice1 = () => setShowPrice1(false);
+  const handleShowPrice1 = () => setShowPrice1(true);
+
   //2 features and usp
   const handleCloseF2 = () => setShowF2(false);
   const handleShowF2 = () => setShowF2(true);
   const handleCloseUsp2 = () => setShowUsp2(false);
   const handleShowUsp2 = () => setShowUsp2(true);
-  // const handleClosePrice2 = () => setShowPrice2(false);
-  // const handleShowPrice2 = () => setShowPrice2(true);
+  const handleClosePrice2 = () => setShowPrice2(false);
+  const handleShowPrice2 = () => setShowPrice2(true);
+
   //3 features and usp
   const handleCloseF3 = () => setShowF3(false);
   const handleShowF3 = () => setShowF3(true);
@@ -102,6 +120,7 @@ const Cmpchat = () => {
   const handleShowUsp3 = () => setShowUsp3(true);
   // const handleClosePrice3 = () => setShowPrice3(false);
   // const handleShowPrice3 = () => setShowPrice3(true);
+
   //4 features and usp
   const handleCloseF4 = () => setShowF4(false);
   const handleShowF4 = () => setShowF4(true);
@@ -109,48 +128,54 @@ const Cmpchat = () => {
   const handleShowUsp4 = () => setShowUsp4(true);
   // const handleClosePrice4 = () => setShowPrice4(false);
   // const handleShowPrice4 = () => setShowPrice4(true);
+
   //5 features and usp
   const handleCloseF5 = () => setShowF5(false);
   const handleShowF5 = () => setShowF5(true);
   const handleCloseUsp5 = () => setShowUsp5(false);
   const handleShowUsp5 = () => setShowUsp5(true);
-  // const handleClosePrice5 = () => setShowPrice5(false);
-  // const handleShowPrice5 = () => setShowPrice5(true);
+  const handleClosePrice5 = () => setShowPrice5(false);
+  const handleShowPrice5 = () => setShowPrice5(true);
+
   //6 features and usp
   const handleCloseF6 = () => setShowF6(false);
   const handleShowF6 = () => setShowF6(true);
   const handleCloseUsp6 = () => setShowUsp6(false);
   const handleShowUsp6 = () => setShowUsp6(true);
-  // const handleClosePrice6 = () => setShowPrice6(false);
-  // const handleShowPrice6 = () => setShowPrice6(true);
+  const handleClosePrice6 = () => setShowPrice6(false);
+  const handleShowPrice6 = () => setShowPrice6(true);
+
   //7 features and usp
   const handleCloseF7 = () => setShowF7(false);
   const handleShowF7 = () => setShowF7(true);
   const handleCloseUsp7 = () => setShowUsp7(false);
   const handleShowUsp7 = () => setShowUsp7(true);
-  // const handleClosePrice7 = () => setShowPrice7(false);
-  // const handleShowPrice7 = () => setShowPrice7(true);
+  const handleClosePrice7 = () => setShowPrice7(false);
+  const handleShowPrice7 = () => setShowPrice7(true);
+
   //8 features and usp
   const handleCloseF8 = () => setShowF8(false);
   const handleShowF8 = () => setShowF8(true);
   const handleCloseUsp8 = () => setShowUsp8(false);
   const handleShowUsp8 = () => setShowUsp8(true);
-  // const handleClosePrice8 = () => setShowPrice8(false);
-  // const handleShowPrice8 = () => setShowPrice8(true);
+  const handleClosePrice8 = () => setShowPrice8(false);
+  const handleShowPrice8 = () => setShowPrice8(true);
+
   //9 features and usp
   const handleCloseF9 = () => setShowF9(false);
   const handleShowF9 = () => setShowF9(true);
   const handleCloseUsp9 = () => setShowUsp9(false);
   const handleShowUsp9 = () => setShowUsp9(true);
-  // const handleClosePrice9 = () => setShowPrice9(false);
-  // const handleShowPrice9 = () => setShowPrice9(true);
+  const handleClosePrice9 = () => setShowPrice9(false);
+  const handleShowPrice9 = () => setShowPrice9(true);
+
   //10 features and usp
   const handleCloseF10 = () => setShowF10(false);
   const handleShowF10 = () => setShowF10(true);
   const handleCloseUsp10 = () => setShowUsp10(false);
   const handleShowUsp10 = () => setShowUsp10(true);
-  // const handleClosePrice10 = () => setShowPrice10(false);
-  // const handleShowPrice10 = () => setShowPrice10(true);
+  const handleClosePrice10 = () => setShowPrice10(false);
+  const handleShowPrice10 = () => setShowPrice10(true);
 
 
  const handleFormSubmit = async (values, actions) => {
@@ -605,11 +630,21 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowGetPrice}
+                          onClick={handleShowPrice1}
                         >
-                          Get Pricing
+                          View Pricing
+                        </Button>
+                      </td>
+                      <td>
+                        <Button
+                          size="sm"
+                          variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice2}
+                        >
+                          View Pricing
                         </Button>
                       </td>
                       <td>
@@ -635,71 +670,61 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowGetPrice}
+                          onClick={handleShowPrice5}
                         >
-                          Get Pricing
+                          View Pricing
                         </Button>
                       </td>
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowGetPrice}
+                          onClick={handleShowPrice6}
                         >
-                          Get Pricing
+                          View Pricing
                         </Button>
                       </td>
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
-                          style={{ fontSize: "10px" }}
-                          onClick={handleShowGetPrice}
+                          variant="outline-primary"
+                          style={{ fontSize: "9px" }}
+                          onClick={handleShowPrice7}
                         >
-                          Get Pricing
+                          View Pricing
                         </Button>
                       </td>
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowGetPrice}
+                          onClick={handleShowPrice8}
                         >
-                          Get Pricing
+                          View Pricing
                         </Button>
                       </td>
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowGetPrice}
+                          onClick={handleShowPrice9}
                         >
-                          Get Pricing
+                          View Pricing
                         </Button>
                       </td>
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
-                          style={{ fontSize: "10px" }}
-                          onClick={handleShowGetPrice}
+                          variant="outline-primary"
+                          style={{ fontSize: "8.5px" }}
+                          onClick={handleShowPrice10}
                         >
-                          Get Pricing
-                        </Button>
-                      </td>
-                      <td>
-                        <Button
-                          size="sm"
-                          // variant="outline-primary"
-                          style={{ fontSize: "10px" }}
-                          onClick={handleShowGetPrice}
-                        >
-                          Get Pricing
+                          View Pricing
                         </Button>
                       </td>
                     </tr>
@@ -781,6 +806,30 @@ const Cmpchat = () => {
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
+              {/* 1 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice1}
+                onHide={handleClosePrice1}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Zoho Books
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <ZohoP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice1}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
               {/* 2 usp */}
               <Modal
                 style={{ color: "#000" }}
@@ -804,6 +853,30 @@ const Cmpchat = () => {
                     Close
                   </Button>
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
+                </Modal.Footer>
+              </Modal>
+              {/* 2 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice2}
+                onHide={handleClosePrice2}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  My Bill Book
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <BillP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice2}>
+                    Close
+                  </Button>
                 </Modal.Footer>
               </Modal>
               {/* 3 feature */}
@@ -956,6 +1029,30 @@ const Cmpchat = () => {
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
+              {/* 5 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice5}
+                onHide={handleClosePrice5}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Vyapar
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <VyaP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice5}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
               {/* 6 feature */}
               <Modal
                 style={{ color: "#000" }}
@@ -1004,6 +1101,30 @@ const Cmpchat = () => {
                     Close
                   </Button>
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
+                </Modal.Footer>
+              </Modal>
+              {/* 6 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice6}
+                onHide={handleClosePrice6}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Ankpal
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <AnkP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice6}>
+                    Close
+                  </Button>
                 </Modal.Footer>
               </Modal>
               {/* 7 feature */}
@@ -1056,6 +1177,30 @@ const Cmpchat = () => {
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
+              {/* 7 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice7}
+                onHide={handleClosePrice7}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Deskera
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <DesP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice7}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
               {/* 8 feature */}
               <Modal
                 style={{ color: "#000" }}
@@ -1104,6 +1249,30 @@ const Cmpchat = () => {
                     Close
                   </Button>
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
+                </Modal.Footer>
+              </Modal>
+              {/* 8 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice8}
+                onHide={handleClosePrice8}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Wave Accounting
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <WaveP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice8}>
+                    Close
+                  </Button>
                 </Modal.Footer>
               </Modal>
               {/* 9 feature */}
@@ -1156,6 +1325,30 @@ const Cmpchat = () => {
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
+              {/* 9 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice9}
+                onHide={handleClosePrice9}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Marg ERP 9+Accounting
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <MargP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice9}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
               {/* 10 feature */}
               <Modal
                 style={{ color: "#000" }}
@@ -1204,6 +1397,30 @@ const Cmpchat = () => {
                     Close
                   </Button>
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
+                </Modal.Footer>
+              </Modal>
+              {/* 10 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice10}
+                onHide={handleClosePrice10}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Freshbooks
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <FreshP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice10}>
+                    Close
+                  </Button>
                 </Modal.Footer>
               </Modal>
                       {/* Get Pricing Modal */}
