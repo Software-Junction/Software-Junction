@@ -28,88 +28,88 @@ const hotelcont = ({ styles }) => {
 
   const cardData = [
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/vyaparhotel.png",
       imageAlt: "vyaparhotel",
       headingText: "Vyapar",
-      pieData: [25, 25, 25, 25], // Example data for pie chart
+      pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/kwhotel.png",
       imageAlt: "kwhotel",
       headingText: "KWHotel",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/stayflexi.png",
       imageAlt: "stayflexi",
       headingText: "Stayflexi",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/sysotel.png",
       imageAlt: "sysotel",
       headingText: "SYSOTEL.AI",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/djubo.png",
       imageAlt: "djubo",
       headingText: "DJUBO",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/ezee.png",
       imageAlt: "ezee",
       headingText: "eZee Absolute",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/hotelogix.png",
       imageAlt: "hotelogix",
       headingText: "Hotelogix",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/oraclehospitality.png",
       imageAlt: "oraclehospitality",
       headingText: "Oracle Hospitality",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/profitbooks.png",
       imageAlt: "profitbooks",
       headingText: "ProfitBooks",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/shawman.png",
       imageAlt: "shawman",
       headingText: "ShawMan PMS",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/maestro.png",
       imageAlt: "maestro",
       headingText: "Maestro PMS",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/axisrooms.png",
       imageAlt: "axisrooms",
       headingText: "AxisRooms Manager",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
   ];
@@ -118,12 +118,14 @@ const hotelcont = ({ styles }) => {
     plugins: {
       legend: {
         position: "bottom",
+        align: "start",
         labels: {
-          boxWidth: 20,
+          boxWidth: 10,
           color: "#fff",
           font: {
             size: 10,
           },
+          padding: 15, 
         },
       },
       datalabels: {

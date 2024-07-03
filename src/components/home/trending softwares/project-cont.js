@@ -28,88 +28,88 @@ const projectcont = ({ styles }) => {
 
   const cardData = [
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/figjam.png",
       imageAlt: "figjam",
       headingText: "FigJam",
-      pieData: [25, 25, 25, 25], // Example data for pie chart
+      pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/zoho-projects.jpg",
       imageAlt: "zoho-projects",
       headingText: "Zoho Projects",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/bugherd.png",
       imageAlt: "bugherd",
       headingText: "BugHerd",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/jira.png",
       imageAlt: "jira",
       headingText: "Jira Software",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/web-work.Jpg",
       imageAlt: "web-work",
       headingText: "WebWork Tracker",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/minitab-engage.png",
       imageAlt: "minitab-engage",
       headingText: "Minitab Engage",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/tiemchart.png",
       imageAlt: "tiemchart",
       headingText: "Tiemchart",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/todoist.png",
       imageAlt: "todoist",
       headingText: "Todoist",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/teamgantt.png",
       imageAlt: "teamgantt",
       headingText: "TeamGantt",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/asana.png",
       imageAlt: "asana",
       headingText: "Asana",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/taskworld.png",
       imageAlt: "taskworld",
       headingText: "Taskworld",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/monday-com.png",
       imageAlt: "monday-com",
       headingText: "monday.com",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
   ];
@@ -118,12 +118,14 @@ const projectcont = ({ styles }) => {
     plugins: {
       legend: {
         position: "bottom",
+        align: "start",
         labels: {
-          boxWidth: 20,
+          boxWidth: 10,
           color: "#fff",
           font: {
             size: 10,
           },
+          padding: 15, 
         },
       },
       datalabels: {

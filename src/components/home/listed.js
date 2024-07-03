@@ -7,6 +7,7 @@ import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 import { Container, Row, Col,Form, Button } from "react-bootstrap";
+import PostAPi from "../common/common";
 
 //   var $ = require("jquery");
 // if (typeof window !== "undefined") {
@@ -49,6 +50,20 @@ const Listed = ({ styles }) => {
       actions.setSubmitting(false);
     }
   };
+// useEffect(()=>{
+//   const data = {
+//     fullName:'fullName',
+//     phoneNo:'9987766550',
+//     email:'email@gmail.com',
+//     companyName:'companyName',
+//     websiteLink:'websiteLink'
+//    } 
+//   PostAPi('softwareListed',JSON.stringify(data)).then((respponse)=>{
+//     console.log(respponse)
+//     console.log('response')
+//   })
+//   console.log(' avez response')
+// },[])
 
   return (
     <>

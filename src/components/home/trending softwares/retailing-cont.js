@@ -28,88 +28,88 @@ const retailingcont = ({ styles }) => {
 
   const cardData = [
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/vyaparlogo.png",
       imageAlt: "vyaparlogo",
       headingText: "Vyapar",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/xpert.png",
       imageAlt: "xpert",
       headingText: "MMI Softwares Pvt. Ltd",
-      pieData: [25, 25, 25, 25], // Example data for pie chart
+      pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/oracle.png",
       imageAlt: "oracle",
       headingText: "Oracle Fusion Cloud",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/mybillbook.png",
       imageAlt: "mybillbook",
       headingText: "My Bill Book",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/oraclenet.png",
       imageAlt: "oraclenet",
       headingText: "Oracle NetSuite ERP",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/logic.png",
       imageAlt: "logic",
       headingText: "LOGIC ERP",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/busy.jpg",
       imageAlt: "busy",
       headingText: "Busy Accounting",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/horizon.png",
       imageAlt: "horizon",
       headingText: "Horizon ERP",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/captainbiz.png",
       imageAlt: "captainbiz",
       headingText: "CaptainBiz",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/quickbill.jpg",
       imageAlt: "quickbill",
       headingText: "QuickBill",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/marg.png",
       imageAlt: "marg",
       headingText: "Marg Retail Software",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/fusion-retail.jpg",
       imageAlt: "fusion-retail",
       headingText: "FusionRetail",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
   ];
@@ -118,12 +118,14 @@ const retailingcont = ({ styles }) => {
     plugins: {
       legend: {
         position: "bottom",
+        align: "start",
         labels: {
-          boxWidth: 20,
+          boxWidth: 10,
           color: "#fff",
           font: {
             size: 10,
           },
+          padding: 15, 
         },
       },
       datalabels: {

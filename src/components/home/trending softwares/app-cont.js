@@ -28,88 +28,88 @@ const appcont = ({ styles }) => {
 
   const cardData = [
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/oracle-cloud-infrastructure.png",
       imageAlt: "oracle-cloud-infrastructure",
       headingText: "Oracle Cloud",
-      pieData: [25, 25, 25, 25], // Example data for pie chart
+      pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/oracle-database.png",
       imageAlt: "oracle-database",
       headingText: "Oracle Database",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/ready-4s.png",
       imageAlt: "ready-4s",
       headingText: "Ready4S",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/alpha-software.png",
       imageAlt: "alpha-software",
       headingText: "Alpha Software",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/appy-pie.png",
       imageAlt: "appy-pie",
       headingText: "Appy Pie",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/hedgehog-lab.png",
       imageAlt: "hedgehog-lab",
       headingText: "hedgehog lab",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/outsystem.png",
       imageAlt: "outsystem",
       headingText: "OutSystems",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/brainvire-infotech.png",
       imageAlt: "brainvire-infotech",
       headingText: "Brainvire Infotech",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/mobiscroll.png",
       imageAlt: "mobiscroll",
       headingText: "Mobiscroll",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/unity.png",
       imageAlt: "unity",
       headingText: "Unity",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/appikr-labs.jpg",
       imageAlt: "appikr-labs",
       headingText: "Appikr Labs",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/mysalesdialerpro.jpg",
       imageAlt: "mysalesdialerpro",
       headingText: "MySalesDialerPro",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
   ];
@@ -118,12 +118,14 @@ const appcont = ({ styles }) => {
     plugins: {
       legend: {
         position: "bottom",
+        align: "start",
         labels: {
-          boxWidth: 20,
+          boxWidth: 10,
           color: "#fff",
           font: {
             size: 10,
           },
+          padding: 15, 
         },
       },
       datalabels: {

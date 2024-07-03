@@ -28,88 +28,88 @@ const billingcont = ({ styles }) => {
 
   const cardData = [
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/go-gst-bill.png",
       imageAlt: "go-gst-bill",
       headingText: "Go GST Bill",
-      pieData: [25, 25, 25, 25], // Example data for pie chart
+      pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/profitbooks.png",
       imageAlt: "profitbooks",
       headingText: "ProfitBooks",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/zohoinvoices.jpg",
       imageAlt: "zohoinvoices",
       headingText: "Zoho Invoices",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/eretail-cybertech.png",
       imageAlt: "eretail-cybertech",
       headingText: "eRetail Cybertech - pranaPOS",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/ivepos.jpg",
       imageAlt: "ivepos",
       headingText: "IVEPOS",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/captain-biz.png",
       imageAlt: "captain-biz",
       headingText: "CaptainBiz",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/vyaparlogo.png",
       imageAlt: "vyaparlogo",
       headingText: "Vyapar",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/oraclenet.png",
       imageAlt: "oraclenet",
       headingText: "Oracle NetSuite ERP",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/ankpal.png",
       imageAlt: "ankpal",
       headingText: "Ankpal",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/marg.png",
       imageAlt: "marg",
       headingText: "Marg ERP 9+Accounting",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/smaket.png",
       imageAlt: "smaket",
       headingText: "Smaket",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "10",
+      badgeText: "40",
       imageSrc: "/images/genie.jpg",
       imageAlt: "genie",
       headingText: "GenieBooks",
-      pieData: [25, 30, 20, 25],
+      pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
   ];
@@ -118,12 +118,14 @@ const billingcont = ({ styles }) => {
     plugins: {
       legend: {
         position: "bottom",
+        align: "start",
         labels: {
-          boxWidth: 20,
+          boxWidth: 10,
           color: "#fff",
           font: {
             size: 10,
           },
+          padding: 15, 
         },
       },
       datalabels: {
