@@ -4,17 +4,17 @@ import { FaStar } from "react-icons/fa";
 import { FaPenToSquare, FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
-import Acaddetails from "./acaddetails";
+import Details from "./details";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import styles from "../academia/acad.module.scss";
 const Index = () => {
   return (
     <>
-      <section className={styles["aca-heading"]}>
+      <section className={styles["heading"]}>
         <Container>
           <Row>
             <Col lg={12}>
-              <div className={`${styles["aca-breadcr"]} `}>
+              <div className={`${styles["breadcr"]} `}>
                 <ul>
                   <li>
                     {" "}
@@ -45,7 +45,7 @@ const Index = () => {
                     alt="academia"
                     width="150"
                     height="10"
-                    className={`${styles["aca-box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
+                    className={`${styles["box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
                   />
                   <div>
                     <h3 className="text-light">Academia</h3>
@@ -81,8 +81,8 @@ const Index = () => {
         </Container>
       </section>
 
-      <section className={`${styles["aca-detail-bg"]} pb-5`}>
-        <Acaddetails styles={styles} />
+      <section className={`${styles["detail-bg"]} pb-5`}>
+        <Details styles={styles} />
       </section>
     </>
   );

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Image from "next/image";
-const Acadcompare = ({styles}) => {
+const Compare = ({styles}) => {
   return (
     <>
        <Container>
@@ -11,8 +11,8 @@ const Acadcompare = ({styles}) => {
                 <strong>Comparison of Softwares</strong>
               </h3>
             </Col>
-            <Col lg={3} className={styles["aca-col-margin-mob"]}>
-              <div className={`${styles["aca-box"]} shadow bg-light h-100`}>
+            <Col lg={3} className={styles["col-margin-mob"]}>
+              <div className={`${styles["box"]} shadow bg-light h-100`}>
                 <div className="d-flex">
                   <div className="img pt-3 ms-4">
                     <div className=" mt-5 me-4">
@@ -24,15 +24,15 @@ const Acadcompare = ({styles}) => {
                         className="shadow"
                       />
                     </div>
-                    <p className={`${styles["aca-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                       Schoolcanvas
                     </p>
                   </div>
                   <div className="hr">
-                    <hr className={styles["aca-vs-hr"]} />
+                    <hr className={styles["vs-hr"]} />
                   </div>
                   <div>
-                    <p className={`${styles["aca-vs-box"]} p-2`}>vs</p>
+                    <p className={`${styles["vs-box"]} p-2`}>vs</p>
                   </div>
                   <div className="img pt-3">
                     <div className=" mt-2 me-3">
@@ -44,7 +44,7 @@ const Acadcompare = ({styles}) => {
                         className=" shadow "
                       />
                     </div>
-                    <p className={`${styles["aca-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                       Vyapar Billing software
                     </p>
                   </div>
@@ -57,8 +57,8 @@ const Acadcompare = ({styles}) => {
               </div>
             </Col>
 
-            <Col lg={3} className={styles["aca-col-margin-mob"]}>
-              <div className={`${styles["aca-box"]} shadow bg-light h-100`}>
+            <Col lg={3} className={styles["col-margin-mob"]}>
+              <div className={`${styles["box"]} shadow bg-light h-100`}>
                 <div className="d-flex">
                   <div className="img pt-3 ms-4">
                     <div className=" mt-5 me-4">
@@ -70,15 +70,15 @@ const Acadcompare = ({styles}) => {
                         className="shadow"
                       />
                     </div>
-                    <p className={`${styles["aca-box-p-font"]} mt-3`}>
+                    <p className={`${styles["box-p-font"]} mt-3`}>
                     Schoolcanvas
                     </p>
                   </div>
                   <div className="hr">
-                    <hr className={styles["aca-vs-hr"]} />
+                    <hr className={styles["vs-hr"]} />
                   </div>
                   <div>
-                    <p className={`${styles["aca-vs-box"]} p-2`}>vs</p>
+                    <p className={`${styles["vs-box"]} p-2`}>vs</p>
                   </div>
                   <div className="img pt-3">
                     <div className=" mt-2 me-3">
@@ -90,7 +90,7 @@ const Acadcompare = ({styles}) => {
                         className=" shadow "
                       />
                     </div>
-                    <p className={`${styles["aca-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                       My Bill Book{" "}
                     </p>
                   </div>
@@ -103,8 +103,8 @@ const Acadcompare = ({styles}) => {
               </div>
             </Col>
 
-            <Col lg={3} className={styles["aca-col-margin-mob"]}>
-              <div className={`${styles["aca-box"]} shadow bg-light h-100`}>
+            <Col lg={3} className={styles["col-margin-mob"]}>
+              <div className={`${styles["box"]} shadow bg-light h-100`}>
                 <div className="d-flex">
                   <div className="img pt-3 ms-4">
                     <div className=" mt-5 me-4">
@@ -116,15 +116,15 @@ const Acadcompare = ({styles}) => {
                         className="shadow"
                       />
                     </div>
-                    <p className={`${styles["aca-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                     Schoolcanvas
                     </p>
                   </div>
                   <div className="hr">
-                    <hr className={styles["aca-vs-hr"]} />
+                    <hr className={styles["vs-hr"]} />
                   </div>
                   <div>
-                    <p className={`${styles["aca-vs-box"]} p-2`}>vs</p>
+                    <p className={`${styles["vs-box"]} p-2`}>vs</p>
                   </div>
                   <div className="img pt-3">
                     <div className=" mt-2 me-3">
@@ -136,7 +136,7 @@ const Acadcompare = ({styles}) => {
                         className=" shadow "
                       />
                     </div>
-                    <p className={`${styles["aca-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                       My Bill Book
                     </p>
                   </div>
@@ -149,8 +149,8 @@ const Acadcompare = ({styles}) => {
               </div>
             </Col>
 
-            <Col lg={3} className={styles["aca-col-margin-mob"]}>
-              <div className={`${styles["aca-box"]} shadow bg-light h-100`}>
+            <Col lg={3} className={styles["col-margin-mob"]}>
+              <div className={`${styles["box"]} shadow bg-light h-100`}>
                 <div className="d-flex">
                   <div className="img pt-3 ms-4">
                     <div className=" mt-5 me-4">
@@ -162,15 +162,15 @@ const Acadcompare = ({styles}) => {
                         className="shadow"
                       />
                     </div>
-                    <p className={`${styles["aca-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                     Schoolcanvas
                     </p>
                   </div>
                   <div className="hr">
-                    <hr className={styles["aca-vs-hr"]} />
+                    <hr className={styles["vs-hr"]} />
                   </div>
                   <div>
-                    <p className={`${styles["aca-vs-box"]} p-2`}>vs</p>
+                    <p className={`${styles["vs-box"]} p-2`}>vs</p>
                   </div>
                   <div className="img pt-3">
                     <div className=" mt-2 me-3">
@@ -182,7 +182,7 @@ const Acadcompare = ({styles}) => {
                         className=" shadow "
                       />
                     </div>
-                    <p className={`${styles["aca-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                       My Bill Book
                     </p>
                   </div>
@@ -200,4 +200,4 @@ const Acadcompare = ({styles}) => {
   )
 }
 
-export default Acadcompare
+export default Compare

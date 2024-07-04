@@ -259,6 +259,7 @@ iframe {
 .btn-warning{
   background-color: #f95738  !important;
   border: 1px solid #f95738 ;
+  color: #fff !important;
 }
 .btn-warning:hover{
   border: 1px solid #f95738 ;
@@ -268,9 +269,9 @@ iframe {
   border: 1px solid #f95738 ;
 }
 .btn-outline-primary{
+  background-color: #335c67 !important;
   border: 1px solid #335c67 !important;
-  color: #335c67;
-  background-color: #fff;
+  color: #fff;
 }
 .btn-outline-primary:hover{
   background-color: #335c67 !important;
@@ -310,6 +311,8 @@ iframe {
 }
   .modal-content{
       color: #000;
+      // display: flex;
+      // justify-content: center !important;
       h3{
         color: #fff;
       }

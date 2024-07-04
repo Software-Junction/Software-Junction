@@ -40,7 +40,7 @@ const renderHTML = (rawHTML) => {
   });
 };
 
-const Acadusp = ({ styles }) => {
+const Usp = ({ styles }) => {
   return (
     <>
       <Container>
@@ -51,7 +51,7 @@ const Acadusp = ({ styles }) => {
           {uspData.map((item, index) => (
             <Col lg={4} className="mb-4" key={index}>
               <div
-                className={`${styles["aca-box-bgclr"]} box h-100 p-4 rounded-4 border text-center`}
+                className={`${styles["box-bgclr"]} box h-100 p-4 rounded-4 border text-center`}
               >
                 <h5>{item.title}</h5>
                 <br />
@@ -66,4 +66,4 @@ const Acadusp = ({ styles }) => {
   );
 };
 
-export default Acadusp;
+export default Usp;

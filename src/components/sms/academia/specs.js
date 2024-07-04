@@ -15,7 +15,7 @@ import {
 import { BiSolidCustomize } from "react-icons/bi";
 import { FaMapLocationDot, FaDiamond } from "react-icons/fa6";
 
-const Acadspecs = ({ styles }) => {
+const Specs = ({ styles }) => {
   return (
     <>
       <Container>
@@ -28,17 +28,17 @@ const Acadspecs = ({ styles }) => {
           <Row>
             <Col lg={12}>
               <div
-                className={`${styles["aca-soft-specs"]} border bg-light rounded-4 p-4`}
+                className={`${styles["soft-specs"]} border bg-light rounded-4 p-4`}
               >
                 <Row>
                   <Col lg={3} className="mb-3">
                     <h5>Supported Platforms :</h5>
                   </Col>
                   <Col lg={9} className="mb-3">
-                    <div className={`${styles["aca-spec-mob"]} d-flex`}>
+                    <div className={`${styles["spec-mob"]} d-flex`}>
                     
                     <h5 className="me-3">
-                        <span className={styles["aca-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <IoLogoWindows />
                         </span>{" "}
                         Windows
@@ -62,15 +62,15 @@ const Acadspecs = ({ styles }) => {
                     <h5>Accessibility :</h5>
                   </Col>
                   <Col lg={9} className="mb-3">
-                    <div className={`${styles["aca-spec-mob"]} d-flex`}>
+                    <div className={`${styles["spec-mob"]} d-flex`}>
                       <h5 className="me-3">
-                        <span className={styles["aca-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <FaMobileAlt />
                         </span>{" "}
                         Mobile Support
                       </h5>
                       <h5 className="me-3">
-                        <span className={styles["aca-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <BiSolidCustomize />
                         </span>{" "}
                         Customization
@@ -81,9 +81,9 @@ const Acadspecs = ({ styles }) => {
                     <h5>Language Support :</h5>
                   </Col>
                   <Col lg={9} className="mb-3">
-                    <div className={`${styles["aca-spec-mob"]} d-flex`}>
+                    <div className={`${styles["spec-mob"]} d-flex`}>
                       <h5 className="me-3">
-                        <span className={styles["aca-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <MdOutlineGTranslate />
                         </span>{" "}
                         English
@@ -95,21 +95,21 @@ const Acadspecs = ({ styles }) => {
                     <h5>Business :</h5>
                   </Col>
                   <Col lg={9} className="mb-3">
-                    <div className={`${styles["aca-spec-mob"]} d-flex`}>
+                    <div className={`${styles["spec-mob"]} d-flex`}>
                       <h5 className="me-3">
-                        <span className={styles["aca-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <BsBuildingsFill />
                         </span>{" "}
                         Agencies
                       </h5>
                       <h5 className="me-3">
-                        <span className={styles["aca-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <BsFillFileBarGraphFill />
                         </span>{" "}
                         SMEs
                       </h5>
                       <h5 className="me-3">
-                        <span className={styles["aca-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <BsFillRocketTakeoffFill />
                         </span>{" "}
                         StartUps
@@ -122,9 +122,9 @@ const Acadspecs = ({ styles }) => {
                     <h5>Available Support :</h5>
                   </Col>
                   <Col lg={9} className="mb-3">
-                    <div className={`${styles["aca-spec-mob"]} d-flex`}>
+                    <div className={`${styles["spec-mob"]} d-flex`}>
                       <h5 className="me-3">
-                        <span className={styles["aca-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <MdEmail />
                         </span>{" "}
                         Email
@@ -137,19 +137,19 @@ const Acadspecs = ({ styles }) => {
                   </Col>
                   <Col lg={9} className="mb-3">
                     <h5 className="mb-3">
-                      <span className={styles["aca-icon-clr"]}>
+                      <span className={styles["icon-clr"]}>
                         <FaBuilding />
                       </span>{" "}
                       Company Name : Dataman Computer Systems
                     </h5>
                     <h5 className="mb-3">
-                      <span className={styles["aca-icon-clr"]}>
+                      <span className={styles["icon-clr"]}>
                         <BsBuildingsFill />
                       </span>{" "}
                       Headquarter : Kanpur
                     </h5>
                     <h5 className="mb-3">
-                      <span className={styles["aca-icon-clr"]}>
+                      <span className={styles["icon-clr"]}>
                         <FaGlobe />
                       </span>{" "}
                       Website :{" "}
@@ -169,4 +169,4 @@ const Acadspecs = ({ styles }) => {
   );
 };
 
-export default Acadspecs;
+export default Specs;

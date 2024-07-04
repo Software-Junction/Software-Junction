@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container, Row, Col, Button } from "react-bootstrap";
-const Acadprice = ({styles}) => {
+import styles from "../academia/acad.module.scss";
+
+const Price = () => {
   return (
     <>
       <Container>
@@ -9,7 +11,7 @@ const Acadprice = ({styles}) => {
                 <h3 className='mb-3'>Academia Pricing</h3>
             </Col>
             <Col lg={3} className='mb-3'>
-                <div className={`${styles['aca-price-box']} box  bg-light border h-100 rounded-4 p-4`}>
+                <div className={`${styles['price-box']} box  bg-light border h-100 rounded-4 p-4`}>
                     <div className='text-center'>
                     <h5>HDSchool (single client)<br/><br/>&#8377; 1300</h5>
                     <p>per Month</p>
@@ -22,12 +24,12 @@ const Acadprice = ({styles}) => {
                         
                     </ul>
                     <div className='text-center'>
-                    <Button variant='primary' size='sm' className={styles['aca-price-btn']}>Free Trail</Button>
+                    <Button variant='primary' size='sm' className={styles['price-btn']}>Free Trail</Button>
                     </div>
                 </div>
             </Col>
             <Col lg={3} className='mb-3'>
-                <div className={`${styles['aca-price-box']} box  bg-light border h-100  rounded-4 p-4`}>
+                <div className={`${styles['price-box']} box  bg-light border h-100  rounded-4 p-4`}>
                     <div className='text-center'>
                     <h5>HDSchool (Two clients)<br/><br/>&#8377; 2500</h5>
                     <p>per Month</p>
@@ -40,12 +42,12 @@ const Acadprice = ({styles}) => {
                         
                     </ul>
                     <div className='text-center'>
-                    <Button variant='primary' size='sm' className={styles['aca-price-btn1']}>Free Trail</Button>
+                    <Button variant='primary' size='sm' className={styles['price-btn1']}>Free Trail</Button>
                     </div>
                 </div>
             </Col>
             <Col lg={3} className='mb-3'>
-                <div className={`${styles['aca-price-box']} box  bg-light border h-100  rounded-4 p-4`}>
+                <div className={`${styles['price-box']} box  bg-light border h-100  rounded-4 p-4`}>
                     <div className='text-center'>
                     <h5>HDSchool (Cloud Server)<br/><br/>&#8377; 3500</h5>
                     <p>per Month</p>
@@ -70,4 +72,4 @@ const Acadprice = ({styles}) => {
   )
 }
 
-export default Acadprice
+export default Price

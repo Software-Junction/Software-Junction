@@ -27,8 +27,8 @@ import HdF from '../sms/hdschool/hdfeatures';
 import Hdusp from '../sms/hdschool/hdusp';
 import KnotF from '../sms/schoolknot/knotfeatures';
 import Knotusp from '../sms/schoolknot/knotusp';
-import AcadF from '../sms/academia/acadfeatures';
-import Acadusp from '../sms/academia/acadusp';
+import AcadF from '../sms/academia/features';
+import AcadUsp from '../sms/academia/usp';
 
 
 const Cmpchat = () => {
@@ -570,7 +570,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -580,7 +580,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -590,7 +590,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -600,7 +600,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -610,7 +610,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -620,7 +620,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -630,7 +630,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -640,7 +640,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -650,7 +650,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -660,7 +660,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -1143,7 +1143,7 @@ const Cmpchat = () => {
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <Acadusp styles={styles} />
+                  <AcadUsp styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseVusp}>

@@ -9,7 +9,7 @@ import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 
-const Smslist = ({ styles }) => {
+const List = ({ styles }) => {
   const [isShowMore, setIsShowMore] = useState(false);
   const toggleReadMoreLess = () => {
     setIsShowMore(!isShowMore);
@@ -303,7 +303,7 @@ const Smslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -714,7 +714,7 @@ const Smslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -1127,7 +1127,7 @@ const Smslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -1540,7 +1540,7 @@ const Smslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -1951,7 +1951,7 @@ const Smslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -2361,7 +2361,7 @@ const Smslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -2772,7 +2772,7 @@ const Smslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -3184,7 +3184,7 @@ const Smslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -3595,7 +3595,7 @@ const Smslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -4006,7 +4006,7 @@ const Smslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -9604,4 +9604,4 @@ const Smslist = ({ styles }) => {
   );
 };
 
-export default Smslist;
+export default List;

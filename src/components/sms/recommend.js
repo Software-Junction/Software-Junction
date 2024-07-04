@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
-const Smsrecommend = ({ styles }) => {
+const Recommend = ({ styles }) => {
   return (
     <>
       {/* <section className={`${styles["recommend"]} mt-5`}>
@@ -281,8 +281,8 @@ const Smsrecommend = ({ styles }) => {
               />
             </Col> */}
 
-            <Col lg={7}>
-              <div id="1">
+            <Col lg={7} className="text-alignment">
+              <div id="1" className="question">
                 <h5 className="">What is School management software ?</h5>
                 <p className="mt-4">
                   School management software is a computerized solution
@@ -1796,4 +1796,4 @@ const Smsrecommend = ({ styles }) => {
   );
 };
 
-export default Smsrecommend;
+export default Recommend;

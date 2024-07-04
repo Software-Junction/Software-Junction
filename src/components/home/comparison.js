@@ -38,7 +38,7 @@ const Comparison = ({ styles }) => {
           <Row>
             <Col lg={12}>
               <h3 className="mb-4">Comparison Table</h3>
-            </Col>
+            {/* </Col> */}
             {/* <Col lg={12}>
               <div className={`${styles['tabs-overflow']} compare-tab`}>
             <Tabs
@@ -76,7 +76,7 @@ const Comparison = ({ styles }) => {
         </Tabs>
         </div>
             </Col> */}
-            <Col lg ={12}>
+            {/* <Col lg ={12}> */}
             <div className={styles["ul-wraps"]}>
               <ul className={styles["tab-list"]}>
                 <li

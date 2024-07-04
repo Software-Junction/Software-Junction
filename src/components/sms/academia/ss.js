@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 
-const Acadss = ({styles}) => {
+const Ss = ({styles}) => {
   return (
     <>
       <Container>
@@ -18,7 +18,7 @@ const Acadss = ({styles}) => {
                 width="400"
                 layout='responsive'
                
-                className={styles["aca-info-img"]}
+                className={styles["info-img"]}
               />
                 </Col>
 
@@ -28,14 +28,14 @@ const Acadss = ({styles}) => {
                 alt="eduss1"
                 height="10"
                 width="200"
-                className={`${styles["aca-info-img1"]} me-3`}
+                className={`${styles["info-img1"]} me-3`}
               />
               <Image
                 src="/images/eduss2.jpg"
                 alt="eduss2"
                 height="10"
                 width="200"
-                className={styles["aca-info-img1"]}
+                className={styles["info-img1"]}
               />
                 </Col>
 
@@ -45,14 +45,14 @@ const Acadss = ({styles}) => {
                 alt="eduss3"
                 height="10"
                 width="200"
-                className={`${styles["aca-info-img1"]} me-3`}
+                className={`${styles["info-img1"]} me-3`}
               />
               <Image
                 src="/images/eduss4.jpg"
                 alt="eduss4"
                 height="10"
                 width="200"
-                className={styles["aca-info-img1"]}
+                className={styles["info-img1"]}
               /> 
                 </Col> */}
             </Row>
@@ -61,4 +61,4 @@ const Acadss = ({styles}) => {
   )
 }
 
-export default Acadss
+export default Ss

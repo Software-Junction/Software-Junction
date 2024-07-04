@@ -43,7 +43,7 @@ const Compare = ({ styles }) => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -72,7 +72,7 @@ const Compare = ({ styles }) => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -102,7 +102,7 @@ const Compare = ({ styles }) => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -132,7 +132,7 @@ const Compare = ({ styles }) => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -162,7 +162,7 @@ const Compare = ({ styles }) => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >

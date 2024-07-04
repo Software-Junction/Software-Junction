@@ -303,7 +303,7 @@ const List = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -716,7 +716,7 @@ const List = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -1129,7 +1129,7 @@ const List = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -1536,7 +1536,7 @@ const List = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -1947,7 +1947,7 @@ const List = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -2357,7 +2357,7 @@ const List = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -2768,7 +2768,7 @@ const List = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -3182,7 +3182,7 @@ const List = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -3595,7 +3595,7 @@ const List = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -4003,7 +4003,7 @@ const List = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >

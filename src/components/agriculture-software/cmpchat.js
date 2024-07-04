@@ -611,7 +611,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -621,7 +621,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -631,7 +631,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -641,7 +641,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -651,7 +651,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -661,7 +661,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -671,7 +671,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -681,7 +681,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >
@@ -691,7 +691,7 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          // variant="outline-primary"
+                          variant="warning"
                           style={{ fontSize: "10px" }}
                           onClick={handleShowGetPrice}
                         >

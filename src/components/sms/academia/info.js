@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
 
-const Acadinfo = ({ styles }) => {
+const Info = ({ styles }) => {
   return (
     <>
       <Container>
@@ -25,7 +25,7 @@ const Acadinfo = ({ styles }) => {
               experience.
             </p>
             <div
-              className={`${styles["aca-priceplan-box"]} box bg-light  rounded-4 p-3 mb-4 border`}
+              className={`${styles["priceplan-box"]} box bg-light  rounded-4 p-3 mb-4 border`}
             >
               <h5>Pricing Plans :</h5>
               <p>
@@ -39,7 +39,7 @@ const Acadinfo = ({ styles }) => {
               alt="astralss"
               height="10"
               width="600"
-              className={styles["aca-info-img"]}
+              className={styles["info-img"]}
             />
           </Col>
         </Row>
@@ -48,4 +48,4 @@ const Acadinfo = ({ styles }) => {
   );
 };
 
-export default Acadinfo;
+export default Info;

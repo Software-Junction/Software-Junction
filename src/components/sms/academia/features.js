@@ -21,7 +21,7 @@ const featuresData = [
 ];
 
 
-const Acadfeatures = ({ styles }) => {
+const Features = ({ styles }) => {
   const [isShowMore, setIsShowMore] = useState(false);
   const toggleReadMoreLess = () => {
     setIsShowMore(!isShowMore);
@@ -78,4 +78,4 @@ const Acadfeatures = ({ styles }) => {
   );
 };
 
-export default Acadfeatures;
+export default Features;

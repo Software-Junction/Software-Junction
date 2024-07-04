@@ -305,7 +305,7 @@ const Lmslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -715,7 +715,7 @@ const Lmslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -1122,7 +1122,7 @@ const Lmslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -1531,7 +1531,7 @@ const Lmslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -1941,7 +1941,7 @@ const Lmslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -2351,7 +2351,7 @@ const Lmslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -2762,7 +2762,7 @@ const Lmslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -3175,7 +3175,7 @@ const Lmslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -3588,7 +3588,7 @@ const Lmslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >
@@ -3998,7 +3998,7 @@ const Lmslist = ({ styles }) => {
                     </Modal>
                     <Button
                       size="sm"
-                      variant="primary"
+                      variant="warning"
                       className="mx-3"
                       onClick={handleShowPrice}
                     >

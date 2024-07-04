@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Accordion } from "react-bootstrap";
 
-const Acadfaq = ({ styles }) => {
+const Faq = ({ styles }) => {
   return (
     <>
       <Container>
@@ -11,7 +11,7 @@ const Acadfaq = ({ styles }) => {
           </Col>
           <Col lg={6}>
             <div
-              className={`${styles["aca-faq-box"]} box bg-light  rounded-4 p-4 mt-3`}
+              className={`${styles["faq-box"]} box bg-light  rounded-4 p-4 mt-3`}
             >
               <h5>
                 What are the top 5 features for Academia  ?
@@ -34,4 +34,4 @@ const Acadfaq = ({ styles }) => {
   );
 };
 
-export default Acadfaq;
+export default Faq;
