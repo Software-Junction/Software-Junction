@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 import { FaPenToSquare, FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
-import Chandetails from "./chandetails";
+import Details from "./details";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import styles from "../chanakya/chan.module.scss";
 const Index = () => {
@@ -80,7 +80,7 @@ const Index = () => {
       </section>
 
       <section className={`${styles["cha-detail-bg"]} pb-5`}>
-        <Chandetails styles={styles} />
+        <Details styles={styles} />
       </section>
     </>
   );

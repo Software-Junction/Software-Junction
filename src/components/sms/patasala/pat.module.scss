@@ -1,20 +1,20 @@
-.pat-heading{
+.heading{
     padding-top: 80px;
     background-color: #335c67;
     padding-bottom: 30px;
     p{
         font-size: 14px !important;
     }
-    .pat-box-img{
+    .box-img{
         @media (max-width:767px){
             display: none;
         }
     }
-    .pat-p-style1{
+    .p-style1{
         width: 18%;
         font-size: 12px !important;
     }
-    .pat-breadcr{
+    .breadcr{
         ul{
         display: flex;
         list-style: none;
@@ -28,42 +28,42 @@
       }
 }
 
-.pat-detail-bg{
+.detail-bg{
     background-color:#F6F1F1;
 }
 
-.pat-navi{
+.navi{
     position: sticky;
     top: 98px;
     background-color: #fff;
     z-index: 1;
-    .pat-nav-btn{
+    .nav-btn{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
 }
 
-.pat-info{
+.info{
     p{
         font-size: 14px !important;
     }
-    .pat-priceplan-box{
+    .priceplan-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;  
     }
-    .pat-info-img{
+    .info-img{
         @media (max-width:767px){
             width: 100%;
         }
     }
 }
 
-.pat-ss{
-    .pat-info-img{
+.ss{
+    .info-img{
         @media (max-width:767px){
             width: 100%;
             margin-right: 0px !important;
         }
     } 
-    .pat-info-img1{
+    .info-img1{
         @media (max-width:767px){
             // width: 100%;
             // height: 40%;
@@ -73,50 +73,50 @@
     }
 }
 
-.pat-features{
-    .pat-feature-btn{
+.features{
+    .feature-btn{
         text-align: center !important;
     }
 }
 
-.pat-usp{
+.usp{
     p{
         font-size: 14px !important;
     }
-    .pat-box-bgclr{
+    .box-bgclr{
         background-color: #fff;
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
 }
 
-.pat-spec{
+.spec{
     p{
         font-size: 14px !important;
     }
-    .pat-soft-specs{
+    .soft-specs{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         @media(max-width: 767px){
             width: 95%;
             margin-left: 9px;
         }
-        .pat-spec-mob{
+        .spec-mob{
             @media (max-width:767px){
                 display: block !important;
             }
         }
-        .pat-icon-clr{
+        .icon-clr{
             color: #f95738 ;
         }
     }
 }
 
-.pat-pricing{
-    .pat-price-box{
+.pricing{
+    .price-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
-        // .pat-price-btn{
+        // .price-btn{
         //     margin-top: 70px;
         // }
-        // .pat-price-btn1{
+        // .price-btn1{
         //     margin-top: 35px;
         // }
     }
@@ -128,27 +128,27 @@
     }
 }
 
-.pat-review{
+.review{
     p{
         font-size: 14px !important;
     }
     li{
         font-size: 14px !important;
     }
-    .pat-row-mob{
+    .row-mob{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         @media (max-width:767px){
             width: 100%;
             margin-left: 0px;
     }
 }
-.pat-main-box-mob{
+.main-box-mob{
     box-shadow: -3px 3px 0px 0px #f95738 ;
-    .pat-box-mob{
+    .box-mob{
         @media(max-width: 767px){
             width: 100% !important;
         }
-        .pat-box-rating{
+        .box-rating{
             display: flex;
             justify-content: space-between;
             @media(max-width: 767px){
@@ -163,57 +163,57 @@
 }
 }
 
-.pat-alternative{
-    .pat-card-mob{
+.alternative{
+    .card-mob{
         @media (max-width:767px){
             margin-left: 20px;
         }
     }
-    .pat-card-mob-mar{
+    .card-mob-mar{
         @media (max-width:767px){
             margin-bottom: 20px;
         }
     }
-        .pat-card-head{
+        .card-head{
             font-size: 26px !important;
             font-weight: 800;
         }
-        .pat-card-title{
+        .card-title{
             font-size: 16px !important;
             font-weight: 600;
         }
-        .pat-card-btn{
+        .card-btn{
             margin-top: 40px;
             margin-left: 65px;
         }
-        .pat-card-btn1{
+        .card-btn1{
             margin-top: 22px;
             margin-left: 65px;
         }
-        .pat-p-style{
+        .p-style{
             width: 56%;
                         font-size: 12px !important;
         }
-        .pat-p-style1{
+        .p-style1{
             width: 110%;
                         font-size: 12px !important;
         }
 }
 
-.pat-compare{
-        .pat-col-margin-mob{
+.compare{
+        .col-margin-mob{
             @media (max-width:767px){
                 margin-bottom: 30px
             }
         }
-        .pat-box{
+        .box{
             border: 2px solid #335c67;
             width: 100%;
             border-radius: 10px;
             // .box-p-font{
             //     // font-size: 13px;
             // }
-            .pat-vs-box{
+            .vs-box{
                 border: 2px solid ;
                 border-radius: 100%;
                 background-color: #f95738 ;
@@ -225,7 +225,7 @@
                 font-size: 12px;
                 line-height: 1;
             }
-            .pat-vs-hr{
+            .vs-hr{
                 width: 2px;
                 height: 128px;
                 background-color: black;
@@ -234,8 +234,8 @@
         }
 }
 
-.pat-faq{
-    .pat-faq-box{
+.faq{
+    .faq-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
     p{

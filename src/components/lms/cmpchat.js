@@ -20,7 +20,7 @@ import Campusp from "../sms/campus/pususp";
 import KohaF from "../lms/koha/kohafeatures";
 import Kohausp from "../lms/koha/kohausp";
 import ChanF from "../sms/chanakya/chanfeatures";
-import Chanusp from "../sms/chanakya/chanusp";
+import Features from "../sms/chanakya/chanusp";
 import SmtF from "../lms/smart/smartfeatures";
 import Smtusp from "../lms/smart/smartusp";
 import LibF from "../lms/librarian/rianfeatures";
@@ -864,7 +864,7 @@ const Cmpchat = () => {
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  <Chanusp styles={styles} />
+                  <Features styles={styles} />
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleCloseCtusp}>

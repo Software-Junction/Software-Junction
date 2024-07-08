@@ -1,20 +1,20 @@
-.hds-heading{
+.heading{
     padding-top: 80px;
     background-color: #335c67;
     padding-bottom: 30px;
     p{
         font-size: 14px !important;
     }
-    .hds-box-img{
+    .box-img{
         @media (max-width:767px){
             display: none;
         }
     }
-    .hds-p-style1{
+    .p-style1{
         width: 18%;
         font-size: 12px !important;
     }
-    .hds-breadcr{
+    .breadcr{
         ul{
         display: flex;
         list-style: none;
@@ -28,42 +28,42 @@
       }
 }
 
-.hds-detail-bg{
+.detail-bg{
     background-color:#F6F1F1;
 }
 
-.hds-navi{
+.navi{
     position: sticky;
     top: 98px;
     background-color: #fff;
     z-index: 1;
-    .hds-nav-btn{
+    .nav-btn{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
 }
 
-.hds-info{
+.info{
     p{
         font-size: 14px !important;
     }
-    .hds-priceplan-box{
+    .priceplan-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;  
     }
-    .hds-info-img{
+    .info-img{
         @media (max-width:767px){
             width: 100%;
         }
     }
 }
 
-.hds-ss{
-    .hds-info-img{
+.ss{
+    .info-img{
         @media (max-width:767px){
             width: 100%;
             margin-right: 0px !important;
         }
     } 
-    .hds-info-img1{
+    .info-img1{
         @media (max-width:767px){
             // width: 100%;
             // height: 40%;
@@ -73,50 +73,50 @@
     }
 }
 
-.hds-features{
-    .hds-feature-btn{
+.features{
+    .feature-btn{
         text-align: center !important;
     }
 }
 
-.hds-usp{
+.usp{
     p{
         font-size: 14px !important;
     }
-    .hds-box-bgclr{
+    .box-bgclr{
         background-color: #fff;
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
 }
 
-.hds-spec{
+.spec{
     p{
         font-size: 14px !important;
     }
-    .hds-soft-specs{
+    .soft-specs{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         @media(max-width: 767px){
             width: 95%;
             margin-left: 9px;
         }
-        .hds-spec-mob{
+        .spec-mob{
             @media (max-width:767px){
                 display: block !important;
             }
         }
-        .hds-icon-clr{
+        .icon-clr{
             color: #f95738 ;
         }
     }
 }
 
-.hds-pricing{
-    .hds-price-box{
+.pricing{
+    .price-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
-        // .hds-price-btn{
+        // .price-btn{
         //     margin-top: 70px;
         // }
-        // .hds-price-btn1{
+        // .price-btn1{
         //     margin-top: 35px;
         // }
     }
@@ -128,27 +128,27 @@
     }
 }
 
-.hds-review{
+.review{
     p{
         font-size: 14px !important;
     }
     li{
         font-size: 14px !important;
     }
-    .hds-row-mob{
+    .row-mob{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         @media (max-width:767px){
             width: 100%;
             margin-left: 0px;
     }
 }
-.hds-main-box-mob{
+.main-box-mob{
     box-shadow: -3px 3px 0px 0px #f95738 ;
-    .hds-box-mob{
+    .box-mob{
         @media(max-width: 767px){
             width: 100% !important;
         }
-        .hds-box-rating{
+        .box-rating{
             display: flex;
             justify-content: space-between;
             @media(max-width: 767px){
@@ -163,57 +163,57 @@
 }
 }
 
-.hds-alternative{
-    .hds-card-mob{
+.alternative{
+    .card-mob{
         @media (max-width:767px){
             margin-left: 20px;
         }
     }
-    .hds-card-mob-mar{
+    .card-mob-mar{
         @media (max-width:767px){
             margin-bottom: 20px;
         }
     }
-        .hds-card-head{
+        .card-head{
             font-size: 26px !important;
             font-weight: 800;
         }
-        .hds-card-title{
+        .card-title{
             font-size: 16px !important;
             font-weight: 600;
         }
-        .hds-card-btn{
+        .card-btn{
             margin-top: 40px;
             margin-left: 65px;
         }
-        .hds-card-btn1{
+        .card-btn1{
             margin-top: 22px;
             margin-left: 65px;
         }
-        .hds-p-style{
+        .p-style{
             width: 56%;
                         font-size: 12px !important;
         }
-        .hds-p-style1{
+        .p-style1{
             width: 110%;
                         font-size: 12px !important;
         }
 }
 
-.hds-compare{
-        .hds-col-margin-mob{
+.compare{
+        .col-margin-mob{
             @media (max-width:767px){
                 margin-bottom: 30px
             }
         }
-        .hds-box{
+        .box{
             border: 2px solid #335c67;
             width: 100%;
             border-radius: 10px;
             // .box-p-font{
             //     // font-size: 13px;
             // }
-            .hds-vs-box{
+            .vs-box{
                 border: 2px solid ;
                 border-radius: 100%;
                 background-color: #f95738 ;
@@ -225,7 +225,7 @@
                 font-size: 12px;
                 line-height: 1;
             }
-            .hds-vs-hr{
+            .vs-hr{
                 width: 2px;
                 height: 128px;
                 background-color: black;
@@ -234,8 +234,8 @@
         }
 }
 
-.hds-faq{
-    .hds-faq-box{
+.faq{
+    .faq-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
     p{

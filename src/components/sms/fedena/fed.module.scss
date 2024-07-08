@@ -1,20 +1,20 @@
-.fed-heading{
+.heading{
     padding-top: 80px;
     background-color: #335c67;
     padding-bottom: 30px;
     p{
         font-size: 14px !important;
     }
-    .fed-box-img{
+    .box-img{
         @media (max-width:767px){
             display: none;
         }
     }
-    .fed-p-style1{
+    .p-style1{
         width: 18%;
         font-size: 12px !important;
     }
-    .fed-breadcr{
+    .breadcr{
         ul{
         display: flex;
         list-style: none;
@@ -28,42 +28,42 @@
       }
 }
 
-.fed-detail-bg{
+.detail-bg{
     background-color:#F6F1F1;
 }
 
-.fed-navi{
+.navi{
     position: sticky;
     top: 98px;
     background-color: #fff;
     z-index: 1;
-    .fed-nav-btn{
+    .nav-btn{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
 }
 
-.fed-info{
+.info{
     p{
         font-size: 14px !important;
     }
-    .fed-priceplan-box{
+    .priceplan-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;  
     }
-    .fed-info-img{
+    .info-img{
         @media (max-width:767px){
             width: 100%;
         }
     }
 }
 
-.fed-ss{
-    .fed-info-img{
+.ss{
+    .info-img{
         @media (max-width:767px){
             width: 100%;
             margin-right: 0px !important;
         }
     } 
-    .fed-info-img1{
+    .info-img1{
         @media (max-width:767px){
             // width: 100%;
             // height: 40%;
@@ -73,50 +73,55 @@
     }
 }
 
-.fed-features{
-    .fed-feature-btn{
+.features{
+    .feature-btn{
         text-align: center !important;
     }
 }
 
-.fed-usp{
+.usp{
     p{
         font-size: 14px !important;
     }
-    .fed-box-bgclr{
+    .box-bgclr{
         background-color: #fff;
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
 }
 
-.fed-spec{
+.box-bgclr{
+    background-color: #fff;
+    box-shadow: -3px 3px 0px 0px #f95738 ;
+}
+
+.spec{
     p{
         font-size: 14px !important;
     }
-    .fed-soft-specs{
+    .soft-specs{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         @media(max-width: 767px){
             width: 95%;
             margin-left: 9px;
         }
-        .fed-spec-mob{
+        .spec-mob{
             @media (max-width:767px){
                 display: block !important;
             }
         }
-        .fed-icon-clr{
+        .icon-clr{
             color: #f95738 ;
         }
     }
 }
 
-.fed-pricing{
-    .fed-price-box{
+.pricing{
+    .price-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
-        .fed-price-btn{
+        .price-btn{
             margin-top: 70px;
         }
-        .fed-price-btn1{
+        .price-btn1{
             margin-top: 35px;
         }
     }
@@ -128,27 +133,37 @@
     }
 }
 
-.fed-review{
+.price-box{
+    box-shadow: -3px 3px 0px 0px #f95738 ;
+    .price-btn{
+        margin-top: 70px;
+    }
+    .price-btn1{
+        margin-top: 35px;
+    }
+}
+
+.review{
     p{
         font-size: 14px !important;
     }
     li{
         font-size: 14px !important;
     }
-    .fed-row-mob{
+    .row-mob{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         @media (max-width:767px){
             width: 100%;
             margin-left: 0px;
     }
 }
-.fed-main-box-mob{
+.main-box-mob{
     box-shadow: -3px 3px 0px 0px #f95738 ;
-    .fed-box-mob{
+    .box-mob{
         @media(max-width: 767px){
             width: 100% !important;
         }
-        .fed-box-rating{
+        .box-rating{
             display: flex;
             justify-content: space-between;
             @media(max-width: 767px){
@@ -163,57 +178,57 @@
 }
 }
 
-.fed-alternative{
-    .fed-card-mob{
+.alternative{
+    .card-mob{
         @media (max-width:767px){
             margin-left: 20px;
         }
     }
-    .fed-card-mob-mar{
+    .card-mob-mar{
         @media (max-width:767px){
             margin-bottom: 20px;
         }
     }
-        .fed-card-head{
+        .card-head{
             font-size: 26px !important;
             font-weight: 800;
         }
-        .fed-card-title{
+        .card-title{
             font-size: 16px !important;
             font-weight: 600;
         }
-        .fed-card-btn{
+        .card-btn{
             margin-top: 40px;
             margin-left: 65px;
         }
-        .fed-card-btn1{
+        .card-btn1{
             margin-top: 22px;
             margin-left: 65px;
         }
-        .fed-p-style{
+        .p-style{
             width: 56%;
                         font-size: 12px !important;
         }
-        .fed-p-style1{
+        .p-style1{
             width: 110%;
                         font-size: 12px !important;
         }
 }
 
-.fed-compare{
-        .fed-col-margin-mob{
+.compare{
+        .col-margin-mob{
             @media (max-width:767px){
                 margin-bottom: 30px
             }
         }
-        .fed-box{
+        .box{
             border: 2px solid #335c67;
             width: 100%;
             border-radius: 10px;
             // .box-p-font{
             //     // font-size: 13px;
             // }
-            .fed-vs-box{
+            .vs-box{
                 border: 2px solid ;
                 border-radius: 100%;
                 background-color: #f95738 ;
@@ -225,7 +240,7 @@
                 font-size: 12px;
                 line-height: 1;
             }
-            .fed-vs-hr{
+            .vs-hr{
                 width: 2px;
                 height: 128px;
                 background-color: black;
@@ -234,8 +249,8 @@
         }
 }
 
-.fed-faq{
-    .fed-faq-box{
+.faq{
+    .faq-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
     p{

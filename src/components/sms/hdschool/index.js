@@ -4,17 +4,17 @@ import { FaStar } from "react-icons/fa";
 import { FaPenToSquare, FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
-import Hddetails from "./hddetails";
+import Details from "./details";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import styles from "../hdschool/hd.module.scss";
 const Index = () => {
   return (
     <>
-      <section className={styles["hds-heading"]}>
+      <section className={styles["heading"]}>
         <Container>
           <Row>
             <Col lg={12}>
-              <div className={`${styles["hds-breadcr"]} `}>
+              <div className={`${styles["breadcr"]} `}>
                 <ul>
                   <li>
                     {" "}
@@ -45,7 +45,7 @@ const Index = () => {
                     alt="hdschool"
                     width="150"
                     height="10"
-                    className={`${styles["hds-box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
+                    className={`${styles["box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
                   />
                   <div>
                     <h3 className="text-light">HD School</h3>
@@ -81,8 +81,8 @@ const Index = () => {
         </Container>
       </section>
 
-      <section className={`${styles["hds-detail-bg"]} pb-5`}>
-        <Hddetails styles={styles} />
+      <section className={`${styles["detail-bg"]} pb-5`}>
+        <Details styles={styles} />
       </section>
     </>
   );
