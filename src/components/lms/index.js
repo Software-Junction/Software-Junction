@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import Lmsads1 from "./lmsads1";
-import Lmslist from "./lmslist";
-import Lmsrelated from "./lmsrelated";
-import Lmsreview from "./lmsreview";
+import Ads1 from "./ads1";
+import List from "./list";
+import Related from "./related";
+import Review from "./review";
 import Compare from "./compare";
-import Lmsrecommend from "./lmsrecommend";
-import Lmstrend from "./lmstrend";
+import Recommend from "./recommend";
+import Trend from "./trend";
 import Cmpchat from "./cmpchat";
 import Link from "next/link";
 import { Container, Row, Col, Tab, Tabs, Form, Modal,Button } from "react-bootstrap";
@@ -105,8 +105,8 @@ const Index = () => {
           // justify
         >
           <Tab eventKey="All Products" title="All Products">
-            {/* <Lmsads1 styles={styles} /> */}
-            <Lmslist styles={styles} />
+            {/* <Ads1 styles={styles} /> */}
+            <List styles={styles} />
             <Container>
               <Row>
                 <Col lg={12}>
@@ -115,16 +115,16 @@ const Index = () => {
                 </Col>
               </Row>
             </Container>
-            {/* <Lmsrelated styles={styles} /> */}
+            {/* <Related styles={styles} /> */}
             {/* <Review styles={styles}/> */}
             {/* <Compare styles={styles} /> */}
           </Tab>
           <Tab eventKey="Buyer's Guide" title="Buyer's Guide">
-            <Lmsrecommend styles={styles} />
+            <Recommend styles={styles} />
             {/* <Compare styles={styles} /> */}
           </Tab>
           {/* <Tab eventKey="Trends" title="Trends">
-            <Lmstrend styles={styles} />
+            <Trend styles={styles} />
           </Tab> */}
           <Tab eventKey="Compare" title="Top 10 Software Comparision Table">
             <Cmpchat styles={styles} />

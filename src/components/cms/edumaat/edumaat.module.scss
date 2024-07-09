@@ -1,20 +1,20 @@
-.edu-heading{
+.heading{
     padding-top: 80px;
     background-color: #335c67;
     padding-bottom: 30px;
     p{
         font-size: 14px !important;
     }
-    .edu-box-img{
+    .box-img{
         @media (max-width:767px){
             display: none;
         }
     }
-    .edu-p-style1{
+    .p-style1{
         width: 18%;
         font-size: 12px !important;
     }
-    .edu-breadcr{
+    .breadcr{
         ul{
         display: flex;
         list-style: none;
@@ -28,42 +28,42 @@
       }
 }
 
-.edu-detail-bg{
+.detail-bg{
     background-color:#F6F1F1;
 }
 
-.edu-navi{
+.navi{
     position: sticky;
     top: 98px;
     background-color: #fff;
     z-index: 1;
-    .edu-nav-btn{
+    .nav-btn{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
 }
 
-.edu-info{
+.info{
     p{
         font-size: 14px !important;
     }
-    .edu-priceplan-box{
+    .priceplan-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;  
     }
-    .edu-info-img{
+    .info-img{
         @media (max-width:767px){
             width: 100%;
         }
     }
 }
 
-.edu-ss{
-    .edu-info-img{
+.ss{
+    .info-img{
         @media (max-width:767px){
             width: 100%;
             margin-right: 0px !important;
         }
     } 
-    .edu-info-img1{
+    .info-img1{
         @media (max-width:767px){
             // width: 100%;
             // height: 40%;
@@ -73,27 +73,32 @@
     }
 }
 
-.edu-features{
-    .edu-feature-btn{
+.features{
+    .feature-btn{
         text-align: center !important;
     }
 }
 
-.edu-usp{
+.usp{
     p{
         font-size: 14px !important;
     }
-    .edu-box-bgclr{
+    .box-bgclr{
         background-color: #fff;
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
 }
 
-.edu-spec{
+.box-bgclr{
+    background-color: #fff;
+    box-shadow: -3px 3px 0px 0px #f95738 ;
+}
+
+.spec{
     p{
         font-size: 14px !important;
     }
-    .edu-soft-specs{
+    .soft-specs{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         @media(max-width: 767px){
             width: 95%;
@@ -104,14 +109,14 @@
                 display: block !important;
             }
         }
-        .edu-icon-clr{
+        .icon-clr{
             color: #f95738 ;
         }
     }
 }
 
-.edu-pricing{
-    .edu-price-box{
+.pricing{
+    .price-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
     p{
@@ -122,27 +127,31 @@
     }
 }
 
-.edu-review{
+.price-box{
+    box-shadow: -3px 3px 0px 0px #f95738 ;
+}
+
+.review{
     p{
         font-size: 14px !important;
     }
     li{
         font-size: 14px !important;
     }
-    .edu-row-mob{
+    .row-mob{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         @media (max-width:767px){
             width: 100%;
             margin-left: 0px;
     }
 }
-.edu-main-box-mob{
+.main-box-mob{
     box-shadow: -3px 3px 0px 0px #f95738 ;
-    .edu-box-mob{
+    .box-mob{
         @media(max-width: 767px){
             width: 100% !important;
         }
-        .edu-box-rating{
+        .box-rating{
             display: flex;
             justify-content: space-between;
             @media(max-width: 767px){
@@ -157,57 +166,57 @@
 }
 }
 
-.edu-alternative{
-    .edu-card-mob{
+.alternative{
+    .card-mob{
         @media (max-width:767px){
             margin-left: 20px;
         }
     }
-    .edu-card-mob-mar{
+    .card-mob-mar{
         @media (max-width:767px){
             margin-bottom: 20px;
         }
     }
-        .edu-card-head{
+        .card-head{
             font-size: 26px !important;
             font-weight: 800;
         }
-        .edu-card-title{
+        .card-title{
             font-size: 16px !important;
             font-weight: 600;
         }
-        .edu-card-btn{
+        .card-btn{
             margin-top: 40px;
             margin-left: 65px;
         }
-        .edu-card-btn1{
+        .card-btn1{
             margin-top: 22px;
             margin-left: 65px;
         }
-        .edu-p-style{
+        .p-style{
             width: 56%;
                         font-size: 12px !important;
         }
-        .edu-p-style1{
+        .p-style1{
             width: 110%;
                         font-size: 12px !important;
         }
 }
 
-.edu-compare{
-        .edu-col-margin-mob{
+.compare{
+        .col-margin-mob{
             @media (max-width:767px){
                 margin-bottom: 30px
             }
         }
-        .edu-box{
+        .box{
             border: 2px solid #335c67;
             width: 100%;
             border-radius: 10px;
             // .box-p-font{
             //     // font-size: 13px;
             // }
-            .edu-vs-box{
+            .vs-box{
                 border: 2px solid ;
                 border-radius: 100%;
                 background-color: #f95738 ;
@@ -219,7 +228,7 @@
                 font-size: 12px;
                 line-height: 1;
             }
-            .edu-vs-hr{
+            .vs-hr{
                 width: 2px;
                 height: 128px;
                 background-color: black;
@@ -228,8 +237,8 @@
         }
 }
 
-.edu-faq{
-    .edu-faq-box{
+.faq{
+    .faq-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
     p{

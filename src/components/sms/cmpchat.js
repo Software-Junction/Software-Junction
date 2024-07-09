@@ -11,8 +11,8 @@ import styles from "./sms.module.scss";
 
 import Usp from "../cms/schoolcanva/usp";
 import Feature from "../cms/schoolcanva/readmore";
-import EdumaatF from "../cms/edumaat/edufeatures";
-import Edumaatusp from "../cms/edumaat/eduusp";
+import EdumaatF from "../cms/edumaat/features";
+import Edumaatusp from "../cms/edumaat/usp";
 import DigitalF from './digital/features';
 import Digitalusp from './digital/usp';
 import CampF from './campus/features';
@@ -25,8 +25,8 @@ import FedF from './fedena/features';
 import Fedusp from './fedena/usp';
 import HdF from './hdschool/features';
 import Hdusp from './hdschool/usp';
-import KnotF from '../sms/schoolknot/knotfeatures';
-import Knotusp from '../sms/schoolknot/knotusp';
+import KnotF from './schoolknot/features';
+import Knotusp from './schoolknot/usp';
 import AcadF from '../sms/academia/features';
 import AcadUsp from '../sms/academia/usp';
 

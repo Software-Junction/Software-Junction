@@ -4,17 +4,17 @@ import { FaStar } from "react-icons/fa";
 import { FaPenToSquare, FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
-import Savidetails from "./savidetails";
+import Details from "./details";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import styles from "../savischools/savi.module.scss";
 const Index = () => {
   return (
     <>
-      <section className={styles["sav-heading"]}>
+      <section className={styles["heading"]}>
         <Container>
           <Row>
             <Col lg={12}>
-              <div className={`${styles["sav-breadcr"]} `}>
+              <div className={`${styles["breadcr"]} `}>
                 <ul>
                   <li>
                     {" "}
@@ -45,7 +45,7 @@ const Index = () => {
                     alt="savischool"
                     width="150"
                     height="10"
-                    className={`${styles["sav-box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
+                    className={`${styles["box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
                   />
                   <div>
                     <h3 className="text-light">Savischools</h3>
@@ -81,8 +81,8 @@ const Index = () => {
         </Container>
       </section>
 
-      <section className={`${styles["sav-detail-bg"]} pb-5`}>
-        <Savidetails styles={styles} />
+      <section className={`${styles["detail-bg"]} pb-5`}>
+        <Details styles={styles} />
       </section>
     </>
   );

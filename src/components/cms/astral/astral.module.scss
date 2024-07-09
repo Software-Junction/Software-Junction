@@ -1,20 +1,20 @@
-.ast-heading{
+.heading{
     padding-top: 80px;
     background-color: #335c67;
     padding-bottom: 30px;
     p{
         font-size: 14px !important;
     }
-    .ast-box-img{
+    .box-img{
         @media (max-width:767px){
             display: none;
         }
     }
-    .ast-p-style1{
+    .p-style1{
         width: 18%;
         font-size: 12px !important;
     }
-    .ast-breadcr{
+    .breadcr{
         ul{
         display: flex;
         list-style: none;
@@ -28,42 +28,42 @@
       }
 }
 
-.ast-detail-bg{
+.detail-bg{
     background-color:#F6F1F1;
 }
 
-.ast-navi{
+.navi{
     position: sticky;
     top: 98px;
     background-color: #fff;
     z-index: 1;
-    .ast-nav-btn{
+    .nav-btn{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
 }
 
-.ast-info{
+.info{
     p{
         font-size: 14px !important;
     }
-    .ast-priceplan-box{
+    .priceplan-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;  
     }
-    .ast-info-img{
+    .info-img{
         @media (max-width:767px){
             width: 100%;
         }
     }
 }
 
-.ast-ss{
-    .ast-info-img{
+.ss{
+    .info-img{
         @media (max-width:767px){
             width: 100%;
             margin-right: 0px !important;
         }
     } 
-    .ast-info-img1{
+    .info-img1{
         @media (max-width:767px){
             // width: 100%;
             // height: 40%;
@@ -73,45 +73,50 @@
     }
 }
 
-.ast-features{
-    .ast-feature-btn{
+.features{
+    .feature-btn{
         text-align: center !important;
     }
 }
 
-.ast-usp{
+.usp{
     p{
         font-size: 14px !important;
     }
-    .ast-box-bgclr{
+    .box-bgclr{
         background-color: #fff;
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
 }
 
-.ast-spec{
+.box-bgclr{
+    background-color: #fff;
+    box-shadow: -3px 3px 0px 0px #f95738 ;
+}
+
+.spec{
     p{
         font-size: 14px !important;
     }
-    .ast-soft-specs{
+    .soft-specs{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         @media(max-width: 767px){
             width: 95%;
             margin-left: 9px;
         }
-        .ast-spec-mob{
+        .spec-mob{
             @media (max-width:767px){
                 display: block !important;
             }
         }
-        .ast-icon-clr{
+        .icon-clr{
             color: #f95738 ;
         }
     }
 }
 
-.ast-pricing{
-    .ast-price-box{
+.pricing{
+    .price-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
     li{
@@ -122,27 +127,31 @@
     }
 }
 
-.ast-review{
+.price-box{
+    box-shadow: -3px 3px 0px 0px #f95738 ;
+}
+
+.review{
     p{
         font-size: 14px !important;
     }
     li{
         font-size: 14px !important;
     }
-    .ast-row-mob{
+    .row-mob{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         @media (max-width:767px){
             width: 100%;
             margin-left: 0px;
     }
 }
-.ast-main-box-mob{
+.main-box-mob{
     box-shadow: -3px 3px 0px 0px #f95738 ;
-    .ast-box-mob{
+    .box-mob{
         @media(max-width: 767px){
             width: 100% !important;
         }
-        .ast-box-rating{
+        .box-rating{
             display: flex;
             justify-content: space-between;
             @media(max-width: 767px){
@@ -157,57 +166,57 @@
 }
 }
 
-.ast-alternative{
-    .ast-card-mob{
+.alternative{
+    .card-mob{
         @media (max-width:767px){
             margin-left: 20px;
         }
     }
-    .ast-card-mob-mar{
+    .card-mob-mar{
         @media (max-width:767px){
             margin-bottom: 20px;
         }
     }
-        .ast-card-head{
+        .card-head{
             font-size: 26px !important;
             font-weight: 800;
         }
-        .ast-card-title{
+        .card-title{
             font-size: 16px !important;
             font-weight: 600;
         }
-        .ast-card-btn{
+        .card-btn{
             margin-top: 40px;
             margin-left: 65px;
         }
-        .ast-card-btn1{
+        .card-btn1{
             margin-top: 22px;
             margin-left: 65px;
         }
-        .ast-p-style{
+        .p-style{
             width: 56%;
             font-size: 12px !important;
         }
-        .ast-p-style1{
+        .p-style1{
             width: 110%;
             font-size: 12px !important;
         }
 }
 
-.ast-compare{
-        .ast-col-margin-mob{
+.compare{
+        .col-margin-mob{
             @media (max-width:767px){
                 margin-bottom: 30px
             }
         }
-        .ast-box{
+        .box{
             border: 2px solid #335c67;
             width: 100%;
             border-radius: 10px;
             // .box-p-font{
             //     // font-size: 13px;
             // }
-            .ast-vs-box{
+            .vs-box{
                 border: 2px solid ;
                 border-radius: 100%;
                 background-color: #f95738 ;
@@ -219,7 +228,7 @@
                 font-size: 12px;
                 line-height: 1;
             }
-            .ast-vs-hr{
+            .vs-hr{
                 width: 2px;
                 height: 128px;
                 background-color: black;
@@ -228,8 +237,8 @@
         }
 }
 
-.ast-faq{
-    .ast-faq-box{
+.faq{
+    .faq-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
     p{

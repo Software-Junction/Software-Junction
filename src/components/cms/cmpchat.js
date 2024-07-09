@@ -12,26 +12,26 @@ import styles from "./cms.module.scss";
 import Usp from "./schoolcanva/usp";
 import Feature from "./schoolcanva/readmore";
 
-import EdumaatF from "./edumaat/edufeatures";
-import Edumaatusp from "./edumaat/eduusp";
+import EdumaatF from "./edumaat/features";
+import Edumaatusp from "./edumaat/usp";
 
-import AstralF from "./astral/astralfeatures";
-import Astralusp from "./astral/astralusp";
+import AstralF from "./astral/features";
+import Astralusp from "./astral/usp";
 
-import CtrlF from "./ctrl/ctrlfeatures";
-import Ctrlusp from "./ctrl/ctrlusp";
+import CtrlF from "./ctrl/features";
+import Ctrlusp from "./ctrl/usp";
 
 import ClassF from "./matrix/matrixfeatures";
 import Classusp from "./matrix/matrixusp";
 
-import CampF from "./camp/campfeatures";
-import Campusp from "./camp/campusp";
+import CampF from "./camp/features";
+import Campusp from "./camp/usp";
 
 import IschoolF from "./ischool/ischoolfeatures";
 import Ischoolusp from "./ischool/ischoolusp";
 
-import AdvantaF from "./advanta/advantafeatures";
-import Advantausp from "./advanta/advantausp";
+import AdvantaF from "./advanta/features";
+import Advantausp from "./advanta/usp";
 
 import ShriF from "./shriconnect/shrifeatures";
 import Shriusp from "./shriconnect/shriusp";

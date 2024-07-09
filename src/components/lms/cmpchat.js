@@ -11,24 +11,24 @@ import styles from "./lms.module.scss";
 
 import Usp from "../cms/schoolcanva/usp";
 import Feature from "../cms/schoolcanva/readmore";
-import EdumaatF from "../cms/edumaat/edufeatures";
-import Edumaatusp from "../cms/edumaat/eduusp";
-import DigitalF from "../sms/digital/digifeatures";
-import Digitalusp from "../sms/digital/digiusp";
-import CampF from "../sms/campus/pusfeatures";
-import Campusp from "../sms/campus/pususp";
-import KohaF from "../lms/koha/kohafeatures";
-import Kohausp from "../lms/koha/kohausp";
-import ChanF from "../sms/chanakya/chanfeatures";
-import Features from "../sms/chanakya/chanusp";
-import SmtF from "../lms/smart/smartfeatures";
-import Smtusp from "../lms/smart/smartusp";
-import LibF from "../lms/librarian/rianfeatures";
-import Libusp from "../lms/librarian/rianusp";
-import AlexF from "../lms/alexandria/alexfeatures";
-import Alexusp from "../lms/alexandria/alexusp";
-import KobF from "../lms/kooba/kobfeatures";
-import Kobusp from "../lms/kooba/kobusp";
+import EdumaatF from "../cms/edumaat/features";
+import Edumaatusp from "../cms/edumaat/usp";
+import DigitalF from "../sms/digital/features";
+import Digitalusp from "../sms/digital/usp";
+import CampF from "../sms/campus/features";
+import Campusp from "../sms/campus/usp";
+import KohaF from "../lms/koha/features";
+import Kohausp from "../lms/koha/usp";
+import ChanF from "../sms/chanakya/features";
+import Features from "../sms/chanakya/usp";
+import SmtF from "../lms/smart/features";
+import Smtusp from "../lms/smart/usp";
+import LibF from "../lms/librarian/features";
+import Libusp from "../lms/librarian/usp";
+import AlexF from "../lms/alexandria/features";
+import Alexusp from "../lms/alexandria/usp";
+import KobF from "../lms/kooba/features";
+import Kobusp from "../lms/kooba/usp";
 
 const Cmpchat = () => {
   //schoolcanva

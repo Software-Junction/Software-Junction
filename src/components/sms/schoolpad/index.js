@@ -4,17 +4,17 @@ import { FaStar } from "react-icons/fa";
 import { FaPenToSquare, FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
-import Paddetails from "./paddetails";
+import Details from "./details";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import styles from "../schoolpad/pad.module.scss";
 const Index = () => {
   return (
     <>
-      <section className={styles["pad-heading"]}>
+      <section className={styles["heading"]}>
         <Container>
           <Row>
             <Col lg={12}>
-              <div className={`${styles["pad-breadcr"]} `}>
+              <div className={`${styles["breadcr"]} `}>
                 <ul>
                   <li>
                     {" "}
@@ -45,7 +45,7 @@ const Index = () => {
                     alt="schoolpad"
                     width="180"
                     height="10"
-                    className={`${styles["pad-box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
+                    className={`${styles["box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
                   />
                   <div>
                     <h3 className="text-light">SchoolPad</h3>
@@ -79,8 +79,8 @@ const Index = () => {
         </Container>
       </section>
 
-      <section className={`${styles["pad-detail-bg"]} pb-5`}>
-        <Paddetails styles={styles} />
+      <section className={`${styles["detail-bg"]} pb-5`}>
+        <Details styles={styles} />
       </section>
     </>
   );

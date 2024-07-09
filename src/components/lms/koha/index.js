@@ -4,17 +4,17 @@ import { FaStar } from "react-icons/fa";
 import { FaPenToSquare, FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
-import Kohadetails from "./kohadetails";
+import Details from "./details";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import styles from "../koha/koha.module.scss";
 const Index = () => {
   return (
     <>
-      <section className={styles["koh-heading"]}>
+      <section className={styles["heading"]}>
         <Container>
           <Row>
             <Col lg={12}>
-              <div className={`${styles["koh-breadcr"]} `}>
+              <div className={`${styles["breadcr"]} `}>
                 <ul>
                   <li>
                     {" "}
@@ -45,7 +45,7 @@ const Index = () => {
                     alt="koha"
                     width="150"
                     height="10"
-                    className={`${styles["koh-box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
+                    className={`${styles["box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
                   />
                   <div>
                     <h3 className="text-light">Koha ILS</h3>
@@ -81,8 +81,8 @@ const Index = () => {
         </Container>
       </section>
 
-      <section className={`${styles["koh-detail-bg"]} pb-5`}>
-        <Kohadetails styles={styles} />
+      <section className={`${styles["detail-bg"]} pb-5`}>
+        <Details styles={styles} />
       </section>
     </>
   );
