@@ -10,15 +10,15 @@ import styles from "./sms.module.scss";
 
 
 import Usp from "../cms/schoolcanva/usp";
-import Feature from "../cms/schoolcanva/readmore";
+import Feature from "../cms/schoolcanva/features";
 import EdumaatF from "../cms/edumaat/features";
 import Edumaatusp from "../cms/edumaat/usp";
 import DigitalF from './digital/features';
 import Digitalusp from './digital/usp';
 import CampF from './campus/features';
 import Campusp from './campus/usp';
-import ClassF from "../cms/matrix/matrixfeatures";
-import Classusp from "../cms/matrix/matrixusp";
+import ClassF from "../cms/matrix/features";
+import Classusp from "../cms/matrix/usp";
 import ChanF from './chanakya/features';
 import Chanusp from './chanakya/usp';
 import FedF from './fedena/features';
@@ -33,86 +33,86 @@ import AcadUsp from '../sms/academia/usp';
 
 const Cmpchat = () => {
   //schoolcanva
-  const [showSf, setShowSf] = useState(false);
-  const [showUsp, setShowUsp] = useState(false);
+  const [show1, setShow1] = useState(false);
+  const [showUsp1, setShowUsp1] = useState(false);
   //edumaat
-  const [showEusp, setShowEusp] = useState(false);
-  const [showEf, setShowEf] = useState(false);
+  const [showUsp2, setShowUsp2] = useState(false);
+  const [showF2, setShowF2] = useState(false);
   //digital
-  const [showAf, setShowAf] = useState(false);
-  const [showAusp, setShowAusp] = useState(false);
+  const [showF3, setShowF3] = useState(false);
+  const [showUsp3, setShowUsp3] = useState(false);
   //chanakya
-  const [showCtf, setShowCtf] = useState(false);
-  const [showCtusp, setShowCtusp] = useState(false);
+  const [showF4, setShowF4] = useState(false);
+  const [showUsp4, setShowUsp4] = useState(false);
   //Matrix
-  const [showMf, setShowMf] = useState(false);
-  const [showMusp, setShowMusp] = useState(false);
+  const [showF5, setShowF5] = useState(false);
+  const [showUsp5, setShowUsp5] = useState(false);
   //camp
-  const [showCmf, setShowCmf] = useState(false);
-  const [showCmusp, setShowCmusp] = useState(false);
+  const [showF6, setShowF6] = useState(false);
+  const [showUsp6, setShowUsp6] = useState(false);
   //fedena
-  const [showIf, setShowIf] = useState(false);
-  const [showIusp, setShowIusp] = useState(false);
+  const [showF7, setShowF7] = useState(false);
+  const [showUsp7, setShowUsp7] = useState(false);
   //hd
-  const [showAdf, setShowAdf] = useState(false);
-  const [showAdusp, setShowAdusp] = useState(false);
+  const [showF8, setShowF8] = useState(false);
+  const [showUsp8, setShowUsp8] = useState(false);
   //knot
-  const [showShf, setShowShf] = useState(false);
-  const [showShusp, setShowShusp] = useState(false);
+  const [showF9, setShowF9] = useState(false);
+  const [showUsp9, setShowUsp9] = useState(false);
   //academia
-  const [showVf, setShowVf] = useState(false);
-  const [showVusp, setShowVusp] = useState(false);
+  const [showF10, setShowF10] = useState(false);
+  const [showUsp10, setShowUsp10] = useState(false);
 
   //edumaat features and usp
-  const handleCloseEf = () => setShowEf(false);
-  const handleShowEf = () => setShowEf(true);
-  const handleCloseEusp = () => setShowEusp(false);
-  const handleShowEusp = () => setShowEusp(true);
+  const handleCloseF2 = () => setShowF2(false);
+  const handleShowF2 = () => setShowF2(true);
+  const handleCloseUsp2 = () => setShowUsp2(false);
+  const handleShowUsp2 = () => setShowUsp2(true);
   //schoolcanvas features and usp
-  const handleCloseSf = () => setShowSf(false);
-  const handleShowSf = () => setShowSf(true);
-  const handleCloseUsp = () => setShowUsp(false);
-  const handleShowUsp = () => setShowUsp(true);
+  const handleCloseF1 = () => setShow1(false);
+  const handleShowF1 = () => setShow1(true);
+  const handleCloseUsp1 = () => setShowUsp1(false);
+  const handleShowUsp1 = () => setShowUsp1(true);
   //digital features and usp
-  const handleCloseAf = () => setShowAf(false);
-  const handleShowAf = () => setShowAf(true);
-  const handleCloseAusp = () => setShowAusp(false);
-  const handleShowAusp = () => setShowAusp(true);
+  const handleCloseF3 = () => setShowF3(false);
+  const handleShowF3 = () => setShowF3(true);
+  const handleCloseUsp3 = () => setShowUsp3(false);
+  const handleShowUsp3 = () => setShowUsp3(true);
   //chanakya features and usp
-  const handleCloseCtf = () => setShowCtf(false);
-  const handleShowCtf = () => setShowCtf(true);
-  const handleCloseCtusp = () => setShowCtusp(false);
-  const handleShowCtusp = () => setShowCtusp(true);
+  const handleCloseF4 = () => setShowF4(false);
+  const handleShowF4 = () => setShowF4(true);
+  const handleCloseUsp4 = () => setShowUsp4(false);
+  const handleShowUsp4 = () => setShowUsp4(true);
    //matrix features and usp
-   const handleCloseMf = () => setShowMf(false);
-   const handleShowMf = () => setShowMf(true);
-   const handleCloseMusp = () => setShowMusp(false);
-   const handleShowMusp = () => setShowMusp(true);
+   const handleCloseF5 = () => setShowF5(false);
+   const handleShowF5 = () => setShowF5(true);
+   const handleCloseUsp5 = () => setShowUsp5(false);
+   const handleShowUsp5 = () => setShowUsp5(true);
    //camp features and usp
-   const handleCloseCmf = () => setShowCmf(false);
-   const handleShowCmf = () => setShowCmf(true);
-   const handleCloseCmusp = () => setShowCmusp(false);
-   const handleShowCmusp = () => setShowCmusp(true);
+   const handleCloseF6 = () => setShowF6(false);
+   const handleShowF6 = () => setShowF6(true);
+   const handleCloseUsp6 = () => setShowUsp6(false);
+   const handleShowUsp6 = () => setShowUsp6(true);
    //fedena features and usp
-   const handleCloseIf = () => setShowIf(false);
-   const handleShowIf = () => setShowIf(true);
-   const handleCloseIusp = () => setShowIusp(false);
-   const handleShowIusp = () => setShowIusp(true);
+   const handleCloseF7 = () => setShowF7(false);
+   const handleShowF7 = () => setShowF7(true);
+   const handleCloseUsp7 = () => setShowUsp7(false);
+   const handleShowUsp7 = () => setShowUsp7(true);
    //hd features and usp
-   const handleCloseAdf = () => setShowAdf(false);
-   const handleShowAdf = () => setShowAdf(true);
-   const handleCloseAdusp = () => setShowAdusp(false);
-   const handleShowAdusp = () => setShowAdusp(true);
+   const handleCloseF8 = () => setShowF8(false);
+   const handleShowF8 = () => setShowF8(true);
+   const handleCloseUsp8 = () => setShowUsp8(false);
+   const handleShowUsp8 = () => setShowUsp8(true);
    //knot features and usp
-   const handleCloseShf = () => setShowShf(false);
-   const handleShowShf = () => setShowShf(true);
-   const handleCloseShusp = () => setShowShusp(false);
-   const handleShowShusp = () => setShowShusp(true);
+   const handleCloseF9 = () => setShowF9(false);
+   const handleShowF9 = () => setShowF9(true);
+   const handleCloseUsp9 = () => setShowUsp9(false);
+   const handleShowUsp9 = () => setShowUsp9(true);
     //academia features and usp
-    const handleCloseVf = () => setShowVf(false);
-    const handleShowVf = () => setShowVf(true);
-    const handleCloseVusp = () => setShowVusp(false);
-    const handleShowVusp = () => setShowVusp(true);
+    const handleCloseF10 = () => setShowF10(false);
+    const handleShowF10 = () => setShowF10(true);
+    const handleCloseUsp10 = () => setShowUsp10(false);
+    const handleShowUsp10 = () => setShowUsp10(true);
 
 
  const handleFormSubmit = async (values, actions) => {
@@ -203,7 +203,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowSf}
+                          onClick={handleShowF1}
                         >
                           View More
                         </Button>
@@ -215,7 +215,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowEf}
+                          onClick={handleShowF2}
                         >
                           View More
                         </Button>
@@ -227,7 +227,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowAf}
+                          onClick={handleShowF3}
                         >
                           View More
                         </Button>
@@ -240,7 +240,7 @@ const Cmpchat = () => {
                           size="sm"
                           style={{ fontSize: "10px" }}
                          
-                          onClick={handleShowCmf}
+                          onClick={handleShowF6}
                         >
                           View More
                         </Button>
@@ -252,7 +252,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowMf}
+                          onClick={handleShowF5}
                         >
                           View More
                         </Button>
@@ -264,7 +264,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowCtf}
+                          onClick={handleShowF4}
                          
                         >
                           View More
@@ -277,7 +277,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowIf}
+                          onClick={handleShowF7}
                         >
                           View More
                         </Button>
@@ -289,7 +289,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowAdf}
+                          onClick={handleShowF8}
                         >
                           View More
                         </Button>
@@ -301,7 +301,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowShf}
+                          onClick={handleShowF9}
                         >
                           View More
                         </Button>
@@ -313,7 +313,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowVf}
+                          onClick={handleShowF10}
                         >
                           View More
                         </Button>
@@ -330,7 +330,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowUsp}
+                          onClick={handleShowUsp1}
                         >
                           View More
                         </Button>
@@ -344,7 +344,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowEusp}
+                          onClick={handleShowUsp2}
                         >
                           View More
                         </Button>
@@ -358,7 +358,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowAusp}
+                          onClick={handleShowUsp3}
                         >
                           View More
                         </Button>
@@ -372,7 +372,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowCmusp}
+                          onClick={handleShowUsp6}
                         >
                           View More
                         </Button>
@@ -386,7 +386,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowMusp}
+                          onClick={handleShowUsp5}
                         >
                           View More
                         </Button>
@@ -400,7 +400,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowCtusp}
+                          onClick={handleShowUsp4}
                         >
                           View More
                         </Button>
@@ -415,7 +415,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowIusp}
+                          onClick={handleShowUsp7}
                         >
                           View More
                         </Button>
@@ -429,7 +429,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowAdusp}
+                          onClick={handleShowUsp8}
                         >
                           View More
                         </Button>
@@ -443,7 +443,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowShusp}
+                          onClick={handleShowUsp9}
                         >
                           View More
                         </Button>
@@ -457,7 +457,7 @@ const Cmpchat = () => {
                         <Button
                           size="sm"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowVusp}
+                          onClick={handleShowUsp10}
                         >
                           View More
                         </Button>
@@ -675,8 +675,8 @@ const Cmpchat = () => {
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showEf}
-                onHide={handleCloseEf}
+                show={showF2}
+                onHide={handleCloseF2}
                 className="cmpchat-modal"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -689,18 +689,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <EdumaatF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseEf}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseF2}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* schoolcanva feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showSf}
-                onHide={handleCloseSf}
+                show={show1}
+                onHide={handleCloseF1}
                 className="cmpchat-modal"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -713,18 +714,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <Feature styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseSf}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseF1}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* schoolcanva usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showUsp}
-                onHide={handleCloseUsp}
+                show={showUsp1}
+                onHide={handleCloseUsp1}
                 className="cmpchat-modal-usp"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -737,18 +739,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <Usp styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseUsp}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseUsp1}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* edumaat usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showEusp}
-                onHide={handleCloseEusp}
+                show={showUsp2}
+                onHide={handleCloseUsp2}
                 className="cmpchat-modal-usp"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -761,18 +764,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <Edumaatusp styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseEusp}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseUsp2}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* digital feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showAf}
-                onHide={handleCloseAf}
+                show={showF3}
+                onHide={handleCloseF3}
                 className="cmpchat-modal"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -785,18 +789,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <DigitalF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseAf}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseF3}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* digital usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showAusp}
-                onHide={handleCloseAusp}
+                show={showUsp3}
+                onHide={handleCloseUsp3}
                 className="cmpchat-modal-usp"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -809,18 +814,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <Digitalusp styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseAusp}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseUsp3}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* chanakya feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showCtf}
-                onHide={handleCloseCtf}
+                show={showF4}
+                onHide={handleCloseF4}
                 className="cmpchat-modal"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -833,18 +839,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <ChanF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseCtf}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseF4}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* chanakya usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showCtusp}
-                onHide={handleCloseCtusp}
+                show={showUsp4}
+                onHide={handleCloseUsp4}
                 className="cmpchat-modal-usp"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -857,18 +864,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <Chanusp styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseCtusp}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseUsp4}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* matrix feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showMf}
-                onHide={handleCloseMf}
+                show={showF5}
+                onHide={handleCloseF5}
                 className="cmpchat-modal"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -881,18 +889,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <ClassF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseMf}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseF5}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* matrix usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showMusp}
-                onHide={handleCloseMusp}
+                show={showUsp5}
+                onHide={handleCloseUsp5}
                 className="cmpchat-modal-usp"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -905,18 +914,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <Classusp styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseMusp}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseUsp5}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* campus365 feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showCmf}
-                onHide={handleCloseCmf}
+                show={showF6}
+                onHide={handleCloseF6}
                 className="cmpchat-modal"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -929,18 +939,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <CampF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseCmf}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseF6}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* campus365 usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showCmusp}
-                onHide={handleCloseCmusp}
+                show={showUsp6}
+                onHide={handleCloseUsp6}
                 className="cmpchat-modal-usp"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -953,18 +964,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <Campusp styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseCmusp}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseUsp6}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* fedena feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showIf}
-                onHide={handleCloseIf}
+                show={showF7}
+                onHide={handleCloseF7}
                 className="cmpchat-modal"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -977,18 +989,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <FedF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseIf}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseF7}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* fedena usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showIusp}
-                onHide={handleCloseIusp}
+                show={showUsp7}
+                onHide={handleCloseUsp7}
                 className="cmpchat-modal-usp"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -1001,18 +1014,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <Fedusp styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseIusp}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseUsp7}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* HD feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showAdf}
-                onHide={handleCloseAdf}
+                show={showF8}
+                onHide={handleCloseF8}
                 className="cmpchat-modal"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -1025,18 +1039,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <HdF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseAdf}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseF8}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* Hd usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showAdusp}
-                onHide={handleCloseAdusp}
+                show={showUsp8}
+                onHide={handleCloseUsp8}
                 className="cmpchat-modal-usp"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -1049,18 +1064,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <Hdusp styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseAdusp}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseUsp8}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* schoolknot feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showShf}
-                onHide={handleCloseShf}
+                show={showF9}
+                onHide={handleCloseF9}
                 className="cmpchat-modal"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -1073,18 +1089,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <KnotF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseShf}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseF9}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* schoolknot usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showShusp}
-                onHide={handleCloseShusp}
+                show={showUsp9}
+                onHide={handleCloseUsp9}
                 className="cmpchat-modal-usp"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -1097,18 +1114,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <Knotusp styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseShusp}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseUsp9}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* academia feature */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showVf}
-                onHide={handleCloseVf}
+                show={showF10}
+                onHide={handleCloseF10}
                 className="cmpchat-modal"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -1121,18 +1139,19 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <AcadF styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseVf}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseF10}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
               {/* academia usp */}
               <Modal
                 style={{ color: "#000" }}
                 centered
-                show={showVusp}
-                onHide={handleCloseVusp}
+                show={showUsp10}
+                onHide={handleCloseUsp10}
                 className="cmpchat-modal-usp"
                 aria-labelledby="example-custom-modal-sizes-title-lg"
                 size="xl"
@@ -1145,10 +1164,11 @@ const Cmpchat = () => {
                 <Modal.Body>
                   <AcadUsp styles={styles} />
                 </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleCloseVusp}>
+                <Modal.Footer className="d-flex justify-content-between">
+                  <Button variant="secondary" onClick={handleCloseUsp10}>
                     Close
                   </Button>
+                  <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
                       {/* Get Pricing Modal */}

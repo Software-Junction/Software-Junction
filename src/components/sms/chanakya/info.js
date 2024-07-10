@@ -1,14 +1,35 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { useState } from "react";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
+import { Formik, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
+import axios from "axios";
 
 const Info = ({ styles }) => {
+
+  const handleFormSubmit = async (values, actions) => {
+    try {
+      await axios.post(
+        "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
+        values
+      );
+      actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
+      window.location.reload();
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      actions.setSubmitting(false);
+    }
+  };
+
   return (
     <>
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={7}>
             <h3>What is Chanakya ERP ?</h3>
             <p>
               Chanakya ERP, developed by Bicore Chanakya ERP Pvt. Ltd., is a

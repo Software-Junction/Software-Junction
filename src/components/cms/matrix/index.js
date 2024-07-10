@@ -4,17 +4,17 @@ import { FaStar } from "react-icons/fa";
 import { FaPenToSquare, FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
-import Matrixdetails from './matrixdetails';
+import Details from './details';
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import styles from '../matrix/matrix.module.scss'
 const Index = () => {
   return (
     <>
-       <section className={styles["mat-heading"]}>
+       <section className={styles["heading"]}>
         <Container>
           <Row>
             <Col lg={12}>
-            <div className={`${styles['mat-breadcr']} `}>
+            <div className={`${styles['breadcr']} `}>
                 <ul>
                  <li> <Link href="/#">Home</Link></li>&nbsp;<span style={{color : '#f95738 '}}><MdKeyboardDoubleArrowRight /></span>&nbsp;
                   <li><Link href="/cms">Campus Management System</Link></li>&nbsp;<span style={{color : '#f95738 '}}><MdKeyboardDoubleArrowRight /></span>&nbsp;
@@ -28,7 +28,7 @@ const Index = () => {
                     alt="astral"
                     width="150"
                     height="10"
-                    className={`${styles["mat-box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
+                    className={`${styles["box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
                   />
                   <div>
                     <h3 className="text-light">Class Matrix</h3>
@@ -62,8 +62,8 @@ const Index = () => {
         </Container>
       </section>
       
-      <section className={`${styles['mat-detail-bg']} pb-5`}>
-        <Matrixdetails styles={styles}/>
+      <section className={`${styles['detail-bg']} pb-5`}>
+        <Details styles={styles}/>
       </section>
     </>
   )

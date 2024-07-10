@@ -3,6 +3,28 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import styles from "../alexandria/alex.module.scss";
 
 const Price = () => {
+  const handleFormSubmit = async (values, actions) => {
+    try {
+      await axios.post(
+        "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
+        values
+      );
+      actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
+      window.location.reload();
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      actions.setSubmitting(false);
+    }
+  };
+
+  const [isDatePickerFocused, setDatePickerFocused] = useState(false);
+
+  const [showDemo, setShowDemo] = useState(false);
+
+  const handleCloseDemo = () => setShowDemo(false);
+  const handleShowDemo = () => setShowDemo(true);
   return (
     <>
       <Container>

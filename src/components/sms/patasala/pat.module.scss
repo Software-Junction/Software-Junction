@@ -45,10 +45,24 @@
 .info{
     p{
         font-size: 14px !important;
+        text-align: justify;
+    }
+    .text-alignment{
+        text-align: justify;
     }
     .priceplan-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;  
     }
+    .box-clr {
+        background-color: #335c67;
+        border: 2px solid #f95738 ;
+      }
+      .valid-clr {
+        color: #f95738  !important;
+      }
+      ::placeholder {
+        font-size: 12px;
+      }
     .info-img{
         @media (max-width:767px){
             width: 100%;

@@ -4,17 +4,17 @@ import { FaStar } from "react-icons/fa";
 import { FaPenToSquare, FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
-import Ischooldetails from './ischooldetails';
+import Details from './details';
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import styles from '../ischool/ischool.module.scss'
 const Index = () => {
   return (
     <>
-       <section className={styles["isc-heading"]}>
+       <section className={styles["heading"]}>
         <Container>
           <Row>
             <Col lg={12}>
-            <div className={`${styles['isc-breadcr']} `}>
+            <div className={`${styles['breadcr']} `}>
                 <ul>
                  <li> <Link href="/#">Home</Link></li>&nbsp;<span style={{color : '#f95738 '}}><MdKeyboardDoubleArrowRight /></span>&nbsp;
                   <li><Link href="/cms">Campus Management System</Link></li>&nbsp;<span style={{color : '#f95738 '}}><MdKeyboardDoubleArrowRight /></span>&nbsp;
@@ -28,7 +28,7 @@ const Index = () => {
                     alt="ischool"
                     width="150"
                     height="10"
-                    className={`${styles["isc-box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
+                    className={`${styles["box-img"]} border bg-light p-4 rounded-3 shadow me-4`}
                   />
                   <div>
                     <h3 className="text-light">iSchool</h3>
@@ -62,8 +62,8 @@ const Index = () => {
         </Container>
       </section>
       
-      <section className={`${styles['isc-detail-bg']} pb-5`}>
-        <Ischooldetails styles={styles}/>
+      <section className={`${styles['detail-bg']} pb-5`}>
+        <Details styles={styles}/>
       </section>
     </>
   )

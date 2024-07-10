@@ -1,20 +1,20 @@
-.tec-heading{
+.heading{
     padding-top: 80px;
     background-color: #335c67;
     padding-bottom: 30px;
     p{
         font-size: 14px !important;
     }
-    .tec-box-img{
+    .box-img{
         @media (max-width:767px){
             display: none;
         }
     }
-    .tec-p-style1{
+    .p-style1{
         width: 18%;
         font-size: 12px !important;
     }
-    .tec-breadcr{
+    .breadcr{
         ul{
         display: flex;
         list-style: none;
@@ -28,42 +28,56 @@
       }
 }
 
-.tec-detail-bg{
+.detail-bg{
     background-color:#F6F1F1;
 }
 
-.tec-navi{
+.navi{
     position: sticky;
     top: 98px;
     background-color: #fff;
     z-index: 1;
-    .tec-nav-btn{
+    .nav-btn{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
 }
 
-.tec-info{
+.info{
     p{
         font-size: 14px !important;
+        text-align: justify;
     }
-    .tec-priceplan-box{
+    .text-alignment{
+        text-align: justify;
+    }
+    .priceplan-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;  
     }
-    .tec-info-img{
+    .box-clr {
+        background-color: #335c67;
+        border: 2px solid #f95738 ;
+      }
+      .valid-clr {
+        color: #f95738  !important;
+      }
+      ::placeholder {
+        font-size: 12px;
+      }
+    .info-img{
         @media (max-width:767px){
             width: 100%;
         }
     }
 }
 
-.tec-ss{
-    .tec-info-img{
+.ss{
+    .info-img{
         @media (max-width:767px){
             width: 100%;
             margin-right: 0px !important;
         }
     } 
-    .tec-info-img1{
+    .info-img1{
         @media (max-width:767px){
             // width: 100%;
             // height: 40%;
@@ -73,45 +87,50 @@
     }
 }
 
-.tec-features{
-    .tec-feature-btn{
+.features{
+    .feature-btn{
         text-align: center !important;
     }
 }
 
-.tec-usp{
+.usp{
     p{
         font-size: 14px !important;
     }
-    .tec-box-bgclr{
+    .box-bgclr{
         background-color: #fff;
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
 }
 
-.tec-spec{
+.box-bgclr{
+    background-color: #fff;
+    box-shadow: -3px 3px 0px 0px #f95738 ;
+}
+
+.spec{
     p{
         font-size: 14px !important;
     }
-    .tec-soft-specs{
+    .soft-specs{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         @media(max-width: 767px){
             width: 95%;
             margin-left: 9px;
         }
-        .tec-spec-mob{
+        .spec-mob{
             @media (max-width:767px){
                 display: block !important;
             }
         }
-        .tec-icon-clr{
+        .icon-clr{
             color: #f95738 ;
         }
     }
 }
 
-.tec-pricing{
-    .tec-price-box{
+.pricing{
+    .price-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
     p{
@@ -122,27 +141,31 @@
     }
 }
 
-.tec-review{
+.price-box{
+    box-shadow: -3px 3px 0px 0px #f95738 ;
+}
+
+.review{
     p{
         font-size: 14px !important;
     }
     li{
         font-size: 14px !important;
     }
-    .tec-row-mob{
+    .row-mob{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         @media (max-width:767px){
             width: 100%;
             margin-left: 0px;
     }
 }
-.tec-main-box-mob{
+.main-box-mob{
     box-shadow: -3px 3px 0px 0px #f95738 ;
-    .tec-box-mob{
+    .box-mob{
         @media(max-width: 767px){
             width: 100% !important;
         }
-        .tec-box-rating{
+        .box-rating{
             display: flex;
             justify-content: space-between;
             @media(max-width: 767px){
@@ -157,57 +180,57 @@
 }
 }
 
-.tec-alternative{
-    .tec-card-mob{
+.alternative{
+    .card-mob{
         @media (max-width:767px){
             margin-left: 20px;
         }
     }
-    .tec-card-mob-mar{
+    .card-mob-mar{
         @media (max-width:767px){
             margin-bottom: 20px;
         }
     }
-        .tec-card-head{
+        .card-head{
             font-size: 26px !important;
             font-weight: 800;
         }
-        .tec-card-title{
+        .card-title{
             font-size: 16px !important;
             font-weight: 600;
         }
-        .tec-card-btn{
+        .card-btn{
             margin-top: 40px;
             margin-left: 65px;
         }
-        .tec-card-btn1{
+        .card-btn1{
             margin-top: 22px;
             margin-left: 65px;
         }
-        .tec-p-style{
+        .p-style{
             width: 56%;
                         font-size: 12px !important;
         }
-        .tec-p-style1{
+        .p-style1{
             width: 110%;
                         font-size: 12px !important;
         }
 }
 
-.tec-compare{
-        .tec-col-margin-mob{
+.compare{
+        .col-margin-mob{
             @media (max-width:767px){
                 margin-bottom: 30px
             }
         }
-        .tec-box{
+        .box{
             border: 2px solid #335c67;
             width: 100%;
             border-radius: 10px;
             // .box-p-font{
             //     // font-size: 13px;
             // }
-            .tec-vs-box{
+            .vs-box{
                 border: 2px solid ;
                 border-radius: 100%;
                 background-color: #f95738 ;
@@ -219,7 +242,7 @@
                 font-size: 12px;
                 line-height: 1;
             }
-            .tec-vs-hr{
+            .vs-hr{
                 width: 2px;
                 height: 128px;
                 background-color: black;
@@ -228,8 +251,8 @@
         }
 }
 
-.tec-faq{
-    .tec-faq-box{
+.faq{
+    .faq-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
     }
     p{
