@@ -35,34 +35,33 @@ const Listed = ({ styles }) => {
   //       },
   //     },
   //   };
-  const handleFormSubmit = async (values, actions) => {
-    try {
-      await axios.post(
-        "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
-        values
-      );
-      actions.resetForm();
-      actions.setSubmitting(false);
-      alert("Form submitted successfully.");
-      window.location.reload();
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      actions.setSubmitting(false);
+  const handleFormSubmit = async (values) => {
+    const {username,email,number,companyname,website} = values
+    const body ={
+      "fullName": username,
+      "phoneNo": number,
+      "email": email,
+      "companyName": companyname,
+      "websiteLink": website
     }
+    PostAPi('softwareListed',body).then((response)=>console.log(response))
+   
   };
+
 // useEffect(()=>{
-//   const data = {
-//     fullName:'fullName',
-//     phoneNo:'9987766550',
-//     email:'email@gmail.com',
-//     companyName:'companyName',
-//     websiteLink:'websiteLink'
-//    } 
-//   PostAPi('softwareListed',JSON.stringify(data)).then((respponse)=>{
-//     console.log(respponse)
-//     console.log('response')
-//   })
-//   console.log(' avez response')
+ 
+
+// const body = {
+//   "fullName": "Sufiyan",
+//   "phoneNo": "1234567890",
+//   "email": "john.doe@example.com",
+//   "companyName": "Tech Solutions Inc.",
+//   "softwareRequired": "Project Management Software",
+//   "employeeStrength": 150,
+//   "challenges": "Improving team collaboration and tracking project deadlines",
+//   "flag": "UserAuth"
+// };
+// PostAPi('UserRegister',body).then((response)=>console.log(response))
 // },[])
 
   return (
@@ -88,12 +87,11 @@ const Listed = ({ styles }) => {
               <Formik
                 initialValues={{
                   username: "",
-                 
                   email: "",
                   number: "",
-                 
                   companyname: "",
                   employee: "",
+                  website: "",
                   postTimestamp: new Date().toUTCString(),
                 }}
                 validationSchema={Yup.object().shape({
@@ -113,7 +111,9 @@ const Listed = ({ styles }) => {
                   employee: Yup.string().required(
                     "Please select employee strength."
                   ),
-                  message: Yup.string().required("Please enter a message."),
+                  website: Yup.string().required(
+                    "Please enter website link."
+                  ),
                 })}
                 onSubmit={handleFormSubmit}
               >
@@ -154,7 +154,7 @@ const Listed = ({ styles }) => {
                               ? "is-invalid"
                               : ""
                           }`}
-                          name="mySelect"
+                          name="employee"
                         >
                           <option value="" disabled selected>
                             Employee Strength :
@@ -247,23 +247,23 @@ const Listed = ({ styles }) => {
                       >
                         <Field
                           className={`form-control ${
-                            formik.touched.companyname &&
-                            formik.errors.companyname
+                            formik.touched.website &&
+                            formik.errors.website
                               ? "is-invalid"
                               : ""
                           }`}
                           type="text"
-                          name="companyname"
-                          placeholder="Website"
+                          name="website"
+                          placeholder="Website Link"
                         />
                         <ErrorMessage
-                          name="companyname"
+                          name="website"
                           component="div"
                           className={`${styles["valid-clr"]} invalid-feedback`}
                         />
                       </Form.Group>
                     </Row>
-                   <Button variant="primary" className="w-100" onClick={formik.handleSubmit}>Get Listed</Button>
+                   <Button variant="primary" type="submit" className="w-100" onClick={formik.handleSubmit}>Get Listed</Button>
                    
                     
                   </Form>
