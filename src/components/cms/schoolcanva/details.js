@@ -284,7 +284,7 @@ const Details = ({ styles }) => {
         <Ss styles={styles} />
       </section> */}
 
-      <section className="my-5" id="idfeature">
+      <section className={`${styles["features"]} my-5`} id="idfeature">
         <Features styles={styles} />
       </section>
 

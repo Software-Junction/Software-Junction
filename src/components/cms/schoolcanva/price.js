@@ -1,5 +1,10 @@
 import React from 'react'
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { useState } from "react";
+import Modal from "react-bootstrap/Modal";
+import { Formik, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
+import axios from "axios";
 import styles from "../schoolcanva/schoolcanva.module.scss";
 
 const Price = () => {

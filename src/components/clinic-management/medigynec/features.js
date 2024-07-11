@@ -26,7 +26,6 @@ const featuresData = [
 
 
 
-
 const Features = ({ styles }) => {
    const [isShowMore, setIsShowMore] = useState(false);
   const toggleReadMoreLess = () => {
