@@ -21,9 +21,9 @@ const Details = ({ styles }) => {
         <Info styles={styles} />
       </section>
 
-      <section className={`${styles["ss"]} my-5`} id="idss">
+      {/* <section className={`${styles["ss"]} my-5`} id="idss">
         <Ss styles={styles} />
-      </section>
+      </section> */}
 
       <section className={`${styles["features"]} my-5`} id="idfeature">
         <Features styles={styles} />

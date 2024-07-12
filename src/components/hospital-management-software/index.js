@@ -87,6 +87,21 @@ const Index = () => {
           </Row>
         </Container>
       </section>
+      <section className={styles['headbg-2']}>
+        <Container>
+          <Row>
+            <Col lg={12}>
+            <h3>Top 10 Campus Management Software</h3>
+              <p>
+                Explore the top 10 Campus Management Software solutions offering comprehensive
+                automation, tailored customization, and global accessibility.
+                Compare features, ratings, USP'S and pricing plans to find the
+                perfect fit for your buisness needs.
+              </p>
+            </Col>
+          </Row>
+        </Container>
+      </section>
       <section className={`${styles["home-cms"]} `}>
         {/* <Container>
           <Row>

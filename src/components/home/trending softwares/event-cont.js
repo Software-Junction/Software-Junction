@@ -180,7 +180,7 @@ const eventcont = ({ styles }) => {
               <div
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
-                <div className={styles["badge"]}>
+                <div className={styles["badge"]} onClick={() => handleShow(data)}>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>

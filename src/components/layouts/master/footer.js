@@ -147,8 +147,7 @@ const Footer = () => {
           <Row className="justify-content-md-center">
             <Col lg="12" md={6}>
               <div className="d-flex justify-content-center" id={styles['footer-Copy']}>
-                <p><small>&copy;Copyright &copy;All rights reserved</small></p>
-                <p><small> --This site by Heuristic Academy</small></p>
+                <p><small>&copy;[2024] [Techwice]. All rights reserved.</small></p>
               </div>
             </Col>
           </Row>

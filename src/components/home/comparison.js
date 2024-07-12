@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useRef } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Tab, Tabs } from "react-bootstrap";
 import Accounting from '../accounting-software/cmpchat';
@@ -23,14 +23,25 @@ const Comparison = ({ styles }) => {
 
   const [ToggleState, setToggleState] = useState(1);
 
+  const tabListRef = useRef(null);
+
   const toggleTab = (index) => {
     setToggleState(index);
+    scrollToTab(index);
   };
 
   const getActiveClass = (index, className) =>
     ToggleState === index ? className : "";
 
+  const scrollToTab = (index) => {
+    const tabList = tabListRef.current;
+    const tab = tabList.children[index - 1]; // index starts from 1, but children array is 0-based
 
+    if (tab) {
+      tab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+    }
+  };
+  
   return (
     <>
       <section className={`${styles["comparison"]} my-4`}>
@@ -78,7 +89,7 @@ const Comparison = ({ styles }) => {
             </Col> */}
             {/* <Col lg ={12}> */}
             <div className={styles["ul-wraps"]}>
-              <ul className={styles["tab-list"]}>
+              <ul className={styles["tab-list"]} ref={tabListRef}>
                 <li
                   className={`${styles["tabs"]} ${getActiveClass(1, styles["active-tabs"])}`}  onClick={() => toggleTab(1)}>
                     Accounting Software
