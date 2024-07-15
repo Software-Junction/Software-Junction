@@ -8,6 +8,8 @@ import * as Yup from "yup";
 import axios from "axios";
 import styles from "../sell-do/sell-do.module.scss";
 
+import Demo from "../../common/demo";
+
 const Price = () => {
   const handleFormSubmit = async (values, actions) => {
     try {

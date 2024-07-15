@@ -8,6 +8,8 @@ import * as Yup from "yup";
 import axios from "axios";
 import styles from "../tigerlrm/tiger.module.scss";
 
+import Demo from "../../common/demo";
+
 const Price = () => {
   const handleFormSubmit = async (values, actions) => {
     try {

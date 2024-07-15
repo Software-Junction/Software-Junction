@@ -8,6 +8,8 @@ import * as Yup from "yup";
 import axios from "axios";
 import styles from "../easy-gst/easy.module.scss";
 
+import Demo from "../../common/demo";
+
 const Price = () => {
   const handleFormSubmit = async (values, actions) => {
     try {

@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import Needhelp from '../../common/needHelp';
 
 const Info = ({ styles }) => {
 
@@ -45,23 +46,20 @@ const Info = ({ styles }) => {
               features like data backup, it ensures efficient and error-free
               business operations.
             </p>
-            <div
+            {/* <div
               className={`${styles["cha-priceplan-box"]} box bg-light  rounded-4 p-3 mb-4 border`}
             >
               <h5>Pricing Plans :</h5>
               <p>
                 <Link href="#idpricing">View Detailed pricing</Link>
               </p>
+            </div> */}
+            <div>
+              <Button variant="primary" href="#idpricing">View Pricing</Button>
             </div>
           </Col>
-          <Col lg={6}>
-            <Image
-              src="/images/astralss.png"
-              alt="astralss"
-              height="10"
-              width="600"
-              className={styles["cha-info-img"]}
-            />
+          <Col lg={{ span: 4, offset: 1 }}>
+            <Needhelp />
           </Col>
         </Row>
       </Container>

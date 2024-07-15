@@ -9,6 +9,8 @@ import axios from "axios";
 import styles from "../sanpharmacy/san.module.scss";
 
 
+import Demo from "../../common/demo";
+
 const Price = () => {
   const handleFormSubmit = async (values, actions) => {
     try {
