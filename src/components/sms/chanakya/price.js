@@ -11,6 +11,11 @@ import styles from "../chanakya/chan.module.scss";
 import Demo from "../../common/demo";
 
 const Price = () => {
+
+  const [showDemo, setShowDemo] = useState(false);
+
+  const handleCloseDemo = () => setShowDemo(false);
+  const handleShowDemo = () => setShowDemo(true);
   return (
     <>
       <Container>
@@ -19,7 +24,7 @@ const Price = () => {
                 <h3 className='mb-3'>Chanakya ERP Pricing</h3>
             </Col>
             <Col lg={3} className='mb-3'>
-                <div className={`${styles['cha-price-box']} box  bg-light border h-100 rounded-4 p-4`}>
+                <div className={`${styles['price-box']} box  bg-light border h-100 rounded-4 p-4`}>
                     <div className='text-center'>
                     <h5>Small<br/><br/>&#8377; 18000</h5>
                     <p>per year</p>
@@ -30,12 +35,12 @@ const Price = () => {
                         
                     </ul>
                     <div className='text-center'>
-                    <Button variant='primary' size='sm' className={styles['cha-price-btn']}>Free Trail</Button>
+                    <Button variant='primary' size='sm' className={styles['price-btn']} onClick={handleShowDemo}>Free Trail</Button>
                     </div>
                 </div>
             </Col>
             <Col lg={3} className='mb-3'>
-                <div className={`${styles['cha-price-box']} box  bg-light border h-100  rounded-4 p-4`}>
+                <div className={`${styles['price-box']} box  bg-light border h-100  rounded-4 p-4`}>
                     <div className='text-center'>
                     <h5>Medium<br/><br/>&#8377; 6</h5>
                     <p>Student/Month</p>
@@ -47,12 +52,12 @@ const Price = () => {
                         
                     </ul>
                     <div className='text-center'>
-                    <Button variant='primary' size='sm' className={styles['cha-price-btn1']}>Free Trail</Button>
+                    <Button variant='primary' size='sm' className={styles['price-btn1']} onClick={handleShowDemo}>Free Trail</Button>
                     </div>
                 </div>
             </Col>
             <Col lg={3} className='mb-3'>
-                <div className={`${styles['cha-price-box']} box  bg-light border h-100  rounded-4 p-4`}>
+                <div className={`${styles['price-box']} box  bg-light border h-100  rounded-4 p-4`}>
                     <div className='text-center'>
                     <h5>Students above 1000<br/><br/>&#8377; 5</h5>
                     <p>Student/Month</p>

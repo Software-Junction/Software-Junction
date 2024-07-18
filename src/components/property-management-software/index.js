@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import Ads1 from "./ads1";
 import List from "./list";
 import Related from "./related";
@@ -8,17 +8,26 @@ import Recommend from "./recommend";
 import Trend from "./trend";
 import Cmpchat from "./cmpchat";
 import Link from "next/link";
-import { Container, Row, Col, Tab, Tabs, Form, Modal,Button } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Tab,
+  Tabs,
+  Form,
+  Modal,
+  Button,
+} from "react-bootstrap";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 import softwareData from "../home/software-data";
+import Stillconfusedform from "../common/still-confused-form";
 import styles from "./property-management-software.module.scss";
 
 const Index = () => {
-
-  const [activeKey, setActiveKey] = useState('All Products');
+  const [activeKey, setActiveKey] = useState("All Products");
 
   const [showCall, setShowCall] = useState(false);
 
@@ -26,9 +35,8 @@ const Index = () => {
 
   useEffect(() => {
     let timer;
-    if (activeKey === 'Compare') {
+    if (activeKey === "Compare") {
       timer = setTimeout(() => {
-      
         setShowCall(true);
       }, 120000);
     } else {
@@ -36,7 +44,6 @@ const Index = () => {
     }
     return () => clearTimeout(timer);
   }, [activeKey]);
-
 
   const handleFormSubmit = async (values, actions) => {
     try {
@@ -53,7 +60,6 @@ const Index = () => {
       actions.setSubmitting(false);
     }
   };
-
 
   return (
     <>
@@ -88,16 +94,16 @@ const Index = () => {
           </Row>
         </Container>
       </section>
-      <section className={styles['headbg-2']}>
+      <section className={styles["headbg-2"]}>
         <Container>
           <Row>
             <Col lg={12}>
-            <h3>Top 10 Campus Management Software</h3>
+              <h3>Top 10 Campus Management Software</h3>
               <p>
-                Explore the top 10 Campus Management Software solutions offering comprehensive
-                automation, tailored customization, and global accessibility.
-                Compare features, ratings, USP'S and pricing plans to find the
-                perfect fit for your buisness needs.
+                Explore the top 10 Campus Management Software solutions offering
+                comprehensive automation, tailored customization, and global
+                accessibility. Compare features, ratings, USP'S and pricing
+                plans to find the perfect fit for your buisness needs.
               </p>
             </Col>
           </Row>
@@ -110,7 +116,7 @@ const Index = () => {
         <Tabs
           // defaultActiveKey="All Products"
           activeKey={activeKey}
-        onSelect={(k) => setActiveKey(k)}
+          onSelect={(k) => setActiveKey(k)}
           id="justify-tab-example"
           className={`${styles["cms-tab"]} shadow mb-3`}
           // justify
@@ -121,8 +127,8 @@ const Index = () => {
             <Container>
               <Row>
                 <Col lg={12}>
-                <h3 className="mt-5">Top 10 Software Comparision Table</h3>
-                <Cmpchat styles={styles} />
+                  <h3 className="mt-5">Top 10 Software Comparision Table</h3>
+                  <Cmpchat styles={styles} />
                 </Col>
               </Row>
             </Container>
@@ -137,7 +143,7 @@ const Index = () => {
           {/* <Tab eventKey="Trends" title="Trends">
             <Trend styles={styles} />
           </Tab> */}
-<Tab eventKey="Compare" title="Top 10 Software Comparision Table">
+          <Tab eventKey="Compare" title="Top 10 Software Comparision Table">
             <Cmpchat styles={styles} />
           </Tab>
         </Tabs>
@@ -145,248 +151,7 @@ const Index = () => {
           </Row>
         </Container> */}
 
-          <Modal
-            aria-labelledby="contained-modal-title-vcenter"
-            centered
-            show={showCall}
-            onHide={handleCloseCall}
-          >
-            <Modal.Header>
-              <div>
-                <h3>Still Confused !</h3>
-                <h5>Get Recommendation from an Expert</h5>
-                <p>
-                  Fill out the form below and get the Expert guide you to the perfect Software Solution tailored to your requirements
-                </p>
-              </div>
-            </Modal.Header>
-            <Modal.Body>
-              <Formik
-                initialValues={{
-                  username: "",
-                  location: "",
-                  email: "",
-                  number: "",
-                  message: "",
-                  companyname: "",
-                  date: "",
-                  software: "",
-                  employee: "",
-                  postTimestamp: new Date().toUTCString(),
-                }}
-                validationSchema={Yup.object().shape({
-                  username: Yup.string().required(
-                    "Please enter your full name."
-                  ),
-                  location: Yup.string().required("Please select a location."),
-                  email: Yup.string()
-                    .email("Invalid email address")
-                    .required("Please enter your email address."),
-                  number: Yup.string().required(
-                    "Please enter your phone number."
-                  ),
-                  companyname: Yup.string().required(
-                    "Please enter your Company Name."
-                  ),
-                  software: Yup.string().required(
-                    "Please select a software category."
-                  ),
-                  employee: Yup.string().required(
-                    "Please select employee strength."
-                  ),
-                  date: Yup.string().required("Please select date."),
-                  message: Yup.string().required("Please enter a message."),
-                })}
-                onSubmit={handleFormSubmit}
-              >
-                {(formik) => (
-                  <Form method="post" id="contact-form">
-                    <Row>
-                      <Form.Group
-                        className="mb-3"
-                        controlId="exampleForm.ControlInput1"
-                        as={Col}
-                      >
-                        <Field
-                          className={`form-control ${
-                            formik.touched.username && formik.errors.username
-                              ? "is-invalid"
-                              : ""
-                          }`}
-                          type="text"
-                          name="username"
-                          placeholder="Full name"
-                        />
-                        <ErrorMessage
-                          name="username"
-                          component="div"
-                          className={`${styles["valid-clr"]} invalid-feedback`}
-                        />
-                      </Form.Group>
-
-                      <Form.Group
-                        className="mb-3"
-                        controlId="exampleForm.ControlInput1"
-                        as={Col}
-                      >
-                        <Field
-                          className={`form-control ${
-                            formik.touched.number && formik.errors.number
-                              ? "is-invalid"
-                              : ""
-                          }`}
-                          type="number"
-                          name="number"
-                          placeholder="Phone number"
-                        />
-                        <ErrorMessage
-                          name="number"
-                          component="div"
-                          className={`${styles["valid-clr"]} invalid-feedback`}
-                        />
-                      </Form.Group>
-                    </Row>
-                    <Row>
-                      <Form.Group
-                        className="mb-3"
-                        controlId="exampleForm.ControlInput1"
-                        as={Col}
-                      >
-                        <Field
-                          className={`form-control ${
-                            formik.touched.email && formik.errors.email
-                              ? "is-invalid"
-                              : ""
-                          }`}
-                          type="email"
-                          name="email"
-                          placeholder="Bussiness Email address"
-                        />
-                        <ErrorMessage
-                          name="email"
-                          component="div"
-                          className={`${styles["valid-clr"]} invalid-feedback`}
-                        />
-                      </Form.Group>
-
-                      <Form.Group
-                        className="mb-3"
-                        controlId="exampleForm.ControlInput1"
-                        as={Col}
-                      >
-                        <Field
-                          className={`form-control ${
-                            formik.touched.companyname &&
-                            formik.errors.companyname
-                              ? "is-invalid"
-                              : ""
-                          }`}
-                          type="text"
-                          name="companyname"
-                          placeholder="Company Name"
-                        />
-                        <ErrorMessage
-                          name="companyname"
-                          component="div"
-                          className={`${styles["valid-clr"]} invalid-feedback`}
-                        />
-                      </Form.Group>
-                    </Row>
-                    <Row>
-                      <Form.Group
-                        className="mb-3"
-                        controlId="exampleForm.ControlInput1"
-                        as={Col}
-                      >
-                        <Field
-                          as="select"
-                          className={`form-select ${
-                            formik.touched.software && formik.errors.software
-                              ? "is-invalid"
-                              : ""
-                          }`}
-                          name="mySelect"
-                        >
-                          <option value="" disabled selected>
-                            Type of Software Needed
-                          </option>
-                          {softwareData.map((software, index) => (
-                            <option key={index} value={software.name}>
-                              {software.name}
-                            </option>
-                          ))}
-                        </Field>
-                        <ErrorMessage
-                          name="software"
-                          component="div"
-                          className={`${styles["valid-clr"]} invalid-feedback`}
-                        />
-                      </Form.Group>
-
-                      <Form.Group
-                        className="mb-3"
-                        controlId="exampleForm.ControlInput1"
-                        as={Col}
-                      >
-                        <Field
-                          as="select"
-                          id="mySelect"
-                          className={`form-select ${
-                            formik.touched.employee && formik.errors.employee
-                              ? "is-invalid"
-                              : ""
-                          }`}
-                          name="mySelect"
-                        >
-                          <option value="" disabled selected>
-                            Employee Strength :
-                          </option>
-                          <option value="option1">Under 20</option>
-                          <option value="option2">20- 150</option>
-                          <option value="option3">150- 500</option>
-                          <option value="option4">500 - 1000</option>
-                          <option value="option5">Over 1000</option>
-                        </Field>
-                        <ErrorMessage
-                          name="employee"
-                          component="div"
-                          className={`${styles["valid-clr"]} invalid-feedback`}
-                        />
-                      </Form.Group>
-                    </Row>
-                    <Form.Group
-                      className="mb-3"
-                      controlId="exampleForm.ControlTextarea1"
-                    >
-                      <Form.Control
-                        as="textarea"
-                        rows={3}
-                        placeholder="Current Challenges or Pain Points :"
-                      />
-                    </Form.Group>
-                    <div className="d-flex justify-content-between">
-                      <Button
-                        variant="warning"
-                        size="sm"
-                        className="text-light"
-                        onClick={formik.handleSubmit}
-                      >
-                        Request Now
-                      </Button>
-                      <Button
-                        variant="warning"
-                        size="sm"
-                        className="text-light"
-                        onClick={handleCloseCall}
-                      >
-                        Close
-                      </Button>
-                    </div>
-                  </Form>
-                )}
-              </Formik>
-            </Modal.Body>
-          </Modal>
+        <Stillconfusedform show={showCall} handleClose={handleCloseCall} />
       </section>
     </>
   );

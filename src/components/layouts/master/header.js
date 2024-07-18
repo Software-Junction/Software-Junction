@@ -18,6 +18,8 @@ import * as Yup from "yup";
 import axios from "axios";
 import { isMobile } from "react-device-detect";
 import softwareData from "../../home/software-data";
+import { useRouter } from "next/router";
+import PostAPi from "../../common/common";
 import styles from "./header.module.scss";
 
 const Header = () => {
@@ -30,30 +32,34 @@ const Header = () => {
   }
 
   const handleFormSubmit = async (values, actions) => {
-    try {
-      await axios.post(
-        "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
-        values
-      );
-      actions.resetForm();
-      actions.setSubmitting(false);
-      alert("Form submitted successfully.");
-      window.location.reload();
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      actions.setSubmitting(false);
+    const {username,email,number,employee,message,companyname,software} = values
+    const body ={
+      "fullName": username,
+  "phoneNo": number,
+  "email":email,
+  "companyName": companyname,
+  "softwareRequired": software,
+  "employeeStrength": employee,
+  "challenges": message,
+  "flag": reffrence
     }
+    // return console.log(body);
+    
+    PostAPi('UserRegister',body).then((response)=>console.log(response))
+    console.log("Form value",values);
   };
 
   const [showCall, setShowCall] = useState(false);
 
   const handleCloseCall = () => setShowCall(false);
-  const handleShowCall = () => setShowCall(true);
+  const handleShowCall = () => {setShowCall(true);setRefrence('CallBack')};
+
+  const [reffrence, setRefrence] = useState("UserAuth");
 
   useEffect(() => {
     setTimeout(() => {
-      setShowCall(true);
-    }, 1000);
+      if (reffrence == 'UserAuth') setShowCall(true);
+    }, 5000);
   }, []);
   return (
     <>
@@ -309,12 +315,10 @@ const Header = () => {
               <Formik
                 initialValues={{
                   username: "",
-                  location: "",
                   email: "",
                   number: "",
                   message: "",
                   companyname: "",
-                  date: "",
                   software: "",
                   employee: "",
                   postTimestamp: new Date().toUTCString(),
@@ -323,7 +327,6 @@ const Header = () => {
                   username: Yup.string().required(
                     "Please enter your full name."
                   ),
-                  location: Yup.string().required("Please select a location."),
                   email: Yup.string()
                     .email("Invalid email address")
                     .required("Please enter your email address."),
@@ -339,7 +342,6 @@ const Header = () => {
                   employee: Yup.string().required(
                     "Please select employee strength."
                   ),
-                  date: Yup.string().required("Please select date."),
                   message: Yup.string().required("Please enter a message."),
                 })}
                 onSubmit={handleFormSubmit}
@@ -450,7 +452,7 @@ const Header = () => {
                               ? "is-invalid"
                               : ""
                           }`}
-                          name="mySelect"
+                          name="software"
                         >
                           <option value="" disabled selected>
                             Type of Software Needed
@@ -481,7 +483,7 @@ const Header = () => {
                               ? "is-invalid"
                               : ""
                           }`}
-                          name="mySelect"
+                          name="employee"
                         >
                           <option value="" disabled selected>
                             Employee Strength :
@@ -500,20 +502,33 @@ const Header = () => {
                       </Form.Group>
                     </Row>
                     <Form.Group
-                      className="mb-3"
-                      controlId="exampleForm.ControlTextarea1"
-                    >
-                      <Form.Control
-                        as="textarea"
-                        rows={3}
-                        placeholder="Current Challenges or Pain Points :"
-                      />
-                    </Form.Group>
+                  className="mb-3"
+                  controlId="exampleForm.ControlTextarea1"
+                >
+                  <Field
+                    as="textarea"
+                    rows={3}
+                    className={`form-control ${
+                      formik.touched.message && formik.errors.message
+                        ? "is-invalid"
+                        : ""
+                    }`}
+                    name="message"
+                    placeholder="Current Challenges or Pain Points :"
+                  />
+                  <ErrorMessage
+                    name="message"
+                    component="div"
+                    className={`invalid-feedback`}
+                    style={{ color: "#f95738" }}
+                  />
+                </Form.Group>
                     <div className="d-flex justify-content-between">
                       <Button
                         variant="warning"
                         size="sm"
                         className="text-light"
+                        type="submit"
                         onClick={formik.handleSubmit}
                       >
                         Request Now

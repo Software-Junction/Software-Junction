@@ -3,24 +3,27 @@ import { Button, Form, Modal } from "react-bootstrap";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import { useRouter } from "next/router";
+import PostAPi from "../common/common";
 import styles from './common.module.scss';
 
 const NeedHelp = () => {
+
+  const params = useRouter()
+
   const handleFormSubmit = async (values, actions) => {
-    // try {
-    //   await axios.post(
-    //     "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
-    //     values
-    //   );
-    //   actions.resetForm();
-    //   actions.setSubmitting(false);
-    //   alert("Form submitted successfully.");
-    //   window.location.reload();
-    // } catch (error) {
-    //   console.error("Error submitting form:", error);
-    //   actions.setSubmitting(false);
-    // }
-    console.log("Form value", values);
+    const {username,email,number,employee} = values
+    const body ={
+      "fullName": username,
+      "phoneNo": number,
+      "email": email,
+      "softwareCategory": params.pathname.split('/')[1],
+      "employeeStrength": employee
+  }
+    // return console.log(body);
+    
+    PostAPi('softCategory',body).then((response)=>console.log(response))
+    // console.log("Form value",values);
   };
 
   return (
@@ -108,11 +111,11 @@ const NeedHelp = () => {
                     <option value="" disabled selected>
                       Employee Strength :
                     </option>
-                    <option value="option1">Under 20</option>
-                    <option value="option2">20- 150</option>
-                    <option value="option3">150- 500</option>
-                    <option value="option4">500 - 1000</option>
-                    <option value="option5">Over 1000</option>
+                    <option value="Under 20">Under 20</option>
+                    <option value="20- 150">20- 150</option>
+                    <option value="150- 500">150- 500</option>
+                    <option value="500 - 1000">500 - 1000</option>
+                    <option value="Over 1000">Over 1000</option>
                   </Field>
                   <ErrorMessage
                     name="employee"

@@ -13,49 +13,49 @@ import Faq from "./faq";
 const Details = ({ styles }) => {
   return (
     <>
-      <section className={`${styles["cha-navi"]}  shadow pb-4`}>
+      <section className={`${styles["navi"]}  shadow pb-4`}>
         <Nav styles={styles} />
       </section>
 
-      <section className={`${styles["cha-info"]} my-5`} id="idinfo">
+      <section className={`${styles["info"]} my-5`} id="idinfo">
         <Info styles={styles} />
       </section>
 
-      <section className={`${styles["cha-ss"]} mt-5`} id="idss">
+      {/* <section className={`${styles["ss"]} mt-5`} id="idss">
         <Ss styles={styles} />
-      </section>
+      </section> */}
 
-      <section className={`${styles["cha-features"]} my-5`} id="idfeature">
+      <section className={`${styles["features"]} my-5`} id="idfeature">
         <Features styles={styles} />
       </section>
 
-      <section className={styles["cha-usp"]} id="idusp">
+      <section className={styles["usp"]} id="idusp">
         <Usp />
       </section>
 
-      <section className={`${styles["cha-spec"]} mt-5`}>
+      <section className={`${styles["spec"]} mt-5`}>
         <Specs styles={styles} />
       </section>
 
-      <section className={`${styles["cha-pricing"]} mt-5`} id="idpricing">
+      <section className={`${styles["pricing"]} mt-5`} id="idpricing">
         <Price />
       </section>
 
-      <section className={`${styles["cha-review"]} mt-5`} id="idreview">
+      {/* <section className={`${styles["review"]} mt-5`} id="idreview">
         <Review styles={styles} />
-      </section>
+      </section> */}
 
-      {/* <section className={`${styles["cha-alternative"]} mt-5`} id="idalternative">
+      {/* <section className={`${styles["alternative"]} mt-5`} id="idalternative">
         <Alternative styles={styles} />
       </section>
 
-      <section className={`${styles["cha-compare"]} mt-5`} id="idcompare">
+      <section className={`${styles["compare"]} mt-5`} id="idcompare">
         <Compare styles={styles} />
       </section> */}
 
-      <section className={`${styles["cha-faq"]} mt-5`}>
+      {/* <section className={`${styles["faq"]} mt-5`}>
         <Faq styles={styles} />
-      </section>
+      </section> */}
     </>
   );
 };

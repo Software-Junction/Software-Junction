@@ -11,8 +11,8 @@ const Compare = ({styles}) => {
                 <strong>Comparison of Softwares</strong>
               </h3>
             </Col>
-            <Col lg={3} className={styles["cha-col-margin-mob"]}>
-              <div className={`${styles["cha-box"]} shadow bg-light h-100`}>
+            <Col lg={3} className={styles["col-margin-mob"]}>
+              <div className={`${styles["box"]} shadow bg-light h-100`}>
                 <div className="d-flex">
                   <div className="img pt-3 ms-4">
                     <div className=" mt-5 me-4">
@@ -24,15 +24,15 @@ const Compare = ({styles}) => {
                         className="shadow"
                       />
                     </div>
-                    <p className={`${styles["cha-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                       Schoolcanvas
                     </p>
                   </div>
                   <div className="hr">
-                    <hr className={styles["cha-vs-hr"]} />
+                    <hr className={styles["vs-hr"]} />
                   </div>
                   <div>
-                    <p className={`${styles["cha-vs-box"]} p-2`}>vs</p>
+                    <p className={`${styles["vs-box"]} p-2`}>vs</p>
                   </div>
                   <div className="img pt-3">
                     <div className=" mt-2 me-3">
@@ -44,7 +44,7 @@ const Compare = ({styles}) => {
                         className=" shadow "
                       />
                     </div>
-                    <p className={`${styles["cha-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                       Vyapar Billing software
                     </p>
                   </div>
@@ -57,8 +57,8 @@ const Compare = ({styles}) => {
               </div>
             </Col>
 
-            <Col lg={3} className={styles["cha-col-margin-mob"]}>
-              <div className={`${styles["cha-box"]} shadow bg-light h-100`}>
+            <Col lg={3} className={styles["col-margin-mob"]}>
+              <div className={`${styles["box"]} shadow bg-light h-100`}>
                 <div className="d-flex">
                   <div className="img pt-3 ms-4">
                     <div className=" mt-5 me-4">
@@ -70,15 +70,15 @@ const Compare = ({styles}) => {
                         className="shadow"
                       />
                     </div>
-                    <p className={`${styles["cha-box-p-font"]} mt-3`}>
+                    <p className={`${styles["box-p-font"]} mt-3`}>
                     Schoolcanvas
                     </p>
                   </div>
                   <div className="hr">
-                    <hr className={styles["cha-vs-hr"]} />
+                    <hr className={styles["vs-hr"]} />
                   </div>
                   <div>
-                    <p className={`${styles["cha-vs-box"]} p-2`}>vs</p>
+                    <p className={`${styles["vs-box"]} p-2`}>vs</p>
                   </div>
                   <div className="img pt-3">
                     <div className=" mt-2 me-3">
@@ -90,7 +90,7 @@ const Compare = ({styles}) => {
                         className=" shadow "
                       />
                     </div>
-                    <p className={`${styles["cha-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                       My Bill Book{" "}
                     </p>
                   </div>
@@ -103,8 +103,8 @@ const Compare = ({styles}) => {
               </div>
             </Col>
 
-            <Col lg={3} className={styles["cha-col-margin-mob"]}>
-              <div className={`${styles["cha-box"]} shadow bg-light h-100`}>
+            <Col lg={3} className={styles["col-margin-mob"]}>
+              <div className={`${styles["box"]} shadow bg-light h-100`}>
                 <div className="d-flex">
                   <div className="img pt-3 ms-4">
                     <div className=" mt-5 me-4">
@@ -116,15 +116,15 @@ const Compare = ({styles}) => {
                         className="shadow"
                       />
                     </div>
-                    <p className={`${styles["cha-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                     Schoolcanvas
                     </p>
                   </div>
                   <div className="hr">
-                    <hr className={styles["cha-vs-hr"]} />
+                    <hr className={styles["vs-hr"]} />
                   </div>
                   <div>
-                    <p className={`${styles["cha-vs-box"]} p-2`}>vs</p>
+                    <p className={`${styles["vs-box"]} p-2`}>vs</p>
                   </div>
                   <div className="img pt-3">
                     <div className=" mt-2 me-3">
@@ -136,7 +136,7 @@ const Compare = ({styles}) => {
                         className=" shadow "
                       />
                     </div>
-                    <p className={`${styles["cha-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                       My Bill Book
                     </p>
                   </div>
@@ -149,8 +149,8 @@ const Compare = ({styles}) => {
               </div>
             </Col>
 
-            <Col lg={3} className={styles["cha-col-margin-mob"]}>
-              <div className={`${styles["cha-box"]} shadow bg-light h-100`}>
+            <Col lg={3} className={styles["col-margin-mob"]}>
+              <div className={`${styles["box"]} shadow bg-light h-100`}>
                 <div className="d-flex">
                   <div className="img pt-3 ms-4">
                     <div className=" mt-5 me-4">
@@ -162,15 +162,15 @@ const Compare = ({styles}) => {
                         className="shadow"
                       />
                     </div>
-                    <p className={`${styles["cha-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                     Schoolcanvas
                     </p>
                   </div>
                   <div className="hr">
-                    <hr className={styles["cha-vs-hr"]} />
+                    <hr className={styles["vs-hr"]} />
                   </div>
                   <div>
-                    <p className={`${styles["cha-vs-box"]} p-2`}>vs</p>
+                    <p className={`${styles["vs-box"]} p-2`}>vs</p>
                   </div>
                   <div className="img pt-3">
                     <div className=" mt-2 me-3">
@@ -182,7 +182,7 @@ const Compare = ({styles}) => {
                         className=" shadow "
                       />
                     </div>
-                    <p className={`${styles["cha-box-p-font"]} pt-3`}>
+                    <p className={`${styles["box-p-font"]} pt-3`}>
                       My Bill Book
                     </p>
                   </div>

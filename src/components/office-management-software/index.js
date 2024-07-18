@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import Ads1 from "./ads1";
 import List from "./list";
 import Related from "./related";
@@ -8,17 +8,26 @@ import Recommend from "./recommend";
 import Trend from "./trend";
 import Cmpchat from "./cmpchat";
 import Link from "next/link";
-import { Container, Row, Col, Tab, Tabs, Form, Modal,Button } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Tab,
+  Tabs,
+  Form,
+  Modal,
+  Button,
+} from "react-bootstrap";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 import softwareData from "../home/software-data";
+import Stillconfusedform from "../common/still-confused-form";
 import styles from "./office-mangement-software.module.scss";
 
 const Index = () => {
-
-  const [activeKey, setActiveKey] = useState('All Products');
+  const [activeKey, setActiveKey] = useState("All Products");
 
   const [showCall, setShowCall] = useState(false);
 
@@ -26,9 +35,8 @@ const Index = () => {
 
   useEffect(() => {
     let timer;
-    if (activeKey === 'Compare') {
+    if (activeKey === "Compare") {
       timer = setTimeout(() => {
-      
         setShowCall(true);
       }, 120000);
     } else {
@@ -36,7 +44,6 @@ const Index = () => {
     }
     return () => clearTimeout(timer);
   }, [activeKey]);
-
 
   const handleFormSubmit = async (values, actions) => {
     try {
@@ -53,7 +60,6 @@ const Index = () => {
       actions.setSubmitting(false);
     }
   };
-
 
   return (
     <>
@@ -88,16 +94,16 @@ const Index = () => {
           </Row>
         </Container>
       </section>
-      <section className={styles['headbg-2']}>
+      <section className={styles["headbg-2"]}>
         <Container>
           <Row>
             <Col lg={12}>
-            <h3>Top 10 Campus Management Software</h3>
+              <h3>Top 10 Campus Management Software</h3>
               <p>
-                Explore the top 10 Campus Management Software solutions offering comprehensive
-                automation, tailored customization, and global accessibility.
-                Compare features, ratings, USP'S and pricing plans to find the
-                perfect fit for your buisness needs.
+                Explore the top 10 Campus Management Software solutions offering
+                comprehensive automation, tailored customization, and global
+                accessibility. Compare features, ratings, USP'S and pricing
+                plans to find the perfect fit for your buisness needs.
               </p>
             </Col>
           </Row>
@@ -110,7 +116,7 @@ const Index = () => {
         <Tabs
           // defaultActiveKey="All Products"
           activeKey={activeKey}
-        onSelect={(k) => setActiveKey(k)}
+          onSelect={(k) => setActiveKey(k)}
           id="justify-tab-example"
           className={`${styles["cms-tab"]} shadow mb-3`}
           // justify
@@ -121,8 +127,8 @@ const Index = () => {
             <Container>
               <Row>
                 <Col lg={12}>
-                <h3 className="mt-5">Top 10 Software Comparision Table</h3>
-                <Cmpchat styles={styles} />
+                  <h3 className="mt-5">Top 10 Software Comparision Table</h3>
+                  <Cmpchat styles={styles} />
                 </Col>
               </Row>
             </Container>
@@ -137,13 +143,14 @@ const Index = () => {
           {/* <Tab eventKey="Trends" title="Trends">
             <Trend styles={styles} />
           </Tab> */}
-<Tab eventKey="Compare" title="Top 10 Software Comparision Table">           
- <Cmpchat styles={styles} />
+          <Tab eventKey="Compare" title="Top 10 Software Comparision Table">
+            <Cmpchat styles={styles} />
           </Tab>
         </Tabs>
         {/* </Col>
           </Row>
         </Container> */}
+        <Stillconfusedform show={showCall} handleClose={handleCloseCall} />
       </section>
     </>
   );

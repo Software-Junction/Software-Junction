@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState,useRef } from "react";
 import { Container, Row, Col, Table, Modal, Button, Form } from "react-bootstrap";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa";
@@ -68,9 +68,9 @@ const Cmpchat = () => {
 
   //edumaat features and usp
   const handleCloseF2 = () => setShowF2(false);
-  const handleShowF2 = () => setShowF2(true);
+  const handleShowF2 = (e) => {CommonTableHead(e);setShowF2(true)};
   const handleCloseUsp2 = () => setShowUsp2(false);
-  const handleShowUsp2 = () => setShowUsp2(true);
+  const handleShowUsp2 = (e) => {CommonTableHead(e);setShowUsp2(true)};
   //schoolcanvas features and usp
   const handleCloseF1 = () => setShow1(false);
   const handleShowF1 = () => setShow1(true);
@@ -117,6 +117,26 @@ const Cmpchat = () => {
     const handleCloseUsp10 = () => setShowUsp10(false);
     const handleShowUsp10 = () => setShowUsp10(true);
 
+
+    const tableRef = useRef(null);
+
+    const CommonTableHead = (event) => {
+      const button = event.target;
+      const td = button.closest("td");
+      const tr = td.parentNode;
+      const table = tableRef.current;
+      const thIndex = Array.from(tr.children).indexOf(td);
+  
+      if (table) {
+        const th = table.querySelectorAll("th")[thIndex];
+        if (th) {
+          // console.log(th.textContent);
+          setRefrence(th.textContent);
+        }
+      } 
+    };
+
+    const [refrence, setRefrence] = useState("");
 
  const handleFormSubmit = async (values, actions) => {
     try {
@@ -180,6 +200,7 @@ const Cmpchat = () => {
                   responsive
                   bordered
                   className={`${styles["thead"]} overflow-auto`}
+                  ref={tableRef}
                 >
                   <thead>
                     <tr>
@@ -1178,7 +1199,7 @@ const Cmpchat = () => {
                       
                
 
- 		<Tablefreedemo show={showSoftware} handleClose={handleCloseSoftware}/>
+ 		<Tablefreedemo show={showSoftware} reffer={refrence} handleClose={handleCloseSoftware}/>
 
             </Col>
           </Row>

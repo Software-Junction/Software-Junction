@@ -18,7 +18,7 @@ const Ss = ({styles}) => {
                 width="400"
                 layout='responsive'
                
-                className={styles["cha-info-img"]}
+                className={styles["info-img"]}
               />
                 </Col>
 
@@ -28,14 +28,14 @@ const Ss = ({styles}) => {
                 alt="eduss1"
                 height="10"
                 width="200"
-                className={`${styles["cha-info-img1"]} me-3`}
+                className={`${styles["info-img1"]} me-3`}
               />
               <Image
                 src="/images/eduss2.jpg"
                 alt="eduss2"
                 height="10"
                 width="200"
-                className={styles["cha-info-img1"]}
+                className={styles["info-img1"]}
               />
                 </Col>
 
@@ -45,14 +45,14 @@ const Ss = ({styles}) => {
                 alt="eduss3"
                 height="10"
                 width="200"
-                className={`${styles["cha-info-img1"]} me-3`}
+                className={`${styles["info-img1"]} me-3`}
               />
               <Image
                 src="/images/eduss4.jpg"
                 alt="eduss4"
                 height="10"
                 width="200"
-                className={styles["cha-info-img1"]}
+                className={styles["info-img1"]}
               /> 
                 </Col> */}
             </Row>

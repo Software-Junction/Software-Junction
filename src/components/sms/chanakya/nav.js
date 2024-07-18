@@ -7,26 +7,26 @@ const Nav = ({styles}) => {
        <Container>
           <Row>
             <Col lg={12}>
-              <Button variant="outline-dark" className={`${styles['cha-nav-btn']} mt-3`} href="#idinfo">
+              <Button variant="outline-dark" className={`${styles['nav-btn']} mt-3`} href="#idinfo">
                 Product Information
               </Button>
               <Button
                 variant="outline-dark"
-                className={`${styles['cha-nav-btn']} ms-4 mt-3`}
+                className={`${styles['nav-btn']} ms-4 mt-3`}
                 href="#idfeature"
               >
                 Features
               </Button>
               <Button
                 variant="outline-dark"
-                className={`${styles['cha-nav-btn']} ms-4 mt-3`}
+                className={`${styles['nav-btn']} ms-4 mt-3`}
                 href="#idusp"
               >
                 USP
               </Button>
               <Button
                 variant="outline-dark"
-                className={`${styles['cha-nav-btn']} ms-4 mt-3`}
+                className={`${styles['nav-btn']} ms-4 mt-3`}
                 href="#idreview"
               >
                 Reviews

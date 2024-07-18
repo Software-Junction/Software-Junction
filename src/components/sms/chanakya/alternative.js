@@ -11,24 +11,24 @@ const Alternative = ({styles}) => {
           <Col lg={12}>
             <h3 className="mb-4">Alternatives of Chanakya ERP</h3>
           </Col>
-          <Col lg={3} className={styles["cha-card-mob-mar"]}>
-            <Card border="" className={`${styles['cha-card-mob']} h-100 shadow`} style={{ width: "18rem" }}>
+          <Col lg={3} className={styles["card-mob-mar"]}>
+            <Card border="" className={`${styles['card-mob']} h-100 shadow`} style={{ width: "18rem" }}>
               <Card.Header
-                className={`${styles["cha-card-head"]} bg-dark text-light fw-bold p-5`}
+                className={`${styles["card-head"]} bg-dark text-light fw-bold p-5`}
               >
                 Digital School
               </Card.Header>
               <Card.Body>
                 <div className="d-flex">
                   <div>
-                    <Card.Title className={styles["cha-card-title"]}>
+                    <Card.Title className={styles["card-title"]}>
                       Digital School
                     </Card.Title>
                   </div>
                   <div>
                     <Link href="/product">
                       <p
-                        className={`${styles["cha-p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
+                        className={`${styles["p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
                         style={{backgroundColor: '#f95738 '}}
                       >
                         4.4 <FaStar />
@@ -43,7 +43,7 @@ const Alternative = ({styles}) => {
                   Starting at <strong>$2000</strong>
                 </Card.Text>
                 <Button
-                  className={styles["cha-card-btn1"]}
+                  className={styles["card-btn1"]}
                   size="sm"
                   variant="primary"
                 >
@@ -52,24 +52,24 @@ const Alternative = ({styles}) => {
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={3} className={styles["cha-card-mob-mar"]}>
-            <Card border="" className={`${styles['cha-card-mob']} h-100 shadow`} style={{ width: "18rem" }}>
+          <Col lg={3} className={styles["card-mob-mar"]}>
+            <Card border="" className={`${styles['card-mob']} h-100 shadow`} style={{ width: "18rem" }}>
               <Card.Header
-                className={`${styles["cha-card-head"]} bg-dark text-light fw-bold p-5`}
+                className={`${styles["card-head"]} bg-dark text-light fw-bold p-5`}
               >
                 EDUMAAT
               </Card.Header>
               <Card.Body>
                 <div className="d-flex">
                   <div>
-                    <Card.Title className={styles["cha-card-title"]}>
+                    <Card.Title className={styles["card-title"]}>
                       EDUMAAT
                     </Card.Title>
                   </div>
                   <div>
                     <Link href="/product">
                       <p
-                        className={`${styles["cha-p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
+                        className={`${styles["p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
                         style={{backgroundColor: '#f95738 '}}
                       >
                         4.4 <FaStar />
@@ -84,7 +84,7 @@ const Alternative = ({styles}) => {
                   Starting at <strong>$15</strong>
                 </Card.Text>
                 <Button
-                  className={styles["cha-card-btn"]}
+                  className={styles["card-btn"]}
                   size="sm"
                   variant="primary"
                 >
@@ -93,24 +93,24 @@ const Alternative = ({styles}) => {
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={3} className={styles["cha-card-mob-mar"]}>
-            <Card border="" className={`${styles['cha-card-mob']} h-100 shadow`} style={{ width: "18rem" }}>
+          <Col lg={3} className={styles["card-mob-mar"]}>
+            <Card border="" className={`${styles['card-mob']} h-100 shadow`} style={{ width: "18rem" }}>
               <Card.Header
-                className={`${styles["cha-card-head"]} bg-dark text-light fw-bold p-5`}
+                className={`${styles["card-head"]} bg-dark text-light fw-bold p-5`}
               >
                 Testinvite
               </Card.Header>
               <Card.Body>
                 <div className="d-flex">
                   <div>
-                    <Card.Title className={styles["cha-card-title"]}>
+                    <Card.Title className={styles["card-title"]}>
                       Testinvite
                     </Card.Title>
                   </div>
                   <div>
                     <Link href="/product">
                       <p
-                        className={`${styles["cha-p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
+                        className={`${styles["p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
                         style={{backgroundColor: '#f95738 '}}
                       >
                         4.4 <FaStar />
@@ -125,7 +125,7 @@ const Alternative = ({styles}) => {
                   Starting at <strong>$7200</strong>
                 </Card.Text>
                 <Button
-                  className={styles["cha-card-btn1"]}
+                  className={styles["card-btn1"]}
                   size="sm"
                   variant="primary"
                 >
@@ -134,24 +134,24 @@ const Alternative = ({styles}) => {
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={3} className={styles["cha-card-mob-mar"]}>
-            <Card border="" className={`${styles['cha-card-mob']} h-100 shadow`} style={{ width: "18rem" }}>
+          <Col lg={3} className={styles["card-mob-mar"]}>
+            <Card border="" className={`${styles['card-mob']} h-100 shadow`} style={{ width: "18rem" }}>
               <Card.Header
-                className={`${styles["cha-card-head"]} bg-dark text-light fw-bold p-5`}
+                className={`${styles["card-head"]} bg-dark text-light fw-bold p-5`}
               >
                 Astral School
               </Card.Header>
               <Card.Body>
                 <div className="d-flex">
                   <div>
-                    <Card.Title className={styles["cha-card-title"]}>
+                    <Card.Title className={styles["card-title"]}>
                       Astral School
                     </Card.Title>
                   </div>
                   <div>
                     <Link href="/product">
                       <p
-                        className={`${styles["cha-p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
+                        className={`${styles["p-style"]} border text-light  ps-2 pt-1 rounded-3 ms-5`}
                         style={{backgroundColor: '#f95738 '}}
                       >
                         4.4 <FaStar />
@@ -166,7 +166,7 @@ const Alternative = ({styles}) => {
                   Starting at <strong>$2000</strong>
                 </Card.Text>
                 <Button
-                  className={styles["cha-card-btn"]}
+                  className={styles["card-btn"]}
                   size="sm"
                   variant="primary"
                 >

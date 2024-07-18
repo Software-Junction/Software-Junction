@@ -3,8 +3,10 @@ import { Modal, Button, Form } from 'react-bootstrap';
 import { Formik, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { Pie } from 'react-chartjs-2';
+import { useRouter } from "next/router";
+import PostAPi from "../common/common";
 
-const Trendingfreedemo = ({ show, handleClose, selectedCard, options, handleFormSubmit, styles }) => {
+const Trendingfreedemo = ({reffer, show, handleClose, selectedCard, options, handleFormSubmit, styles }) => {
 
     const getPieData = (card) => ({
         labels: [
@@ -24,6 +26,22 @@ const Trendingfreedemo = ({ show, handleClose, selectedCard, options, handleForm
         ],
       });
     
+      const handleFormSubmit2 = async (values, actions) => {
+        const {username,email,number,employee,headingText} = values
+        const body ={
+          "fullName": username,
+  "phoneNo": number,
+  "email": email,
+  "softwareCategory": reffer,
+  "softwareName":headingText,
+  "employeeStrength":employee,
+        }
+        // return console.log(body);
+        
+        PostAPi('trendingDemo',body).then((response)=>console.log(response))
+        // console.log("Form value",values);
+      };
+
   return (
     <>
      <Modal show={show} onHide={handleClose} size="lg" centered>
@@ -53,7 +71,7 @@ const Trendingfreedemo = ({ show, handleClose, selectedCard, options, handleForm
               number: Yup.string().required("Please enter your phone number."),
               employee: Yup.string().required("Please select employee strength."),
             })}
-            onSubmit={handleFormSubmit}
+            onSubmit={handleFormSubmit2}
           >
             {(formik) => (
               <Form>
@@ -97,11 +115,11 @@ const Trendingfreedemo = ({ show, handleClose, selectedCard, options, handleForm
                     name="employee"
                   >
                     <option value="" disabled selected>Employee Strength:</option>
-                    <option value="option1">Under 20</option>
-                    <option value="option2">20-150</option>
-                    <option value="option3">150-500</option>
-                    <option value="option4">500-1000</option>
-                    <option value="option5">Over 1000</option>
+                    <option value="Under 20">Under 20</option>
+                    <option value="20-150">20-150</option>
+                    <option value="150-500">150-500</option>
+                    <option value="500-1000">500-1000</option>
+                    <option value="Over 1000">Over 1000</option>
                   </Field>
                   <ErrorMessage name="employee" component="div" className={`${styles["valid-clr"]} invalid-feedback`} />
                 </Form.Group>

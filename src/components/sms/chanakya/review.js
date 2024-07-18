@@ -14,12 +14,12 @@ const Review = ({ styles }) => {
           </Col>
           <Col lg={10}>
             <div
-              className={`${styles["cha-main-box-mob"]} box  bg-light rounded-4 p-4  mb-4 border`}
+              className={`${styles["main-box-mob"]} box  bg-light rounded-4 p-4  mb-4 border`}
             >
               <div
-                className={`${styles["cha-box-mob"]} box border  text-center rounded-2 p-4`}
+                className={`${styles["box-mob"]} box border  text-center rounded-2 p-4`}
               >
-                <div className={styles["cha-box-rating"]}>
+                <div className={styles["box-rating"]}>
                   <div>
                     <p>Overall Score</p>
                     <h5>
@@ -175,7 +175,7 @@ const Review = ({ styles }) => {
         </Row>
         <Row>
         <Col lg={12} >
-        <div  className={`${styles["cha-row-mob"]} box bg-light  border  rounded-4 p-4`}>
+        <div  className={`${styles["row-mob"]} box bg-light  border  rounded-4 p-4`}>
         <Row>
 
           <Col lg={3}>
@@ -315,7 +315,7 @@ const Review = ({ styles }) => {
         </Row>
         <Row>
       <Col lg={12} >
-        <div  className={`${styles["cha-row-mob"]} box bg-light mt-4 border  rounded-4 p-4`}>
+        <div  className={`${styles["row-mob"]} box bg-light mt-4 border  rounded-4 p-4`}>
         <Row>
           <Col lg={3}>
             <Image src="/images/user.png" alt="user" width="60" height="10" />

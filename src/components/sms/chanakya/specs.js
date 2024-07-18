@@ -28,17 +28,17 @@ const Specs = ({ styles }) => {
           <Row>
             <Col lg={12}>
               <div
-                className={`${styles["cha-soft-specs"]} border bg-light rounded-4 p-4`}
+                className={`${styles["soft-specs"]} border bg-light rounded-4 p-4`}
               >
                 <Row>
                   <Col lg={3} className="mb-3">
                     <h5>Supported Platforms :</h5>
                   </Col>
                   <Col lg={9} className="mb-3">
-                    <div className={`${styles["cha-spec-mob"]} d-flex`}>
+                    <div className={`${styles["spec-mob"]} d-flex`}>
                     
                       <h5 className="me-3">
-                        <span className={styles["cha-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <FaGlobe />
                         </span>{" "}
                         Web App
@@ -62,15 +62,15 @@ const Specs = ({ styles }) => {
                     <h5>Accessibility :</h5>
                   </Col>
                   <Col lg={9} className="mb-3">
-                    <div className={`${styles["cha-spec-mob"]} d-flex`}>
+                    <div className={`${styles["spec-mob"]} d-flex`}>
                       <h5 className="me-3">
-                        <span className={styles["cha-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <FaMobileAlt />
                         </span>{" "}
                         Mobile Support
                       </h5>
                       <h5 className="me-3">
-                        <span className={styles["cha-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <BiSolidCustomize />
                         </span>{" "}
                         Customization
@@ -82,9 +82,9 @@ const Specs = ({ styles }) => {
                     <h5>Language Support :</h5>
                   </Col>
                   <Col lg={9} className="mb-3">
-                    <div className={`${styles["cha-spec-mob"]} d-flex`}>
+                    <div className={`${styles["spec-mob"]} d-flex`}>
                       <h5 className="me-3">
-                        <span className={styles["cha-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <MdOutlineGTranslate />
                         </span>{" "}
                         English
@@ -96,28 +96,28 @@ const Specs = ({ styles }) => {
                     <h5>Business :</h5>
                   </Col>
                   <Col lg={9} className="mb-3">
-                    <div className={`${styles["cha-spec-mob"]} d-flex`}>
+                    <div className={`${styles["spec-mob"]} d-flex`}>
                       <h5 className="me-3">
-                        <span className={styles["cha-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <BsBuildingsFill />
                         </span>{" "}
                         Agencies
                       </h5>
                       <h5 className="me-3">
-                        <span className={styles["cha-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <BsFillFileBarGraphFill />
                         </span>{" "}
                         SMEs
                       </h5>
                       <h5 className="me-3">
-                        <span className={styles["cha-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <BsFillRocketTakeoffFill />
                         </span>{" "}
                         StartUps
                       </h5>
                       
                       <h5 className="me-3">
-                        <span className={styles["cha-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <FaUserTie />
                         </span>{" "}
                         FreeLancer
@@ -128,27 +128,27 @@ const Specs = ({ styles }) => {
                     <h5>Available Support :</h5>
                   </Col>
                   <Col lg={9} className="mb-3">
-                    <div className={`${styles["cha-spec-mob"]} d-flex`}>
+                    <div className={`${styles["spec-mob"]} d-flex`}>
                       <h5 className="me-3">
-                        <span className={styles["cha-icon-clr"]}>
+                        <span className={styles["icon-clr"]}>
                           <MdEmail />
                         </span>{" "}
                         Email
                       </h5>
                       <h5 className="me-3">
-                          <span className={styles["cha-icon-clr"]}>
+                          <span className={styles["icon-clr"]}>
                             <FaPhone />
                           </span>{" "}
                           Phone
                         </h5>
                         <h5 className="me-3">
-                          <span className={styles["cha-icon-clr"]}>
+                          <span className={styles["icon-clr"]}>
                             <TfiHeadphoneAlt />
                           </span>{" "}
                           Live Support
                         </h5>
                         <h5 className="me-3">
-                          <span className={styles["cha-icon-clr"]}>
+                          <span className={styles["icon-clr"]}>
                             <GiTeacher />
                           </span>{" "}
                           Training
@@ -160,19 +160,19 @@ const Specs = ({ styles }) => {
                   </Col>
                   <Col lg={9} className="mb-3">
                     <h5 className="mb-3">
-                      <span className={styles["cha-icon-clr"]}>
+                      <span className={styles["icon-clr"]}>
                         <FaBuilding />
                       </span>{" "}
                       Company Name : MeanWhile Softs
                     </h5>
                     <h5 className="mb-3">
-                      <span className={styles["cha-icon-clr"]}>
+                      <span className={styles["icon-clr"]}>
                         <BsBuildingsFill />
                       </span>{" "}
                       Headquarter : Bhuj
                     </h5>
                     <h5 className="mb-3">
-                      <span className={styles["cha-icon-clr"]}>
+                      <span className={styles["icon-clr"]}>
                         <FaGlobe />
                       </span>{" "}
                       Website :{" "}

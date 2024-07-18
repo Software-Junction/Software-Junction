@@ -47,7 +47,7 @@ const Info = ({ styles }) => {
               business operations.
             </p>
             {/* <div
-              className={`${styles["cha-priceplan-box"]} box bg-light  rounded-4 p-3 mb-4 border`}
+              className={`${styles["priceplan-box"]} box bg-light  rounded-4 p-3 mb-4 border`}
             >
               <h5>Pricing Plans :</h5>
               <p>

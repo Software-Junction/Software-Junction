@@ -146,49 +146,49 @@ const Trending = ({ styles }) => {
             </Col>
             <Col lg={9}>
               {selectedCategory === "accounting" && (
-                <Accounting styles={styles} />
+                <Accounting styles={styles} reffer={selectedCategory} />
               )}
                {selectedCategory === "hr" && (
-                <Hr styles={styles} />
+                <Hr styles={styles} reffer={selectedCategory}/>
               )}
                {selectedCategory === "crm" && (
-                <Crm styles={styles} />
+                <Crm styles={styles} reffer={selectedCategory}/>
               )}
                {selectedCategory === "erp" && (
-                <Erp styles={styles} />
+                <Erp styles={styles} reffer={selectedCategory}/>
               )}
               {selectedCategory === "ecommerce" && (
-                <Ecommerce styles={styles} />
+                <Ecommerce styles={styles} reffer={selectedCategory}/>
               )}
               {selectedCategory === "billing" && (
-                <Billing styles={styles} />
+                <Billing styles={styles} reffer={selectedCategory}/>
               )}
               {selectedCategory === "event" && (
-                <Event styles={styles} />
+                <Event styles={styles} reffer={selectedCategory}/>
               )}
               {selectedCategory === "project" && (
-                <Project styles={styles} />
+                <Project styles={styles} reffer={selectedCategory}/>
               )}
               {selectedCategory === "hotel" && (
-                <Hotel styles={styles} />
+                <Hotel styles={styles} reffer={selectedCategory}/>
               )}
               {selectedCategory === "call" && (
-                <Call styles={styles} />
+                <Call styles={styles} reffer={selectedCategory}/>
               )}
               {selectedCategory === "property" && (
-                <Property styles={styles} />
+                <Property styles={styles} reffer={selectedCategory}/>
               )}
               {selectedCategory === "hospital" && (
-                <Hospital styles={styles} />
+                <Hospital styles={styles} reffer={selectedCategory}/>
               )}
               {selectedCategory === "inventory" && (
-                <Inventory styles={styles} />
+                <Inventory styles={styles} reffer={selectedCategory}/>
               )}
               {selectedCategory === "app" && (
-                <App styles={styles} />
+                <App styles={styles} reffer={selectedCategory}/>
               )}
               {selectedCategory === "retailing" && (
-                <Retailing styles={styles} />
+                <Retailing styles={styles} reffer={selectedCategory}/>
               )}
             </Col>
           </Row>

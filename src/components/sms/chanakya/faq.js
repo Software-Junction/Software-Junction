@@ -11,7 +11,7 @@ const Faq = ({ styles }) => {
           </Col>
           <Col lg={6}>
             <div
-              className={`${styles["cha-faq-box"]} box bg-light  rounded-4 p-4 mt-3`}
+              className={`${styles["faq-box"]} box bg-light  rounded-4 p-4 mt-3`}
             >
               <h5>
                 What are the top 5 features for Chanakya ERP  ?

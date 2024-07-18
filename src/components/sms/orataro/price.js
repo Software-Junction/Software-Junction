@@ -54,7 +54,7 @@ const Price = () => {
                         
                     </ul>
                     <div className='text-center'>
-                    <Button variant='primary' size='sm' className={styles['price-btn']}>Free Trail</Button>
+                    <Button variant='primary' size='sm' className={styles['price-btn']} onClick={handleShowDemo}>Free Trail</Button>
                     </div>
                 </div>
             </Col>
@@ -72,7 +72,7 @@ const Price = () => {
                         
                     </ul>
                     <div className='text-center'>
-                    <Button variant='primary' size='sm' className={styles['price-btn1']}>Free Trail</Button>
+                    <Button variant='primary' size='sm' className={styles['price-btn1']} onClick={handleShowDemo}>Free Trail</Button>
                     </div>
                 </div>
             </Col>
