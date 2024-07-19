@@ -370,10 +370,16 @@ const List = ({ styles }) => {
   const [showPrice, setShowPrice] = useState(false);
 
   const handleCloseDemo = () => setShowDemo(false);
-  const handleShowDemo = (name) => {setShowDemo(true); setRefrence(name);}
+  const handleShowDemo = (name) => {
+    setShowDemo(true);
+    setRefrence(name);
+  };
 
   const handleClosePrice = () => setShowPrice(false);
-  const handleShowPrice = (name) => {setShowPrice(true); setRefrence(name);}
+  const handleShowPrice = (name) => {
+    setShowPrice(true);
+    setRefrence(name);
+  };
   return (
     <>
       <section className={`${styles["list"]} mt-5 `}>
@@ -451,8 +457,16 @@ const List = ({ styles }) => {
                   </div>
                 ))}
 
-              <Pricemodal reffer={refrence} show={showPrice} handleClose={handleClosePrice} />
-              <Demo reffer={refrence} show={showDemo} handleClose={handleCloseDemo} />
+              <Pricemodal
+                reffer={refrence}
+                show={showPrice}
+                handleClose={handleClosePrice}
+              />
+              <Demo
+                reffer={refrence}
+                show={showDemo}
+                handleClose={handleCloseDemo}
+              />
             </Col>
 
             <Col lg={4}>

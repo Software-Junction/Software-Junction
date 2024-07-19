@@ -21,9 +21,13 @@ const NeedHelp = () => {
       "employeeStrength": employee
   }
     // return console.log(body);
+    // console.log("Form value",values);
+    actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
     
     PostAPi('softCategory',body).then((response)=>console.log(response))
-    // console.log("Form value",values);
+    
   };
 
   return (

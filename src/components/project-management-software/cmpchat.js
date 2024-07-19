@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState,useRef } from "react";
 import { Container, Row, Col, Table, Modal, Button, Form } from "react-bootstrap";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa";
@@ -101,81 +101,81 @@ const Cmpchat = () => {
 
   //edumaat features and usp
   const handleCloseF2 = () => setShowF2(false);
-  const handleShowF2 = () => setShowF2(true);
+  const handleShowF2 = (e) => {CommonTableHead(e);setShowF2(true)};
   const handleCloseUsp2 = () => setShowUsp2(false);
-  const handleShowUsp2 = () => setShowUsp2(true);
+  const handleShowUsp2 = (e) => {CommonTableHead(e);setShowUsp2(true)};
   const handleClosePrice2 = () => setShowPrice2(false);
   const handleShowPrice2 = () => setShowPrice2(true);
 
   //schoolcanvas features and usp
   const handleCloseF1 = () => setShow1(false);
-  const handleShowF1 = () => setShow1(true);
+  const handleShowF1 = (e) => {CommonTableHead(e);setShow1(true)};
   const handleCloseUsp1 = () => setShowUsp1(false);
-  const handleShowUsp1 = () => setShowUsp1(true);
+  const handleShowUsp1 = (e) => {CommonTableHead(e);setShowUsp1(true)};
   // const handleClosePrice1 = () => setShowPrice1(false);
   // const handleShowPrice1 = () => setShowPrice1(true);
 
   //digital features and usp
   const handleCloseF3 = () => setShowF3(false);
-  const handleShowF3 = () => setShowF3(true);
+  const handleShowF3 = (e) => {CommonTableHead(e);setShowF3(true)};
   const handleCloseUsp3 = () => setShowUsp3(false);
-  const handleShowUsp3 = () => setShowUsp3(true);
+  const handleShowUsp3 = (e) => {CommonTableHead(e);setShowUsp3(true)};
   const handleClosePrice3 = () => setShowPrice3(false);
   const handleShowPrice3 = () => setShowPrice3(true);
 
   //chanakya features and usp
   const handleCloseF4 = () => setShowF4(false);
-  const handleShowF4 = () => setShowF4(true);
+  const handleShowF4 = (e) => {CommonTableHead(e);setShowF4(true)};
   const handleCloseUsp4 = () => setShowUsp4(false);
-  const handleShowUsp4 = () => setShowUsp4(true);
+  const handleShowUsp4 = (e) => {CommonTableHead(e);setShowUsp4(true)};
   const handleClosePrice4 = () => setShowPrice4(false);
   const handleShowPrice4 = () => setShowPrice4(true);
 
   //matrix features and usp
   const handleCloseF5 = () => setShowF5(false);
-  const handleShowF5 = () => setShowF5(true);
+  const handleShowF5 = (e) => {CommonTableHead(e);setShowF5(true)};
   const handleCloseUsp5 = () => setShowUsp5(false);
-  const handleShowUsp5 = () => setShowUsp5(true);
+  const handleShowUsp5 = (e) => {CommonTableHead(e);setShowUsp5(true)};
   const handleClosePrice5 = () => setShowPrice5(false);
   const handleShowPrice5 = () => setShowPrice5(true);
 
   //camp features and usp
   const handleCloseF6 = () => setShowF6(false);
-  const handleShowF6 = () => setShowF6(true);
+  const handleShowF6 = (e) => {CommonTableHead(e);setShowF6(true)};
   const handleCloseUsp6 = () => setShowUsp6(false);
-  const handleShowUsp6 = () => setShowUsp6(true);
+  const handleShowUsp6 = (e) => {CommonTableHead(e);setShowUsp6(true)};
   // const handleClosePrice6 = () => setShowPrice6(false);
   // const handleShowPrice6 = () => setShowPrice6(true);
 
   //fedena features and usp
   const handleCloseF7 = () => setShowF7(false);
-  const handleShowF7 = () => setShowF7(true);
+  const handleShowF7 = (e) => {CommonTableHead(e);setShowF7(true)};
   const handleCloseUsp7 = () => setShowUsp7(false);
-  const handleShowUsp7 = () => setShowUsp7(true);
+  const handleShowUsp7 = (e) => {CommonTableHead(e);setShowUsp7(true)};
   // const handleClosePrice7 = () => setShowPrice7(false);
   // const handleShowPrice7 = () => setShowPrice7(true);
 
   //hd features and usp
   const handleCloseF8 = () => setShowF8(false);
-  const handleShowF8 = () => setShowF8(true);
+  const handleShowF8 = (e) => {CommonTableHead(e);setShowF8(true)};
   const handleCloseUsp8 = () => setShowUsp8(false);
-  const handleShowUsp8 = () => setShowUsp8(true);
+  const handleShowUsp8 = (e) => {CommonTableHead(e);setShowUsp8(true)};
   // const handleClosePrice8 = () => setShowPrice8(false);
   // const handleShowPrice8 = () => setShowPrice8(true);
 
   //knot features and usp
   const handleCloseF9 = () => setShowF9(false);
-  const handleShowF9 = () => setShowF9(true);
+  const handleShowF9 = (e) => {CommonTableHead(e);setShowF9(true)};
   const handleCloseUsp9 = () => setShowUsp9(false);
-  const handleShowUsp9 = () => setShowUsp9(true);
+  const handleShowUsp9 = (e) => {CommonTableHead(e);setShowUsp9(true)};
   const handleClosePrice9 = () => setShowPrice9(false);
   const handleShowPrice9 = () => setShowPrice9(true);
 
   //academia features and usp
   const handleCloseF10 = () => setShowF10(false);
-  const handleShowF10 = () => setShowF10(true);
+  const handleShowF10 = (e) => {CommonTableHead(e);setShowF10(true)};
   const handleCloseUsp10 = () => setShowUsp10(false);
-  const handleShowUsp10 = () => setShowUsp10(true);
+  const handleShowUsp10 = (e) => {CommonTableHead(e);setShowUsp10(true)};
   const handleClosePrice10 = () => setShowPrice10(false);
   const handleShowPrice10 = () => setShowPrice10(true);
 
@@ -204,6 +204,26 @@ const Cmpchat = () => {
     const [showSoftware, setShowSoftware] = useState(false);
 
     const handleCloseSoftware = () => setShowSoftware(false);
+
+    const tableRef = useRef(null);
+
+    const CommonTableHead = (event) => {
+      const button = event.target;
+      const td = button.closest("td");
+      const tr = td.parentNode;
+      const table = tableRef.current;
+      const thIndex = Array.from(tr.children).indexOf(td);
+  
+      if (table) {
+        const th = table.querySelectorAll("th")[thIndex];
+        if (th) {
+          // console.log(th.textContent);
+          setRefrence(th.textContent);
+        }
+      } 
+    };
+
+    const [refrence, setRefrence] = useState("");
 
     const handleShowSoftware = () => {
       setShowSoftware(true);
@@ -1377,7 +1397,7 @@ const Cmpchat = () => {
                       
                
 
- 		<Tablefreedemo show={showSoftware} handleClose={handleCloseSoftware}/>
+ 		<Tablefreedemo show={showSoftware} reffer={refrence} handleClose={handleCloseSoftware}/>
 
             </Col>
           </Row>

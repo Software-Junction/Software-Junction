@@ -22,7 +22,10 @@ const Pricemodal = ({reffer, show, handleClose}) => {
       "employeeStrength": employee
     }
     // return console.log(body);
-    
+    actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
+      
     PostAPi('softpricing',body).then((response)=>console.log(response))
     // console.log("Form value",values);
   };

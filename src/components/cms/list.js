@@ -310,6 +310,8 @@ const List = ({ styles }) => {
     }
   };
 
+  const [refrence, setRefrence] = useState("");
+
   const [isDatePickerFocused, setDatePickerFocused] = useState(false);
 
   const [showDemo, setShowDemo] = useState(false);
@@ -317,10 +319,16 @@ const List = ({ styles }) => {
   const [showPrice, setShowPrice] = useState(false);
 
   const handleCloseDemo = () => setShowDemo(false);
-  const handleShowDemo = () => setShowDemo(true);
+  const handleShowDemo = (name) => {
+    setShowDemo(true);
+    setRefrence(name);
+  };
 
   const handleClosePrice = () => setShowPrice(false);
-  const handleShowPrice = () => setShowPrice(true);
+  const handleShowPrice = (name) => {
+    setShowPrice(true);
+    setRefrence(name);
+  };
   return (
     <>
       <section className={`${styles["list"]} mt-5 `}>
@@ -381,7 +389,7 @@ const List = ({ styles }) => {
                         <Button
                           size="sm"
                           variant="primary"
-                          onClick={() => handleShowDemo(product.url)}
+                          onClick={() => handleShowDemo(product.name)}
                         >
                           Get Free Demo
                         </Button>
@@ -389,7 +397,7 @@ const List = ({ styles }) => {
                           size="sm"
                           variant="warning"
                           className="mx-3"
-                          onClick={() => handleShowPrice(product.url)}
+                          onClick={() => handleShowPrice(product.name)}
                         >
                           Get Pricing
                         </Button>
@@ -398,8 +406,16 @@ const List = ({ styles }) => {
                   </div>
                 ))}
 
-              <Pricemodal show={showPrice} handleClose={handleClosePrice} />
-              <Demo show={showDemo} handleClose={handleCloseDemo} />
+              <Pricemodal
+                reffer={refrence}
+                show={showPrice}
+                handleClose={handleClosePrice}
+              />
+              <Demo
+                reffer={refrence}
+                show={showDemo}
+                handleClose={handleCloseDemo}
+              />
             </Col>
 
             <Col lg={4}>

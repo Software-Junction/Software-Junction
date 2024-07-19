@@ -10,7 +10,7 @@ import ChartDataLabels from "chartjs-plugin-datalabels";
 ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 import Trendingfreedemo from "../../common/trending-free-demo";
 
-const ecommercecont = ({ styles }) => {
+const ecommercecont = ({reffer, styles }) => {
   const handleFormSubmit = async (values, actions) => {
     try {
       await axios.post(
@@ -197,6 +197,7 @@ const ecommercecont = ({ styles }) => {
             options={options}
             handleFormSubmit={handleFormSubmit}
             styles={styles}
+            reffer={reffer}
           />
           {/* <Col lg={3} className={`${styles["col-mob"]} mb-3`}>
             <div className="box border shadow rounded-3 p-4 text-center bg-light">

@@ -33,6 +33,8 @@ const List = ({ styles }) => {
     }
   };
 
+  const [refrence, setRefrence] = useState("");
+
   const [isDatePickerFocused, setDatePickerFocused] = useState(false);
 
   const [showDemo, setShowDemo] = useState(false);
@@ -40,10 +42,10 @@ const List = ({ styles }) => {
   const [showPrice, setShowPrice] = useState(false);
 
   const handleCloseDemo = () => setShowDemo(false);
-  const handleShowDemo = () => setShowDemo(true);
+  const handleShowDemo = (name) => {setShowDemo(true); setRefrence(name);}
 
   const handleClosePrice = () => setShowPrice(false);
-  const handleShowPrice = () => setShowPrice(true);
+  const handleShowPrice = (name) => {setShowPrice(true); setRefrence(name);}
   return (
     <>
       <section className={`${styles["list"]} mt-5 `}>

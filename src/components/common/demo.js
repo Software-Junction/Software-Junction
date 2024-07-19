@@ -23,7 +23,10 @@ const Demo = ({reffer, show, handleClose}) => {
     
     }
     // return console.log(body);
-    
+    actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
+      
     PostAPi('freeDemo',body).then((response)=>console.log(response))
     // console.log("Form value",values);
   };

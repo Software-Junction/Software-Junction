@@ -23,7 +23,10 @@ const Stillconfusedform = ({ show, handleClose }) => {
       "challenges": message
     }
     // return console.log(body);
-    
+    actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
+      
     PostAPi('campare',body).then((response)=>console.log(response))
     // console.log("Form value",values);
   };

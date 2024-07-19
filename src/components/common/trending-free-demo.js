@@ -37,9 +37,12 @@ const Trendingfreedemo = ({reffer, show, handleClose, selectedCard, options, han
   "employeeStrength":employee,
         }
         // return console.log(body);
-        
-        PostAPi('trendingDemo',body).then((response)=>console.log(response))
+        actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
         // console.log("Form value",values);
+
+        PostAPi('trendingDemo',body).then((response)=>console.log(response))
       };
 
   return (
