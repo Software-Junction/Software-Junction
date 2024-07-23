@@ -85,11 +85,15 @@ const Index = () => {
               </div>
               <h3>Best Inventory Management Software</h3>
               <p className="my-3">
-                Best inventory management software includes Zoho Inventory,
-                Cin7, myBillBook, inFlow and Oracle fusion cloud inventory
-                management. Such inventory and stock management software
-                streamlines tracking, reduces errors, saves time, and optimizes
-                stock levels, enhancing business efficiency and profitability.
+                Discover the best inventory management software of 2024,
+                reviewed for features, user satisfaction, and performance. This
+                guide provides comprehensive insights into top solutions for
+                tracking inventory, optimizing stock levels, and streamlining
+                operations. Our expert analysis and comparison metrics help you
+                select the ideal software for enhancing efficiency and reducing
+                costs. Stay ahead with the most advanced and reliable inventory
+                management tools available. Explore now to find the perfect
+                solution for your business&#39;s inventory needs.
               </p>
             </Col>
           </Row>
@@ -99,12 +103,12 @@ const Index = () => {
         <Container>
           <Row>
             <Col lg={12}>
-              <h3>Top 10 Campus Management Software</h3>
+              <h3>Top 10 Inventory Management Software</h3>
               <p>
-                Explore the top 10 Campus Management Software solutions offering
-                comprehensive automation, tailored customization, and global
-                accessibility. Compare features, ratings, USP'S and pricing
-                plans to find the perfect fit for your buisness needs.
+                Explore the top 10 Inventory Management Software solutions
+                offering comprehensive automation, tailored customization, and
+                global accessibility. Compare features, ratings, USP'S and
+                pricing plans to find the perfect fit for your buisness needs.
               </p>
             </Col>
           </Row>

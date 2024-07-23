@@ -85,10 +85,15 @@ const Index = () => {
               </div>
               <h3>Best Project Management Software</h3>
               <p className="my-3">
-                Best project management software are Trello, Asana, Zoho
-                Projects, Jira, and Basecamp. Such project management tools help
-                the project manager organize and manage the team's work and
-                track the project to finish it on time.
+                Discover the best project management software of 2024, reviewed
+                for features, user satisfaction, and performance. This guide
+                offers comprehensive insights into top solutions for planning,
+                collaboration, and task tracking. Our expert analysis and
+                comparison metrics help you select the ideal software to enhance
+                productivity and streamline workflows. Stay ahead with the most
+                advanced and reliable project management tools available.
+                Explore now to find the perfect solution for managing your
+                projects efficiently and effectively.
               </p>
             </Col>
           </Row>
@@ -98,12 +103,12 @@ const Index = () => {
         <Container>
           <Row>
             <Col lg={12}>
-              <h3>Top 10 Campus Management Software</h3>
+              <h3>Top 10 Project Management Software</h3>
               <p>
-                Explore the top 10 Campus Management Software solutions offering
-                comprehensive automation, tailored customization, and global
-                accessibility. Compare features, ratings, USP'S and pricing
-                plans to find the perfect fit for your buisness needs.
+                Explore the top 10 Project Management Software solutions
+                offering comprehensive automation, tailored customization, and
+                global accessibility. Compare features, ratings, USP'S and
+                pricing plans to find the perfect fit for your buisness needs.
               </p>
             </Col>
           </Row>

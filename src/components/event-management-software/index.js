@@ -85,10 +85,15 @@ const Index = () => {
               </div>
               <h3>Best Event Management Software</h3>
               <p className="my-3">
-                Best event management software applications in the industry are
-                ConfTool, Boomset, Slack, Trello, and Wix. These tools are
-                helpful in managing the entire event successfully. These tools
-                ensure proper planning, execution, and management.
+                Discover the best event management software of 2024, reviewed
+                for features, user satisfaction, and performance. This guide
+                provides comprehensive insights into top solutions for
+                organizing, planning, and executing events seamlessly. Our
+                expert analysis and comparison metrics help you select the ideal
+                software for managing registrations, schedules, and attendee
+                engagement. Stay ahead with the most advanced and reliable event
+                management software available. Explore now to streamline your
+                event planning process and deliver memorable experiences.
               </p>
             </Col>
           </Row>
@@ -98,9 +103,9 @@ const Index = () => {
         <Container>
           <Row>
             <Col lg={12}>
-              <h3>Top 10 Campus Management Software</h3>
+              <h3>Top 10 Event Management Software</h3>
               <p>
-                Explore the top 10 Campus Management Software solutions offering
+                Explore the top 10 Event Management Software solutions offering
                 comprehensive automation, tailored customization, and global
                 accessibility. Compare features, ratings, USP'S and pricing
                 plans to find the perfect fit for your buisness needs.

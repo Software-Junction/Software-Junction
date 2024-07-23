@@ -85,9 +85,16 @@ const Index = () => {
               </div>
               <h3>Best Hospital Management Software</h3>
               <p className="my-3">
-                List of top Hospital Management Software options like MediXcel
-                EMR and HIS, AHMS, Halemind, Caresoft, and GeniPluse, designed
-                to automate and streamline hospital management processes.
+                Discover the best hospital management software of 2024, reviewed
+                for features, user satisfaction, and performance. This guide
+                provides comprehensive insights into top solutions for
+                streamlining patient care, administrative tasks, and hospital
+                operations. Our expert analysis and comparison metrics help you
+                select the ideal software for enhancing efficiency and improving
+                healthcare outcomes. Stay ahead with the most advanced and
+                reliable hospital management tools available. Explore now to
+                find the perfect solution for managing your hospital
+                effectively.
               </p>
             </Col>
           </Row>
@@ -97,12 +104,12 @@ const Index = () => {
         <Container>
           <Row>
             <Col lg={12}>
-              <h3>Top 10 Campus Management Software</h3>
+              <h3>Top 10 Hospital Management Software</h3>
               <p>
-                Explore the top 10 Campus Management Software solutions offering
-                comprehensive automation, tailored customization, and global
-                accessibility. Compare features, ratings, USP'S and pricing
-                plans to find the perfect fit for your buisness needs.
+                Explore the top 10 Hospital Management Software solutions
+                offering comprehensive automation, tailored customization, and
+                global accessibility. Compare features, ratings, USP'S and
+                pricing plans to find the perfect fit for your buisness needs.
               </p>
             </Col>
           </Row>

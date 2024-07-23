@@ -85,10 +85,16 @@ const Index = () => {
               </div>
               <h3>Best Property Management Software</h3>
               <p className="my-3">
-                Best property management software includes Buildium, Yardi
-                Breeze, nTireFM, Entrata, and AppFolio. This Property management
-                system allows businesses to manage their real estate properties,
-                including rental properties, hotels, and commercial buildings.
+                Discover the best property management software of 2024, reviewed
+                for features, user satisfaction, and performance. This guide
+                offers comprehensive insights into top solutions for
+                streamlining property operations, tenant management, and
+                maintenance tasks. Our expert analysis and comparison metrics
+                help you select the ideal software for enhancing efficiency and
+                maximizing ROI. Stay ahead with the most advanced and reliable
+                property management tools available. Explore now to find the
+                perfect solution for managing your properties seamlessly and
+                effectively.
               </p>
             </Col>
           </Row>
@@ -98,12 +104,12 @@ const Index = () => {
         <Container>
           <Row>
             <Col lg={12}>
-              <h3>Top 10 Campus Management Software</h3>
+              <h3>Top 10 Property Management Software</h3>
               <p>
-                Explore the top 10 Campus Management Software solutions offering
-                comprehensive automation, tailored customization, and global
-                accessibility. Compare features, ratings, USP'S and pricing
-                plans to find the perfect fit for your buisness needs.
+                Explore the top 10 Property Management Software solutions
+                offering comprehensive automation, tailored customization, and
+                global accessibility. Compare features, ratings, USP'S and
+                pricing plans to find the perfect fit for your buisness needs.
               </p>
             </Col>
           </Row>
