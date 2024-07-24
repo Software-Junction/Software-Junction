@@ -44,6 +44,9 @@ const Listed = ({ styles }) => {
       "companyName": companyname,
       "websiteLink": website
     }
+    actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
     PostAPi('softwareListed',body).then((response)=>console.log(response))
    
   };

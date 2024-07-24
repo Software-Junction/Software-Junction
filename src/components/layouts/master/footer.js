@@ -9,68 +9,19 @@ import styles from "./footer.module.scss";
 
 
 const Footer = () => {
-
+const list = [
+  { name: "Campus Management Software", pageLink: "/cms" },
+  { name: "School Management Software", pageLink: "/sms" },
+  { name: "Library Management Software", pageLink: "/lms" },
+  { name: "Medical Store Software", pageLink: "/medical-store" }
+];
 
   return (
     <>
       <section className="foot bg-light bg-border-btm bg-border-top pb-1" id={styles["footer"]}>
         <Container fluid className={styles['footer-content']}>
           <Row className={`${styles['foot-mob']} pt-5 ms-5`}>
-            <Col lg={3}>
-            <div className={styles['footer-links']}>
-              <ul>
-                <li><h6 className={styles['f-title']}>For Vendors :</h6></li>
-                <li>
-                  <Link href=''>Register Your software</Link>
-                </li>
-                <li>
-                  <Link href=''>Vendor Login</Link>
-                </li>
-                <li className={styles['li-btn']}>
-                  <Link href=''>Pricing</Link>
-                </li>
-                <li className={styles['li-btn1']}>
-                  <Link href=''>Price Estimator</Link>
-                </li>
-                <li className={styles['li-btn2']}>
-                  <Link href=''>Brand Building Service</Link>
-                </li>
-                <li>
-                  <Link href=''>Write a Review</Link>
-                </li>
-                <li>
-                  <Link href=''>Sucess Stories</Link>
-                </li>
-              </ul>
-            </div>
-            </Col>
-
-            <Col lg={3}>
-            <div className={styles['footer-links']}>
-              <ul>
-                <li><h6 className={styles['f-title']}>For Buyers :</h6></li>
-                <li>
-                  <Link href=''>All Categories</Link>
-                </li>
-                <li>
-                  <Link href=''>Resources</Link>
-                </li>
-                <li>
-                  <Link href=''>Blog</Link>
-                </li>
-                <li>
-                  <Link href=''>Free EBooks</Link>
-                </li>
-                <li>
-                  <Link href=''>User Sign Up/Sign In</Link>
-                </li>
-                <li>
-                  <Link href=''>Write For Us</Link>
-                </li>
-              </ul>
-            </div>
-            </Col>
-
+            
             <Col lg={3}>
             <div className={styles['footer-links']}>
               <ul>
@@ -79,21 +30,28 @@ const Footer = () => {
                   <Link href=''>About Us</Link>
                 </li>
                 <li>
-                  <Link href=''>Terms Of use</Link>
+                  <Link href='/terms-of-service'>Terms Of Service</Link>
                 </li>
                 <li>
-                  <Link href=''>Privacy Policy</Link>
-                </li>
-                <li>
-                  <Link href=''>Careers</Link>
-                </li>
-                <li>
-                  <Link href=''>Select your Country :</Link>
+                  <Link href='/privacy-policy'>Privacy Policy</Link>
                 </li>
               </ul>
             </div>
             </Col>
 
+            <Col lg={3}>
+            <div className={styles['footer-links']}>
+              <ul>
+                <li><h6 className={styles['f-title']}>Trending Softwares</h6></li>
+                {list.map((list, index) => (
+                  <li key={index}>
+                  <Link href={list.pageLink}>{list.name}</Link>
+                  </li>
+                ))}
+                
+              </ul>
+            </div>
+            </Col>
             <Col lg={3}>
             <h6 className={styles['f-title']}>Get In Touch With Us :</h6>
             <div>
