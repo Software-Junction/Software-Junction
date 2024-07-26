@@ -7,7 +7,7 @@ import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 import { Container, Row, Col,Form, Button } from "react-bootstrap";
-import PostAPi from "../common/common";
+import {PostAPi} from "../common/common";
 
 //   var $ = require("jquery");
 // if (typeof window !== "undefined") {
@@ -35,7 +35,7 @@ const Listed = ({ styles }) => {
   //       },
   //     },
   //   };
-  const handleFormSubmit = async (values) => {
+  const handleFormSubmit = async (values,actions) => {
     const {username,email,number,companyname,website} = values
     const body ={
       "fullName": username,

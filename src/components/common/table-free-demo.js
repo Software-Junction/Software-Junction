@@ -4,7 +4,7 @@ import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 import { useRouter } from "next/router";
-import PostAPi from "../common/common";
+import {PostAPi} from "../common/common";
 
 const Tablefreedemo = ({ reffer,show, handleClose}) => {
   const params = useRouter()

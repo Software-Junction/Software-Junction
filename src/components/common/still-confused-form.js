@@ -4,7 +4,7 @@ import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 import { useRouter } from "next/router";
-import PostAPi from "../common/common";
+import {PostAPi} from "../common/common";
 import softwareData from "../home/software-data";
 
 const Stillconfusedform = ({ show, handleClose }) => {

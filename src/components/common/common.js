@@ -18,4 +18,19 @@ const PostAPi = async (url,body)=>{
       .then((result) => console.log(result))
       .catch((error) => console.error(error));
 }
-export default PostAPi;
+
+const GetApi = async (url)=>{
+  const myHeaders = new Headers();
+  myHeaders.append("Content-Type", "application/json");
+    
+  const requestOptions = {
+    method: "GET",
+    headers: myHeaders,
+  };
+  
+  fetch(`http://localhost:5000/api/${url}`, requestOptions)
+    .then((response) => response.json())
+    .then((result) => console.log(result))
+    .catch((error) => console.error(error));
+}
+export default {PostAPi,GetApi};

@@ -4,7 +4,7 @@ import { Formik, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { Pie } from 'react-chartjs-2';
 import { useRouter } from "next/router";
-import PostAPi from "../common/common";
+import {PostAPi} from "../common/common";
 
 const Trendingfreedemo = ({reffer, show, handleClose, selectedCard, options, handleFormSubmit, styles }) => {
 

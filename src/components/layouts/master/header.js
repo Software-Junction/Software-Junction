@@ -19,7 +19,7 @@ import axios from "axios";
 import { isMobile } from "react-device-detect";
 import softwareData from "../../home/software-data";
 import { useRouter } from "next/router";
-import PostAPi from "../../common/common";
+import {PostAPi} from "../../common/common";
 import styles from "./header.module.scss";
 
 const Header = () => {
