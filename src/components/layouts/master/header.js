@@ -48,7 +48,7 @@ const Header = () => {
       actions.setSubmitting(false);
       alert("Form submitted successfully.");
     PostAPi('UserRegister',body).then((response)=>console.log(response))
-    console.log("Form value",values);
+    // console.log("Form value",values);
   };
 
   const [showCall, setShowCall] = useState(false);

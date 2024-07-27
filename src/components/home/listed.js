@@ -36,13 +36,14 @@ const Listed = ({ styles }) => {
   //     },
   //   };
   const handleFormSubmit = async (values,actions) => {
-    const {username,email,number,companyname,website} = values
+    const {username,email,number,companyname,website,employee} = values
     const body ={
       "fullName": username,
       "phoneNo": number,
       "email": email,
       "companyName": companyname,
-      "websiteLink": website
+      "websiteLink": website,
+      "employeeStrength": employee
     }
     actions.resetForm();
       actions.setSubmitting(false);
@@ -162,11 +163,11 @@ const Listed = ({ styles }) => {
                           <option value="" disabled selected>
                             Employee Strength :
                           </option>
-                          <option value="option1">Under 20</option>
-                          <option value="option2">20- 150</option>
-                          <option value="option3">150- 500</option>
-                          <option value="option4">500 - 1000</option>
-                          <option value="option5">Over 1000</option>
+                          <option value="Under 20">Under 20</option>
+                          <option value="20- 150">20- 150</option>
+                          <option value="150- 500">150- 500</option>
+                          <option value="500 - 1000">500 - 1000</option>
+                          <option value="Over 1000">Over 1000</option>
                         </Field>
                         <ErrorMessage
                           name="employee"

@@ -33,4 +33,4 @@ const GetApi = async (url)=>{
     .then((result) => console.log(result))
     .catch((error) => console.error(error));
 }
-export default {PostAPi,GetApi};
+export  {PostAPi,GetApi};
