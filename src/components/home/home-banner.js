@@ -10,20 +10,28 @@ import {
     Form,
     InputGroup,
   } from "react-bootstrap";
-import softwareData from "./software-data";
+import pagesData from './cat-pages-json';
 
 const HomeBanners = ({styles}) => {
 
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
-  const handleSearch = (query) => {
-    setSearchQuery(query);
-    const results = softwareData.filter((software) =>
-      software.name.toLowerCase().includes(query.toLowerCase())
-    );
-    setSearchResults(results);
+  // const handleSearch = (query) => {
+  //   setSearchQuery(query);
+  //   const results = pagesData.filter((software) =>
+  //     software.name.toLowerCase().startsWith(query.toLowerCase())
+  //   );
+  //   setSearchResults(results);
+  // };
+
+  const handleSearch = (e) => {
+    setSearchQuery(e.target.value);
   };
+
+  const filteredData = pagesData.filter((software) =>
+    software.name.toLowerCase().startsWith(searchQuery.toLowerCase())
+  );
 
   const handleSoftwareClick = (pageLink) => {
     window.location.href = pageLink;
@@ -47,7 +55,7 @@ const HomeBanners = ({styles}) => {
               aria-describedby="basic-addon2"
               className="py-2"
               value={searchQuery}
-                onChange={(e) => handleSearch(e.target.value)}
+                onChange={handleSearch}
             />
             <Button variant="outline-secondary" id="button-addon2">
               <Image
@@ -59,9 +67,9 @@ const HomeBanners = ({styles}) => {
             </Button>
           </InputGroup>
           {searchQuery && (
-              <div className="box shadow p-4 rounded-3">
-                {searchResults.length > 0 ? (
-                  searchResults.map((software) => (
+              <div className={`${styles['search-box']} box shadow p-4 rounded-3`}>
+                {filteredData.length > 0 ? (
+                  filteredData.map((software) => (
                     <div key={software.name} onClick={() => handleSoftwareClick(software.pageLink)} className={`${styles['search-txt-clr']} mb-3`}>
                       {software.name}
                     </div>

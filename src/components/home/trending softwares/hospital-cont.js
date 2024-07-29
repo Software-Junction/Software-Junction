@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+import Link from "next/link";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -33,6 +34,7 @@ const hospitalcont = ({reffer, styles }) => {
       imageSrc: "/images/ehospital.jpg",
       imageAlt: "ehospital",
       headingText: "e-Hospital",
+      url: "/ehospital",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -40,6 +42,7 @@ const hospitalcont = ({reffer, styles }) => {
       imageSrc: "/images/mocdoc.png",
       imageAlt: "mocdoc",
       headingText: "MocDoc",
+      url: "/mocdoc",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -47,6 +50,7 @@ const hospitalcont = ({reffer, styles }) => {
       imageSrc: "/images/vyaparhotel.png",
       imageAlt: "vyaparhotel",
       headingText: "Vyapar Hospital Billing Software",
+      url: "/vyapar-hospital-billing-software",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -54,6 +58,7 @@ const hospitalcont = ({reffer, styles }) => {
       imageSrc: "/images/caresoft.png",
       imageAlt: "caresoft",
       headingText: "Caresoft",
+      url: "/caresoft",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -61,6 +66,7 @@ const hospitalcont = ({reffer, styles }) => {
       imageSrc: "/images/vyaparlogo.png",
       imageAlt: "vyaparlogo",
       headingText: "Vyapar",
+      url: "/vyapar",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -68,6 +74,7 @@ const hospitalcont = ({reffer, styles }) => {
       imageSrc: "/images/oracle-healthcare.png",
       imageAlt: "oracle-healthcare",
       headingText: "Oracle Healthcare Cloud",
+      url: "/oracle-healthcare-cloud",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -75,6 +82,7 @@ const hospitalcont = ({reffer, styles }) => {
       imageSrc: "/images/karexpert.png",
       imageAlt: "karexpert",
       headingText: "KareXpert's",
+      url: "/karexpert",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -82,6 +90,7 @@ const hospitalcont = ({reffer, styles }) => {
       imageSrc: "/images/hale.png",
       imageAlt: "hale",
       headingText: "Halemind",
+      url: "/halemind",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -89,6 +98,7 @@ const hospitalcont = ({reffer, styles }) => {
       imageSrc: "/images/medisteer.png",
       imageAlt: "medisteer",
       headingText: "MediSteer",
+      url: "/medisteer",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -96,6 +106,7 @@ const hospitalcont = ({reffer, styles }) => {
       imageSrc: "/images/hospilogix.png",
       imageAlt: "hospilogix",
       headingText: "Hospilogix",
+      url: "/hospilogix",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -103,6 +114,7 @@ const hospitalcont = ({reffer, styles }) => {
       imageSrc: "/images/suvarna.png",
       imageAlt: "suvarna",
       headingText: "Suvarna Technosoft's",
+      url: "/suvarna-technosoft-hims",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -110,6 +122,7 @@ const hospitalcont = ({reffer, styles }) => {
       imageSrc: "/images/knowit.png",
       imageAlt: "knowit",
       headingText: "KnowIT HMS",
+      url: "/knowit-hms",
       pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
@@ -169,6 +182,7 @@ const hospitalcont = ({reffer, styles }) => {
                   </p>
                 </div>
                 <div className={styles['height']}>
+                  <Link href={data.url}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
@@ -176,7 +190,7 @@ const hospitalcont = ({reffer, styles }) => {
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                
+                </Link>
                 <h5 className="my-3">{data.headingText}</h5>
                 </div>
                 <Button

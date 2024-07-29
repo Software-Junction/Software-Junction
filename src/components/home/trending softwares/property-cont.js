@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+import Link from "next/link";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -33,6 +34,7 @@ const propertycont = ({reffer, styles }) => {
       imageSrc: "/images/stayflexi.png",
       imageAlt: "stayflexi",
       headingText: "Stayflexi",
+      url: "/stayflexi",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -40,6 +42,7 @@ const propertycont = ({reffer, styles }) => {
       imageSrc: "/images/sysotel.png",
       imageAlt: "sysotel",
       headingText: "SYSOTEL.AI",
+      url: "/sysotel",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -47,6 +50,7 @@ const propertycont = ({reffer, styles }) => {
       imageSrc: "/images/buildium.png",
       imageAlt: "buildium",
       headingText: "Buildium",
+      url: "/buildium",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -54,6 +58,7 @@ const propertycont = ({reffer, styles }) => {
       imageSrc: "/images/appfolio-realm.png",
       imageAlt: "appfolio-realm",
       headingText: "AppFolio Realm",
+      url: "/appfolio-realm",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -61,6 +66,7 @@ const propertycont = ({reffer, styles }) => {
       imageSrc: "/images/mri-software.png",
       imageAlt: "mri-software",
       headingText: "MRI Software",
+      url: "/mri-software",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -68,6 +74,7 @@ const propertycont = ({reffer, styles }) => {
       imageSrc: "/images/rent-manager.jpg",
       imageAlt: "rent-manager",
       headingText: "Rent Manager",
+      url: "/rent-manager",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -75,6 +82,7 @@ const propertycont = ({reffer, styles }) => {
       imageSrc: "/images/ssandc.png",
       imageAlt: "ssandc",
       headingText: "SS&C SKYLINE",
+      url: "/ssandc",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -82,6 +90,7 @@ const propertycont = ({reffer, styles }) => {
       imageSrc: "/images/rms-cloud.png",
       imageAlt: "rms-cloud",
       headingText: "RMS Cloud",
+      url: "/rms-cloud",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -89,6 +98,7 @@ const propertycont = ({reffer, styles }) => {
       imageSrc: "/images/yardi.png",
       imageAlt: "yardi",
       headingText: "Yardi",
+      url: "/yardi",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -96,6 +106,7 @@ const propertycont = ({reffer, styles }) => {
       imageSrc: "/images/tenant-cloud.jpg",
       imageAlt: "tenant-cloud",
       headingText: "TenantCloud",
+      url: "/tenant-cloud",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -103,6 +114,7 @@ const propertycont = ({reffer, styles }) => {
       imageSrc: "/images/rentec-direct.png",
       imageAlt: "rentec-direct",
       headingText: "Rentec Direct",
+      url: "/rentec-direct",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -110,6 +122,7 @@ const propertycont = ({reffer, styles }) => {
       imageSrc: "/images/innkey.png",
       imageAlt: "innkey",
       headingText: "InnKey",
+      url: "/innkey",
       pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
@@ -169,6 +182,7 @@ const propertycont = ({reffer, styles }) => {
                   </p>
                 </div>
                 <div className={styles['height']}>
+                  <Link href={data.url}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
@@ -176,7 +190,7 @@ const propertycont = ({reffer, styles }) => {
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                
+                </Link>
                 <h5 className="my-3">{data.headingText}</h5>
                 </div>
                 <Button

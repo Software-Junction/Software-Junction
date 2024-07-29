@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+import Link from "next/link";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -33,6 +34,7 @@ const crmcont = ({reffer, styles }) => {
       imageSrc: "/images/zohocrm.jpg",
       imageAlt: "zohocrm",
       headingText: "Zoho CRM",
+      url: "/zoho-crm",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -40,6 +42,7 @@ const crmcont = ({reffer, styles }) => {
       imageSrc: "/images/nethunt.png",
       imageAlt: "nethunt",
       headingText: "NetHunt CRM",
+      url: "/nethunt",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -47,6 +50,7 @@ const crmcont = ({reffer, styles }) => {
       imageSrc: "/images/freshsales.png",
       imageAlt: "freshsales",
       headingText: "Freshsales",
+      url: "/freshsales",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -54,6 +58,7 @@ const crmcont = ({reffer, styles }) => {
       imageSrc: "/images/salesforce.jpg",
       imageAlt: "salesforce",
       headingText: "Salesforce",
+      url: "/salesforce",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -61,6 +66,7 @@ const crmcont = ({reffer, styles }) => {
       imageSrc: "/images/oraclenet.png",
       imageAlt: "oraclenet",
       headingText: "NetSuite CRM",
+      url: "/netsuite-crm",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -68,6 +74,7 @@ const crmcont = ({reffer, styles }) => {
       imageSrc: "/images/salesflare.png",
       imageAlt: "salesflare",
       headingText: "Salesflare",
+      url: "/salesflare",
       pieData: [10, 10, 10, 10],
     },
 
@@ -76,6 +83,7 @@ const crmcont = ({reffer, styles }) => {
       imageSrc: "/images/kapture.jpg",
       imageAlt: "kapture",
       headingText: "Kapture CRM",
+      url: "/kapture",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -83,6 +91,7 @@ const crmcont = ({reffer, styles }) => {
       imageSrc: "/images/salesmate.jpg",
       imageAlt: "salesmate",
       headingText: "Salesmate",
+      url: "/salesmate",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -90,6 +99,7 @@ const crmcont = ({reffer, styles }) => {
       imageSrc: "/images/engagebay.png",
       imageAlt: "engagebay",
       headingText: "EngageBay",
+      url: "/engagebay",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -97,6 +107,7 @@ const crmcont = ({reffer, styles }) => {
       imageSrc: "/images/tranquil.png",
       imageAlt: "tranquil",
       headingText: "Tranquil CRM",
+      url: "/tranquil",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -104,6 +115,7 @@ const crmcont = ({reffer, styles }) => {
       imageSrc: "/images/vtiger.png",
       imageAlt: "vtiger",
       headingText: "Vtiger CRM",
+      url: "/vtiger",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -111,6 +123,7 @@ const crmcont = ({reffer, styles }) => {
       imageSrc: "/images/leadforce.png",
       imageAlt: "leadforce",
       headingText: "LeadForce",
+      url: "/leadforce",
       pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
@@ -170,6 +183,7 @@ const crmcont = ({reffer, styles }) => {
                   </p>
                 </div>
                 <div className={styles['height']}>
+                <Link href={data.url}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
@@ -177,7 +191,7 @@ const crmcont = ({reffer, styles }) => {
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                
+                </Link>
                 <h5 className="my-3">{data.headingText}</h5>
                 </div>
                 <Button

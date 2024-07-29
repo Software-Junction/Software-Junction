@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+import Link from "next/link";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -33,6 +34,7 @@ const hrcont = ({reffer, styles }) => {
       imageSrc: "/images/hrone.png",
       imageAlt: "hrone",
       headingText: "HROne",
+      url: "/hrone",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -40,6 +42,7 @@ const hrcont = ({reffer, styles }) => {
       imageSrc: "/images/spinehr.png",
       imageAlt: "spinehr",
       headingText: "Spine HRMS",
+      url: "/spine-hrms",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -47,6 +50,7 @@ const hrcont = ({reffer, styles }) => {
       imageSrc: "/images/qandle.png",
       imageAlt: "qandle",
       headingText: "Qandle",
+      url: "/qandle",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -54,6 +58,7 @@ const hrcont = ({reffer, styles }) => {
       imageSrc: "/images/keka.png",
       imageAlt: "keka",
       headingText: "Keka",
+      url: "/keka",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -61,6 +66,7 @@ const hrcont = ({reffer, styles }) => {
       imageSrc: "/images/facto.png",
       imageAlt: "facto",
       headingText: "factoHR",
+      url: "/factohr",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -68,6 +74,7 @@ const hrcont = ({reffer, styles }) => {
       imageSrc: "/images/wallet.png",
       imageAlt: "wallet",
       headingText: "WalletHR",
+      url: "/wallethr",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -75,6 +82,7 @@ const hrcont = ({reffer, styles }) => {
       imageSrc: "/images/oraclehcm.png",
       imageAlt: "oraclehcm",
       headingText: "Oracle Fusion HCM",
+      url: "/oracle-fusion-hcm",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -82,6 +90,7 @@ const hrcont = ({reffer, styles }) => {
       imageSrc: "/images/sbshr.jpg",
       imageAlt: "sbshr",
       headingText: "SBS HR",
+      url: "/sbshr",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -89,6 +98,7 @@ const hrcont = ({reffer, styles }) => {
       imageSrc: "/images/farsight.jpg",
       imageAlt: "farsight",
       headingText: "Farsight",
+      url: "/farsight",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -96,6 +106,7 @@ const hrcont = ({reffer, styles }) => {
       imageSrc: "/images/darwin.jpg",
       imageAlt: "darwin",
       headingText: "Darwinbox",
+      url: "/darwinbox",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -103,6 +114,7 @@ const hrcont = ({reffer, styles }) => {
       imageSrc: "/images/greythr.png",
       imageAlt: "greythr",
       headingText: "greytHR",
+      url: "/greythr",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -110,6 +122,7 @@ const hrcont = ({reffer, styles }) => {
       imageSrc: "/images/pocket.jpg",
       imageAlt: "pocket",
       headingText: "Pocket HRMS",
+      url: "/pocket-hrms",
       pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
@@ -169,6 +182,7 @@ const hrcont = ({reffer, styles }) => {
                   </p>
                 </div>
                 <div className={styles['height']}>
+                <Link href={data.url}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
@@ -176,7 +190,7 @@ const hrcont = ({reffer, styles }) => {
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                
+                  </Link>
                 <h5 className="my-3">{data.headingText}</h5>
                 </div>
                 <Button

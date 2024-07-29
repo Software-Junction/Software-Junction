@@ -1,11 +1,15 @@
 .home-slidebanner {
   margin-top: 40px;
+  .search-box{
+    height: 300px;
+    overflow-y: scroll;
   .search-txt-clr {
     color: #335c67;
     cursor: pointer;
   }
   .search-txt-clr:hover {
     color: #f95738;
+  }
   }
 }
 .industry {

@@ -79,11 +79,11 @@ const Index = () => {
                   </span>
                   &nbsp;
                   <li>
-                    <Link href="">HR Software</Link>
+                    <Link href="">HRMS Software</Link>
                   </li>
                 </ul>
               </div>
-              <h3>Best HR Software</h3>
+              <h3>Best HRMS Software</h3>
               <p className="my-3">
                 Discover the top HRMS software of 2024, evaluated based on user
                 reviews, feature analysis, and market presence. This
@@ -102,9 +102,9 @@ const Index = () => {
         <Container>
           <Row>
             <Col lg={12}>
-            <h3>Top 10 HR Software</h3>
+            <h3>Top 10 HRMS Software</h3>
               <p>
-                Explore the top 10 HR Software solutions offering comprehensive
+                Explore the top 10 HRMS Software solutions offering comprehensive
                 automation, tailored customization, and global accessibility.
                 Compare features, ratings, USP'S and pricing plans to find the
                 perfect fit for your buisness needs.

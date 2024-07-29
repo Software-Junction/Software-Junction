@@ -11,10 +11,19 @@ import styles from "./footer.module.scss";
 const Footer = () => {
 const list = [
   { name: "Campus Management Software", pageLink: "/cms" },
-  { name: "School Management Software", pageLink: "/sms" },
-  { name: "Library Management Software", pageLink: "/lms" },
-  { name: "Medical Store Software", pageLink: "/medical-store" }
+  { name: "Accounting Software", pageLink: "/accounting-software" },
+  { name: "HRMS Software", pageLink: "/hr-software" },
+  { name: "CRM Software", pageLink: "/crm-software" },
+  { name: "Data Analysis Software", pageLink: "/data-analysis-software" },
+  { name: "ERP Software", pageLink: "/erp-software" },
+  { name: "Ecommerce Software", pageLink: "/e-commerce-software" },
+  { name: "Billing and Invoicing Software", pageLink: "/billing-and-invoicing-software" },
+  { name: "Inventory Management Software", pageLink: "/inventory-management-software" },
+  { name: "App Development Software", pageLink: "/app-development-software" },
 ];
+
+const firstHalf = list.slice(0, 5);
+const secondHalf = list.slice(5);
 
   return (
     <>
@@ -43,12 +52,24 @@ const list = [
             <div className={styles['footer-links']}>
               <ul>
                 <li><h6 className={styles['f-title']}>Trending Softwares</h6></li>
-                {list.map((list, index) => (
+                {firstHalf.map((list, index) => (
                   <li key={index}>
                   <Link href={list.pageLink}>{list.name}</Link>
                   </li>
                 ))}
-                
+              </ul>
+            </div>
+            </Col>
+
+            <Col lg={3}>
+            <div className={`${styles['footer-tren']}`}>
+              <ul>
+                {/* <li><h6 className={styles['f-title']}>Trending Softwares</h6></li> */}
+                {secondHalf.map((list, index) => (
+                  <li key={index}>
+                  <Link href={list.pageLink}>{list.name}</Link>
+                  </li>
+                ))}
               </ul>
             </div>
             </Col>

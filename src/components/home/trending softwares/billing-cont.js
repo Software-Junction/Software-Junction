@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+import Link from "next/link";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -33,6 +34,7 @@ const billingcont = ({reffer, styles }) => {
       imageSrc: "/images/go-gst-bill.png",
       imageAlt: "go-gst-bill",
       headingText: "Go GST Bill",
+      url: "/go-gst-bill",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -40,6 +42,7 @@ const billingcont = ({reffer, styles }) => {
       imageSrc: "/images/profitbooks.png",
       imageAlt: "profitbooks",
       headingText: "ProfitBooks",
+      url: "/profit-books",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -47,6 +50,7 @@ const billingcont = ({reffer, styles }) => {
       imageSrc: "/images/zohoinvoices.jpg",
       imageAlt: "zohoinvoices",
       headingText: "Zoho Invoices",
+      url: "/zoho-invoices",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -54,6 +58,7 @@ const billingcont = ({reffer, styles }) => {
       imageSrc: "/images/eretail-cybertech.png",
       imageAlt: "eretail-cybertech",
       headingText: "eRetail Cybertech - pranaPOS",
+      url: "/eretail-cybertech",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -61,6 +66,7 @@ const billingcont = ({reffer, styles }) => {
       imageSrc: "/images/ivepos.jpg",
       imageAlt: "ivepos",
       headingText: "IVEPOS",
+      url: "/ivepos",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -68,6 +74,7 @@ const billingcont = ({reffer, styles }) => {
       imageSrc: "/images/captain-biz.png",
       imageAlt: "captain-biz",
       headingText: "CaptainBiz",
+      url: "/captain-biz",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -75,6 +82,7 @@ const billingcont = ({reffer, styles }) => {
       imageSrc: "/images/vyaparlogo.png",
       imageAlt: "vyaparlogo",
       headingText: "Vyapar",
+      url: "/vyapar",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -82,6 +90,7 @@ const billingcont = ({reffer, styles }) => {
       imageSrc: "/images/oraclenet.png",
       imageAlt: "oraclenet",
       headingText: "Oracle NetSuite ERP",
+      url: "/oracle-netsuite",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -89,6 +98,7 @@ const billingcont = ({reffer, styles }) => {
       imageSrc: "/images/ankpal.png",
       imageAlt: "ankpal",
       headingText: "Ankpal",
+      url: "/ankpal",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -96,6 +106,7 @@ const billingcont = ({reffer, styles }) => {
       imageSrc: "/images/marg.png",
       imageAlt: "marg",
       headingText: "Marg ERP 9+Accounting",
+      url: "/margerp",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -103,6 +114,7 @@ const billingcont = ({reffer, styles }) => {
       imageSrc: "/images/smaket.png",
       imageAlt: "smaket",
       headingText: "Smaket",
+      url: "/smaket",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -110,6 +122,7 @@ const billingcont = ({reffer, styles }) => {
       imageSrc: "/images/genie.jpg",
       imageAlt: "genie",
       headingText: "GenieBooks",
+      url: "/geniebooks",
       pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
@@ -169,6 +182,7 @@ const billingcont = ({reffer, styles }) => {
                   </p>
                 </div>
                 <div className={styles['height']}>
+                <Link href={data.url}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
@@ -176,7 +190,7 @@ const billingcont = ({reffer, styles }) => {
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                
+                </Link>
                 <h5 className="my-3">{data.headingText}</h5>
                 </div>
                 <Button

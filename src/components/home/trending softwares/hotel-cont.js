@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+import Link from "next/link";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -33,6 +34,7 @@ const hotelcont = ({reffer, styles }) => {
       imageSrc: "/images/vyaparhotel.png",
       imageAlt: "vyaparhotel",
       headingText: "Vyapar",
+      url: "/vyapar-hotel",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -40,6 +42,7 @@ const hotelcont = ({reffer, styles }) => {
       imageSrc: "/images/kwhotel.png",
       imageAlt: "kwhotel",
       headingText: "KWHotel",
+      url: "/kwhotel",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -47,6 +50,7 @@ const hotelcont = ({reffer, styles }) => {
       imageSrc: "/images/stayflexi.png",
       imageAlt: "stayflexi",
       headingText: "Stayflexi",
+      url: "/stayflexi",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -54,6 +58,7 @@ const hotelcont = ({reffer, styles }) => {
       imageSrc: "/images/sysotel.png",
       imageAlt: "sysotel",
       headingText: "SYSOTEL.AI",
+      url: "/sysotel",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -61,6 +66,7 @@ const hotelcont = ({reffer, styles }) => {
       imageSrc: "/images/djubo.png",
       imageAlt: "djubo",
       headingText: "DJUBO",
+      url: "/djubo",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -68,6 +74,7 @@ const hotelcont = ({reffer, styles }) => {
       imageSrc: "/images/ezee.png",
       imageAlt: "ezee",
       headingText: "eZee Absolute",
+      url: "/ezee-absolute",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -75,6 +82,7 @@ const hotelcont = ({reffer, styles }) => {
       imageSrc: "/images/hotelogix.png",
       imageAlt: "hotelogix",
       headingText: "Hotelogix",
+      url: "/hotelogix",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -82,6 +90,7 @@ const hotelcont = ({reffer, styles }) => {
       imageSrc: "/images/oraclehospitality.png",
       imageAlt: "oraclehospitality",
       headingText: "Oracle Hospitality",
+      url: "/oracle-hospitality",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -89,6 +98,7 @@ const hotelcont = ({reffer, styles }) => {
       imageSrc: "/images/profitbooks.png",
       imageAlt: "profitbooks",
       headingText: "ProfitBooks",
+      url: "/profit-books",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -96,6 +106,7 @@ const hotelcont = ({reffer, styles }) => {
       imageSrc: "/images/shawman.png",
       imageAlt: "shawman",
       headingText: "ShawMan PMS",
+      url: "/shawman",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -103,6 +114,7 @@ const hotelcont = ({reffer, styles }) => {
       imageSrc: "/images/maestro.png",
       imageAlt: "maestro",
       headingText: "Maestro PMS",
+      url: "/maestro",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -110,6 +122,7 @@ const hotelcont = ({reffer, styles }) => {
       imageSrc: "/images/axisrooms.png",
       imageAlt: "axisrooms",
       headingText: "AxisRooms Manager",
+      url: "/axisrooms-channel-manager",
       pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
@@ -169,6 +182,7 @@ const hotelcont = ({reffer, styles }) => {
                   </p>
                 </div>
                 <div className={styles['height']}>
+                <Link href={data.url}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
@@ -176,7 +190,7 @@ const hotelcont = ({reffer, styles }) => {
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                
+                </Link>
                 <h5 className="my-3">{data.headingText}</h5>
                 </div>
                 <Button

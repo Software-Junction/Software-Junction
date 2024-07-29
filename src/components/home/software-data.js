@@ -8,7 +8,7 @@ const softwareData = [
     name: "Fixed Asset Accounting Software",
     pageLink: "/fixed-asset-accounting-software"
   },
-  { name: "HR Software", pageLink: "/hr-software" },
+  { name: "HRMS Software", pageLink: "/hr-software" },
   { name: "CRM Software", pageLink: "/crm-software" },
   { name: "Clinic Management", pageLink: "/clinic-management" },
   { name: "Hotel Management", pageLink: "/hotel-management" },

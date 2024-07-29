@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+import Link from "next/link";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -33,6 +34,7 @@ const ecommercecont = ({reffer, styles }) => {
       imageSrc: "/images/uniware.png",
       imageAlt: "uniware",
       headingText: "Uniware",
+      url: "/uniware",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -40,6 +42,7 @@ const ecommercecont = ({reffer, styles }) => {
       imageSrc: "/images/bigcommerce.png",
       imageAlt: "bigcommerce",
       headingText: "BigCommerce",
+      url: "/bigcommerce",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -47,6 +50,7 @@ const ecommercecont = ({reffer, styles }) => {
       imageSrc: "/images/prestashop.png",
       imageAlt: "prestashop",
       headingText: "PrestaShop",
+      url: "/prestashop",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -54,6 +58,7 @@ const ecommercecont = ({reffer, styles }) => {
       imageSrc: "/images/storehippo.png",
       imageAlt: "storehippo",
       headingText: "StoreHippo",
+      url: "/storehippo",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -61,6 +66,7 @@ const ecommercecont = ({reffer, styles }) => {
       imageSrc: "/images/shopnix.png",
       imageAlt: "shopnix",
       headingText: "Shopnix",
+      url: "/shopnix",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -68,6 +74,7 @@ const ecommercecont = ({reffer, styles }) => {
       imageSrc: "/images/primaseller.jpg",
       imageAlt: "primaseller",
       headingText: "Primaseller",
+      url: "/primaseller",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -75,6 +82,7 @@ const ecommercecont = ({reffer, styles }) => {
       imageSrc: "/images/browntape.png",
       imageAlt: "browntape",
       headingText: "Browntape",
+      url: "/browntape",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -82,6 +90,7 @@ const ecommercecont = ({reffer, styles }) => {
       imageSrc: "/images/anywhere-software.png",
       imageAlt: "anywhere-software",
       headingText: "AnywhereCommerce",
+      url: "/anywhere-commerce",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -89,6 +98,7 @@ const ecommercecont = ({reffer, styles }) => {
       imageSrc: "/images/zen-commerce.png",
       imageAlt: "zen-commerce",
       headingText: "Zencommerce",
+      url: "/zencommerce",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -96,6 +106,7 @@ const ecommercecont = ({reffer, styles }) => {
       imageSrc: "/images/sendcloud.png",
       imageAlt: "sendcloud",
       headingText: "Sendcloud",
+      url: "/sendcloud",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -103,6 +114,7 @@ const ecommercecont = ({reffer, styles }) => {
       imageSrc: "/images/adobe-commerce.png",
       imageAlt: "adobe-commerce",
       headingText: "Adobe Commerce",
+      url: "/adobe-commerce",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -110,6 +122,7 @@ const ecommercecont = ({reffer, styles }) => {
       imageSrc: "/images/oho-shop.png",
       imageAlt: "oho-shop",
       headingText: "OhoShop",
+      url: "/oho-shop",
       pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
@@ -169,6 +182,7 @@ const ecommercecont = ({reffer, styles }) => {
                   </p>
                 </div>
                 <div className={styles['height']}>
+                <Link href={data.url}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
@@ -176,7 +190,7 @@ const ecommercecont = ({reffer, styles }) => {
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                
+                </Link>
                 <h5 className="my-3">{data.headingText}</h5>
                 </div>
                 <Button

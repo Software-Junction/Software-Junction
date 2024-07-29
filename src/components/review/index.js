@@ -10,20 +10,20 @@ import styles from "./review.module.scss";
 const Index = () => {
   const handleFormSubmit = async (values, actions) => {
     console.log("Submitting form with values:", values);
-    try {
-      await axios.post(
-        "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
-        values
-      );
-      actions.resetForm();
-      actions.setSubmitting(false);
-      alert("Form submitted successfully.");
-      window.location.reload();
+    // try {
+    //   await axios.post(
+    //     "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
+    //     values
+    //   );
+    //   actions.resetForm();
+    //   actions.setSubmitting(false);
+    //   alert("Form submitted successfully.");
+    //   window.location.reload();
       
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      actions.setSubmitting(false);
-    }
+    // } catch (error) {
+    //   console.error("Error submitting form:", error);
+    //   actions.setSubmitting(false);
+    // }
   };
 
   const [searchQuery, setSearchQuery] = useState("");
@@ -166,7 +166,7 @@ const Index = () => {
                   onSubmit={handleFormSubmit}
                 >
                   {(formik) => (
-                    <Form>
+                    <Form method="post">
                       <Form.Group
                         className="mb-3"
                         controlId="exampleForm.ControlInput1"
@@ -316,11 +316,11 @@ const Index = () => {
                             <option value="" disabled selected>
                               Usage Duration :
                             </option>
-                            <option value="option1">Free Trail</option>
-                            <option value="option2">Less then 6 months</option>
-                            <option value="option3">6-12 months</option>
-                            <option value="option4">1-2 years</option>
-                            <option value="option5">2+ years</option>
+                            <option value="Free Trail">Free Trail</option>
+                            <option value="Less then 6 months">Less then 6 months</option>
+                            <option value="6-12 months">6-12 months</option>
+                            <option value="1-2 years">1-2 years</option>
+                            <option value="2+ years">2+ years</option>
                           </Field>
                           <ErrorMessage
                             name="usage"
@@ -536,16 +536,29 @@ const Index = () => {
                         className="mb-3"
                         controlId="exampleForm.ControlTextarea1"
                       >
-                        <Form.Control
-                          as="textarea"
-                          rows={3}
-                          placeholder="Your Review...."
-                        />
+                        <Field
+                    as="textarea"
+                    rows={3}
+                    className={`form-control ${
+                      formik.touched.message && formik.errors.message
+                        ? "is-invalid"
+                        : ""
+                    }`}
+                    name="message"
+                    placeholder="Your Review ...."
+                  />
+                  <ErrorMessage
+                    name="message"
+                    component="div"
+                    className={`invalid-feedback`}
+                    style={{ color: "#f95738" }}
+                  />
                       </Form.Group>
 
                       <Button
                         variant="warning"
                         // size="sm"
+                        type="submit"
                         className="text-light w-100"
                         onClick={formik.handleSubmit}
                       >

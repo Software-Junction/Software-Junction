@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+import Link from "next/link";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -33,6 +34,7 @@ const projectcont = ({reffer, styles }) => {
       imageSrc: "/images/figjam.png",
       imageAlt: "figjam",
       headingText: "FigJam",
+      url: "/figjam",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -40,6 +42,7 @@ const projectcont = ({reffer, styles }) => {
       imageSrc: "/images/zoho-projects.jpg",
       imageAlt: "zoho-projects",
       headingText: "Zoho Projects",
+      url: "/zoho-projects",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -47,6 +50,7 @@ const projectcont = ({reffer, styles }) => {
       imageSrc: "/images/bugherd.png",
       imageAlt: "bugherd",
       headingText: "BugHerd",
+      url: "/bugherd",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -54,6 +58,7 @@ const projectcont = ({reffer, styles }) => {
       imageSrc: "/images/jira.png",
       imageAlt: "jira",
       headingText: "Jira Software",
+      url: "/jira",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -61,6 +66,7 @@ const projectcont = ({reffer, styles }) => {
       imageSrc: "/images/web-work.Jpg",
       imageAlt: "web-work",
       headingText: "WebWork Tracker",
+      url: "/webwork",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -68,6 +74,7 @@ const projectcont = ({reffer, styles }) => {
       imageSrc: "/images/minitab-engage.png",
       imageAlt: "minitab-engage",
       headingText: "Minitab Engage",
+      url: "/minitab-engage",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -75,6 +82,7 @@ const projectcont = ({reffer, styles }) => {
       imageSrc: "/images/tiemchart.png",
       imageAlt: "tiemchart",
       headingText: "Tiemchart",
+      url: "/tiem-chart",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -82,6 +90,7 @@ const projectcont = ({reffer, styles }) => {
       imageSrc: "/images/todoist.png",
       imageAlt: "todoist",
       headingText: "Todoist",
+      url: "/todoist",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -89,6 +98,7 @@ const projectcont = ({reffer, styles }) => {
       imageSrc: "/images/teamgantt.png",
       imageAlt: "teamgantt",
       headingText: "TeamGantt",
+      url: "/teamgantt",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -96,6 +106,7 @@ const projectcont = ({reffer, styles }) => {
       imageSrc: "/images/asana.png",
       imageAlt: "asana",
       headingText: "Asana",
+      url: "/asana",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -103,6 +114,7 @@ const projectcont = ({reffer, styles }) => {
       imageSrc: "/images/taskworld.png",
       imageAlt: "taskworld",
       headingText: "Taskworld",
+      url: "/taskworld",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -110,6 +122,7 @@ const projectcont = ({reffer, styles }) => {
       imageSrc: "/images/monday-com.png",
       imageAlt: "monday-com",
       headingText: "monday.com",
+      url: "/monday-com",
       pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
@@ -169,6 +182,7 @@ const projectcont = ({reffer, styles }) => {
                   </p>
                 </div>
                 <div className={styles['height']}>
+                <Link href={data.url}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
@@ -176,7 +190,7 @@ const projectcont = ({reffer, styles }) => {
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                
+                </Link>
                 <h5 className="my-3">{data.headingText}</h5>
                 </div>
                 <Button

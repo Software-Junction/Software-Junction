@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+import Link from "next/link";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -33,6 +34,7 @@ const erpcont = ({reffer, styles }) => {
       imageSrc: "/images/horizon.png",
       imageAlt: "Horizon",
       headingText: "Horizon ERP",
+      url: "/horizon",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -40,6 +42,7 @@ const erpcont = ({reffer, styles }) => {
       imageSrc: "/images/virmati.jpg",
       imageAlt: "virmati",
       headingText: "Viramati's ERP-FAMS",
+      url: "/virmati-erp-fams",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -47,6 +50,7 @@ const erpcont = ({reffer, styles }) => {
       imageSrc: "/images/oracle.png",
       imageAlt: "oracle",
       headingText: "Oracle Fusion Cloud",
+      url: "/oracle-fusion",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -54,6 +58,7 @@ const erpcont = ({reffer, styles }) => {
       imageSrc: "/images/tally.png",
       imageAlt: "tally",
       headingText: "TallyPrime",
+      url: "/tallyprime",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -61,6 +66,7 @@ const erpcont = ({reffer, styles }) => {
       imageSrc: "/images/vyaparlogo.png",
       imageAlt: "vyaparlogo",
       headingText: "Vyapar",
+      url: "/vyapar",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -68,6 +74,7 @@ const erpcont = ({reffer, styles }) => {
       imageSrc: "/images/marg.png",
       imageAlt: "marg",
       headingText: "Marg ERP 9+Accounting",
+      url: "/margerp",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
 
@@ -76,6 +83,7 @@ const erpcont = ({reffer, styles }) => {
       imageSrc: "/images/bigsun.jpg",
       imageAlt: "bigsun",
       headingText: "BIGSUN",
+      url: "/bigsun",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -83,6 +91,7 @@ const erpcont = ({reffer, styles }) => {
       imageSrc: "/images/orion.jpg",
       imageAlt: "orion",
       headingText: "Orion Software's ERP solution",
+      url: "/orion-software",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -90,6 +99,7 @@ const erpcont = ({reffer, styles }) => {
       imageSrc: "/images/ramco.jpg",
       imageAlt: "ramco",
       headingText: "Ramco ERP Software",
+      url: "/ramco-erp-software",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -97,6 +107,7 @@ const erpcont = ({reffer, styles }) => {
       imageSrc: "/images/tyasuite.png",
       imageAlt: "tyasuite",
       headingText: "TYASuite",
+      url: "/tyasuite",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -104,6 +115,7 @@ const erpcont = ({reffer, styles }) => {
       imageSrc: "/images/crest.png",
       imageAlt: "crest",
       headingText: "CREST ERP",
+      url: "/crest-erp",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -111,6 +123,7 @@ const erpcont = ({reffer, styles }) => {
       imageSrc: "/images/erpnext.png",
       imageAlt: "erpnext",
       headingText: "ERPNext",
+      url: "/erpnext",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     // Add more data objects as needed
@@ -170,6 +183,7 @@ const erpcont = ({reffer, styles }) => {
                   </p>
                 </div>
                 <div className={styles['height']}>
+                <Link href={data.url}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
@@ -177,7 +191,7 @@ const erpcont = ({reffer, styles }) => {
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                
+                </Link>
                 <h5 className="my-3">{data.headingText}</h5>
                 </div>
                 <Button

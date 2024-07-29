@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+import Link from "next/link";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -33,6 +34,7 @@ const inventorycont = ({reffer, styles }) => {
       imageSrc: "/images/zohobooks.png",
       imageAlt: "zohobooks",
       headingText: "Zoho Books",
+      url: "/zoho-books",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -40,6 +42,7 @@ const inventorycont = ({reffer, styles }) => {
       imageSrc: "/images/oraclenet.png",
       imageAlt: "oraclenet",
       headingText: "Oracle NetSuite",
+      url: "/oracle-netsuite",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -47,6 +50,7 @@ const inventorycont = ({reffer, styles }) => {
       imageSrc: "/images/mybillbook.png",
       imageAlt: "mybillbook",
       headingText: "My Bill Book",
+      url: "/billbook",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -54,6 +58,7 @@ const inventorycont = ({reffer, styles }) => {
       imageSrc: "/images/marg.png",
       imageAlt: "marg",
       headingText: "Marg ERP 9+Accounting",
+      url: "/margerp",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -61,6 +66,7 @@ const inventorycont = ({reffer, styles }) => {
       imageSrc: "/images/vyaparlogo.png",
       imageAlt: "vyaparlogo",
       headingText: "Vyapar",
+      url: "/vyapar",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -68,6 +74,7 @@ const inventorycont = ({reffer, styles }) => {
       imageSrc: "/images/oracle.png",
       imageAlt: "oracle",
       headingText: "Oracle Fusion Cloud",
+      url: "/oracle-fusion",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -75,6 +82,7 @@ const inventorycont = ({reffer, styles }) => {
       imageSrc: "/images/hdpos.png",
       imageAlt: "hdpos",
       headingText: "HyperDrive Solutions' POS Billing",
+      url: "/hyperdrive",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -82,6 +90,7 @@ const inventorycont = ({reffer, styles }) => {
       imageSrc: "/images/genie.jpg",
       imageAlt: "genie",
       headingText: "GenieBooks",
+      url: "/geniebooks",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -89,6 +98,7 @@ const inventorycont = ({reffer, styles }) => {
       imageSrc: "/images/saral.png",
       imageAlt: "saral",
       headingText: "Saral Account",
+      url: "/saral",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -96,6 +106,7 @@ const inventorycont = ({reffer, styles }) => {
       imageSrc: "/images/alignbooks.jpg",
       imageAlt: "alignbooks",
       headingText: "AlignBooks",
+      url: "/alignbooks",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -103,6 +114,7 @@ const inventorycont = ({reffer, styles }) => {
       imageSrc: "/images/giddh.png",
       imageAlt: "giddh",
       headingText: "Giddh",
+      url: "/giddh",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -110,6 +122,7 @@ const inventorycont = ({reffer, styles }) => {
       imageSrc: "/images/horizon.png",
       imageAlt: "horizon",
       headingText: "Horizon ERP",
+      url: "/horizon",
       pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
@@ -169,6 +182,7 @@ const inventorycont = ({reffer, styles }) => {
                   </p>
                 </div>
                 <div className={styles['height']}>
+                  <Link href={data.url}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
@@ -176,7 +190,7 @@ const inventorycont = ({reffer, styles }) => {
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                
+                </Link>
                 <h5 className="my-3">{data.headingText}</h5>
                 </div>
                 <Button

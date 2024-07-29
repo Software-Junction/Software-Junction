@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+import Link from "next/link";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -33,6 +34,7 @@ const appcont = ({reffer, styles }) => {
       imageSrc: "/images/oracle-cloud-infrastructure.png",
       imageAlt: "oracle-cloud-infrastructure",
       headingText: "Oracle Cloud",
+      url: "/oracle-cloud-infrastructure",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -40,6 +42,7 @@ const appcont = ({reffer, styles }) => {
       imageSrc: "/images/oracle-database.png",
       imageAlt: "oracle-database",
       headingText: "Oracle Database",
+      url: "/oracledatabase",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -47,6 +50,7 @@ const appcont = ({reffer, styles }) => {
       imageSrc: "/images/ready-4s.png",
       imageAlt: "ready-4s",
       headingText: "Ready4S",
+      url: "/ready-4s",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -54,6 +58,7 @@ const appcont = ({reffer, styles }) => {
       imageSrc: "/images/alpha-software.png",
       imageAlt: "alpha-software",
       headingText: "Alpha Software",
+      url: "/alpha-software",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -61,6 +66,7 @@ const appcont = ({reffer, styles }) => {
       imageSrc: "/images/appy-pie.png",
       imageAlt: "appy-pie",
       headingText: "Appy Pie",
+      url: "/appy-pie",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -68,6 +74,7 @@ const appcont = ({reffer, styles }) => {
       imageSrc: "/images/hedgehog-lab.png",
       imageAlt: "hedgehog-lab",
       headingText: "hedgehog lab",
+      url: "/hedgehog-lab",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -75,6 +82,7 @@ const appcont = ({reffer, styles }) => {
       imageSrc: "/images/outsystem.png",
       imageAlt: "outsystem",
       headingText: "OutSystems",
+      url: "/outsystem",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -82,6 +90,7 @@ const appcont = ({reffer, styles }) => {
       imageSrc: "/images/brainvire-infotech.png",
       imageAlt: "brainvire-infotech",
       headingText: "Brainvire Infotech",
+      url: "/brainvire-infotech",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -89,6 +98,7 @@ const appcont = ({reffer, styles }) => {
       imageSrc: "/images/mobiscroll.png",
       imageAlt: "mobiscroll",
       headingText: "Mobiscroll",
+      url: "/mobiscroll",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -96,6 +106,7 @@ const appcont = ({reffer, styles }) => {
       imageSrc: "/images/unity.png",
       imageAlt: "unity",
       headingText: "Unity",
+      url: "/unity",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -103,6 +114,7 @@ const appcont = ({reffer, styles }) => {
       imageSrc: "/images/appikr-labs.jpg",
       imageAlt: "appikr-labs",
       headingText: "Appikr Labs",
+      url: "/appikr-labs",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -110,6 +122,7 @@ const appcont = ({reffer, styles }) => {
       imageSrc: "/images/mysalesdialerpro.jpg",
       imageAlt: "mysalesdialerpro",
       headingText: "MySalesDialerPro",
+      url: "/mysalesdialerpro",
       pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed

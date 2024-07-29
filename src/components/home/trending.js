@@ -45,7 +45,7 @@ const Trending = ({ styles }) => {
                 className={selectedCategory === 'hr' ? styles.activeCategory : styles.category}
                 
               >
-                HR Software
+                HRMS Software
               </h5>
               <h5
                 onClick={() => setSelectedCategory("crm")}

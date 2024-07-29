@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+import Link from "next/link";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -33,6 +34,7 @@ const eventcont = ({reffer, styles }) => {
       imageSrc: "/images/whova.png",
       imageAlt: "whova",
       headingText: "Whova",
+      url: "/whova",
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
@@ -40,6 +42,7 @@ const eventcont = ({reffer, styles }) => {
       imageSrc: "/images/eventpro.png",
       imageAlt: "eventpro",
       headingText: "EventPro",
+      url: "/eventpro",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -47,6 +50,7 @@ const eventcont = ({reffer, styles }) => {
       imageSrc: "/images/planningpod.jpg",
       imageAlt: "planningpod",
       headingText: "Planning Pod",
+      url: "/planningpod",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -54,6 +58,7 @@ const eventcont = ({reffer, styles }) => {
       imageSrc: "/images/weve.png",
       imageAlt: "weve",
       headingText: "Weve",
+      url: "/weve",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -61,6 +66,7 @@ const eventcont = ({reffer, styles }) => {
       imageSrc: "/images/ticket.png",
       imageAlt: "ticket",
       headingText: "Ticket Tailor",
+      url: "/ticket-tailor",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -68,6 +74,7 @@ const eventcont = ({reffer, styles }) => {
       imageSrc: "/images/dryfta.png",
       imageAlt: "dryfta",
       headingText: "Dryfta",
+      url: "/dryfta",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -75,6 +82,7 @@ const eventcont = ({reffer, styles }) => {
       imageSrc: "/images/ticketscandy.png",
       imageAlt: "ticketscandy",
       headingText: "TicketsCandy",
+      url: "/ticketscandy",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -82,6 +90,7 @@ const eventcont = ({reffer, styles }) => {
       imageSrc: "/images/fantastical.png",
       imageAlt: "fantastical",
       headingText: "Fantastical",
+      url: "/fantastical",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -89,6 +98,7 @@ const eventcont = ({reffer, styles }) => {
       imageSrc: "/images/eventleaf.png",
       imageAlt: "eventleaf",
       headingText: "Eventleaf",
+      url: "/eventleaf",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -96,6 +106,7 @@ const eventcont = ({reffer, styles }) => {
       imageSrc: "/images/eventavenue.png",
       imageAlt: "eventavenue",
       headingText: "EventAvenue",
+      url: "/eventavenue",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -103,6 +114,7 @@ const eventcont = ({reffer, styles }) => {
       imageSrc: "/images/eventsair.png",
       imageAlt: "eventsair",
       headingText: "EventsAir",
+      url: "/eventsair",
       pieData: [10, 10, 10, 10],
     },
     {
@@ -110,6 +122,7 @@ const eventcont = ({reffer, styles }) => {
       imageSrc: "/images/picatic.png",
       imageAlt: "picatic",
       headingText: "Picatic E-Ticket",
+      url: "/picatic",
       pieData: [10, 10, 10, 10],
     },
     // Add more data objects as needed
@@ -169,6 +182,7 @@ const eventcont = ({reffer, styles }) => {
                   </p>
                 </div>
                 <div className={styles['height']}>
+                <Link href={data.url}>
                   <Image
                     src={data.imageSrc}
                     alt={data.imageAlt}
@@ -176,7 +190,7 @@ const eventcont = ({reffer, styles }) => {
                     height="10"
                     className={`${styles["box-img"]} border p-4 rounded-3 shadow`}
                   />
-                
+                </Link>
                 <h5 className="my-3">{data.headingText}</h5>
                 </div>
                 <Button
