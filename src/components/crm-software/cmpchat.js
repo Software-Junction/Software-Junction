@@ -257,6 +257,7 @@ const Cmpchat = () => {
                   responsive
                   bordered
                   className={`${styles["thead"]}`}
+                  ref={tableRef}
                 >
                   <thead className={styles['heading-stick']}>
                     <tr>

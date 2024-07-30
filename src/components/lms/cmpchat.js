@@ -199,6 +199,7 @@ const Cmpchat = () => {
                   responsive
                   bordered
                   className={`${styles["thead"]} overflow-auto`}
+                  ref={tableRef}
                 >
                   <thead>
                     <tr>

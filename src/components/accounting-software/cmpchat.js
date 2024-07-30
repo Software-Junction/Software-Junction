@@ -218,7 +218,7 @@ const Cmpchat = () => {
       if (table) {
         const th = table.querySelectorAll("th")[thIndex];
         if (th) {
-          // console.log(th.textContent);
+          // console.log("feature",th.textContent);
           setRefrence(th.textContent);
         }
       } 
@@ -263,6 +263,7 @@ const Cmpchat = () => {
                   responsive
                   bordered
                   className={`${styles["thead"]} overflow-auto`}
+                  ref={tableRef}
                 >
                   <thead>
                     <tr>

@@ -260,7 +260,12 @@ const Cmpchat = () => {
               <div
                 className={`${styles["main-table"]} border bg-light rounded-4  my-4`}
               >
-                <Table responsive bordered className={`${styles["thead"]}`}>
+                 <Table
+                  responsive
+                  bordered
+                  className={`${styles["thead"]} overflow-auto`}
+                  ref={tableRef}
+                >
                   <thead>
                     <tr>
                       <th className={styles["tbl-hd"]}>Metrics</th>
