@@ -43,16 +43,16 @@ const Price = () => {
             <Col lg={3} className='mb-3'>
                 <div className={`${styles['price-box']} box  bg-light border h-100 rounded-4 p-4`}>
                     <div className='text-center'>
-                    <h5>Daimond Plan<br/><br/>$3067</h5>
+                    <h5>Basic<br/><br/>₹30,000</h5>
                     <p>Per Year</p>
                     </div>
                     <hr/>
-                    <ul>
-                        <li>1 Businesses</li>
-                        <li>1 Users</li>
-                        <li>Mobile & Web</li>
-                        <li>Unlimited Logins</li>
-                        <li>Call & Chat Support</li>
+                    <ul className={styles["price-btn"]}>
+                        <li>Email Support</li>
+                        <li>Documentation & Tutorials</li>
+                        <li>Unlimited Users</li>
+                        <li>Pre-filled Master Data</li>
+                        <li>1 Click Ready to use</li>
                     </ul>
                     <div className='text-center'>
                     <Button variant="primary" size="sm" onClick={handleShowDemo}>
@@ -64,16 +64,15 @@ const Price = () => {
             <Col lg={3} className='mb-3'>
             <div className={`${styles['price-box']} box  bg-light border h-100 rounded-4 p-4`}>
                     <div className='text-center'>
-                    <h5>Platinum Plan<br/><br/>$5899</h5>
+                    <h5>Advanced<br/><br/>₹50,000</h5>
                     <p>Per Year</p>
                     </div>
                     <hr/>
-                    <ul>
-                        <li>1 Businesses</li>
-                        <li>1 Users</li>
-                        <li>Mobile & Web</li>
-                        <li>Unlimited Logins</li>
-                        <li>Call & Chat Support</li>
+                    <ul className={styles["price-btn"]}>
+                        <li>Basic+</li>
+                        <li>Skype, Phone & Email Support</li>
+                        <li>LMS Implementation Support</li>
+                        <li>Pre-filled Master Data</li>
                     </ul>
                     <div className='text-center'>
                     <Button variant="primary" size="sm" onClick={handleShowDemo}>
@@ -82,49 +81,7 @@ const Price = () => {
                     </div>
                 </div>
             </Col>
-            <Col lg={3} className='mb-3'>
-            <div className={`${styles['price-box']} box  bg-light border h-100 rounded-4 p-4`}>
-                    <div className='text-center'>
-                    <h5>Enterprise Plan<br/><br/>$9439</h5>
-                    <p>Per Year</p>
-                    </div>
-                    <hr/>
-                    <ul>
-                        <li>1 Businesses</li>
-                        <li>1 Users</li>
-                        <li>Mobile & Web</li>
-                        <li>Unlimited Logins</li>
-                        <li>Call & Chat Support</li>
-                    </ul>
-                    <div className='text-center'>
-                    <Button variant="primary" size="sm" onClick={handleShowDemo}>
-                  Free Trail
-                </Button>
-                    </div>
-                </div>  
-            </Col>
-            <Col lg={3} className='mb-3'>
-            <div className={`${styles['price-box']} box  bg-light border h-100 rounded-4 p-4`}>
-                    <div className='text-center'>
-                    <h5>Professional Plan<br/><br/>$18999</h5>
-                    <p>Per Year</p>
-                    </div>
-                    <hr/>
-                    <ul>
-                        <li>1 Businesses</li>
-                        <li>1 Users</li>
-                        <li>Mobile & Web</li>
-                        <li>Unlimited Logins</li>
-                        <li>Call & Chat Support</li>
-                    </ul>
-                    <div className='text-center'>
-                    <Button variant="primary" size="sm" onClick={handleShowDemo}>
-                  Free Trail
-                </Button>
-                    </div>
-                </div>
-             <Demo show={showDemo} handleClose={handleCloseDemo}/>
-          </Col>
+           
         </Row>
       </Container>
     </>

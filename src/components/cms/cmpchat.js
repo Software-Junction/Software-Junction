@@ -14,6 +14,7 @@ import Feature from "./schoolcanva/features";
 
 import EdumaatF from "./edumaat/features";
 import Edumaatusp from "./edumaat/usp";
+import EdumaatP from "./edumaat/price";
 
 import AstralF from "./astral/features";
 import Astralusp from "./astral/usp";
@@ -49,6 +50,8 @@ const Cmpchat = () => {
   //edumaat
   const [showUsp2, setShowUsp2] = useState(false);
   const [showF2, setShowF2] = useState(false);
+  const [showPrice2, setShowPrice2] = useState(false);
+
   //astral
   const [showF3, setShowF3] = useState(false);
   const [showUsp3, setShowUsp3] = useState(false);
@@ -79,6 +82,9 @@ const Cmpchat = () => {
   const handleShowF2 = (e) => {CommonTableHead(e);setShowF2(true)};
   const handleCloseUsp2 = () => setShowUsp2(false);
   const handleShowUsp2 = (e) => {CommonTableHead(e);setShowUsp2(true)};
+  const handleClosePrice2 = () => setShowPrice2(false);
+  const handleShowPrice2 = () => setShowPrice2(true);
+
   //schoolcanvas features and usp
   const handleCloseF1 = () => setShow1(false);
   const handleShowF1 = (e) => {CommonTableHead(e);setShow1(true)};
@@ -598,11 +604,11 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          variant="warning"
+                          variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice}
+                          onClick={handleShowPrice2}
                         >
-                          Get Pricing
+                          View Pricing
                         </Button>
                       </td>
                       <td>
@@ -788,6 +794,30 @@ const Cmpchat = () => {
                     Close
                   </Button>
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
+                </Modal.Footer>
+              </Modal>
+              {/* 2 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice2}
+                onHide={handleClosePrice2}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Edumaat
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <EdumaatP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice2}>
+                    Close
+                  </Button>
                 </Modal.Footer>
               </Modal>
               {/* astral feature */}

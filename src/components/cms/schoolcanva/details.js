@@ -302,9 +302,9 @@ const Details = ({ styles }) => {
         </Container>
       </section>
 
-      <section className={`${styles["pricing"]} mt-5`} id="idpricing">
+      {/* <section className={`${styles["pricing"]} mt-5`} id="idpricing">
         <Price />
-      </section>
+      </section> */}
 
       {/* <section className={`${styles["review"]} mt-5`} id="idreview">
         <Container>

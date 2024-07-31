@@ -117,10 +117,8 @@
     .price-box{
         box-shadow: -3px 3px 0px 0px #f95738 ;
         .price-btn{
-            margin-top: 70px;
-        }
-        .price-btn1{
-            margin-top: 35px;
+            height: 200px;
+            overflow-y: auto;
         }
     }
     p{
@@ -133,10 +131,8 @@
 .price-box{
     box-shadow: -3px 3px 0px 0px #f95738 ;
     .price-btn{
-        margin-top: 70px;
-    }
-    .price-btn1{
-        margin-top: 35px;
+        height: 200px;
+        overflow-y: auto;
     }
 }
 .review{

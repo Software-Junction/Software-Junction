@@ -22,7 +22,7 @@ const Price = () => {
             <Col lg={3} className='mb-3'>
                 <div className={`${styles['price-box']} box  bg-light border h-100 rounded-4 p-4`}>
                     <div className='text-center'>
-                    <h5>Cloud<br/><br/>&#8377; 15</h5>
+                    <h5>Premium<br/><br/>&#8377; 10</h5>
                     <p>Student/Month</p>
                     </div>
                     <hr/>

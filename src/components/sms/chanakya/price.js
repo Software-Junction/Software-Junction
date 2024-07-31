@@ -30,12 +30,12 @@ const Price = () => {
                     <p>per year</p>
                     </div>
                     <hr/>
-                    <ul>
+                    <ul className={styles["price-btn"]}>
                         <li>Basic features</li>
                         
                     </ul>
                     <div className='text-center'>
-                    <Button variant='primary' size='sm' className={styles['price-btn']} onClick={handleShowDemo}>Free Trail</Button>
+                    <Button variant='primary' size='sm' onClick={handleShowDemo}>Free Trail</Button>
                     </div>
                 </div>
             </Col>
@@ -46,13 +46,13 @@ const Price = () => {
                     <p>Student/Month</p>
                     </div>
                     <hr/>
-                    <ul>
+                    <ul className={styles["price-btn"]}>
                         <li>All features</li>
                         <li>Priority Support (Email & Phone Support)</li>
                         
                     </ul>
                     <div className='text-center'>
-                    <Button variant='primary' size='sm' className={styles['price-btn1']} onClick={handleShowDemo}>Free Trail</Button>
+                    <Button variant='primary' size='sm' onClick={handleShowDemo}>Free Trail</Button>
                     </div>
                 </div>
             </Col>
@@ -63,7 +63,7 @@ const Price = () => {
                     <p>Student/Month</p>
                     </div>
                     <hr/>
-                    <ul>
+                    <ul className={styles["price-btn"]}>
                         <li>All features</li>
                         <li>Priority Support (Email & Phone Support)</li>
                         <li>24/7 Email and Chat Support</li>

@@ -11,22 +11,37 @@ import styles from "./sms.module.scss";
 
 import Usp from "../cms/schoolcanva/usp";
 import Feature from "../cms/schoolcanva/features";
+
 import EdumaatF from "../cms/edumaat/features";
 import Edumaatusp from "../cms/edumaat/usp";
+import EdumaatP from "../cms/edumaat/price";
+
 import DigitalF from './digital/features';
 import Digitalusp from './digital/usp';
+import DigitalP from './digital/price';
+
 import CampF from './campus/features';
 import Campusp from './campus/usp';
+import CampP from './campus/price';
+
 import ClassF from "../cms/matrix/features";
 import Classusp from "../cms/matrix/usp";
+
 import ChanF from './chanakya/features';
 import Chanusp from './chanakya/usp';
+import ChanP from './chanakya/price';
+
 import FedF from './fedena/features';
 import Fedusp from './fedena/usp';
+
 import HdF from './hdschool/features';
 import Hdusp from './hdschool/usp';
+import HdP from './hdschool/price';
+
 import KnotF from './schoolknot/features';
 import Knotusp from './schoolknot/usp';
+import KnotP from './schoolknot/price';
+
 import AcadF from '../sms/academia/features';
 import AcadUsp from '../sms/academia/usp';
 
@@ -41,27 +56,39 @@ const Cmpchat = () => {
   //edumaat
   const [showUsp2, setShowUsp2] = useState(false);
   const [showF2, setShowF2] = useState(false);
+  const [showPrice2, setShowPrice2] = useState(false);
+
   //digital
   const [showF3, setShowF3] = useState(false);
   const [showUsp3, setShowUsp3] = useState(false);
+  const [showPrice3, setShowPrice3] = useState(false);
+
   //chanakya
   const [showF4, setShowF4] = useState(false);
   const [showUsp4, setShowUsp4] = useState(false);
+  const [showPrice4, setShowPrice4] = useState(false);
+
   //Matrix
   const [showF5, setShowF5] = useState(false);
   const [showUsp5, setShowUsp5] = useState(false);
   //camp
   const [showF6, setShowF6] = useState(false);
   const [showUsp6, setShowUsp6] = useState(false);
+  const [showPrice6, setShowPrice6] = useState(false);
+
   //fedena
   const [showF7, setShowF7] = useState(false);
   const [showUsp7, setShowUsp7] = useState(false);
   //hd
   const [showF8, setShowF8] = useState(false);
   const [showUsp8, setShowUsp8] = useState(false);
+  const [showPrice8, setShowPrice8] = useState(false);
+
   //knot
   const [showF9, setShowF9] = useState(false);
   const [showUsp9, setShowUsp9] = useState(false);
+  const [showPrice9, setShowPrice9] = useState(false);
+
   //academia
   const [showF10, setShowF10] = useState(false);
   const [showUsp10, setShowUsp10] = useState(false);
@@ -71,6 +98,9 @@ const Cmpchat = () => {
   const handleShowF2 = (e) => {CommonTableHead(e);setShowF2(true)};
   const handleCloseUsp2 = () => setShowUsp2(false);
   const handleShowUsp2 = (e) => {CommonTableHead(e);setShowUsp2(true)};
+  const handleClosePrice2 = () => setShowPrice2(false);
+  const handleShowPrice2 = () => setShowPrice2(true);
+
   //schoolcanvas features and usp
   const handleCloseF1 = () => setShow1(false);
   const handleShowF1 = (e) => {CommonTableHead(e);setShow1(true)};
@@ -81,11 +111,17 @@ const Cmpchat = () => {
   const handleShowF3 = (e) => {CommonTableHead(e);setShowF3(true)};
   const handleCloseUsp3 = () => setShowUsp3(false);
   const handleShowUsp3 = (e) => {CommonTableHead(e);setShowUsp3(true)};
+  const handleClosePrice3 = () => setShowPrice3(false);
+  const handleShowPrice3 = () => setShowPrice3(true);
+
   //chanakya features and usp
   const handleCloseF4 = () => setShowF4(false);
   const handleShowF4 = (e) => {CommonTableHead(e);setShowF4(true)};
   const handleCloseUsp4 = () => setShowUsp4(false);
   const handleShowUsp4 = (e) => {CommonTableHead(e);setShowUsp4(true)};
+  const handleClosePrice4 = () => setShowPrice4(false);
+  const handleShowPrice4 = () => setShowPrice4(true);
+
    //matrix features and usp
    const handleCloseF5 = () => setShowF5(false);
    const handleShowF5 = (e) => {CommonTableHead(e);setShowF5(true)};
@@ -96,6 +132,9 @@ const Cmpchat = () => {
    const handleShowF6 = (e) => {CommonTableHead(e);setShowF6(true)};
    const handleCloseUsp6 = () => setShowUsp6(false);
    const handleShowUsp6 = (e) => {CommonTableHead(e);setShowUsp6(true)};
+   const handleClosePrice6 = () => setShowPrice6(false);
+   const handleShowPrice6 = () => setShowPrice6(true);
+ 
    //fedena features and usp
    const handleCloseF7 = () => setShowF7(false);
    const handleShowF7 = (e) => {CommonTableHead(e);setShowF7(true)};
@@ -106,11 +145,17 @@ const Cmpchat = () => {
    const handleShowF8 = (e) => {CommonTableHead(e);setShowF8(true)};
    const handleCloseUsp8 = () => setShowUsp8(false);
    const handleShowUsp8 = (e) => {CommonTableHead(e);setShowUsp8(true)};
+   const handleClosePrice8 = () => setShowPrice8(false);
+   const handleShowPrice8 = () => setShowPrice8(true);
+
    //knot features and usp
    const handleCloseF9 = () => setShowF9(false);
    const handleShowF9 = (e) => {CommonTableHead(e);setShowF9(true)};
    const handleCloseUsp9 = () => setShowUsp9(false);
    const handleShowUsp9 = (e) => {CommonTableHead(e);setShowUsp9(true)};
+   const handleClosePrice9 = () => setShowPrice9(false);
+   const handleShowPrice9 = () => setShowPrice9(true);
+
     //academia features and usp
     const handleCloseF10 = () => setShowF10(false);
     const handleShowF10 = (e) => {CommonTableHead(e);setShowF10(true)};
@@ -604,11 +649,31 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          variant="warning"
+                          variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice}
+                          onClick={handleShowPrice2}
                         >
-                          Get Pricing
+                          View Pricing
+                        </Button>
+                      </td>
+                      <td>
+                        <Button
+                          size="sm"
+                          variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice3}
+                        >
+                          View Pricing
+                        </Button>
+                      </td>
+                      <td>
+                        <Button
+                          size="sm"
+                          variant="outline-primary"
+                          style={{ fontSize: "10px" }}
+                          onClick={handleShowPrice6}
+                        >
+                          View Pricing
                         </Button>
                       </td>
                       <td>
@@ -624,11 +689,11 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          variant="warning"
+                          variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice}
+                          onClick={handleShowPrice4}
                         >
-                          Get Pricing
+                          View Pricing
                         </Button>
                       </td>
                       <td>
@@ -644,41 +709,21 @@ const Cmpchat = () => {
                       <td>
                         <Button
                           size="sm"
-                          variant="warning"
+                          variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice}
+                          onClick={handleShowPrice8}
                         >
-                          Get Pricing
+                          View Pricing
                         </Button>
                       </td>
                       <td>
                         <Button
                           size="sm"
-                          variant="warning"
+                          variant="outline-primary"
                           style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice}
+                          onClick={handleShowPrice9}
                         >
-                          Get Pricing
-                        </Button>
-                      </td>
-                      <td>
-                        <Button
-                          size="sm"
-                          variant="warning"
-                          style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice}
-                        >
-                          Get Pricing
-                        </Button>
-                      </td>
-                      <td>
-                        <Button
-                          size="sm"
-                          variant="warning"
-                          style={{ fontSize: "10px" }}
-                          onClick={handleShowPrice}
-                        >
-                          Get Pricing
+                          View Pricing
                         </Button>
                       </td>
                       <td>
@@ -796,6 +841,30 @@ const Cmpchat = () => {
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
+              {/* 2 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice2}
+                onHide={handleClosePrice2}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Edumaat
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <EdumaatP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice2}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
               {/* digital feature */}
               <Modal
                 style={{ color: "#000" }}
@@ -846,6 +915,30 @@ const Cmpchat = () => {
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
+              {/* 3 price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice3}
+                onHide={handleClosePrice3}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Digital School Web Solutions
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <DigitalP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice3}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
               {/* chanakya feature */}
               <Modal
                 style={{ color: "#000" }}
@@ -894,6 +987,30 @@ const Cmpchat = () => {
                     Close
                   </Button>
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
+                </Modal.Footer>
+              </Modal>
+              {/* chanakya price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice4}
+                onHide={handleClosePrice4}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Chanakya ERP
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <ChanP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice4}>
+                    Close
+                  </Button>
                 </Modal.Footer>
               </Modal>
               {/* matrix feature */}
@@ -996,6 +1113,30 @@ const Cmpchat = () => {
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
+              {/* campus price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice6}
+                onHide={handleClosePrice6}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  Campus365
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <CampP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice6}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
               {/* fedena feature */}
               <Modal
                 style={{ color: "#000" }}
@@ -1096,6 +1237,30 @@ const Cmpchat = () => {
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
                 </Modal.Footer>
               </Modal>
+              {/* hd price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice8}
+                onHide={handleClosePrice8}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  HD School
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <HdP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice8}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
               {/* schoolknot feature */}
               <Modal
                 style={{ color: "#000" }}
@@ -1144,6 +1309,30 @@ const Cmpchat = () => {
                     Close
                   </Button>
                   <h5 className={styles['know-more']}>Want to know more about the Software <span className={styles['click-here']} onClick={handleShowSoftware}>"Click Here"</span></h5>
+                </Modal.Footer>
+              </Modal>
+              {/* schoolknot price */}
+              <Modal
+                style={{ color: "#000" }}
+                centered
+                show={showPrice9}
+                onHide={handleClosePrice9}
+                className="cmpchat-modal"
+                aria-labelledby="example-custom-modal-sizes-title-lg"
+                size="xl"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title id="example-custom-modal-styling-title">
+                  SchoolKnot
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <KnotP styles={styles} />
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClosePrice9}>
+                    Close
+                  </Button>
                 </Modal.Footer>
               </Modal>
               {/* academia feature */}
