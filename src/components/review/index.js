@@ -224,11 +224,11 @@ const Index = () => {
                             className={`${styles["valid-clr"]} invalid-feedback`}
                           />
                       </Form.Group>
-                      <Field
+                      {/* <Field
                         type="hidden"
                         name="selectedSoftware"
                         value={searchQuery}
-                      />
+                      /> */}
                       <Row>
                         <Form.Group
                           className="mb-3"
@@ -339,22 +339,25 @@ const Index = () => {
                           <Form.Label>
                             User Interface (UI) and User Experience (UX)
                           </Form.Label>
-                          <ReactStars
-                            count={5}
-                            size={30}
-                            activeColor="#ffd700"
-                            value={formik.values.rating1}
-                            onChange={(newValue) => {
-                              formik.setFieldValue("rating", newValue);
-                            }}
+                          <Field name="rating1">
+                            {({ field }) => (
+                              <ReactStars
+                                {...field}
+                                count={5}
+                                size={24}
+                                activeColor="#ffd700"
+                                value={formik.values.rating1}
+                                onChange={(newValue) =>
+                                  formik.setFieldValue("rating1", newValue)
+                                }
+                              />
+                            )}
+                          </Field>
+                          <ErrorMessage
+                            name="rating1"
+                            component="div"
+                            className={`${styles["valid-clr"]} invalid-feedback`}
                           />
-                          {formik.touched.rating1 && formik.errors.rating1 ? (
-                            <div
-                              className={`${styles["valid-clr"]} invalid-feedback`}
-                            >
-                              {formik.errors.rating1}
-                            </div>
-                          ) : null}
                         </Form.Group>
 
                         <Form.Group
@@ -363,22 +366,25 @@ const Index = () => {
                           as={Col}
                         >
                           <Form.Label>Features and Functionality</Form.Label>
-                          <ReactStars
-                            count={5}
-                            size={30}
-                            activeColor="#ffd700"
-                            value={formik.values.rating2}
-                            onChange={(newValue) => {
-                              formik.setFieldValue("rating", newValue);
-                            }}
+                          <Field name="rating2">
+                            {({ field }) => (
+                              <ReactStars
+                                {...field}
+                                count={5}
+                                size={24}
+                                activeColor="#ffd700"
+                                value={formik.values.rating2}
+                                onChange={(newValue) =>
+                                  formik.setFieldValue("rating2", newValue)
+                                }
+                              />
+                            )}
+                          </Field>
+                          <ErrorMessage
+                            name="rating2"
+                            component="div"
+                            className={`${styles["valid-clr"]} invalid-feedback`}
                           />
-                          {formik.touched.rating2 && formik.errors.rating2 ? (
-                            <div
-                              className={`${styles["valid-clr"]} invalid-feedback`}
-                            >
-                              {formik.errors.rating2}
-                            </div>
-                          ) : null}
                         </Form.Group>
                       </Row>
 
@@ -389,22 +395,25 @@ const Index = () => {
                           as={Col}
                         >
                           <Form.Label>Performance and Speed</Form.Label>
-                          <ReactStars
-                            count={5}
-                            size={30}
-                            activeColor="#ffd700"
-                            value={formik.values.rating3}
-                            onChange={(newValue) => {
-                              formik.setFieldValue("rating", newValue);
-                            }}
+                          <Field name="rating3">
+                            {({ field }) => (
+                              <ReactStars
+                                {...field}
+                                count={5}
+                                size={24}
+                                activeColor="#ffd700"
+                                value={formik.values.rating3}
+                                onChange={(newValue) =>
+                                  formik.setFieldValue("rating3", newValue)
+                                }
+                              />
+                            )}
+                          </Field>
+                          <ErrorMessage
+                            name="rating3"
+                            component="div"
+                            className={`${styles["valid-clr"]} invalid-feedback`}
                           />
-                          {formik.touched.rating3 && formik.errors.rating3 ? (
-                            <div
-                              className={`${styles["valid-clr"]} invalid-feedback`}
-                            >
-                              {formik.errors.rating3}
-                            </div>
-                          ) : null}
                         </Form.Group>
 
                         <Form.Group
@@ -413,22 +422,25 @@ const Index = () => {
                           as={Col}
                         >
                           <Form.Label>Customization Options</Form.Label>
-                          <ReactStars
-                            count={5}
-                            size={30}
-                            activeColor="#ffd700"
-                            value={formik.values.rating4}
-                            onChange={(newValue) => {
-                              formik.setFieldValue("rating", newValue);
-                            }}
+                          <Field name="rating4">
+                            {({ field }) => (
+                              <ReactStars
+                                {...field}
+                                count={5}
+                                size={24}
+                                activeColor="#ffd700"
+                                value={formik.values.rating4}
+                                onChange={(newValue) =>
+                                  formik.setFieldValue("rating4", newValue)
+                                }
+                              />
+                            )}
+                          </Field>
+                          <ErrorMessage
+                            name="rating4"
+                            component="div"
+                            className={`${styles["valid-clr"]} invalid-feedback`}
                           />
-                          {formik.touched.rating4 && formik.errors.rating4 ? (
-                            <div
-                              className={`${styles["valid-clr"]} invalid-feedback`}
-                            >
-                              {formik.errors.rating4}
-                            </div>
-                          ) : null}
                         </Form.Group>
                       </Row>
 
@@ -439,22 +451,25 @@ const Index = () => {
                           as={Col}
                         >
                           <Form.Label>Value for Money</Form.Label>
-                          <ReactStars
-                            count={5}
-                            size={30}
-                            activeColor="#ffd700"
-                            value={formik.values.rating5}
-                            onChange={(newValue) => {
-                              formik.setFieldValue("rating", newValue);
-                            }}
+                          <Field name="rating5">
+                            {({ field }) => (
+                              <ReactStars
+                                {...field}
+                                count={5}
+                                size={24}
+                                activeColor="#ffd700"
+                                value={formik.values.rating5}
+                                onChange={(newValue) =>
+                                  formik.setFieldValue("rating5", newValue)
+                                }
+                              />
+                            )}
+                          </Field>
+                          <ErrorMessage
+                            name="rating5"
+                            component="div"
+                            className={`${styles["valid-clr"]} invalid-feedback`}
                           />
-                          {formik.touched.rating5 && formik.errors.rating5 ? (
-                            <div
-                              className={`${styles["valid-clr"]} invalid-feedback`}
-                            >
-                              {formik.errors.rating5}
-                            </div>
-                          ) : null}
                         </Form.Group>
 
                         <Form.Group
@@ -463,22 +478,25 @@ const Index = () => {
                           as={Col}
                         >
                           <Form.Label>Customer Support</Form.Label>
-                          <ReactStars
-                            count={5}
-                            size={30}
-                            activeColor="#ffd700"
-                            value={formik.values.rating6}
-                            onChange={(newValue) => {
-                              formik.setFieldValue("rating", newValue);
-                            }}
+                          <Field name="rating6">
+                            {({ field }) => (
+                              <ReactStars
+                                {...field}
+                                count={5}
+                                size={24}
+                                activeColor="#ffd700"
+                                value={formik.values.rating6}
+                                onChange={(newValue) =>
+                                  formik.setFieldValue("rating6", newValue)
+                                }
+                              />
+                            )}
+                          </Field>
+                          <ErrorMessage
+                            name="rating6"
+                            component="div"
+                            className={`${styles["valid-clr"]} invalid-feedback`}
                           />
-                          {formik.touched.rating6 && formik.errors.rating6 ? (
-                            <div
-                              className={`${styles["valid-clr"]} invalid-feedback`}
-                            >
-                              {formik.errors.rating6}
-                            </div>
-                          ) : null}
                         </Form.Group>
                       </Row>
 
@@ -489,22 +507,25 @@ const Index = () => {
                           as={Col}
                         >
                           <Form.Label>Integration Capabilities</Form.Label>
-                          <ReactStars
-                            count={5}
-                            size={30}
-                            activeColor="#ffd700"
-                            value={formik.values.rating7}
-                            onChange={(newValue) => {
-                              formik.setFieldValue("rating", newValue);
-                            }}
+                          <Field name="rating7">
+                            {({ field }) => (
+                              <ReactStars
+                                {...field}
+                                count={5}
+                                size={24}
+                                activeColor="#ffd700"
+                                value={formik.values.rating7}
+                                onChange={(newValue) =>
+                                  formik.setFieldValue("rating7", newValue)
+                                }
+                              />
+                            )}
+                          </Field>
+                          <ErrorMessage
+                            name="rating7"
+                            component="div"
+                            className={`${styles["valid-clr"]} invalid-feedback`}
                           />
-                          {formik.touched.rating7 && formik.errors.rating7 ? (
-                            <div
-                              className={`${styles["valid-clr"]} invalid-feedback`}
-                            >
-                              {formik.errors.rating7}
-                            </div>
-                          ) : null}
                         </Form.Group>
 
                         <Form.Group
@@ -513,22 +534,25 @@ const Index = () => {
                           as={Col}
                         >
                           <Form.Label>Reporting and Analytics</Form.Label>
-                          <ReactStars
-                            count={5}
-                            size={30}
-                            activeColor="#ffd700"
-                            value={formik.values.rating8}
-                            onChange={(newValue) => {
-                              formik.setFieldValue("rating", newValue);
-                            }}
+                          <Field name="rating8">
+                            {({ field }) => (
+                              <ReactStars
+                                {...field}
+                                count={5}
+                                size={24}
+                                activeColor="#ffd700"
+                                value={formik.values.rating8}
+                                onChange={(newValue) =>
+                                  formik.setFieldValue("rating8", newValue)
+                                }
+                              />
+                            )}
+                          </Field>
+                          <ErrorMessage
+                            name="rating8"
+                            component="div"
+                            className={`${styles["valid-clr"]} invalid-feedback`}
                           />
-                          {formik.touched.rating8 && formik.errors.rating8 ? (
-                            <div
-                              className={`${styles["valid-clr"]} invalid-feedback`}
-                            >
-                              {formik.errors.rating8}
-                            </div>
-                          ) : null}
                         </Form.Group>
                       </Row>
 

@@ -95,20 +95,15 @@ const Index = () => {
                 Explore now to find the perfect solution for creating innovative
                 and scalable applications
               </p>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-      <section className={styles["headbg-2"]}>
-        <Container>
-          <Row>
-            <Col lg={12}>
-              <h3>Top 10 App Development Software</h3>
               <p>
-                Explore the top 10 App Development Software solutions offering
-                comprehensive automation, tailored customization, and global
-                accessibility. Compare features, ratings, USP'S and pricing
-                plans to find the perfect fit for your buisness needs.
+                Explore the top 10{" "}
+                <span style={{ color: "#f95738", fontWeight: "500" }}>
+                App Development Software
+                </span>{" "}
+                solutions offering comprehensive automation, tailored
+                customization, and global accessibility. Compare features,
+                ratings, USP'S and pricing plans to find the perfect fit for
+                your buisness needs.
               </p>
             </Col>
           </Row>

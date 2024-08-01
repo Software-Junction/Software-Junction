@@ -94,20 +94,15 @@ const Index = () => {
                 most efficient and reliable HRMS software in the market. Explore
                 now to find the perfect fit for your business needs.
               </p>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-      <section className={styles['headbg-2']}>
-        <Container>
-          <Row>
-            <Col lg={12}>
-            <h3>Top 10 HRMS Software</h3>
               <p>
-                Explore the top 10 HRMS Software solutions offering comprehensive
-                automation, tailored customization, and global accessibility.
-                Compare features, ratings, USP'S and pricing plans to find the
-                perfect fit for your buisness needs.
+                Explore the top 10{" "}
+                <span style={{ color: "#f95738", fontWeight: "500" }}>
+                  HRMS Software
+                </span>{" "}
+                solutions offering comprehensive automation, tailored
+                customization, and global accessibility. Compare features,
+                ratings, USP'S and pricing plans to find the perfect fit for
+                your buisness needs.
               </p>
             </Col>
           </Row>

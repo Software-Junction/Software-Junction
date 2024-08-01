@@ -96,20 +96,15 @@ const Index = () => {
                 perfect solution for maximizing your online sales and business
                 growth.
               </p>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-      <section className={styles["headbg-2"]}>
-        <Container>
-          <Row>
-            <Col lg={12}>
-              <h3>Top 10 Ecommerce Software</h3>
               <p>
-                Explore the top 10 Ecommerce Software solutions offering
-                comprehensive automation, tailored customization, and global
-                accessibility. Compare features, ratings, USP'S and pricing
-                plans to find the perfect fit for your buisness needs.
+                Explore the top 10{" "}
+                <span style={{ color: "#f95738", fontWeight: "500" }}>
+                  Ecommerce Software
+                </span>{" "}
+                solutions offering comprehensive automation, tailored
+                customization, and global accessibility. Compare features,
+                ratings, USP'S and pricing plans to find the perfect fit for
+                your buisness needs.
               </p>
             </Col>
           </Row>

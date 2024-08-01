@@ -96,20 +96,15 @@ const Index = () => {
                 perfect solution for managing your properties seamlessly and
                 effectively.
               </p>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-      <section className={styles["headbg-2"]}>
-        <Container>
-          <Row>
-            <Col lg={12}>
-              <h3>Top 10 Property Management Software</h3>
               <p>
-                Explore the top 10 Property Management Software solutions
-                offering comprehensive automation, tailored customization, and
-                global accessibility. Compare features, ratings, USP'S and
-                pricing plans to find the perfect fit for your buisness needs.
+                Explore the top 10{" "}
+                <span style={{ color: "#f95738", fontWeight: "500" }}>
+                  Property Management Software
+                </span>{" "}
+                solutions offering comprehensive automation, tailored
+                customization, and global accessibility. Compare features,
+                ratings, USP'S and pricing plans to find the perfect fit for
+                your buisness needs.
               </p>
             </Col>
           </Row>
