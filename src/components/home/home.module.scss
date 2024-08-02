@@ -1,8 +1,14 @@
 .home-slidebanner {
   margin-top: 40px;
+  .parent-container{
+    position: relative;
   .search-box{
     height: 300px;
     overflow-y: scroll;
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    width: 45%;
   .search-txt-clr {
     color: #335c67;
     cursor: pointer;
@@ -11,6 +17,7 @@
     color: #f95738;
   }
   }
+}
 }
 .industry {
   .caro-main {

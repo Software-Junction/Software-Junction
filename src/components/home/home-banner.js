@@ -39,7 +39,7 @@ const HomeBanners = ({styles}) => {
 
   return (
     <section className={styles["home-slidebanner"]}>
-    <Container>
+    <Container className={styles["parent-container"]}>
       <Row className="justify-content-center mb-5">
         <Col lg={12}>
           <h1 className="text-center mt-5 fw-bold text-secondary">
