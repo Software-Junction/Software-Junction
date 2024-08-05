@@ -36,7 +36,7 @@ const secondHalf = list.slice(5);
               <ul>
                 <li><h6 className={styles['f-title']}>About Company :</h6></li>
                 <li>
-                  <Link href=''>About Us</Link>
+                  <Link href='/about'>About Us</Link>
                 </li>
                 <li>
                   <Link href='/terms-of-service'>Terms Of Service</Link>

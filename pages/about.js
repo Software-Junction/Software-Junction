@@ -1,5 +1,5 @@
 import React from 'react'
-import About from '../src/components/about/index';
+import About from '../src/components/policies/about';
 
 const about = () => {
     let schemaData = {

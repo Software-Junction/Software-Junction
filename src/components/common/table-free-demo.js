@@ -54,7 +54,9 @@ const Tablefreedemo = ({ reffer,show, handleClose}) => {
               email: Yup.string()
                 .email("Invalid email address")
                 .required("Please enter your email address."),
-              number: Yup.string().required("Please enter your phone number."),
+              number: Yup.string()
+              .required("Please enter your phone number.")
+              .matches(/^[0-9]{10}$/, "Phone number must be 10 digits"),
 
               employee: Yup.string().required(
                 "Please select employee strength."
@@ -98,6 +100,7 @@ const Tablefreedemo = ({ reffer,show, handleClose}) => {
                     type="number"
                     name="number"
                     placeholder="Phone number"
+                    maxLength="10"
                   />
                   <ErrorMessage
                     name="number"

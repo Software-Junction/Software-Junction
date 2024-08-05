@@ -8,8 +8,26 @@ import softwareList from "../software_list";
 import styles from "./review.module.scss";
 
 const Index = () => {
+
+  
+
   const handleFormSubmit = async (values, actions) => {
     console.log("Submitting form with values:", values);
+    actions.resetForm({ values: initialValues });
+    setSearchQuery(""); // Reset the search query
+    setSoftwareSelected(false); // Reset the software selected state
+      actions.setSubmitting(false);
+  //          // Reset the ratings in Formik
+  // actions.setFieldValue("rating1", 0);
+  // actions.setFieldValue("rating2", 0);
+  // actions.setFieldValue("rating3", 0);
+  // actions.setFieldValue("rating4", 0);
+  // actions.setFieldValue("rating5", 0);
+  // actions.setFieldValue("rating6", 0);
+  // actions.setFieldValue("rating7", 0);
+  // actions.setFieldValue("rating8", 0);
+      alert("Form submitted successfully.");
+  
     // try {
     //   await axios.post(
     //     "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
@@ -32,6 +50,25 @@ const Index = () => {
 
   const [softwareSelected, setSoftwareSelected] = useState(false);
 
+  const initialValues = {
+    software: "",
+    username: "",
+    email: "",
+    title: "",
+    usage: "",
+    message: "",
+    rating1: 0,
+    rating2: 0,
+    rating3: 0,
+    rating4: 0,
+    rating5: 0,
+    rating6: 0,
+    rating7: 0,
+    rating8: 0,
+    selectedSoftware: searchQuery,
+    postTimestamp: new Date().toUTCString(),
+  };
+  
   const handleSearchChange = (e) => {
     const value = e.target.value;
     setSearchQuery(value);
