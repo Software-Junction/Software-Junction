@@ -122,7 +122,7 @@ const Index = () => {
                     <strong>Rate and Share:</strong> Rate the software based on
                     your experience and share your thoughts. Be specific about
                     what you liked, what could be improved, and any tips for
-                    other users
+                    other users.
                   </li>
                   <hr />
                   <li>
