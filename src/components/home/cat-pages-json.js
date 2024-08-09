@@ -324,7 +324,6 @@ const pagesData = [
     { name: "NVivo", pageLink: "/nvivo" },
     { name: "OASYS Tech", pageLink: "/oasys-tech" },
     { name: "OfficeKit", pageLink: "/officekit" },
-    { name: "Office Management Software", pageLink: "/office-management-software" },
     { name: "OHO Shop", pageLink: "/oho-shop" },
     { name: "OneSchool", pageLink: "/oneschool" },
     { name: "OPD Plus", pageLink: "/opd-plus" },

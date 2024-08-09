@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 import ReactStars from "react-rating-stars-component";
 import softwareList from "../software_list";
+import { useRouter } from "next/router";
 import styles from "./review.module.scss";
 
 const Index = () => {
@@ -13,35 +14,14 @@ const Index = () => {
 
   const handleFormSubmit = async (values, actions) => {
     console.log("Submitting form with values:", values);
-    actions.resetForm({ values: initialValues });
+  
+    actions.resetForm();
     setSearchQuery(""); // Reset the search query
     setSoftwareSelected(false); // Reset the software selected state
+    router.push('/review');
       actions.setSubmitting(false);
-  //          // Reset the ratings in Formik
-  // actions.setFieldValue("rating1", 0);
-  // actions.setFieldValue("rating2", 0);
-  // actions.setFieldValue("rating3", 0);
-  // actions.setFieldValue("rating4", 0);
-  // actions.setFieldValue("rating5", 0);
-  // actions.setFieldValue("rating6", 0);
-  // actions.setFieldValue("rating7", 0);
-  // actions.setFieldValue("rating8", 0);
       alert("Form submitted successfully.");
-  
-    // try {
-    //   await axios.post(
-    //     "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
-    //     values
-    //   );
-    //   actions.resetForm();
-    //   actions.setSubmitting(false);
-    //   alert("Form submitted successfully.");
-    //   window.location.reload();
-      
-    // } catch (error) {
-    //   console.error("Error submitting form:", error);
-    //   actions.setSubmitting(false);
-    // }
+      window.location.reload();
   };
 
   const [searchQuery, setSearchQuery] = useState("");
@@ -50,24 +30,40 @@ const Index = () => {
 
   const [softwareSelected, setSoftwareSelected] = useState(false);
 
-  const initialValues = {
-    software: "",
-    username: "",
-    email: "",
-    title: "",
-    usage: "",
-    message: "",
-    rating1: 0,
-    rating2: 0,
-    rating3: 0,
-    rating4: 0,
-    rating5: 0,
-    rating6: 0,
-    rating7: 0,
-    rating8: 0,
-    selectedSoftware: searchQuery,
-    postTimestamp: new Date().toUTCString(),
-  };
+  const router = useRouter();
+  const { softwareName } = router.query;
+  
+  // const [softwareName, setSoftwareName] = useState("");
+
+  useEffect(() => {
+    const { softwareName } = router.query;
+    if (softwareName) {
+      setSearchQuery(softwareName);
+      setSoftwareSelected(true); // Mark as selected
+    } else {
+      setSearchQuery(""); // Clear the search query if no softwareName is present
+      setSoftwareSelected(false); // Reset selection state
+    }
+  }, [router.query]);
+
+  // const initialValues = {
+  //   software: "",
+  //   username: "",
+  //   email: "",
+  //   title: "",
+  //   usage: "",
+  //   message: "",
+  //   rating1: 0,
+  //   rating2: 0,
+  //   rating3: 0,
+  //   rating4: 0,
+  //   rating5: 0,
+  //   rating6: 0,
+  //   rating7: 0,
+  //   rating8: 0,
+  //   selectedSoftware: searchQuery,
+  //   postTimestamp: new Date().toUTCString(),
+  // };
   
   const handleSearchChange = (e) => {
     const value = e.target.value;
@@ -143,7 +139,7 @@ const Index = () => {
                 <h3 className="mb-3">Write A Review For</h3>
                 <Formik
                   initialValues={{
-                    software:"",
+                    software:softwareName || "",
                     username: "",
                     email: "",
                     title: "",

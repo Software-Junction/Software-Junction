@@ -7,7 +7,20 @@ import Link from "next/link";
 import Details from "./details";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import styles from "../aarogya-hmis/arog.module.scss";
+import { useRouter } from "next/router";
+
+
+
 const Index = () => {
+
+  const router = useRouter();
+
+const handleReviewClick = () => {
+  const extractedSoftwareName = router.pathname.split('/')[1]; // Extract the softwareName from the URL
+  // Redirect or perform other actions
+  router.push(`/review?softwareName=${encodeURIComponent(extractedSoftwareName)}`);
+};
+
   return (
     <>
       <section className={styles["heading"]}>
@@ -58,7 +71,7 @@ const Index = () => {
                       0.0 <FaStar className="star-size" />
                     </span>
                     <div className="d-flex mt-3">
-                      <Link href="">
+                      <Link href="" onClick={handleReviewClick}>
                         <p className="text-light">
                           <span style={{ color: "#f95738 " }}>
                             <FaPenToSquare />
