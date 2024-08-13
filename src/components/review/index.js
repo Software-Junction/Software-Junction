@@ -6,22 +6,42 @@ import axios from "axios";
 import ReactStars from "react-rating-stars-component";
 import softwareList from "../software_list";
 import { useRouter } from "next/router";
+import {PostAPi} from "../common/common";
 import styles from "./review.module.scss";
 
 const Index = () => {
 
-  
-
   const handleFormSubmit = async (values, actions) => {
-    console.log("Submitting form with values:", values);
-  
+    const {username,email,title,software,usage,message,rating1,rating2,rating3,rating4,rating5,rating6,rating7,rating8} = values
+    const body = {
+      "fullName": username,
+      "email": email,
+      "JobTittle": title,
+      "SoftwareUsage": usage,
+      "SoftwareName": software,
+      "UIUX": rating1,
+      "FeatuersFunc": rating2,
+      "Performance": rating3,
+      "ValueForMoney": rating5,
+      "Customization":rating4,
+      "CustomerSupport": rating6,
+      "Integration": rating7,
+      "ReportingAnalytics":rating8,
+      "message":message
+    }
+    // console.log("Submitting form with values:", values);
     actions.resetForm();
     setSearchQuery(""); // Reset the search query
     setSoftwareSelected(false); // Reset the software selected state
-    router.push('/review');
+    router.replace('/review');
+    setTimeout(() => {
+      window.location.reload();
+    }, 100);
       actions.setSubmitting(false);
       alert("Form submitted successfully.");
-      window.location.reload();
+      // window.location.reload();
+      PostAPi('review',body).then((response)=>console.log(response))
+
   };
 
   const [searchQuery, setSearchQuery] = useState("");
@@ -33,7 +53,6 @@ const Index = () => {
   const router = useRouter();
   const { softwareName } = router.query;
   
-  // const [softwareName, setSoftwareName] = useState("");
 
   useEffect(() => {
     const { softwareName } = router.query;

@@ -9,17 +9,21 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import styles from "../aarogya-hmis/arog.module.scss";
 import { useRouter } from "next/router";
 
-
-
 const Index = () => {
-
+  
   const router = useRouter();
 
-const handleReviewClick = () => {
-  const extractedSoftwareName = router.pathname.split('/')[1]; // Extract the softwareName from the URL
-  // Redirect or perform other actions
-  router.push(`/review?softwareName=${encodeURIComponent(extractedSoftwareName)}`);
-};
+  const handleReviewClick = () => {
+    const extractedSoftwareName = router.pathname.split("/")[1]; // Extract the softwareName from the URL
+    const formattedSoftwareName = extractedSoftwareName
+    .split('-') // Split the string by hyphens
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize the first letter of each word
+    .join(' '); // Join the words back with spaces
+    // Redirect or perform other actions
+    router.push(
+      `/review?softwareName=${encodeURIComponent(formattedSoftwareName)}`
+    );
+  };
 
   return (
     <>
@@ -65,7 +69,7 @@ const handleReviewClick = () => {
                   <div>
                     <h3 className="text-light">Aarogya HMIS</h3>
                     <h5 className="text-light">
-                    HOSPITAL SOFTWARE BY Dataman Computer Systems
+                      HOSPITAL SOFTWARE BY Dataman Computer Systems
                     </h5>
                     <span className="span-style">
                       0.0 <FaStar className="star-size" />

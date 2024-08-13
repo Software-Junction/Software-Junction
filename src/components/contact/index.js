@@ -18,7 +18,24 @@ import { BsFacebook } from "react-icons/bs";
 import { AiFillInstagram, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Link from "next/link";
 
+import { useRouter } from "next/router";
+
 const Index = () => {
+
+const router = useRouter();
+
+  const handleReviewClick = () => {
+    const extractedSoftwareName = router.pathname.split("/")[1]; // Extract the softwareName from the URL
+    const formattedSoftwareName = extractedSoftwareName
+    .split('-') // Split the string by hyphens
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize the first letter of each word
+    .join(' '); // Join the words back with spaces
+    // Redirect or perform other actions
+    router.push(
+      `/review?softwareName=${encodeURIComponent(formattedSoftwareName)}`
+    );
+  };
+
   return (
     <>
       <section className={styles["banner"]}>
