@@ -1,0 +1,17 @@
+.scoring-methd{
+    margin-top: 80px;
+    .text{
+        p{
+            text-align: justify;
+        }
+    }
+    .box-clr{
+            position: sticky;
+            top: 125px;
+            background-color: #335c67;
+            border: 2px solid #f95738 ;
+            ::placeholder {
+              font-size: 12px;
+            }
+    }
+}

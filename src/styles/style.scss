@@ -381,3 +381,32 @@ color: #000;
 .text-alignment{
   text-align: justify;
 }
+.info-pie-reward{
+  margin-top: 16px;
+.pie-hieght{
+  width: 300px;
+  border: 1px solid #d5cdcd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+  .info-icon{
+    cursor: pointer;
+  }
+}
+.rewards{
+  border: 1px solid #d5cdcd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  .reward-img img{
+    width: 170px;
+    margin-top: 50px;
+  }
+  .reward-text{
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+}
+}

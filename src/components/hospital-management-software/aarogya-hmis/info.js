@@ -6,9 +6,21 @@ import Image from "next/image";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import { MdOutlineInfo } from "react-icons/md";
+import { Pie } from "react-chartjs-2";
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+import ChartDataLabels from "chartjs-plugin-datalabels";
+ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 import Needhelp from '../../common/needHelp';
+import ScoringModal from '../../common/scoring-modal';
 
 const Info = ({ styles }) => {
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
 
   const handleFormSubmit = async (values, actions) => {
     try {
@@ -24,6 +36,56 @@ const Info = ({ styles }) => {
       console.error("Error submitting form:", error);
       actions.setSubmitting(false);
     }
+  };
+
+  const data = {
+    labels: [
+      "Reviews Score",
+      "Product page\nScore",
+      "Content Score",
+      "Market presence\nScore",
+    ],
+    datasets: [
+      {
+        label: "Scores",
+        data: [25, 25, 25, 25],
+        backgroundColor: ["#30c771", "#ffae00", "#d94244", "#FC5185"],
+        borderColor: ["#30c771", "#ffae00", "#d94244", "#FC5185"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  const options = {
+    plugins: {
+      legend: {
+        display: false,
+        // position: "bottom",
+        // align: "center", 
+        // labels: {
+        //   boxWidth: 10,
+        //   color: "#000",
+        //   font:{
+        //     size: 12,
+        //   },
+        //   padding: 15,
+        // },
+
+      },
+      datalabels: {
+        color: "#fff",
+        formatter: (value, context) => {
+          const label = context.chart.data.labels[context.dataIndex];
+          return `${label}\n ${value}%`;
+        },
+        font: {
+          weight: "bold",
+          size: 10,
+        },
+        textAlign: "center",
+        anchor: "center",
+      },
+    },
   };
 
   return (
@@ -60,6 +122,25 @@ const Info = ({ styles }) => {
             <div>
               <Button variant="primary" href="#idpricing">View Pricing</Button>
             </div>
+            <div className="d-flex justify-content-between info-pie-reward">
+            <div className="pie-hieght shadow">
+              <div className="d-flex justify-content-between">
+              <p>Software Junction Score</p>
+              <div className="info-icon" onClick={handleShow}><MdOutlineInfo /></div>
+              </div>
+            <Pie data={data} options={options} />
+            </div>
+            <div className="shadow ms-4 rewards">
+              <div className="reward-img">
+                <img src="/images/reward.png" alt="rewards"/>
+              </div>
+              <div className="reward-text">
+                <h5>Software Junction awards and recognition</h5>
+                <Button variant="primary" className="mt-4">Claim Awards</Button>
+              </div>
+            </div>
+            </div>
+            <ScoringModal show={show} handleClose={handleClose} />
           </Col>
        <Col lg={{ span: 4, offset: 1 }}>
             <Needhelp />
