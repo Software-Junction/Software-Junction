@@ -1,57 +1,57 @@
-import { useState } from "react";
-import { Button, Form, Modal } from "react-bootstrap";
+import { useState } from 'react';
+import { Container, Row, Col, Form, Button, Modal } from "react-bootstrap";
 import { Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import axios from "axios";
-import { useRouter } from "next/router";
-import {PostAPi} from "../common/common";
 
+const Claimaward = ({ show, handleClose }) => {
 
-const Pricemodal = ({reffer, show, handleClose}) => {
-
-  const params = useRouter() 
-
-  const handleFormSubmit = async (values, actions) => {
-   const {username,email,number,employee} = values
-    const body ={
-      "fullName": username,
-      "phoneNo": number,
-      "email": email,
-      "softwareCategory": params.pathname.split('/')[1],
-      "softwareName": reffer,
-      "employeeStrength": employee
-    }
-    // return console.log(body);
-    actions.resetForm();
-      actions.setSubmitting(false);
-      alert("Form submitted successfully.");
-      
-    PostAPi('softpricing',body).then((response)=>console.log(response))
-    // console.log("Form value",values);
-  };
-
+    const handleFormSubmit = async (values, actions) => {
+        //     const {username,email,number,employee} = values
+        //     const body ={
+        //       "fullName": username,
+        //       "phoneNo": number,
+        //       "email": email,
+        //       "softwareCategory": params.pathname.split('/')[1],
+        //       "employeeStrength": employee
+        //   }
+        //     // return console.log(body);
+            console.log("Form value",values);
+        //     actions.resetForm();
+        //       actions.setSubmitting(false);
+        //       alert("Form submitted successfully.");
+            
+        //     PostAPi('softCategory',body).then((response)=>console.log(response))
+            
+          };
 
   return (
     <>
-      <Modal
+    <Modal
         aria-labelledby="contained-modal-title-vcenter"
         centered
         show={show}
         onHide={handleClose}
       >
         <Modal.Header closeButton>
-          <h3>Request For Price</h3>
+        <h5>
+            Claim Your Award and Showcase Your Success!
+        </h5>
         </Modal.Header>
         <Modal.Body>
           <Formik
             initialValues={{
+              companyname:"",
               username: "",
               email: "",
               number: "",
               employee: "",
+              website:"",
               postTimestamp: new Date().toUTCString(),
             }}
             validationSchema={Yup.object().shape({
+                companyname: Yup.string().required(
+                    "Please enter your Company Name."
+                  ),
               username: Yup.string().required("Please enter your full name."),
               email: Yup.string()
                 .email("Invalid email address")
@@ -62,11 +62,33 @@ const Pricemodal = ({reffer, show, handleClose}) => {
               employee: Yup.string().required(
                 "Please select employee strength."
               ),
+              website: Yup.string().required("Please enter your Company Website"),
             })}
             onSubmit={handleFormSubmit}
           >
             {(formik) => (
               <Form method="post" id="contact-form">
+                <Form.Group
+                  className="mb-3"
+                  controlId="exampleForm.ControlInput1"
+                >
+                  <Field
+                    className={`form-control ${
+                      formik.touched.companyname && formik.errors.companyname
+                        ? "is-invalid"
+                        : ""
+                    }`}
+                    type="text"
+                    name="companyname"
+                    placeholder="Company Name"
+                  />
+                  <ErrorMessage
+                    name="companyname"
+                    component="div"
+                    className={`invalid-feedback`}
+                    style={{color:"#f95738"}}
+                  />
+                </Form.Group>
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
@@ -136,6 +158,27 @@ const Pricemodal = ({reffer, show, handleClose}) => {
                   controlId="exampleForm.ControlInput1"
                 >
                   <Field
+                    className={`form-control ${
+                      formik.touched.website && formik.errors.website
+                        ? "is-invalid"
+                        : ""
+                    }`}
+                    type="text"
+                    name="website"
+                    placeholder="Company Website "
+                  />
+                  <ErrorMessage
+                    name="website"
+                    component="div"
+                    className={`invalid-feedback`}
+                    style={{color:"#f95738"}}
+                  />
+                </Form.Group>
+                <Form.Group
+                  className="mb-3"
+                  controlId="exampleForm.ControlInput1"
+                >
+                  <Field
                     as="select"
                     id="mySelect"
                     className={`form-select ${
@@ -167,7 +210,7 @@ const Pricemodal = ({reffer, show, handleClose}) => {
                   className="text-light"
                   onClick={formik.handleSubmit}
                 >
-                  Get Pricing
+                  Submit
                 </Button>
               </Form>
             )}
@@ -175,7 +218,7 @@ const Pricemodal = ({reffer, show, handleClose}) => {
         </Modal.Body>
       </Modal>
     </>
-  );
-};
+  )
+}
 
-export default Pricemodal;
+export default Claimaward

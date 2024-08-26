@@ -13,13 +13,19 @@ import ChartDataLabels from "chartjs-plugin-datalabels";
 ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 import Needhelp from '../../common/needHelp';
 import ScoringModal from '../../common/scoring-modal';
+import Rewards from '../../common/claim-award';
 
 const Info = ({ styles }) => {
 
   const [show, setShow] = useState(false);
+  const [showReward, setShowReward] = useState(false);
+
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const handleCloseReward = () => setShowReward(false);
+  const handleShowReward = () => setShowReward(true);
 
 
   const handleFormSubmit = async (values, actions) => {
@@ -136,11 +142,12 @@ const Info = ({ styles }) => {
               </div>
               <div className="reward-text">
                 <h5>Software Junction awards and recognition</h5>
-                <Button variant="primary" className="mt-4">Claim Awards</Button>
+                <Button variant="primary" className="mt-4" onClick={handleShowReward}>Claim Awards</Button>
               </div>
             </div>
             </div>
             <ScoringModal show={show} handleClose={handleClose} />
+            <Rewards show={showReward} handleClose={handleCloseReward} />
           </Col>
        <Col lg={{ span: 4, offset: 1 }}>
             <Needhelp />
