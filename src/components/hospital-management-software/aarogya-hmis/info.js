@@ -138,7 +138,9 @@ const Info = ({ styles }) => {
             </div>
             <div className="shadow ms-4 rewards">
               <div className="reward-img">
-                <img src="/images/reward.png" alt="rewards"/>
+                <img src="/images/award-1.png" alt="rewards" className="img1"/>
+                <img src="/images/award-2.png" alt="rewards" className="img2"/>
+                <img src="/images/award-3.png" alt="rewards" className="img3"/>
               </div>
               <div className="reward-text">
                 <h5>Software Junction awards and recognition</h5>

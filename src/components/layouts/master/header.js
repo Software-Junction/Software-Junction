@@ -121,7 +121,7 @@ const Header = () => {
                 height="150"
                 width="200"
                 objectFit="contain"
-                src="/images/logonew.jpg"
+                src="/images/techbyte-logo.png"
                 alt="logo_img"
               />
             </Link>
