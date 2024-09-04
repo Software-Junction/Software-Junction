@@ -177,7 +177,7 @@ const accountingcont = ({ reffer, styles }) => {
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
                 <div className={styles["badge"]} onClick={() => handleShow(data)}>
-                  <span className="me-4">Score</span>
+                  <span className="me-4" style={{fontSize:"12px"}}>TechBytes Score</span>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>

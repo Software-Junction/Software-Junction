@@ -402,21 +402,8 @@ color: #000;
     display: flex;
     .img1,.img2,.img3{
     width: 150px;
-    // border: 1px solid transparent;
-    // background-color: #fff;
-    
-    // margin-top: 50px;
-    }
-    // .img1{
-    //   // z-index: 1;
-    // }
-    .img2{
-      position: relative;
-      right: 80px;
-    }
-    .img3{
-      position: relative;
-      right: 160px;
+    filter: blur(2px);
+    // opacity: 0.9;
     }
   }
   .reward-text{
