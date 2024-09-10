@@ -73,18 +73,25 @@ const Listed = ({ styles }) => {
       <section className={`${styles["listed"]} py-4`} id="get-listed">
         <Container>
           <Row>
-            <Col lg={12}>
-              <h3 className="mb-4">Get Listed</h3>
+            <Col lg={6}>
+              <div>
+                <Image
+                  src='/images/trail.png'
+                  alt="trailimgae"
+                  height='10'
+                  width='600'
+                />
+              </div>
+            </Col>
+            {/* <Row className=""> */}
+            <Col lg={6}>
+            <h3 className="mb-4">Get Listed</h3>
               <h5 className={`${styles['sub-heading']} mb-4`}>
                 Getting listed on Software Junction can provide numerous
                 advantages, such as increased visibility, brand exposure, and
                 accessibility to a targeted audience actively searching for
                 software solutions.
               </h5>
-            </Col>
-            <Row className="justify-content-center">
-            <Col lg={6}>
-             
              <div className="box shadow p-4 bg-light border rounded-3">
              <h5>List your Software Now</h5>
              <hr />
@@ -276,7 +283,7 @@ const Listed = ({ styles }) => {
 
              </div>
             </Col>
-            </Row>
+            {/* </Row> */}
           </Row>
         </Container>
       </section>

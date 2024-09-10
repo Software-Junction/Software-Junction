@@ -40,12 +40,14 @@ const HomeBanners = ({styles}) => {
   return (
     <section className={styles["home-slidebanner"]}>
     <Container className={styles["parent-container"]}>
-      <Row className="justify-content-center mb-5">
+      <Row className="justify-content-center pb-5">
         <Col lg={12}>
-          <h1 className="text-center mt-5 fw-bold text-secondary">
-          Welcome Aboard Software Junction!
+          <h1 className="text-center pt-5 ">
+          Discover, Compare, and Choose the Right Business Software on Techtraverse
           </h1>
-          <h3 className="text-center my-4 fw-bold text-secondary">Welcome to Software Junction, where we invite you to explore, experience, and elevate your digital journey.</h3>
+          <h5 className="text-center py-4 ">
+          Quit wasting time with endless vendor calls, With Techtraverse you can thoroughly explore and evaluate software options, saving time and ensuring you make the best choice for your business.
+          </h5>
         </Col>
         <Col lg={6}>
           <InputGroup className="mb-3">
@@ -57,7 +59,7 @@ const HomeBanners = ({styles}) => {
               value={searchQuery}
                 onChange={handleSearch}
             />
-            <Button variant="outline-secondary" id="button-addon2">
+            <Button variant="primary" id="button-addon2">
               <Image
                 src="/images/magnifying-glass.png"
                 alt="search"

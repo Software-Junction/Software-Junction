@@ -143,8 +143,9 @@ const Info = ({ styles }) => {
                 <img src="/images/award-3.png" alt="rewards" className="img3"/>
               </div>
               <div className="reward-text">
-                <h5>Software Junction awards and recognition</h5>
-                <Button variant="primary" className="mt-4" onClick={handleShowReward}>Claim Awards</Button>
+                <h5>Techtraverse awards and recognition</h5>
+                <p>Techtraverse Awards and Recognition section highlights the prestigious accolades and industry certifications the software has received, showcasing its excellence and credibility.</p>
+                <Button variant="secondary" size="sm" className="" onClick={handleShowReward}>Claim Awards</Button>
               </div>
             </div>
             </div>
