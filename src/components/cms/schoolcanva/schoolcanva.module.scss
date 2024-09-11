@@ -41,6 +41,37 @@
 }
 
 .info{
+    .info-pie-reward{
+        margin-top: 16px;
+      .pie-hieght{
+        width: 300px;
+        border: 1px solid #d5cdcd;
+        border-radius: 5px;
+        padding: 15px;
+        background-color: #fff;
+        .info-icon{
+          cursor: pointer;
+        }
+      }
+      .rewards{
+        border: 1px solid #d5cdcd;
+        border-radius: 5px;
+        padding: 15px;
+        background-color: #fff;
+        .reward-img{
+          display: flex;
+          .img1,.img2,.img3{
+          width: 150px;
+          filter: blur(2px);
+          // opacity: 0.9;
+          }
+        }
+        .reward-text{
+          // margin-top: 30px;
+          margin-left: 20px;
+        }
+      }
+      }
     p{
         font-size: 14px !important;
         text-align: justify;

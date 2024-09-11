@@ -23,6 +23,7 @@ const Video = ({ styles }) => {
             </Col>
             <Col lg={6}>
               <div>
+                <h3>Effortless Software Comparisons</h3>
                 <h5 className="mb-3">
                   We understand that choosing the right software for your needs
                   can be a daunting task with countless options available in the

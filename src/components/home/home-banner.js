@@ -59,7 +59,7 @@ const HomeBanners = ({styles}) => {
               value={searchQuery}
                 onChange={handleSearch}
             />
-            <Button variant="primary" id="button-addon2">
+            <Button variant="outline-secondary" id="button-addon2">
               <Image
                 src="/images/magnifying-glass.png"
                 alt="search"

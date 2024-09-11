@@ -9,6 +9,66 @@ import axios from "axios";
 import Needhelp from "../../common/needHelp";
 
 const Info = ({ styles }) => {
+
+  const [show, setShow] = useState(false);
+  const [showReward, setShowReward] = useState(false);
+
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const handleCloseReward = () => setShowReward(false);
+  const handleShowReward = () => setShowReward(true);
+
+  const data = {
+    labels: [
+      "Reviews Score",
+      "Product page\nScore",
+      "Content Score",
+      "Market presence\nScore",
+    ],
+    datasets: [
+      {
+        label: "Scores",
+        data: [25, 25, 25, 25],
+        backgroundColor: ["#30c771", "#ffae00", "#d94244", "#FC5185"],
+        borderColor: ["#30c771", "#ffae00", "#d94244", "#FC5185"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  const options = {
+    plugins: {
+      legend: {
+        display: false,
+        // position: "bottom",
+        // align: "center", 
+        // labels: {
+        //   boxWidth: 10,
+        //   color: "#000",
+        //   font:{
+        //     size: 12,
+        //   },
+        //   padding: 15,
+        // },
+
+      },
+      datalabels: {
+        color: "#fff",
+        formatter: (value, context) => {
+          const label = context.chart.data.labels[context.dataIndex];
+          return `${label}\n ${value}%`;
+        },
+        font: {
+          weight: "bold",
+          size: 10,
+        },
+        textAlign: "center",
+        anchor: "center",
+      },
+    },
+  };
   const handleFormSubmit = async (values, actions) => {
     try {
       await axios.post(

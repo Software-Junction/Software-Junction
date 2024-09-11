@@ -27,23 +27,6 @@ const Info = ({ styles }) => {
   const handleCloseReward = () => setShowReward(false);
   const handleShowReward = () => setShowReward(true);
 
-
-  const handleFormSubmit = async (values, actions) => {
-    try {
-      await axios.post(
-        "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
-        values
-      );
-      actions.resetForm();
-      actions.setSubmitting(false);
-      alert("Form submitted successfully.");
-      window.location.reload();
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      actions.setSubmitting(false);
-    }
-  };
-
   const data = {
     labels: [
       "Reviews Score",
@@ -94,6 +77,22 @@ const Info = ({ styles }) => {
     },
   };
 
+  const handleFormSubmit = async (values, actions) => {
+    try {
+      await axios.post(
+        "https://software-bazaar-default-rtdb.firebaseio.com/leadform.json",
+        values
+      );
+      actions.resetForm();
+      actions.setSubmitting(false);
+      alert("Form submitted successfully.");
+      window.location.reload();
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      actions.setSubmitting(false);
+    }
+  };
+
   return (
     <>
       <Container>
@@ -128,21 +127,21 @@ const Info = ({ styles }) => {
             <div>
               <Button variant="primary" href="#idpricing">View Pricing</Button>
             </div>
-            <div className="d-flex justify-content-between info-pie-reward">
-            <div className="pie-hieght shadow">
+            <div className={`${styles['info-pie-reward']} d-flex justify-content-between`}>
+            <div className={`${styles['pie-hieght']} shadow`}>
               <div className="d-flex justify-content-between">
-              <p>Software Junction Score</p>
-              <div className="info-icon" onClick={handleShow}><MdOutlineInfo /></div>
+              <p>Techtraverse Score</p>
+              <div className={styles['info-icon']} onClick={handleShow}><MdOutlineInfo /></div>
               </div>
             <Pie data={data} options={options} />
             </div>
-            <div className="shadow ms-4 rewards">
-              <div className="reward-img">
-                <img src="/images/award-1.png" alt="rewards" className="img1"/>
-                <img src="/images/award-2.png" alt="rewards" className="img2"/>
-                <img src="/images/award-3.png" alt="rewards" className="img3"/>
+            <div className={`${styles['rewards']} shadow ms-4`}>
+              <div className={styles['reward-img']}>
+                <img src="/images/award-1.png" alt="rewards" className={styles['img1']}/>
+                <img src="/images/award-2.png" alt="rewards" className={styles['img2']}/>
+                <img src="/images/award-3.png" alt="rewards" className={styles['img3']}/>
               </div>
-              <div className="reward-text">
+              <div className={styles['reward-text']}>
                 <h5>Techtraverse awards and recognition</h5>
                 <p>Techtraverse Awards and Recognition section highlights the prestigious accolades and industry certifications the software has received, showcasing its excellence and credibility.</p>
                 <Button variant="secondary" size="sm" className="" onClick={handleShowReward}>Claim Awards</Button>
