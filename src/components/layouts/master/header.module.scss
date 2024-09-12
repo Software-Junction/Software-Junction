@@ -21,6 +21,36 @@
         width: 50%;
     }
     }
+//     .icon-cont{
+//         line-height: 2;
+//     .search-icon{
+//         font-size: 20px;
+//     }
+// }
+.search-cont{
+    ::placeholder{
+        font-size: 13px;
+        color: #335c67;
+    }
+    .searchbar{
+        border: 2px solid #335c67;
+    }
+    .search-box{
+        height: 300px;
+        overflow-y: scroll;
+        position: absolute;
+        z-index: 10;
+        background-color: #fff;
+        width: 280px;
+      .search-txt-clr {
+        color: #335c67;
+        cursor: pointer;
+      }
+      .search-txt-clr:hover {
+        color: #f95738;
+      }
+    }
+}
 }
 }
 

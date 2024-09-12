@@ -18,8 +18,10 @@ import * as Yup from "yup";
 import axios from "axios";
 import { isMobile } from "react-device-detect";
 import softwareData from "../../home/software-data";
+import pagesData from '../../home/cat-pages-json';
 import { useRouter } from "next/router";
 import {PostAPi} from "../../common/common";
+import { FaSearch } from "react-icons/fa";
 import styles from "./header.module.scss";
 
 const Header = () => {
@@ -63,6 +65,21 @@ const Header = () => {
       if (reffrence == 'UserAuth') setShowCall(true);
     }, 5000);
   }, []);
+
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearch = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
+  const filteredData = pagesData.filter((software) =>
+    software.name.toLowerCase().startsWith(searchQuery.toLowerCase())
+  );
+
+  const handleSoftwareClick = (pageLink) => {
+    window.location.href = pageLink;
+  };
+
   return (
     <>
       <Head>
@@ -130,132 +147,12 @@ const Header = () => {
                 className={`${styles["nav-main"]} navbar-nav mr-auto w-100 justify-content-end clearfix`}
                 navbarScroll
               >
-                <Link className="nav-link pe-4" href="/">
+                {/* <Link className="nav-link pe-4" href="/">
                   Home
-                </Link>
-
+                </Link> */}
                 {/* <Link className="nav-link pe-5" href="/about">
                   About
                 </Link> */}
-
-                {/* <NavDropdown className="pe-4" title="Categories">
-                  <div className="category-list">
-                    <NavDropdown.Item>
-                      <Link className="nav-link pe-5" href="/cms">
-                        Campus Management Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link className="nav-link pe-5" href="/sms">
-                        School Management Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link className="nav-link pe-5" href="/lms">
-                        Library Management Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link className="nav-link pe-5" href="/medical-store">
-                        Medical Store Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link
-                        className="nav-link pe-5"
-                        href="/accounting-software"
-                      >
-                        Accounting Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link
-                        className="nav-link pe-5"
-                        href="/fixed-asset-accounting-software"
-                      >
-                        Fixed Asset Accounting Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link className="nav-link pe-5" href="/hr-software">
-                        HR Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link className="nav-link pe-5" href="/crm-software">
-                        CRM Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link className="nav-link pe-5" href="/clinic-management">
-                        Clinic Management
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link className="nav-link pe-5" href="/hotel-management">
-                        Hotel Management
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link className="nav-link pe-5" href="/retailing">
-                        Retailing
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link
-                        className="nav-link pe-5"
-                        href="/real-estate-software"
-                      >
-                        Real Estate Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link
-                        className="nav-link pe-5"
-                        href="/call-center-software"
-                      >
-                        Call Center Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link
-                        className="nav-link pe-5"
-                        href="/data-analysis-software"
-                      >
-                        Data Analysis Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link
-                        className="nav-link pe-5"
-                        href="/agriculture-software"
-                      >
-                        Agriculture Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link
-                        className="nav-link pe-5"
-                        href="/app-development-software"
-                      >
-                        App Development Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link className="nav-link pe-5" href="/erp-software">
-                        ERP Software
-                      </Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                      <Link
-                        className="nav-link pe-5"
-                        href="/construction-management-software"
-                      >
-                        Construction Management Software
-                      </Link>
-                    </NavDropdown.Item>
-                  </div>
-                </NavDropdown> */}
                 <NavDropdown title="Categories" className="pe-4">
                   <div className="category-list">
                     {softwareData.map((software, index) => (
@@ -289,6 +186,32 @@ const Header = () => {
                 >
                   Write a review
                 </Link>
+                <div className={styles['search-cont']}>
+                <Form.Control
+              placeholder="Search for Software, Categories"
+              aria-label="Search"
+              aria-describedby="basic-addon2"
+              className={`${styles['searchbar']} ms-4`}
+              value={searchQuery}
+                onChange={handleSearch}
+            />
+            {searchQuery && (
+              <div className={`${styles['search-box']} box shadow p-4 rounded-3`}>
+                {filteredData.length > 0 ? (
+                  filteredData.map((software) => (
+                    <div key={software.name} onClick={() => handleSoftwareClick(software.pageLink)} className={`${styles['search-txt-clr']} mb-3`}>
+                      {software.name}
+                    </div>
+                  ))
+                ) : (
+                  <div>No results found.</div>
+                )}
+              </div>
+            )}
+                </div>
+                {/* <div className={`${styles['icon-cont']} ps-4`}>
+                <FaSearch className={`${styles['search-icon']} `}/>
+                </div> */}
               </Nav>
             </Navbar.Collapse>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
