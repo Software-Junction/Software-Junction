@@ -128,7 +128,7 @@ const Info = ({ styles }) => {
             <div className={`${styles['info-pie-reward']} d-flex justify-content-between`}>
             <div className={`${styles['pie-hieght']} shadow`}>
               <div className="d-flex justify-content-between">
-              <p>Techtraverse Score</p>
+              <p>TechScout Score</p>
               <div className={styles['info-icon']} onClick={handleShow}><MdOutlineInfo /></div>
               </div>
             <Pie data={data} options={options} />
@@ -140,8 +140,8 @@ const Info = ({ styles }) => {
                 <img src="/images/award-3.png" alt="rewards" className={styles['img3']}/>
               </div>
               <div className={styles['reward-text']}>
-                <h5>Techtraverse awards and recognition</h5>
-                <p>Techtraverse Awards and Recognition section highlights the prestigious accolades and industry certifications the software has received, showcasing its excellence and credibility.</p>
+                <h5>TechScout awards and recognition</h5>
+                <p>TechScout Awards and Recognition section highlights the prestigious accolades and industry certifications the software has received, showcasing its excellence and credibility.</p>
                 <Button variant="secondary" size="sm" className="" onClick={handleShowReward}>Claim Awards</Button>
               </div>
             </div>

@@ -43,14 +43,11 @@ const HomeBanners = ({styles}) => {
       <Row className="justify-content-center pb-5">
         <Col lg={12}>
           <h1 className="text-center pt-5 ">
-          Discover, Compare, and Choose the Right Business Software on Techtraverse
+          Discover, Compare, and Choose the Right Business Software on TechScout
           </h1>
-          <h5 className="text-center py-4 ">
-          Quit wasting time with endless vendor calls, With Techtraverse you can thoroughly explore and evaluate software options, saving time and ensuring you make the best choice for your business.
-          </h5>
         </Col>
         <Col lg={6}>
-          <InputGroup className="mb-3">
+          <InputGroup className="my-4">
             <Form.Control
               placeholder="Search for Software, Categories"
               aria-label="Search"
@@ -81,6 +78,11 @@ const HomeBanners = ({styles}) => {
                 )}
               </div>
             )}
+        </Col>
+        <Col lg={12}>
+          <h5 className="text-center pt-3 ">
+          Quit wasting time with endless vendor calls, With TechScout you can thoroughly explore and evaluate software options, saving time and ensuring you make the best choice for your business.
+          </h5>
         </Col>
       </Row>
     </Container>

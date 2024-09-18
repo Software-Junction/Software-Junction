@@ -13,7 +13,7 @@ const Terms = () => {
               <h5>1. Acceptance of Terms</h5>
               <p>
                 By accessing or using the website [Your Website URL] (the
-                "Site") operated by Techwice you agree to comply with and be
+                "Site") operated by TechScout you agree to comply with and be
                 bound by these Terms of Service If you do not agree to these
                 Terms, please do not use the Site.
               </p>

@@ -87,7 +87,7 @@ const Listed = ({ styles }) => {
             <Col lg={6}>
             <h3 className="mb-4">Get Listed</h3>
               <h5 className={`${styles['sub-heading']} mb-4`}>
-                Getting listed on Software Junction can provide numerous
+                Getting listed on TechScout can provide numerous
                 advantages, such as increased visibility, brand exposure, and
                 accessibility to a targeted audience actively searching for
                 software solutions.

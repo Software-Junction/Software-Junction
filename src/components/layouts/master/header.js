@@ -117,7 +117,7 @@ const Header = () => {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
-        <title>Software Junction</title>
+        <title>TechScout</title>
         {/* //  <!-- Google tag (gtag.js) --> */}
         <script
           async
@@ -135,11 +135,12 @@ const Header = () => {
             <Link className="navbar-brand" href="/">
               <Image
                 key=""
-                height="150"
+                height="100"
                 width="200"
                 objectFit="contain"
-                src="/images/techbyte-logo.png"
+                src="/images/techscout-logo.png"
                 alt="logo_img"
+                style={{height:"72px"}}
               />
             </Link>
             <Navbar.Collapse id="navbarScroll">
@@ -229,7 +230,7 @@ const Header = () => {
               <div style={{ width: "500px" }}>
                 <h3>Discover the Perfect Software Solution</h3>
                 <p>
-                  Welcome to Software Junction, where we make finding the right
+                  Welcome to TechScout, where we make finding the right
                   software for your needs a breeze! Fill out the form below, and
                   let us guide you to the perfect software solution tailored to
                   your requirements.

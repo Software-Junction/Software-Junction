@@ -25,9 +25,9 @@ const About = () => {
               <Col lg={12}>
                 <h3 className="mb-3">About US</h3>
                 <p>
-                  Welcome to Techwice, your resource for discovering and
+                  Welcome to TechScout, your resource for discovering and
                   comparing the best software solutions tailored to meet your
-                  unique needs. At Techwice, we are dedicated to providing
+                  unique needs. At TechScout, we are dedicated to providing
                   in-depth information on software features, unique selling
                   points, pricing, and comprehensive comparison tables to
                   empower you to make well-informed decisions. Whether you are a
@@ -36,7 +36,7 @@ const About = () => {
                 </p>
                 <h5 className="mb-3">Our Mission</h5>
                 <p>
-                  Our mission at Techwice is to simplify the software selection
+                  Our mission at TechScout is to simplify the software selection
                   process, ensuring that both individuals and businesses can
                   make informed choices with confidence. We believe that by
                   providing transparent and comprehensive information, we can
@@ -97,7 +97,7 @@ const About = () => {
                   <li>
                     <strong>Visibility:</strong> Enhance your digital presence
                     and reach a broader audience through our platform. By
-                    listing your software on Techwice, you gain exposure to a
+                    listing your software on TechScout, you gain exposure to a
                     diverse group of potential buyers actively seeking software
                     solutions. Our platform is designed to highlight your
                     software&#39;s strengths, ensuring it stands out to
@@ -134,7 +134,7 @@ const About = () => {
                     dedicated support team, ready to assist you with any queries
                     or issues. We offer personalized onboarding sessions,
                     detailed analytics reports, and continuous support to ensure
-                    your experience with Techwice is seamless and productive.
+                    your experience with TechScout is seamless and productive.
                     Our customer support team is available via email, phone, and
                     live chat to address your concerns promptly and efficiently.
                   </li>
@@ -160,13 +160,13 @@ const About = () => {
                   </li>
                 </ul>
                 <p>
-                  At Techwice, our mission is to bridge the gap between software
+                  At TechScout, our mission is to bridge the gap between software
                   seekers and providers, fostering an environment where informed
                   decisions are made, and successful partnerships are built.
                   Join us on this journey to discover, compare, and decide on
                   the best software solutions available. Whether you&#39;re a
                   visitor looking for the perfect software or a company aiming
-                  to enhance your digital presence, Techwice is your trusted
+                  to enhance your digital presence, TechScout is your trusted
                   partner in achieving success.
                 </p>
               </Col>

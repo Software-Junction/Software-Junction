@@ -16,7 +16,7 @@ const Scoringmodal = ({ show, handleClose }) => {
         <Modal.Body>
           These metrics, each contributing equally to the overall evaluation,
           ensure a balanced and thorough assessment of every software product
-          listed on Software Junction.
+          listed on TechScout.
           <Link
             href="/scoring-methodology"
             style={{ color: "#f95738", fontWeight: "600" }}

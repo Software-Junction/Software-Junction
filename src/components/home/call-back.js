@@ -89,7 +89,7 @@ const Callback = ({ styles }) => {
                      
                     </h3>
                     <p>
-                      Welcome to Software Junction, where we make finding the
+                      Welcome to TechScout, where we make finding the
                       right software for your needs a breeze! Fill out the form
                       below, and let us guide you to the perfect software
                       solution tailored to your requirements.

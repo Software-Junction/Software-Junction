@@ -11,7 +11,7 @@ const Privacy = () => {
               <h3 className="mb-3">Privacy Policy</h3>
               <h5>1. Introduction</h5>
               <p>
-                Welcome to Techwice This Privacy Policy explains how we collect,
+                Welcome to TechScout This Privacy Policy explains how we collect,
                 use, disclose, and safeguard your information when you visit our
                 website [Your Website URL], use our services, and interact with
                 us. Please read this Privacy Policy carefully. If you do not

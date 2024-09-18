@@ -31,9 +31,9 @@ const Scoring = () => {
         <Container>
           <Row>
             <Col lg={8} className={styles['text']}>
-              <h3>Software Junction : Scoring Methodology</h3>
+              <h3>TechScout : Scoring Methodology</h3>
               <p>
-                At Software Junction, our mission is to empower visitors and
+                At TechScout, our mission is to empower visitors and
                 software companies with the most insightful, reliable, and
                 transparent information available in the software marketplace.
                 We understand that choosing the right software is a critical
@@ -46,7 +46,7 @@ const Scoring = () => {
                 Score, Product Page Score, Content Score, and Market Presence
                 Score. These metrics, each contributing equally to the overall
                 evaluation, ensure a balanced and thorough assessment of every
-                software product listed on Software Junction.
+                software product listed on TechScout.
               </p>
               <h5>1. Review Rating Score</h5>
               <p>
@@ -74,7 +74,7 @@ const Scoring = () => {
               <p>
                 A well-crafted product page can make a significant difference in
                 how potential users perceive and understand a software product.
-                The Product Page Score on Software Junction is designed to
+                The Product Page Score on TechScout is designed to
                 reflect the quality, clarity, and completeness of a software
                 product&#39;s profile on our platform. This score assesses
                 various elements that contribute to a compelling and informative

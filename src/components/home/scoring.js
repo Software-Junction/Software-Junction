@@ -11,7 +11,7 @@ const Scoring = ({ styles }) => {
             <Col lg={12}>
               <h3 className="mb-3">Scoring Methodology</h3>
               <h5 className={`${styles['sub-heading']} mb-4`}>
-                At Software Junction, we believe in providing our visitors and
+                At TechScout, we believe in providing our visitors and
                 software companies with valuable insights into the software
                 landscape. To facilitate informed decision- making, we have
                 developed a comprehensive scoring methodology based on four key
@@ -26,7 +26,7 @@ const Scoring = ({ styles }) => {
                 <h5 className={styles["rew-title"]}>Review Rating Score</h5>
                 <p>
                   The Review Rating Score is derived from the average rating
-                  given by users on Software Junction. We encourage our visitors
+                  given by users on TechScout. We encourage our visitors
                   to share their experiences and opinions to create a
                   transparent and helpful environment for everyone.
                 </p>

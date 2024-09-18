@@ -10,7 +10,7 @@ const Benefit = ({ styles }) => {
             <Col lg={12}>
               <h3 className="mb-3">How does this Benefit You ?</h3>
               <h5 className={`${styles['sub-heading']} mb-3`}>
-                Join us at Software Junction to navigate the software landscape
+                Join us at TechScout to navigate the software landscape
                 with clarity and confidence. Whether you&#39;re a visitor
                 seeking the right solution or a software company looking to
                 stand out, our scoring methodology ensures transparency and
