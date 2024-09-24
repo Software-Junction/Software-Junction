@@ -75,11 +75,23 @@ const Listed = ({ styles }) => {
           <Row>
             <Col lg={6}>
               <div>
-                <Image
+                {/* <Image
                   src='/images/trail.png'
                   alt="trailimgae"
                   height='10'
                   width='600'
+                /> */}
+                <h3 className="mb-3">TechScout Features</h3>
+              <h5 className={`${styles['sub-heading']} mb-3`}>
+                Getting listed on TechScout can provide numerous
+                advantages, such as increased visibility, brand exposure.
+              </h5>
+                <Image
+                  src='/images/listed-img.jpg'
+                  alt="listed-img"
+                  height='10'
+                  width='600'
+                  className="rounded-3 shadow"
                 />
               </div>
             </Col>

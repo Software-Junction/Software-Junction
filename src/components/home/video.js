@@ -9,22 +9,9 @@ const Video = ({ styles }) => {
         <Container>
           <Row>
             <Col lg={6}>
-              <iframe
-                width="560"
-                height="350"
-                src="https://www.youtube.com/embed/hdI2bqOjy3c?si=P0c-uGc8qPl5xnOL"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-                className="rounded-3"
-              ></iframe>
-            </Col>
-            <Col lg={6}>
               <div>
                 <h3>Effortless Software Comparisons</h3>
-                <h5 className="mb-3">
+                <h5 className="mb-3" style={{textAlign:"justify"}}>
                   We understand that choosing the right software for your needs
                   can be a daunting task with countless options available in the
                   market. That&#39;s why we&#39;ve created a dedicated section
@@ -61,6 +48,19 @@ const Video = ({ styles }) => {
                   </ul>
                 </div>
               </div>
+            </Col>
+            <Col lg={6}>
+              <iframe
+                width="560"
+                height="350"
+                src="https://www.youtube.com/embed/hdI2bqOjy3c?si=P0c-uGc8qPl5xnOL"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                className="rounded-3"
+              ></iframe>
             </Col>
           </Row>
         </Container>
