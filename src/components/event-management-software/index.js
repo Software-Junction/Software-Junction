@@ -97,9 +97,17 @@ const Index = () => {
               </p>
               <p>
                 Explore the top 10{" "}
+                <Link
+                  href=""
+                  onClick={(e) => {
+                    e.preventDefault(); // Prevents the page from reloading
+                    setActiveKey("Compare"); // Opens the "Top 10 Comparison" tab
+                  }}
+                >
                 <span style={{ color: "#f95738", fontWeight: "500" }}>
                   Event Management Software
                 </span>{" "}
+                </Link>{" "}
                 solutions offering comprehensive automation, tailored
                 customization, and global accessibility. Compare features,
                 ratings, USP'S and pricing plans to find the perfect fit for
@@ -116,7 +124,12 @@ const Index = () => {
         <Tabs
           // defaultActiveKey="All Products"
           activeKey={activeKey}
-          onSelect={(k) => setActiveKey(k)}
+          onSelect={(k) => {
+            setActiveKey(k);
+            if (k === "Compare") {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+          }}
           id="justify-tab-example"
           className={`${styles["cms-tab"]} shadow mb-3`}
           // justify
