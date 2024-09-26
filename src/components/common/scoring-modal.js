@@ -12,7 +12,7 @@ const Scoringmodal = ({ show, handleClose }) => {
         show={show}
         onHide={handleClose}
       >
-        <Modal.Header closeButton></Modal.Header>
+        <Modal.Header closeButton>Techscout Scoring Methedology</Modal.Header>
         <Modal.Body>
           These metrics, each contributing equally to the overall evaluation,
           ensure a balanced and thorough assessment of every software product

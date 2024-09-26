@@ -114,6 +114,9 @@ border-bottom: var(--bs-nav-underline-border-width) solid black;
          font-family: "Poppins", sans-serif;
   font-weight:bolder;
 }
+.nav-link:hover{
+  color: #f95738;
+}
 
 .bg-light {
   background-color: #fff !important;

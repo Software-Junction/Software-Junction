@@ -5,6 +5,7 @@ import Callback from "./call-back";
 import Trending from "./trending";
 import Comparison from "./comparison";
 import Listed from "./listed";
+import Awards from "./awards";
 import Video from "./video";
 import Scoring from "./scoring";
 import Benefit from "./benefit";
@@ -22,6 +23,7 @@ const Home = () => {
     <Comparison styles={styles}/>
     {/* <Test /> */}
     <Listed styles={styles}/>
+    <Awards styles={styles}/>
     <Video styles={styles}/>
     <Scoring styles={styles}/>
     <Benefit styles={styles}/>

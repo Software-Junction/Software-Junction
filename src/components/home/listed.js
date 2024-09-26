@@ -91,7 +91,7 @@ const Listed = ({ styles }) => {
                   alt="listed-img"
                   height='10'
                   width='600'
-                  className="rounded-3 shadow"
+                  className={`${styles['listed-img']} rounded-3 shadow`}
                 />
               </div>
             </Col>

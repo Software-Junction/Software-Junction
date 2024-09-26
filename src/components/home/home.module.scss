@@ -836,7 +836,42 @@
     }
   }
 }
+.awards{
+  h5{
+    font-weight: 400 !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  ul li {
+    font-size: 14px !important;
+    margin-bottom: 10px;
+  }
+  .main-img-box{
+    .award-img-1,.award-img-3,.logo{
+      @media(max-width: 767px){
+        width: 100%;
+      }
+    }
+    .award-img-2{
+      margin-left: 213px;
+      // width: 35%;
+      @media(max-width: 767px){
+      margin-left: 125px;
+      width: 33%;
+      }
+    }
+    // img{
+    //   filter: drop-shadow(10px 10px 10px #000);
+    // }
+  }
+}
 .listed {
+  .listed-img{
+    @media(max-width: 767px){
+      width: 100%;
+    }
+  }
   .sub-heading{
     font-weight: 400 !important;
   }
