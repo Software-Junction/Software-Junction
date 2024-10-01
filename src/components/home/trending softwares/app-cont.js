@@ -30,7 +30,7 @@ const appcont = ({reffer, styles }) => {
 
   const cardData = [
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/oracle-cloud-infrastructure.png",
       imageAlt: "oracle-cloud-infrastructure",
       headingText: "Oracle Cloud",
@@ -38,7 +38,7 @@ const appcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/oracle-database.png",
       imageAlt: "oracle-database",
       headingText: "Oracle Database",
@@ -46,7 +46,7 @@ const appcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/ready-4s.png",
       imageAlt: "ready-4s",
       headingText: "Ready4S",
@@ -54,7 +54,7 @@ const appcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/alpha-software.png",
       imageAlt: "alpha-software",
       headingText: "Alpha Software",
@@ -62,7 +62,7 @@ const appcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/appy-pie.png",
       imageAlt: "appy-pie",
       headingText: "Appy Pie",
@@ -70,7 +70,7 @@ const appcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/hedgehog-lab.png",
       imageAlt: "hedgehog-lab",
       headingText: "hedgehog lab",
@@ -78,7 +78,7 @@ const appcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/outsystem.png",
       imageAlt: "outsystem",
       headingText: "OutSystems",
@@ -86,7 +86,7 @@ const appcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/brainvire-infotech.png",
       imageAlt: "brainvire-infotech",
       headingText: "Brainvire Infotech",
@@ -94,7 +94,7 @@ const appcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/mobiscroll.png",
       imageAlt: "mobiscroll",
       headingText: "Mobiscroll",
@@ -102,7 +102,7 @@ const appcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/unity.png",
       imageAlt: "unity",
       headingText: "Unity",
@@ -110,7 +110,7 @@ const appcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/appikr-labs.jpg",
       imageAlt: "appikr-labs",
       headingText: "Appikr Labs",
@@ -118,7 +118,7 @@ const appcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/mysalesdialerpro.jpg",
       imageAlt: "mysalesdialerpro",
       headingText: "MySalesDialerPro",
@@ -177,6 +177,7 @@ const appcont = ({reffer, styles }) => {
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
                 <div className={styles["badge"]} onClick={() => handleShow(data)}>
+                  <span className="me-4" style={{fontSize:"12px"}}>TechScout Score</span>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>

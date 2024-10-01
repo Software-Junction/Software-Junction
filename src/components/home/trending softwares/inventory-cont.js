@@ -30,7 +30,7 @@ const inventorycont = ({reffer, styles }) => {
 
   const cardData = [
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/zohobooks.png",
       imageAlt: "zohobooks",
       headingText: "Zoho Books",
@@ -38,7 +38,7 @@ const inventorycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/oraclenet.png",
       imageAlt: "oraclenet",
       headingText: "Oracle NetSuite",
@@ -46,7 +46,7 @@ const inventorycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/mybillbook.png",
       imageAlt: "mybillbook",
       headingText: "My Bill Book",
@@ -54,7 +54,7 @@ const inventorycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/marg.png",
       imageAlt: "marg",
       headingText: "Marg ERP 9+Accounting",
@@ -62,7 +62,7 @@ const inventorycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/vyaparlogo.png",
       imageAlt: "vyaparlogo",
       headingText: "Vyapar",
@@ -70,7 +70,7 @@ const inventorycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/oracle.png",
       imageAlt: "oracle",
       headingText: "Oracle Fusion Cloud",
@@ -78,7 +78,7 @@ const inventorycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/hdpos.png",
       imageAlt: "hdpos",
       headingText: "HyperDrive Solutions' POS Billing",
@@ -86,7 +86,7 @@ const inventorycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/genie.jpg",
       imageAlt: "genie",
       headingText: "GenieBooks",
@@ -94,7 +94,7 @@ const inventorycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/saral.png",
       imageAlt: "saral",
       headingText: "Saral Account",
@@ -102,7 +102,7 @@ const inventorycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/alignbooks.jpg",
       imageAlt: "alignbooks",
       headingText: "AlignBooks",
@@ -110,7 +110,7 @@ const inventorycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/giddh.png",
       imageAlt: "giddh",
       headingText: "Giddh",
@@ -118,7 +118,7 @@ const inventorycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/horizon.png",
       imageAlt: "horizon",
       headingText: "Horizon ERP",
@@ -177,6 +177,7 @@ const inventorycont = ({reffer, styles }) => {
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
                 <div className={styles["badge"]} onClick={() => handleShow(data)}>
+                  <span className="me-4" style={{fontSize:"12px"}}>TechScout Score</span>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>

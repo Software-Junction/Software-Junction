@@ -30,7 +30,7 @@ const callcont = ({reffer, styles }) => {
 
   const cardData = [
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/enthu.png",
       imageAlt: "enthu",
       headingText: "Enthu",
@@ -38,7 +38,7 @@ const callcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/cloudtalk.png",
       imageAlt: "cloudtalk",
       headingText: "CloudTalk",
@@ -46,7 +46,7 @@ const callcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/servetel.png",
       imageAlt: "servetel",
       headingText: "Servetel",
@@ -54,7 +54,7 @@ const callcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/aavaz.jpg",
       imageAlt: "aavaz",
       headingText: "Aavaz",
@@ -62,7 +62,7 @@ const callcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/freshcaller.png",
       imageAlt: "freshcaller",
       headingText: "Freshcaller",
@@ -70,7 +70,7 @@ const callcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/ameyo.png",
       imageAlt: "ameyo",
       headingText: "Ameyo",
@@ -78,7 +78,7 @@ const callcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/mightycall.png",
       imageAlt: "mightycall",
       headingText: "MightyCall",
@@ -86,7 +86,7 @@ const callcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/zendesk.png",
       imageAlt: "zendesk",
       headingText: "Zendesk",
@@ -94,7 +94,7 @@ const callcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/avoxi.png",
       imageAlt: "avoxi",
       headingText: "AVOXI",
@@ -102,7 +102,7 @@ const callcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/crazycall.jpg",
       imageAlt: "crazycall",
       headingText: "CrazyCall",
@@ -110,7 +110,7 @@ const callcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/avaya.png",
       imageAlt: "avaya",
       headingText: "Avaya",
@@ -118,7 +118,7 @@ const callcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/hoduCC.jpg",
       imageAlt: "hoduCC",
       headingText: "HoduCC",
@@ -177,6 +177,7 @@ const callcont = ({reffer, styles }) => {
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
                 <div className={styles["badge"]} onClick={() => handleShow(data)}>
+                  <span className="me-4" style={{fontSize:"12px"}}>TechScout Score</span>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>

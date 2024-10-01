@@ -30,7 +30,7 @@ const hotelcont = ({reffer, styles }) => {
 
   const cardData = [
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/vyaparhotel.png",
       imageAlt: "vyaparhotel",
       headingText: "Vyapar",
@@ -38,7 +38,7 @@ const hotelcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/kwhotel.png",
       imageAlt: "kwhotel",
       headingText: "KWHotel",
@@ -46,7 +46,7 @@ const hotelcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/stayflexi.png",
       imageAlt: "stayflexi",
       headingText: "Stayflexi",
@@ -54,7 +54,7 @@ const hotelcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/sysotel.png",
       imageAlt: "sysotel",
       headingText: "SYSOTEL.AI",
@@ -62,7 +62,7 @@ const hotelcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/djubo.png",
       imageAlt: "djubo",
       headingText: "DJUBO",
@@ -70,7 +70,7 @@ const hotelcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/ezee.png",
       imageAlt: "ezee",
       headingText: "eZee Absolute",
@@ -78,7 +78,7 @@ const hotelcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/hotelogix.png",
       imageAlt: "hotelogix",
       headingText: "Hotelogix",
@@ -86,7 +86,7 @@ const hotelcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/oraclehospitality.png",
       imageAlt: "oraclehospitality",
       headingText: "Oracle Hospitality",
@@ -94,7 +94,7 @@ const hotelcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/profitbooks.png",
       imageAlt: "profitbooks",
       headingText: "ProfitBooks",
@@ -102,7 +102,7 @@ const hotelcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/shawman.png",
       imageAlt: "shawman",
       headingText: "ShawMan PMS",
@@ -110,7 +110,7 @@ const hotelcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/maestro.png",
       imageAlt: "maestro",
       headingText: "Maestro PMS",
@@ -118,7 +118,7 @@ const hotelcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/axisrooms.png",
       imageAlt: "axisrooms",
       headingText: "AxisRooms Manager",
@@ -177,6 +177,7 @@ const hotelcont = ({reffer, styles }) => {
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
                 <div className={styles["badge"]} onClick={() => handleShow(data)}>
+                  <span className="me-4" style={{fontSize:"12px"}}>TechScout Score</span>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>

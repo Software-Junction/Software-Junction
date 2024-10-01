@@ -30,7 +30,7 @@ const propertycont = ({reffer, styles }) => {
 
   const cardData = [
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/stayflexi.png",
       imageAlt: "stayflexi",
       headingText: "Stayflexi",
@@ -38,7 +38,7 @@ const propertycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/sysotel.png",
       imageAlt: "sysotel",
       headingText: "SYSOTEL.AI",
@@ -46,7 +46,7 @@ const propertycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/buildium.png",
       imageAlt: "buildium",
       headingText: "Buildium",
@@ -54,7 +54,7 @@ const propertycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/appfolio-realm.png",
       imageAlt: "appfolio-realm",
       headingText: "AppFolio Realm",
@@ -62,7 +62,7 @@ const propertycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/mri-software.png",
       imageAlt: "mri-software",
       headingText: "MRI Software",
@@ -70,7 +70,7 @@ const propertycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/rent-manager.jpg",
       imageAlt: "rent-manager",
       headingText: "Rent Manager",
@@ -78,7 +78,7 @@ const propertycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/ssandc.png",
       imageAlt: "ssandc",
       headingText: "SS&C SKYLINE",
@@ -86,7 +86,7 @@ const propertycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/rms-cloud.png",
       imageAlt: "rms-cloud",
       headingText: "RMS Cloud",
@@ -94,7 +94,7 @@ const propertycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/yardi.png",
       imageAlt: "yardi",
       headingText: "Yardi",
@@ -102,7 +102,7 @@ const propertycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/tenant-cloud.jpg",
       imageAlt: "tenant-cloud",
       headingText: "TenantCloud",
@@ -110,7 +110,7 @@ const propertycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/rentec-direct.png",
       imageAlt: "rentec-direct",
       headingText: "Rentec Direct",
@@ -118,7 +118,7 @@ const propertycont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/innkey.png",
       imageAlt: "innkey",
       headingText: "InnKey",
@@ -177,6 +177,7 @@ const propertycont = ({reffer, styles }) => {
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
                 <div className={styles["badge"]} onClick={() => handleShow(data)}>
+                  <span className="me-4" style={{fontSize:"12px"}}>TechScout Score</span>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>

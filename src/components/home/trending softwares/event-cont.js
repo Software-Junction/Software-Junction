@@ -30,7 +30,7 @@ const eventcont = ({reffer, styles }) => {
 
   const cardData = [
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/whova.png",
       imageAlt: "whova",
       headingText: "Whova",
@@ -38,7 +38,7 @@ const eventcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/eventpro.png",
       imageAlt: "eventpro",
       headingText: "EventPro",
@@ -46,7 +46,7 @@ const eventcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/planningpod.jpg",
       imageAlt: "planningpod",
       headingText: "Planning Pod",
@@ -54,7 +54,7 @@ const eventcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/weve.png",
       imageAlt: "weve",
       headingText: "Weve",
@@ -62,7 +62,7 @@ const eventcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/ticket.png",
       imageAlt: "ticket",
       headingText: "Ticket Tailor",
@@ -70,7 +70,7 @@ const eventcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/dryfta.png",
       imageAlt: "dryfta",
       headingText: "Dryfta",
@@ -78,7 +78,7 @@ const eventcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/ticketscandy.png",
       imageAlt: "ticketscandy",
       headingText: "TicketsCandy",
@@ -86,7 +86,7 @@ const eventcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/fantastical.png",
       imageAlt: "fantastical",
       headingText: "Fantastical",
@@ -94,7 +94,7 @@ const eventcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/eventleaf.png",
       imageAlt: "eventleaf",
       headingText: "Eventleaf",
@@ -102,7 +102,7 @@ const eventcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/eventavenue.png",
       imageAlt: "eventavenue",
       headingText: "EventAvenue",
@@ -110,7 +110,7 @@ const eventcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/eventsair.png",
       imageAlt: "eventsair",
       headingText: "EventsAir",
@@ -118,7 +118,7 @@ const eventcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/picatic.png",
       imageAlt: "picatic",
       headingText: "Picatic E-Ticket",
@@ -177,6 +177,7 @@ const eventcont = ({reffer, styles }) => {
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
                 <div className={styles["badge"]} onClick={() => handleShow(data)}>
+                  <span className="me-4" style={{fontSize:"12px"}}>TechScout Score</span>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>

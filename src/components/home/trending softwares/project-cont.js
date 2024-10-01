@@ -30,7 +30,7 @@ const projectcont = ({reffer, styles }) => {
 
   const cardData = [
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/figjam.png",
       imageAlt: "figjam",
       headingText: "FigJam",
@@ -38,7 +38,7 @@ const projectcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/zoho-projects.jpg",
       imageAlt: "zoho-projects",
       headingText: "Zoho Projects",
@@ -46,7 +46,7 @@ const projectcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/bugherd.png",
       imageAlt: "bugherd",
       headingText: "BugHerd",
@@ -54,7 +54,7 @@ const projectcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/jira.png",
       imageAlt: "jira",
       headingText: "Jira Software",
@@ -62,7 +62,7 @@ const projectcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/web-work.Jpg",
       imageAlt: "web-work",
       headingText: "WebWork Tracker",
@@ -70,7 +70,7 @@ const projectcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/minitab-engage.png",
       imageAlt: "minitab-engage",
       headingText: "Minitab Engage",
@@ -78,7 +78,7 @@ const projectcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/tiemchart.png",
       imageAlt: "tiemchart",
       headingText: "Tiemchart",
@@ -86,7 +86,7 @@ const projectcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/todoist.png",
       imageAlt: "todoist",
       headingText: "Todoist",
@@ -94,7 +94,7 @@ const projectcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/teamgantt.png",
       imageAlt: "teamgantt",
       headingText: "TeamGantt",
@@ -102,7 +102,7 @@ const projectcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/asana.png",
       imageAlt: "asana",
       headingText: "Asana",
@@ -110,7 +110,7 @@ const projectcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/taskworld.png",
       imageAlt: "taskworld",
       headingText: "Taskworld",
@@ -118,7 +118,7 @@ const projectcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/monday-com.png",
       imageAlt: "monday-com",
       headingText: "monday.com",
@@ -177,6 +177,7 @@ const projectcont = ({reffer, styles }) => {
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
                 <div className={styles["badge"]} onClick={() => handleShow(data)}>
+                  <span className="me-4" style={{fontSize:"12px"}}>TechScout Score</span>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>

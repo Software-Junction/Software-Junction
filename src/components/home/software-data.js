@@ -4,10 +4,10 @@ const softwareData = [
   { name: "Library Management Software", pageLink: "/lms" },
   { name: "Medical Store Software", pageLink: "/medical-store" },
   { name: "Accounting Software", pageLink: "/accounting-software" },
-  {
-    name: "Fixed Asset Accounting Software",
-    pageLink: "/fixed-asset-accounting-software"
-  },
+  // {
+  //   name: "Fixed Asset Accounting Software",
+  //   pageLink: "/fixed-asset-accounting-software"
+  // },
   { name: "HRMS Software", pageLink: "/hr-software" },
   { name: "CRM Software", pageLink: "/crm-software" },
   { name: "Clinic Management", pageLink: "/clinic-management" },
@@ -45,10 +45,10 @@ const softwareData = [
     name: "Inventory Management Software",
     pageLink: "/inventory-management-software"
   },
-  {
-    name: "Office Management Software",
-    pageLink: "/office-management-software"
-  }
+  // {
+  //   name: "Office Management Software",
+  //   pageLink: "/office-management-software"
+  // }
 ];
 
 export default softwareData;

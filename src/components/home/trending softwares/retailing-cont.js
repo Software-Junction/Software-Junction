@@ -30,7 +30,7 @@ const retailingcont = ({reffer, styles }) => {
 
   const cardData = [
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/vyaparlogo.png",
       imageAlt: "vyaparlogo",
       headingText: "Vyapar",
@@ -38,7 +38,7 @@ const retailingcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/xpert.png",
       imageAlt: "xpert",
       headingText: "MMI Softwares Pvt. Ltd",
@@ -46,7 +46,7 @@ const retailingcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/oracle.png",
       imageAlt: "oracle",
       headingText: "Oracle Fusion Cloud",
@@ -54,7 +54,7 @@ const retailingcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/mybillbook.png",
       imageAlt: "mybillbook",
       headingText: "My Bill Book",
@@ -62,7 +62,7 @@ const retailingcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/oraclenet.png",
       imageAlt: "oraclenet",
       headingText: "Oracle NetSuite ERP",
@@ -70,7 +70,7 @@ const retailingcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/logic.png",
       imageAlt: "logic",
       headingText: "LOGIC ERP",
@@ -78,7 +78,7 @@ const retailingcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/busy.jpg",
       imageAlt: "busy",
       headingText: "Busy Accounting",
@@ -86,7 +86,7 @@ const retailingcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/horizon.png",
       imageAlt: "horizon",
       headingText: "Horizon ERP",
@@ -94,7 +94,7 @@ const retailingcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/captainbiz.png",
       imageAlt: "captainbiz",
       headingText: "CaptainBiz",
@@ -102,7 +102,7 @@ const retailingcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/quickbill.jpg",
       imageAlt: "quickbill",
       headingText: "QuickBill",
@@ -110,7 +110,7 @@ const retailingcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/marg.png",
       imageAlt: "marg",
       headingText: "Marg Retail Software",
@@ -118,7 +118,7 @@ const retailingcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/fusion-retail.jpg",
       imageAlt: "fusion-retail",
       headingText: "FusionRetail",
@@ -177,6 +177,7 @@ const retailingcont = ({reffer, styles }) => {
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
                 <div className={styles["badge"]} onClick={() => handleShow(data)}>
+                  <span className="me-4" style={{fontSize:"12px"}}>TechScout Score</span>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>

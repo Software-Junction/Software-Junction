@@ -30,7 +30,7 @@ const ecommercecont = ({reffer, styles }) => {
 
   const cardData = [
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/uniware.png",
       imageAlt: "uniware",
       headingText: "Uniware",
@@ -38,7 +38,7 @@ const ecommercecont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/bigcommerce.png",
       imageAlt: "bigcommerce",
       headingText: "BigCommerce",
@@ -46,7 +46,7 @@ const ecommercecont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/prestashop.png",
       imageAlt: "prestashop",
       headingText: "PrestaShop",
@@ -54,7 +54,7 @@ const ecommercecont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/storehippo.png",
       imageAlt: "storehippo",
       headingText: "StoreHippo",
@@ -62,7 +62,7 @@ const ecommercecont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/shopnix.png",
       imageAlt: "shopnix",
       headingText: "Shopnix",
@@ -70,7 +70,7 @@ const ecommercecont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/primaseller.jpg",
       imageAlt: "primaseller",
       headingText: "Primaseller",
@@ -78,7 +78,7 @@ const ecommercecont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/browntape.png",
       imageAlt: "browntape",
       headingText: "Browntape",
@@ -86,7 +86,7 @@ const ecommercecont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/anywhere-software.png",
       imageAlt: "anywhere-software",
       headingText: "AnywhereCommerce",
@@ -94,7 +94,7 @@ const ecommercecont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/zen-commerce.png",
       imageAlt: "zen-commerce",
       headingText: "Zencommerce",
@@ -102,7 +102,7 @@ const ecommercecont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/sendcloud.png",
       imageAlt: "sendcloud",
       headingText: "Sendcloud",
@@ -110,7 +110,7 @@ const ecommercecont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/adobe-commerce.png",
       imageAlt: "adobe-commerce",
       headingText: "Adobe Commerce",
@@ -118,7 +118,7 @@ const ecommercecont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/oho-shop.png",
       imageAlt: "oho-shop",
       headingText: "OhoShop",
@@ -177,6 +177,7 @@ const ecommercecont = ({reffer, styles }) => {
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
                 <div className={styles["badge"]} onClick={() => handleShow(data)}>
+                  <span className="me-4" style={{fontSize:"12px"}}>TechScout Score</span>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>

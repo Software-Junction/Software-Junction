@@ -30,7 +30,7 @@ const hrcont = ({reffer, styles }) => {
 
   const cardData = [
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/hrone.png",
       imageAlt: "hrone",
       headingText: "HROne",
@@ -38,7 +38,7 @@ const hrcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/spinehr.png",
       imageAlt: "spinehr",
       headingText: "Spine HRMS",
@@ -46,7 +46,7 @@ const hrcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/qandle.png",
       imageAlt: "qandle",
       headingText: "Qandle",
@@ -54,7 +54,7 @@ const hrcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/keka.png",
       imageAlt: "keka",
       headingText: "Keka",
@@ -62,7 +62,7 @@ const hrcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/facto.png",
       imageAlt: "facto",
       headingText: "factoHR",
@@ -70,7 +70,7 @@ const hrcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/wallet.png",
       imageAlt: "wallet",
       headingText: "WalletHR",
@@ -78,7 +78,7 @@ const hrcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/oraclehcm.png",
       imageAlt: "oraclehcm",
       headingText: "Oracle Fusion HCM",
@@ -86,7 +86,7 @@ const hrcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/sbshr.jpg",
       imageAlt: "sbshr",
       headingText: "SBS HR",
@@ -94,7 +94,7 @@ const hrcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/farsight.jpg",
       imageAlt: "farsight",
       headingText: "Farsight",
@@ -102,7 +102,7 @@ const hrcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/darwin.jpg",
       imageAlt: "darwin",
       headingText: "Darwinbox",
@@ -110,7 +110,7 @@ const hrcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/greythr.png",
       imageAlt: "greythr",
       headingText: "greytHR",
@@ -118,7 +118,7 @@ const hrcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10],
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/pocket.jpg",
       imageAlt: "pocket",
       headingText: "Pocket HRMS",
@@ -177,6 +177,7 @@ const hrcont = ({reffer, styles }) => {
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
                 <div className={styles["badge"]} onClick={() => handleShow(data)}>
+                  <span className="me-4" style={{fontSize:"12px"}}>TechScout Score</span>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>

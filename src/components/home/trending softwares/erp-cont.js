@@ -30,7 +30,7 @@ const erpcont = ({reffer, styles }) => {
 
   const cardData = [
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/horizon.png",
       imageAlt: "Horizon",
       headingText: "Horizon ERP",
@@ -38,7 +38,7 @@ const erpcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/virmati.jpg",
       imageAlt: "virmati",
       headingText: "Viramati's ERP-FAMS",
@@ -46,7 +46,7 @@ const erpcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/oracle.png",
       imageAlt: "oracle",
       headingText: "Oracle Fusion Cloud",
@@ -54,7 +54,7 @@ const erpcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/tally.png",
       imageAlt: "tally",
       headingText: "TallyPrime",
@@ -62,7 +62,7 @@ const erpcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/vyaparlogo.png",
       imageAlt: "vyaparlogo",
       headingText: "Vyapar",
@@ -70,7 +70,7 @@ const erpcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/marg.png",
       imageAlt: "marg",
       headingText: "Marg ERP 9+Accounting",
@@ -79,7 +79,7 @@ const erpcont = ({reffer, styles }) => {
     },
 
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/bigsun.jpg",
       imageAlt: "bigsun",
       headingText: "BIGSUN",
@@ -87,7 +87,7 @@ const erpcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/orion.jpg",
       imageAlt: "orion",
       headingText: "Orion Software's ERP solution",
@@ -95,7 +95,7 @@ const erpcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/ramco.jpg",
       imageAlt: "ramco",
       headingText: "Ramco ERP Software",
@@ -103,7 +103,7 @@ const erpcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/tyasuite.png",
       imageAlt: "tyasuite",
       headingText: "TYASuite",
@@ -111,7 +111,7 @@ const erpcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/crest.png",
       imageAlt: "crest",
       headingText: "CREST ERP",
@@ -119,7 +119,7 @@ const erpcont = ({reffer, styles }) => {
       pieData: [10, 10, 10, 10], // Example data for pie chart
     },
     {
-      badgeText: "40",
+      badgeText: "40%",
       imageSrc: "/images/erpnext.png",
       imageAlt: "erpnext",
       headingText: "ERPNext",
@@ -178,6 +178,7 @@ const erpcont = ({reffer, styles }) => {
                 className={` ${styles["card-flip-inner"]} box border shadow rounded-3  p-4  bg-light`}
               >
                 <div className={styles["badge"]} onClick={() => handleShow(data)}>
+                  <span className="me-4" style={{fontSize:"12px"}}>TechScout Score</span>
                   <p className={`${styles["badge-cont"]} badge rounded-pill`}>
                     {data.badgeText}
                   </p>
